@@ -13,3 +13,8 @@ Felsefe, psikoloji ve sosyoloji kavramlarını işleyen, okuyucunun ana karakter
 - `karakter/` : ana karakterin dosyası ve gelişimi
 - `secim-gunlugu.md` : yapılan seçimler
 - `kavramlar.md` : işlenen kavram ve kuramlar
+
+## Site
+`index.html` + `bolumler.js` tek sayfalık oyunu oluşturur. Seçimler tarayıcıda (localStorage) saklanır.
+Yeni bölüm eklemek için `bolumler.js` içindeki `BOLUMLER` nesnesine bölüm eklenir ve ilgili seçeneğin `sonraki` alanına bölümün anahtarı yazılır.
+Yayın: GitHub Pages (Settings → Pages → Branch: `main`, klasör: `/ (root)`).

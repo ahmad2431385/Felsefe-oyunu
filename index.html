@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Felsefe Oyunu</title>
+<meta name="theme-color" content="#0d0d0f">
+<meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<style>
+:root{
+  --bg:#0d0d0f; --surface:#151518; --ink:#e4e0d8; --muted:#8d887d; --line:#2a2a2e;
+  --accent:#b9a37a; --accent-soft:#221e16; --danger:#a0524a;
+  --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink)}
+body{font-family:var(--serif);line-height:1.75;font-size:18px;-webkit-text-size-adjust:100%}
+main{max-width:680px;margin:0 auto;padding:28px 16px 80px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:28px;font-family:var(--sans)}
+header h1{font-size:13px;letter-spacing:.22em;text-transform:uppercase;margin:0;font-weight:600;color:var(--accent)}
+header button{font:inherit;font-size:13px;background:none;border:none;color:var(--muted);cursor:pointer;padding:6px 0}
+header button:hover{color:var(--ink)}
+.kunye{font-family:var(--sans);font-size:12.5px;color:var(--muted);letter-spacing:.04em;margin:0 0 6px}
+.kunye b{color:var(--accent);font-weight:600}
+h2{font-size:34px;line-height:1.2;font-weight:400;margin:0 0 6px}
+.tema{font-family:var(--sans);font-size:13px;color:var(--muted);margin:0 0 28px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.metin p{margin:0 0 1.15em}
+.metin p:first-child::first-letter{font-size:2.6em;float:left;line-height:.9;padding:.08em .1em 0 0;color:var(--accent)}
+.sorular{margin-top:36px}
+.sorular h3{font-family:var(--sans);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 14px}
+.secenek{display:flex;gap:14px;align-items:flex-start;width:100%;text-align:left;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;margin:0 0 10px;cursor:pointer;transition:border-color .15s,background .15s}
+.secenek:hover,.secenek:focus-visible{border-color:var(--accent);background:var(--accent-soft);outline:none}
+.secenek .k{font-family:var(--sans);font-weight:700;color:var(--accent);min-width:1.4em}
+.secenek span:last-child{font-size:16.5px;line-height:1.6}
+.gecmis{margin:0 0 26px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.gecmis summary{cursor:pointer;padding:14px 16px;font-family:var(--sans);font-size:14px;color:var(--muted);list-style:none;display:flex;justify-content:space-between;gap:10px}
+.gecmis summary::-webkit-details-marker{display:none}
+.gecmis summary b{color:var(--ink);font-weight:600}
+.gecmis .ic{padding:0 16px 14px;font-size:16px;color:var(--muted)}
+.gecmis .sec{margin-top:10px;padding:10px 12px;border-left:2px solid var(--accent);background:var(--accent-soft);color:var(--ink);font-size:15.5px;line-height:1.55}
+.bekle{margin-top:36px;border:1px solid var(--accent);border-radius:10px;padding:20px;background:var(--accent-soft);font-family:var(--sans);font-size:15px;line-height:1.6}
+.bekle h3{margin:0 0 8px;font-size:15px;color:var(--accent);font-weight:600}
+.bekle p{margin:0 0 14px}
+.bekle .kod{display:block;padding:10px 12px;background:var(--bg);border:1px solid var(--line);border-radius:6px;font-family:ui-monospace,monospace;font-size:14px;margin:0 0 14px;color:var(--ink)}
+.bekle .satir{display:flex;gap:10px;flex-wrap:wrap}
+.btn{font:inherit;font-family:var(--sans);font-size:14px;padding:9px 16px;border-radius:8px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:#14110b;font-weight:600}
+.btn.alt{background:none;color:var(--muted);border-color:var(--line);font-weight:500}
+.btn.alt:hover{color:var(--ink);border-color:var(--muted)}
+.ozet{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);font-family:var(--sans);font-size:13.5px;color:var(--muted)}
+.ozet h3{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;margin:0 0 10px}
+.ozet ul{margin:0;padding-left:18px}
+.ozet li{margin:0 0 4px}
+@media(max-width:480px){body{font-size:17px}h2{font-size:28px}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Felsefe Oyunu</h1>
+    <button id="bastan" type="button">Baştan başla</button>
+  </header>
+  <div id="sahne"></div>
+</main>
+<script src="bolumler.js"></script>
+<script>
+(function(){
+  var ANAHTAR = "felsefe-oyunu-v1";
+  var sahne = document.getElementById("sahne");
+
+  function oku(){
+    try{ var s = JSON.parse(localStorage.getItem(ANAHTAR)); if(s && Array.isArray(s.yol)) return s; }catch(e){}
+    return { yol: [] };
+  }
+  function yaz(s){ try{ localStorage.setItem(ANAHTAR, JSON.stringify(s)); }catch(e){} }
+
+  var durum = oku();
+
+  /* yol: [{b:"b1", k:"B"}, ...]. Son eleman seçim yapılmamış güncel bölüm olabilir (k yok). */
+  function guncelBolum(){
+    var son = durum.yol[durum.yol.length-1];
+    if(!son) return { id: window.BASLANGIC, yeni: true };
+    if(!son.k) return { id: son.b };
+    var b = window.BOLUMLER[son.b];
+    var s = b && b.secenekler.filter(function(x){return x.k===son.k;})[0];
+    if(s && s.sonraki && window.BOLUMLER[s.sonraki]) return { id: s.sonraki, yeni: true };
+    return { bekle: { bolum: son.b, k: son.k, secenek: s } };
+  }
+
+  function el(tag, attrs, children){
+    var e = document.createElement(tag);
+    for(var k in (attrs||{})){
+      if(k==="class") e.className = attrs[k];
+      else if(k==="text") e.textContent = attrs[k];
+      else if(k.slice(0,2)==="on") e.addEventListener(k.slice(2), attrs[k]);
+      else e.setAttribute(k, attrs[k]);
+    }
+    (children||[]).forEach(function(c){ if(c) e.appendChild(c); });
+    return e;
+  }
+
+  function secimMetni(b, k){
+    return "Bölüm " + b.no + " (" + b.baslik + ") seçimim: " + k;
+  }
+
+  function render(){
+    sahne.textContent = "";
+    var g = guncelBolum();
+
+    /* sadeleştir: yol'un sonunda bekleyen bir yeni bölüm varsa kaydı güncelle */
+    if(g.yeni && (!durum.yol.length || durum.yol[durum.yol.length-1].b !== g.id)){
+      durum.yol.push({ b: g.id }); yaz(durum);
+    }
+
+    /* geçmiş bölümler */
+    durum.yol.forEach(function(adim, i){
+      var b = window.BOLUMLER[adim.b];
+      if(!b || !adim.k) return;
+      var s = b.secenekler.filter(function(x){return x.k===adim.k;})[0];
+      var d = el("details", {class:"gecmis"}, [
+        el("summary", {}, [
+          el("span", {}, [ el("b",{text:"Bölüm "+b.no+" · "+b.baslik}) ]),
+          el("span",{text:"Seçimin: "+adim.k})
+        ]),
+        el("div", {class:"ic"}, b.metin.map(function(p){return el("p",{text:p});}).concat([
+          el("div",{class:"sec",text: adim.k+") "+(s?s.metin:"")})
+        ]))
+      ]);
+      sahne.appendChild(d);
+    });
+
+    if(g.bekle){
+      var b = window.BOLUMLER[g.bekle.bolum];
+      var msg = secimMetni(b, g.bekle.k);
+      var kopyaBtn = el("button",{class:"btn",type:"button",text:"Kopyala"});
+      kopyaBtn.addEventListener("click", function(){
+        function tamam(){ kopyaBtn.textContent = "Kopyalandı"; setTimeout(function(){kopyaBtn.textContent="Kopyala";},1600); }
+        if(navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(msg).then(tamam, function(){ kopyaBtn.textContent="Elle kopyala"; });
+        } else { kopyaBtn.textContent="Elle kopyala"; }
+      });
+      sahne.appendChild(el("div",{class:"bekle"},[
+        el("h3",{text:"Bu seçimin devamı henüz yazılmadı"}),
+        el("p",{text:"Seçimin bu cihaza kaydedildi. Aşağıdaki cümleyi Claude'a yaz, devamını yazıp siteye ekleyecek. Sonra bu sayfayı yenile."}),
+        el("code",{class:"kod",text:msg}),
+        el("div",{class:"satir"},[
+          kopyaBtn,
+          el("button",{class:"btn alt",type:"button",text:"Sayfayı yenile",onclick:function(){location.reload();}}),
+          el("button",{class:"btn alt",type:"button",text:"Seçimi geri al",onclick:function(){
+            durum.yol[durum.yol.length-1] = { b: g.bekle.bolum }; yaz(durum); render(); window.scrollTo(0,0);
+          }})
+        ])
+      ]));
+    } else {
+      var b = window.BOLUMLER[g.id];
+      sahne.appendChild(el("p",{class:"kunye"},[ el("b",{text:"BÖLÜM "+b.no}), document.createTextNode("  ·  "+b.dunya) ]));
+      sahne.appendChild(el("h2",{text:b.baslik}));
+      sahne.appendChild(el("p",{class:"tema",text:b.tema}));
+      sahne.appendChild(el("div",{class:"metin"}, b.metin.map(function(p){return el("p",{text:p});})));
+      var kutu = el("div",{class:"sorular"},[ el("h3",{text:"Ne yapıyorsun?"}) ]);
+      b.secenekler.forEach(function(s){
+        kutu.appendChild(el("button",{class:"secenek",type:"button",onclick:function(){
+          durum.yol[durum.yol.length-1] = { b: g.id, k: s.k }; yaz(durum); render(); window.scrollTo(0,0);
+        }},[ el("span",{class:"k",text:s.k+")"}), el("span",{text:s.metin}) ]));
+      });
+      sahne.appendChild(kutu);
+    }
+
+    /* işlenen kavramlar */
+    var okunan = durum.yol.map(function(a){return window.BOLUMLER[a.b];}).filter(Boolean);
+    if(okunan.length){
+      var ul = el("ul",{}, okunan.map(function(b){ return el("li",{text:"Bölüm "+b.no+": "+b.tema}); }));
+      sahne.appendChild(el("div",{class:"ozet"},[ el("h3",{text:"İşlenen kavramlar"}), ul ]));
+    }
+  }
+
+  document.getElementById("bastan").addEventListener("click", function(){
+    if(!durum.yol.length || confirm("Bütün seçimlerin silinecek ve hikâye baştan başlayacak. Emin misin?")){
+      durum = { yol: [] }; yaz(durum); render(); window.scrollTo(0,0);
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
