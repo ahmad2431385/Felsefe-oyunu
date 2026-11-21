@@ -4,16 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Felsefe Oyunu</title>
+<meta name="description" content="Kararlarınla şekillenen, felsefi ve karanlık etkileşimli hikâyeler.">
 <meta name="theme-color" content="#0d0d0f">
 <meta name="color-scheme" content="dark">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Felsefe Oyunu">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon-180.png">
 <style>
 :root{
-  --bg:#0d0d0f; --surface:#151518; --ink:#e4e0d8; --muted:#8d887d; --line:#2a2a2e;
-  --accent:#b9a37a; --accent-soft:#221e16; --danger:#a0524a;
+  --bg:#0d0d0f; --surface:#151518; --surface2:#1b1b1f; --ink:#e4e0d8; --muted:#8d887d; --faint:#5e5a52; --line:#2a2a2e;
+  --accent:#b9a37a; --accent-soft:#221e16; --real:#8fa3b8; --dream:#b48fb8;
   --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
   --sans:system-ui,-apple-system,"Segoe UI",sans-serif;
   color-scheme:dark;
@@ -21,171 +23,327 @@
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--ink)}
 body{font-family:var(--serif);line-height:1.75;font-size:18px;-webkit-text-size-adjust:100%}
-main{max-width:680px;margin:0 auto;padding:28px 16px 80px}
-header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:28px;font-family:var(--sans)}
-header h1{font-size:13px;letter-spacing:.22em;text-transform:uppercase;margin:0;font-weight:600;color:var(--accent)}
-header button{font:inherit;font-size:13px;background:none;border:none;color:var(--muted);cursor:pointer;padding:6px 0}
-header button:hover{color:var(--ink)}
-.kunye{font-family:var(--sans);font-size:12.5px;color:var(--muted);letter-spacing:.04em;margin:0 0 6px}
+main{max-width:680px;margin:0 auto;padding:24px 16px 96px}
+button{font:inherit;color:inherit}
+.ust{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:28px;font-family:var(--sans)}
+.ust .marka{font-size:13px;letter-spacing:.22em;text-transform:uppercase;margin:0;font-weight:600;color:var(--accent);background:none;border:none;padding:6px 0;cursor:pointer}
+.ust .sag{display:flex;gap:16px}
+.ust .sag button{font-size:13px;background:none;border:none;color:var(--muted);cursor:pointer;padding:6px 0}
+.ust .sag button:hover{color:var(--ink)}
+.giris{margin:8px 0 34px}
+.giris h1{font-size:38px;line-height:1.15;font-weight:400;margin:0 0 12px}
+.giris p{color:var(--muted);margin:0;font-size:17px}
+.kart{display:block;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 18px;margin:0 0 16px;cursor:pointer;transition:border-color .15s,background .15s}
+.kart:hover,.kart:focus-visible{border-color:var(--accent);background:var(--surface2);outline:none}
+.kart .etiket{font-family:var(--sans);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin:0 0 8px}
+.etiket.gercek{color:var(--real)} .etiket.hayali{color:var(--dream)}
+.kart h2{font-size:26px;line-height:1.25;font-weight:400;margin:0}
+.kart h2 .kav{font-size:16px;color:var(--muted);font-style:italic}
+.kart .olcu{font-family:var(--sans);font-size:13px;color:var(--accent);margin:8px 0 12px;line-height:1.6}
+.kart .ozet{font-size:16px;line-height:1.6;color:#cbc6bc;margin:0 0 14px}
+.kart .durum{font-family:var(--sans);font-size:13px;color:var(--muted);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px}
+.kart .durum b{color:var(--ink);font-weight:600}
+.kunye{font-family:var(--sans);font-size:12.5px;color:var(--muted);letter-spacing:.06em;margin:0 0 6px}
 .kunye b{color:var(--accent);font-weight:600}
-h2{font-size:34px;line-height:1.2;font-weight:400;margin:0 0 6px}
-.tema{font-family:var(--sans);font-size:13px;color:var(--muted);margin:0 0 28px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+h2.sahne{font-size:34px;line-height:1.2;font-weight:400;margin:0 0 26px;padding-bottom:20px;border-bottom:1px solid var(--line)}
 .metin p{margin:0 0 1.15em}
 .metin p:first-child::first-letter{font-size:2.6em;float:left;line-height:.9;padding:.08em .1em 0 0;color:var(--accent)}
 .sorular{margin-top:36px}
 .sorular h3{font-family:var(--sans);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 14px}
-.secenek{display:flex;gap:14px;align-items:flex-start;width:100%;text-align:left;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;margin:0 0 10px;cursor:pointer;transition:border-color .15s,background .15s}
+.secenek{display:flex;gap:14px;align-items:flex-start;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;margin:0 0 10px;cursor:pointer;transition:border-color .15s,background .15s}
 .secenek:hover,.secenek:focus-visible{border-color:var(--accent);background:var(--accent-soft);outline:none}
 .secenek .k{font-family:var(--sans);font-weight:700;color:var(--accent);min-width:1.4em}
 .secenek span:last-child{font-size:16.5px;line-height:1.6}
-.gecmis{margin:0 0 26px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
-.gecmis summary{cursor:pointer;padding:14px 16px;font-family:var(--sans);font-size:14px;color:var(--muted);list-style:none;display:flex;justify-content:space-between;gap:10px}
-.gecmis summary::-webkit-details-marker{display:none}
-.gecmis summary b{color:var(--ink);font-weight:600}
-.gecmis .ic{padding:0 16px 14px;font-size:16px;color:var(--muted)}
-.gecmis .sec{margin-top:10px;padding:10px 12px;border-left:2px solid var(--accent);background:var(--accent-soft);color:var(--ink);font-size:15.5px;line-height:1.55}
-.bekle{margin-top:36px;border:1px solid var(--accent);border-radius:10px;padding:20px;background:var(--accent-soft);font-family:var(--sans);font-size:15px;line-height:1.6}
-.bekle h3{margin:0 0 8px;font-size:15px;color:var(--accent);font-weight:600}
-.bekle p{margin:0 0 14px}
-.bekle .kod{display:block;padding:10px 12px;background:var(--bg);border:1px solid var(--line);border-radius:6px;font-family:ui-monospace,monospace;font-size:14px;margin:0 0 14px;color:var(--ink)}
-.bekle .satir{display:flex;gap:10px;flex-wrap:wrap}
-.btn{font:inherit;font-family:var(--sans);font-size:14px;padding:9px 16px;border-radius:8px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:#14110b;font-weight:600}
+.yol{margin:0 0 28px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.yol summary{cursor:pointer;padding:12px 16px;font-family:var(--sans);font-size:13.5px;color:var(--muted);list-style:none}
+.yol summary::-webkit-details-marker{display:none}
+.yol ol{margin:0;padding:0 16px 14px 36px;font-family:var(--sans);font-size:14px;color:var(--muted);line-height:1.55}
+.yol li{margin:0 0 8px}
+.yol li b{color:var(--ink);font-weight:600}
+.son-etiket{font-family:var(--sans);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0 0 6px}
+.blok{margin-top:40px;padding-top:24px;border-top:1px solid var(--line)}
+.blok h3{font-family:var(--sans);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 14px}
+.ayna p{font-style:italic;color:#d6d0c4;margin:0 0 .9em}
+.sonlar{list-style:none;margin:0;padding:0;font-family:var(--sans);font-size:14.5px}
+.sonlar li{padding:8px 0;border-bottom:1px solid var(--line);color:var(--faint)}
+.sonlar li.bulundu{color:var(--ink)}
+.sonlar li.simdi{color:var(--accent)}
+.dipnot dt{font-family:var(--sans);font-size:15px;font-weight:600;color:var(--ink);margin:14px 0 4px}
+.dipnot dd{margin:0;font-size:16px;color:#bdb7ac;line-height:1.65}
+.dugmeler{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.btn{font-family:var(--sans);font-size:14px;padding:10px 18px;border-radius:8px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:#14110b;font-weight:600}
 .btn.alt{background:none;color:var(--muted);border-color:var(--line);font-weight:500}
 .btn.alt:hover{color:var(--ink);border-color:var(--muted)}
-.ozet{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);font-family:var(--sans);font-size:13.5px;color:var(--muted)}
-.ozet h3{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;margin:0 0 10px}
-.ozet ul{margin:0;padding-left:18px}
-.ozet li{margin:0 0 4px}
-@media(max-width:480px){body{font-size:17px}h2{font-size:28px}}
+.alt-not{font-family:var(--sans);font-size:12.5px;color:var(--faint);text-align:center;margin-top:48px}
+.gir{animation:gir .45s ease}
+@keyframes gir{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.gir{animation:none}}
+@media(max-width:480px){body{font-size:17px}h2.sahne{font-size:28px}.giris h1{font-size:31px}.kart h2{font-size:23px}}
 </style>
 </head>
 <body>
-<main>
-  <header>
-    <h1>Felsefe Oyunu</h1>
-    <button id="bastan" type="button">Baştan başla</button>
-  </header>
-  <div id="sahne"></div>
-</main>
-<script src="bolumler.js"></script>
+<main id="kok"></main>
+<script src="hikayeler/son-vardiya.js"></script>
+<script src="hikayeler/yedek-parca.js"></script>
 <script>
 (function(){
-  var ANAHTAR = "felsefe-oyunu-v1";
-  var sahne = document.getElementById("sahne");
+"use strict";
+var H = window.HIKAYELER || [];
+var kok = document.getElementById("kok");
+var HARF = "ABCD";
 
-  function oku(){
-    try{ var s = JSON.parse(localStorage.getItem(ANAHTAR)); if(s && Array.isArray(s.yol)) return s; }catch(e){}
-    return { yol: [] };
+/* ---------- depolama ---------- */
+function oku(k, v){ try{ var x = localStorage.getItem(k); return x ? JSON.parse(x) : v; }catch(e){ return v; } }
+function yaz(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+function kayitAnahtar(h){ return "fo2:" + h.id; }
+function sonAnahtar(h){ return "fo2-sonlar:" + h.id; }
+
+/* ---------- yardımcılar ---------- */
+function el(tag, a, cs){
+  var e = document.createElement(tag);
+  if(a) for(var k in a){
+    if(k === "class") e.className = a[k];
+    else if(k === "text") e.textContent = a[k];
+    else if(k.slice(0,2) === "on") e.addEventListener(k.slice(2), a[k]);
+    else e.setAttribute(k, a[k]);
   }
-  function yaz(s){ try{ localStorage.setItem(ANAHTAR, JSON.stringify(s)); }catch(e){} }
+  (cs || []).forEach(function(c){ if(c) e.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
+  return e;
+}
+function kelime(s){ return (s.match(/\S+/g) || []).length; }
+function sayiYaz(n){ return n.toLocaleString("tr-TR"); }
+function metinDeger(x, d){ return typeof x === "function" ? x(d) : x; }
 
-  var durum = oku();
-
-  /* yol: [{b:"b1", k:"B"}, ...]. Son eleman seçim yapılmamış güncel bölüm olabilir (k yok). */
-  function guncelBolum(){
-    var son = durum.yol[durum.yol.length-1];
-    if(!son) return { id: window.BASLANGIC, yeni: true };
-    if(!son.k) return { id: son.b };
-    var b = window.BOLUMLER[son.b];
-    var s = b && b.secenekler.filter(function(x){return x.k===son.k;})[0];
-    if(s && s.sonraki && window.BOLUMLER[s.sonraki]) return { id: s.sonraki, yeni: true };
-    return { bekle: { bolum: son.b, k: son.k, secenek: s } };
+/* ---------- hikâye motoru ---------- */
+function yeniDurum(h){
+  var d = {}; for(var k in h.durum) d[k] = h.durum[k];
+  d.son = null; d.gecti = {};
+  return d;
+}
+function etkiUygula(d, e){
+  if(!e) return;
+  if(typeof e === "function"){ e(d); return; }
+  for(var k in e){
+    if(typeof e[k] === "number") d[k] = (d[k] || 0) + e[k];
+    else d[k] = e[k];
   }
-
-  function el(tag, attrs, children){
-    var e = document.createElement(tag);
-    for(var k in (attrs||{})){
-      if(k==="class") e.className = attrs[k];
-      else if(k==="text") e.textContent = attrs[k];
-      else if(k.slice(0,2)==="on") e.addEventListener(k.slice(2), attrs[k]);
-      else e.setAttribute(k, attrs[k]);
-    }
-    (children||[]).forEach(function(c){ if(c) e.appendChild(c); });
-    return e;
+}
+function yonlendir(h, id, d){
+  var g = 0;
+  while(h.sahneler[id] && h.sahneler[id].yonlendir && g++ < 20){
+    var r = h.sahneler[id].yonlendir, hedef = null;
+    for(var i = 0; i < r.length; i++){ if(!r[i].if || r[i].if(d)){ hedef = r[i].to; break; } }
+    id = hedef;
   }
-
-  function secimMetni(b, k){
-    return "Bölüm " + b.no + " (" + b.baslik + ") seçimim: " + k;
+  return id;
+}
+function gorunurSecenekler(s, d){
+  var out = [];
+  (s.secenekler || []).forEach(function(c, i){ if(!c.if || c.if(d)) out.push({ c: c, i: i }); });
+  return out;
+}
+/* geçmişi baştan oynatarak mevcut durumu kur; hikâye değiştiyse geçersiz kısmı at */
+function oynat(h, gecmis){
+  var d = yeniDurum(h), id = yonlendir(h, h.baslangic, d), gecerli = [];
+  for(var j = 0; j < gecmis.length; j++){
+    var a = gecmis[j], s = h.sahneler[id];
+    if(!s || a.s !== id || !s.secenekler || !s.secenekler[a.c]) break;
+    var c = s.secenekler[a.c];
+    if(c.if && !c.if(d)) break;
+    d.gecti[id] = true;
+    etkiUygula(d, c.etki);
+    d.son = id + HARF[a.c];
+    gecerli.push(a);
+    id = yonlendir(h, c.to, d);
   }
+  return { d: d, id: id, gecmis: gecerli };
+}
 
-  function render(){
-    sahne.textContent = "";
-    var g = guncelBolum();
-
-    /* sadeleştir: yol'un sonunda bekleyen bir yeni bölüm varsa kaydı güncelle */
-    if(g.yeni && (!durum.yol.length || durum.yol[durum.yol.length-1].b !== g.id)){
-      durum.yol.push({ b: g.id }); yaz(durum);
-    }
-
-    /* geçmiş bölümler */
-    durum.yol.forEach(function(adim, i){
-      var b = window.BOLUMLER[adim.b];
-      if(!b || !adim.k) return;
-      var s = b.secenekler.filter(function(x){return x.k===adim.k;})[0];
-      var d = el("details", {class:"gecmis"}, [
-        el("summary", {}, [
-          el("span", {}, [ el("b",{text:"Bölüm "+b.no+" · "+b.baslik}) ]),
-          el("span",{text:"Seçimin: "+adim.k})
-        ]),
-        el("div", {class:"ic"}, b.metin.map(function(p){return el("p",{text:p});}).concat([
-          el("div",{class:"sec",text: adim.k+") "+(s?s.metin:"")})
-        ]))
-      ]);
-      sahne.appendChild(d);
+/* ---------- istatistik: bölüm aralığı, son sayısı, kelime ---------- */
+function analiz(h){
+  if(h._analiz) return h._analiz;
+  var toplam = 0, sonlar = [], memo = {};
+  function sahneKelime(s){
+    var w = 0, kosullu = 0;
+    (s.metin || []).forEach(function(p){
+      if(typeof p === "string") w += kelime(p);
+      else kosullu += kelime(p.t);
     });
-
-    if(g.bekle){
-      var b = window.BOLUMLER[g.bekle.bolum];
-      var msg = secimMetni(b, g.bekle.k);
-      var kopyaBtn = el("button",{class:"btn",type:"button",text:"Kopyala"});
-      kopyaBtn.addEventListener("click", function(){
-        function tamam(){ kopyaBtn.textContent = "Kopyalandı"; setTimeout(function(){kopyaBtn.textContent="Kopyala";},1600); }
-        if(navigator.clipboard && navigator.clipboard.writeText){
-          navigator.clipboard.writeText(msg).then(tamam, function(){ kopyaBtn.textContent="Elle kopyala"; });
-        } else { kopyaBtn.textContent="Elle kopyala"; }
-      });
-      sahne.appendChild(el("div",{class:"bekle"},[
-        el("h3",{text:"Bu seçimin devamı henüz yazılmadı"}),
-        el("p",{text:"Seçimin bu cihaza kaydedildi. Aşağıdaki cümleyi Claude'a yaz, devamını yazıp siteye ekleyecek. Sonra bu sayfayı yenile."}),
-        el("code",{class:"kod",text:msg}),
-        el("div",{class:"satir"},[
-          kopyaBtn,
-          el("button",{class:"btn alt",type:"button",text:"Sayfayı yenile",onclick:function(){location.reload();}}),
-          el("button",{class:"btn alt",type:"button",text:"Seçimi geri al",onclick:function(){
-            durum.yol[durum.yol.length-1] = { b: g.bekle.bolum }; yaz(durum); render(); window.scrollTo(0,0);
-          }})
-        ])
-      ]));
-    } else {
-      var b = window.BOLUMLER[g.id];
-      sahne.appendChild(el("p",{class:"kunye"},[ el("b",{text:"BÖLÜM "+b.no}), document.createTextNode("  ·  "+b.dunya) ]));
-      sahne.appendChild(el("h2",{text:b.baslik}));
-      sahne.appendChild(el("p",{class:"tema",text:b.tema}));
-      sahne.appendChild(el("div",{class:"metin"}, b.metin.map(function(p){return el("p",{text:p});})));
-      var kutu = el("div",{class:"sorular"},[ el("h3",{text:"Ne yapıyorsun?"}) ]);
-      b.secenekler.forEach(function(s){
-        kutu.appendChild(el("button",{class:"secenek",type:"button",onclick:function(){
-          durum.yol[durum.yol.length-1] = { b: g.id, k: s.k }; yaz(durum); render(); window.scrollTo(0,0);
-        }},[ el("span",{class:"k",text:s.k+")"}), el("span",{text:s.metin}) ]));
-      });
-      sahne.appendChild(kutu);
+    (s.secenekler || []).forEach(function(c){ if(typeof c.t === "string") w += kelime(c.t); });
+    return { tam: w + kosullu, okunan: w + Math.round(kosullu * 0.35) };
+  }
+  for(var id in h.sahneler){
+    var s = h.sahneler[id];
+    if(s.yonlendir) continue;
+    toplam += sahneKelime(s).tam;
+    if(s.son) sonlar.push(id);
+  }
+  function gez(id, yigin){
+    if(memo[id]) return memo[id];
+    if(yigin[id]) return { minB: 0, maxB: 0, minK: 0, maxK: 0 };
+    yigin[id] = true;
+    var s = h.sahneler[id], hedefler = [];
+    if(s.yonlendir) s.yonlendir.forEach(function(r){ hedefler.push(r.to); });
+    else (s.secenekler || []).forEach(function(c){ hedefler.push(c.to); });
+    var r = { minB: Infinity, maxB: 0, minK: Infinity, maxK: 0 };
+    if(!hedefler.length) r = { minB: 0, maxB: 0, minK: 0, maxK: 0 };
+    hedefler.forEach(function(t){
+      var x = gez(t, yigin);
+      r.minB = Math.min(r.minB, x.minB); r.maxB = Math.max(r.maxB, x.maxB);
+      r.minK = Math.min(r.minK, x.minK); r.maxK = Math.max(r.maxK, x.maxK);
+    });
+    if(!s.yonlendir){
+      var w = sahneKelime(s).okunan;
+      r = { minB: r.minB + 1, maxB: r.maxB + 1, minK: r.minK + w, maxK: r.maxK + w };
     }
+    delete yigin[id];
+    memo[id] = r;
+    return r;
+  }
+  var y = gez(h.baslangic, {});
+  var okuma = Math.round((y.minK + y.maxK) / 2 / 50) * 50;
+  h._analiz = { minB: y.minB, maxB: y.maxB, sonlar: sonlar, toplam: Math.round(toplam / 100) * 100, okuma: okuma, dk: Math.max(1, Math.round(okuma / 200)) };
+  return h._analiz;
+}
 
-    /* işlenen kavramlar */
-    var okunan = durum.yol.map(function(a){return window.BOLUMLER[a.b];}).filter(Boolean);
-    if(okunan.length){
-      var ul = el("ul",{}, okunan.map(function(b){ return el("li",{text:"Bölüm "+b.no+": "+b.tema}); }));
-      sahne.appendChild(el("div",{class:"ozet"},[ el("h3",{text:"İşlenen kavramlar"}), ul ]));
-    }
+/* ---------- görünümler ---------- */
+function ust(geriVar){
+  var sag = el("div", { class: "sag" });
+  if(geriVar) sag.appendChild(el("button", { type: "button", text: "← Hikâyeler", onclick: function(){ location.hash = ""; } }));
+  return el("div", { class: "ust" }, [
+    el("button", { class: "marka", type: "button", text: "Felsefe Oyunu", onclick: function(){ location.hash = ""; } }),
+    sag
+  ]);
+}
+
+function anaSayfa(){
+  kok.textContent = "";
+  kok.appendChild(ust(false));
+  kok.appendChild(el("div", { class: "giris gir" }, [
+    el("h1", { text: "Her karar bir bedeldir." }),
+    el("p", { text: "Kararlarınla şekillenen hikâyeler. Doğru seçenek yok; yalnızca taşıyabileceğin ve taşıyamayacağın seçenekler var." })
+  ]));
+  H.forEach(function(h){
+    var a = analiz(h);
+    var kayit = oku(kayitAnahtar(h), null);
+    var bulunan = oku(sonAnahtar(h), []);
+    var durumMetni, eylem;
+    if(kayit && kayit.gecmis && kayit.gecmis.length){
+      var o = oynat(h, kayit.gecmis);
+      if(h.sahneler[o.id] && h.sahneler[o.id].son){ durumMetni = "Bitirdin"; eylem = "Yeniden oku"; }
+      else { durumMetni = "Bölüm " + (o.gecmis.length + 1) + "'desin"; eylem = "Devam et →"; }
+    } else { durumMetni = bulunan.length ? "Bitirdin" : "Başlanmadı"; eylem = bulunan.length ? "Yeniden oku" : "Başla →"; }
+    var hayali = /hayali/i.test(h.dunya);
+    kok.appendChild(el("button", { class: "kart gir", type: "button", onclick: function(){ location.hash = "#/" + h.id; } }, [
+      el("p", { class: "etiket " + (hayali ? "hayali" : "gercek"), text: h.dunya }),
+      el("h2", {}, [ h.baslik + " ", el("span", { class: "kav", text: "(" + h.kavramlar.join(", ") + ")" }) ]),
+      el("p", { class: "olcu" }, [
+        (a.minB === a.maxB ? a.minB : a.minB + "–" + a.maxB) + " bölüm · " + a.sonlar.length + " farklı son", el("br"),
+        "Toplam " + sayiYaz(a.toplam) + " kelime · bir okuma ≈ " + sayiYaz(a.okuma) + " kelime (~" + a.dk + " dk)"
+      ]),
+      el("p", { class: "ozet", text: h.ozet }),
+      el("div", { class: "durum" }, [
+        el("span", {}, [ durumMetni + " · Sonlar: ", el("b", { text: bulunan.length + "/" + a.sonlar.length }) ]),
+        el("span", { text: eylem })
+      ])
+    ]));
+  });
+  kok.appendChild(el("p", { class: "alt-not", text: "İlerlemen yalnızca bu cihazda saklanır." }));
+}
+
+function hikayeSayfa(h){
+  var kayit = oku(kayitAnahtar(h), { gecmis: [] });
+  var o = oynat(h, kayit.gecmis || []);
+  if(o.gecmis.length !== (kayit.gecmis || []).length) yaz(kayitAnahtar(h), { gecmis: o.gecmis });
+  var d = o.d, id = o.id, s = h.sahneler[id];
+  kok.textContent = "";
+  kok.appendChild(ust(true));
+  var kap = el("div", { class: "gir" });
+  kok.appendChild(kap);
+
+  /* yolun: verilen kararlar */
+  if(o.gecmis.length){
+    var liste = el("ol");
+    var dd = yeniDurum(h), cur = yonlendir(h, h.baslangic, dd);
+    o.gecmis.forEach(function(a){
+      var ss = h.sahneler[cur], c = ss.secenekler[a.c];
+      liste.appendChild(el("li", {}, [ el("b", { text: ss.baslik }), el("br"), metinDeger(c.t, dd) ]));
+      dd.gecti[cur] = true; etkiUygula(dd, c.etki); dd.son = cur + HARF[a.c];
+      cur = yonlendir(h, c.to, dd);
+    });
+    kap.appendChild(el("details", { class: "yol" }, [ el("summary", { text: "Yolun · " + o.gecmis.length + " karar" }), liste ]));
   }
 
-  document.getElementById("bastan").addEventListener("click", function(){
-    if(!durum.yol.length || confirm("Bütün seçimlerin silinecek ve hikâye baştan başlayacak. Emin misin?")){
-      durum = { yol: [] }; yaz(durum); render(); window.scrollTo(0,0);
-    }
-  });
+  if(!s){
+    kap.appendChild(el("p", { text: "Bu hikâyede bir sorun oluştu." }));
+    kap.appendChild(el("button", { class: "btn", type: "button", text: "Baştan başla", onclick: function(){ yaz(kayitAnahtar(h), { gecmis: [] }); render(); } }));
+    return;
+  }
 
-  render();
+  var bolumNo = o.gecmis.length + 1;
+  if(s.son){
+    kap.appendChild(el("p", { class: "son-etiket", text: "Son · Bölüm " + bolumNo }));
+  } else {
+    kap.appendChild(el("p", { class: "kunye" }, [ el("b", { text: "BÖLÜM " + bolumNo }), s.saat ? "  ·  " + s.saat : "" ]));
+  }
+  kap.appendChild(el("h2", { class: "sahne", text: s.baslik }));
+  var m = el("div", { class: "metin" });
+  (s.metin || []).forEach(function(p){
+    var t = typeof p === "string" ? p : ((!p.if || p.if(d)) ? p.t : null);
+    if(t) m.appendChild(el("p", { text: t }));
+  });
+  kap.appendChild(m);
+
+  if(s.son){
+    var bulunan = oku(sonAnahtar(h), []);
+    if(bulunan.indexOf(id) < 0){ bulunan.push(id); yaz(sonAnahtar(h), bulunan); }
+    var ayna = h.ayna ? h.ayna(d) : [];
+    if(ayna.length){
+      kap.appendChild(el("div", { class: "blok ayna" }, [ el("h3", { text: "Ayna" }) ].concat(ayna.map(function(t){ return el("p", { text: t }); }))));
+    }
+    var a = analiz(h);
+    var ul = el("ul", { class: "sonlar" });
+    a.sonlar.forEach(function(sid){
+      var var_ = bulunan.indexOf(sid) >= 0;
+      ul.appendChild(el("li", { class: (sid === id ? "simdi " : "") + (var_ ? "bulundu" : ""), text: var_ ? h.sahneler[sid].baslik + (sid === id ? "  ← bu okuma" : "") : "? ? ?" }));
+    });
+    kap.appendChild(el("div", { class: "blok" }, [ el("h3", { text: "Sonlar · " + bulunan.length + "/" + a.sonlar.length }), ul ]));
+    if(h.dipnot){
+      var dl = el("dl", { class: "dipnot" });
+      h.dipnot.forEach(function(x){ dl.appendChild(el("dt", { text: x.ad })); dl.appendChild(el("dd", { text: x.t })); });
+      kap.appendChild(el("div", { class: "blok" }, [ el("h3", { text: "Bu hikâyede dokunduğumuz fikirler" }), dl ]));
+    }
+    kap.appendChild(el("div", { class: "dugmeler" }, [
+      el("button", { class: "btn", type: "button", text: "Baştan oku", onclick: function(){ yaz(kayitAnahtar(h), { gecmis: [] }); render(); window.scrollTo(0,0); } }),
+      el("button", { class: "btn alt", type: "button", text: "Hikâyelere dön", onclick: function(){ location.hash = ""; } })
+    ]));
+    return;
+  }
+
+  var kutu = el("div", { class: "sorular" }, [ el("h3", { text: "Ne yapıyorsun?" }) ]);
+  gorunurSecenekler(s, d).forEach(function(x, n){
+    kutu.appendChild(el("button", { class: "secenek", type: "button", onclick: function(){
+      var g = o.gecmis.slice(); g.push({ s: id, c: x.i });
+      yaz(kayitAnahtar(h), { gecmis: g });
+      render(); window.scrollTo(0, 0);
+    } }, [ el("span", { class: "k", text: HARF[n] + ")" }), el("span", { text: metinDeger(x.c.t, d) }) ]));
+  });
+  kap.appendChild(kutu);
+  kap.appendChild(el("div", { class: "dugmeler" }, [
+    el("button", { class: "btn alt", type: "button", text: "Baştan başla", onclick: function(){
+      if(confirm("Bu hikâyedeki bütün kararların silinecek. Emin misin?")){ yaz(kayitAnahtar(h), { gecmis: [] }); render(); window.scrollTo(0,0); }
+    } })
+  ]));
+}
+
+function render(){
+  var m = location.hash.match(/^#\/([\w-]+)/);
+  var h = m && H.filter(function(x){ return x.id === m[1]; })[0];
+  if(h) hikayeSayfa(h); else anaSayfa();
+}
+window.addEventListener("hashchange", function(){ render(); window.scrollTo(0, 0); });
+window.FO = { analiz: analiz, oynat: oynat, yonlendir: yonlendir, gorunurSecenekler: gorunurSecenekler, etkiUygula: etkiUygula, yeniDurum: yeniDurum };
+render();
 })();
 </script>
 </body>

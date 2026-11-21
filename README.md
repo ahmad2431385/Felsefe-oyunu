@@ -1,20 +1,21 @@
 # Felsefe Oyunu
 
-Felsefe, psikoloji ve sosyoloji kavramlarını işleyen, okuyucunun ana karakter olduğu etkileşimli bir hikâye dizisi.
+Kararlarınla şekillenen, felsefi ve karanlık etkileşimli hikâyeler.
+Site: https://ahmad2431385.github.io/Felsefe-oyunu/
 
-## Nasıl işler?
-- Her bölüm kısa bir okuma parçasıdır (gerçekçi ya da hayali bir dünyada geçer).
-- Bölüm sonunda birkaç seçenek sunulur; okuyucu birini seçer.
-- Seçimler `secim-gunlugu.md` dosyasına işlenir ve sonraki bölümlerde geri döner.
-- Ton: karamsar, ağır, sorgulayıcı.
+## Hikâyeler
+| Hikâye | Dünya | Kavramlar |
+|---|---|---|
+| Son Vardiya | Gerçek | Trajik ikilem, ödev ve fayda, ahlaki yara, ölümle yüzleşme |
+| Yedek Parça | Hayali | Kişisel kimlik, bellek ve benlik, kopya sorunu, ölüm ve süreklilik |
 
-## Yapı
-- `bolumler/` : bölümler
-- `karakter/` : ana karakterin dosyası ve gelişimi
-- `secim-gunlugu.md` : yapılan seçimler
-- `kavramlar.md` : işlenen kavram ve kuramlar
+## Nasıl çalışır?
+- Her bölümün sonunda 4 karar vardır.
+- Kararlar üç şekilde etki eder: hikâyeyi farklı bölümlere götürür (kavşaklar), sonraki bölümün açılışını değiştirir, arka planda değerleri (ör. merhamet, kural, gerçek) ve olayları (kim yaşadı, ne söylendi) kaydeder.
+- Sonu, kararlarının toplamı belirler. Her hikâyenin 5-6 sonu vardır.
+- Bitişte: "Ayna" (kararlarının portresi), bulunan sonlar ve hikâyede dokunulan fikirler gösterilir.
+- İlerleme tarayıcıda (localStorage) saklanır.
 
-## Site
-`index.html` + `bolumler.js` tek sayfalık oyunu oluşturur. Seçimler tarayıcıda (localStorage) saklanır.
-Yeni bölüm eklemek için `bolumler.js` içindeki `BOLUMLER` nesnesine bölüm eklenir ve ilgili seçeneğin `sonraki` alanına bölümün anahtarı yazılır.
-Yayın: GitHub Pages (Settings → Pages → Branch: `main`, klasör: `/ (root)`).
+## Yeni hikâye eklemek
+`hikayeler/` altına bir dosya ekle ve `window.HIKAYELER.push({...})` ile kaydet, sonra `index.html` içine `<script>` olarak bağla.
+Sahne biçimi: `{ baslik, saat?, metin: [metin | {if, t}], secenekler: [{ t, to, etki }] }`; sonlar `{ son: true }`, yönlendirme `{ yonlendir: [{ if, to }] }`.
