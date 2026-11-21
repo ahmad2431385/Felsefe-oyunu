@@ -8,6 +8,9 @@ Site: https://ahmad2431385.github.io/Felsefe-oyunu/
 |---|---|---|
 | Son Vardiya | Gerçek | Trajik ikilem, ödev ve fayda, ahlaki yara, ölümle yüzleşme |
 | Yedek Parça | Hayali | Kişisel kimlik, bellek ve benlik, kopya sorunu, ölüm ve süreklilik |
+| Kan Bedeli | Gerçek | Adalet ve intikam, affetme, töre ve toplumsal baskı, şiddetin döngüsü |
+| Işık Şehri | Hayali | Mutluluğun bedeli, suç ortaklığı, kaçış ve direniş, çoğunluğun vicdanı |
+| Babamın Defteri | Gerçek | Hakikat ve huzur, kuşaklar arası suç, kendini kandırma, affetme |
 
 ## Nasıl çalışır?
 - Her bölümün sonunda 4 karar vardır.
