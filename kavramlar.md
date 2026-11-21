@@ -8,3 +8,4 @@
 | 2B | Felsefe / Psikoloji | Başkaldırı (Camus), bilişsel çelişki (Festinger) |
 | 2C | Sosyoloji / Felsefe | Sosyal dışlanma, uyum baskısı (Asch), absürt (Camus) |
 | 2D | Felsefe | Seçmemek de bir seçimdir (Sartre), kaygı (Kierkegaard) |
+| 3 | Çeşitli | Levinas, Weber, Platon (Gyges, Mağara), Kant/Mill, Seligman, Darley-Latané, Buber, Foucault, Heidegger, Jaspers, Arendt |
