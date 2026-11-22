@@ -145,16 +145,18 @@ P(S("a5D"), "Elini tuttun. Hasan Bey'in eli kuru, sıcak, nasırlı. Bir süre s
 "Murat bir yanda, Zeynep öbür yanda. Tarhan Hoca kapının yanında ayakta; bu toplantıya katılmak zorunda değil ama gelmiş. Sana bakıyor; bir şey demeden, ama bir şey bekleyerek.",
 "Önündeki dosyada Hasan Bey'in görüntüleri, tahlilleri, konsey kararı. Ve bir boşluk: hastanın bilgilendirilme durumu. Boşluğu senin doldurman gerekiyor.",
 "Murat konuşuyor: “Hocam, ne karar verirseniz verin, babamın moralini bozmayın. Ben size güveniyorum.” Zeynep konuşuyor: “Ben de size güveniyorum. Doğru olanı yapacağınıza.”",
-"İki güven, iki ayrı yöne. Bir karar ve bir hayatın son ayları."
+"İki güven, iki ayrı yöne. Bir karar ve bir hayatın son ayları.",
+"Murat sana bakıyor; Zeynep de. Hangisini seçersen seç, ikisinden biri bu odadan seni affetmeden çıkacak."
 ], secenekler: [
 { t: "“Ona her şeyi bugün ben söyleyeceğim.”", to: "h1", etki: { dogruluk: 2, kol: "h" } },
 { t: "“Murat Bey'in istediği gibi yapacağız: küçük bir kitle diyeceğiz, tedaviye başlayacağız.”", to: "s1", etki: { sefkat: 1, kol: "s" } },
 { t: "“Babanıza ne kadarını bilmek istediğini soracağım. Sonra onun dediği olacak.”", to: "c1", etki: { ozerklik: 2, kol: "c" } },
-{ t: "“Deneysel bir ilaç çalışması var. Ona bir şans verelim.”", to: "u1", etki: { kol: "u", umut: true } }
+{ t: "“Deneysel bir ilaç çalışması var. Ona bir şans verelim.” Bir şansın, gerçeği söylemeden verilip verilemeyeceğini bilmeden.", to: "u1", etki: { kol: "u", umut: true } }
 ]},
 
 /* ---------- HAKİKAT KOLU ---------- */
 h1: { saat: "Kasım, 11.00", baslik: "Söylemek", metin: [
+P(S("a6A"), "Aile odasından doğruca dört yüz on ikiye yürüdün. Murat arkandan bir şey söyledi; duymadın, ya da duymamayı seçtin."),
 P(function(d){ return d.kol === "h" && d.son === "u1A"; }, "Onam formunun üstünde, imza yerinin hemen yukarısında, bir cümle vardı: “Hastalığım ve tedavim hakkında bilgilendirildim.” Bu cümleyi bir yalanın altına attırmadın. Kâğıdı katlayıp dört yüz on ikiye yürüdün."),
 "Dört yüz on iki. Hasan Bey kuşu bitirmiş; yatağın yanındaki dolabın üstünde duruyor, kanatları açık. Seni görünce doğruluyor. Yüzündeki ifadeden bir şey anlıyor.",
 "Sandalyeyi yatağın yanına çekiyorsun. Oturuyorsun. Yıllar önce bir kursta öğrendiğin sıralama aklına geliyor: önce ne bildiğini sor, sonra ne kadar bilmek istediğini, sonra söyle, sonra sus. Kurslar susmanın ne kadar süreceğini söylemez.",
@@ -209,6 +211,8 @@ P(S("s3A"), "Murat'a hiçbir şey söylemedin. Kemoterapiyi “bir ara” diye d
 
 /* ---------- SIR KOLU ---------- */
 s1: { saat: "Kasım", baslik: "Küçük Bir Kitle", metin: [
+P(S("u1C"), "Onam formunu koordinatöre geri verdin, imzasız. “Başka bir hasta,” dedin. Bir şans, bir dosyanın içinde, başka birine gitti."),
+P(S("a6B"), "Murat'ın omuzları gevşedi. Zeynep kalkıp odadan çıktı; kapıyı çarpmadı. Bu daha kötüydü."),
 "Dört yüz on ikiye Murat'la birlikte giriyorsunuz. Murat babasının yanına oturuyor, elini tutuyor. Sen ayakta kalıyorsun; oturmak, bir yalanı daha rahat söylemek gibi gelecek.",
 "“Usta,” diyorsun, “pankreasta küçük bir kitle var. İlaçla küçülteceğiz. Biraz zor bir tedavi ama sizin gibi sağlam biri için sorun değil.”",
 "Kelimeler ağzından kolay çıkıyor. Bunu daha önce de yaptın; her onkolog yapmıştır. Küçük. İlaçla. Sorun değil. Her kelime ayrı ayrı doğru olabilir. Birlikte bir yalan oluyorlar.",
@@ -293,6 +297,9 @@ P(S("c1D"), "Hasan Bey bir süre düşündü. Sonra parmaklarıyla saydı: “Be
 ]},
 
 c3: { saat: "Kasım", baslik: "İki Kardeş", metin: [
+P(S("c2A"), "Söz verdin. Hasan Bey nasırlı eliyle elini sıktı. “Usta sözü,” dedi."),
+P(S("c2B"), "“Bu yükü taşıyamam Usta. Onlara bir gün söyleyeceğim.” Hasan Bey bir süre baktı. “O gün ben olmayayım,” dedi. “Yeter.”"),
+P(S("c2D"), "Yalnızca Zeynep'e söyleyeceğini söyledin. Hasan Bey düşündü. “Kız sağlamdır,” dedi. “Murat'ı da o taşır.”"),
 P(S("c2C"), "Hasan Bey bir süre düşündü, sonra çocuklarını çağırdı. Sen odada kaldın. “Biliyorum,” dedi onlara. “Doktor hanım söylemedi; ben biliyordum. Kemoterapi almayacağım. Evime gidiyorum. Beşiği bitireceğim. Sizden bir şey istiyorum: ağlamayın. Ağlayacaksanız atölyenin dışında ağlayın, talaşa damlamasın.”"),
 "Ertesi sabah Murat ile Zeynep kapının önünde seni bekliyor. Bu kez kavga etmiyorlar. İkisi de yorgun.",
 P(function(d){ return !d.kendisi_soylesin; }, "“Babam taburcu olmak istiyor,” diyor Murat. “Kemoterapiyi de istemiyor. Ne dediniz ona?” Gözlerinde bir şüphe. “Bilmiyor, değil mi? Bilseydi başka türlü davranırdı.”"),
@@ -341,6 +348,8 @@ P(S("u1D"), "Hasan Bey kâğıdı aldı, gözlüğünü taktı, ilk sayfaya bakt
 ]},
 
 u3: { saat: "Ocak", baslik: "Umut", metin: [
+P(S("u2A"), "“Yakında Usta,” dedin. Hasan Bey pencereden kara bakmaya devam etti. “Yakında,” diye tekrarladı; kelimenin tadına bakar gibi."),
+P(S("u2B"), "“Bilmiyorum,” dedin. Hasan Bey başını salladı. “Siz de bilmiyorsunuz,” dedi. “İyi. Ben de bilmiyorum.”"),
 P(S("u2C"), "Murat itiraz etti. “Şimdi mi? Tam ilaç işe yarayacakken?” Kimse ilacın işe yarayacağını söylememişti; ama Murat bunu duymuştu, çünkü duymak istemişti. Hasan Bey çalışmada kaldı."),
 P(S("u2D"), "Zeynep Hamburg'dan bir komşuyu aradı. Ertesi gün bir fotoğraf geldi: beşik, kalın bir naylonun altında, atölyenin köşesinde. Hasan Bey fotoğrafa uzun uzun baktı. “Sağ ol,” dedi. Bunun için."),
 "Ocak ortasında bir tahlil sonucu. Tümör belirteci biraz düşmüş. Az. İstatistiksel bir gürültü kadar az. Murat koridorda seni yakalıyor, gözleri parlıyor: “Düşmüş hocam! Düşmüş!”",
@@ -359,6 +368,18 @@ P(function(d){ return d.okumadan; }, "İmzasını hatırlıyorsun. Büyük, dikk
 
 /* ---------- ORTAK SON BÖLÜM ---------- */
 t1: { saat: "Ocak", baslik: "Kış", metin: [
+P(S("h3A"), "Zeynep'e uzun bir cevap yazdın: atölye, kuş, cevizin kokusu. Bir saat sonra cevap geldi: “Babam okudu. Güldü. ‘Doktor hanım şair olmuş,’ dedi.”"),
+P(S("h3B"), "“Bir şeye ihtiyacı olursa beni arayın. Gece de.” Zeynep bir kalp gönderdi. O günden sonra telefonunun sesini geceleri hiç kısmadın."),
+P(S("h3C"), "Fotoğrafı Tarhan Hoca'ya gösterdin. Uzun süre baktı. “Otuz yılda hiç böyle bir fotoğraf almadım,” dedi. Başka bir şey demedi; ama bir sonraki konseyde sustu."),
+P(S("h3D"), "Fotoğrafı kaydettin, cevap yazmadın. Ama o akşam eve dönerken bir marangoz dükkânının önünde durdun."),
+P(S("s3C"), "“Tedaviyi bırakmanızı öneremem,” dedin. Hasan Bey başını salladı; bir şey demedi. Ertesi gün bir sonraki doz verildi. Kuş dolabın üstünde yarım kaldı."),
+P(S("s3D"), "Bir şey söyleyemedin; gözlerin doldu. Hasan Bey gördü, elini uzatıp elini tuttu. “Tamam kızım,” dedi. “Anladım.” Neyi anladığını sormadın."),
+P(S("c3A"), "“Babanız kendi kararını verdi. Gerisini ona sorun,” dedin. Murat'la Zeynep birbirine baktı; aynı soruyu ikisi de sormadı."),
+P(S("c3C"), "Murat'a “Bilmiyor” dedin; Zeynep'e yalnızca gözlerinle baktın. Zeynep anladı, Murat anlamadı. İki kardeşin arasına bir sır indi; bir duvar gibi değil, bir tül gibi."),
+P(S("c3D"), "“Babanızla atölyeye gidin. İkiniz birlikte.” Gittiler. Akşam Zeynep bir fotoğraf gönderdi: üç kişi, bir tezgâh, talaş."),
+P(S("u3A"), "“Hayır Usta. İyileştirmiyor.” Hasan Bey uzun süre sustu. “Biliyordum,” dedi sonra. “Ama sizin söylemeniz iyi oldu.” Murat kapıda duruyordu."),
+P(S("u3B"), "“Henüz bilmiyoruz,” dedin. Murat'ın gözleri parladı; Hasan Bey'inkiler parlamadı. İkisi aynı cümleyi başka başka duydu."),
+P(S("u3D"), "Tomografi sonucunu önce Murat'a gösterdin. Ekrana baktı, anlamadı; sen anlattın. Yüzü değişti. “Babama söylemeyin,” dedi yine. Ama bu kez sesi yalvarmıyordu; yorgundu."),
 P(function(d){ return d.evde && !d.gec_eve; }, "Ocak. Hasan Bey iki aydır Çorum'da. Zeynep Hamburg'dan izin almış, babasının yanında. Her hafta sana bir mesaj atıyor: ağrı skoru, kilo, ne kadar yediği. Ve bir cümle: “Bugün iki saat çalıştı.” Sonra: “Bugün bir saat.” Sonra: “Bugün yarım saat. Ama zımparayı bırakmadı.”"),
 P(function(d){ return d.gec_eve; }, "Hasan Bey'i ocak sonunda Çorum'a gönderdiniz. Ambulansla. Atölyeye girebilecek gücü yok artık; yatağını atölyenin yanındaki odaya kurmuşlar, kapıyı açık bırakmışlar. Talaş kokusu içeri doluyor."),
 P(function(d){ return !d.evde; }, "Ocak. Hasan Bey hâlâ servisinde. Dört yüz on iki numaralı oda artık onun odası; duvarlarda torununun ultrason görüntüsü, dolabın üstünde yarım kuş. Ağrısı artıyor, morfin dozu artıyor. Bazı günler uyanık, bazı günler değil."),
@@ -375,6 +396,10 @@ P(function(d){ return d.cift_sir && !d.aile_bildi; }, "Sır hâlâ yerinde. Mura
 
 
 t1b: { saat: "Ocak", baslik: "Elçin", metin: [
+P(S("t1A"), "Her hafta aradın; bazen Zeynep'i, bazen Murat'ı. Cümleler kısaldı: “Aynı.” “Biraz yorgun.” “Atölyede.”"),
+P(S("t1B"), "Ağrı tedavisini bizzat yönettin, dozları her gün gözden geçirdin. Bir gece saat ikide bir hemşire aradı: “Usta uyuyor. İlk kez bütün gece.”"),
+P(S("t1C"), "Uzaktan izledin. Bir hekimin bir hastaya fazla bağlanması iyi değildi. Ama dosyasını her sabah açıp kapattın."),
+P(S("t1D"), "Hasan Bey'e el yazısıyla bir sayfalık bir mektup yazdın. Ne yazdığını kimseye söylemedin. Zeynep sonra anlattı: mektup tezgâhın üstünde, bir keskinin altında duruyormuş."),
 "Bir öğleden sonra polikliniğinin kapısında, sırasını bekleyen hastaların arasında, karnı burnunda genç bir kadın. Murat'ın karısı Elçin. Otuz iki haftalık hamile.",
 "İçeri alıyorsun. Oturmakta zorlanıyor. Bir süre ellerini karnının üstünde kavuşturup bekliyor; ne söyleyeceğini evde prova etmiş gibi.",
 "“Hocam, Murat'ın haberi yok buraya geldiğimden,” diyor. “Kadın doğum doktorumla konuştum. Otuz yedinci haftada doğumu başlatabilirlermiş. İlaçla. Bebek için risk az, dedi; ama yine de risk. Mart'ı beklemeden, şubat ortasında.”",
@@ -494,6 +519,12 @@ ts: { yonlendir: [
 
 /* ---------- SONLAR ---------- */
 son_hakikat: { son: true, baslik: "Rendelenmiş Tahta", metin: [
+P(function(d){ return d.son === "t4A" && (d.cift_sir && !d.aile_bildi); }, "“Biliyordu,” demiştin Murat'a; sözünü bozarak. Murat uzun süre bebeğe baktı. “Biliyordu,” diye tekrarladı. Sonra güldü; ağlamaya yakın."),
+P(function(d){ return d.son === "t4A" && !(d.cift_sir && !d.aile_bildi); }, "Bebeği kucağına almıştın. Bir ceviz kuşu kadar hafifti."),
+P(function(d){ return d.son === "t4B" && (d.cift_sir && !d.aile_bildi); }, "“Bilmiyorum,” demiştin; sözünü tutarak. Murat başını sallamıştı. İnanıp inanmadığını hiç öğrenmedin."),
+P(function(d){ return d.son === "t4B" && !(d.cift_sir && !d.aile_bildi); }, "Murat'a babasının sana öğrettiğini anlatmıştın: lifin yönünde, acele etmeden."),
+P(S("t4C"), "“Babanız size bir şey bıraktı; beşikten daha fazlasını,” demiştin. Murat başını eğmişti."),
+P(S("t4D"), "Bir şey söylememiştin; bebeğe bakmıştın. Bebek de, belki, sana."),
 "Hasan Bey bilerek öldü. Hastalığının adını duydu, zamanını öğrendi, son aylarını kendi seçtiği gibi yaşadı. Murat önce sana öfkelendi, sonra öfkesini babasının yanında eritti.",
 "O kıştan sonra servisinde bir şey değişti; belki yalnızca senin içinde. Her yeni hastaya, ilk görüşmede, bir soru soruyorsun: “Ne kadarını bilmek istersiniz?” Bazıları şaşırıyor. Bazıları her şeyi istiyor. Bazıları “Sadece ne yapmam gerektiğini söyleyin” diyor. Bir kadın bir keresinde ağladı: “Bunu bana kimse sormamıştı.”",
 "Tarhan Hoca emekli oldu. Veda yemeğinde yanına geldi. “Sen haklıydın galiba,” dedi. “Ama ben de haksız değildim. Otuz yıl insanlara yalan söyledim ve çoğu teşekkür etti.” Bir süre durdu. “Belki asıl mesele kimin haklı olduğu değil. Kime sorduğumuz.”",
@@ -503,6 +534,12 @@ son_hakikat: { son: true, baslik: "Rendelenmiş Tahta", metin: [
 ]},
 
 son_yalan: { son: true, baslik: "Merhametli Yalan", metin: [
+P(function(d){ return d.son === "t4A" && (d.cift_sir && !d.aile_bildi); }, "“Biliyordu,” demiştin Murat'a; sözünü bozarak. Murat uzun süre bebeğe baktı. “Biliyordu,” diye tekrarladı. Sonra güldü; ağlamaya yakın."),
+P(function(d){ return d.son === "t4A" && !(d.cift_sir && !d.aile_bildi); }, "Bebeği kucağına almıştın. Bir ceviz kuşu kadar hafifti."),
+P(function(d){ return d.son === "t4B" && (d.cift_sir && !d.aile_bildi); }, "“Bilmiyorum,” demiştin; sözünü tutarak. Murat başını sallamıştı. İnanıp inanmadığını hiç öğrenmedin."),
+P(function(d){ return d.son === "t4B" && !(d.cift_sir && !d.aile_bildi); }, "Murat'a babasının sana öğrettiğini anlatmıştın: lifin yönünde, acele etmeden."),
+P(S("t4C"), "“Babanız size bir şey bıraktı; beşikten daha fazlasını,” demiştin. Murat başını eğmişti."),
+P(S("t4D"), "Bir şey söylememiştin; bebeğe bakmıştın. Bebek de, belki, sana."),
 "Hasan Bey öldü ve kimse ona bilmediği bir şeyi söylemedi. Ya da söylemedi gibi yaptı. Ya da o, bilmiyormuş gibi yaptı.",
 "Murat cenazeden sonra seni aradı. “Babam huzurla gitti,” dedi. “Sayenizde. Son ana kadar umudunu kaybetmedi.” Telefonu kapattıktan sonra bir süre ekrana baktın.",
 "Hasan Bey'in sana söylediği cümle kulağında: “Hepimiz birbirimize bir oyun oynadık. İyi oynadık. Ama bu oyunun içinde ben yalnız kaldım.”",
@@ -513,6 +550,12 @@ son_yalan: { son: true, baslik: "Merhametli Yalan", metin: [
 ]},
 
 son_secim: { son: true, baslik: "Bilmeme Hakkı", metin: [
+P(function(d){ return d.son === "t4A" && (d.cift_sir && !d.aile_bildi); }, "“Biliyordu,” demiştin Murat'a; sözünü bozarak. Murat uzun süre bebeğe baktı. “Biliyordu,” diye tekrarladı. Sonra güldü; ağlamaya yakın."),
+P(function(d){ return d.son === "t4A" && !(d.cift_sir && !d.aile_bildi); }, "Bebeği kucağına almıştın. Bir ceviz kuşu kadar hafifti."),
+P(function(d){ return d.son === "t4B" && (d.cift_sir && !d.aile_bildi); }, "“Bilmiyorum,” demiştin; sözünü tutarak. Murat başını sallamıştı. İnanıp inanmadığını hiç öğrenmedin."),
+P(function(d){ return d.son === "t4B" && !(d.cift_sir && !d.aile_bildi); }, "Murat'a babasının sana öğrettiğini anlatmıştın: lifin yönünde, acele etmeden."),
+P(S("t4C"), "“Babanız size bir şey bıraktı; beşikten daha fazlasını,” demiştin. Murat başını eğmişti."),
+P(S("t4D"), "Bir şey söylememiştin; bebeğe bakmıştın. Bebek de, belki, sana."),
 "Hasan Bey hastalığının adını hiç duymadı. Ne kadar zamanı olduğunu biliyordu; ne yapacağını biliyordu. Gerisi onu ilgilendirmiyordu. Bir marangoz, bir tahtanın kimyasını bilmek zorunda değildir; nasıl işleneceğini bilmesi yeter.",
 "Bu kışın sana öğrettiği bir şey var: hakikat tek bir şey değil. Bir teşhis, bir istatistik, bir görüntü, bir isim; ve bir de bir insanın kendi ölümüyle nasıl karşılaşmak istediği. Bunların hepsi ayrı ayrı gerçekler ve bir insanın hangilerini taşımak istediğine o insan karar verir.",
 P(function(d){ return d.soz_tuttu; }, "Murat'a babasının bildiğini söylemedin. Sözünü tuttun. Murat hâlâ babasını koruduğunu düşünüyor. Belki bu, Hasan Bey'in ona bıraktığı en büyük miras: bir oğulun, babasını korumuş olma duygusu."),
@@ -523,6 +566,12 @@ P(function(d){ return d.son_acikladi; }, "Murat'a babasının bildiğini söyled
 ]},
 
 son_umut: { son: true, baslik: "Yarım Beşik", metin: [
+P(function(d){ return d.son === "t4A" && (d.cift_sir && !d.aile_bildi); }, "“Biliyordu,” demiştin Murat'a; sözünü bozarak. Murat uzun süre bebeğe baktı. “Biliyordu,” diye tekrarladı. Sonra güldü; ağlamaya yakın."),
+P(function(d){ return d.son === "t4A" && !(d.cift_sir && !d.aile_bildi); }, "Bebeği kucağına almıştın. Bir ceviz kuşu kadar hafifti."),
+P(function(d){ return d.son === "t4B" && (d.cift_sir && !d.aile_bildi); }, "“Bilmiyorum,” demiştin; sözünü tutarak. Murat başını sallamıştı. İnanıp inanmadığını hiç öğrenmedin."),
+P(function(d){ return d.son === "t4B" && !(d.cift_sir && !d.aile_bildi); }, "Murat'a babasının sana öğrettiğini anlatmıştın: lifin yönünde, acele etmeden."),
+P(S("t4C"), "“Babanız size bir şey bıraktı; beşikten daha fazlasını,” demiştin. Murat başını eğmişti."),
+P(S("t4D"), "Bir şey söylememiştin; bebeğe bakmıştın. Bebek de, belki, sana."),
 "Hasan Bey hastanede öldü; deneysel bir ilacın son dozundan üç hafta sonra. Çalışma raporunda bir satır: “Hasta 0047: hastalık progresyonu, çalışmadan çıkarıldı, eksitus.” Bir hayat, bir satır.",
 "Murat cenazeden sonra seni aradı. “Elimizden geleni yaptık hocam,” dedi. “Siz de yaptınız. Her şeyi denedik.” Sesinde bir rahatlama vardı; bir şeyi denemiş olmanın rahatlaması.",
 "Ama Hasan Bey'in son haftaları bir serum torbasının altında, bir hastane odasında, beşikten yüzlerce kilometre uzakta geçti. Kuş dolabın üstünde yarım kaldı. Beşik naylonun altında yarım kaldı.",
@@ -533,6 +582,12 @@ P(function(d){ return d.sahte_onam; }, "Onam formu dosyada duruyor. Bir imza, bi
 ]},
 
 son_usta: { son: true, baslik: "Usta", metin: [
+P(function(d){ return d.son === "t4A" && (d.cift_sir && !d.aile_bildi); }, "“Biliyordu,” demiştin Murat'a; sözünü bozarak. Murat uzun süre bebeğe baktı. “Biliyordu,” diye tekrarladı. Sonra güldü; ağlamaya yakın."),
+P(function(d){ return d.son === "t4A" && !(d.cift_sir && !d.aile_bildi); }, "Bebeği kucağına almıştın. Bir ceviz kuşu kadar hafifti."),
+P(function(d){ return d.son === "t4B" && (d.cift_sir && !d.aile_bildi); }, "“Bilmiyorum,” demiştin; sözünü tutarak. Murat başını sallamıştı. İnanıp inanmadığını hiç öğrenmedin."),
+P(function(d){ return d.son === "t4B" && !(d.cift_sir && !d.aile_bildi); }, "Murat'a babasının sana öğrettiğini anlatmıştın: lifin yönünde, acele etmeden."),
+P(S("t4C"), "“Babanız size bir şey bıraktı; beşikten daha fazlasını,” demiştin. Murat başını eğmişti."),
+P(S("t4D"), "Bir şey söylememiştin; bebeğe bakmıştın. Bebek de, belki, sana."),
 "Hasan Bey kendi ölümünü bir iş gibi yaptı. Kırk yıl tahtaya nasıl davrandıysa, son aylarına da öyle davrandı: lifin yönünde, acele etmeden, bastırmadan.",
 "Sen bu işin bir parçasıydın. Bazen söyledin, bazen sustun, bazen bir zımpara tuttun, bazen bir telefonun öbür ucunda nefes dinledin. Hiçbir zaman tam olarak doğru olanı yaptığından emin olmadın. Hasan Bey de emin değildi; ama çalışmaya devam etti.",
 "Torun Hasan büyüyor. Murat sana her doğum gününde bir fotoğraf gönderiyor. Birinci yaşında beşiğin içinde. İkinci yaşında beşiğin yanında. Üçüncü yaşında, beşiğin başındaki kuşu eline almış, ağzına götürüyor.",
