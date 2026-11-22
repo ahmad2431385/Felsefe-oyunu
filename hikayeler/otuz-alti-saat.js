@@ -19,302 +19,294 @@ durum: { durustluk: 0, sistem: 0, sefkat: 0 },
 sahneler: {
 
 a1: { saat: "Saat 24 · Sabah 08.00", baslik: "İkinci Gün", metin: [
-"Dün sabah sekizde başladın. Şimdi yine sabah sekiz. Yirmi dört saattir ayaktasın; on iki saat daha var. Kâğıt üstünde yirmi dört saatlik nöbet, artı “devir teslim süresi”, artı bir arkadaşın raporlu olduğu için onun yerine kalman. Otuz altı saat.",
-"Adın Selin, yirmi dokuz yaşındasın, acil tıp asistanısın; üçüncü yıl. İstanbul'da bir eğitim araştırma hastanesinin acil servisi. Bekleme salonunda yüz yirmi kişi. Koridorda sedyeler, sedyelerde hastalar, hastaların yanında yakınlar. Üç asistan, bir uzman, altı hemşire.",
-"Gözlerinin arkasında bir basınç. Ellerin hafifçe titriyor; kahve mi, yorgunluk mu, bilmiyorsun. Gece bir ara, dört dakika, bir sandalyede uyumuşsun. Uyandığında nerede olduğunu otuz saniye hatırlayamadın.",
-"Telefonunda babandan bir mesaj, dün geceden: “Kızım yemek yedin mi?” Cevap vermedin. Yemek yemedin.",
-"Hemşire Hülya, yirmi yıllık acil hemşiresi, yanından geçerken bir çikolata bırakıyor. “Ye,” diyor. “Yoksa düşersin.”",
-"Monitörler ötüyor. Bir ambulans geliyor. Bir çocuk ağlıyor. Biri adını bağırıyor: “Doktor! Doktor!”"
+"Dün sabah sekizde başladın. Şimdi yine sabah sekiz. On iki saat daha var: yirmi dört saatlik nöbet, artı devir teslim, artı raporlu bir arkadaşın yerine kalman. Otuz altı.",
+"Adın Selin, yirmi dokuz yaşındasın, acil tıp asistanısın. Üçüncü yıl. Bekleme salonunda yüz yirmi kişi. Koridorda sedyeler, sedyelerde hastalar, yanlarında poşetler, termoslar, bir kafeste muhabbet kuşu. Üç asistan, bir uzman, altı hemşire.",
+"Gözlerinin arkasında bir basınç. Gece bir ara, dört dakika, bir sandalyede uyumuşsun. Uyandığında elinde hâlâ bir kalem vardı, nerede olduğunu otuz saniye hatırlayamadın.",
+"Telefonda babandan dün geceden kalma bir mesaj: “Kızım yemek yedin mi?” Cevap vermedin. Yemedin.",
+"Hemşire Gönül, yirmi yıllık acil hemşiresi, yanından geçerken cebine bir çikolata sokuyor. “Ye,” diyor. “Yoksa yere yığılırsın, seni de ben kaldırırım, belim ağrıyor.”",
+"Bir monitör ötüyor. Bir ambulans. Bir çocuk ağlıyor. Biri bağırıyor: “Doktor! Doktor!”"
 ], secenekler: [
 { t: "Çikolatayı yiyip işe dalarsın.", to: "a2", etki: { sefkat: 1 } },
-{ t: "Babana kısa bir mesaj atarsın: “Yedim baba.” Bir yalan.", to: "a2", etki: { sefkat: 1, babaya_yalan: true } },
-{ t: "Levent Hoca'ya gidip dinlenmeye ihtiyacın olduğunu söylersin. Yerine kimse yok; senin yükün Kerem'e kalacak.", to: "a2", etki: { sistem: 1, dinlenme_istedi: true } },
-{ t: "Yüzünü soğuk suyla yıkarsın ve aynaya bakarsın.", to: "a2", etki: { durustluk: 1, ayna: true } }
+{ t: "Babana kısa bir mesaj atarsın: “Yedim baba.”", to: "a2", etki: { sefkat: 1, babaya_yalan: true } },
+{ t: "Haluk Hoca'ya gidip dinlenmen gerektiğini söylersin. Yerine kimse yok. Yükün Ufuk'a kalacak.", to: "a2", etki: { sistem: 1, dinlenme_istedi: true } },
+{ t: "Yüzünü soğuk suyla yıkayıp aynaya bakarsın.", to: "a2", etki: { durustluk: 1, ayna: true } }
 ]},
 
 a2: { saat: "Saat 28 · 12.10", baslik: "Yumruk", metin: [
-P(S("a1A"), "Çikolatanın yarısını yedin; öbür yarısı önlüğünün cebinde eridi. Bir saat sonra bir hastanın tansiyonunu ölçerken parmakların yapış yapıştı."),
-P(S("a1B"), "“Yedim baba.” Cevap bir dakika sonra geldi: “Aferin kızım. Uyu biraz.” Bir mesajlaşmada iki yalan."),
-P(S("a1C"), "Levent Hoca seni dinledi. “Hepimiz yorgunuz Selin,” dedi. “Ben de otuz saattir buradayım. Kimse yok yerine geçecek. Dayan.” Haklıydı. Ve bu, onu haklı yapmıyordu."),
-P(S("a1D"), "Aynada bir kadın. Gözlerinin altı mor, saçı dağınık, önlüğünde kurumuş bir kan lekesi; kimin, hatırlamıyorsun. Bir an onu tanımadın. Sonra tanıdın; ve tanımamış olmayı tercih ederdin."),
-"Öğlen on iki on. Sarı alanda bir bağrışma. Koşuyorsun.",
-"Bir adam, kırklarında, asistan arkadaşın Kerem'in yakasına yapışmış. “Üç saattir bekliyoruz! Babam ölüyor! Siz ne yapıyorsunuz?” Babası bir sedyede; göğüs ağrısı, EKG normal, tetkikler bekleniyor. Kerem bir şey söylüyor; adam duymuyor.",
-"Sonra bir yumruk. Kerem'in yüzüne. Kerem geriye savruluyor, bir sedyeye çarpıyor, yere düşüyor. Burnundan kan.",
-"Bir an herkes donuyor. Sonra çığlıklar. Güvenlik koşarak geliyor; uzakta, çok uzakta.",
-"Adam hâlâ bağırıyor. Kerem yerde, elini yüzüne kapatmış. Ve sarı alanda, kırk hasta, senin bir sonraki adımını bekliyor."
+P(S("a1A"), "Çikolatanın yarısını yedin. Öbür yarısı cebinde eridi. Bir saat sonra bir tansiyon aletinin cırt cırtını açarken parmakların yapış yapıştı."),
+P(S("a1B"), "“Yedim baba.” Bir dakika sonra: “Aferin kızım. Uyu biraz.” İkiniz de birer yalan söylemiştiniz. O da uyumadığını biliyordu."),
+P(S("a1C"), "Haluk Hoca dinledi. “Hepimiz yorgunuz Selin. Ben de otuz saattir buradayım. Dayan.” Haklıydı. Bu durumu düzeltmiyordu."),
+P(S("a1D"), "Aynada bir kadın: gözaltları mor, saçı tokadan kurtulmuş, önlükte kurumuş bir kan lekesi. Kimin, hatırlamıyorsun. Yüzünü bir daha yıkadın."),
+"Öğlen on iki on. Sarı alanda bağrışma. Koşuyorsun.",
+"Kırklarında bir adam, asistan arkadaşın Ufuk'un yakasına yapışmış. “Üç saattir bekliyoruz! Babam ölüyor!” Babası bir sedyede. Göğüs ağrısı, EKG normal, tetkikler bekleniyor. Ufuk bir şey söylüyor. Adam duymuyor.",
+"Sonra bir yumruk. Ufuk geriye savrulup bir sedyeye çarpıyor, yere düşüyor. Burnundan kan.",
+"Herkes donuyor. Sonra çığlıklar. Güvenlik geliyor. Çok uzaktan, çok yavaş.",
+"Adam hâlâ bağırıyor. Ufuk yerde, elini yüzüne kapatmış. Muhabbet kuşu kafeste deli gibi çırpınıyor."
 ], secenekler: [
-{ t: "Kerem'in yanına koşarsın.", to: "x_kerem", etki: { sefkat: 1 } },
-{ t: "Güvenliğe bırakırsın. Triyaja dönersin; kırk hasta bekliyor.", to: "a3", etki: { sistem: 1, triyaj: true } },
+{ t: "Ufuk'un yanına koşarsın.", to: "x_kerem", etki: { sefkat: 1 } },
+{ t: "Güvenliğe bırakırsın. Triyaja dönersin. Kırk hasta bekliyor.", to: "a3", etki: { sistem: 1, triyaj: true } },
 { t: "Adamın karşısına geçersin.", to: "x_kavga", etki: { durustluk: 1 } },
-{ t: "Personel tuvaletine gidip kapıyı kilitlersin. İki dakika. Sadece iki dakika.", to: "a3", etki: { sefkat: 1, tuvalet: true } }
+{ t: "Personel tuvaletine girip kapıyı kilitlersin. İki dakika. Sadece iki dakika.", to: "a3", etki: { sefkat: 1, tuvalet: true } }
 ]},
 
-x_kerem: { saat: "Saat 28 · 12.20", baslik: "Kerem", metin: [
-"Kerem'i personel odasına götürüyorsun. Burnu kanıyor; kırık olabilir. Buz, gazlı bez, bir sandalye. Kerem oturuyor ve titriyor.",
-"“Bırakacağım,” diyor. Sesi kısık, burnu tıkalı. “Selin, bırakacağım. Yemin ederim. Babam istedi diye tıp okudum. Altı yıl, artı üç yıl asistanlık. Şimdi bir adam beni yumrukluyor çünkü babası üç saat bekledi. Üç saat! Ben otuz saattir bekliyorum. Kim benim için bir şey yapıyor?”",
-"Ağlıyor. Saklamaya çalışmıyor.",
-"Polis geliyor. İfade. Kerem'in ifadesi, senin ifaden, güvenliğin ifadesi. Kırk dakika. Bir memur yavaşça yazıyor; her cümleyi iki kez soruyor.",
-"Kırk dakika boyunca sarı alanda bir asistan eksik. Senin yerine kimse yok.",
-"İfade bitince Kerem sana bakıyor. “Sağ ol,” diyor. “Gerçekten. Sen olmasan...” Cümleyi bitirmiyor.",
-"Saat bir. Sarı alana dönüyorsun. Bekleyen hasta sayısı kırk değil, elli iki."
+x_kerem: { saat: "Saat 28 · 12.20", baslik: "Ufuk", metin: [
+"Ufuk'u personel odasına götürüyorsun. Burnu kanıyor. Kırık olabilir. Buz, gazlı bez, bir sandalye. Ufuk titriyor.",
+"“Bırakacağım,” diyor, burnu tıkalı. “Yemin ederim Selin. Babam istedi diye tıp okudum. Şimdi bir adam beni yumrukluyor çünkü babası üç saat bekledi. Üç saat! Ben otuz saattir bekliyorum.”",
+"Ağlıyor. Gazlı bez kandan ve gözyaşından pembeleşiyor.",
+"Polis geliyor. İfade. Bir memur iki parmakla yazıyor, her cümleyi iki kez soruyor. “Darp eden şahsın boyu?” Kırk dakika.",
+"Kırk dakika boyunca sarı alanda bir asistan eksik.",
+"İfade bitince Ufuk sana bakıyor. “Sağ ol,” diyor. “Sen olmasan...” Bitirmiyor.",
+"Sarı alana dönüyorsun. Bekleyen sayısı kırk değil, elli iki."
 ], secenekler: [
-{ t: "Kerem'e evine gitmesini söylersin. Onun yerine de sen bakacaksın.", to: "a3", etki: { sefkat: 1, gecikme: true, keremi_gonderdi: true } },
-{ t: "Kerem'e “Bırakma,” dersin. “Bunu yapan biz değiliz.”", to: "a3", etki: { sistem: 1, gecikme: true } },
-{ t: "Kerem'le birlikte biraz daha oturursun. Elli iki hasta bekleyebilir mi?", to: "a3", etki: { sefkat: 1, gecikme: true, uzun_kaldi: true } },
-{ t: "Hiçbir şey söylemeden işe dönersin. Yapacak bir şey yok.", to: "a3", etki: { gecikme: true } }
+{ t: "Ufuk'a eve gitmesini söylersin. Onun hastalarına da sen bakacaksın.", to: "a3", etki: { sefkat: 1, gecikme: true, keremi_gonderdi: true } },
+{ t: "“Bırakma,” dersin. “Bunu yapan biz değiliz.”", to: "a3", etki: { sistem: 1, gecikme: true } },
+{ t: "Ufuk'la biraz daha oturursun. Elli iki kişi bekleyebilir mi?", to: "a3", etki: { sefkat: 1, gecikme: true, uzun_kaldi: true } },
+{ t: "Bir şey demeden işe dönersin.", to: "a3", etki: { gecikme: true } }
 ]},
 
 x_kavga: { saat: "Saat 28 · 12.12", baslik: "Ön", metin: [
-"Adamın karşısına geçiyorsun. Kerem ile onun arasına. Bir metre altmış beş santimsin; adam senden bir baş uzun.",
-"“Geri çekilin,” diyorsun. Sesin titremiyor; bunu sonra hatırlayıp şaşıracaksın.",
-"Adam sana bakıyor. Bir an. Sonra bağırıyor: “Sen de mi? Doktor değil kasapsınız! Babamı burada öldüreceksiniz!”",
-"Bir el göğsüne değiyor, itiyor. Geriye bir adım atıyorsun; bir sedyenin kenarına çarpıyorsun. Acıtmıyor. Ya da acıtıyor ama hissetmiyorsun; adrenalin.",
-"Güvenlik nihayet yetişiyor. İki görevli adamı kollarından tutuyor. Adam hâlâ bağırıyor; babasının adını, hastanenin adını, bir milletvekilinin adını.",
-"Kerem'e dönüyorsun. Yerde, kanlar içinde, sana bakıyor. “Delisin,” diyor. Sonra: “Teşekkürler.”",
-"Ellerine bakıyorsun. Titriyor. Gerçekten titriyor; durmuyor. Adrenalin çekilirken geriye bir şey bırakıyor: bir tükeniş, bir boşluk, bir yorgunluk ki yirmi sekiz saatin üstüne eklenmiş."
+"Ufuk ile adamın arasına giriyorsun. Bir altmış beşsin. Adam senden bir baş uzun, nefesi sigara kokuyor.",
+"“Geri çekilin,” diyorsun. Sesin titremiyor. Bunu sonra hatırlayıp şaşıracaksın.",
+"“Sen de mi? Doktor değil kasapsınız! Babamı burada öldüreceksiniz!”",
+"Bir el göğsüne değip itiyor. Bir sedyenin kenarına çarpıyorsun. Acıtmıyor. Ya da acıtıyor ve hissetmiyorsun.",
+"Güvenlik yetişiyor. İki görevli adamı kollarından tutuyor. Adam bağırıyor: babasının adını, hastanenin adını, bir milletvekilinin adını.",
+"Ufuk yerde, kanlar içinde. “Delisin,” diyor. Sonra: “Sağ ol.”",
+"Ellerine bakıyorsun. Titriyor. Durmuyor. Adrenalin çekilirken geriye bir boşluk bırakıyor. Yirmi sekiz saatin üstüne."
 ], secenekler: [
 { t: "Ellerinin titremesi geçene kadar beş dakika oturursun.", to: "a3", etki: { sefkat: 1, titreme: true } },
 { t: "Titreyen ellerle işe dönersin. Elli hasta.", to: "a3", etki: { sistem: 1, titreme: true, devam: true } },
 { t: "Adamın babasına gidersin. Üç saattir bekleyen göğüs ağrılı hasta.", to: "a3", etki: { durustluk: 1, titreme: true, babaya_bakti: true } },
-{ t: "Levent Hoca'yı bulup ne olduğunu anlatırsın.", to: "a3", etki: { sistem: 1, titreme: true } }
+{ t: "Haluk Hoca'yı bulup ne olduğunu anlatırsın.", to: "a3", etki: { sistem: 1, titreme: true } }
 ]},
 
 a3: { saat: "Saat 31 · 15.00", baslik: "Nurten Hanım", metin: [
-P(S("x_keremB"), "“Bırakma,” dedin. “Bunu yapan biz değiliz.” Kerem gazlı bezi burnuna bastırıp başını salladı. Yarım saat sonra sarı alandaydı; morarmış bir burunla, bir çocuğun boğazına bakıyordu."),
-P(S("x_keremC"), "Kerem'le biraz daha oturdun. Annesinden, Sivas'tan, bir gün aile hekimi olma hayalinden söz etti. Sarı alana döndüğünde Hülya kapıdaydı: “Neredesin? Elli beş oldu.”"),
-P(S("x_keremD"), "Bir şey söylemeden işe döndün. Kapıdan çıkarken Kerem'in arkandan baktığını hissettin."),
-P(S("x_kavgaA"), "Beş dakika oturdun. Titreme geçmedi; yalnızca küçüldü, içe çekildi. Sarı alana döndüğünde bekleyen sayısı elli beşti."),
-P(S("x_kavgaB"), "Titreyen ellerle işe döndün. İlk hastanın damarını iki kez kaçırdın. Hemşire bir şey demeden iğneyi elinden aldı."),
-P(S("x_kavgaC"), "Adamın babasına gittin. Üç saattir bekleyen göğüs ağrısı; EKG normaldi. Yaşlı adam elini tuttu: “Oğlum öyle değil aslında kızım. Korkuyor.”"),
-P(S("x_kavgaD"), "Levent Hoca'yı bulup anlattın. “Güvenlik rapor tutar,” dedi. “Şikâyet edersen sen de mahkemelere düşersin. Değer mi?” Bir şey demedin; o da cevap beklemedi."),
-P(S("a2B"), "Triyaja döndün. Arkanda güvenlik adamı götürüyordu, Kerem yerdeydi. Dönüp bakmadın. Kırk hasta. Bir sistemin içinde, bir başkasının acısının yanından geçmek; bunu da öğrendin bu meslekte."),
-P(S("a2D"), "İki dakika. Tuvaletin kapısına yaslanıp oturdun. Ağlamadın; ağlayacak gücün yoktu. Gözlerini kapadın. Biri kapıyı çaldı: “Selin! Kırmızı alan!” İki dakika bitti."),
-P(function(d){ return d.keremi_gonderdi; }, "Kerem eve gitti. Şimdi onun hastaları da senin. Bir sistemde bir boşluk açıldığında, o boşluğu en yakındaki kişi doldurur."),
-"Saat üç. Sarı alan. Yedinci sedye. Nurten Hanım, yetmiş dört yaşında. Ateş, öksürük, nefes darlığı. Akciğer grafisinde sağ alt lobda bir gölge. Pnömoni.",
-"Gelini yanında. “Hocam, annem biraz karışık bugün. Ateşten. Normalde çok sağlamdır.”",
-"Nurten Hanım sana bakıyor. Bir şey söylüyor; mırıldanarak. “Kızım... o ilaç... bir keresinde kızarmıştım...” Gelin araya giriyor: “Anneciğim sakin ol, doktor hanım bilir.”",
-"Bilgisayarda hasta dosyası açık. Hasta bilgileri, tahliller, grafi. Ekranın üstünde sekmeler: Genel. Tahliller. Görüntüleme. Notlar. Alerjiler. Alerjiler sekmesi kırmızı değil; sistem güncellemesinden beri hiçbir sekme kırmızı değil.",
-"Hülya yanına geliyor. “Hocam, antibiyotik ne yazıyoruz? Alerjisi var mı?”",
-"Gözlerin ekranda. Alerjiler sekmesine tıklamıyorsun. Bir önceki hastanın dosyası aklında; o da yaşlıydı, o da pnömoniydi, onun alerjisi yoktu.",
+P(S("x_keremB"), "“Bırakma,” dedin. Ufuk gazlı bezi burnuna bastırdı. Yarım saat sonra sarı alandaydı. Morarmış burnuyla bir çocuğun boğazına bakıyordu, çocuk onun burnuna bakıyordu."),
+P(S("x_keremC"), "Ufuk'la oturdun. Sivas'tan, annesinin tandırından, bir gün aile hekimi olma hayalinden bahsetti. Döndüğünde Gönül kapıdaydı: “Neredesin? Elli beş oldu.”"),
+P(S("x_keremD"), "Bir şey demeden çıktın. Kapıda Ufuk'un arkandan baktığını hissettin."),
+P(S("x_kavgaA"), "Beş dakika oturdun. Titreme geçmedi. Yalnızca küçüldü, içeri çekildi."),
+P(S("x_kavgaB"), "Titreyen ellerle ilk hastanın damarını iki kez kaçırdın. Gönül bir şey demeden iğneyi elinden aldı."),
+P(S("x_kavgaC"), "Adamın babasına gittin. EKG normaldi. Yaşlı adam bileğini tuttu: “Oğlum öyle değil aslında kızım. Korkuyor. Annesini burada kaybettik.”"),
+P(S("x_kavgaD"), "Haluk Hoca dinledi. “Güvenlik tutanak tutar. Şikâyet edersen sen de mahkemelere düşersin. Değer mi?” Cevap beklemedi."),
+P(S("a2B"), "Triyaja döndün. Arkanda güvenlik adamı götürüyordu, Ufuk yerdeydi. Dönüp bakmadın. Kırk hasta."),
+P(S("a2D"), "Tuvaletin kapısına yaslanıp yere oturdun. Ağlamadın. Gücün yoktu. Gözlerini kapadın. Biri kapıyı yumrukladı: “Selin! Kırmızı alan!”"),
+P(function(d){ return d.keremi_gonderdi; }, "Ufuk eve gitti. Onun hastaları da şimdi senin."),
+"Saat üç. Sarı alan, yedinci sedye. Nurten Hanım, yetmiş dört. Ateş, öksürük, nefes darlığı. Grafide sağ alt lobda bir gölge. Pnömoni.",
+"Gelini yanında, kucağında kayınvalidesinin el çantası. “Hocam, annem biraz karışık bugün. Ateşten. Normalde turp gibidir.”",
+"Nurten Hanım mırıldanıyor: “Kızım... o ilaç... bir keresinde kızarmıştım...” Gelin elini okşuyor: “Tamam anneciğim, doktor hanım bilir.”",
+"Ekranda dosya. Üstte sekmeler: Genel. Tahliller. Görüntüleme. Notlar. Alerjiler. Sistem güncellemesinden beri hiçbiri kırmızı değil. Hepsi aynı gri.",
+"Gönül yanında: “Hocam, antibiyotik ne yazıyoruz? Alerjisi var mı?”",
+"Gözlerin ekranda. Alerjiler sekmesine tıklamıyorsun. Bir önceki hasta aklında: o da yaşlıydı, o da pnömoniydi, onun alerjisi yoktu.",
 "“Yok,” diyorsun. “Ampisilin-sulbaktam. Damardan.”",
-"Hülya order'ı alıyor ve gidiyor. Sen sekizinci sedyeye geçiyorsun. Bir göğüs ağrısı. Bir başka dosya."
+"Gönül order'ı alıp gidiyor. Sen sekizinci sedyeye geçiyorsun."
 ], secenekler: [
 { t: "Sekizinci sedyeye geçersin. Göğüs ağrısı bekleyemez.", to: "a4", etki: { sistem: 1 } },
-{ t: "Bir an durursun. Bir şey unuttun mu? Hatırlayamazsın. Devam edersin.", to: "a4", etki: { durustluk: 1, his: true } },
-{ t: "Nurten Hanım'ın gelinine bir şey sorarsın: annesi neyi kastetti?", to: "a4", etki: { durustluk: 1, gelin_soru: true } },
-{ t: "Çikolatanın son parçasını yersin. Kan şekerin düşüyor; ellerin titriyor.", to: "a4", etki: { sefkat: 1 } }
+{ t: "Bir an durursun. Bir şey mi unuttun? Hatırlayamazsın. Devam edersin.", to: "a4", etki: { durustluk: 1, his: true } },
+{ t: "Geline sorarsın: annesi neyi kastetti?", to: "a4", etki: { durustluk: 1, gelin_soru: true } },
+{ t: "Cebindeki erimiş çikolatanın kalanını yersin. Ellerin titriyor.", to: "a4", etki: { sefkat: 1 } }
 ]},
 
 a4: { saat: "Saat 31 · 15.20", baslik: "Kod", metin: [
-P(S("a3A"), "Sekizinci sedyeye geçtin: göğüs ağrısı, EKG, troponin. Nurten Hanım'ın dosyası arkanda bir yerde kapanmıştı."),
-P(S("a3B"), "Bir an durdun. Bir şey unutmuştun; dilin ucundaki bir kelime gibi hissettin. Bulamadın. Devam ettin. O his yirmi dakika sonra bir sesle geri gelecekti."),
-P(S("a3D"), "Çikolatanın son parçasını yedin. Tatlılık dilinde bir saniye kaldı, sonra kayboldu."),
-P(S("a3C"), "“Neyi kastetti annen?” dedin. Gelin omuz silkti. “Bilmiyorum hocam, karışık konuşuyor, yıllar önce bir şey olmuş galiba.” Sonra telefonu çaldı. Sen sekizinci sedyeye döndün. Bir cümle, havada asılı kaldı."),
-"Yirmi dakika sonra Hülya'nın sesi; koridorun öbür ucundan, hiç duymadığın bir tonla: “Selin! Yedi!”",
-"Koşuyorsun. Nurten Hanım'ın yüzü kıpkırmızı, dudakları şişmiş. Boynunda, kollarında kabarıklar. Nefesi hırıltılı; her nefes bir ıslık. Monitörde tansiyon: yetmiş bölü kırk. Altmış. Elli.",
-"Anafilaksi. Kitaplarda okudun, sınavlarda cevapladın, bir kez gördün. Şimdi gözlerinin önünde, yetmiş dört yaşında bir kadının bedeninde.",
-"Serumu kapatıyorsun. Bir şey yapman gerekiyor; şimdi, bu saniye.",
-"Gelin çığlık atıyor. Hülya oksijeni açıyor. Bir başka hemşire acil arabasını getiriyor. Herkes sana bakıyor.",
-"Otuz bir saattir ayaktasın. Beynin ağır, yavaş. Doğru dozu düşünüyorsun; bir saniye, iki saniye. Her saniye bir hava yolunun biraz daha kapanması."
+P(S("a3A"), "Sekizinci sedye: göğüs ağrısı, EKG, troponin. Nurten Hanım'ın dosyası arkanda bir yerde kapanmıştı."),
+P(S("a3B"), "Bir şey unutmuştun. Dilinin ucunda bir kelime gibi. Bulamadın. Yirmi dakika sonra bir sesle geri gelecekti."),
+P(S("a3D"), "Erimiş çikolatayı ambalajdan yaladın. Tadı bir saniye dilinde kaldı."),
+P(S("a3C"), "“Neyi kastetti annen?” Gelin omuz silkti. “Bilmiyorum hocam, yıllar önce bir şey olmuş galiba.” Sonra telefonu çaldı. Cümle havada kaldı."),
+"Yirmi dakika sonra Gönül'ün sesi koridorun öbür ucundan. Hiç duymadığın bir tonla: “Selin! Yedi!”",
+"Koşuyorsun. Nurten Hanım'ın yüzü kıpkırmızı, dudakları şişmiş. Boynunda, kollarında kabarıklar. Her nefes bir ıslık. Tansiyon: yetmiş bölü kırk. Altmış. Elli.",
+"Anafilaksi. Sınavlarda cevapladın, bir kez gördün.",
+"Serumu kapatıyorsun.",
+"Gelin çığlık atıyor. Gönül oksijeni açıyor. Biri acil arabasını getiriyor. Tekerleği sıkışıyor, tekmeyle kurtarıyor. Herkes sana bakıyor.",
+"Otuz bir saattir ayaktasın. Doğru dozu düşünüyorsun. Bir saniye, iki saniye."
 ], secenekler: [
-{ t: "Hiç düşünmeden adrenalini kas içine yaparsın. Şimdi. Kitaptaki gibi.", to: "a5", etki: { erken_adrenalin: true, durustluk: 1 } },
-{ t: "Önce damar yolundan adrenalin hazırlatırsın; doğru dozu Hülya'yla birlikte hesaplayarak.", to: "a5", etki: { sistem: 1, gec_adrenalin: true } },
-{ t: "Levent Hoca'yı çağırtırsın. Bir uzmanın yanında olması gerek.", to: "a5", etki: { sistem: 1, levent_cagrildi: true } },
-{ t: "Bir an donup kalırsın. Hülya'nın sesiyle kendine gelirsin.", to: "a5", etki: { dondu: true } }
+{ t: "Düşünmeden adrenalini kas içine yaparsın. Şimdi. Kitaptaki gibi.", to: "a5", etki: { erken_adrenalin: true, durustluk: 1 } },
+{ t: "Önce damar yolundan adrenalin hazırlatırsın. Dozu Gönül'le birlikte hesaplayarak.", to: "a5", etki: { sistem: 1, gec_adrenalin: true } },
+{ t: "Haluk Hoca'yı çağırtırsın. Bir uzman gerek.", to: "a5", etki: { sistem: 1, levent_cagrildi: true } },
+{ t: "Donup kalırsın. Gönül'ün sesiyle kendine gelirsin.", to: "a5", etki: { dondu: true } }
 ]},
 
 a5: { saat: "Saat 32 · 15.50", baslik: "Sekme", metin: [
-P(S("a4B"), "Damar yolundan adrenalin hazırlattın; dozu Hülya'yla iki kez hesapladınız. Doğru dozdu. Ama hesap dakikalar sürdü ve o dakikalarda Nurten Hanım'ın dudakları morardı."),
-P(S("a4C"), "Levent Hoca'yı çağırttın. Gelmesi dört dakika sürdü; dört dakika boyunca Hülya sana baktı, sen kapıya. Adrenalini Levent Hoca yaptı; senin elinden değil."),
-P(S("a4D"), "Donup kaldın. Bir saniye, üç saniye. Hülya'nın sesi: “Selin!” Sonra ellerin kendiliğinden hareket etti; kitaptaki gibi, ama geç."),
-P(YASADI, "İğne bacağa girdi; kitaptaki gibi, düşünmeden. Bir dakika. İki. Hırıltı azaldı. Tansiyon yükselmeye başladı; sonra düştü, sonra yeniden yükseldi. Damar yolundan ikinci doz. Steroid, antihistaminik, sıvı. Nurten Hanım'ın kalbi durmadı. Bir kez bile."),
-P(OLDU, "Saniyeler. Doz hesaplandı, hazırlandı, verildi. Ama hava yolu kapanmıştı. Nurten Hanım'ın kalbi durdu. Kalp masajı: on iki dakika. Hülya, sen, bir başka asistan, sırayla. Kaburgalar kırıldı; hep kırılır. On ikinci dakikada nabız geri geldi."),
-"Entübe edildi. Yoğun bakıma kaldırıldı.",
-"Sedye gittikten sonra yedinci sedyenin başında duruyorsun. Boş bir yatak, yerde enjektör kapakları, buruşmuş bir çarşaf. Gelin koridorda, telefonla birine ağlıyor.",
-"Bilgisayara dönüyorsun. Nurten Hanım'ın dosyası hâlâ açık. Notlar için; olanları yazman gerek.",
-"Ve sonra, refleksle, belki bir önsezi, belki yalnızca bir sistemin alışkanlığı: Alerjiler sekmesine tıklıyorsun.",
+P(S("a4B"), "Damar yolundan hazırlattın. Dozu Gönül'le iki kez hesapladınız. Doğruydu. Ama hesap dakikalar sürdü ve o dakikalarda Nurten Hanım'ın dudakları morardı."),
+P(S("a4C"), "Haluk Hoca'nın gelmesi dört dakika sürdü. Dört dakika Gönül sana baktı, sen kapıya. Adrenalini Haluk Hoca yaptı."),
+P(S("a4D"), "Donup kaldın. Bir, üç saniye. “Selin!” Sonra ellerin kendiliğinden hareket etti. Kitaptaki gibi, ama geç."),
+P(YASADI, "İğne bacağa girdi. Bir dakika. İki. Islık azaldı. Tansiyon yükseldi, düştü, yükseldi. Damardan ikinci doz. Steroid, antihistaminik, sıvı. Kalbi durmadı."),
+P(OLDU, "Doz hesaplandı, hazırlandı, verildi. Hava yolu kapanmıştı. Kalbi durdu. Kalp masajı on iki dakika; Gönül, sen, bir başka asistan, sırayla. Kaburgalar kırıldı. Hep kırılır. On ikinci dakikada nabız geldi."),
+"Entübe. Yoğun bakım.",
+"Sedye gidiyor. Yedinci sedyenin yeri boş. Yerde enjektör kapakları, buruşuk bir çarşaf, gelinin düşürdüğü el çantası. Gelin koridorda telefonda ağlıyor.",
+"Bilgisayara dönüyorsun. Not yazman gerek.",
+"Ve refleksle, belki bir önseziyle: Alerjiler sekmesine tıklıyorsun.",
 "“PENİSİLİN. Reaksiyon: anafilaksi (2019, Kartal Devlet Hastanesi). Kesinlikle verilmemeli.”",
 "Ampisilin bir penisilin.",
-"Ekrana bakıyorsun. Kelimeler yerinden oynamıyor. Bir daha okuyorsun. Bir daha.",
-"Arkanda bir nefes. Hülya. O da ekrana bakıyor."
+"Bir daha okuyorsun. Kelimeler yerinden oynamıyor.",
+"Arkanda bir nefes. Gönül. O da ekrana bakıyor."
 ], secenekler: [
 { t: "Bir sandalyeye çökersin.", to: "a6", etki: { sefkat: 1 } },
-{ t: "Lavaboya koşarsın; kusarsın.", to: "a6", etki: { durustluk: 1, kustu: true } },
-{ t: "Hülya'ya dönersin: “Sen de gördün.”", to: "a6", etki: { durustluk: 1, hulya_gordu: true } },
-{ t: "Ekranı kapatırsın. Bir anlığına; düşünmek için.", to: "a6", etki: { ekran_kapatti: true } }
+{ t: "Lavaboya koşup kusarsın.", to: "a6", etki: { durustluk: 1, kustu: true } },
+{ t: "Gönül'e dönersin: “Sen de gördün.”", to: "a6", etki: { durustluk: 1, hulya_gordu: true } },
+{ t: "Ekranı kapatırsın. Bir anlığına. Düşünmek için.", to: "a6", etki: { ekran_kapatti: true } }
 ]},
 
 a6: { saat: "Saat 33 · 17.00", baslik: "Seçim", metin: [
-P(S("a5A"), "Sandalyeye çöktün. Bir süre kımıldamadın. Hülya elini omzuna koydu; bir şey söylemedi."),
-P(S("a5B"), "Kustun. Midende hiçbir şey yoktu; yalnızca bir çikolata ve otuz üç saatlik kahve. Lavabonun aynasında bir kadın. Bu sabah tanımamış olmayı tercih ettiğin kadın."),
-P(S("a5C"), "Hülya sana baktı. Yirmi yıllık bir hemşirenin bakışı. “Ben de sordum,” dedi. “Alerji var mı diye. Sen yok dedin. Ben kontrol etmedim. İkimiz de.” İkimiz de. Bu kelimenin seni hafifletip hafifletmediğini bilmiyorsun."),
-P(S("a5D"), "Ekranı kapattın. Karanlık bir ekranda yansıman. Bir an, yalnızca bir an, sekmenin hiç açılmadığı bir dünya düşündün. Sonra Hülya ekranı yeniden açtı. “Hocam,” dedi. Başka bir şey söylemedi."),
-"Saat beş. Acil servis hâlâ dolu. Ama senin için zaman durmuş.",
-"Yoğun bakımdan bir telefon: Nurten Hanım stabil ama ağır. Bilinci kapalı. Önümüzdeki kırk sekiz saat belirleyici.",
-"Bilgisayarda Nurten Hanım'ın dosyası. Order kaydı: ampisilin-sulbaktam, 15.04, Dr. Selin Acar. Alerji kaydı: penisilin, 2019. İkisi aynı dosyada, iki ayrı sekmede.",
-"Bu hastanede tıbbi hatalar için bir “olay bildirim sistemi” var. Kâğıt üstünde. Asistanlar arasında bir söz: “Bildirirsen sen yanarsın, bildirmezsen hasta yanar.” Ve kimse bilmiyor ki: bazen ikisi birden.",
-"Koridorda gelin ve bir adam; Nurten Hanım'ın oğlu Oğuz, işten koşarak gelmiş. Sana doğru yürüyorlar.",
-"Ne söylersen, ilk söylediğin şey olacak. Ondan sonra söyleyeceğin her şey, buna bir düzeltme ya da bir devam olacak."
+P(S("a5A"), "Sandalyeye çöktün. Gönül elini omzuna koydu. Bir şey demedi. Eli ağırdı."),
+P(S("a5B"), "Kustun. Midende yalnızca çikolata ve kahve vardı. Lavabonun aynasında sabahki kadın."),
+P(S("a5C"), "Gönül'ün yüzü bembeyazdı. “Ben de sordum,” dedi. “Sen yok dedin. Ben bakmadım. İkimiz de.” Bu kelime seni hafifletti mi, bilmiyorsun."),
+P(S("a5D"), "Ekranı kapattın. Kararmış ekranda yansıman. Sekmenin hiç açılmadığı bir dünya. Sonra Gönül uzanıp ekranı yeniden açtı. “Hocam,” dedi. Başka bir şey demedi."),
+"Saat beş. Acil hâlâ dolu.",
+"Yoğun bakım arıyor: Nurten Hanım stabil ama ağır. Bilinci kapalı. Kırk sekiz saat belirleyici.",
+"Dosyada order kaydı: ampisilin-sulbaktam, 15.04, Dr. Selin Acar. Alerji kaydı: penisilin, 2019. Aynı dosyada, iki ayrı sekmede.",
+"Hastanede bir “olay bildirim sistemi” var. Kâğıt üstünde. Asistanlar arasında bir söz: “Bildirirsen sen yanarsın, bildirmezsen hasta.”",
+"Koridorda gelin ve bir adam: Nurten Hanım'ın oğlu Oğuz, işten koşarak gelmiş, kravatı yamuk, elinde bir poşet portakal. Sana doğru yürüyorlar."
 ], secenekler: [
-{ t: "Oğuz'a ve geline şimdi, burada, her şeyi söylersin. Kariyerini, belki diplomanı, bir koridorda ortaya koyarak.", to: "h1", etki: { durustluk: 2, kol: "acik" } },
-{ t: "Önce Levent Hoca'ya gidersin. Hiyerarşi; ama ailenin ilk duyacağı şeyi artık sen belirlemeyeceksin.", to: "b1", etki: { sistem: 1, kol: "hiyerarsi" } },
-{ t: "Order'ı sistemde düzeltirsin; ilacın adını, saatini. Kimse fark etmeyecek. Hülya dışında, belki.", to: "c1", etki: { kol: "ortbas" } },
-{ t: "Bir olay bildirimi yazarsın; asıl nedeni sistem olarak: otuz altı saat, sekmeler, personel. Doğru; ama ailenin karşısına çıkmadan.", to: "s1", etki: { sistem: 2, kol: "sistem" } }
+{ t: "Oğuz'a ve geline şimdi, burada, her şeyi söylersin. Kariyerini, belki diplomanı bir koridorda ortaya koyarak.", to: "h1", etki: { durustluk: 2, kol: "acik" } },
+{ t: "Önce Haluk Hoca'ya gidersin. Ama ailenin ilk duyacağı şeyi artık sen belirlemeyeceksin.", to: "b1", etki: { sistem: 1, kol: "hiyerarsi" } },
+{ t: "Order'ı sistemde düzeltirsin. İlacın adını. Kimse fark etmeyecek. Gönül dışında, belki.", to: "c1", etki: { kol: "ortbas" } },
+{ t: "Bir olay bildirimi yazarsın. Asıl nedeni sistem olarak: otuz altı saat, sekmeler, kadro. Doğru. Ama ailenin karşısına çıkmadan.", to: "s1", etki: { sistem: 2, kol: "sistem" } }
 ]},
 
 /* ---------- AÇIKLIK KOLU ---------- */
 h1: { saat: "Saat 33 · 17.10", baslik: "Oğuz", metin: [
-P(S("a6A"), "Onlara doğru yürüdün. Üç adım. Her adımda bir cümle kurdun ve bozdun."),
-P(S("b1B"), "“Aileye ben söylemek istiyorum hocam.” Levent Hoca bir süre baktı. “Senin kararın,” dedi. “Ama yalnız gideceksin.” Yalnız gittin."),
-P(S("c1C"), "Değişikliği geri aldın. Ekranda eski satır yeniden belirdi: ampisilin-sulbaktam, 15.04, Dr. Selin Acar. Adın. Sonra koridora yürüdün."),
-P(S("c2A"), "“Haklısın. Düzeltiyorum,” dedin. Hülya kapıyı açıp seni bekledi. Kaydı geri aldın; birlikte koridora yürüdünüz."),
-"Oğuz kırk beş yaşlarında, kravatı gevşek, yüzü bembeyaz. “Annem nasıl? Ne oldu? Sabah iyiydi, öksürüyordu sadece.”",
-"Onu ve gelini boş bir odaya alıyorsun. Kapıyı kapatıyorsun. Oturmalarını istiyorsun. Oturmuyorlar.",
-"Kelimeleri hazırlamadın. Bir tıp fakültesinde, bir asistanlık eğitiminde, hiç kimse sana bunu öğretmedi: kendi hatanı bir aileye nasıl söylersin.",
-"“Annenize bir antibiyotik verdik,” diyorsun. “Penisilin grubundan. Annenizin penisilin alerjisi vardı; kayıtlarda yazıyordu. Ben bakmadım. Ben yazdım. Annenizde ağır bir alerjik reaksiyon gelişti. Şu an yoğun bakımda. Bu benim hatam.”",
-"Bir sessizlik. Oğuz'un yüzü değişmiyor; sanki cümleleri anlamamış gibi. Gelin bir sandalyeye çöküyor; o anlamış.",
-"Sonra Oğuz konuşuyor. Sesi alçak, çok alçak.",
-"“Annemi siz mi... Bir ilaçla mı? Bir sekme yüzünden mi?”",
-"Ve sonra sesi yükseliyor: “Kaç saattir buradasınız? Uyudunuz mu? Bu nasıl bir hastane? Bu nasıl bir ülke?”"
+P(S("a6A"), "Onlara doğru yürüdün. Üç adım. Her adımda bir cümle kurup bozdun."),
+P(S("b1B"), "“Aileye ben söylemek istiyorum hocam.” Haluk Hoca baktı. “Senin kararın. Ama yalnız gideceksin.”"),
+P(S("c1C"), "Değişikliği geri aldın. Ekranda eski satır: ampisilin-sulbaktam, 15.04, Dr. Selin Acar. Sonra koridora yürüdün."),
+P(S("c2A"), "“Haklısın,” dedin. Gönül kapıyı açıp bekledi. Kaydı geri aldın. Birlikte koridora yürüdünüz."),
+"Oğuz kırk beş yaşlarında, yüzü bembeyaz. “Annem nasıl? Sabah iyiydi, öksürüyordu sadece.”",
+"Boş bir odaya alıyorsun. Kapıyı kapatıyorsun. Oturmuyorlar. Portakal poşeti Oğuz'un elinde sallanıyor.",
+"Kendi hatanı bir aileye nasıl söyleyeceğini kimse öğretmedi.",
+"“Annenize bir antibiyotik verdik. Penisilin grubundan. Annenizin penisilin alerjisi vardı. Kayıtlarda yazıyordu. Ben bakmadım. Ben yazdım. Ağır bir alerjik reaksiyon gelişti. Şu an yoğun bakımda. Bu benim hatam.”",
+"Oğuz'un yüzü değişmiyor. Anlamamış gibi. Gelin bir sandalyeye çöküyor. O anlamış.",
+"Oğuz konuşuyor, çok alçak sesle: “Annemi siz mi... Bir ilaçla mı?”",
+"Sonra sesi yükseliyor: “Kaç saattir buradasınız? Uyudunuz mu? Bu nasıl hastane?” Poşet elinden düşüyor. Portakallardan biri yuvarlanıp senin ayağına çarpıyor."
 ], secenekler: [
 { t: "“Otuz üç saattir,” dersin. “Ama bu bir bahane değil.”", to: "h2", etki: { durustluk: 1, saat_soyledi: true } },
-{ t: "“Özür dilerim,” dersin. Başka hiçbir şey.", to: "h2", etki: { durustluk: 1, sefkat: 1, ozur: true } },
+{ t: "“Özür dilerim,” dersin. Başka bir şey eklemeden.", to: "h2", etki: { durustluk: 1, sefkat: 1, ozur: true } },
 { t: "“Hastane yönetimiyle de konuşmanız gerekecek. Bu bir kurum meselesi de,” dersin.", to: "h2", etki: { sistem: 1 } },
-{ t: "Oğuz'un öfkesine izin verirsin; bir şey söylemeden.", to: "h2", etki: { sefkat: 1 } }
+{ t: "Oğuz'un öfkesine izin verirsin.", to: "h2", etki: { sefkat: 1 } }
 ]},
 
 h2: { saat: "Ertesi gün", baslik: "Avukat", metin: [
-P(S("b3A"), "Sabah ilk iş Oğuz'u buldun; yoğun bakımın kapısında, uykusuz. Her şeyi söyledin: dünkü “beklenmedik reaksiyon”un gerçeğini. Oğuz bir şey demedi. Öğlen avukatını aradı."),
-P(S("h1C"), "“Hastane yönetimiyle de konuşmanız gerekecek,” dedin. Oğuz sana uzun uzun baktı. “Yani suçlu bir bina,” dedi ve arkasını dönüp gitti."),
-P(S("h1D"), "Oğuz'un öfkesine izin verdin. Bağırdı, duvara vurdu, sonra bir sandalyeye çöküp ağladı. Sen hep oradaydın. Bitince başını kaldırdı: “Hâlâ burada mısınız?” Evet."),
-P(S("h1A"), "“Otuz üç saat,” diye tekrarladı Oğuz. Bir an öfkesi sana değil, başka bir yere döndü. Sonra geri geldi. “Bahane değil. Doğru. Ama bu da bir gerçek.”"),
-P(S("h1B"), "“Özür,” dedi Oğuz. “Özür.” Kelimeyi tarttı. Sonra döndü ve odadan çıktı. Gelin arkasından gitmedi. Sana baktı. “Annem sizi suçlamazdı,” dedi. “O hep doktorlara güvenirdi.” Bu cümle bir yumruktan daha ağır geldi."),
-"Ertesi sabah hastane avukatı seni çağırıyor. Hukuk müşavirliği, beşinci kat. Avukat Sinem Hanım, kırklarında, yorgun ama keskin.",
-"“Selin Hanım,” diyor, “dün aileye ne söylediniz?”",
+P(S("b3A"), "Sabah ilk iş Oğuz'u buldun. Yoğun bakımın kapısında, dünkü gömleğiyle. Dünkü “beklenmedik reaksiyon”un gerçeğini söyledin. Oğuz bir şey demedi. Öğlen avukatını aradı."),
+P(S("h1C"), "“Hastane yönetimiyle konuşun,” dedin. Oğuz sana baktı. “Yani suçlu bir bina,” dedi, gitti."),
+P(S("h1D"), "Oğuz bağırdı, duvara vurdu, sonra bir sandalyeye çöküp ağladı. Sen oradaydın. Bitince başını kaldırdı: “Hâlâ burada mısınız?” Evet. Portakalı yerden alıp ona uzattın. Almadı, sonra aldı."),
+P(S("h1A"), "“Otuz üç saat,” dedi Oğuz. Öfkesi bir an başka bir yere döndü. Sonra geri geldi. “Bahane değil. Ama bu da doğru, değil mi?”"),
+P(S("h1B"), "“Özür,” dedi Oğuz, kelimeyi tarttı, çıktı. Gelin arkasından gitmedi. “Annem sizi suçlamazdı,” dedi. “Hep doktorlara güvenirdi.” Bu cümle yumruktan ağır geldi."),
+"Ertesi sabah hastane avukatı seni çağırıyor. Beşinci kat. Sinem Hanım, kırklarında. Masasında yarım bir simit, kâğıt peçeteye sarılı.",
+"“Dün aileye ne söylediniz?”",
 "Anlatıyorsun.",
-"Sinem Hanım bir süre bir şey söylemiyor. Sonra: “Bunu yapmamanız gerekiyordu. Hata kabulü, bir dava açıldığında sizin aleyhinize en güçlü delil olur. Hastane de sorumlu tutulur. Bir dahakine önce bizimle konuşun.”",
-"Sonra sesini yumuşatıyor: “Ama size bir şey söyleyeyim. Yirmi yıldır bu işi yapıyorum. Hekimlerin çoğu söylemez. Bunu yapan çok az kişi gördüm. Hukuken hata yaptınız. Başka türlü... başka türlü bir şey yaptınız.”",
-"Masasında bir dosya. Oğuz Bey bir avukat tutmuş. Bir ön bildirim gelmiş."
+"Sinem Hanım bir süre bir şey demiyor. Sonra: “Bunu yapmamalıydınız. Hata kabulü davada aleyhinize en güçlü delil. Bir dahaki sefere önce bize gelin.”",
+"Sonra simidini kenara itiyor. “Yirmi yıldır bu işi yapıyorum. Hekimlerin çoğu söylemez. Hukuken hata yaptınız.” Duruyor. “Gerisini ben söyleyemem, avukatım.”",
+"Masada bir dosya: Oğuz Bey bir avukat tutmuş."
 ], secenekler: [
 { t: "“Yine yapardım,” dersin.", to: "h3", etki: { durustluk: 1, yine_yapardim: true } },
 { t: "“Ne yapmam gerekiyor şimdi?” diye sorarsın.", to: "h3", etki: { sistem: 1 } },
 { t: "“Hastaneye zarar verdiysem özür dilerim,” dersin.", to: "h3", etki: { sistem: 1, kurum_ozur: true } },
-{ t: "Oğuz Bey'le yeniden konuşmak istediğini söylersin; avukatsız.", to: "h3", etki: { durustluk: 1, sefkat: 1, ogz_yeniden: true } }
+{ t: "Oğuz Bey'le avukatsız konuşmak istediğini söylersin.", to: "h3", etki: { durustluk: 1, sefkat: 1, ogz_yeniden: true } }
 ]},
 
 h3: { saat: "Üçüncü gün", baslik: "Yoğun Bakım", metin: [
-P(S("h2A"), "“Yine yapardım,” dedin. Sinem Hanım kalemini bıraktı. “Bunu mahkemede söylemeyin,” dedi. Sonra, daha alçak sesle: “Ama doğru yapmışsınız.”"),
-P(S("h2B"), "“Ne yapmam gerekiyor?” Sinem Hanım bir liste uzattı: ifade, savunma, bilirkişi. Hiçbirinde “Nurten Hanım” yazmıyordu."),
-P(S("h2C"), "“Hastaneye zarar verdiysem özür dilerim.” Sinem Hanım başını kaldırdı. “Hastaneden değil,” dedi. “Özür dilemeniz gereken kişi yedinci katta.”"),
-P(S("h2D"), "Sinem Hanım sana uzun süre baktı. “Bunu size öneremem,” dedi. “Ama sizi durduramam da.” Akşam yoğun bakımın kapısında Oğuz'u buldun. Yanına oturdun. İkiniz de konuşmadınız; bir saat. Sonra Oğuz, “Annem kızarmıştı demiştir,” dedi. “Hep öyle derdi. ‘Bir keresinde kızarmıştım.’ Ölmek üzereydi o zaman, Kartal'da. Ona hep ‘kızardım’ derdi. Böyle küçültürdü her şeyi.”"),
-P(YASADI, "Üçüncü gün Nurten Hanım'ın tüpü çıkarılıyor. Gözlerini açıyor. Kafası karışık ama tanıyor: oğlunu, gelinini. Bir hafta sonra servise, iki hafta sonra eve."),
-P(YASADI, "Bir hafta sonra servise gidiyorsun. Nurten Hanım pencerenin önünde, bir sandalyede. Seni görünce gülümsüyor; tanımıyor. “Sen de mi doktorsun kızım? Ne kadar gençsin.”"),
-P(OLDU, "Üçüncü gün Nurten Hanım'ın beyin görüntüleri geliyor. On iki dakikalık kalp durması; beyin yeterince oksijen alamamış. Uyanmayacak. Belki hiç."),
-P(OLDU, "Beşinci gün aile solunum cihazının kapatılmasına karar veriyor. Yoğun bakımda, akşam. Oğuz annesinin elini tutuyor; gelin dua ediyor. Sen kapının dışındasın. Seni çağırmadılar. Ama gitmeni de istemediler."),
-"Bir hata bir insanın başına gelen bir şey değil; bir insanın yaptığı bir şey. Ve ne yaptığının sonucunu sen belirlemiyorsun; şans belirliyor. Bir saniyelik bir refleks, bir dozun hızı, bir bedenin direnci.",
-"Aynı hatayı yapan iki hekim düşün: birinin hastası yaşar, öbürünün ölür. Hangisi daha suçlu? Hukuk diyor ki ikincisi. Vicdan ne diyor?"
+P(S("h2A"), "“Yine yapardım.” Sinem Hanım kalemini bıraktı. “Bunu mahkemede söylemeyin,” dedi. Simidini yeniden aldı, ısırmadan tuttu."),
+P(S("h2B"), "Sinem Hanım bir liste uzattı: ifade, savunma, bilirkişi. Hiçbirinde “Nurten” yazmıyordu."),
+P(S("h2C"), "Sinem Hanım başını kaldırdı. “Özür dilemeniz gereken kişi bu katta değil. Yedinci katta.”"),
+P(S("h2D"), "“Bunu öneremem,” dedi Sinem Hanım. “Durduramam da.” Akşam yoğun bakımın kapısında Oğuz'un yanına oturdun. Bir saat konuşmadınız. Sonra Oğuz: “‘Kızarmıştım’ demiştir. Hep öyle derdi. Kartal'da ölüyordu o zaman. Hep ‘kızardım’ derdi. Her şeyi küçültürdü.”"),
+P(YASADI, "Üçüncü gün tüp çıkarılıyor. Gözlerini açıyor. Kafası karışık ama oğlunu, gelinini tanıyor. Bir hafta sonra servise, iki hafta sonra eve."),
+P(YASADI, "Bir hafta sonra servise uğruyorsun. Nurten Hanım pencerenin önünde. Seni görünce gülümsüyor. Tanımıyor. “Sen de mi doktorsun kızım? Ne kadar gençsin. Bir şey ye, bak zayıfsın.”"),
+P(OLDU, "Üçüncü gün beyin görüntüleri geliyor. On iki dakikalık durma. Beyin yeterince oksijen alamamış. Uyanmayacak."),
+P(OLDU, "Beşinci gün aile cihazın kapatılmasına karar veriyor. Akşam. Oğuz annesinin elini tutuyor, gelin dua ediyor. Sen kapının dışındasın. Seni çağırmadılar. Gitmeni de istemediler."),
+"Aynı hatayı yapan iki hekim: birinin hastası yaşar, öbürününki ölür. Hukuk ikincisine ceza verir. Senin hangisi olduğunu bir saniyelik bir refleks belirledi."
 ], secenekler: [
 { t: function(d){ return YASADI(d) ? "Nurten Hanım'a kim olduğunu söylersin." : "Yoğun bakımın kapısında Oğuz'u beklersin."; }, to: "t1", etki: function(d){ d.durustluk++; if(YASADI(d)) d.nurtene_soyledi = true; else d.kapida_bekledi = true; } },
 { t: function(d){ return YASADI(d) ? "“Evet teyze, doktorum,” dersin. Başka bir şey söylemeden." : "Hastaneden çıkıp yürürsün."; }, to: "t1", etki: function(d){ d.sefkat++; } },
-{ t: "Bu iki ihtimali düşünürsün: yaşaması, ölmesi. Ve hangisinin senin elinde olduğunu.", to: "t1", etki: { durustluk: 1, sans_dusundu: true } },
-{ t: "Kerem'i ararsın.", to: "t1", etki: { sefkat: 1, keremi_aradi: true } }
+{ t: "İki ihtimali düşünürsün: yaşaması, ölmesi. Hangisinin senin elinde olduğunu.", to: "t1", etki: { durustluk: 1, sans_dusundu: true } },
+{ t: "Ufuk'u ararsın.", to: "t1", etki: { sefkat: 1, keremi_aradi: true } }
 ]},
 
 /* ---------- HİYERARŞİ KOLU ---------- */
-b1: { saat: "Saat 33 · 17.10", baslik: "Levent Hoca", metin: [
-"Levent Hoca nöbetçi odasında, bir dosyanın başında. Elli yaşında, acil tıp uzmanı; on beş yıldır bu acilde. Seni görünce yüzündeki ifade değişiyor; bir şey olduğunu anlıyor.",
-"Anlatıyorsun. Her şeyi. Sekme, order, reaksiyon, kod.",
-"Levent Hoca dinliyor. Bir kez bile sözünü kesmiyor. Bitince bir süre pencereden dışarı bakıyor.",
-"“Selin,” diyor, “bu hastanede son beş yılda dört kez oldu bu. Bilgi sistemi değişti, sekmeler renk kaybetti, alerji uyarısı açılır pencere olmaktan çıktı. Ben üç kez yazdım. Bilgi işleme. Başhekimliğe. Kimse bir şey yapmadı.”",
-"Sonra sana dönüyor. “Şimdi beni dinle. Bir şey yazma. Olay bildirimi yazma. Dosyaya ‘beklenmedik ilaç reaksiyonu’ yaz. Aileyle ben konuşacağım. Sen eve git, uyu.”",
+b1: { saat: "Saat 33 · 17.10", baslik: "Haluk Hoca", metin: [
+"Haluk Hoca nöbetçi odasında. Elli yaşında, on beş yıldır bu acilde. Masasında yarısı içilmiş üç bardak çay. Seni görünce yüzü değişiyor.",
+"Her şeyi anlatıyorsun. Sekme, order, reaksiyon, kod.",
+"Dinliyor. Bitince pencereden dışarı bakıyor. Otoparkta biri arabasını iki yeri kaplayacak şekilde park etmiş.",
+"“Selin, son beş yılda dört kez oldu bu. Sistem değişti, sekmeler renk kaybetti, uyarı penceresi kaldırıldı. Ben üç kez yazdım. Bilgi işleme, başhekimliğe. Kimse bir şey yapmadı.”",
+"“Şimdi dinle. Bir şey yazma. Bildirim yazma. Dosyaya ‘beklenmedik ilaç reaksiyonu’ yaz. Aileyle ben konuşurum. Sen eve git, uyu.”",
 "“Ama hocam...”",
-"“Selin. Bir hata bildirirsen ne olur biliyor musun? Soruşturma. Disiplin. Belki dava. Belki mesleğin. Ve sistem? Sistem aynen kalır. Bir sonraki asistan aynı sekmeyi açmaz. Seni korumak benim işim.”"
+"“Bildirirsen ne olur? Soruşturma. Disiplin. Belki dava. Belki mesleğin. Sistem? Aynen kalır. Seni korumak benim işim.”"
 ], secenekler: [
-{ t: "Levent Hoca'nın dediğini yaparsın. Eve gidersin.", to: "b2", etki: { sistem: 1, eve: true } },
+{ t: "Haluk Hoca'nın dediğini yaparsın. Eve gidersin.", to: "b2", etki: { sistem: 1, eve: true } },
 { t: "“Aileye ben söylemek istiyorum hocam,” dersin.", to: "h1", etki: { durustluk: 2, kol: "acik", hiyerarsi_asti: true } },
-{ t: "Eve gitmezsin; Levent Hoca'nın aileyle konuşmasını izlemek için kalırsın.", to: "b2", etki: { durustluk: 1, kaldi: true } },
-{ t: "“Hocam, siz üç kez yazdınız. Ben dördüncüsünü yazayım,” dersin.", to: "s1", etki: { sistem: 2, kol: "sistem", leventle: true } }
+{ t: "Eve gitmezsin; Haluk Hoca'nın aileyle konuşmasını izlemek için kalırsın.", to: "b2", etki: { durustluk: 1, kaldi: true } },
+{ t: "“Hocam, siz üç kez yazdınız. Dördüncüsünü ben yazayım,” dersin.", to: "s1", etki: { sistem: 2, kol: "sistem", leventle: true } }
 ]},
 
 b2: { saat: "Saat 34 · 18.00", baslik: "Aile Odası", metin: [
-P(S("b1A"), "Eve gittin. Ama uyumadın. Yatakta tavana baktın. Saat dokuzda telefonun çaldı: Levent Hoca. “Konuştum,” dedi. “Beklenmedik bir ilaç reaksiyonu dedim. Anladılar. Merak etme.” Anladılar. Neyi?"),
-P(S("b1C"), "Kaldın. Aile odasının kapısı aralık. İçeride Levent Hoca, Oğuz, gelin. Sen koridorda, duvara yaslanmış."),
-P(S("b1C"), "Levent Hoca konuşuyor; sakin, profesyonel, insani. “Annenize bir antibiyotik verildi. Maalesef ağır bir alerjik reaksiyon gelişti. Bu bazen olur; ilaçlar beklenmedik tepkiler yaratabilir. Ekibimiz çok hızlı müdahale etti.” Her cümle doğru. Hiçbiri gerçek değil."),
-P(S("b1C"), "Oğuz soruyor: “Annemin bir alerjisi var mıydı? Biliyor muydunuz?” Levent Hoca bir an duraksıyor. Bir saniye; belki daha az. “Kayıtlarımızı inceleyeceğiz,” diyor. Oğuz başını sallıyor. Güveniyor."),
-"Bir yalan, bir kurumun ağzından söylendiğinde, yalan gibi durmuyor. Bir prosedür gibi duruyor.",
-"Gece. Acil servisin arka kapısı. Bir sigara içmiyorsun ama sigara içenlerin durduğu yerde duruyorsun. Hülya geliyor; o da içmiyor.",
-"“Levent Hoca ne dedi?” diyor Hülya.",
+P(S("b1A"), "Eve gittin. Uyumadın. Saat dokuzda Haluk Hoca aradı: “Konuştum. Beklenmedik reaksiyon dedim. Anladılar. Merak etme.” Neyi anladılar?"),
+P(S("b1C"), "Kaldın. Aile odasının kapısı aralık. Sen koridorda, duvara yaslanmış."),
+P(S("b1C"), "Haluk Hoca konuşuyor. Sakin, insani. “Annenize bir antibiyotik verildi. Ağır bir alerjik reaksiyon gelişti. Bu bazen olur. Ekibimiz çok hızlı müdahale etti.” Her cümle doğru. Bir şey eksik."),
+P(S("b1C"), "Oğuz: “Annemin alerjisi var mıydı? Biliyor muydunuz?” Haluk Hoca bir saniyeden kısa bir süre duruyor. “Kayıtlarımızı inceleyeceğiz.” Oğuz başını sallıyor. Güveniyor."),
+"Gece. Acil servisin arka kapısı. Sigara içenlerin durduğu yer. Sen içmiyorsun. Gönül geliyor. O da içmiyor. İkiniz de oraya geliyorsunuz yine de.",
+"“Haluk Hoca ne dedi?”",
 "Anlatıyorsun.",
-"Hülya uzun süre susuyor. Sonra: “Yirmi yıldır bu acildeyim. Bu dördüncü. Her seferinde aynı şey oldu. Biri bir şey söyledi, biri sustu, aile ‘beklenmedik reaksiyon’ diye eve gitti. Ve sekme hâlâ aynı renkte.”"
+"Gönül uzun süre susuyor. “Yirmi yıldır buradayım. Bu dördüncü. Her seferinde aynı. Biri konuştu, biri sustu, aile ‘beklenmedik reaksiyon’ diye eve gitti. Sekme hâlâ gri.”"
 ], secenekler: [
-{ t: "“Ne yapmalıyım Hülya Abla?” diye sorarsın.", to: "b3", etki: { sefkat: 1, hulyaya_sordu: true } },
-{ t: "“Levent Hoca beni korumaya çalışıyor,” dersin.", to: "b3", etki: { sistem: 1 } },
+{ t: "“Ne yapmalıyım Gönül Abla?” diye sorarsın.", to: "b3", etki: { sefkat: 1, hulyaya_sordu: true } },
+{ t: "“Haluk Hoca beni korumaya çalışıyor,” dersin.", to: "b3", etki: { sistem: 1 } },
 { t: "“Bu sefer farklı olacak,” dersin. Nasıl, bilmeden.", to: "b3", etki: { durustluk: 1 } },
-{ t: "Hiçbir şey söylemezsin. Hülya'nın yanında durursun.", to: "b3", etki: { sefkat: 1 } }
+{ t: "Bir şey demeden Gönül'ün yanında durursun.", to: "b3", etki: { sefkat: 1 } }
 ]},
 
 b3: { saat: "Gece", baslik: "Uyku", metin: [
-P(S("b2B"), "“Levent Hoca beni korumaya çalışıyor,” dedin. Hülya başını salladı. “Biliyorum,” dedi. “Hepimizi korur. Kimseyi kurtarmaz.”"),
-P(S("b2C"), "“Bu sefer farklı olacak,” dedin. Hülya bir şey demedi. Yalnızca baktı; yirmi yılda bu cümleyi kaç kez duyduğunu sayar gibi."),
-P(S("b2D"), "Bir şey söylemeden Hülya'nın yanında durdun. Bir süre sonra omzunu omzuna değdirdi. Sonra ikiniz de işe döndünüz."),
-P(S("b2A"), "“Ben ne yapmalıyım diye sormayı yirmi yıl önce bıraktım,” dedi Hülya. “Sen sor. Ama kendine sor.”"),
-"Gece ikide uyanıyorsun. Kendi yatağındasın. Bir an nerede olduğunu bilmiyorsun. Sonra hatırlıyorsun. Hepsini.",
-"Kalp çarpıntısı. Terlemiş çarşaflar. Tavanda bir leke; hep oradaydı, hiç fark etmemiştin.",
-"Telefonunu alıyorsun. Yoğun bakımın numarası. Nöbetçi hemşireye Nurten Hanım'ı soruyorsun. “Stabil,” diyor. “Ama ağır. Siz kimsiniz?” Bir an cevap veremiyorsun. “Acil asistanı,” diyorsun sonunda.",
-"Sonra hastane bilgi sistemine evden bağlanıyorsun. Nurten Hanım'ın dosyası. Levent Hoca'nın notu: “Antibiyotik sonrası beklenmedik anafilaktik reaksiyon. Hızlı müdahale ile stabilize edildi.” Alerji sekmesi değişmemiş: “Penisilin. 2019.” İkisi yan yana. Bir sekme farkıyla.",
-"Bir dosya, iki gerçek. Biri bir kurumun gerçeği; öbürü bir kayıt sisteminin.",
-"Uyumak istiyorsun. Ama gözlerini her kapattığında bir sekme görüyorsun; açılmamış."
+P(S("b2B"), "“Biliyorum,” dedi Gönül. “Hepimizi korur. Kimseyi kurtarmaz.”"),
+P(S("b2C"), "Gönül bir şey demedi. Bu cümleyi yirmi yılda kaç kez duyduğunu sayar gibi baktı."),
+P(S("b2D"), "Yanında durdun. Bir süre sonra omzunu omzuna değdirdi. Sonra ikiniz de içeri girdiniz."),
+P(S("b2A"), "“Ben ne yapmalıyım diye sormayı yirmi yıl önce bıraktım,” dedi Gönül. “Sen sor. Ama kendine sor.”"),
+"Gece ikide uyanıyorsun. Kalp çarpıntısı, terli çarşaf. Tavanda bir leke. Hep oradaymış.",
+"Yoğun bakımı arıyorsun. “Stabil,” diyor nöbetçi hemşire. “Ağır. Siz kimsiniz?” Bir süre cevap veremiyorsun. “Acil asistanı.”",
+"Evden sisteme bağlanıyorsun. Haluk Hoca'nın notu: “Antibiyotik sonrası beklenmedik anafilaktik reaksiyon. Hızlı müdahale ile stabilize edildi.” Bir sekme yanında: “Penisilin. 2019.”",
+"Gözlerini kapatınca bir sekme görüyorsun. Gri, açılmamış."
 ], secenekler: [
-{ t: "Sabah ilk iş Oğuz'u bulup ona gerçeği söylersin.", to: "h2", etki: { durustluk: 2, kol: "acik", gec_acik: true } },
-{ t: "Bir olay bildirimi yazarsın; Levent Hoca'nın haberi olmadan.", to: "s2", etki: { sistem: 2, kol: "sistem", gizli_bildirim: true } },
-{ t: "Uyumaya çalışırsın. Levent Hoca haklı olabilir.", to: "t1", etki: { sistem: 1, sustu: true } },
-{ t: "Bir kâğıda her şeyi yazarsın; kimseye göndermeden.", to: "t1", etki: { durustluk: 1, gunluk: true } }
+{ t: "Sabah ilk iş Oğuz'u bulup gerçeği söylersin.", to: "h2", etki: { durustluk: 2, kol: "acik", gec_acik: true } },
+{ t: "Haluk Hoca'nın haberi olmadan bir olay bildirimi yazarsın.", to: "s2", etki: { sistem: 2, kol: "sistem", gizli_bildirim: true } },
+{ t: "Uyumaya çalışırsın. Haluk Hoca haklı olabilir.", to: "t1", etki: { sistem: 1, sustu: true } },
+{ t: "Bir kâğıda her şeyi yazarsın. Kimseye göndermeden.", to: "t1", etki: { durustluk: 1, gunluk: true } }
 ]},
 
 /* ---------- ÖRTBAS KOLU ---------- */
 c1: { saat: "Saat 33 · 17.05", baslik: "Düzeltme", metin: [
-"Order ekranı açık. “Ampisilin-sulbaktam, 15.04, Dr. Selin Acar.” Düzenle butonu. Bir tıklama ve ilacın adı değişebilir: seftriakson. O da bir antibiyotik; o da penisilinle çapraz reaksiyon verebilir ama nadiren. Nadiren. Bir “beklenmedik reaksiyon”.",
+"Order ekranı: “Ampisilin-sulbaktam, 15.04, Dr. Selin Acar.” Düzenle. Bir tıklamayla ilacın adı değişebilir: seftriakson. O da antibiyotik. Penisilinle çapraz reaksiyonu nadir. Nadir. “Beklenmedik reaksiyon.”",
 "Ellerin klavyenin üstünde. Titrememeleri seni korkutuyor.",
-"Bir tıklama. “Değişiklik nedeni” diye bir kutu açılıyor. Yazıyorsun: “Yanlış giriş, düzeltildi.”",
+"“Değişiklik nedeni” kutusu açılıyor. Yazıyorsun: “Yanlış giriş, düzeltildi.”",
 "Kaydet.",
-"Ekranda yeni order: “Seftriakson, 15.04.” Eski satır yok. Ya da var; sistemin bir yerinde, bir logda. Bunu biliyorsun. Bilmezden geliyorsun.",
-"Arkanda bir nefes. Döndüğünde kimse yok. Ya da biri vardı ve gitti.",
-"Şimdi ilacı hazırlayan Hülya'ydı. Eczaneden alınan kutu hâlâ bir çöp kutusunda olabilir. Ampisilin yazıyor üstünde. Nurten Hanım'ın gelini order'ı duydu mu? Hatırlar mı?",
-"Bir yalan bir kez söylenmez. Her gün, her yeni bilgiyle, yeniden söylenmesi gerekir."
+"Ekranda yeni satır: “Seftriakson, 15.04.” Eski satır yok. Ya da var. Sistemin bir yerinde, bir logda. Biliyorsun.",
+"Arkanda bir nefes. Dönüyorsun. Kimse yok. Ya da biri vardı ve gitti. Perde hâlâ hafif sallanıyor.",
+"İlacı Gönül hazırladı. Eczaneden gelen kutu bir çöp kutusunda olabilir. Üstünde ampisilin yazıyor. Gelin order'ı duydu mu?"
 ], secenekler: [
-{ t: "Çöp kutusuna gidip ilaç kutusunu bulursun ve atarsın.", to: "c2", etki: { kutu_atti: true } },
+{ t: "Çöp kutusunu karıştırıp ilaç kutusunu bulursun.", to: "c2", etki: { kutu_atti: true } },
 { t: "Hiçbir şey yapmazsın. Ne olacaksa olsun.", to: "c2", etki: { sefkat: 1 } },
 { t: "Değişikliği geri alırsın. Yapamazsın bunu. Sonra koridora, aileye yürürsün.", to: "h1", etki: { durustluk: 2, geri_aldi: true, kol: "acik" } },
-{ t: "Hülya'yı bulursun. Onun ne gördüğünü bilmen gerek.", to: "c2", etki: { hulyaya_gitti: true } }
+{ t: "Gönül'ü bulursun. Ne gördüğünü bilmen gerek.", to: "c2", etki: { hulyaya_gitti: true } }
 ]},
 
-c2: { saat: "Saat 34 · 18.30", baslik: "Hülya", metin: [
-P(S("c1B"), "Hiçbir şey yapmadın. Ekran açık kaldı; düzenlenmiş order, yeni ilaç adı. Bir yalan bir kez kurulunca kendi kendine duruyordu."),
-P(S("c1D"), "Hülya'yı aramaya çıktın. Ama o seni önce buldu."),
-P(S("c1A"), "Çöp kutusu. Enjektörler, gazlı bezler, eldivenler. Ve bir karton kutu: “Ampisilin-sulbaktam 1,5 g.” Alıp cebine koydun. Tuvalette parçalara ayırdın. Hiç bu kadar küçük bir şeyi bu kadar dikkatle yırtmamıştın."),
-"Hülya seni personel odasında buluyor. Kapıyı kapatıyor.",
-"“Selin,” diyor. Bu sefer “hocam” demiyor. “Order'ı değiştirdin.”",
+c2: { saat: "Saat 34 · 18.30", baslik: "Gönül", metin: [
+P(S("c1B"), "Hiçbir şey yapmadın. Ekran açık kaldı. Yeni ilaç adı, yeni satır."),
+P(S("c1D"), "Gönül'ü aramaya çıktın. O seni önce buldu."),
+P(S("c1A"), "Çöp kutusu: enjektörler, gazlı bezler, eldivenler. Bir karton kutu: “Ampisilin-sulbaktam 1,5 g.” Cebine koydun. Tuvalette küçük parçalara ayırdın. Bu kadar küçük bir şeyi hiç bu kadar dikkatle yırtmamıştın. Parçaları sifonla gönderdin. Biri suyun üstünde kaldı, bir daha çektin."),
+"Gönül seni personel odasında buluyor. Kapıyı kapatıyor.",
+"“Selin.” Bu kez “hocam” demiyor. “Order'ı değiştirdin.”",
 "Soru değil.",
-"“Ben ilacı hazırladım. Ben kutuyu açtım. Ben şişenin etiketini okudum: ampisilin. Bunu bir mahkemede söylemem gerekirse söylerim. Yemin ederim söylerim.”",
-"Bir süre bekliyor.",
-"“Ama söylemem gerekmesin diye bir şans veriyorum sana. Yirmi yıldır bu acildeyim. Doktorların hata yaptığını gördüm, ben de yaptım. Ama ben senin için yalan söylemem. Kayıtta ne yazarsa yazsın, ben ne gördüysem onu söylerim. Bunu bil ve kararını ver.”",
-"Hülya'nın gözleri kızarık. Kızgın değil. Hayal kırıklığına uğramış; bu daha kötü."
+"“İlacı ben hazırladım. Kutuyu ben açtım. Şişede ampisilin yazıyordu. Mahkemede sorarlarsa söylerim. Yemin ederim söylerim.”",
+"“Söylemem gerekmesin diye sana bir şans veriyorum. Yirmi yılda çok doktor hata yaptı, ben de yaptım. Ama ben senin için yalan söylemem.”",
+"Gözleri kızarık. Kızgın değil. Hayal kırıklığı. Daha kötü."
 ], secenekler: [
-{ t: "“Haklısın. Düzeltiyorum,” dersin. Ve geri dönersin.", to: "h1", etki: { durustluk: 2, kol: "acik", hulya_dondurdu: true } },
-{ t: "“Benim kariyerim Hülya Abla. Lütfen,” dersin.", to: "c3", etki: { yalvardi: true } },
+{ t: "“Haklısın. Düzeltiyorum,” dersin.", to: "h1", etki: { durustluk: 2, kol: "acik", hulya_dondurdu: true } },
+{ t: "“Benim kariyerim Gönül Abla. Lütfen,” dersin.", to: "c3", etki: { yalvardi: true } },
 { t: "“Senin de sorumluluğun vardı,” dersin. “Sen de kontrol etmedin.”", to: "c3", etki: { sistem: 1, hulyayi_suclad: true } },
-{ t: "Bir şey söylemezsin. Hülya'nın kapıdan çıkmasını izlersin.", to: "c3", etki: { sustu: true } }
+{ t: "Bir şey demezsin. Gönül'ün kapıdan çıkmasını izlersin.", to: "c3", etki: { sustu: true } }
 ]},
 
 c3: { saat: "Bir hafta sonra", baslik: "Log", metin: [
-P(S("c2B"), "Hülya uzun süre sana baktı. “Senin kariyerin,” dedi. “Nurten Hanım'ın hayatı. Benim vicdanım. Hepsi bir terazide.” Kapıyı açtı. “Ben bir şey yapmayacağım. Ama birisi sorarsa, yalan da söylemeyeceğim.” Gitti."),
-P(S("c2C"), "Hülya'nın yüzü kıpkırmızı oldu. “Evet,” dedi. “Benim de sorumluluğum vardı. Ve ben bunu söyleyeceğim. Sen söylemesen de.” Gitti. Kapıyı arkasından çarpmadı; yavaşça kapattı. Bu daha kötüydü."),
-P(S("c2D"), "Hülya kapıdan çıktı. Bir saniye eşikte durdu; dönecek gibi oldu. Dönmedi."),
-"Bir hafta geçiyor. Hiçbir şey olmuyor. Kimse bir şey sormuyor. Nurten Hanım'ın dosyasında “seftriakson sonrası beklenmedik reaksiyon” yazıyor.",
-"Sonra bir öğleden sonra başhekimlikten bir e-posta. Konu: “Bilgi Sistemi Değişiklik Kaydı İncelemesi.”",
-"Hastanenin bilgi işlem birimi rutin bir denetim yapmış. Son ayda “yanlış giriş, düzeltildi” notuyla değiştirilen order'lar. On yedi tane. Biri senin. Değişiklikten önce ve sonra. Saatler. İsimler.",
-"E-postanın son satırı: “Yarın saat 10.00'da Başhekim Yardımcısı odasında görüşmek üzere.”",
-"Hülya bir şey söylemedi. Kimse bir şey söylemedi. Bir sistem, sessizce, kendi kendini kaydetti."
+P(S("c2B"), "Gönül sana uzun uzun baktı. “Senin kariyerin. Nurten Hanım'ın hayatı. Benim vicdanım.” Kapıyı açtı. “Bir şey yapmayacağım. Ama biri sorarsa yalan da söylemeyeceğim.”"),
+P(S("c2C"), "Gönül'ün yüzü kızardı. “Evet. Benim de vardı. Bunu söyleyeceğim. Sen söylemesen de.” Kapıyı yavaşça kapattı."),
+P(S("c2D"), "Gönül çıktı. Eşikte durdu. Dönecek gibi oldu. Dönmedi."),
+"Bir hafta. Kimse bir şey sormuyor. Dosyada “seftriakson sonrası beklenmedik reaksiyon.” Gönül seninle aynı nöbete yazılmamak için çizelgeyi değiştirtmiş.",
+"Sonra başhekimlikten bir e-posta: “Bilgi Sistemi Değişiklik Kaydı İncelemesi.”",
+"Bilgi işlem rutin bir denetim yapmış. Son ayda “yanlış giriş, düzeltildi” notuyla değiştirilen on yedi order. Biri senin. Öncesi, sonrası, saatler, isimler.",
+"“Yarın saat 10.00'da Başhekim Yardımcısı odasında görüşmek üzere.”",
+"Kimse ihbar etmedi. Sistem kendi kendini kaydetmişti."
 ], secenekler: [
 { t: "Toplantıda her şeyi itiraf edersin.", to: "t1", etki: { durustluk: 2, ortaya: true, itiraf: true } },
 { t: "Toplantıda bir teknik hata olduğunu savunursun.", to: "t1", etki: { savundu: true } },
@@ -324,51 +316,48 @@ P(S("c2D"), "Hülya kapıdan çıktı. Bir saniye eşikte durdu; dönecek gibi o
 
 /* ---------- SİSTEM KOLU ---------- */
 s1: { saat: "Saat 34 · 18.00", baslik: "Bildirim", metin: [
-P(S("a6D"), "Nöbet odasına kapanıp bilgisayarı açtın. Koridorda gelin ve Oğuz, başka bir doktoru bekliyordu."),
-P(function(d){ return d.leventle; }, "Levent Hoca bir süre sana baktı. Sonra çekmecesini açtı, üç kâğıt çıkardı: kendi bildirimleri: 2021, 2023, 2025. “Al,” dedi. “Ekle bunları. Belki dördüncüde biri okur.”"),
-"Olay bildirim formu. Altı sayfa. Bir hastanenin kendi hatalarını kaydetmek için tasarladığı bir belge; nadiren doldurulan.",
+P(S("a6D"), "Nöbet odasına kapanıp bilgisayarı açtın. Koridorda gelin ve Oğuz başka bir doktoru bekliyordu. Portakal poşeti sandalyenin üstündeydi."),
+P(function(d){ return d.leventle; }, "Haluk Hoca çekmecesini açıp üç kâğıt çıkardı: kendi bildirimleri. 2021, 2023, 2025. “Ekle bunları. Belki dördüncüyü biri okur.”"),
+"Olay bildirim formu. Altı sayfa. Bu hastanede nadiren doldurulan bir belge. Formun üstündeki logo eski logo.",
 "Yazıyorsun. Saat 15.04. Ampisilin-sulbaktam. Alerji kaydı mevcut. Sekme açılmadı. Reaksiyon. Kod. Yoğun bakım.",
-"Sonra “Katkıda bulunan faktörler” bölümü. Bir liste: yorgunluk, iş yükü, iletişim, ekipman, bilgi sistemi, eğitim, diğer.",
-"Her birini işaretliyorsun.",
-"Yorgunluk: otuz bir saat kesintisiz çalışma. İş yükü: üç asistan, yüz yirmi hasta. İletişim: alerji sorusu sözlü soruldu, sözlü cevaplandı; kontrol mekanizması yok. Bilgi sistemi: 2022 güncellemesinden sonra alerji uyarısı kırmızıdan griye döndü, açılır pencere kaldırıldı; üç ayrı bildirim yapılmış, işlem yapılmamış. Şiddet: saat 28'de bir asistan darp edildi, ekip kırk dakika eksik çalıştı.",
-"Altı sayfa doluyor. Bir bireysel hatayı bir sistemin haritasına çeviriyorsun.",
-"Ve son bölüm: “Bireysel sorumluluk değerlendirmesi.” Boş bir kutu."
+"“Katkıda bulunan faktörler”: yorgunluk, iş yükü, iletişim, ekipman, bilgi sistemi, eğitim, diğer.",
+"Hepsini işaretliyorsun.",
+"Otuz bir saat kesintisiz çalışma. Üç asistan, yüz yirmi hasta. Alerji sözlü soruldu, sözlü cevaplandı. 2022 güncellemesinden sonra uyarı kırmızıdan griye döndü. Üç bildirim yapılmış, işlem yok. Saat 28'de bir asistan darp edildi, ekip kırk dakika eksik.",
+"Son bölüm: “Bireysel sorumluluk değerlendirmesi.” Boş bir kutu."
 ], secenekler: [
 { t: "Kutuya yazarsın: “Sekmeyi ben açmadım. Order'ı ben yazdım. Sorumluluk benim.”", to: "s2", etki: { durustluk: 2, bireysel: true } },
 { t: "Kutuyu boş bırakırsın. Sistem bunu üretti.", to: "s2", etki: { sistem: 1, bos: true } },
 { t: "“Bireysel ve sistemsel sorumluluk ayrılamaz,” yazarsın.", to: "s2", etki: { durustluk: 1, sistem: 1 } },
-{ t: "Kutuya Hülya'nın adını da yazarsın: “İkimiz kontrol etmedik.”", to: "s2", etki: { sistem: 1, hulya_yazdi: true } }
+{ t: "Kutuya Gönül'ün adını da yazarsın: “İkimiz kontrol etmedik.”", to: "s2", etki: { sistem: 1, hulya_yazdi: true } }
 ]},
 
 s2: { saat: "İki hafta sonra", baslik: "Komite", metin: [
-P(S("s1A"), "Kutuya yazdın: “Sekmeyi ben açmadım. Order'ı ben yazdım. Sorumluluk benim.” Formu teslim ederken eller titremedi. İlk kez."),
-P(S("s1B"), "Kutuyu boş bıraktın. Sistem bunu üretmişti. Ama boş kutu, formun en çok bakılan yeri oldu."),
-P(S("s1C"), "“Bireysel ve sistemsel sorumluluk ayrılamaz,” yazdın. Okurken bir cümle değil, bir kaçış gibi geldi. Silmedin."),
-P(S("s1D"), "Kutuya Hülya'nın adını da yazdın: “İkimiz kontrol etmedik.” Teslim ettikten sonra Hülya'nın yüzünü düşündün. Ertesi gün Hülya seninle konuşmadı."),
-P(function(d){ return d.gizli_bildirim; }, "Bildirimi gece yazdın, sabah gönderdin. Levent Hoca öğrendiğinde bir şey söylemedi. Bir hafta seninle konuşmadı. Sonra bir sabah kahve getirdi. “İyi yazmışsın,” dedi. Bunun bir af mı, bir uyarı mı olduğunu bilmiyorsun."),
-"İki hafta sonra Hasta Güvenliği Komitesi toplanıyor. Uzun bir masa, on iki kişi: başhekim yardımcısı, bilgi işlem müdürü, hemşirelik müdürü, iki uzman, bir hukukçu, sen.",
-"Bildirimin ekranda. Sayfa sayfa okunuyor.",
-"Bilgi işlem müdürü savunmaya geçiyor: güncelleme bakanlık tarafından zorunlu tutuldu, arayüz değişikliği merkezi kararla yapıldı, bütçe yok. Hemşirelik müdürü: personel açığı yüzde otuz, kadro talepleri üç yıldır bekliyor. Başhekim yardımcısı: nöbet süreleri yönetmelikle belirlenmiş, istisnalar “zorunlu hâllerde”.",
-"Herkes kendi payını bir başkasına devrediyor. Sorumluluk masanın etrafında dönüyor ve hiçbir yerde durmuyor.",
-"Sonunda başhekim yardımcısı karar özetini okuyor: “Olay, çok faktörlü bir sistem hatası olarak değerlendirilmiştir. Bireysel kusur tespit edilmemiştir. Bilgi sistemine alerji uyarısının yeniden eklenmesi için bakanlığa yazı yazılacaktır.”",
-"Bireysel kusur tespit edilmemiştir. Bir cümle; seni kurtarıyor. Ve Nurten Hanım'ın oğlu bu cümleyi hiç duymayacak."
+P(S("s1A"), "Kutuya yazdın. Formu teslim ederken elin titremedi. Otuz bir saatten beri ilk kez."),
+P(S("s1B"), "Kutuyu boş bıraktın. Toplantıda formun en çok bakılan yeri o boş kutu oldu."),
+P(S("s1C"), "“Ayrılamaz,” yazdın. Okuyunca bir cümleden çok bir kaçış gibi geldi. Silmedin."),
+P(S("s1D"), "Gönül'ün adını da yazdın. Ertesi gün Gönül seninle konuşmadı. İkinci gün yanından geçerken cebine bir çikolata bıraktı, yine konuşmadı."),
+P(function(d){ return d.gizli_bildirim; }, "Bildirimi gece yazıp sabah gönderdin. Haluk Hoca öğrenince bir hafta seninle konuşmadı. Sonra bir sabah önüne bir çay koydu. “İyi yazmışsın,” dedi. Af mı uyarı mı, anlamadın."),
+"İki hafta sonra Hasta Güvenliği Komitesi. On iki kişi: başhekim yardımcısı, bilgi işlem müdürü, hemşirelik müdürü, iki uzman, bir hukukçu, sen. Masada su şişeleri. Kimse açmıyor.",
+"Bilgi işlem müdürü: güncelleme bakanlık zorunluluğu, bütçe yok. Hemşirelik müdürü: kadro açığı yüzde otuz. Başhekim yardımcısı: nöbet süreleri yönetmelikte, istisnalar “zorunlu hâllerde.”",
+"Sorumluluk masanın etrafında dönüyor, kimsenin önünde durmuyor.",
+"Karar özeti: “Olay çok faktörlü bir sistem hatası olarak değerlendirilmiştir. Bireysel kusur tespit edilmemiştir. Alerji uyarısının yeniden eklenmesi için bakanlığa yazı yazılacaktır.”",
+"Oğuz bu cümleyi hiç duymayacak."
 ], secenekler: [
 { t: "Söz alıp itiraz edersin: “Bireysel kusur var. Benim.”", to: "s3", etki: { durustluk: 2, itiraz: true } },
-{ t: "Kararı kabul edersin. Sistem değişecekse, bu yeter.", to: "s3", etki: { sistem: 1 } },
-{ t: "Aileye bu raporun bir kopyasının verilmesini talep edersin.", to: "s3", etki: { durustluk: 1, sistem: 1, rapor_aile: true } },
-{ t: "Bakanlığa yazılacak yazıyı kendin yazmayı teklif edersin.", to: "s3", etki: { sistem: 2, yazi: true } }
+{ t: "Kararı kabul edersin. Sistem değişecekse bu yeter.", to: "s3", etki: { sistem: 1 } },
+{ t: "Aileye raporun bir kopyasının verilmesini istersin.", to: "s3", etki: { durustluk: 1, sistem: 1, rapor_aile: true } },
+{ t: "Bakanlığa gidecek yazıyı kendin yazmayı teklif edersin.", to: "s3", etki: { sistem: 2, yazi: true } }
 ]},
 
 s3: { saat: "Bir ay sonra", baslik: "Oğuz'un Sorusu", metin: [
-P(S("s2B"), "Kararı kabul ettin. Sistem değişecekse bu yeterdi. Toplantıdan çıkarken kimse sana bakmadı; herkes rahatlamıştı."),
-P(S("s2A"), "Masa sustu. Başhekim yardımcısı gözlüğünü çıkardı. “Selin Hanım,” dedi, “bu komitenin amacı suçlu bulmak değil. Sistemi düzeltmek.” Ama tutanağa senin cümleni de yazdırdın. Kelimesi kelimesine."),
-P(S("s2C"), "Hukukçu itiraz etti. Başhekim yardımcısı düşündü. Sonunda bir uzlaşma: aileye “olay hakkında bilgilendirme” yapılacak, rapor verilmeden. Bilgilendirmeyi kim yapacak? Sen istedin."),
-P(S("s2D"), "Yazıyı yazdın. Dört sayfa. Bakanlığa gitti. Üç ay sonra bir cevap geldi: “Talebiniz değerlendirmeye alınmıştır.” Altı ay sonra hiçbir şey. Ama bir yıl sonra, bir güncellemeyle, alerji sekmesi kırmızıya döndü. Bütün Türkiye'de."),
-"Bir ay sonra hastanenin kantininde biri yanına oturuyor. Oğuz.",
-"Seni tanımıyor; ya da tanıyor. “Annemin dosyasında adınız var,” diyor. “Acil hekimi. Siz miydiniz o gün?”",
-"Evet, diyorsun.",
-"Oğuz bir süre çayına bakıyor. Sonra: “Bir şey soracağım. Avukatım bir şey buldu. Annemin dosyasında bir alerji kaydı var. Penisilin. Ve ona penisilin verilmiş. Hastane bana ‘sistem hatası’ diyor. Ben bir şey anlamıyorum. Sistem hatası ne demek? Bir sistem bir ilaç yazar mı? Bir insan yazar.”",
-"Sana bakıyor. Doğrudan.",
+P(S("s2B"), "Kararı kabul ettin. Çıkarken kimse sana bakmadı. Herkes rahatlamıştı. Biri su şişesini nihayet açtı."),
+P(S("s2A"), "Masa sustu. Başhekim yardımcısı gözlüğünü çıkardı. “Bu komite suçlu bulmak için değil.” Ama cümleni tutanağa yazdırdın, kelimesi kelimesine."),
+P(S("s2C"), "Hukukçu itiraz etti. Sonunda bir uzlaşma: aileye “bilgilendirme” yapılacak, rapor verilmeden. Kim yapacak? Sen istedin."),
+P(S("s2D"), "Yazıyı yazdın. Dört sayfa. Üç ay sonra cevap: “Değerlendirmeye alınmıştır.” Bir yıl sonra bir güncellemeyle alerji sekmesi kırmızıya döndü. Bütün ülkede."),
+"Bir ay sonra kantinde biri yanına oturuyor. Oğuz.",
+"“Annemin dosyasında adınız var. Acil hekimi. Siz miydiniz o gün?”",
+"Evet.",
+"Oğuz çayına bakıyor. “Avukatım bir şey buldu. Annemin dosyasında alerji kaydı var. Penisilin. Ona penisilin verilmiş. Hastane ‘sistem hatası’ diyor. Bir sistem ilaç yazar mı? Bir insan yazar.”",
 "“Kim yazdı?”"
 ], secenekler: [
 { t: "“Ben yazdım,” dersin.", to: "t1", etki: { durustluk: 2, ortaya: true, ben_yazdim: true } },
@@ -379,60 +368,57 @@ P(S("s2D"), "Yazıyı yazdın. Dört sayfa. Bakanlığa gitti. Üç ay sonra bir
 
 /* ---------- ORTAK SON BÖLÜM ---------- */
 t1: { saat: "Sonra", baslik: "Sonuç", metin: [
-P(S("h3A"), "Yoğun bakımın kapısında Oğuz'u bekledin; saatlerce. Çıktığında yanına oturdu. Bir şey demedi. Sen de."),
-P(S("h3B"), "Hastaneden çıkıp yürüdün; Şişli'den Beşiktaş'a, sahile. Denizin kenarında bir bankta otuz altı saat bitti."),
-P(S("h3C"), "İki ihtimali düşündün: yaşaması, ölmesi. Hiçbiri senin elinde değildi. Ve ikisinde de yaptığın şey aynıydı."),
-P(S("h3D"), "Kerem'i aradın. Burnu hâlâ morardı. “Hepimiz bir gün,” dedi. “Hepimiz.” Bu cümle seni hem rahatlattı hem korkuttu."),
-P(S("b3C"), "Uyumaya çalıştın. Levent Hoca haklı olabilirdi. Sabaha karşı uyudun; rüyanda bir sekme açıktı, kırmızı."),
-P(S("b3D"), "Her şeyi bir kâğıda yazdın: saatler, ilacın adı, sekme, Hülya'nın sesi. Katlayıp bir kitabın arasına koydun. Kimseye göndermedin; ama artık bir yerde yazılıydı."),
-P(S("c3C"), "Toplantıdan önce Oğuz'u bulup her şeyi söyledin: ilacı, sekmeyi, değiştirdiğin kaydı. Oğuz bir şey demedi. Sonra telefonunu çıkarıp senin önünde avukatını aradı."),
-P(S("s3A"), "“Ben yazdım,” dedin. Oğuz uzun süre sustu. “Teşekkür ederim,” dedi sonunda. “Bunu söyleyen ilk kişisiniz.” Kalkıp gitti."),
-P(S("s3B"), "“Otuz bir saattir uyumamış bir hekim yazdı,” dedin. Oğuz başını salladı. “Yani siz,” dedi. Evet."),
-P(S("s3C"), "“Bunu hastane yönetimiyle konuşmanız gerekiyor,” dedin. Oğuz güldü; acı bir gülüş. “Konuştum. Onlar da sizinle konuşmamı söyledi.”"),
-P(S("s3D"), "Cevap veremedin; kalkıp gittin. Kantinin kapısında dönmek istedin, dönmedin. Oğuz'un çayı masada soğudu."),
-P(function(d){ return YASADI(d) && !(d.kol === "acik" && d.gecti.h3); }, "Nurten Hanım yaşadı. Üç gün sonra tüpü çıkarıldı; iki hafta sonra evine döndü. Bir sabah gelinin koluna girip hastanenin bahçesinde yürüdüğünü gördün; pencereden, uzaktan."),
-P(function(d){ return OLDU(d) && !(d.kol === "acik" && d.gecti.h3); }, "Nurten Hanım öldü. Beşinci gün. Aile solunum cihazının kapatılmasına karar verdi. Oğlu yanındaydı. Sen değildin."),
-P(function(d){ return d.itiraf; }, "Toplantıda her şeyi anlattın. Başhekim yardımcısı sessizce dinledi. Disiplin soruşturması açıldı. Ama bir şey daha oldu: toplantıdan sonra bilgi işlem müdürü odana geldi. “Alerji uyarısını geri getiriyoruz,” dedi. “Bakanlığı beklemeden. Kendi yazılımımızla.”"),
-P(function(d){ return d.savundu; }, "Teknik hata olduğunu savundun. Başhekim yardımcısı logları gösterdi: saat 17.04, değişiklik, senin kullanıcı adın. “Teknik hata,” dedi, “bir insanın şifresiyle mi giriş yapar?” Disiplin soruşturması açıldı. İki suçlama: tıbbi hata ve kayıt tahrifatı. İkincisi birincisinden ağır."),
-P(function(d){ return d.avukat; }, "Avukatın sana sessiz kalmanı söyledi. Kaldın. Soruşturma aylarca sürdü. Hülya ifade verdi. Kelimesi kelimesine; ne gördüyse."),
-P(function(d){ return d.sustu && d.kol === "hiyerarsi"; }, "Sustun. Levent Hoca'nın dediği gibi. Dosyada “beklenmedik reaksiyon” yazıyor. Kimse bir şey sormadı. Kimse bir şey öğrenmedi. Sekme hâlâ gri."),
-"Bir hata bir hastanenin koridorunda bir an olur ve sonra yıllarca sürer.",
-"Fakültede yaşlı bir hoca bir gün dersin ortasında durup anlatmıştı: Aynı dikkatsizliği yapan iki sürücü: birinin önüne bir çocuk çıkar, öbürünün çıkmaz. Biri katil olur, öbürü olmaz. Ama ikisinin yaptığı aynıydı.",
-P(YASADI, "Senin önüne bir çocuk çıkmadı. Bir saniyelik bir refleks; bacağa yapılmış bir iğne. Nurten Hanım yaşadı. Sen şanslıydın. Ve bu şansın içinde bir utanç var: aynı hatayı yapan bir başkası, o refleksi bir saniye geç gösterseydi, katil olacaktı. Sen değil."),
-P(OLDU, "Senin önüne bir çocuk çıktı. Bir saniyelik bir donma, bir dozun hesaplanması, on iki dakikalık bir kod. Nurten Hanım öldü. Aynı hatayı yapan bir başkası, daha hızlı bir refleksle, onu kurtarabilirdi. Sen kurtaramadın. Hatan aynıydı; sonucu değil.")
+P(S("h3A"), "Yoğun bakımın kapısında saatlerce bekledin. Oğuz çıkınca yanına oturdu. Bir şey demedi. Sen de."),
+P(S("h3B"), "Hastaneden çıkıp Şişli'den Beşiktaş'a yürüdün. Sahilde bir bankta otuz altı saat bitti. Bir martı simidini kaptı. Kızmaya gücün yoktu."),
+P(S("h3C"), "İki ihtimali düşündün. Hiçbiri senin elinde değildi. İkisinde de yaptığın şey aynıydı."),
+P(S("h3D"), "Ufuk'u aradın. Burnu hâlâ morardı. “Hepimiz bir gün,” dedi. “Hepimiz.” Bu cümle seni hem rahatlattı hem korkuttu."),
+P(S("b3C"), "Uyumaya çalıştın. Sabaha karşı uyudun. Rüyanda bir sekme kırmızıydı."),
+P(S("b3D"), "Her şeyi bir kâğıda yazdın. Saatler, ilaç, sekme, Gönül'ün sesi. Bir kitabın arasına koydun. Kimseye göndermedin. Ama artık bir yerde yazılıydı."),
+P(S("c3C"), "Toplantıdan önce Oğuz'u buldun: ilacı, sekmeyi, değiştirdiğin kaydı söyledin. Oğuz bir şey demedi. Telefonunu çıkarıp senin önünde avukatını aradı."),
+P(S("s3A"), "“Ben yazdım.” Oğuz uzun süre sustu. “Teşekkür ederim. Bunu söyleyen ilk kişisiniz.” Kalkıp gitti. Çayını bitirmişti."),
+P(S("s3B"), "“Otuz bir saattir uyumamış bir hekim.” Oğuz başını salladı. “Yani siz.” Evet."),
+P(S("s3C"), "Oğuz güldü. Acı. “Konuştum. Onlar da sizinle konuşmamı söyledi.”"),
+P(S("s3D"), "Kalkıp gittin. Kantinin kapısında dönmek istedin. Dönmedin. Oğuz'un çayı soğudu."),
+P(function(d){ return YASADI(d) && !(d.kol === "acik" && d.gecti.h3); }, "Nurten Hanım yaşadı. Üç gün sonra tüp çıktı. İki hafta sonra eve döndü. Bir sabah gelininin koluna girip bahçede yürüdüğünü pencereden gördün."),
+P(function(d){ return OLDU(d) && !(d.kol === "acik" && d.gecti.h3); }, "Nurten Hanım öldü. Beşinci gün. Cihazın kapatılmasına aile karar verdi. Oğlu yanındaydı. Sen değildin."),
+P(function(d){ return d.itiraf; }, "Toplantıda her şeyi anlattın. Disiplin soruşturması açıldı. Toplantıdan sonra bilgi işlem müdürü odana geldi. “Alerji uyarısını geri getiriyoruz,” dedi. “Bakanlığı beklemeden.”"),
+P(function(d){ return d.savundu; }, "Teknik hata dedin. Başhekim yardımcısı logları gösterdi: 17.04, değişiklik, senin kullanıcı adın. “Teknik hata bir insanın şifresiyle mi girer?” İki suçlama: tıbbi hata ve kayıt tahrifatı. İkincisi daha ağır."),
+P(function(d){ return d.avukat; }, "Avukatın sessiz kalmanı söyledi. Kaldın. Soruşturma aylarca sürdü. Gönül ifade verdi. Ne gördüyse."),
+P(function(d){ return d.sustu && d.kol === "hiyerarsi"; }, "Sustun. Dosyada “beklenmedik reaksiyon” yazıyor. Kimse bir şey sormadı. Sekme hâlâ gri."),
+"Fakültede yaşlı bir hoca bir gün dersin ortasında durup anlatmıştı: aynı dikkatsizliği yapan iki sürücü. Birinin önüne bir çocuk çıkar, öbürünün çıkmaz. Sonra tahtaya dönüp kaldığı yerden devam etmişti.",
+P(YASADI, "Senin önüne çocuk çıkmadı. Bacağa bir iğne, bir saniye. Aynı hatayı yapıp bir saniye geç kalan bir başkası katil olacaktı."),
+P(OLDU, "Senin önüne çocuk çıktı. Bir donma, bir hesap, on iki dakika. Aynı hatayı yapan daha hızlı biri onu kurtarabilirdi.")
 ], secenekler: [
-{ t: "Eve gidip uyursun. Gerçekten uyursun; on dört saat.", to: "t1b", etki: { sefkat: 1, uyudu: true } },
+{ t: "Eve gidip uyursun. On dört saat.", to: "t1b", etki: { sefkat: 1, uyudu: true } },
 { t: "Bir sonraki nöbete gelirsin. Programdaki gibi.", to: "t1b", etki: { sistem: 1, nobete_geldi: true } },
 { t: "Babanı ararsın.", to: "t1b", etki: { sefkat: 1, baba: true } },
-{ t: "Kerem'i ararsın.", to: "t1b", etki: { sefkat: 1, kerem2: true } }
+{ t: "Ufuk'u ararsın.", to: "t1b", etki: { sefkat: 1, kerem2: true } }
 ]},
 
 t1b: { saat: "Bir hafta sonra", baslik: "Baba", metin: [
-P(S("t1C"), "Babanı aradın. İlk çalışta açtı; sesinden bir şey anladı. “Gel kızım,” dedi. Bir hafta izin aldın."),
-P(S("t1A"), "On dört saat. Uyandığında akşamdı. Bir an her şeyin bir rüya olduğunu düşündün. Sonra telefonunda yüz yirmi bildirim gördün. Hiçbiri bir rüyadan gelmiyordu."),
-P(S("t1B"), "Nöbete geldin. Bekleme salonunda yine yüz kişi. İlk hastan bir çocuk; ateş. Alerji sekmesine tıkladın. Sonra bir daha. Sonra annesine sordun. Sonra bir daha tıkladın. Hülya izledi, bir şey söylemedi. Ama yanından geçerken omzuna dokundu."),
-P(S("t1D"), "Kerem açtı. Sesi daha iyi. “Bıraktım,” dedi. “Bir aile hekimliğinde başladım. Sabah dokuz, akşam beş. Hiç kimse beni yumruklamıyor.” Sonra: “Sen nasılsın?” Anlattın. Uzun bir sessizlik. “Bunu ben de yapabilirdim,” dedi. “O gün, benim nöbetimde. Bunu biliyorsun, değil mi?”"),
-"Babanla telefonda. Ya da babanın evinde, Sivas'ta, bir hafta izin aldın; mutfak masasında.",
-"Baban emekli bir öğretmen. Seni hep “doktor kızım” diye tanıttı; komşulara, akrabalara, bakkala. Şimdi masanın karşısında, sana bakıyor.",
-"Anlatıyorsun. Her şeyi. Uzun süre.",
-"Baban dinliyor. Bir kez bile sözünü kesmiyor. Bitince bir süre çayını karıştırıyor.",
-"“Kızım,” diyor, “otuz beş yıl öğretmenlik yaptım. Bir keresinde bir çocuğa haksız yere sıfır verdim. Kopya çekti sandım. Çekmemişti. Çocuk ağladı; ben inanmadım. Bir yıl sonra öğrendim. Çocuk o yıl sınıfta kalmıştı.”",
-"Bir süre susuyor.",
-"“O çocuğu hâlâ düşünürüm. Kırk yıl oldu. Adı Mehmet'ti. Ama bil ki, o çocuktan sonra bir daha hiçbir çocuğa bakmadan sıfır vermedim. Bir hata bir insanı ya kırar ya da dikkatli yapar. İkisi birden de olabilir.”"
+P(S("t1C"), "Babanı aradın. İlk çalışta açtı. Sesinden anladı. “Gel kızım.” Bir hafta izin aldın."),
+P(S("t1A"), "On dört saat. Uyandığında akşamdı. Telefonda yüz yirmi bildirim. Hiçbiri rüyadan gelmiyordu."),
+P(S("t1B"), "Nöbete geldin. İlk hastan ateşli bir çocuk. Alerji sekmesine tıkladın. Sonra bir daha. Sonra annesine sordun. Sonra bir daha tıkladın. Gönül izledi. Yanından geçerken omzuna dokundu."),
+P(S("t1D"), "Ufuk açtı. Sesi daha iyi. “Bıraktım. Bir aile sağlığı merkezinde başladım. Dokuz-beş. Kimse yumruklamıyor.” Anlattın. Sessizlik. “Benim nöbetimde de olabilirdi,” dedi. “Biliyorsun değil mi?”"),
+"Babanın evi, Sivas. Mutfak masası. Sobanın üstünde bir çaydanlık.",
+"Baban emekli bir öğretmen. Seni hep “doktor kızım” diye tanıttı. Bakkala, berbere, minibüs şoförüne.",
+"Anlatıyorsun. Uzun süre.",
+"Baban çayını karıştırıyor. Bitince kaşığı tabağa koyuyor.",
+"“Otuz beş yıl öğretmenlik yaptım. Bir çocuğa haksız yere sıfır verdim. Kopya çekti sandım. Çekmemişti. Çocuk ağladı. İnanmadım. Bir yıl sonra öğrendim. O yıl sınıfta kalmıştı.”",
+"“Adı Mehmet'ti. Hâlâ düşünürüm. O çocuktan sonra hiçbir çocuğa bakmadan sıfır vermedim. Bir hata ya kırar adamı ya dikkatli yapar. İkisini birden de yapar.”"
 ], secenekler: [
 { t: "Babana sarılırsın.", to: "t2", etki: { sefkat: 1 } },
 { t: "“Senin hatanda kimse ölmedi baba,” dersin.", to: "t2", etki: { durustluk: 1, kiyas: true } },
 { t: "“Mehmet'e hiç söyledin mi?” diye sorarsın.", to: "t2", etki: { durustluk: 1, mehmet: true } },
-{ t: "Ağlarsın. İlk kez.", to: "t2", etki: { sefkat: 2, agladi: true } }
+{ t: "Ağlarsın.", to: "t2", etki: { sefkat: 2, agladi: true } }
 ]},
 
 t2: { saat: "Bir ay sonra", baslik: "Sonra", metin: [
-P(S("t1bA"), "Babana sarıldın. Kırk yıllık bir pratisyen, bir mutfak masasında, kızının saçını okşadı."),
-P(S("t1bB"), "Baban bir süre sustu. “Bilmiyorum,” dedi. “Belki öldü. Belki o yıl, sınıfta kaldığı yıl, içinde bir şey öldü. Ben bunu bilemem. Sen de bilemezsin; bazen.”"),
-P(S("t1bC"), "“Söylemedim,” dedi baban. “Cesaretim olmadı. Kırk yıl. Her yıl düşündüm, bu yıl bulayım onu. Bulmadım.” Sonra sana baktı. “Senin cesaretin var mı kızım?”"),
-P(S("t1bD"), "Ağladın. Babanın mutfağında, bir çay bardağının başında, otuz bir saatin, otuz altı saatin, bir ayın gözyaşları. Baban kalkıp arkana geçti, elini başına koydu. Küçükken yaptığı gibi. Hiçbir şey söylemedi."),
-"Bir ay geçti. İstanbul'a döndün. Acil servis aynı. Bekleme salonu aynı. Ama sen aynı değilsin.",
-"Bir şey yapman gerekiyor. Bunu hissediyorsun. Ama ne?"
+P(S("t1bA"), "Babana sarıldın. Kazağı naftalin ve soba kokuyordu. Saçını okşadı."),
+P(S("t1bB"), "Baban bir süre sustu. “Bilmiyorum,” dedi. “Belki o yıl içinde bir şey öldü. Ben bilemem. Sen de bilemezsin bazen.”"),
+P(S("t1bC"), "“Söylemedim,” dedi baban. “Her yıl bu yıl bulayım dedim. Bulmadım.” Sonra sana baktı. “Senin cesaretin var mı kızım?”"),
+P(S("t1bD"), "Ağladın. Babanın mutfağında, otuz altı saatin, bir ayın gözyaşları. Baban kalkıp arkana geçti, elini başına koydu. Çaydanlık fokurdadı. İkiniz de kalkmadınız."),
+"Bir ay sonra İstanbul. Acil aynı. Bekleme salonu aynı. Muhabbet kuşu kafesiyle başka biri."
 ], secenekler: [
 { t: function(d){ return YASADI(d) ? "Nurten Hanım'ı evinde ziyaret edersin." : "Nurten Hanım'ın mezarını bulursun."; }, to: "y_ziyaret", etki: { durustluk: 1, ziyaret: true } },
 { t: "Bir psikiyatriste gidersin. Uykuların hâlâ yok.", to: "y_terapi", etki: { sefkat: 1, terapi: true } },
@@ -441,80 +427,75 @@ P(S("t1bD"), "Ağladın. Babanın mutfağında, bir çay bardağının başında
 ]},
 
 y_ziyaret: { saat: "Bir ay sonra", baslik: "Ziyaret", metin: [
-P(YASADI, "Kartal'da bir apartman, dördüncü kat, asansörsüz. Kapıyı gelin açıyor. Seni tanıyor; yüzü bir an sertleşiyor, sonra yumuşuyor. “Gelin,” diyor. “Annem uyanık.”"),
-P(YASADI, "Nurten Hanım salonda, televizyonun karşısında, bir battaniyenin altında. Zayıflamış ama gözleri parlak. Seni görünce gülümsüyor. “Gel kızım. Otur. Çay içer misin?”"),
-P(function(d){ return YASADI(d) && d.ortaya; }, "Biliyor. Oğuz anlatmış. Ama seni yine de çaya davet ediyor. “Oğlum çok kızdı sana,” diyor. “Ben kızmadım. Ben hep ‘kızardım’ derdim o ilaç için. Kızardım. Ölüyormuşum meğer. Kendim de küçülttüm. Sen nereden bilecektin?”"),
-P(function(d){ return YASADI(d) && !d.ortaya; }, "Bilmiyor. Seni hastanede gördüğü doktorlardan biri sanıyor. “Beni kurtaranlardan mısın?” diyor. Bir cevap bekliyor."),
-P(OLDU, "Kartal'da bir mezarlık. Yeni bir mezar; taşı henüz dikilmemiş, tahta bir levha: “Nurten Yıldırım, 1952–2026.” Toprak hâlâ taze. Biri çiçek bırakmış; papatya."),
-P(OLDU, "Mezarın başında duruyorsun. Ne söyleyeceğini bilmiyorsun. Bir mezara ne söylenir? Özür mü? Bir açıklama mı? Bir otuz bir saat mi?"),
-P(function(d){ return OLDU(d); }, "Arkadan bir ses. Oğuz. Elinde bir şişe su; toprağı sulamaya gelmiş. Seni görüyor. Duruyor."),
-"Bir hatanın yüzüyle karşılaşmak. Bir hatanın sonucunun bir insan olduğunu, bir istatistik ya da bir dosya değil, bir insan, bir aile, bir çay daveti ya da bir toprak yığını olduğunu, kendi gözlerinle görmek."
+P(YASADI, "Kartal'da bir apartman, dördüncü kat, asansörsüz. Kapıyı gelin açıyor. Seni tanıyor. Yüzü bir an sertleşiyor, sonra yumuşuyor. “Gelin. Annem uyanık.”"),
+P(YASADI, "Nurten Hanım salonda, televizyonun karşısında, battaniyenin altında. Zayıflamış. Gözleri parlak. “Gel kızım. Otur. Çay içer misin?” Televizyonda bir yemek programı. Sesi kısık."),
+P(function(d){ return YASADI(d) && d.ortaya; }, "Biliyor. Oğuz anlatmış. Yine de çay koyuyor. “Oğlum çok kızdı sana. Ben kızmadım. Ben hep ‘kızardım’ derdim o ilaç için. Meğer ölüyormuşum. Kendim küçülttüm. Sen nereden bilecektin?”"),
+P(function(d){ return YASADI(d) && !d.ortaya; }, "Bilmiyor. Seni hastanedeki doktorlardan biri sanıyor. “Beni kurtaranlardan mısın?” diyor, cevap bekliyor."),
+P(OLDU, "Kartal'da bir mezarlık. Yeni bir mezar. Taşı henüz yok, tahta bir levha: “Nurten Yıldırım, 1952–2026.” Toprak taze. Biri papatya bırakmış."),
+P(OLDU, "Mezarın başında duruyorsun. Elin cebinde, cebinde bir şey arıyor. Ne aradığını bilmiyorsun."),
+P(OLDU, "Arkadan bir ses. Oğuz. Elinde bir şişe su. Toprağı sulamaya gelmiş. Seni görüyor. Duruyor.")
 ], secenekler: [
 { t: function(d){ return YASADI(d) && !d.ortaya ? "“Hayır teyze. Ben size hata yapan doktorum,” dersin." : "Özür dilersin; yüz yüze."; }, to: "t3", etki: function(d){ d.durustluk += 2; d.yuz_yuze = true; if(YASADI(d)) d.ortaya = true; } },
 { t: function(d){ return YASADI(d) ? "Çayını içersin. Konuşmasını dinlersin." : "Oğuz'un yanına gidip su şişesini alır, toprağı birlikte sularsınız."; }, to: "t3", etki: { sefkat: 1, birlikte: true } },
-{ t: "Bir şey söylemeden gidersin.", to: "t3", etki: { kacti2: true } },
+{ t: "Bir şey demeden gidersin.", to: "t3", etki: { kacti2: true } },
 { t: "Bir mektup bırakırsın.", to: "t3", etki: { durustluk: 1, mektup: true } }
 ]},
 
 y_terapi: { saat: "Bir ay sonra", baslik: "İkinci Kurban", metin: [
-"Psikiyatrist Dr. Aylin, ellilerinde, sakin. Odasında bir kanepe, bir bitki, kitaplar. Seni dinliyor. Kırk dakika.",
-"“Bir kavram var,” diyor sonunda. “‘İkinci kurban.’ Tıbbi bir hataya karışan sağlık çalışanları için kullanılıyor. Birinci kurban hasta. İkinci kurban, hatayı yapan. Uykusuzluk, suçluluk, kâbuslar, mesleği bırakma düşünceleri, bazen daha kötüsü.”",
-"“Ben kurban değilim,” diyorsun. “Ben hatayı yaptım.”",
-"“Evet,” diyor Dr. Aylin. “Siz hatayı yaptınız. Ve şimdi acı çekiyorsunuz. İkisi birden doğru. Bunlardan biri, öbürünü iptal etmiyor.”",
-"Bir süre susuyor.",
-"“Size bir soru soracağım. Bir arkadaşınız bu hatayı yapsaydı, Kerem diyelim, ona ne söylerdiniz?”",
-"Düşünüyorsun. “Sistemi suçlardım,” diyorsun. “Otuz bir saati. Sekmeyi. Yumruğu.”",
-"“Peki kendinize neden söylemiyorsunuz?”",
-"Cevap veremiyorsun.",
-"“Çünkü,” diyor Dr. Aylin, “kendinize söylerseniz, bir bahane uydurmuş gibi hissedeceksiniz. Ama bir başkasına söylediğinizde, bir gerçeği söylemiş olacaksınız. İkisi aynı cümle. Fark, kimin söylediği.”"
+"Psikiyatrist Dr. Aylin, ellilerinde. Odasında bir kanepe, bir kauçuk bitkisi, yaprakları tozlu. Kırk dakika dinliyor.",
+"“Bir kavram var: ‘ikinci kurban.’ Bir tıbbi hataya karışan sağlık çalışanı için. Birinci kurban hasta. İkincisi hatayı yapan. Uykusuzluk, suçluluk, kâbus, mesleği bırakma, bazen daha kötüsü.”",
+"“Ben kurban değilim. Hatayı ben yaptım.”",
+"“Evet. Siz yaptınız. Şimdi de acı çekiyorsunuz. Biri öbürünü silmiyor.”",
+"“Bir arkadaşınız bu hatayı yapsaydı, Ufuk diyelim, ona ne derdiniz?”",
+"“Sistemi suçlardım. Otuz bir saati. Sekmeyi. Yumruğu.”",
+"“Kendinize neden söylemiyorsunuz?”",
+"Cevap veremiyorsun. Kauçuk bitkisinin bir yaprağına bakıyorsun. Biri üstüne parmağıyla bir çizgi çekmiş, tozun içinde."
 ], secenekler: [
-{ t: "“Kendimi affedersem, Nurten Hanım'a ihanet etmiş olurum,” dersin.", to: "t3", etki: { durustluk: 1, ihanet: true } },
+{ t: "“Kendimi affedersem Nurten Hanım'a ihanet etmiş olurum,” dersin.", to: "t3", etki: { durustluk: 1, ihanet: true } },
 { t: "Haftaya yeniden gelmek istediğini söylersin.", to: "t3", etki: { sefkat: 1, devam_terapi: true } },
-{ t: "“Belki,” dersin. Ve ilk kez, bir şeyin gevşediğini hissedersin.", to: "t3", etki: { sefkat: 2, gevsedi: true } },
-{ t: "“Bunu yeterince hak etmiyorum,” dersin ve kalkarsın.", to: "t3", etki: { durustluk: 1, hak_etmiyorum: true } }
+{ t: "“Belki,” dersin. Göğsünde bir şey biraz gevşiyor.", to: "t3", etki: { sefkat: 2, gevsedi: true } },
+{ t: "“Bunu hak etmiyorum,” deyip kalkarsın.", to: "t3", etki: { durustluk: 1, hak_etmiyorum: true } }
 ]},
 
 t3: { saat: "Üç ay sonra", baslik: "Mortalite Toplantısı", metin: [
-P(S("t2D"), "Hiçbir şey yapmadın; nöbetlerine devam ettin. Ama her order'dan önce elin bir saniye duruyordu. Kimse fark etmedi."),
-P(S("y_ziyaretA"), "Yüz yüze özür diledin. Kelimeler beklediğinden kısa çıktı. Karşındaki yüz bir süre kıpırdamadı, sonra başını salladı. Bağışlama değil; kabul."),
-P(S("y_ziyaretB"), "Toprağı birlikte suladınız. Oğuz bir şey söylemedi; ama şişeyi sana o uzattı."),
-P(S("y_ziyaretC"), "Bir şey söylemeden gittin. Arabaya binmeden dönüp baktın; Oğuz da sana bakıyordu."),
-P(S("y_ziyaretD"), "Bir mektup bıraktın. Bir ay sonra tek satırlık bir cevap geldi: “Okudum.” Belki yetmezdi. Ama okunmuştu."),
-P(S("y_terapiA"), "“Kendimi affedersem ona ihanet etmiş olurum,” dedin. Dr. Aylin bir süre sustu. “Belki,” dedi. “Ya da ona bir yük daha bindirmiş olursunuz: sizin cezanızı taşımak.”"),
-P(S("y_terapiB"), "Haftaya yeniden gelmek istedin. Dışarı çıktığında, bir aydır ilk kez bir randevunun seni rahatlattığını fark ettin."),
-P(S("y_terapiC"), "“Belki,” dedin. Göğsünün ortasındaki bir düğüm gevşedi. Dışarıda yağmur başlamıştı; şemsiyeni açmadın."),
-P(S("y_terapiD"), "“Bunu hak etmiyorum,” deyip kalktın. Dr. Aylin durdurmadı. “Kapı açık,” dedi yalnızca."),
-P(function(d){ return d.istifa; }, "İstifa dilekçeni yazdın. Levent Hoca okudu, sonra çekmecesine koydu. “Bir ay bekle,” dedi. “Sonra hâlâ istiyorsan, imzalarım.” Bir ay. Bu bir ay boyunca nöbetlere devam ettin."),
-"Her ayın son perşembesi acil serviste bir “morbidite-mortalite toplantısı” yapılır. Asistanlar, uzmanlar, hemşireler. Ayın en kötü vakaları, en büyük hataları tartışılır. Kural: suçlama yok, öğrenme var. Pratikte herkes bilir ki her sunum bir mahkemedir.",
-"Bu ay Levent Hoca senin vakanı seçti. Sen sunacaksın.",
-"Amfi dolu. Kırk kişi. Arka sırada Hülya. Ön sırada Levent Hoca. Kerem gelmiş; artık başka bir yerde çalışmasına rağmen.",
-"Projeksiyon açılıyor. İlk slayt: “Olgu: 74 yaşında kadın, pnömoni, ilaç reaksiyonu.”",
-"Bunu nasıl sunacağın sana kalmış. Bir vaka olarak: zaman çizelgesi, ilaçlar, dozlar, sonuçlar. Ya da bir hikâye olarak: otuz bir saat, bir yumruk, bir sekme, bir “yok”.",
-"Kırk kişi bekliyor. Bazıları merakla. Bazıları korkuyla; çünkü biliyorlar, bir gün bu kürsüde kendileri olabilir.",
-"Hülya üçüncü sırada. Oğuz'un avukatının bu toplantıdan haberi var mı, bilmiyorsun. Burada söyleyeceğin her şey bir tutanağa geçecek."
+P(S("t2D"), "Nöbetlere devam ettin. Her order'dan önce elin bir saniye duruyordu. Kimse fark etmedi."),
+P(S("y_ziyaretA"), "Yüz yüze özür diledin. Kelimeler beklediğinden kısa çıktı. Karşındaki yüz bir süre kıpırdamadı, sonra başını eğdi. Bağışlama değil. Kabul."),
+P(S("y_ziyaretB"), "Toprağı birlikte suladınız. Şişeyi sana Oğuz uzattı. Su bitince ikiniz de bir süre boş şişeye baktınız."),
+P(S("y_ziyaretC"), "Gittin. Arabaya binmeden dönüp baktın. Arkandan bakıyordu."),
+P(S("y_ziyaretD"), "Bir mektup bıraktın. Bir ay sonra tek satır cevap geldi: “Okudum.”"),
+P(S("y_terapiA"), "Dr. Aylin bir süre sustu. “Belki,” dedi. “Ya da ona bir yük daha bindirirsiniz: sizin cezanızı taşımak.”"),
+P(S("y_terapiB"), "Haftaya randevu aldın. Merdivenden inerken bir aydır ilk kez bir randevunun seni rahatlattığını fark ettin."),
+P(S("y_terapiC"), "“Belki,” dedin. Dışarıda yağmur başlamıştı. Şemsiyeni açmadın, otobüs durağına kadar ıslandın."),
+P(S("y_terapiD"), "“Hak etmiyorum,” deyip kalktın. Dr. Aylin durdurmadı. “Kapı açık,” dedi."),
+P(function(d){ return d.istifa; }, "Dilekçeni yazdın. Haluk Hoca okudu, çekmecesine koydu. “Bir ay bekle. Sonra hâlâ istiyorsan imzalarım.”"),
+"Her ayın son perşembesi bir morbidite-mortalite toplantısı yapılır. Kural: suçlama yok. Herkes bilir ki her sunum küçük bir mahkemedir.",
+"Bu ay Haluk Hoca senin vakanı seçti. Sen sunacaksın.",
+"Amfi dolu. Kırk kişi. Arka sırada Gönül. Ön sırada Haluk Hoca. Ufuk gelmiş. Artık başka yerde çalıştığı hâlde.",
+"İlk slayt: “Olgu: 74 yaşında kadın, pnömoni, ilaç reaksiyonu.”",
+"Söyleyeceğin her şey tutanağa geçecek."
 ], secenekler: [
-{ t: "Vakayı bir hikâye olarak anlatırsın; kendi hatanla, kendi otuz bir saatinle.", to: "t4", etki: { durustluk: 2, hikaye: true } },
-{ t: "Vakayı teknik olarak sunarsın: zaman çizelgesi, kök neden analizi, sistem önerileri.", to: "t4", etki: { sistem: 2, teknik: true } },
+{ t: "Vakayı bir hikâye olarak anlatırsın. Kendi hatanla, kendi otuz bir saatinle.", to: "t4", etki: { durustluk: 2, hikaye: true } },
+{ t: "Teknik sunarsın: zaman çizelgesi, kök neden analizi, sistem önerileri.", to: "t4", etki: { sistem: 2, teknik: true } },
 { t: "Sunumun sonuna bir slayt eklersin: “Bu olabilirdi: sizin nöbetinizde.”", to: "t4", etki: { sistem: 1, durustluk: 1, slayt: true } },
-{ t: "Sunuma başlamadan önce Hülya'ya bir söz verirsin.", to: "t4", etki: { sefkat: 1, hulya_soz: true } }
+{ t: "Başlamadan önce Gönül'e bir söz verirsin.", to: "t4", etki: { sefkat: 1, hulya_soz: true } }
 ]},
 
 t4: { saat: "Saat 0", baslik: "Yeni Nöbet", metin: [
-P(S("t3A"), "Anlattın. Otuz bir saati, Kerem'in burnunu, Nurten Hanım'ın “kızarmıştım” deyişini, sekmeyi, “yok”u. Amfi çıt çıkarmadı. Bitince kimse soru sormadı. Sonra arka sıradan biri alkışlamaya başladı. Hülya. Sonra bir başkası. Bir M&M toplantısında daha önce hiç kimse alkışlanmamıştı."),
-P(S("t3B"), "Teknik sundun. Kök neden analizi, balık kılçığı diyagramı, yedi öneri. İyi bir sunumdu. Levent Hoca başını salladı. Sonunda bir asistan sordu: “Peki siz nasılsınız?” Cevap vermedin. Soruyu duymamış gibi yaptın."),
-P(S("t3C"), "Son slayt: “Bu olabilirdi: sizin nöbetinizde.” Amfide bir sessizlik. Sonra Kerem ayağa kalktı. “Benim nöbetimde olabilirdi,” dedi. Sonra bir başkası. Bir başkası. On iki kişi ayağa kalktı."),
-P(S("t3D"), "Hülya'ya söz verdin: “Bundan sonra her alerjiyi iki kez soracağım. Bir kez sana, bir kez ekrana.” Hülya başını salladı. “Ben de,” dedi. “Ben de iki kez soracağım.”"),
-"Sabah sekiz. Yeni bir nöbet başlıyor. Yirmi dört saat; bu kez yalnızca yirmi dört. Bir değişiklik olmuş; küçük, ama olmuş. Yönetim bir hafta önce yeni bir genelge yayınladı: “Asistanların kesintisiz çalışma süresi yirmi dört saati geçemez.” Kâğıt üstünde.",
-P(function(d){ return d.yazi || d.itiraf || d.kol === "sistem"; }, "Ve bilgi sisteminde bir değişiklik: alerji sekmesi artık kırmızı. Bir alerji varsa, order yazılmadan önce ekranın ortasında bir pencere açılıyor: “DİKKAT: Hastanın kayıtlı alerjisi var.” Kapatmak için bir neden yazmak gerekiyor."),
-"Bekleme salonunda yüz kişi. İlk hastanı çağırıyorsun. Yaşlı bir adam; ateş, öksürük. Muayene ediyorsun. Akciğerde ral. Pnömoni.",
-"Hülya yanına geliyor. “Hocam, antibiyotik ne yazıyoruz?”",
-"Ve sonra, alışkanlıkla, bir refleksle, bir yaranın öğrettiği bir şeyle, sen soruyorsun, Hülya'dan önce:",
+P(S("t3A"), "Anlattın. Otuz bir saati, Ufuk'un burnunu, “kızarmıştım”ı, sekmeyi, “yok”u. Amfi çıt çıkarmadı. Sonra arka sıradan biri alkışlamaya başladı. Gönül. Sonra bir başkası. O toplantıda daha önce kimse alkışlanmamıştı."),
+P(S("t3B"), "Teknik sundun: balık kılçığı diyagramı, yedi öneri. İyi sunumdu. Sonunda bir asistan sordu: “Peki siz nasılsınız?” Duymamış gibi yaptın."),
+P(S("t3C"), "Son slayt. Sessizlik. Sonra Ufuk ayağa kalktı: “Benim nöbetimde olabilirdi.” Sonra bir başkası. On iki kişi ayaktaydı."),
+P(S("t3D"), "Gönül'e söz verdin: “Her alerjiyi iki kez soracağım. Bir sana, bir ekrana.” Gönül: “Ben de iki kez soracağım.”"),
+"Sabah sekiz. Yeni nöbet. Bu kez yirmi dört saat. Yönetim bir hafta önce bir genelge çıkardı: kesintisiz çalışma yirmi dört saati geçemez. Kâğıt üstünde.",
+P(function(d){ return d.yazi || d.itiraf || d.kol === "sistem"; }, "Bilgi sisteminde bir değişiklik: alerji sekmesi kırmızı. Alerji varsa order yazılmadan önce ekranın ortasında bir pencere açılıyor. Kapatmak için bir neden yazmak gerekiyor."),
+"Bekleme salonunda yüz kişi. İlk hastan yaşlı bir adam. Ateş, öksürük. Akciğerde ral.",
+"Gönül yanına geliyor. “Hocam, antibiyotik ne yazıyoruz?”",
+"Ondan önce sen soruyorsun:",
 "“Alerjisi var mı?”"
 ], secenekler: [
-{ t: "Sekmeyi açarsın. Sonra hastaya sorarsın. Sonra gelinine. Sonra yeniden sekmeyi.", to: "ss", etki: { durustluk: 1 } },
-{ t: "Hülya'ya bakarsın. Birlikte kontrol edersiniz.", to: "ss", etki: { sistem: 1 } },
-{ t: "Hastanın elini tutarsın ve yavaşça, net bir sesle sorarsın: “Hiç bir ilaçtan kızardınız mı?”", to: "ss", etki: { sefkat: 1, kizardiniz: true } },
-{ t: "Bir an durursun. Otuz altı saat önceki bir an gibi. Sonra devam edersin.", to: "ss", etki: { durustluk: 1, sefkat: 1 } }
+{ t: "Sekmeyi açarsın. Sonra hastaya sorarsın. Sonra yanındakine. Sonra yeniden sekmeyi.", to: "ss", etki: { durustluk: 1 } },
+{ t: "Gönül'le birlikte kontrol edersiniz.", to: "ss", etki: { sistem: 1 } },
+{ t: "Hastaya yavaşça, net bir sesle sorarsın: “Hiç bir ilaçtan kızardınız mı?”", to: "ss", etki: { sefkat: 1, kizardiniz: true } },
+{ t: "Bir an durursun. Otuz altı saat önceki o an gibi. Sonra devam edersin.", to: "ss", etki: { durustluk: 1, sefkat: 1 } }
 ]},
 
 ss: { yonlendir: [
@@ -526,77 +507,72 @@ ss: { yonlendir: [
 ]},
 
 /* ---------- SONLAR ---------- */
-son_acik: { son: true, baslik: "Açık Kayıt", metin: [
-P(S("t4A"), "O sabah sekmeyi açtın, hastaya sordun, gelinine sordun, sekmeyi yeniden açtın. Hülya gülümsedi."),
-P(S("t4B"), "O sabah Hülya'ya baktın ve birlikte kontrol ettiniz: iki çift göz, bir sekme."),
-P(S("t4C"), "O sabah hastanın elini tutup sordun: “Hiç bir ilaçtan kızardınız mı?” Kadın düşündü. “Bir kere,” dedi. “Gençken. Unutmuşum.”"),
-P(S("t4D"), "O sabah bir an durdun; otuz altı saat önceki bir an gibi. Sonra devam ettin; bu kez sekmeyle."),
-"Söyledin. Aileye, kuruma, bir amfi dolusu insana. Kendi hatanı, kendi adınla.",
-P(function(d){ return d.itiraf || d.savundu; }, "Disiplin soruşturması üç ay sürdü. Bir kınama cezası aldın. Asistanlığına devam ediyorsun; ama dosyanda bir not var, bir ömür sürecek."),
-"Oğuz'un açtığı dava hâlâ sürüyor. Hastane avukatı Sinem Hanım bir gün koridorda yanına geldi: “Senin itirafın bizim aleyhimize en güçlü delil,” dedi. “Ama mahkemede hâkim bir şey söyledi. ‘Bu hekim yalan söylemedi. Bu dosyada en az yalan söyleyen o.’ Bunu bilmeni istedim.”",
-P(YASADI, "Nurten Hanım her bayram acil servise bir tepsi börek gönderiyor. Üstünde bir not yok. Hülya her seferinde bir dilimini sana ayırıyor."),
-P(OLDU, "Oğuz bir gün, mahkeme koridorunda, yanına geldi. Bir şey söylemedi. Elini uzattı. Sıktın. Sonra gitti. Bunun ne anlama geldiğini hiç bilmeyeceksin. Belki hiçbir şey. Belki her şey."),
-"Hata yaptığını söylemek seni temize çıkarmadı. Hiçbir zaman çıkarmayacak. Ama bir şey yaptı: hatanın bir sır olarak, bir yara olarak, bir hastane koridorunun duvarında bir leke olarak kalmasını engelledi. Hatan şimdi görünür. Herkesin görebileceği bir yerde. Ve görünür olan bir hata, düzeltilebilir.",
-"Her nöbetin başında aynı soruyu soruyorsun. İki kez. Bir kez ekrana, bir kez hastaya. Bir gün bir asistan sana bunun neden bu kadar önemli olduğunu soracak. Ve sen ona otuz bir saati anlatacaksın."
+son_acik: { son: true, baslik: "Kendi Adınla", metin: [
+P(S("t4A"), "O sabah sekmeyi açtın, hastaya sordun, oğluna sordun, sekmeyi yeniden açtın. Gönül güldü: “Yeter kızım.”"),
+P(S("t4B"), "Gönül'le birlikte baktınız: iki çift göz, bir sekme."),
+P(S("t4C"), "“Hiç bir ilaçtan kızardınız mı?” Adam düşündü. “Bir kere,” dedi. “Askerde. Unutmuşum.”"),
+P(S("t4D"), "Bir an durdun. Sonra devam ettin. Bu kez sekmeyle."),
+"Söyledin. Aileye, kuruma, bir amfi dolusu insana. Kendi adınla.",
+P(function(d){ return d.itiraf || d.savundu; }, "Disiplin soruşturması üç ay sürdü. Kınama cezası. Asistanlığa devam ediyorsun. Dosyanda bir not var."),
+"Oğuz'un açtığı dava sürüyor. Sinem Hanım bir gün koridorda yanına geldi: “İtirafın aleyhimize en güçlü delil. Ama hâkim duruşmada bir şey söyledi: ‘Bu dosyada yalan söylemeyen tek kişi bu hekim.’ Bilmeni istedim.” Sonra asansör geldi, bindi.",
+P(YASADI, "Nurten Hanım her bayram acil servise bir tepsi börek gönderiyor. Üstünde not yok. Gönül her seferinde bir dilimi sana ayırıyor, peçeteye sarıp dolabına koyuyor."),
+P(OLDU, "Oğuz bir gün mahkeme koridorunda yanına geldi. Bir şey demedi. Elini uzattı. Sıktın. Gitti."),
+"Her nöbetin başında aynı soruyu iki kez soruyorsun. Geçen ay yeni bir asistan bunun neden bu kadar önemli olduğunu sordu. Ona otuz bir saati anlattın. Sonuna kadar dinledi, sonra gidip bir önceki hastasının sekmesini açtı."
 ]},
 
-son_sessiz: { son: true, baslik: "Sessiz Düzeltme", metin: [
-P(S("t4A"), "O sabah sekmeyi açtın, hastaya sordun, gelinine sordun, sekmeyi yeniden açtın. Hülya gülümsedi."),
-P(S("t4B"), "O sabah Hülya'ya baktın ve birlikte kontrol ettiniz: iki çift göz, bir sekme."),
-P(S("t4C"), "O sabah hastanın elini tutup sordun: “Hiç bir ilaçtan kızardınız mı?” Kadın düşündü. “Bir kere,” dedi. “Gençken. Unutmuşum.”"),
-P(S("t4D"), "O sabah bir an durdun; otuz altı saat önceki bir an gibi. Sonra devam ettin; bu kez sekmeyle."),
-"Kimse bilmiyor. Dosyada “seftriakson sonrası beklenmedik reaksiyon” yazıyor. Log kayıtları bir sunucuda; kimse bakmadı, kimse bakmayacak. Belki bir gün.",
-"Hülya bilmiyor mu? Biliyor. Bir daha seninle aynı nöbete yazılmadı. Kendisi istedi.",
-P(YASADI, "Nurten Hanım yaşadı. Bir sabah acil serviste gördün onu; kontrole gelmiş, gelininin koluna girmiş. Seni görünce gülümsedi. Tanımadı. “Kızım,” dedi, “sen ne güzel bir doktorsun.” Teşekkür ettin. Yüzün kızardı. Ama o fark etmedi."),
-P(OLDU, "Nurten Hanım öldü. Oğuz bir dava açmadı; “beklenmedik reaksiyon” diye. Bir doktor ne yapabilir ki? Annesini Kartal'a gömdü. Senin adını hiç öğrenmedi."),
-"Asistanlığını bitirdin. Uzman oldun. Şimdi kendi asistanların var. Onlara iyi bir hoca olduğunu düşünüyorsun; dikkatli, titiz, alerji sekmesini her seferinde açtıran.",
-"Ama bir gün bir asistanın, gece üçte, sana bir şey anlatmaya geliyor. Gözleri kızarık. “Hocam, bir order'da bir hata yaptım. Hasta iyi. Ama... ne yapmalıyım?”",
-"Ve sen, bir an, Levent Hoca'nın cümlesini söylemek üzeresin: “Bir şey yazma. Ben hallederim.” Cümle ağzında. Tanıdık. Rahatlatıcı.",
-"Bir sessizliğin nasıl öğretildiğini, ve nasıl kuşaktan kuşağa geçtiğini, o gece, kendi ağzında hissediyorsun."
+son_sessiz: { son: true, baslik: "Seftriakson", metin: [
+P(S("t4A"), "O sabah sekmeyi açtın, hastaya sordun, oğluna sordun, sekmeyi yeniden açtın. Gönül güldü: “Yeter kızım.”"),
+P(S("t4B"), "Gönül'le birlikte baktınız: iki çift göz, bir sekme."),
+P(S("t4C"), "“Hiç bir ilaçtan kızardınız mı?” Adam düşündü. “Bir kere,” dedi. “Askerde. Unutmuşum.”"),
+P(S("t4D"), "Bir an durdun. Sonra devam ettin. Bu kez sekmeyle."),
+"Kimse bilmiyor. Dosyada “seftriakson sonrası beklenmedik reaksiyon.” Loglar bir sunucuda.",
+"Gönül biliyor. Bir daha seninle aynı nöbete yazılmadı.",
+P(YASADI, "Nurten Hanım yaşadı. Bir sabah kontrole geldiğinde seni gördü. Tanımadı. “Kızım, ne güzel doktorsun,” dedi. Teşekkür ettin. Yüzün kızardı. O fark etmedi."),
+P(OLDU, "Nurten Hanım öldü. Oğuz dava açmadı. “beklenmedik reaksiyon.” Annesini Kartal'a gömdü. Adını hiç öğrenmedi."),
+"Uzman oldun. Kendi asistanların var. Alerji sekmesini her seferinde açtırıyorsun.",
+"Bir gece üçte bir asistan geliyor, gözleri kızarık. “Hocam, bir order'da hata yaptım. Hasta iyi. Ne yapmalıyım?”",
+"Ağzında bir cümle: “Bir şey yazma. Ben hallederim.” Haluk Hoca'nın cümlesi. Tanıdık, rahatlatıcı. Dilinin ucunda."
 ]},
 
-son_sistem: { son: true, baslik: "Sistem", metin: [
-P(S("t4A"), "O sabah sekmeyi açtın, hastaya sordun, gelinine sordun, sekmeyi yeniden açtın. Hülya gülümsedi."),
-P(S("t4B"), "O sabah Hülya'ya baktın ve birlikte kontrol ettiniz: iki çift göz, bir sekme."),
-P(S("t4C"), "O sabah hastanın elini tutup sordun: “Hiç bir ilaçtan kızardınız mı?” Kadın düşündü. “Bir kere,” dedi. “Gençken. Unutmuşum.”"),
-P(S("t4D"), "O sabah bir an durdun; otuz altı saat önceki bir an gibi. Sonra devam ettin; bu kez sekmeyle."),
-"Bildirimin bir şeyi değiştirdi. Alerji sekmesi artık kırmızı; bütün Türkiye'de, bir bakanlık güncellemesiyle. Asistan nöbetleri yirmi dört saatle sınırlandı; kâğıt üstünde, ama sınırlandı. Acil servise iki yeni kadro verildi.",
-"Hasta güvenliği komitesi senin bildirimini bir “örnek vaka” olarak eğitim materyaline koydu. Her yeni asistan okuyor. İsmin yok; “Asistan A” yazıyor.",
+son_sistem: { son: true, baslik: "Asistan A", metin: [
+P(S("t4A"), "O sabah sekmeyi açtın, hastaya sordun, oğluna sordun, sekmeyi yeniden açtın. Gönül güldü: “Yeter kızım.”"),
+P(S("t4B"), "Gönül'le birlikte baktınız: iki çift göz, bir sekme."),
+P(S("t4C"), "“Hiç bir ilaçtan kızardınız mı?” Adam düşündü. “Bir kere,” dedi. “Askerde. Unutmuşum.”"),
+P(S("t4D"), "Bir an durdun. Sonra devam ettin. Bu kez sekmeyle."),
+"Bildirimin bir şeyi değiştirdi. Alerji sekmesi kırmızı. Bütün ülkede. Nöbetler yirmi dört saatle sınırlandı. Kâğıt üstünde. Acile iki yeni kadro geldi.",
+"Komite bildirimini eğitim materyaline koydu. Her yeni asistan okuyor. Adın yok. “Asistan A” yazıyor.",
 "Bireysel kusur tespit edilmemiştir.",
-"Bu cümle seni kurtardı. Bu cümle yüzlerce gelecek hastayı kurtaracak bir değişikliğin başlangıcı oldu. Bu cümle doğru: bir sistem bir hatayı üretti; sen o sistemin bir parçasıydın.",
-"Ama bu cümle bir şeyi de sildi: senin adını. Senin elini. Senin “yok” deyişini.",
-P(function(d){ return d.yonlendirdi || d.kacti; }, "Oğuz bir gün sana “Kim yazdı?” diye sordu. Ona cevap vermedin. Bir sistemin arkasında durdun; bir sistemin, bir insanın sorusuna cevap veremeyeceğini bile bile."),
-"Sistemler değişir; bunu öğrendin. Ama sistemler bir insanın yüzüne bakıp “ben yaptım” diyemez. Bunu ancak bir insan yapabilir. Ve sen, sistemin değişmesini sağlarken, o cümleyi kimseye söylemedin.",
-"Belki ikisi birden olamazdı. Belki sen bir şeyi seçtin: geleceğin hastalarını, geçmişin hastasına tercih ettin. Bu bir hesap. Belki doğru bir hesap. Ama Nurten Hanım'ın adı hesapta değil."
+P(function(d){ return d.yonlendirdi || d.kacti; }, "Oğuz sana “Kim yazdı?” diye sormuştu. Cevap vermedin."),
+"Bir sistem bir insanın yüzüne bakıp “ben yaptım” diyemez. Sen sistemin değişmesini sağladın. O cümleyi kimseye söylemedin.",
+"Eğitim materyalinin bir sayfasında, kenar boşluğunda, bir asistan kurşunkalemle sormuş: “Asistan A sonra ne oldu?” Kimse cevap yazmamış."
 ]},
 
-son_birak: { son: true, baslik: "Bırakış", metin: [
-P(S("t4A"), "O sabah sekmeyi açtın, hastaya sordun, gelinine sordun, sekmeyi yeniden açtın. Hülya gülümsedi."),
-P(S("t4B"), "O sabah Hülya'ya baktın ve birlikte kontrol ettiniz: iki çift göz, bir sekme."),
-P(S("t4C"), "O sabah hastanın elini tutup sordun: “Hiç bir ilaçtan kızardınız mı?” Kadın düşündü. “Bir kere,” dedi. “Gençken. Unutmuşum.”"),
-P(S("t4D"), "O sabah bir an durdun; otuz altı saat önceki bir an gibi. Sonra devam ettin; bu kez sekmeyle."),
-"Bir ay sonra Levent Hoca dilekçeni imzaladı. Bir şey söylemedi. Kapıda elini sıktı. “Yazık,” dedi. “İyi bir hekimdin.” Geçmiş zaman.",
-"Şimdi bir ilaç firmasında tıbbi danışmansın. Ofis, bilgisayar, toplantılar. Kimse sana gece üçte telefon etmiyor. Kimse yumruk atmıyor. Kimse bir sekmenin açılmamasından ölmüyor.",
+son_birak: { son: true, baslik: "Prospektüs", metin: [
+P(S("t4A"), "O sabah sekmeyi açtın, hastaya sordun, oğluna sordun, sekmeyi yeniden açtın. Gönül güldü: “Yeter kızım.”"),
+P(S("t4B"), "Gönül'le birlikte baktınız: iki çift göz, bir sekme."),
+P(S("t4C"), "“Hiç bir ilaçtan kızardınız mı?” Adam düşündü. “Bir kere,” dedi. “Askerde. Unutmuşum.”"),
+P(S("t4D"), "Bir an durdun. Sonra devam ettin. Bu kez sekmeyle."),
+"Bir ay sonra Haluk Hoca dilekçeni imzaladı. Kapıda elini sıktı. “Yazık. İyi bir hekimdin.” Geçmiş zaman.",
+"Bir ilaç firmasında tıbbi danışmansın. Kimse gece üçte aramıyor. Kimse yumruk atmıyor.",
 "Maaşın iki katı. Uykuların düzelmedi.",
-"Kerem'le ayda bir buluşuyorsunuz. O da bıraktı. İkiniz, bir kafede, eski nöbet hikâyeleri anlatıyorsunuz. Bazıları komik. Çoğu değil. Bir gün Kerem diyor ki: “Biliyor musun, bizim sınıftan on iki kişi bıraktı. Otuz kişilik sınıf. On iki.” Bir sistem, kendi doktorlarını tüketiyor; ve tükenmiş doktorlar hata yapıyor; ve hata yapan doktorlar bırakıyor.",
-P(OLDU, "Bazen Kartal'dan geçiyorsun. Bir mezarlığın önünden. Durmuyorsun. Ama yavaşlıyorsun."),
-P(YASADI, "Bir gün bir markette yaşlı bir kadın gördün. Gelininin koluna girmiş. Nurten Hanım'a benziyordu. Belki oydu. Belki değil. Dönüp bakmadın."),
-"Bıraktığın şey bir meslek. Bırakamadığın şey bir an: otuz bir saat, bir ekran, bir soru, bir “yok”. O an seninle geldi; ilaç firmasına, kafeye, yatağına.",
-"Bir gün belki geri dönersin. Bir aile hekimliğine; Kerem gibi. Belki dönmezsin. Ama her ilaç kutusunun prospektüsünü okurken, alerji bölümüne geldiğinde, bir an duruyorsun. Hâlâ."
+"Ufuk'la ayda bir buluşuyorsunuz. Bir gün: “Bizim sınıftan on iki kişi bıraktı. Otuz kişilik sınıf.” Sayıyı söyledikten sonra ikiniz de çayınıza baktınız.",
+P(OLDU, "Bazen Kartal'dan geçiyorsun. Bir mezarlığın önünden. Durmuyorsun. Yavaşlıyorsun."),
+P(YASADI, "Bir gün bir markette yaşlı bir kadın gördün, gelininin koluna girmiş. Nurten Hanım'a benziyordu. Dönüp bakmadın."),
+"Her ilaç kutusunun prospektüsünü okurken alerji bölümüne gelince parmağın satırın üstünde duruyor."
 ]},
 
-son_nobet: { son: true, baslik: "Yeniden Nöbet", metin: [
-P(S("t4A"), "O sabah sekmeyi açtın, hastaya sordun, gelinine sordun, sekmeyi yeniden açtın. Hülya gülümsedi."),
-P(S("t4B"), "O sabah Hülya'ya baktın ve birlikte kontrol ettiniz: iki çift göz, bir sekme."),
-P(S("t4C"), "O sabah hastanın elini tutup sordun: “Hiç bir ilaçtan kızardınız mı?” Kadın düşündü. “Bir kere,” dedi. “Gençken. Unutmuşum.”"),
-P(S("t4D"), "O sabah bir an durdun; otuz altı saat önceki bir an gibi. Sonra devam ettin; bu kez sekmeyle."),
-"Nöbetlere devam ediyorsun. Her gün, her gece. Yüzlerce hasta. Binlerce order. Her birinde, alerji sekmesi.",
-"Ne tam olarak söyledin ne tam olarak sakladın. Bir yerde bir şey söyledin, bir yerde sustun. Bir insanın bir hatayla yaşamasının çoğu zaman böyle olduğunu öğrendin: ne tam bir itiraf, ne tam bir yalan. Bir ara bölge. Gri bir sekme.",
-P(YASADI, "Nurten Hanım yaşıyor. Bu senin şansın. Bir refleks, bir saniye. Aynı hatayı yapan bir başkası katil olabilirdi; sen olmadın. Bunu hak etmedin. Ama oldu."),
-P(OLDU, "Nurten Hanım öldü. Bu senin şanssızlığın. Bir donma, bir saniye. Aynı hatayı yapan bir başkası onu kurtarabilirdi; sen kurtaramadın. Bunu hak etmedin. Ama oldu."),
-"Babanın cümlesi aklında: “Bir hata bir insanı ya kırar ya da dikkatli yapar. İkisi birden de olabilir.”",
-"Sen ikisi birden oldun. Kırık ve dikkatli. Bazı geceler kırık yanın ağır basıyor; uyanıp tavana bakıyorsun. Bazı sabahlar dikkatli yanın; bir asistanın order'ını iki kez okuyup bir hatayı yakalıyorsun ve o asistan hiçbir zaman ne kadar yakın olduğunu bilmiyor.",
-"Bu meslekte kimse kusursuz değil. Bunu herkes söyler. Ama bunu kendi bedeninde, kendi elinde, kendi “yok” deyişinde öğrenmek başka. Bunu öğrendin. Ve her nöbetin başında, otuz altı saatin ağırlığını taşıyarak, bir kez daha soruyorsun:",
+son_nobet: { son: true, baslik: "Gri Sekme", metin: [
+P(S("t4A"), "O sabah sekmeyi açtın, hastaya sordun, oğluna sordun, sekmeyi yeniden açtın. Gönül güldü: “Yeter kızım.”"),
+P(S("t4B"), "Gönül'le birlikte baktınız: iki çift göz, bir sekme."),
+P(S("t4C"), "“Hiç bir ilaçtan kızardınız mı?” Adam düşündü. “Bir kere,” dedi. “Askerde. Unutmuşum.”"),
+P(S("t4D"), "Bir an durdun. Sonra devam ettin. Bu kez sekmeyle."),
+"Nöbetlere devam ediyorsun. Binlerce order. Her birinde alerji sekmesi.",
+"Ne tam söyledin ne tam sakladın. Bir yerde konuştun, bir yerde sustun.",
+P(YASADI, "Nurten Hanım yaşıyor. Bir refleks, bir saniye. Bunu hak etmedin. Ama oldu."),
+P(OLDU, "Nurten Hanım öldü. Bir donma, bir saniye. Bunu da hak etmedin. Ama oldu."),
+"Babanın cümlesi: “Ya kırar ya dikkatli yapar. İkisini birden de yapar.”",
+"Bazı geceler uyanıp tavandaki lekeye bakıyorsun. Bazı sabahlar bir asistanın order'ını iki kez okuyup bir hatayı yakalıyorsun ve o asistan ne kadar yakından döndüğünü hiç bilmiyor.",
+"Her nöbetin başında, bir kez daha:",
 "“Alerjisi var mı?”"
 ]}
 
@@ -605,13 +581,13 @@ P(OLDU, "Nurten Hanım öldü. Bu senin şanssızlığın. Bir donma, bir saniye
 ayna: function(d){
   var out = [];
   var a = d.durustluk, b = d.sistem, c = d.sefkat;
-  if(a >= b && a >= c) out.push("Bu hikâyede en çok dürüstlüğe yaslandın: kendi hatanı kendi adınla söylemeye. Dürüstlük seni temize çıkarmadı; ama hatanı görünür kıldı. Görünür olan bir hata, bir sırdan daha az ağır mıdır? Bunu ancak yıllar söyleyecek.");
-  else if(b >= c) out.push("Bu hikâyede en çok sisteme baktın: otuz altı saate, gri sekmeye, eksik kadroya, yumruğa. Bir hatanın tek bir insanın değil, bir yapının ürünü olduğunu gösterdin. Bu doğru. Ama bir sistemin arkasında, her zaman, bir insanın eli de vardır.");
-  else out.push("Bu hikâyede en çok şefkate yaslandın: Kerem'e, Hülya'ya, babana, belki sonunda kendine. Kendine şefkat göstermek bir bahane mi, bir iyileşme mi? Bu sorunun cevabı, şefkatin ne yaptığında: seni sustururken mi, yoksa ayağa kaldırırken mi?");
-  if(d.kol === "ortbas" && !d.ortaya) out.push("Bir kaydı değiştirdin ve kimse bilmedi. Bir yalanın en ağır yanı, söylenmesi değil; her gün yeniden söylenmesidir.");
-  if(d.gecikme) out.push("Bir arkadaşın yanında kaldın; o kırk dakika, bir sistemin içinde başka bir yerde eksik kaldı. İyilik bile bir bedel taşıyor.");
-  if(d.erken_adrenalin) out.push("Bir saniyelik bir refleks, bir hayatı kurtardı. Bu seni iyi bir hekim mi yapar, yoksa yalnızca şanslı mı?");
-  if(!d.erken_adrenalin) out.push("Bir saniyelik bir duraksama. Aynı hatayı yapan bir başkası daha hızlı olabilirdi. Ahlaki şans, en çok, sonucun sizin elinizde olmadığını bildiğinizde acıtır.");
+  if(a >= b && a >= c) out.push("Çoğu kavşakta hatanı kendi adınla söyledin.");
+  else if(b >= c) out.push("Çoğu kavşakta sisteme baktın: otuz altı saate, gri sekmeye, yumruğa.");
+  else out.push("Çoğu kavşakta Ufuk'un, Gönül'ün, babanın yanında kaldın.");
+  if(d.kol === "ortbas" && !d.ortaya) out.push("Bir kaydı değiştirdin ve kimse bilmedi.");
+  if(d.gecikme) out.push("Ufuk'un yanında kaldığın kırk dakika sarı alanda eksikti.");
+  if(d.erken_adrenalin) out.push("Adrenalini düşünmeden yaptın. Nurten Hanım o yüzden yaşadı.");
+  if(!d.erken_adrenalin) out.push("Adrenalinden önce birkaç saniye geçti.");
   return out;
 },
 
