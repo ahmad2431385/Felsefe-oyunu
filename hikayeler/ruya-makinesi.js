@@ -35,6 +35,7 @@ a1: { saat: "Mart 2049", baslik: "Broşür", metin: [
 ]},
 
 a2: { saat: "Mart 2049", baslik: "Deneme Seansı", metin: [
+P(S("a1B"), "Broşürü okudun, iki kez. “Kaybettiklerinize yeniden kavuşun.” Son sayfada, küçük harflerle: “Kalıcı programda katılımcının dış dünyayla bilinçli bağı sona erer.” O satırı ikinci kez okumadın."),
 P(S("a1A"), "Çöpe attın. Akşam çöpü dökerken broşür en üstteydi; yeşil bahçe, gülümseyen çift. Geri aldın. Kimse görmedi."),
 P(S("a1C"), "Ayla telefonu açtı, sesi yorgun. “Annem iyi,” dedi. “Çok iyi. Mutlu. Gülümsüyor hep.” Bir süre sustu. “Ben onu kaybettim Saadet Teyze. Ama o mutlu. Bunu nasıl anlatayım bilmiyorum.”"),
 P(S("a1D"), "Hikmet'in koltuğuna oturdun. Yay gıcırdadı; onun ağırlığına alışmış. Pencereden deniz göründü; onun her sabah gördüğü deniz. Koltuk, onun bıraktığı biçimi hâlâ taşıyordu."),
@@ -84,6 +85,10 @@ x_soru: { saat: "Mart 2049", baslik: "Soru", metin: [
 ]},
 
 a3: { saat: "Nisan 2049", baslik: "Nadide", metin: [
+P(S("x_elC"), "Elini yirmi dakikanın sonuna kadar tuttun. Seans bittiğinde avucun hâlâ sıcaktı. Dolmuşta, eve dönerken, sıcaklık gitmesin diye avucunu dizine kapattın."),
+P(S("x_elD"), "“Bunu neden şimdi söylüyorsun?” Hikmet bir an durdu; görüntü bir an titredi. “Çünkü sen bunu duymak istedin Saadet'im,” dedi. Bir makinenin en dürüst cümlesi."),
+P(S("x_soruA"), "Çayını içtin. Soru masada kaldı, cevapsız; çayın buharı gibi dağıldı."),
+P(S("x_soruB"), "Elini kaldırıp çıktın. Selcan Hanım başlığı çıkarırken gülümsedi: “Herkes ilk seferde böyle yapar. İkincisinde kalırlar.”"),
 P(S("a2A"), "Yirmi dakika. Çay, erik ağacı, Hikmet'in sesi. Sonra karanlık. Sonra Selcan Hanım'ın odası. Başlığı çıkardığında koltuğun kolunu sıkıyordun. Bir saat kendine gelemedin. “Herkes böyle olur,” dedi Selcan Hanım. “İlk sefer.”"),
 P(S("a2D"), "Beş dakika olmadan elini kaldırdın. Selcan Hanım şaşırdı. “Çoğu insan yirmi dakikayı bitirir,” dedi. Sana bir bardak su verdi. Ellerin titriyordu; her zamankinden fazla."),
 P(S("x_elA"), "“Affettim,” dedin. Hikmet gülümsedi. Seans bitince ağladın; uzun süre. Kırk bir yıllık bir susuşu bir makine bozdu. Ve sen, bunun için minnettar olup olmadığını bilmeden eve döndün."),
@@ -104,6 +109,8 @@ P(S("x_soruD"), "“Sizi çok tanıyorum,” dedi Hikmet; ya da makine. “Telef
 ]},
 
 a4: { saat: "Nisan 2049", baslik: "Frankfurt'tan Bir Ses", metin: [
+P(S("a3A"), "Nadide'nin elini tuttun. Sıcak, yumuşak; kırk yıl kahve fincanı tutmuş bir el. İçinde hiçbir şey kıpırdamadı. Bir el tutuyordun ama kimse senin elini tutmuyordu."),
+P(S("a3C"), "Gülümseyen yüze uzun uzun baktın. Kıskandın; bunu kendine eve dönen otobüste itiraf ettin. Bir yıldır kocasıyla bir bahçede. Ve sen dördüncü katta, bozuk bir asansörle."),
 P(S("a3B"), "“Yüzünden,” dedi Ayla. “Ve beyin taramalarından. Mutluluk hormonları, dopamin, her şey yüksek. Bir yıldır.” Durdu. “Ama annemin mutluluğu benim mutluluğum değil. Ben onunla mutlu olmak istiyordum. Burada.”"),
 P(S("a3D"), "Koridorda saydın. Kırk iki oda. Her odada sekiz yatak. Üç yüz otuz altı insan, bir binada, bir bahçede. Hemşire, binanın üç kat daha olduğunu söyledi."),
 "Pazar akşamı Cem'le görüntülü arama. Ekranda Frankfurt'taki mutfakları; arkada gelinin Sabine, bir şeyler kesiyor.",
@@ -116,7 +123,7 @@ P(S("a3D"), "Koridorda saydın. Kırk iki oda. Her odada sekiz yatak. Üç yüz 
 ], secenekler: [
 { t: "Nil'e sorarsın: “Ne okudun güzelim?”", to: "x_nil", etki: { bag: 1, gercek: 1 } },
 { t: "Cem'e sorarsın: “Neden sen gelmiyorsun oğlum?”", to: "x_cem", etki: { bag: 1 } },
-{ t: "“Düşüneceğim,” dersin ikisine de.", to: "a5", etki: { mutluluk: 1 } },
+{ t: "“Düşüneceğim,” dersin ikisine de. Kimseyi kırmadan; kimseye bir şey vermeden.", to: "a5", etki: { mutluluk: 1 } },
 { t: "Telefonu kapatırsın. Bu konuşmayı bir ekranda yapamazsın.", to: "a5", etki: { gercek: 1, kapatti: true } }
 ]},
 
@@ -150,6 +157,11 @@ x_cem: { saat: "Nisan 2049", baslik: "Cem", metin: [
 ]},
 
 a5: { saat: "Mayıs 2049", baslik: "Mektuplar", metin: [
+P(S("a4C"), "“Düşüneceğim,” dedin. Cem rahatladı; Nil telefonu bırakıp gitti. Ekran kararmadan önce son gördüğün, çarpılan bir kapıydı."),
+P(S("a4D"), "Telefonu kapattın. Bir saat sonra Nil'den bir mesaj geldi: “Babaanne lütfen.” Yalnızca bu. Cevap yazmadın; ne yazacağını bilmiyordun."),
+P(S("x_nilC"), "Nil araştırmayı gönderdi: Almanca, on dört sayfa. Çeviri programıyla okudun. Bir cümle takıldı: “Kalıcı katılımcıların yakınlarında uzun süreli yas belirtileri.” Ölmemiş birinin yasını tutmak."),
+P(S("x_cemC"), "“Bahçe senin için mi kolay olacak, benim için mi?” Cem uzun süre sustu. “İkimiz için,” dedi sonunda. Sonra: “Belki daha çok benim için.” İlk kez dürüst konuşuyordu."),
+P(S("x_cemD"), "Bir şey söylemedin. Cem de söylemedi. Ekranda Frankfurt'un ışıkları; iki ucunda iki sessizlik."),
 P(S("x_nilA"), "“Unutmam,” dedin. Nil başını salladı. “Söz mü?” “Söz.” Bir makinenin, bir sözü bozabileceğini ikiniz de biliyordunuz."),
 P(S("x_nilB"), "Nil bir süre sustu. “Mutlu olursun,” dedi. “Ama sen olmazsın.” Bu cümlenin bir çocuğun ağzından nasıl çıktığını anlamadın."),
 P(S("x_nilD"), "Uzun uzun baktın. Mor saçlar, kaşının üstündeki ben, kırık bir diş. Nil de sana baktı. Bir süre ikiniz de bir şey söylemediniz. Sonra Nil, “Ben de seni ezberliyorum,” dedi."),
@@ -169,6 +181,7 @@ P(S("x_cemB"), "“Kızgındım.” Cem bir süre sustu. Sonra: “Biliyorum,”
 ]},
 
 a6: { saat: "Haziran 2049", baslik: "Sözleşme", metin: [
+P(S("a5B"), "Kutuyu kapatıp dolaba geri koydun. Ama dolabın ne taşıdığını artık biliyordun. Her sabah önünden geçerken kapağı biraz daha ağırdı."),
 P(S("a5A"), "Okudun. Bütün gece. Feride'nin yazısını hiç görmedin; yalnızca Hikmet'in. Ama satırların arasından bir kadın çıktı; senin gibi, ama başka. Sabah ilk kez Hikmet'e kızdın; ölümünden üç yıl sonra. Ve kızgınlık, garip bir şekilde, onu daha gerçek yaptı."),
 P(S("a5C"), "Mektupları balkonda, bir tencerede yaktın. Kâğıt kıvrıldı, mürekkep parladı, Feride'nin adı bir an alevde göründü. Sonra kül. Gerçek Hikmet'in bir parçası yok oldu; ve Bahçe'deki Hikmet biraz daha kusursuz oldu."),
 P(S("a5D"), "Bir hafta aradın. Feride Kaya, yetmiş altı yaşında, Bornova'da bir bakımevinde. Seni görünce tanımadı; sonra tanıdı. İkiniz bir saat oturdunuz. Hikmet'i konuştunuz; iki kadın, bir adam, otuz yıl. Çıkarken Feride sana sarıldı. “O seni seviyordu,” dedi. “Beni de. Ama seni seçti. Bunu bilmeni isterim.”"),
@@ -177,16 +190,19 @@ P(S("a5D"), "Bir hafta aradın. Feride Kaya, yetmiş altı yaşında, Bornova'da
 "Bir de ikinci bir seçenek, küçük harflerle, son sayfada: “Kısmi Program: günde üç saate kadar seans; gerçeklik bilinci korunur.”",
 "Masada sözleşme, bir kalem, Hikmet'in koltuğu, pencereden deniz.",
 "Yetmiş sekiz yaşındasın. Belki on yılın var, belki iki. Bir yanda gerçek bir hayat: merdivenler, titreyen eller, ayda bir görüntülü arama, mürekkep lekeli bir hatıra. Öbür yanda bir bahçe: erik ağacı, çay, sonsuza dek otuz beş yaşında bir adam.",
-"Bu, hayatının son büyük kararı. Belki de ilk gerçekten kendine ait olan."
+"Bu, hayatının son büyük kararı. Belki de ilk gerçekten kendine ait olan.",
+"Selcan Hanım'ın notu ilişik: “Kontenjan bu ay doluyor. Cevabınızı cumaya kadar bekliyoruz.” Bugün çarşamba."
 ], secenekler: [
-{ t: "Kalıcı programı imzalarsın. Bahçe.", to: "b1", etki: { mutluluk: 2, kol: "bahce" } },
-{ t: "Reddedersin. Gerçek hayatına, ne kaldıysa, geri dönersin.", to: "g1", etki: { gercek: 2, kol: "gercek" } },
-{ t: "Kısmi programı seçersin. Günde üç saat. İkisi birden.", to: "y1", etki: { mutluluk: 1, gercek: 1, kol: "yarim" } },
-{ t: "Bavulunu toplarsın. Frankfurt'a, Cem'in yanına gideceksin.", to: "d1", etki: { bag: 2, kol: "goc" } }
+{ t: "Kalıcı programı imzalarsın. Hikmet'e kavuşursun; Nil'in sesini bir daha tanımayacağını bilerek.", to: "b1", etki: { mutluluk: 2, kol: "bahce" } },
+{ t: "Reddedersin. Gerçek hayatına dönersin: bozuk asansöre, boş koltuğa, yalnızlığa.", to: "g1", etki: { gercek: 2, kol: "gercek" } },
+{ t: "Kısmi programı seçersin. Günde üç saat. İkisini birden isteyerek; ikisini de yarım alarak.", to: "y1", etki: { mutluluk: 1, gercek: 1, kol: "yarim" } },
+{ t: "Bavulunu toplarsın. Frankfurt'a, Cem'in yanına; kırk yıllık şehrini ve Hikmet'in mezarını geride bırakarak.", to: "d1", etki: { bag: 2, kol: "goc" } }
 ]},
 
 /* ---------- BAHÇE KOLU ---------- */
 b1: { saat: "Temmuz 2049", baslik: "Son Gün", metin: [
+P(S("a6A"), "İmzaladın. Kalemin ucu kâğıtta bir an durdu; mürekkep yayıldı, küçük bir leke. Hikmet'in ellerindeki gibi."),
+P(S("y3A"), "Kalıcı programa geçtin. Selcan Hanım'ın sesi telefonda yumuşaktı: “Doğru karar Saadet Hanım.” Doğru muydu? Bunu artık hiç bilmeyeceksin."),
 "Giriş günü bir pazartesi. Pazar akşamı son kez evdesin.",
 "Neyi yanına alacağını düşünüyorsun; sonra hiçbir şeyi alamayacağını hatırlıyorsun. Bedenin bir yatakta olacak; geri kalanın bir bahçede. Bir bavula ihtiyacın yok.",
 "Yine de bir şey yapıyorsun. Dikiş makinesinin örtüsünü kaldırıyorsun. Bir kumaş: Nil için bir elbise; aylar önce başlamıştın, yarım kalmış. Mavi, keten, yakası işlemeli.",
@@ -203,6 +219,10 @@ b1: { saat: "Temmuz 2049", baslik: "Son Gün", metin: [
 ]},
 
 b2: { saat: "Bahçe", baslik: "Erik Ağacı", metin: [
+P(S("b1A"), "Hatırlamıyorsun: son gece Cem'i aradın. Pek konuşmadınız. “Anne,” dedi iki kez; sen “Biliyorum oğlum,” dedin. O konuşma artık yalnızca onda."),
+P(S("b1B"), "Hatırlamıyorsun: son gece Nil'e bir sesli mesaj bıraktın. Üç dakika. Nil onu yıllarca dinleyecek; sen bir kez bile hatırlamayacaksın."),
+P(S("b1C"), "Hatırlamıyorsun: son gece kimseyi aramadın. Balkonda oturup denize baktın ve bir sigara yaktın; kırk yıl sonra ilk kez. Hikmet'in markası."),
+P(S("b1D"), "Hatırlamıyorsun: son gece Feride'yi aradın. Yaşlı, titrek bir ses açtı. Sen bir şey söyleyemedin, o da söylemedi. Bir dakika sonra o kapattı; ya da sen."),
 "Bir bahçede uyanıyorsun. Erik ağacı, asma, tahta masa. Sabah. Kuşlar.",
 "Hikmet masada, çay demliyor. Otuz beş yaşında. Seni görünce gülümsüyor. “Günaydın Saadet'im. Çayın soğuyor.”",
 "Kendine bakıyorsun. Ellerin titremiyor. Ellerin genç; otuz yaşında, terzi elleri, iğnenin ucunda hızlı. Aynada bir yüz: saçların kara, yanakların dolgun.",
@@ -219,13 +239,16 @@ b2: { saat: "Bahçe", baslik: "Erik Ağacı", metin: [
 ]},
 
 b3: { saat: "Bahçe", baslik: "Pencere", metin: [
+P(S("b2A"), "Sesi duymazdan geldin. Rüzgâr, dedin. Ertesi gün rüzgâr yine aynı kelimeyi söyledi."),
+P(S("b2B"), "Bahçeye çıkıp sesin geldiği yönü aradın: erik ağacının arkası, asmanın altı. Hiçbir şey. Ama çitin dibinde bir an mor bir şey gördün; bir saç teli gibi."),
 P(S("b2C"), "“Ne sesi?” dedi Hikmet. Gülümsedi. “Rüzgâr Saadet'im. Ya da bir kuş.” Ama bir an, yalnızca bir an, yüzünde bir şey titredi; bir görüntünün bozulması gibi."),
 P(S("b2D"), "Gelinliğin yakası yarım. Bir işleme; mavi iplik, bir çiçek, yarısı dikilmiş. Bunu sen dikmedin. Ya da diktin; ama nerede, ne zaman? Elin yakaya dokunuyor ve parmakların bir şey hatırlıyor; bir kutu, bir not, bir isim."),
 "Ses her gün geliyor. Aynı saatte. Bir kız sesi. Kırık bir dil. Bazen bir şarkı; bir Alman çocuk şarkısı. Bazen yalnızca konuşuyor. Bazen ağlıyor.",
 "Bir gün bahçenin köşesinde bir şey görüyorsun. Daha önce orada olmayan bir şey: bir pencere. Ağaçların arasında, havada asılı, bir çerçeve. İçinden bir oda görünüyor: beyaz duvarlar, bir yatak, bir serum askısı. Ve yatağın başında, mor saçlı bir genç kız, birinin elini tutuyor.",
 "Pencerenin yanında bir kadın beliriyor. Beyaz önlüklü; ama bahçenin bir parçası değil. Selcan Hanım. Ya da sistemin Selcan Hanım'ın yüzünü kullanan bir parçası.",
 "“Saadet Hanım,” diyor. “Bir anomali tespit ettik. Dışarıdan gelen bir uyaran simülasyona sızıyor. İki seçeneğiniz var. Bu pencereyi kapatabiliriz; anomali silinir, bahçeniz kusursuz olur. Ya da pencereden geçebilirsiniz. Ama bilin ki geçerseniz geri dönüş zor olur. Uyanış travmatiktir.”",
-"Arkanda Hikmet. Çay bardağı elinde. “Saadet'im,” diyor, “nereye?”"
+"Arkanda Hikmet. Çay bardağı elinde. “Saadet'im,” diyor, “nereye?”",
+"Pencereden geçersen ne olacağını bilmiyorsun. Burada her şey var. Orada ne olduğunu ise yalnızca bir ses biliyor."
 ], secenekler: [
 { t: "Pencereyi kapattırırsın. Bahçe kusursuz olsun.", to: "t1", etki: { mutluluk: 2, bahce_kalici: true } },
 { t: "Pencereden geçersin.", to: "t1", etki: { gercek: 2, bag: 1, uyandi: true } },
@@ -249,6 +272,8 @@ g1: { saat: "Temmuz 2049", baslik: "Atölye", metin: [
 ]},
 
 g2: { saat: "Kasım 2049", baslik: "Zemin", metin: [
+P(S("g1B"), "Rima annesini anlattı: Halep'te bir terzi, kırk yıl, bir dükkân. Bombardımandan sonra Gaziantep'te bir kampta ölmüş, iğnesini elinden bırakmadan. Rima o iğneyi hâlâ yanında taşıyor."),
+P(S("g1C"), "Hikmet'in matbaasını düşündün; yıkılıp yerine otopark yapılmıştı. Rima'ya anlattın. “Otopark,” dedi Rima, “bizim evin yerine de.” İki kadın güldünüz; ağlamaya yakın bir gülüşle."),
 P(S("g1A"), "Rima önce reddetti. Sonra kabul etti. Bir cumartesi eşiyle geldi, makineyi dördüncü kattan indirdiler; sen arkalarından yavaşça. Makinenin yerinde şimdi bir boşluk var; ama Rima'nın evinde, Bayraklı'da, bir dikiş makinesi çalışıyor."),
 P(S("g1D"), "Bir gelinlik. Üç ay sürecek. Rima'nın kız kardeşi evleniyor; baharda. Her salı ve perşembe atölyede, saten, dantel, boncuk. Ellerin titriyor; ama bir gelinliğin nasıl yapılacağını hatırlıyorlar."),
 "Kasımda bir gece mutfakta düşüyorsun. Bir an; bir halı kenarı, bir terlik. Kalçan yere çarpıyor. Kalkamıyorsun.",
@@ -264,6 +289,10 @@ P(S("g1D"), "Bir gelinlik. Üç ay sürecek. Rima'nın kız kardeşi evleniyor; 
 ]},
 
 g3: { saat: "Temmuz 2050", baslik: "Nil", metin: [
+P(S("g2A"), "Selcan Hanım'ın mesajını sildin; hastane yatağında, tek parmakla."),
+P(S("g2B"), "Mesajı sakladın. Bazı geceler hastanede açıp dinledin: “Yalnız kalmamanız için.” Yalnızdın."),
+P(S("g2C"), "Rima'ya teşekkür ettin. Seni yerde o bulmuştu; salı atölyesine gelmeyince kapını çalmış, komşudan anahtar almış. “Sana bir hayat borçluyum,” dedin. “Ben de bir dikiş makinesi,” dedi Rima, gülerek."),
+P(S("y3B"), "Programı sonlandırdın. Başlığı kuryeye geri verdin; kutusuna koyarken elin bir an durdu. O gece aylardan sonra ilk kez Hikmet'siz uyudun."),
 P(S("g2D"), "Cem bir sonraki uçakla geldi. Hastanede yatağının başında oturdu, üç gün. Gitmeden önce bir şey dedi: “Yazın Nil'i göndereceğim. Bütün yaz. Ona Türkçe öğret anne. Bana öğretemediğin gibi değil; doğru öğret.”"),
 "Yaz. Nil İzmir'de. On yedi yaşında, mor saçları yeşile dönmüş. Bir sırt çantasıyla, bir gitarla, kırık Türkçesiyle.",
 "İlk hafta zor. Nil telefonda, sen pencerede. Aranızda bir dil, bir kuşak, bir Avrupa.",
@@ -294,6 +323,9 @@ y1: { saat: "Ağustos 2049", baslik: "Üç Saat", metin: [
 ]},
 
 y2: { saat: "Ekim 2049", baslik: "Karışıklık", metin: [
+P(S("y1A"), "Bir saat daha kaldın. Sonra bir saat daha. Saat birde başlığı çıkardığında çaydanlık ocakta unutulmuş, dibi kararmıştı."),
+P(S("y1B"), "Kurala uydun, saat onda çıktın. Hikmet “Yarın,” dedi. Yarın, dedin. Her akşam bir randevu; bir ölüyle."),
+P(S("y1C"), "Başlığı bir hafta dolaba kaldırdın. Üçüncü gün kapağı açıp baktın, kapattın. Altıncı gün açtın."),
 P(S("y1D"), "“Gündüz yok Saadet'im,” dedi Hikmet. “Burada hep akşam. Ben hep buradayım. Sen gidiyorsun.” Bu cümle seni bütün gece uyutmadı."),
 "Ekimde Nil'le görüntülü konuşuyorsun. Nil okulunu, arkadaşlarını anlatıyor. Sonra sen bir şey anlatıyorsun.",
 "“Deden dün bana bir şarkı söyledi,” diyorsun. “Gençliğimizden. Bahçede, erik ağacının altında. Çok güzel söyledi.”",
@@ -311,6 +343,8 @@ P(S("y1D"), "“Gündüz yok Saadet'im,” dedi Hikmet. “Burada hep akşam. Be
 ]},
 
 y3: { saat: "Aralık 2049", baslik: "Eşik", metin: [
+P(S("y2A"), "Başlığı tamamen kaldırmaya karar verdin. Ama Selcan Hanım'ı aramadan önce bir gece daha taktın; son kez, dedin."),
+P(S("y2B"), "“Korkma güzelim, ben iyiyim,” dedin. Nil inanmadı; iki gün sonra Cem aradı: “Anne, Nil diyor ki...”"),
 P(S("y2D"), "Nil uzun süre düşündü. “Fark eder,” dedi. “Çünkü dedem gerçekte bir şarkı söyleseydi, ben de duyabilirdim. Senin bahçende yalnızsın babaanne. Orada ben yokum.”"),
 P(S("y2C"), "Her gün yazdın. Sol sayfaya gerçek, sağ sayfaya bahçe. Bir ay sonra sayfalara baktın: sağ taraf doluydu, sol taraf boş. Gerçek günlerin yazacak bir şeyi yoktu."),
 "Aralıkta Selcan Hanım arıyor. “Saadet Hanım, kısmi program kullanıcılarına bir bilgilendirme yapmamız gerekiyor. Uzun süreli kısmi kullanımda ‘gerçeklik karışması’ riski artıyor. Bir karar vermenizi öneriyoruz: ya kalıcı programa geçin, ya da programı sonlandırın. Yarı yarıya yaşamak, uzun vadede, iki dünyayı da bozuyor.”",
@@ -358,6 +392,8 @@ P(S("d1D"), "Cem dinledi. Yüzü düştü. “Biliyorum anne,” dedi. “Ama ne
 ]},
 
 d3: { saat: "Aralık 2049", baslik: "Balkon", metin: [
+P(S("d2A"), "Broşürü aldın: Almanca, yeşil, gülümseyen yaşlılar. Komodinin çekmecesine koydun. Her gece çekmeceyi açıp kapattın."),
+P(S("d2C"), "“İzmir'e dönmek istiyorum,” dedin. Cem kahvesini bıraktı; Sabine sessizce masadan kalktı. “Anne, orada kimin var?” Cevap vermedin; çünkü cevap Hikmet'in mezarıydı."),
 P(S("d2B"), "Cem'in yüzü bembeyaz oldu. “Hayır anne,” dedi. “Hayır. Ben sadece... ne yapacağımı bilmiyorum.” Sabine elini Cem'in koluna koydu. Nil masadan kalkıp odasına gitti."),
 P(S("d2D"), "Nil broşüre baktı. Sonra babasına. Sonra Almanca bir şey söyledi; sert, kısa. Cem sustu. Nil sana döndü, Türkçe: “Ona dedim ki: babaannemi bir bahçeye değil, bize koy.”"),
 "Aralıkta balkonda bir dikiş makinesi. Sabine bulmuş; ikinci el, bir Türk terzinin dükkânından. “Sizin için,” dedi; Türkçesi yeni.",
@@ -375,6 +411,19 @@ P(S("d2D"), "Nil broşüre baktı. Sonra babasına. Sonra Almanca bir şey söyl
 
 /* ---------- ORTAK SON BÖLÜM ---------- */
 t1: { saat: "2050", baslik: "Bir Yıl", metin: [
+P(S("b3A"), "“Kapat,” dedin. Hikmet pencereyi kapattı, perdeyi çekti. Mor saçlı kız son bir kez seslendi: “Babaanne...” Sonra perde."),
+P(S("b3C"), "Hikmet'e sordun: “Sen ne istersin?” Şaşırdı; Bahçe'de ona bunu soran olmamıştı. “Senin istediğini,” dedi. Cevap hem doğru hem korkunçtu: Bahçe'deki Hikmet'in kendine ait bir isteği yoktu. Pencere açık kaldı; sen ondan uzaklaştın."),
+P(S("b3D"), "Uzun uzun baktın; kız da sana baktı. Karar vermedin. Karar vermemek de bir karardı. Bir gün pencere kendiliğinden kapandı."),
+P(S("g3A"), "“Çünkü sen beni unutmamamı istedin,” dedin. Nil bir süre sustu, sonra gitarını alıp bir şarkı çaldı; bir Alman çocuk şarkısı, kendi çevirdiği Türkçe sözlerle."),
+P(S("g3B"), "Nil uzun süre düşündü. “Yani dedemi kusurlarıyla seçtin,” dedi. “Bahçe onları silerdi.” Evet, dedin. Nil başını omzuna koydu."),
+P(S("g3C"), "“Belki korktum,” dedin. Nil başını omzuna koydu. “Ben de korkuyorum,” dedi. “Her şeyden. Bu iyi bir şey mi?”"),
+P(S("g3D"), "Nil yakanın son ilmeğini attı; parmakları beceriksiz, ilmek yamuk. Öyle bıraktınız."),
+P(S("y3C"), "“Bir hafta,” dedin. Selcan Hanım nazikçe güldü: “Herkes bir hafta der.” Haklıydı."),
+P(S("y3D"), "“Sizce hangisi?” Selcan Hanım uzun süre sustu. Sonra protokolün dışında bir sesle: “Annem için kalıcıyı seçtim. Her pazar ziyaret ediyorum. Beni tanımıyor. Bilmiyorum Saadet Hanım.”"),
+P(S("d3A"), "“Hayır,” dedin Nil'e. “Ama buradayım.” Nil başını salladı; bu cümleyi yıllar sonra bir ödevinde yazacaktı."),
+P(S("d3B"), "“Seninle mutluyum,” dedin. Nil sana sarıldı. Yarısı doğru bir cümleye tam bir sarılma."),
+P(S("d3C"), "İlkbaharda İzmir'e döndün. Havalimanında Nil ağladı. Cem ağlamadı; ama arabaya binmeden önce uzun süre direksiyonda oturdu."),
+P(S("d3D"), "İğneyi Nil'e uzattın. İlk ilmeği yamuk attı, ikincisini düz. Kırk yıllık bir zanaat, bir balkonda, bir elden ötekine."),
 P(BAHCE, "Bahçe'de bir yıl. Ya da bir gün. Ya da on yıl. Zaman burada yumuşak. Hikmet her sabah çay demliyor. Cem beş yaşında, bahçede koşuyor. Atölyende gelinlikler."),
 P(function(d){ return BAHCE(d) && d.bahce_kalici; }, "Pencere kapandı. Ses bir daha gelmedi. Bahçe kusursuz. Bazen, çok nadiren, bir gelinliğin yakasını işlerken parmakların bir yerde durur; bir şey hatırlar gibi. Sonra devam eder."),
 P(function(d){ return d.uyandi; }, "Pencereden geçtin. Uyanış: beyaz bir tavan, bir serum, bir beslenme tüpü, bir hemşirenin sesi. Ve bir el; mor saçlı, yeşile dönmüş, Nil'in eli. Üç ay bahçede kalmıştın. Bedenin zayıflamış, kasların erimiş. İlk hafta konuşamadın. İkinci hafta Nil'in adını söyledin."),
@@ -392,6 +441,11 @@ P(function(d){ return d.kol === "goc" && d.izmire_donus; }, "Bir yıl. İzmir'e 
 ]},
 
 t1b: { saat: "2050", baslik: "Nadide", metin: [
+P(function(d){ return d.son === "t1A" && DIS(d); }, "Ayla'nın evine gittin; Bayraklı'da, on ikinci kat. Ayla kapıyı açtı ve hiçbir şey söylemeden sarıldı. Masada Nadide'nin gözlükleri duruyordu; bir yıldır kimse kaldırmamıştı."),
+P(function(d){ return d.son === "t1C" && DIS(d); }, "Telefonu kapatıp oturdun. Bir saat kıpırdamadın. Sonra kalktın; cenazeye gidecektin."),
+P(function(d){ return d.son === "t1D" && DIS(d); }, "Siyah elbiseni giydin; Hikmet'in cenazesinde giydiğin. Dört yıldır dolapta asılıydı."),
+P(function(d){ return d.son === "t1C" && BAHCE(d); }, "Çayını içtin. Bir şey yoktu. Ama çay o sabah biraz acı geldi."),
+P(function(d){ return d.son === "t1D" && BAHCE(d); }, "Gelinliğin yakasına baktın; bir yerinde bir kahve lekesi vardı. Bahçe'de leke olmaz. Baktın ve leke kayboldu."),
 P(BAHCE, "Bir an bahçe titriyor. Bir isim; Nadide. Kimse. Bir rüzgâr. Hikmet çayını uzatıyor. “Kim o Saadet'im?” “Bilmiyorum,” diyorsun. Ve gerçekten bilmiyorsun. Ama bir yerde, içinde, bir kahve kokusu, bir kapı komşusu, kırk yıl. Sonra o da gidiyor."),
 P(DIS, "Nadide'nin cenazesi Karşıyaka mezarlığında. Ayla, kocası, iki torun, birkaç komşu. Ve sen. İmam duayı okurken Ayla yanına geliyor."),
 P(function(d){ return DIS(d) && d.ayla_hatirla; }, "“Hatırlamadı,” diyor Ayla. “Bir yıl. Hiç. Son hafta bir kez gözlerini açtı; tesisin hemşiresi söyledi. Bir saniye. Kimseyi görmedi. Sonra yine kapadı ve gülümsedi. Bahçe'ye döndü.”"),
@@ -407,6 +461,14 @@ P(DIS, "Mezar kapanıyor. Toprak. Bir dua. Ayla ağlıyor; bir yıl sonra ilk ke
 ]},
 
 t2: { saat: "2051", baslik: "Nil'in Sorusu", metin: [
+P(function(d){ return d.son === "t1bA" && DIS(d); }, "Ayla'ya sarıldın; mezarlığın kapısında, uzun uzun. “Annem sizi çok severdi,” dedi. “Bahçe'de sizi hiç sormadı ama.”"),
+P(function(d){ return d.son === "t1bB" && DIS(d); }, "Mezarın başında kırk yıllık kahvenizi sesli sesli anlattın: fallar, dedikodular, iki dul kadının sabahları. Ayla dinledi. Sonra o da bilmediğin bir şey anlattı: Nadide her sabah kahveyi iki fincan yaparmış, sen gelmesen de."),
+P(function(d){ return d.son === "t1bC" && DIS(d); }, "Kendi ölümünü düşündün: bir bahçede mi, bir hastane odasında mı, bir balkonda mı? Bir şeyi biliyordun: Ayla gibi birinin bir yıl boyunca bir yabancının elini tutmasını istemiyordun."),
+P(function(d){ return d.son === "t1bD" && DIS(d); }, "Eve dönüp Selcan Hanım'ın numarasına baktın. Parmağın sil tuşunun üstünde durdu. Sonra telefonu ekranı aşağı bakacak şekilde masaya bıraktın."),
+P(function(d){ return d.son === "t1bA" && BAHCE(d); }, "Erik ağacının dibine bir taş koydun. Hikmet sordu: “O ne?” Bilmiyordun. Taş orada kaldı."),
+P(function(d){ return d.son === "t1bB" && BAHCE(d); }, "Bir şey yapmadın. Bahçe kusursuzdu. O gün kuşlar biraz geç öttü; fark etmedin."),
+P(function(d){ return d.son === "t1bC" && BAHCE(d); }, "“Sen hiç ölecek misin?” Hikmet güldü. “Burada kimse ölmez Saadet'im.” Gülüşü kusursuzdu ve bu kusursuzluk bir an seni korkuttu."),
+P(function(d){ return d.son === "t1bD" && BAHCE(d); }, "Atölyende bir gelinliğe başladın; kimin için olduğunu bilmeden. Bahçe'de evlenecek kimse yoktu."),
 P(BAHCE, "Bahçe'de bir gün bir kız beliriyor. On yedi yaşında, saçları yeşil. Kapının önünde duruyor. Sistemin bir hatası mı, bir ziyaretçi programı mı, bilmiyorsun. Hikmet onu görmüyor. Sen görüyorsun."),
 P(DIS, "Nil bir yaz daha geliyor. On sekiz yaşında. Üniversiteye başlayacak; felsefe. Cem buna kızmış; “Ne işe yarar?” demiş. Nil sana gülerek anlatıyor."),
 "Bir akşam Nil yanına oturuyor ve sana bir soru soruyor; bir felsefe öğrencisinin ilk sorusu, bir torunun son sorusu.",
@@ -452,6 +514,20 @@ P(DIS, "Nil taşın önünde duruyor. Hiç gelmemişti; cenazede yoktu, Frankfur
 ]},
 
 t3: { saat: "2051", baslik: "Rüya", metin: [
+P(function(d){ return d.son === "t2C" && DIS(d); }, "“Mutluluk mutluluktur, haklısın,” dedin. Nil şaşırdı; bu cevabı senden beklemiyordu. “Gerçekten mi?” Gerçekten, dedin. O gece yatarken bu cümlenin ne kadar ağır olduğunu düşündün."),
+P(function(d){ return d.son === "t2D" && DIS(d); }, "“Bilmiyorum güzelim. Ben yalnızca seçtim.” Nil bunu bir kâğıda yazdı. “İlk ödevimin ilk cümlesi bu olacak,” dedi."),
+P(function(d){ return d.son === "t2C" && BAHCE(d); }, "“Mutluluk mutluluktur,” dedin kıza. Kız uzun uzun yüzüne baktı, sonra kayboldu. Bir boşluk kaldı yerinde; kapının önünde."),
+P(function(d){ return d.son === "t2D" && BAHCE(d); }, "“Ben yalnızca seçtim,” dedin; neyi seçtiğini hatırlamadan. Kız gülümsedi ve kayboldu."),
+P(function(d){ return d.son === "y_hikayeA" && DIS(d); }, "“Sevgi, kusurlu birini seçmektir,” dedin. Nil cümleyi yavaşça, Almanca aksanıyla tekrarladı. “Seçmek,” dedi. “Yani bir makine seçemez. Sadece verir.”"),
+P(function(d){ return d.son === "y_hikayeB" && !d.yakti; }, "Nil'e mektuplardan birini verdin. Okudu; ağladı, sonra güldü. “Dedem berbat bir şairmiş,” dedi. Haklıydı."),
+P(function(d){ return d.son === "y_hikayeB" && d.yakti; }, "Mektupları yakmıştın. Nil'e Feride'nin adresini verdin: Alsancak'ta bir sokak. Nil adresi telefonuna kaydetti. “Belki bir gün,” dedi."),
+P(S("y_hikayeC"), "Sustun. O da sustu. Hikâyenin geri kalanını kendi bulacaktı; ya da hiç bulmayacaktı."),
+P(S("y_hikayeD"), "Ağladın; dört yıl sonra ilk kez Hikmet için. Elini tuttu ve bir şey söylemedi. Genç bir yüz, yaşlı bir kadına susmanın nasıl yapıldığını gösterdi."),
+P(function(d){ return d.son === "y_mezarA" && DIS(d); }, "“Ölüm gerçeği gerçek yapar,” dedin. Nil taşa dokundu. “O zaman Bahçe'de hiçbir şey gerçek değil,” dedi. “Çünkü hiçbir şey bitmiyor.”"),
+P(function(d){ return d.son === "y_mezarA" && BAHCE(d); }, "“Ölüm gerçeği gerçek yapar,” dedin; nereden aklına geldiğini bilmeden. Bahçe bir an titredi."),
+P(S("y_mezarB"), "“Feride'ye selam söyle,” dedin taşa. Yanındaki genç yüz sana baktı, sonra güldü; sen de güldün. Bir mezarın başında iki kadın, bir ölüye şaka yaparak."),
+P(S("y_mezarC"), "Elini tutup kalktın. Dizlerin çatırdadı. Kapıya kadar konuşmadan yürüdünüz."),
+P(S("y_mezarD"), "Bir avuç toprağı mendile koyup cebine aldın. O akşam toprağı bir saksıya döktün ve içine bir erik çekirdeği gömdün."),
 P(BAHCE, "O gece Bahçe'de bir şey oluyor ki daha önce hiç olmadı: uyuyorsun. Bahçe'de uyku yok; yalnızca dinlenme. Ama bu gece uyuyorsun ve bir rüya görüyorsun."),
 P(DIS, "O gece bir rüya görüyorsun. Gerçek bir rüya; bir makinenin değil, kendi beyninin."),
 "Hikmet. Ama genç değil; ölmeden önceki hâli. Yetmiş yedi yaşında, zayıf, öksürüklü, hastane pijamasıyla. Karşıyaka'daki koltuğunda oturuyor. Çay bardağı elinde; soğumuş.",
@@ -465,10 +541,15 @@ P(DIS, "O gece bir rüya görüyorsun. Gerçek bir rüya; bir makinenin değil, 
 { t: function(d){ return BAHCE(d) ? "Uyandığında Hikmet'e bakarsın, otuz beş yaşındaki Hikmet'e, ve bir şey fark edersin." : "Kalkıp bir çay demlersin. İki bardak."; }, to: "t4", etki: function(d){ d.bag++; if(BAHCE(d)) d.fark_etti = true; } },
 { t: "Rüyayı bir deftere yazarsın; unutmamak için.", to: "t4", etki: { gercek: 1, ruya_yazdi: true } },
 { t: "Rüyayı unutmaya bırakırsın. Rüyalar böyledir.", to: "t4", etki: { mutluluk: 1 } },
-{ t: "Rüyayı Nil'e anlatırsın.", to: "t4", etki: { bag: 1, nile_ruya: true } }
+{ t: function(d){ return BAHCE(d) ? "Rüyayı Hikmet'e anlatırsın." : "Rüyayı Nil'e anlatırsın."; }, to: "t4", etki: { bag: 1, nile_ruya: true } }
 ]},
 
 t4: { saat: "2052", baslik: "Son Dikiş", metin: [
+P(function(d){ return d.son === "t3A" && DIS(d); }, "İki bardak çay demledin. Birini Hikmet'in koltuğunun yanına koyup soğumaya bıraktın; o hep soğuturdu."),
+P(S("t3B"), "Rüyayı deftere yazdın; üç sayfa. Hikmet'in öksürüğünü bile."),
+P(S("t3C"), "Rüyayı unutmaya bıraktın. Öğlene kadar tek bir kelimesi kaldı: soğumuş."),
+P(function(d){ return d.son === "t3D" && DIS(d); }, "Rüyayı telefonda Nil'e anlattın. Nil uzun süre sustu. “Bahçe'dekinden daha çok dedem gibi,” dedi."),
+P(function(d){ return d.son === "t3D" && BAHCE(d); }, "Rüyayı Hikmet'e anlattın. Dinledi, gülümsedi. “Ben hiç öksürmem ki,” dedi. Haklıydı. Rüyadakinin o olmamasının nedeni de buydu."),
 P(function(d){ return BAHCE(d) && d.fark_etti; }, "Hikmet'e bakıyorsun. Otuz beş yaşında, kusursuz, gülümseyen. Ve bir şey fark ediyorsun: onu bir rüyada gördüğün Hikmet'ten daha az seviyorsun. Bu Hikmet seni hiç kızdırmadı; hiç hayal kırıklığına uğratmadı; hiç bir başka kadını sevmedi. Ve bu yüzden, bir şekilde, hiç tam olarak senin olmadı."),
 P(function(d){ return BAHCE(d) && !d.fark_etti; }, "Bahçe'de bir sabah daha. Hikmet çay demliyor. Erik ağacı çiçek açmış. Atölyende bir gelinlik bekliyor."),
 P(DIS, "Bir sabah dikiş makinesinin başındasın. Bir elbise; mavi, keten, yakası işlemeli. Nil için. Yıllardır yarım; bir türlü bitiremedin. Bugün son ilmek."),
@@ -476,7 +557,8 @@ P(DIS, "Bir sabah dikiş makinesinin başındasın. Bir elbise; mavi, keten, yak
 "Yakanın işlemesi: mavi bir çiçek. Son yaprak. Son ilmek. İğne kumaşa giriyor, çıkıyor. İplik geriliyor. Bir düğüm.",
 "Elbise bitti.",
 P(BAHCE, "Bahçe'de bitirdiğin bir gelinlik. Ama yakasındaki işleme, Bahçe'nin hiçbir desenine benzemiyor; mavi bir çiçek, yarım, sonra tamamlanmış. Nereden bildiğini bilmeden diktin. Bir yerde, bir başka dünyada, bir elbise, bir not, bir isim. Bunu hiç bilmeyeceksin."),
-"Kırk yıl terzilik yaptın. Kaç elbise, kaç gelinlik, kaç yaka. Hiçbirinin son ilmeği bu kadar ağır olmadı."
+"Kırk yıl terzilik yaptın. Kaç elbise, kaç gelinlik, kaç yaka. Hiçbirinin son ilmeği bu kadar ağır olmadı.",
+"Bir son ilmek, bir düğüm. Sonra bu elbise senden çıkıp başka bir hayata geçecek; ya da hiçbir yere."
 ], secenekler: [
 { t: function(d){ return BAHCE(d) ? "Gelinliği bahçedeki erik ağacına asarsın." : "Elbiseyi Nil'e kendi ellerinle verirsin; ya da gönderirsin."; }, to: "rs", etki: { bag: 1 } },
 { t: "Elbisenin yakasına küçük bir harf işlersin: S.", to: "rs", etki: { gercek: 1, harf: true } },
@@ -494,16 +576,24 @@ rs: { yonlendir: [
 
 /* ---------- SONLAR ---------- */
 son_bahce: { son: true, baslik: "Bahçe", metin: [
+P(S("t4A"), "Gelinliği erik ağacına asmıştın. Rüzgârda sallanıyordu; kimin için olduğunu bilmeden."),
+P(S("t4B"), "Yakaya bir S işlemiştin. Bahçe'de harflerin anlamı yok; ama işledin."),
+P(S("t4C"), "Makinenin örtüsünü kapatmıştın; ertesi sabah makine yine açıktı. Bahçe'de hiçbir şey bitmez."),
+P(S("t4D"), "Bir başka gelinliğe başlamıştın. Bahçe'de her zaman bir sonraki var."),
 "Bahçe'de yaşıyorsun. Hikmet her sabah çay demliyor. Erik ağacı her bahar çiçek açıyor. Cem beş yaşında, bahçede koşuyor. Ellerin genç. Kimse gitmiyor.",
 "Menemen yolundaki tesiste, üçüncü katta, dördüncü odada, pencerenin yanında, bir yatak. Yatakta yaşlı bir kadın; gözleri kapalı, yüzü gülümsüyor. Bir hemşire her dört saatte bir pozisyonunu değiştiriyor.",
 "Her ay bir kez mor ya da yeşil saçlı bir genç kadın geliyor. Elini tutuyor. Bir şeyler anlatıyor; Almanca ve kırık Türkçe karışık. Üniversiteyi, bir sevgiliyi, bir elbiseyi; yakası yarım kalmış, kendisinin bitirdiği.",
 "Kadın duymuyor. Gülümsüyor.",
-"Mutlusun. Bunu kimse inkâr edemez. Beyin taramaların, hormonların, yüzün; her şey mutluluk diyor. Bir felsefeci bir zamanlar sormuştu: bir makine sana kusursuz bir mutluluk verse, girer miydin? Çoğu insan hayır demişti. Sen evet dedin.",
+"Mutlusun. Bunu kimse inkâr edemez. Beyin taramaların, hormonların, yüzün; her şey mutluluk diyor. Yeşil saçlı bir kız bir gün sormuştu: bir makine sana kusursuz bir mutluluk verse, gerçek olup olmadığı neden önemli olsun? Sen bu soruyu çok önce, bir sözleşmenin kırk ikinci sayfasında cevaplamıştın.",
 "Bu bir yenilgi mi? Bir zafer mi? Belki ikisi de değil. Belki yalnızca, yetmiş sekiz yaşında, yalnız, ellerin titreyen bir kadının, son seçimi. Ve o seçimin içinde, artık seçtiğini bile bilmeden, kusursuz bir bahçede, otuz beş yaşında bir adamla çay içiyorsun.",
 "Torunun bir gün senin yatağının başında, başka birine diyecek ki: “Babaannem mutlu öldü. Ama ben onu çok önce kaybettim.”"
 ]},
 
 son_uyanis: { son: true, baslik: "Uyanış", metin: [
+P(S("t4A"), "Elbiseyi Nil'e kendi ellerinle vermiştin. Nil onu giymeden önce uzun süre yakasına bakmıştı."),
+P(S("t4B"), "Yakaya küçük bir S işlemiştin; senin harfin, bir kumaşın köşesinde."),
+P(S("t4C"), "Makinenin örtüsünü kapatmıştın. Kırk yıl sonra, son elbise."),
+P(S("t4D"), "Titreyen ellerle başka bir kumaşa başlamıştın; bitirip bitiremeyeceğini bilmeden."),
 "Pencereden geçtin. Ve uyandın; bir hastane odasında, bir serum askısının altında, bir torunun elinin içinde.",
 "Uyanış zor oldu. Bedenin üç ayda erimişti; yürümeyi yeniden öğrendin. Hafızan karışıktı; bazı sabahlar Hikmet'in çay demlediğini sandın, sonra hatırladın. Bahçe'den bir şeyler kaldı içinde: bir erik ağacının kokusu, hiç söylenmemiş bir özür. Onları silmedin; ama onlara inanmayı da bıraktın.",
 "Selcan Hanım bir rapor yazdı: “Katılımcı, dış uyaran kaynaklı anomali sonucu simülasyonu terk etmiştir. Uyanış sonrası uyum süreci olağandışı derecede olumlu.” Olağandışı. Yüzde üçün içindeydin.",
@@ -514,31 +604,43 @@ son_uyanis: { son: true, baslik: "Uyanış", metin: [
 ]},
 
 son_igne: { son: true, baslik: "İğne ve İplik", metin: [
+P(S("t4A"), "Elbiseyi Nil'e kendi ellerinle vermiştin. Nil onu giymeden önce uzun süre yakasına bakmıştı."),
+P(S("t4B"), "Yakaya küçük bir S işlemiştin; senin harfin, bir kumaşın köşesinde."),
+P(S("t4C"), "Makinenin örtüsünü kapatmıştın. Kırk yıl sonra, son elbise."),
+P(S("t4D"), "Titreyen ellerle başka bir kumaşa başlamıştın; bitirip bitiremeyeceğini bilmeden."),
 "Bahçe'ye girmedin. Gerçek hayatında kaldın; ne kaldıysa.",
 "Ne kaldı? Merdivenler, titreyen eller, bir düşüş, bir baston. Bir atölye, salı ve perşembe. Rima ve öbür kadınlar; bir gelinlik, bir dikiş makinesi, bir Halep fotoğrafı. Nil; her yaz, Türkçesi her yıl biraz daha düzgün. Bir ayakkabı kutusu dolusu mektup ya da onların külü. Bir mezar taşı. Bir rüya.",
 "Hiçbiri kusursuz değil. Hepsi senin.",
-"Bir felsefeci bir zamanlar sormuştu: bir makine sana kusursuz bir mutluluk verse, girer miydin? Çoğu insan hayır demişti; neden olduğunu tam bilmeden. Sen de hayır dedin. Ve şimdi biliyorsun neden: çünkü mutluluk yaşamın amacı değil. Yaşamın kendisi amacı. Kusurlarıyla, kayıplarıyla, gerçek insanlarla; seni hayal kırıklığına uğratan, seni şaşırtan, seni seven, seni unutan insanlarla.",
+"Nil bir akşam sormuştu: bir makine sana kusursuz bir mutluluk verse, neden girmeyesin? Sen hayır demiştin; neden olduğunu tam bilmeden. Ve şimdi biliyorsun neden: çünkü mutluluk yaşamın amacı değil. Yaşamın kendisi amacı. Kusurlarıyla, kayıplarıyla, gerçek insanlarla; seni hayal kırıklığına uğratan, seni şaşırtan, seni seven, seni unutan insanlarla.",
 P(function(d){ return d.makine_verdi; }, "Rima'nın kız kardeşinin gelinliği bir bahar sabahı bitti. Düğünde sen de vardın; bastonunla, en önde. Gelin dans ederken eteğinin kıvrımına baktın; senin dikiş tekniğin, Rima'nın elleri. Bir zanaat, bir dilden bir başka dile."),
 "Bir gün öleceksin. Bahçe'de değil; bir hastanede, ya da evinde, ya da bir atölyede, bir iğnenin ucunda. Gerçek bir ölümle. Ve geride, gerçek insanların hafızasında, kusurlu, eksik, gerçek bir kadın kalacak.",
 "Bu sana yetiyor. Her zaman değil. Ama yetiyor."
 ]},
 
 son_iki_dunya: { son: true, baslik: "İki Dünya", metin: [
+P(S("t4A"), "Elbiseyi Nil'e kendi ellerinle vermiştin. Nil onu giymeden önce uzun süre yakasına bakmıştı."),
+P(S("t4B"), "Yakaya küçük bir S işlemiştin; senin harfin, bir kumaşın köşesinde."),
+P(S("t4C"), "Makinenin örtüsünü kapatmıştın. Kırk yıl sonra, son elbise."),
+P(S("t4D"), "Titreyen ellerle başka bir kumaşa başlamıştın; bitirip bitiremeyeceğini bilmeden."),
 "Hâlâ iki dünyanın arasındasın.",
 "Gündüzleri Karşıyaka; merdivenler, ekmek, deniz. Akşamları Bahçe; çay, erik ağacı, Hikmet. Defterinin sol sayfası gerçek, sağ sayfası Bahçe. Bir yıl sonra iki sayfayı yan yana koyduğunda, hangisinin daha dolu olduğunu görmek istemiyorsun.",
 "Selcan Hanım her ay arıyor. Bir karar vermeni istiyor. Sen vermiyorsun. Bir ay daha. Bir ay daha.",
 "Bazen Nil'le konuşurken bir şey söylüyorsun ve Nil susuyor. Bahçe'den bir şey; gerçek olmayan bir anı, gerçek bir sesle. Nil düzeltmiyor artık. Yalnızca dinliyor. Bu seni daha çok korkutuyor.",
 "Bir kumaş iki iplikle dokunur: atkı ve çözgü. Biri boyuna, biri enine. İkisi birbirinden geçmeden kumaş olmaz. Belki senin hayatın da böyle bir kumaş artık; gerçek ve rüya, birbirinin içinden geçerek.",
 "Ama bir kumaşta iki ipliğin rengi farklıdır ve ikisi de görünür. Seninkinde artık hangisinin hangisi olduğunu göremiyorsun.",
-"Bir felsefeci sormuştu: bir makine sana kusursuz bir mutluluk verse, girer miydin? Sen bir cevap bulmadın. Bir orta yol buldun. Ve orta yol, bir cevap olmadığını, belki her cevaptan daha uzun bir şekilde gösteriyor."
+"Nil bir akşam sormuştu: bir makine sana kusursuz bir mutluluk verse, girer miydin? Sen bir cevap bulmadın. Bir orta yol buldun. Ve orta yol, bir cevap olmadığını, belki her cevaptan daha uzun bir şekilde gösteriyor."
 ]},
 
 son_baska_ev: { son: true, baslik: "Başka Bir Ev", metin: [
+P(S("t4A"), "Elbiseyi Nil'e kendi ellerinle vermiştin. Nil onu giymeden önce uzun süre yakasına bakmıştı."),
+P(S("t4B"), "Yakaya küçük bir S işlemiştin; senin harfin, bir kumaşın köşesinde."),
+P(S("t4C"), "Makinenin örtüsünü kapatmıştın. Kırk yıl sonra, son elbise."),
+P(S("t4D"), "Titreyen ellerle başka bir kumaşa başlamıştın; bitirip bitiremeyeceğini bilmeden."),
 P(function(d){ return !d.izmire_donus; }, "Frankfurt'ta yaşıyorsun. Bir misafir odası, bir balkon, bir dikiş makinesi. Almanca üç kelime; sonra beş, sonra on. Fatma'yla her salı parkta."),
 P(function(d){ return d.izmire_donus; }, "İzmir'e döndün. Ama Frankfurt'ta bir şey bıraktın: bir balkon, bir dikiş makinesi, bir torunun balkonda battaniyeye sarılı oturduğu akşamlar. Şimdi iki evin var ve ikisinde de bir yanın eksik."),
 "Bahçe'ye girmedin. Gerçek bir hayatı seçtin; ama bu hayat, seçtiğin yerde değil, bir başkasının hayatının içinde. Oğlunun evinde bir misafir, bir gelinin mutfağında bir yabancı, bir torunun dilinde bir kırık kelime.",
 "Bu bir kusursuzluk değil. Bahçe kusursuzdu. Ama bir şey var ki Bahçe'de olmayacaktı: bir akşam yemeğinde, anlamadığın bir şakaya herkes gülerken, torunun durup senin için çevirmesi. Şaka komik değildi çevrilince. Ama çevrildi. Biri seni dışarıda bırakmamak için durdu.",
-"Bir felsefeci sormuştu: bir makine sana kusursuz bir mutluluk verse, girer miydin? Sen bir başka soruyu cevapladın: bir aile sana kusurlu bir yer verse, kalır mıydın? Kaldın. Ya da gidip geri döndün. Ya da ikisinin arasında bir yerde, bir balkonda, bir yakanın son ilmeğini atarken.",
+"Nil bir akşam sormuştu: bir makine sana kusursuz bir mutluluk verse, girer miydin? Sen bir başka soruyu cevapladın: bir aile sana kusurlu bir yer verse, kalır mıydın? Kaldın. Ya da gidip geri döndün. Ya da ikisinin arasında bir yerde, bir balkonda, bir yakanın son ilmeğini atarken.",
 "Nil bir gün sana bir şey söyledi: “Babaanne, ‘özlem’ kelimesinin Almancası yok. Ama ben artık ne olduğunu biliyorum. Sen öğrettin.”"
 ]}
 
