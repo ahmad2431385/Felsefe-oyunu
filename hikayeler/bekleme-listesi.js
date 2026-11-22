@@ -83,6 +83,10 @@ x_cizgi: { saat: "04.50", baslik: "Kara Görüntü", metin: [
 ]},
 
 a3: { saat: "06.10", baslik: "Soru", metin: [
+P(S("x_dokunusC"), "Bir sandalye çekip Ayten Hanım'ı oturttun. Bir saat kızının elini tuttu. Kalktığında bir şey söylemedi; ama elini kızının yanağından çekerken bir an durdu."),
+P(S("x_cizgiA"), "“Bize inanın,” dedin. Erdal Bey sana baktı. “Size inanmak kolay,” dedi. “Kızıma inanmamak zor.”"),
+P(S("x_cizgiC"), "Erdal Bey'in ekrana istediği kadar bakmasına izin verdin. Kırk dakika baktı: siyah bir kafatası, beyaz damarlar. Sonra kızının yüzüne dokunur gibi ekrana dokundu."),
+P(S("x_cizgiD"), "Ekranı kapattın. Erdal Bey kararmış ekrana bakmaya devam etti."),
 P(S("a2A"), "Anlattın. Sabırla, basit kelimelerle. Ayten Hanım her cümlende başını salladı ve her cümlenden sonra camdan kızına baktı; kelimelerinle gördüğü şeyi bir türlü üst üste koyamadı."),
 P(S("a2D"), "Hiçbir şey açıklamadın. Ayten Hanım ile Erdal Bey koridorda, birbirlerine dokunmadan, iki saat oturdular. Bir yerde Erdal Bey kalktı, makineden iki çay aldı. İkisi de içmedi."),
 P(S("x_dokunusA"), "“Hayır,” dedin. Ayten Hanım başını salladı. Kızının elini bıraktı; sonra yeniden tuttu. Bir veda, ilk kez; ama son kez değil."),
@@ -152,10 +156,10 @@ P(S("a5D"), "“Bakarım,” dedin. Sinan memnun kapattı. Bir sözün ne kadar 
 "Ankara'da dokuz yaşında bir çocuk, bir makineye bağlı, uyuyor. Bir karaciğer listesinde elli sekiz yaşında bir adam ayıklığının iki yılını sayıyor. Dördüncü sırada bir milletvekilinin babası. Ve İzmir'de, bir yoğun bakım odasında, ojesi yarısı dökülmüş bir kız.",
 "Saat işliyor. Bir sonraki adımı sen seçeceksin."
 ], secenekler: [
-{ t: "Aileye kararın tamamen kendilerine ait olduğunu söyler, geri çekilirsin.", to: "r1", etki: { riza: 2, kol: "saygi" } },
-{ t: "Aileye kalbi bekleyen çocuğu anlatırsın: yaşını, kaç aydır beklediğini. Kural dışı da olsa.", to: "i1", etki: { sefkat: 1, kol: "israr", anonimlik: true } },
-{ t: "Daha önce oğlunun organlarını bağışlamış bir anneyi ve hastanenin manevi danışmanını çağırırsın.", to: "k1", etki: { sefkat: 1, kol: "topluluk" } },
-{ t: "Aileyi bir meslektaşına bırakıp önce listeyi güvenceye almaya gidersin.", to: "y1", etki: { adalet: 2, kol: "sistem" } }
+{ t: "Aileye kararın tamamen kendilerine ait olduğunu söyleyip geri çekilirsin. Saatin işlemesine izin vererek.", to: "r1", etki: { riza: 2, kol: "saygi" } },
+{ t: "Aileye kalbi bekleyen çocuğu anlatırsın: yaşını, kaç aydır beklediğini. Kuralı çiğneyerek; ve onlara bir çocuğun hayatını yükleyerek.", to: "i1", etki: { sefkat: 1, kol: "israr", anonimlik: true } },
+{ t: "Oğlunun organlarını bağışlamış bir anneyi ve hastanenin manevi danışmanını çağırırsın. Destek mi baskı mı, ailenin nasıl karşılayacağını bilmeden.", to: "k1", etki: { sefkat: 1, kol: "topluluk" } },
+{ t: "Aileyi bir meslektaşına bırakıp önce listeyi güvenceye almaya gidersin. En ağır saatlerinde yanlarında olmadan.", to: "y1", etki: { adalet: 2, kol: "sistem" } }
 ]},
 
 
@@ -427,6 +431,12 @@ P(S("y2D"), "Kapıyı arkandan kapattın. Sinan bir şey söylemedi. Sessizlik, 
 
 /* ---------- ORTAK SON BÖLÜM ---------- */
 t1: { saat: "Akşam", baslik: "Koridor", metin: [
+P(S("r3A"), "Kuzey'i içeri alıp ablasının yanına götürdün. Kuzey önce yatağa yaklaşmadı; sonra ablasının mavi ojeli parmağına dokundu. “Soğuk değil,” dedi."),
+P(S("r3B"), "Aileyi yalnız bıraktın. Kapının camından gördüğün son şey, bir yatağın üstüne eğilmiş üç sırttı."),
+P(S("r3C"), "Bir tutam saç kesmeyi önerdin. Makası Erdal Bey aldı; elleri titremedi. Tutamı bir mendile sarıp cebine koydu."),
+P(S("r3D"), "Ekip için hazırlıklara gittin: telefonlar, saatler, bir uçak. Koridorda yürürken arkandan Ayten Hanım'ın sesi geldi; kızına bir ninni söylüyordu."),
+P(S("k3B"), "Meclisin karar vermesine izin verdin. Dede konuştu, amcalar konuştu, teyze ağladı. Karar bir saat sonra çıktı; bir oylama gibi değil, bir yorgunluk gibi."),
+P(S("y3C"), "“Kararınız ne olursa olsun, şimdi buradayım,” dedin. Erdal Bey sana baktı. “Kararımız hayır,” dedi. “Siz yokken verdik.”"),
 P(function(d){ return d.bagis === "tam"; }, "Karar verildi: tam bağış. Kalp, karaciğer, iki böbrek, iki kornea. Altı insan."),
 P(function(d){ return d.bagis === "kalp"; }, "Karar verildi: yalnızca kalp. Bir insan. Dokuz yaşında."),
 P(YOK, "Karar verildi: bağış yok. Duru bütün gidecek."),
@@ -444,6 +454,13 @@ P(YOK, "Ayten Hanım ile Erdal Bey yatağın iki yanında. Kuzey kapıda. Dr. Ni
 ]},
 
 t1b: { saat: "Gece", baslik: "Son Saat", metin: [
+P(function(d){ return d.son === "t1A" && VAR(d); }, "Sedyenin önünde kapıları açarak yürüdün. Arkanda tekerleklerin sesi, Ayten Hanım'ın ayak sesleri."),
+P(function(d){ return d.son === "t1A" && YOK(d); }, "Cihaz kapatılırken ailenin yanında durdun. Monitördeki çizgi yavaşladı, sonra düzleşti. Ayten Hanım çizgiye değil, kızının yüzüne baktı."),
+P(function(d){ return d.son === "t1B" && VAR(d); }, "Koridordaki sıraya katıldın: hemşireler, teknisyenler, temizlik görevlileri. Sedye geçerken herkes başını eğdi."),
+P(function(d){ return d.son === "t1B" && YOK(d); }, "Kuzey'i ailesinin yanına götürdün. Annesinin eteğine yapıştı; ama gözlerini ablasından ayırmadı."),
+P(function(d){ return d.son === "t1C" && VAR(d); }, "Ameliyathane kapısında Ayten Hanım'ın elini tuttun. Kapı kapandı; el bırakmadı."),
+P(function(d){ return d.son === "t1C" && YOK(d); }, "Ayten Hanım'ın elini tuttun. Bir saat; ikiniz de saymadınız."),
+P(S("t1D"), "Kendini işine verdin: kâğıtlar, saatler, ekipler. Biri bunları yapmalıydı. Saat on bire doğru bir an durup ellerine baktın."),
 P(VAR, "Ameliyathanenin kapısı kapanıyor. Ayten Hanım kapının camına elini koyuyor. Erdal Bey onu geri çekmeye çalışıyor, çekemiyor; sonra kendi elini de cama koyuyor. İki el, bir camın üstünde."),
 P(VAR, "İçeride saatler sürüyor. Önce kalp. Ankara ekibi onu çıkarıyor, buzlu bir sıvının içine, steril torbalara, mavi bir soğuk kutuya koyuyor. Kutunun üstüne bir etiket: “İnsan organı. Acil.” Saat dokuz kırk. Bir kalp, artık bir kutunun içinde, kendi bedeninin dışında, bir yolculuğa hazır."),
 P(YOK, "Dr. Nihan cihazı kapatıyor. Göğüs bir kez daha kalkıyor, sonra iniyor, sonra kalkmıyor. Monitörde kalp birkaç dakika daha atıyor; yavaşlayarak, düzensizleşerek. Sonra düz bir çizgi. Bir beden, beyninin saatler önce bıraktığı yeri, şimdi bırakıyor."),
@@ -458,6 +475,8 @@ P(YOK, "Ayten Hanım çığlık atmıyor. Kızının yüzünü iki eliyle tutuyo
 ]},
 
 t2: { saat: "Gece", baslik: "Yol", metin: [
+P(S("t1bC"), "Aile odasında Ayten Hanım ve Erdal Bey'le oturdun. Kimse konuşmadı. Saat birde Erdal Bey kalkıp pencereyi açtı; körfezden soğuk bir rüzgâr."),
+P(S("t1bD"), "Ofisine dönüp raporları tamamladın. Duru'nun adını on bir forma yazdın. On ikincide kalemin durdu."),
 P(function(d){ return d.ucak; }, "Küçük bir ambulans uçağı. İçeride iki cerrah, bir perfüzyonist, sen ve mavi bir soğuk kutu. Kutu ayaklarının dibinde, kemerle bağlı. Bir buçuk saatlik uçuş. Pencereden İzmir'in ışıkları uzaklaşıyor."),
 P(function(d){ return d.ucak; }, "Cerrahlardan biri uyuyor; alışmış. Öbürü kahve içiyor. Sen kutuya bakıyorsun. İçinde, dört derecelik sıvının içinde, on yedi yıl atmış bir kalp, dokuz yaşında bir göğsü bekliyor. Bir kutu ve bir uçak, bir hayatı bir başkasına taşıyor."),
 P(function(d){ return d.morg; }, "Ameliyattan sonra Duru'nun bedeni morga iniyor. Seninle birlikte. Asansörde, sedyenin yanında, ikiniz yalnızsınız. Bedeni bir örtünün altında. Kesik dikilmiş, özenle; cerrahlar bunu her zaman özenle yapar."),
@@ -473,6 +492,9 @@ P(function(d){ return !d.ucak && !d.morg && !d.eve_birakti; }, "Gece uzun. Sabah
 ]},
 
 y_son: { saat: "Sabah", baslik: "Atış", metin: [
+P(function(d){ return d.son === "t2A" && d.ucak; }, "Ameliyathanenin önünde bir kadın gördün: yorgun, başörtülü, elinde bir tespih. Çocuğun annesi. Yaklaşmadın."),
+P(function(d){ return d.son === "t2A" && !d.ucak; }, "Sabah Ayten Hanım'a bir mesaj attın: “Yanınızdayım.” Cevap gelmedi; gelmesi gerekmiyordu."),
+P(function(d){ return d.son === "t2B" && !d.ucak; }, "Hüseyin Efendi'ye bir çay koydun, o da sana. Gece bekçisiyle koordinatör, sabaha karşı, konuşmadan."),
 P(function(d){ return d.anneyi_gordu; }, "Ankara. Bir çocuk hastanesinin ameliyathane koridoru. Bir köşede bir kadın oturuyor; otuzlarında, başörtüsü dağılmış, elleri dua eder gibi birleşmiş. Yanında bir adam ayakta, sürekli saatine bakıyor."),
 P(function(d){ return d.anneyi_gordu; }, "Onlar seni tanımıyor. Tanımayacaklar. Sen yalnızca bir koordinatörsün, mavi bir kutuyla gelmiş, şimdi koridorda bekleyen biri. Kadın bir an sana bakıyor, gülümsüyor; yabancılara gülümseyen biri gibi. Bilmiyor. Bilmemesi gerekiyor."),
 P(function(d){ return d.ilk_atis; }, "Ameliyathanenin gözlem camından izliyorsun. Saatlerce. Sonra o an: cerrah kelepçeyi açıyor, kan yeni kalbe doluyor. Bir an hiçbir şey. Sonra bir titreşim. Sonra bir atış. Sonra bir başka. Ekranda yeşil bir çizgi; bir kez daha, bir başka göğüste, on yedi yaşında bir kalp atmaya başlıyor."),
@@ -488,6 +510,12 @@ P(function(d){ return !d.ucak && VAR(d); }, "Telefonuna merkezden bir mesaj geli
 ]},
 
 t3: { saat: "Üç ay sonra", baslik: "Mektup", metin: [
+P(S("t2C"), "Eve dönüp karına sarıldın. Bir şey anlatmadın; o da sormadı. Yedi yıldır sormuyordu."),
+P(S("t2D"), "Hiçbir yere gitmedin; bir sonraki çağrıyı bekledin. Çağrı sabah altıda geldi: başka bir şehir, başka bir aile."),
+P(S("y_sonA"), "Gözlerin doldu; arkanı döndün. Yanından geçen bir hemşire omzuna bir an dokundu."),
+P(S("y_sonB"), "Saati bir kâğıda yazdın. Kâğıdı cüzdanına, kendi bağışçı kartının yanına koydun."),
+P(S("y_sonC"), "Bir şey hissetmediğini fark ettin. Yedi yıl mı, yorgunluk mu? Bu fark ediş, hissetmemekten daha çok korkuttu."),
+P(S("y_sonD"), "Dua ettin; kime ettiğini bilmeden. Bir kalp için, bir kız için, kendin için."),
 P(VAR, "Üç ay sonra ofisine bir zarf geliyor. Ulusal merkezin aracılığıyla, isimsiz. İçinde bir kâğıt ve çocuk el yazısıyla bir resim: bir kalp, kanatları var, uçuyor. Altında büyük harflerle: “TEŞEKKÜRLER.”"),
 P(VAR, "Kâğıtta bir annenin yazısı: “Sayın Bağışçı Ailesi. Oğlum on dört ay bir makineye bağlı yaşadı. Şimdi okula gidiyor. Geçen hafta bisiklete bindi. Her gece kulağımı göğsüne dayıyorum ve bir kalbin atışını dinliyorum. O kalbin bir adı vardı, biliyorum. Bilmiyorum ama biliyorum. Her gece ona teşekkür ediyorum.”"),
 P(YOK, "Üç ay sonra Ayten Hanım seni arıyor. Sesi sakin. “Barış Bey, sizi rahatsız ettim. Bir şey sormak istedim. O çocuk, Ankara'daki... Bir kalp buldu mu?”"),
@@ -504,6 +532,12 @@ P(function(d){ return d.liste === "adil" && d.bagis === "tam"; }, "Merkezden kı
 ]},
 
 t4: { saat: "Bir yıl sonra", baslik: "Yıl Dönümü", metin: [
+P(function(d){ return d.son === "t3B" && VAR(d); }, "Mektubu bir hafta masanda tuttun, her akşam okudun. Sonra ilettin."),
+P(function(d){ return d.son === "t3B" && YOK(d); }, "“Bilmiyorum,” demiştin. Kural buydu. Ayten Hanım başını salladı; inanmadı mı, inanmak mı istemedi, anlamadın."),
+P(function(d){ return d.son === "t3C" && (d.liste === "vip" || d.liste === "kural"); }, "Haberi kesip Sinan'ın masasına bıraktın. Ertesi gün haber masada yoktu; Sinan da sana bakmıyordu."),
+P(function(d){ return d.son === "t3C" && !(d.liste === "vip" || d.liste === "kural"); }, "Mektubun fotokopisini çekip bir dosyaya koydun; kimsenin açmayacağı bir dosyaya."),
+P(S("bl_esraB"), "“Ben iyiyim Esra,” dedin. Esra çayını bitirip kalktı. Kapıda döndü: “Ben de öyle diyordum.”"),
+P(S("bl_esraC"), "Esra'ya Ayten Hanım'ın sorusunu anlattın: “Doğru mu yaptık?” Esra uzun süre sustu. “O soru hiç gitmiyor,” dedi. “Sadece yer değiştiriyor.”"),
 P(function(d){ return d.kuzey_cevap; }, "Kuzey jüriye döndü. “Kalp aynı kalp,” dedi. “Ama atışı farklı olur. Yeni bedenin hızına uyar.” Sonra bir saniye durdu. “Bence kalp kimin olduğunu bilmez. Ama kimin içinde olduğunu bilir.” Jüri not aldı. Sen not almadın; ezberledin."),
 P(function(d){ return d.neden_sordu; }, "Fuardan sonra Kuzey'e sordun. “Ablam hep beni korurdu,” dedi. “Şimdi ben onun kalbini korumak istiyorum. Nerede olduğunu bilmesem de. Nasıl çalıştığını bilirsem, onu biraz korumuş olurum.”"),
 P(function(d){ return d.sinir; }, "Jüri üyesi dinledi, not aldı. Kuzey sana baktı; bir an kırılmış gibi. Sonra yüzü değişti. “Hatırlamıyor,” dedi. “Ama atmaya devam ediyor. Bu daha güzel değil mi?”"),
@@ -518,11 +552,12 @@ P(YOK, "“Erdal hâlâ konuşmuyor bundan,” diyor. “Ama geçen hafta kendi 
 "Sonra Ayten Hanım sana dönüyor. Bütün yıl boyunca bu cümleyi kurmuş gibi.",
 P(VAR, "“Barış Bey. Onu görmek istiyorum. O çocuğu. Bir kez. Konuşmasam bile. Uzaktan. Ya da... göğsünü dinlemek. Bir doktor steteskobu ile. Duru'nun kalbinin attığını duymak istiyorum. Bir kez. Sonra bir daha istemem.”"),
 P(YOK, "“Barış Bey. Doğru mu yaptık? Bütün gönderdik. Erdal'ın istediği gibi. Ama her gece o çocuğu düşünüyorum. Biri ona kalp verdi; biz vermedik. Doğru mu yaptık?”"),
-"Kural açık. Anonimlik. Ama karşında bir anne var ve bir yıl önce bir gece, bu kadının kızının kalbinin bir kutuya konduğu anı sen gördün."
+"Kural açık. Anonimlik. Ama karşında bir anne var ve bir yıl önce bir gece, bu kadının kızının kalbinin bir kutuya konduğu anı sen gördün.",
+"Ayten Hanım cevabı bekliyor. Ne söylersen söyle, bu bankta söylediğin şeyi bir ömür boyu taşıyacak."
 ], secenekler: [
 { t: function(d){ return VAR(d) ? "Merkezle ve alıcı ailesiyle görüşüp, iki tarafın da onayıyla bir buluşma ayarlamaya çalışacağını söylersin." : "“Doğru yaptınız. Hayır demek de bir armağandı; kızınıza,” dersin."; }, to: "bs", etki: function(d){ if(VAR(d)) d.bulustur = true; else d.sefkat++; } },
 { t: function(d){ return VAR(d) ? "“Yapamam Ayten Hanım. Bu kural sizi de onları da koruyor,” dersin." : "“Bilmiyorum,” dersin. “Ama hangi kararı verseniz, bu soruyu soracaktınız.”"; }, to: "bs", etki: { adalet: 1 } },
-{ t: "Ona Duru'nun kalbinin ilk kez başka bir göğüste attığı saati söylersin.", to: "bs", etki: { sefkat: 1, saat_soyledi: true } },
+{ t: function(d){ return VAR(d) ? "Ona Duru'nun kalbinin ilk kez başka bir göğüste attığı saati söylersin." : "Ona Duru'nun son saatini söylersin; cihazın kapandığı dakikayı."; }, to: "bs", etki: { sefkat: 1, saat_soyledi: true } },
 { t: "“Ben bu işi bırakıyorum,” dersin. Bunu ilk kez yüksek sesle söylüyorsun.", to: "bs", etki: { istifa: true } }
 ]},
 
@@ -536,6 +571,9 @@ bs: { yonlendir: [
 
 /* ---------- SONLAR ---------- */
 son_armagan: { son: true, baslik: "Armağan", metin: [
+P(S("t4A"), "“Bir buluşma ayarlamaya çalışacağım,” demiştin. Ayten Hanım'ın gözleri dolmuştu; umutla mı korkuyla mı, anlamadın."),
+P(S("t4B"), "“Yapamam Ayten Hanım,” demiştin. “Kural sizi de onları da koruyor.” Başını sallamıştı; anladığı için değil, yorulduğu için."),
+P(S("t4C"), "Kalbin ilk kez başka bir göğüste attığı saati söylemiştin. Ayten Hanım saati telefonuna yazmıştı."),
 "Duru'nun kalbi Ankara'da, dokuz yaşında bir çocuğun göğsünde atıyor.",
 P(function(d){ return d.bagis === "tam"; }, "Karaciğeri İzmir'de, bir liman işçisinin bedeninde. Böbrekleri iki diyaliz hastasında; biri bir ev hanımı, biri bir üniversite öğrencisi. Korneaları iki insanın gözünde; biri bir saatçi, biri adını hiç öğrenmeyeceğin biri."),
 "Bir armağan, karşılığı beklenmeden verilen şeydir. Ama bir organ bağışı bir armağandan fazlası: verenin artık hiçbir şeyi olmadığı bir anda, hiçbir şeyi olmayan birine verilen her şey. Ve alan, kimden aldığını hiç bilmeyecek. Veren, kime verdiğini hiç bilmeyecek.",
@@ -546,6 +584,9 @@ P(function(d){ return d.bagis === "tam"; }, "Karaciğeri İzmir'de, bir liman i�
 ]},
 
 son_liste: { son: true, baslik: "Kırık Liste", metin: [
+P(S("t4A"), "“Bir buluşma ayarlamaya çalışacağım,” demiştin. Ayten Hanım'ın gözleri dolmuştu; umutla mı korkuyla mı, anlamadın."),
+P(S("t4B"), "“Yapamam Ayten Hanım,” demiştin. “Kural sizi de onları da koruyor.” Başını sallamıştı; anladığı için değil, yorulduğu için."),
+P(S("t4C"), "Kalbin ilk kez başka bir göğüste attığı saati söylemiştin. Ayten Hanım saati telefonuna yazmıştı."),
 "Duru'nun kalbi doğru yere gitti. Böbrekleri, korneaları doğru yere gitti. Ama karaciğeri, bir milletvekilinin babasının bedeninde.",
 P(function(d){ return d.liste === "kural"; }, "Sen kuralı uyguladın. Bir ay eksik bir ayıklık belgesi. Her şey yasal. Ama yasanın içinden bir baskı geçti ve sen o baskının geçtiği kapıyı, kuralın elinle, açık tuttun. İmzaladığın kâğıt dosyada duruyor; nedeniyle birlikte. Bir gün biri okursa, belki anlar."),
 P(function(d){ return d.liste === "vip"; }, "Sen karar vermedin; başkasına bıraktın. “Bakarım” dedin, ya da “Merkez verir.” Bir kararı başkasına bırakmak, o kararın kimin elinde olduğunu değiştirmiyor; yalnızca senin elinde olmadığını söylemene izin veriyor."),
@@ -557,6 +598,9 @@ P(function(d){ return d.haber_birakti; }, "Haberi Sinan'ın masasına bıraktın
 ]},
 
 son_butun: { son: true, baslik: "Bütün", metin: [
+P(S("t4A"), "“Hayır demek de bir armağandı; kızınıza,” demiştin. Ayten Hanım denize bakarak uzun süre ağlamıştı."),
+P(S("t4B"), "“Hangi kararı verseniz bu soruyu soracaktınız,” demiştin. Ayten Hanım bir yıldır ilk kez gülümsemişti."),
+P(S("t4C"), "Ona son saati söylemiştin. Ayten Hanım bilmiyordu; o an saate değil, kızının yüzüne bakıyordu."),
 "Duru bütün gömüldü. Erdal Bey kızını kendi elleriyle yıkadı; babasını nasıl yıkadıysa. Mavi ojeyi silmedi. Kefene sararken o küçük parmak dışarıda kaldı; sonra onu da örttü.",
 "Ankara'daki çocuk iki hafta sonra bir başka kalp aldı. Bir başka gecede, bir başka şehirde, bir başka ailenin “evet”inden. Bunu Ayten Hanım'a söyledin ya da söylemedin; ama bir gün, bir şekilde, bilecek.",
 "Bu meslekte “hayır”ı bir başarısızlık olarak görmek kolay. Sistem öyle görür: kaybedilmiş bir donör, kaçırılmış bir fırsat, listede bekleyen insanlar. Ama sen bir “hayır”ın ardında ne olduğunu gördün: bir babanın kendi babasına sadakati, bir bedenin bütünlüğüne duyulan saygı, bir korku, bir inanç, bir sevgi.",
@@ -566,6 +610,9 @@ P(function(d){ return d.israr_kismi; }, "Ama biliyorsun: o “hayır”ı sen b�
 ]},
 
 son_kalp: { son: true, baslik: "Kalp Sesi", metin: [
+P(S("t4A"), "“Bir buluşma ayarlamaya çalışacağım,” demiştin. Ayten Hanım'ın gözleri dolmuştu; umutla mı korkuyla mı, anlamadın."),
+P(S("t4B"), "“Yapamam Ayten Hanım,” demiştin. “Kural sizi de onları da koruyor.” Başını sallamıştı; anladığı için değil, yorulduğu için."),
+P(S("t4C"), "Kalbin ilk kez başka bir göğüste attığı saati söylemiştin. Ayten Hanım saati telefonuna yazmıştı."),
 "Aylar süren yazışmalar. Merkez, iki aile, psikologlar, hukukçular. Kural esnemedi; yalnızca iki ailenin kendi özgür isteğiyle birbirlerini bulmasına bir kapı aralandı.",
 "Bir bahar sabahı Ankara'da bir parkta. Ayten Hanım, Erdal Bey, Kuzey. Ve karşılarında bir kadın, bir adam ve on yaşında bir çocuk. Çocuğun adı Yusuf. Göğsünde, gömleğinin altında, uzun bir yara izi.",
 "Kimse ne söyleyeceğini bilmiyor. Uzun bir sessizlik. Sonra Yusuf, bir çocuğun cesaretiyle, Ayten Hanım'ın önüne geliyor.",
@@ -578,6 +625,7 @@ son_kalp: { son: true, baslik: "Kalp Sesi", metin: [
 ]},
 
 son_koordinator: { son: true, baslik: "Koordinatör", metin: [
+P(S("t4D"), "“Ben bu işi bırakıyorum,” demiştin. Ayten Hanım şaşırmamıştı. “Bırakın,” demişti. “Bir yıl önce de yorgundunuz.”"),
 "İstifa dilekçeni yazdın. Yedi yıl. Kaç aile, kaç gece, kaç kalp, kaç “hayır”, kaç “evet”. Saymadın. Saymayı bıraktığın gün, bu işi bırakman gerektiğini biliyordun; bıraktın.",
 "Esra yerine geçti. Veda ederken sana bir şey sordu: “Neyi en çok özleyeceksin?” Düşündün. “Onur yürüyüşünü,” dedin. “Koridorun iki yanında sıralanan insanları. Kimse çağırmadan gelen.”",
 P(function(d){ return d.liste === "vip" || d.liste === "kural"; }, "Ve bir şey daha var, kimseye söylemediğin: listeyi. Bir sistemin, bir telefonla, bir imzayla nasıl eğilebildiğini gördün. Bunu düzeltemedin. Belki bu yüzden gidiyorsun."),
