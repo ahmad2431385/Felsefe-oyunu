@@ -94,13 +94,19 @@ P(S("x_tartismaC"), "Üç saat tartıştınız. Defne iki kez çay yenilendi. Bi
 "Durakladı. Gözleri doldu.",
 "“Onun için mi istiyorum, kendim için mi, bilmiyorum. Bazı geceler uyanıyorum, maskenin sesini dinliyorum, ve bir an, bir an sadece, durmasını diliyorum. Sonra kendimden nefret ediyorum. Bu beni canavar mı yapar?”"
 ], secenekler: [
-{ t: "“Hayır. Sizi yorgun bir insan yapar,” dersin.", to: "a4", etki: { merhamet: 1, defne_teselli: true } },
+{ t: "“Hayır. Sizi yorgun bir insan yapar,” dersin.", to: "sd_balkon", etki: { merhamet: 1, defne_teselli: true } },
 { t: "“Bu duygunun teyzenizin kararına karışmaması gerekiyor,” dersin.", to: "a4", etki: { ozerklik: 1, ayir: true } },
 { t: "Ona bir bakım destek ekibi ve bir psikolog ayarlarsın. Hemen.", to: "a4", etki: { yasa: 1, destek: true } },
-{ t: "“Teyzeniz bunu biliyor mu?” diye sorarsın.", to: "a4", etki: { ozerklik: 1, teyze_bilir: true } }
+{ t: "“Teyzeniz bunu biliyor mu?” diye sorarsın.", to: "sd_iki_kadin", etki: { ozerklik: 1, teyze_bilir: true } }
 ]},
 
 a4: { saat: "Kasım", baslik: "Etik Kurul", metin: [
+P(S("sd_balkonA"), "“Bir editör,” diye tekrarladı Defne. Bir an yüzünde eski bir şey belirdi; iki yıl önceki kadının yüzü. Sonra içeri girdi ve teyzesinin tabletini düzeltti."),
+P(S("sd_balkonC"), "Defne içeri girip teyzesine sordu. Nevin Hoca'nın cevabı yarım saat sürdü. Defne okudu, ağladı, sana göstermedi. Ama ertesi hafta yayınevini aradığını duydun."),
+P(function(d){ return d.son === "sd_balkonB" || d.son === "sd_balkonD"; }, "Defne sigaranın izmaritini saksıya gömdü ve içeri girdi. Balkonda yalnız kaldın. Boğaz'ın ışıkları, bir gemi, bir yaşamın kenarında başka bir yaşam."),
+P(S("sd_iki_kadinC"), "Defne'ye bir bakım hemşiresi ayarlayabileceğini söyledin. Defne bir süre sana baktı. “Gidebilir miyim gerçekten?” dedi. Bir hafta sonra Berlin'e bir e-posta yazdı. Henüz gitmedi. Ama yazdı."),
+P(S("sd_iki_kadinD"), "Nevin Hoca'nın cevabı uzun sürdü: “Belki. Bir insanı korumanın en eski yolu, ondan önce gitmektir. Annem de öyle yaptı. Ben buna kızmıştım. Şimdi anlıyorum.”"),
+P(function(d){ return d.son === "sd_iki_kadinA" || d.son === "sd_iki_kadinB"; }, "O gece Cihangir'den ayrılırken bir şey biliyordun: bu evde iki insan, birbirini korumak için, birbirinden ayrılmaya çalışıyordu."),
 P(S("a3A"), "Defne ağladı; ilk kez, belki iki yıldır ilk kez, birinin önünde. “Yorgun,” dedi. “Evet. Çok yorgun.”"),
 P(S("a3B"), "Defne başını salladı. “Biliyorum,” dedi. “Bu yüzden ona hiç söylemedim. Kararı onun olsun. Ama ben de bu evde yaşıyorum Ömer Bey.”"),
 P(S("a3C"), "Bir hafta sonra bir bakım asistanı gelmeye başladı; haftada üç gün. Defne ilk gün dışarı çıktı ve dört saat Boğaz'da yürüdü. Döndüğünde sana bir mesaj attı: “Unutmuşum denizi.”"),
@@ -149,6 +155,69 @@ P(S("a5D"), "Sabaha kadar oturdun. Nevin Hoca bir süre uyudu. Uyandığında se
 { t: "“İkinci yol. Yasanın sınırında. Ben de sizinle o sınırda duracağım.”", to: "br1", etki: { ozerklik: 2, kol: "birak" } },
 { t: "“İsviçre. Raporlarınızı yazacağım.”", to: "z1", etki: { ozerklik: 2, kol: "zurih" } },
 { t: "Bir şey söylemezsin. Ama gözlerine bakarak, yavaşça başını sallarsın.", to: "g1", etki: { merhamet: 2, kol: "gizli" } }
+]},
+
+
+sd_balkon: { saat: "Kasım", baslik: "Balkon", metin: [
+"Defne'yi balkona çıkarıyorsun. Kasım akşamı, Cihangir'in damları, uzakta Boğaz'ın ışıkları. Defne bir sigara yakıyor; iki yıldır içmediğini söylüyor, sonra yakıyor yine de.",
+"“Bir yayınevinde editördüm,” diyor. “Şiir kitapları. Kimse okumaz şiir; ben okurdum. Bir sevgilim vardı, Berlin'e gitti, ‘Gel’ dedi. Gitmedim. Teyzem hastalandı. Annem yok, babam yok. Kim bakacaktı?”",
+"Dumanı denize doğru üflüyor. “İki yıl. Bu salonda, bu çekyatta, bu maskenin sesiyle. Her gece onun yerine nefes alıyorum gibi; bir makine onun ciğerlerine, ben de kendiminkilere zorla.”",
+"İçeriden bir ses. Mekanik, tonsuz. Tablet. Nevin Hoca bir şey yazmış; ekran sesli okuyor, balkona kadar duyuluyor:",
+"“Defne. Sigarayı söndür. Ve gel.”",
+"Defne gülüyor; ilk kez. “Duyuyor,” diyor. “Her şeyi duyuyor. Balkonda ağladığımı da duyuyor, biliyorum.”",
+"Sigarayı söndürüyor. Ama içeri girmeden önce sana dönüyor: “Ömer Bey. O öldüğünde ben ne olacağım? Bir hasta bakıcı mı, bir yeğen mi, bir yas mı? İki yıldır yalnızca onun etrafında varım.”"
+], secenekler: [
+{ t: "“Bir editör,” dersin. “Şiir okuyan.”", to: "a4", etki: { merhamet: 1, editor: true } },
+{ t: "“Bunu şimdi düşünmeniz gerek. O öldükten sonra değil,” dersin.", to: "a4", etki: { ozerklik: 1 } },
+{ t: "“Bunu ona sorun,” dersin. “O cevap vermek isteyebilir.”", to: "a4", etki: { ozerklik: 1, ona_sor: true } },
+{ t: "Bir şey söylemeden içeri girersin.", to: "a4", etki: { yasa: 1 } }
+]},
+
+sd_iki_kadin: { saat: "Kasım", baslik: "Git", metin: [
+"“Biliyor,” dedi Defne. Sonra sana bir şey gösteriyor: tabletin geçmiş mesajları. Bir gece, saat üç, Nevin Hoca'nın yazdığı bir cümle.",
+"“Yorgunsun. Biliyorum. Senin için de istiyorum.”",
+"Defne tableti alıp salona dönüyor. Sen kapıda kalıyorsun. Nevin Hoca'nın yatağının yanında diz çöküyor. Sesli konuşuyor; teyzesi duyuyor, cevabı gözleriyle verecek.",
+"“Teyze,” diyor Defne, “o geceki mesajı okudum yine. Senin için de istiyorum diye yazmışsın. Ben bunu istemiyorum. Benim için ölme. Benim yorgunluğum senin ölmen için bir sebep olmasın.”",
+"Nevin Hoca'nın gözleri ekranda. Uzun süre. Sonra harfler beliriyor:",
+"“Senin için ölmüyorum. Ama senin için de ölüyorum. İkisi aynı anda doğru olabilir. Bunu sana kırk yıl öğretmeye çalıştım; çelişki bir hata değil, bir gerçektir.”",
+"Bir süre durup ekliyor:",
+"“Git. Berlin'e. Şiirlerine. Ben bir hemşireyle de ölebilirim. Ama sen benimle birlikte ölme.”",
+"Defne ağlıyor. Sen kapıda, bir şeye tanık olduğunu bilerek, kıpırdamadan duruyorsun."
+], secenekler: [
+{ t: "Odaya girip Defne'nin omzunu tutarsın.", to: "a4", etki: { merhamet: 1 } },
+{ t: "Kapıyı yavaşça kapatırsın. Bu onların anı.", to: "a4", etki: { ozerklik: 1 } },
+{ t: "Sonra Defne'ye bir bakım hemşiresi ayarlayabileceğini söylersin; gidebilmesi için.", to: "a4", etki: { yasa: 1, destek: true, berlin: true } },
+{ t: "Nevin Hoca'ya yazarsın, Defne çıkınca: “Onu kendi ölümünüzden mi koruyorsunuz?”", to: "a4", etki: { ozerklik: 1, nevin_soru: true } }
+]},
+
+sd_kenar: { saat: "Bir ay sonra", baslik: "Kenar Notları", metin: [
+"Koliyi evine götürüyorsun. Gece, mutfak masasında, kitapları tek tek açıyorsun. Kenarlarda kırk yılın notları.",
+"Genç Nevin'in el yazısı; hızlı, eğik, sabırsız. “Burayı genişlet.” “Bu argüman zayıf.” “Simone'a sor.” Bir sayfada yalnızca bir ünlem. Bir başkasında bir kahve lekesi ve altında: “Paris, 1981, Cafe de Flore. Yağmur.”",
+"Sonra “Acı ve Anlam”ın kenarında, çok daha yeni, titrek bir el yazısı. Bu Nevin Hoca'nın değil; hastalığından önceki son yıllarından, belki de son yazıları. Elleri gitmeden önce.",
+"“Bunu yanlış yazmışım. Acının anlamı yok. Ama acıya rağmen anlam bulan insanlar var ve onlar benden daha bilgeler. Ben henüz değilim.”",
+"Ve kitabın arka kapağının içinde, katlanmış bir kâğıt. Bir mektup. Tarih yok. “Sevgili Simone,” diye başlıyor; Fransızca, sonra Türkçe.",
+"“Bir gün öleceğim ve bu mektubu sana gönderemeyeceğim çünkü sen çoktan öldün. Ama yazıyorum. Felsefeciler ölülere yazar; çünkü canlılar cevap verir ve cevaplar her şeyi bozar.”",
+"Simone kim? Bir arkadaş, bir sevgili, bir hoca? Kimse sana söylemeyecek."
+], secenekler: [
+{ t: "Mektubu Defne'ye gösterirsin. Belki biliyordur.", to: "t2", etki: { merhamet: 1, simone_defne: true } },
+{ t: "Mektubu kitabın içine geri koyarsın. Bazı şeyler bir sır olarak kalmalı.", to: "t2", etki: { ozerklik: 1 } },
+{ t: "Kenar notlarını bir deftere geçirmeye başlarsın; bir gün yayımlanmak üzere.", to: "t2", etki: { ozerklik: 1, notlar_defter: true } },
+{ t: "Sen de bir mektup yazarsın; ölü birine. Nevin Hoca'ya.", to: "t2", etki: { merhamet: 1, mektup_yazdi: true } }
+]},
+
+sd_kedi: { saat: "İki ay sonra", baslik: "Mırıltı", metin: [
+"Koliyi açmadan dolabın üstüne koydun. İki ay orada durdu.",
+"Bir akşam Defne arıyor. “Ömer Bey, bir hafta Berlin'e gidiyorum. Bir şiir festivali. İki yıldır ilk kez bir yere gidiyorum.” Bir süre duraksıyor. “Spinoza'yı size bırakabilir miyim? Komşu alerjik çıktı. Başka kimsem yok.”",
+"Ertesi gün Spinoza evinde. On beş yaşında, tekir, tek kulağı yırtık. İlk gün kanepenin altından çıkmıyor. İkinci gün mutfağa geliyor, kokluyor, gidiyor. Üçüncü gece, sen kanepede kitap okurken, yanına çıkıyor.",
+"Sonra göğsüne. Tıpkı Nevin Hoca'nın göğsüne yattığı gibi. Ağır, sıcak. Ve mırlıyor.",
+"Mırıltıyı göğsünün kemiklerinde hissediyorsun. Bir titreşim. Nevin Hoca'nın cümlesi aklına geliyor: “Bütün kaslarım gitti ama derim kaldı. Bu kedinin mırlamasını hâlâ hissedebiliyorum.”",
+"Bir hekim olarak bir şey biliyorsun: insan bedeninin en son giden duyularından biri dokunmadır. Bilinç kaybolurken, görme giderken, işitme silinirken, deri hâlâ hisseder. Belki Nevin Hoca'nın kutusunda, sandığından daha fazlası vardı.",
+"Spinoza uyuyor. Sen kımıldamıyorsun. Kitap göğsünde açık, okunmadan."
+], secenekler: [
+{ t: "Koliyi dolabın üstünden indirir, açarsın.", to: "t2", etki: { merhamet: 1, koli_acti: true } },
+{ t: "Bir hafta boyunca her akşam bu şekilde oturursun.", to: "t2", etki: { merhamet: 1 } },
+{ t: "Defne döndüğünde Spinoza'yı kendinde tutmayı teklif edersin.", to: "t2", etki: { merhamet: 1, spinoza_sende: true } },
+{ t: "Bu düşünceyi bir yere yazarsın: kilitli zihinde dokunma kalır mı?", to: "t2", etki: { ozerklik: 1, yazdi: true } }
 ]},
 
 /* ---------- BAKIM KOLU ---------- */
@@ -376,11 +445,17 @@ P(S("t1D"), "Cenazeye gitmedin. Neden, kendine bile açıklayamadın. Defne bir 
 ], secenekler: [
 { t: "Kitabı göğsüne bastırırsın.", to: "t2", etki: { merhamet: 1 } },
 { t: "Defne'ye nasıl olduğunu sorarsın. Gerçekten.", to: "t2", etki: { merhamet: 1, defne_sordu: true } },
-{ t: "Kitabın kenarlarındaki notları okumaya başlarsın.", to: "t2", etki: { ozerklik: 1, notlari_okudu: true } },
-{ t: "Koliyi kapatıp gidersin. Okumaya hazır değilsin.", to: "t2", etki: { yasa: 1 } }
+{ t: "Kitabın kenarlarındaki notları okumaya başlarsın.", to: "sd_kenar", etki: { ozerklik: 1, notlari_okudu: true } },
+{ t: "Koliyi kapatıp gidersin. Okumaya hazır değilsin.", to: "sd_kedi", etki: { yasa: 1 } }
 ]},
 
 t2: { saat: "Eylül", baslik: "Davet", metin: [
+P(S("sd_kenarA"), "Defne mektubu okudu. Uzun süre. “Simone,” dedi. “Teyzemin doktorasındaki hocası. Paris'te. Ölümünden sonra teyzem bir yıl hiç konuşmamış, annem anlatırdı. Kimse nedenini bilmiyordu.” Şimdi biliyorsunuz. Ya da bildiğinizi sanıyorsunuz."),
+P(S("sd_kenarC"), "Bir deftere geçirmeye başladın. Her akşam bir kitap. Kenar notları kendi başlarına bir kitap oldu: kırk yıllık bir zihnin, kendisiyle yaptığı bir tartışma."),
+P(S("sd_kenarD"), "Bir mektup yazdın: “Sevgili Nevin Hoca.” Ne yazacağını bilmeden başladın; üç sayfa sürdü. Bitince katlayıp onun kitabının arasına koydun. Cevap gelmeyecek; ve belki bu yüzden yazabildin."),
+P(S("sd_kediA"), "Koliyi indirdin. Spinoza'nın gözleri seni izledi. En üstteki kitabı açtın; bir ithaf, bir el yazısı. Kedi göğsüne geri çıktı. Kitabı onunla birlikte okudun."),
+P(S("sd_kediC"), "Defne Berlin'den döndüğünde teklif ettin. Defne uzun süre Spinoza'ya baktı. “Teyzem size bırakmamı isterdi,” dedi sonunda. “Ama ben bırakamam. O son bağım.” Kediyi aldı. Ama her ay bir kez seni ziyarete getireceğine söz verdi."),
+P(S("sd_kediD"), "Yazdın: “Kilitli bir zihinde dokunma kalır mı?” Altına bir paragraf, sonra bir sayfa. Bir makale taslağı oldu. Başlığı: “Kutudaki Kedi.”"),
 P(S("t1bB"), "Defne bir süre düşündü. “Rahatladım,” dedi. “Ve bundan utanıyorum. Ve utandığım için de rahatlıyorum, çünkü demek ki onu hâlâ seviyorum.” Gülümsedi; iki yıldır ilk gülümsemesi belki."),
 P(S("t1bC"), "Kenarlarda kırk yıllık notlar: genç Nevin'in el yazısı, “burayı genişlet,” “bu argüman zayıf,” “Simone'a sor.” Bir sayfada, kırmızı kalemle, bir cümlenin altı çizilmiş: “Ölüm, hayatın sınavı değil, son dersidir.” Yanında, çok daha yeni bir el yazısıyla, Defne'nin: “Teyzem bunu sildirmek istedi. Bıraktım.”"),
 "Eylülde bir zarf geliyor. Tıp fakültesinden. Dekanlık.",

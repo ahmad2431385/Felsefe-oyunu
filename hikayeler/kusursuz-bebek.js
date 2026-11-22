@@ -110,12 +110,51 @@ P(S("a3D"), "Sarıldın. Ozan'ın unlu kolları sırtında. “Tamam abla,” de
 "Bir süre bekliyor. “Gelecek ay klinik koordinatörlük açılıyor. Adın listede. Bunu bilmeni istedim.”"
 ], secenekler: [
 { t: "“Yasayı biliyorum Bora Bey. Uygulayacağım,” dersin.", to: "a5", etki: { yasa: 2 } },
-{ t: "“Paket satışlarım düşük, çünkü çiftlere çocuklarını bir ürün gibi seçtirmek istemiyorum,” dersin.", to: "a5", etki: { cesitlilik: 2, paket_ret: true } },
+{ t: "“Paket satışlarım düşük, çünkü çiftlere çocuklarını bir ürün gibi seçtirmek istemiyorum,” dersin.", to: "kus_gul", etki: { cesitlilik: 2, paket_ret: true } },
 { t: "“Aydın çiftinin durumu bir etik kurula gitmeli,” dersin.", to: "a5", etki: { yasa: 1, cesitlilik: 1, kurul: true } },
-{ t: "Terfiyi düşünürsün. Bir şey söylemezsin.", to: "a5", etki: { terfi_dusun: true } }
+{ t: "Terfiyi düşünürsün. Bir şey söylemezsin.", to: "kus_kat", etki: { terfi_dusun: true } }
+]},
+
+
+kus_gul: { saat: "Mart 2041", baslik: "Gül", metin: [
+"Bora'nın odasından çıkıp kantine iniyorsun. Bir köşede tercüman Gül, tek başına, bir kahvenin başında. Seni görünce el sallıyor; sonra fark ediyorsun ki el sallamıyor, işaret ediyor: “Gel.”",
+"Oturuyorsun. Gül kırklarında; sesi yumuşak, elleri hiç durmuyor. Konuşurken bile elleri bir şey söylüyor gibi.",
+"“Ben bir CODA'yım,” diyor. “Sağır ebeveynlerin işiten çocuğu. Annem babam sağır. Ben işiterek doğdum.”",
+"Kahvesini karıştırıyor. “Beş yaşında annemin tercümanıydım. Doktorda, bankada, öğretmenle görüşmede. Babamın işten atıldığını patronundan ben duydum, ben çevirdim. Altı yaşındaydım. Babamın yüzünü hiç unutmadım; benim ağzımdan duyduğu için.”",
+"“Evimde iki dil vardı ve ben ikisinin arasında bir köprüydüm. Köprüler kimseye ait değildir. Sağırlar beni işiten sayar; işitenler beni sağırların çocuğu. Ben ikisiyim ve hiçbiri.”",
+"Sana bakıyor. “Nehir ile Selim'i anlıyorum. Bir çocuk isterler ki onların dünyasında doğsun, köprü olmak zorunda kalmasın. Ama annemi babamı da anlıyorum; beni çok sevdiler. İşiten bir kız, sağır bir evde. Hiç yabancı olmadım. Yalnızca yorgun oldum.”",
+"Bir süre susuyor. “Size bir şey söyleyeyim mi? Kimse bana sormadı, ben hangisi olmak isterdim diye.”"
+], secenekler: [
+{ t: "“Hangisi olmak isterdin?” diye sorarsın.", to: "a5", etki: { cesitlilik: 1, gul_sordu: true } },
+{ t: "“Bunu Selim ve Nehir'e anlatır mısın?” diye sorarsın.", to: "a5", etki: { sefkat: 1, gul_anlatsin: true } },
+{ t: "“Bu hikâye yasanın lehine bir argüman olabilir,” dersin. Düşünerek.", to: "a5", etki: { yasa: 1 } },
+{ t: "Kahveni bitirip ona teşekkür edersin. Bir şeyi tartmak için zamana ihtiyacın var.", to: "a5", etki: { sefkat: 1 } }
+]},
+
+kus_kat: { saat: "Mart 2041", baslik: "On Beşinci Kat", metin: [
+"Bora seni yeni binaya götürüyor. Henüz açılmamış; Eskişehir yolunun öbür tarafında, camdan bir kule. Asansör on beşinci kata çıkıyor.",
+"Kat boş. Beyaz duvarlar, büyük pencereler, Ankara'nın bütün batısı. Bora bir köşeyi gösteriyor. “Senin ofisin. Klinik koordinatör.”",
+"Sonra koridor boyunca yürüyor, her kapıyı açıyor. “Burası danışma odaları. On iki tane. Burası embriyo görüntüleme. Burası Optimum Paket sunum salonu; bir sinema perdesi, çiftler embriyolarının olası yüzlerini görecek, yapay zekâ çizimi, on sekiz yaşında nasıl görünecekleri.”",
+"Duvarlarda henüz asılmamış posterler, yere dizilmiş. Gülümseyen bebekler, gülümseyen çocuklar, gülümseyen gençler. Hepsi birbirine benziyor; bir şekilde.",
+"Bora pencerenin önünde duruyor. “Aslı,” diyor, “on yıl sonra Türkiye'de doğan her çocuğun yüzde yetmişi bu binadan geçecek. Bir nesil. Sen o neslin mimarı olabilirsin.”",
+"Pencereden aşağı bakıyorsun. Eskişehir yolu, arabalar, insanlar. Ve bir yerde, Keçiören'de, görünmeyen bir köşede, sabah dörtte kalkıp simit yapan bir adam.",
+"“Bir neslin mimarı,” diyor Bora. “Düşün bunu.”"
+], secenekler: [
+{ t: "“Düşüneceğim,” dersin. Gerçekten.", to: "a5", etki: { yasa: 1, terfi_dusun: true } },
+{ t: "“Bu posterlerde neden hiç Down sendromlu bir çocuk yok?” diye sorarsın.", to: "a5", etki: { cesitlilik: 2, poster_soru: true } },
+{ t: "Pencereden Keçiören'in yönünü bulmaya çalışırsın.", to: "a5", etki: { sefkat: 1 } },
+{ t: "“Bir mimar bina yapar Bora Bey. İnsan değil,” dersin.", to: "a5", etki: { cesitlilik: 1, mimar: true } }
 ]},
 
 a5: { saat: "Nisan 2041", baslik: "Altı Embriyo", metin: [
+P(S("kus_gulA"), "Gül bir süre düşündü. Sonra elleri hareket etti; senin anlamadığın bir işaret. Sesli söyledi: “İkisi. Ama kimse ikisi olmama izin vermedi. Herkes birini seçmemi istedi.”"),
+P(S("kus_gulB"), "Gül başını salladı. Ertesi hafta Selim ve Nehir'le bir kafede buluştu; sen yoktun. Sonra Nehir sana bir mesaj attı: “Gül'ü dinledik. Hiçbir şey değişmedi. Ama her şey biraz değişti.”"),
+P(S("kus_gulC"), "Gül yüzüne baktı. “Argüman,” dedi. “Benim hayatım bir argüman mı oldu şimdi?” Kalktı. Kahvesini bitirmeden gitti. Haklıydı."),
+P(S("kus_gulD"), "Gül'e teşekkür ettin. Gül gülümsedi, sonra ellerini kaldırıp bir işaret yaptı; avucunu kalbine koyup dışarı açtı. Sevgi. Ya da: anlaşıldım."),
+P(S("kus_katA"), "“Düşüneceğim,” dedin. Bora gülümsedi. Asansörle inerken aynada kendine baktın; on beşinci katta bir ofisin sahibi olabilecek bir kadına."),
+P(S("kus_katB"), "Bora bir an durdu. “Pazarlama bölümü seçiyor posterleri,” dedi. Sonra, daha yavaş: “İyi soru. Ama kimse sormuyor.” Ertesi hafta posterler asıldı. Hâlâ hiçbiri yoktu."),
+P(S("kus_katC"), "Keçiören'i buldun; ya da bulduğunu sandın. Uzakta, bir tepenin üstünde, gri bir mahalle. Bora ne baktığını sormadı."),
+P(S("kus_katD"), "Bora'nın yüzü bir an sertleşti. Sonra güldü. “Felsefe,” dedi. “Hep felsefe.” Asansörde konuşmadınız."),
 P(S("a4A"), "Bora gülümsedi. “Biliyordum,” dedi. Bir güvenin, bir kafese ne kadar benzeyebileceğini düşündün."),
 P(S("a4B"), "Bora'nın gülümsemesi bir an dondu, sonra yeniden yerine oturdu. “Felsefe güzel,” dedi. “Ama bu bina felsefeyle ayakta durmuyor.”"),
 P(S("a4C"), "“Kurul,” dedi Bora. “Kurul yasayı uygular. Ama tamam, kayda geçsin. Senin vicdanın rahatlasın.” Vicdanının rahatlamasının, onun için bir hizmet olduğunu fark ettin."),

@@ -97,11 +97,17 @@ P(S("x_cizgiB"), "Erdal Bey cümleni tekrarladı: “Artık o bedende değil.”
 ], secenekler: [
 { t: "“Anlıyorum Erdal Bey. Kararınıza saygı duyuyorum,” dersin.", to: "a4", etki: { riza: 1 } },
 { t: "Diyanet'in organ bağışını caiz saydığını, hatta teşvik ettiğini anlatırsın.", to: "a4", etki: { adalet: 1, fetva: true } },
-{ t: "Ayten Hanım'a dönüp onun ne düşündüğünü sorarsın.", to: "a4", etki: { riza: 1, anneye_sordu: true } },
-{ t: "Hiçbir şey söylemezsin. Odadan çıkıp onları yalnız bırakırsın.", to: "a4", etki: { sefkat: 1 } }
+{ t: "Ayten Hanım'a dönüp onun ne düşündüğünü sorarsın.", to: "bl_anne", etki: { riza: 1, anneye_sordu: true } },
+{ t: "Hiçbir şey söylemezsin. Odadan çıkıp onları yalnız bırakırsın.", to: "bl_koridor", etki: { sefkat: 1 } }
 ]},
 
 a4: { saat: "07.00", baslik: "Kuzey", metin: [
+P(S("bl_anneA"), "“Sesi,” diye tekrarladı Ayten Hanım. Defterin o sayfasını gözlerinin önüne getirir gibi baktı. Sonra kalkıp odaya döndü. Kapı kapandı. İçeriden bir süre hiçbir ses gelmedi."),
+P(S("bl_anneC"), "Ayten Hanım sana baktı. “Haklısınız,” dedi. “On beş yaşında. Paraşütle atlamak da istiyordu.” Gülümsedi; acı bir gülümseme. “Ama yine de yazdı.”"),
+P(function(d){ return d.son === "bl_anneB" || d.son === "bl_anneD"; }, "Ayten Hanım bir süre sessiz kaldı. Sonra defterden hiç söz etmedi. Ama odaya dönerken bir an durup sana baktı; bir sırrı paylaşmış birinin bakışıyla."),
+P(S("bl_koridorA"), "Nihan uzun süre düşündü. “Bilmiyorum,” dedi. “Belki söylesek, aileler bize daha çok güvenirdi. Belki hiç güvenmezlerdi.” Kahvesini bitirmeden yoğun bakıma döndü."),
+P(S("bl_koridorB"), "Nihan sana baktı. Bir an ikiniz de bir şey söylemediniz. Sonra Nihan güldü, yorgun bir gülüş. “İki küçük ses,” dedi. “Bir koridorda. Kimse duymasın.”"),
+P(function(d){ return d.son === "bl_koridorC" || d.son === "bl_koridorD"; }, "Nihan başını salladı. “Haklısın,” dedi; ya da kahve için teşekkür etti. Yoğun bakıma döndü. Arkasından bakarken onun omuzlarının ne kadar düşük olduğunu fark ettin."),
 P(S("a3A"), "Erdal Bey seni süzdü; bir itiraz bekliyordu, gelmedi. Bu onu rahatlatmadı; tersine, gardını indiremedi."),
 P(S("a3B"), "“Diyanet,” dedi Erdal Bey. “Diyanet benim kızımı tanımaz.” Ama bir an durdu. Bir şeyin tartıldığını gördün; dengesi henüz değişmemişti."),
 P(S("a3C"), "Ayten Hanım uzun süre sustu. Sonra kocasının yüzüne bakmadan, çok alçak sesle: “Duru kan bağışına gitmişti geçen ay. On yedisini doldurmadan alamıyorlarmış. Kızmıştı. ‘Yararlı bir şey yapmak istedim, izin vermediler,’ demişti.” Erdal Bey ona döndü. Konuşmadılar."),
@@ -150,6 +156,69 @@ P(S("a5D"), "“Bakarım,” dedin. Sinan memnun kapattı. Bir sözün ne kadar 
 { t: "Aileye kalbi bekleyen çocuğu anlatırsın: yaşını, kaç aydır beklediğini. Kural dışı da olsa.", to: "i1", etki: { sefkat: 1, kol: "israr", anonimlik: true } },
 { t: "Daha önce oğlunun organlarını bağışlamış bir anneyi ve hastanenin manevi danışmanını çağırırsın.", to: "k1", etki: { sefkat: 1, kol: "topluluk" } },
 { t: "Aileyi bir meslektaşına bırakıp önce listeyi güvenceye almaya gidersin.", to: "y1", etki: { adalet: 2, kol: "sistem" } }
+]},
+
+
+bl_anne: { saat: "06.30", baslik: "Ayten", metin: [
+"Ayten Hanım'ı koridora çıkarıyorsun. Erdal Bey odada kalıyor; pencereden körfeze bakıyor, sırtı size dönük.",
+"Koridorun sonunda bir pencere, pencerenin önünde iki plastik sandalye. Oturuyorsunuz. Ayten Hanım uzun süre ellerine bakıyor.",
+"“Duru'nun bir defteri var,” diyor sonunda. “Günlük değil. Bir liste. ‘Ölmeden önce yapacaklarım.’ On beş yaşında yazmıştı. Ben gizlice okudum; annelerin yapmaması gereken bir şey.”",
+"Bir süre susuyor. “Birinci madde: Paraşütle atlamak. İkinci: Annemle Paris'e gitmek. Üçüncü: Birine hayatını borçlu olmak ya da birinin hayatını bana borçlu bırakmak. O zaman çok gülmüştüm. Ne saçma bir cümle, demiştim. Şimdi...”",
+"Cümlesini bitirmiyor. Bitirmesine gerek yok.",
+"“Erdal'a söyleyemem bunu,” diyor. “Okuduğumu bilmiyor. Duru da bilmiyordu. Şimdi bir ölü kızın gizli listesini, onun ölümünü kullanmak için mi ortaya çıkarayım? Bu ona bir ihanet olmaz mı?”",
+"Bir annenin elinde, kızının yazdığı tek bir cümle. Ve o cümle, bir kararın bütün ağırlığını taşıyor."
+], secenekler: [
+{ t: "“Bu bir ihanet değil. Duru'nun sesi,” dersin.", to: "a4", etki: { sefkat: 1, liste_ses: true } },
+{ t: "“Bunu Erdal Bey'e söyleyip söylememek sizin kararınız,” dersin.", to: "a4", etki: { riza: 1 } },
+{ t: "“On beş yaşında yazılmış bir cümle, bir karar sayılmaz,” dersin. Dürüst olmak istiyorsun.", to: "a4", etki: { adalet: 1, liste_sayilmaz: true } },
+{ t: "Bir şey söylemezsin. Elini tutarsın.", to: "a4", etki: { sefkat: 1 } }
+]},
+
+bl_koridor: { saat: "06.30", baslik: "Nihan", metin: [
+"Odadan çıkıyorsun. Koridorda Dr. Nihan, bir duvara yaslanmış, gözleri kapalı. On altı saattir nöbette. Seni duyunca gözlerini açıyor.",
+"“Nasıl?” diyor.",
+"“Babası hayır diyor,” diyorsun. “Annesi bir şey demiyor.”",
+"Nihan başını sallıyor. Sonra, beklemediğin bir şey söylüyor: “Biliyor musun, ben de bazen emin olamıyorum.”",
+"“Neyden?”",
+"“Beyin ölümünden. Bilimsel olarak eminim; testler kesin, kriterler net. Ama yatağın başında durunca, o pembe yanakları, o sıcak eli görünce... Yirmi yıllık hekimim, yüzlerce tanı koydum. Her seferinde içimde küçük bir ses: ya yanılıyorsak? Bilim yanılmaz diyorum kendime. Ama ben bilim değilim. Ben bir kadınım, bir annenin karşısında.”",
+"Kantinden bir kahve kokusu geliyor. Bir hemşire geçiyor, ikinize bakıp hızlanıyor.",
+"“Ailelere ‘kesin’ diyoruz,” diyor Nihan. “Kesin demek zorundayız. Ama bizim içimizdeki o küçük ses, onların içindeki büyük sesin küçük bir kardeşi. Bunu hiç söylemiyoruz.”"
+], secenekler: [
+{ t: "“Bunu ailelere söylemememiz doğru mu sence?” diye sorarsın.", to: "a4", etki: { adalet: 1, nihan_soru: true } },
+{ t: "“Bende de var o ses,” dersin. İlk kez yüksek sesle.", to: "a4", etki: { sefkat: 1, ses_itiraf: true } },
+{ t: "“Testler kesin Nihan. Ses yalnızca yorgunluk,” dersin.", to: "a4", etki: { adalet: 1 } },
+{ t: "Ona bir kahve getirirsin.", to: "a4", etki: { sefkat: 1 } }
+]},
+
+bl_kuzey: { saat: "Dört ay sonra", baslik: "Proje", metin: [
+"Bir şubat sabahı telefonuna tanımadığın bir numaradan bir mesaj. “Merhaba Barış Bey. Ben Kuzey. Duru'nun kardeşi. Annemin telefonundan yazıyorum. Okulda bir bilim fuarı var. Projemi görmeye gelir misiniz?”",
+"Bir ortaokulun spor salonu. Masalar, posterler, volkan maketleri, güneş sistemleri. Kuzey'in masasında plastikten büyük bir kalp modeli; odacıklar, kapakçıklar, damarlar, hepsi farklı renklerde boyanmış. Bir pompa, bir hortum, kırmızı boyalı su. Kuzey bir düğmeye basıyor; su kalbin içinde dolaşıyor.",
+"Posterin başlığı: “Kalp Nasıl Çalışır? (Ve Neden Başka Birinde de Çalışabilir?)”",
+"Kuzey seni görünce kızarıyor. Sonra anlatmaya başlıyor; bir öğretmene anlatır gibi. Kan grupları, doku uyumu, bağışıklık sistemi, ret ilaçları. Her şeyi okumuş. Her şeyi biliyor.",
+"Sonra sesini alçaltıyor: “Öğretmenim bu projeyi neden seçtiğimi sordu. Söylemedim. Siz söylemeyin.”",
+"Bir jüri üyesi yaklaşıyor. Kuzey'e bir soru soruyor: “Bir kalp başka bir bedende de aynı kalp midir?”",
+"Kuzey sana bakıyor. Bir an. Sonra jüriye dönüyor."
+], secenekler: [
+{ t: "Kuzey'in cevabını beklersin. Onun cevabı olmalı.", to: "t4", etki: { riza: 1, kuzey_cevap: true } },
+{ t: "Kuzey'e gözlerinle cesaret verirsin; bir baş sallamayla.", to: "t4", etki: { sefkat: 1, kuzey_cevap: true } },
+{ t: "Fuardan sonra Kuzey'e projeyi neden seçtiğini sorarsın.", to: "t4", etki: { sefkat: 1, neden_sordu: true } },
+{ t: "Jüri üyesine Kuzey'in bilmediği bir ayrıntıyı anlatırsın: kalbin sinirlerinin kesildiğini, artık eski bedenini “hatırlamadığını”.", to: "t4", etki: { adalet: 1, sinir: true } }
+]},
+
+bl_esra: { saat: "Dört ay sonra", baslik: "Esra", metin: [
+P(VAR, "Mektubu masanda bıraktın. Okudun, hissetmedin. Bir haftadır hiçbir şey hissetmiyorsun; ne bir “evet”te, ne bir “hayır”da."),
+P(YOK, "Ayten Hanım'ın telefonundan sonra bir şey yapmadın. Ne bir cevap, ne bir arama. Bir haftadır hiçbir şey hissetmiyorsun; ne bir “evet”te, ne bir “hayır”da."),
+"Esra bir öğle arası kapını çalıyor. Elinde iki çay. Oturuyor.",
+"“Barış,” diyor, “geçen hafta bir aileyle konuştun. Ben kapıdaydım. Sesin... sesin bir kayıt gibiydi. Doğru cümleler, doğru sırayla. Ama içinde kimse yoktu.”",
+"Bir şey söylemiyorsun.",
+"“Ben de yaşadım bunu,” diyor Esra. “Üç yıl önce. Bir gece bir aile benden nefret etti, ertesi gece başka bir aile bana sarıldı, üçüncü gece ikisini de hatırlamadığımı fark ettim. Psikologa gittim. Kimseye söylemedim.”",
+"Çayını karıştırıyor. “Bu iş, bir süre sonra insanı bir kanala çeviriyor. İçinden yas geçiyor, umut geçiyor, organlar geçiyor. Ama kanal hiçbir şeyi tutmuyor; tutarsa tıkanır. Bir gün fark ediyorsun ki sen de bir boru olmuşsun.”",
+"Bir süre bekliyor. “Bir şey yapman gerek. Ne, bilmiyorum. Ama bir şey.”"
+], secenekler: [
+{ t: "Esra'nın gittiği psikoloğun adını istersin.", to: "t4", etki: { sefkat: 1, psikolog: true } },
+{ t: "“Ben iyiyim Esra,” dersin. İkiniz de bunun doğru olmadığını bilerek.", to: "t4", etki: { yorgun: true } },
+{ t: function(d){ return VAR(d) ? "Mektubu bir kez daha, Esra'nın yanında, yüksek sesle okursun." : "Esra'ya Ayten Hanım'ın sorusunu anlatırsın: “Doğru mu yaptık?”"; }, to: "t4", etki: function(d){ d.sefkat++; if(VAR(d)) d.yuksek_sesle = true; else d.esraya_anlatti = true; } },
+{ t: "Bir hafta izin istersin.", to: "t4", etki: { riza: 1, izin: true } }
 ]},
 
 /* ---------- SAYGI KOLU ---------- */
@@ -428,13 +497,19 @@ P(function(d){ return d.liste === "kural" && d.bagis === "tam"; }, "Aynı hafta 
 P(function(d){ return d.liste === "adil" && d.bagis === "tam"; }, "Merkezden kısa bir bilgi: karaciğer, listenin birinci sırasındaki alıcıya nakledildi. Elli sekiz yaşında, emekli liman işçisi. İki yıllık ayıklığının iki yıl bir ayına girmek üzere. Duru'nun karaciğeri bir adamın, kendi kendine verdiği bir sözün devamı oldu."),
 "Bu meslekte bir armağanın nereye gittiğini çoğu zaman bilmezsin. Bilmemen gerekir. Ama bazen bir zarf gelir, bazen bir haber, bazen bir telefon."
 ], secenekler: [
-{ t: function(d){ return VAR(d) ? "Mektubu merkez aracılığıyla Ayten Hanım'a iletirsin." : "Ayten Hanım'a çocuğun yaşadığını söylersin."; }, to: "t4", etki: function(d){ d.sefkat++; d.iletti = true; } },
+{ t: function(d){ return VAR(d) ? "Mektubu merkez aracılığıyla Ayten Hanım'a iletirsin." : "Ayten Hanım'a çocuğun yaşadığını söylersin."; }, to: "bl_kuzey", etki: function(d){ d.sefkat++; d.iletti = true; } },
 { t: function(d){ return VAR(d) ? "Mektubu bir süre masanda tutarsın, kendi için okursun, sonra iletirsin." : "“Bilmiyorum,” dersin. Kural bu."; }, to: "t4", etki: function(d){ if(VAR(d)){ d.iletti = true; } else { d.adalet++; } } },
 { t: function(d){ return d.liste === "vip" || d.liste === "kural" ? "Haberi kesip Sinan'ın masasına bırakırsın." : "Mektubun bir fotokopisini çekip kendine saklarsın."; }, to: "t4", etki: function(d){ if(d.liste === "vip" || d.liste === "kural"){ d.adalet++; d.haber_birakti = true; } else { d.kopya = true; d.iletti = true; } } },
-{ t: "Bir şey yapmazsın. Bu da işin bir parçası.", to: "t4", etki: { yorgun: true } }
+{ t: "Bir şey yapmazsın. Bu da işin bir parçası.", to: "bl_esra", etki: { yorgun: true } }
 ]},
 
 t4: { saat: "Bir yıl sonra", baslik: "Yıl Dönümü", metin: [
+P(function(d){ return d.kuzey_cevap; }, "Kuzey jüriye döndü. “Kalp aynı kalp,” dedi. “Ama atışı farklı olur. Yeni bedenin hızına uyar.” Sonra bir saniye durdu. “Bence kalp kimin olduğunu bilmez. Ama kimin içinde olduğunu bilir.” Jüri not aldı. Sen not almadın; ezberledin."),
+P(function(d){ return d.neden_sordu; }, "Fuardan sonra Kuzey'e sordun. “Ablam hep beni korurdu,” dedi. “Şimdi ben onun kalbini korumak istiyorum. Nerede olduğunu bilmesem de. Nasıl çalıştığını bilirsem, onu biraz korumuş olurum.”"),
+P(function(d){ return d.sinir; }, "Jüri üyesi dinledi, not aldı. Kuzey sana baktı; bir an kırılmış gibi. Sonra yüzü değişti. “Hatırlamıyor,” dedi. “Ama atmaya devam ediyor. Bu daha güzel değil mi?”"),
+P(function(d){ return d.psikolog; }, "Psikoloğun adını aldın. Bir hafta sonra ilk seansa gittin. Kırk dakika konuştun ve yedi yılın ilk kez kelimelere döküldüğünü gördün."),
+P(function(d){ return d.yuksek_sesle; }, "Mektubu yüksek sesle okudun. “Her gece kulağımı göğsüne dayıyorum.” Bu cümlede sesin kırıldı. Esra elini tuttu. Kanal bir an tıkandı; ve ilk kez, bir haftadır, bir şey hissettin."),
+P(function(d){ return d.izin; }, "Bir hafta izin aldın. Kordon'da yürüdün, denize baktın, hiç telefon açmadın. Yedinci gün bir çağrı geldi; açmadın. Esra açtı."),
 "Bir yıl geçti. Bir ekim akşamı. Ayten Hanım seni arıyor ve buluşmak istiyor. Kordon'da, denize bakan bir bankta.",
 "Zayıflamış. Saçlarına ak düşmüş. Ama yüzünde bir sakinlik var; ilk gece hiç olmayan.",
 P(function(d){ return d.iletti && VAR(d); }, "Çantasından bir zarf çıkarıyor. Mektup. Bisiklet resmi. “Her gece okuyorum,” diyor. “Erdal da okuyor. Ağlıyor. İlk kez ağlıyor.”"),
