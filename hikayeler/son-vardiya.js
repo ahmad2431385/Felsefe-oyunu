@@ -335,6 +335,8 @@ P(function(d){ return !d.gulay; }, "Saat ikiye doğru Deniz'in annesi Gülay Han
 
 /* ---------- ELLE KOLU ---------- */
 e1: { saat: "00.00", baslik: "Eller", metin: [
+P(S("s5D"), "Kimseyi cihaza bağlamayacaktın. Kaan sana baktı, sonra balonu aldı. Songül Abla öbürünü."),
+P(S("k1D"), "“Hayır,” dedin sonunda. “İkisini de elle solutacağız.” Kaan'ın yüzünde önce bir rahatlama, sonra bir korku."),
 P(function(d){ return d.cikardin; }, "İsmail Bey'i cihazdan aldın. Kaan bir şey diyecekti, demedi. Makine boşaldı ve kendi kendine bir alarm çaldı, sanki terk edildiğini anlamış gibi. Susturdun."),
 P(function(d){ return d.secen === "sen" && d.devretti; }, "Kaan “Deniz'e” demişti. Sen kararı elinden aldın. Bir an rahatladı, sonra sana kızdı, sonra yine rahatladı. Sonunda hiçbir şey demedi; balonu eline aldı."),
 "İki yatak, iki balon. Makine boş duruyor, ekranında yeşil bir ışık. Kimse ona bakmıyor; herkes ona bakıyor.",
@@ -495,6 +497,10 @@ son: { yonlendir: [
 
 /* ---------- SONLAR ---------- */
 son_sessiz: { son: true, baslik: "Sessiz Anlaşma", metin: [
+P(S("t4A"), "O sabah eve gidip uyumuştun; on dört saat. Akşam yine nöbete geldin."),
+P(S("t4B"), "Eve varınca istifa dilekçeni yazmıştın; bir sayfa, kısa."),
+P(S("t4C"), "Kar dizine kadar olsa da babanın mezarına gitmiştin."),
+P(S("t4D"), "Geri dönmüştün; birinin yanında oturman gerekiyordu."),
 "Tutanak müdürlükte bir dosyaya girdi, dosya bir dolaba, dolap bir arşive. Kimse şikâyet etmedi; ya da edenler “cihaz arızası” kelimesinin karşısında durdu ve geri çekildi. Arızalı cihazın yedek parçası iki ay sonra geldi.",
 "Tahsin Hoca bir yıl sonra başhekim yardımcısı oldu. Kaan uzmanlığını bitirdi ve başka bir şehre gitti; veda ederken sana bakmadı. Songül Abla emekli oldu.",
 "Sen çalışmaya devam ettin. Hiçbir şey olmadı. Gerçekten hiçbir şey. Uyuyabildin bile, çoğu gece.",
@@ -504,6 +510,10 @@ son_sessiz: { son: true, baslik: "Sessiz Anlaşma", metin: [
 ]},
 
 son_onluk: { son: true, baslik: "Askıdaki Önlük", metin: [
+P(S("t4A"), "O sabah eve gidip uyumuştun; on dört saat. Akşam yine nöbete geldin."),
+P(S("t4B"), "Eve varınca istifa dilekçeni yazmıştın; bir sayfa, kısa."),
+P(S("t4C"), "Kar dizine kadar olsa da babanın mezarına gitmiştin."),
+P(S("t4D"), "Geri dönmüştün; birinin yanında oturman gerekiyordu."),
 "Dilekçeyi üç satırda yazdın. “Kişisel nedenlerle.” Kişisel. Bu kelimeyi seçmek bir saat sürdü.",
 "Önlüğün kapının arkasındaki askıda kaldı, yıkanmış ve ütülenmiş. Bir ay boyunca her sabah ona baktın. Sonra bir gün dolaba kaldırdın, sonra bir gün bir torbaya koydun, sonra torba da kayboldu.",
 "Bir kırtasiyede iş buldun. Kâğıt, kalem, okul defterleri. Kimse senden bir şey seçmeni istemiyor; mavi kapak mı kırmızı kapak mı, o kadar. Bazen bir çocuk iki defter arasında kararsız kalıyor ve sen ona yardım etmiyorsun. Seçsin. Seçmeyi küçükken öğrenmek iyidir, diye düşünüyorsun.",
@@ -513,6 +523,10 @@ son_onluk: { son: true, baslik: "Askıdaki Önlük", metin: [
 ]},
 
 son_nefes: { son: true, baslik: "Başkasının Nefesi", metin: [
+P(S("t4A"), "O sabah eve gidip uyumuştun; on dört saat. Akşam yine nöbete geldin."),
+P(S("t4B"), "Eve varınca istifa dilekçeni yazmıştın; bir sayfa, kısa."),
+P(S("t4C"), "Kar dizine kadar olsa da babanın mezarına gitmiştin."),
+P(S("t4D"), "Geri dönmüştün; birinin yanında oturman gerekiyordu."),
 "İsmail Bey makinede yetmiş üç gün yaşadı.",
 "Saniye Hanım her gün geldi. Termosuyla, aynı plastik sandalyede. Bazen eşine gazete okudu, bazen sustu. Bir keresinde sana, “Babası da üç ay kalmıştı,” dedi. “Ben onu hiç anlamazdım. Şimdi anlıyorum. Bakmak, bakılmaktan zormuş.”",
 "İsmail Bey birkaç kez gözlerini açtı. Her seferinde sana baktı ve sen her seferinde onun ne söylemek istediğini anlamaya çalıştın. Babasının ona bıraktığı soruyu, şimdi o sana bırakıyordu. Bir zincir gibi: anlaşılamayan bakışlar, kuşaktan kuşağa.",
@@ -522,6 +536,10 @@ son_nefes: { son: true, baslik: "Başkasının Nefesi", metin: [
 ]},
 
 son_kayit: { son: true, baslik: "Kayıt", metin: [
+P(S("t4A"), "O sabah eve gidip uyumuştun; on dört saat. Akşam yine nöbete geldin."),
+P(S("t4B"), "Eve varınca istifa dilekçeni yazmıştın; bir sayfa, kısa."),
+P(S("t4C"), "Kar dizine kadar olsa da babanın mezarına gitmiştin."),
+P(S("t4D"), "Geri dönmüştün; birinin yanında oturman gerekiyordu."),
 "O gecenin her dakikası bir kâğıtta. Kendi el yazınla, saatleriyle, isimleriyle. Kimin ne dediği, kimin ne yapmadığı.",
 "Bir soruşturma açıldı. Sorular soruldu; neden o, neden o saatte, neden yazılı talimat yok. Bazı sorular sana, bazıları Kaan'a, bazıları Tahsin Hoca'ya. Bazıları hiç sorulmadı çünkü cevabı herkesi yakacaktı.",
 "Altı ay sonra bir uyarı cezası aldın. Tahsin Hoca bir başka hastaneye tayin edildi. Arızalı cihazın parçası soruşturmanın ikinci haftasında geldi.",
@@ -531,6 +549,10 @@ son_kayit: { son: true, baslik: "Kayıt", metin: [
 ]},
 
 son_el: { son: true, baslik: "Bir El", metin: [
+P(S("t4A"), "O sabah eve gidip uyumuştun; on dört saat. Akşam yine nöbete geldin."),
+P(S("t4B"), "Eve varınca istifa dilekçeni yazmıştın; bir sayfa, kısa."),
+P(S("t4C"), "Kar dizine kadar olsa da babanın mezarına gitmiştin."),
+P(S("t4D"), "Geri dönmüştün; birinin yanında oturman gerekiyordu."),
 "O geceden sonra bir alışkanlık edindin: ölmekte olan her hastanın elini tutuyorsun. Protokolde yok. Kimse istemiyor. Yapıyorsun.",
 "Bazen beş dakika, bazen bir saat. Bazen hasta farkında, çoğu zaman değil. Bir keresinde yaşlı bir adam gözlerini açıp “Sen kimsin?” dedi. “Hemşire,” dedin. “Adın ne?” Söyledin. Bunu da yeni yapıyorsun: adını söylüyorsun.",
 "Hiçbir şeyi düzeltmiyor bu. O gece seçtiğin ya da seçmediğin şeyleri geri getirmiyor. Kimseyi kurtarmıyor. Tartıda bir yere düşmüyor.",
@@ -540,6 +562,10 @@ son_el: { son: true, baslik: "Bir El", metin: [
 ]},
 
 son_sayanlar: { son: true, baslik: "Sayanlar", metin: [
+P(S("t4A"), "O sabah eve gidip uyumuştun; on dört saat. Akşam yine nöbete geldin."),
+P(S("t4B"), "Eve varınca istifa dilekçeni yazmıştın; bir sayfa, kısa."),
+P(S("t4C"), "Kar dizine kadar olsa da babanın mezarına gitmiştin."),
+P(S("t4D"), "Geri dönmüştün; birinin yanında oturman gerekiyordu."),
 "Ertesi akşam yine nöbetteydin. Ve ondan sonraki akşam. Hayat, bu meslekte, bir sonraki vardiyadan ibaret.",
 "O geceden kimseye bahsetmedin. Gerek yoktu; bu koridorda herkesin kendi gecesi var. Songül Abla emekli olurken sana bir şey bıraktı: üzerinde on bir isim yazılı, katlanmış bir kâğıt. “Bunları ben sayıyordum,” dedi. “Artık sen say.”",
 "Kâğıdın altına kendi isimlerini ekledin. Bir sonraki kışta bir isim daha. Bir sonrakinde iki.",

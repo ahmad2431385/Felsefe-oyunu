@@ -323,6 +323,8 @@ P(S("g1D"), "Cemal sana baktı. “İstiyor muyum?” dedi. “Kimse bana sormad
 ]},
 
 g3: { saat: "Ocak 1995", baslik: "Gelin Arabası", metin: [
+P(S("g2B"), "Gül'e kitabı verdin. Gül kitabı göğsüne bastırdı, sonra sandığının en dibine koydu; çeyizin altına."),
+P(S("g2D"), "Cemal'e “Alışırsın,” dedin. Cemal sana baktı. “Sen alıştın mı öğretmenim?” Cevap veremedin."),
 P(S("g2C"), "Hacı Murat seni dinledi. Sonra bir şey yaptı: kalktı, duvardaki boş tüfek askısını çıkardı ve sana verdi. “Bunu sakla,” dedi. “Bu evde bir daha asılmasın.” Bir askı. Belki bir başlangıç."),
 "Düğün sabahı kar yağıyor. Demircilerin kapısında süslü bir minibüs. Davul zurna. Gül kırmızı bir duvağın altında, iki kadının kolunda, eşikte duruyor.",
 "Minibüsün ön camına bir ayna, bir kurdele, bir de nazar boncuğu bağlanmış. Şoför kasabadan gelmiş; bir düğün, o kadar. Davulcuyla zurnacı da kasabadan. Para alıp çalacak ve gidecekler. Bu sabah bu avluda bu düğünün ne anlama geldiğini bilmeyen tek insanlar onlar; ve en mutlu görünenler de onlar.",
@@ -339,6 +341,7 @@ P(function(d){ return d.durduracak; }, "Dün gece Cemal'e düğünü durduracağ
 
 /* ---------- CEMAL KOLU ---------- */
 c1: { saat: "Gece", baslik: "Dağ Yolu", metin: [
+P(S("k5D"), "Sulh meclisinden kalkıp avludan çıktın. Arkandan biri adını seslendi; durmadın."),
 P(function(d){ return d.gul_kacti; }, "Gül'ü gece yarısı otobüse bindirdin. Sabah köy uyandığında gelin yoktu ve sulh da yoktu. Hacı Murat'ın sesi bütün köyde duyuldu: “Demirciler sözünden döndü!” O akşam Cemal'i yaylaya çıkan patikada gördüler."),
 P(function(d){ return !d.gul_kacti; }, "Cemal'in peşinden avludan çıktın. Köyün son evini geçti, patikaya saptı. Yayla yolu. Elinde bir şey yok gibi; ama dere kenarındaki çalılığa eğildi ve doğrulduğunda omzunda tüfek vardı. Saklamış."),
 P(function(d){ return d.silah_sende && !d.gul_kacti; }, "Tüfeği ondan almıştın, battaniyelerin arasında hâlâ duruyor. Bu başka bir tüfek. Bir köyde bir tüfeği almak, tüfekleri bitirmiyor."),
@@ -355,6 +358,7 @@ P(function(d){ return d.silah_sende && !d.gul_kacti; }, "Tüfeği ondan almışt
 ]},
 
 c2: { saat: "Gece", baslik: "Çoban Kulübesi", metin: [
+P(S("s2A"), "Yemin bitmeden kalkıp Cemal'in peşinden gittin; dağ yolunu koşarak çıktın. Kulübeye vardığında nefesin kesilmişti."),
 P(S("c1A"), "Adını bağırdın. Ses dağda yankılandı: Cemal, Cemal. Durdu. Dönmedi. Sonra daha hızlı yürüdü."),
 P(S("c1B"), "Sessizce izledin. Bir tanık olarak. Ne olacağını görmek, onu engellemekten daha mı kolaydı? Bu soruyu sonra soracaksın."),
 P(S("c1D"), "Köye doğru koştun. Yarı yolda bir cipin farlarını gördün; kahvede birileri jandarmayı çoktan aramış. Cipe binip geri döndünüz. Yetişebilecek misiniz?"),
@@ -468,12 +472,17 @@ P(function(d){ return d.gelin; }, "Gül'ün kardeşi, sekiz yaşında, ablasın�
 ]},
 
 t5: { saat: "Haziran 1995", baslik: "Tayin", metin: [
+P(S("t4A"), "“Kalmalı,” demiştin. Çocuk başını salladı; ama gözlerinde bir soru kaldı: kalmasına kim karar verir?"),
+P(S("t4B"), "“Onu mahkeme alır, insan değil,” demiştin. Çocuk düşündü. “Mahkeme bizim köye gelir mi?” Cevap veremedin."),
+P(S("t4C"), "“Büyüklerine sor,” demiştin. Ertesi gün çocuk geldi: “Dedem kalmaz dedi.” Bir sınıfın içinde, küçük bir sesle, bir kan davası daha başladı."),
+P(S("t4D"), "Çocuğu tahtaya kaldırdın. “Ba-rış.” Heceledi, yazdı; noktalı ı'yı unuttu. Sınıf güldü. Çocuk da güldü."),
 "Haziran. Okul kapanıyor. Masanda bir zarf: Milli Eğitim'den. Şehre tayin talebin kabul edilmiş.",
 "Karne günü. Çocuklar karnelerini alıp koşarak çıkıyor; yaz, dağlar, yaylalar. Son çocuk da gidince sınıfı süpürüyorsun, sıraları siliyorsun, tahtayı temizliyorsun. Tahtanın köşesinde silmeyi unuttuğun tek bir kelime kalmış, bir çocuğun yuvarlak harfleriyle: “Barış.” Silmiyorsun.",
 "Bir talepte bulunduğunu hatırlamıyorsun. Ya da hatırlıyorsun: aralık ayında, bir gece, sobanın yanında, ellerin titrerken yazdığın bir dilekçe. Göndermediğini sanıyordun.",
 "On beş yıl. Köyün yirmi yaşın altındaki herkesi tanıyorsun. Yaşlılarını gömdün, bebeklerinin adını defterlere yazdın. Ve bu kış, bir kan davasının ortasında, hangi tarafta durduğunu bütün köy gördü. Ya da durmadığını.",
 "Gidersen kaçmış olursun. Kalırsan, bundan sonra her kış, aynı soruyla uyanacaksın: bir sonraki kan ne zaman?",
-"Avlunun dibinde Hatun Hanım'ın diktiği dut fidanı yaprak vermiş. Selim'in kırkında dikti. Bir ağaç, kırk yılda büyür. Bu köyde her şey kırk yılda büyür; kan davaları da."
+"Avlunun dibinde Hatun Hanım'ın diktiği dut fidanı yaprak vermiş. Selim'in kırkında dikti. Bir ağaç, kırk yılda büyür. Bu köyde her şey kırk yılda büyür; kan davaları da.",
+"Kalırsan bir kış daha, bir kan davası daha, belki bir çocuk daha. Gidersen bu köy bir öğretmen daha kaybeder ve kimse şaşırmaz."
 ], secenekler: [
 { t: "Kalırsın. Zarfı yırtarsın.", to: "ks", etki: { kaldi: true } },
 { t: "Gidersin. Eşyalarını toplarsın.", to: "ks", etki: { gitti: true } },
@@ -492,6 +501,9 @@ ks: { yonlendir: [
 
 /* ---------- SONLAR ---------- */
 son_gelin: { son: true, baslik: "Kına", metin: [
+P(S("t5A"), "Zarfı yırtmıştın. Parçaları sobaya attın; bir kış daha."),
+P(S("t5B"), "Eşyalarını toplamıştın: iki bavul, bir koli kitap. Minibüsün camından okulun çatısına son kez baktın."),
+P(S("t5C"), "Kalmış ve bir akşam okuma dersi açmıştın. İlk akşam üç yaşlı kadın geldi; biri Hatun Hanım'dı."),
 "Barış tuttu. Kimse kimseyi vurmadı. Ertesi yıl Hacı Murat öldü; cenazesinde iki aile yan yana namaz kıldı. Köyde buna “Gül'ün barışı” diyorlar. Gül'ün adıyla anılan bir barış; ama Gül'e sorulmamış bir barış.",
 P(function(d){ return d.adres; }, "Dört yıl sonra bir mektup geldi. Şehirden, kız kardeşinin adresinden. Gül'ün el yazısı: “Hocam, buradayım. İki çocukla. Gece okuluna yazıldım. Kâğıdı saklamıştım.” Altında bir tarih. Kırmızı kalemle değil, mavi tükenmezle: “Olacağım.”"),
 P(function(d){ return !d.adres; }, "Yıllar sonra Gül'ü köyün çeşmesinde gördün. Yanında iki çocuk. Sana baktı, gülümsedi. Bir şey söylemedi. Gözlerinin içinde ne vardı, okuyamadın. Belki hiçbir şey. Belki her şey. Belki de alışmıştı; Cemal'in dedesinin dediği gibi."),
@@ -501,6 +513,9 @@ P(function(d){ return !d.adres; }, "Yıllar sonra Gül'ü köyün çeşmesinde g
 ]},
 
 son_yabanci: { son: true, baslik: "Yabancı", metin: [
+P(S("t5A"), "Zarfı yırtmıştın. Parçaları sobaya attın; bir kış daha."),
+P(S("t5B"), "Eşyalarını toplamıştın: iki bavul, bir koli kitap. Minibüsün camından okulun çatısına son kez baktın."),
+P(S("t5C"), "Kalmış ve bir akşam okuma dersi açmıştın. İlk akşam üç yaşlı kadın geldi; biri Hatun Hanım'dı."),
 "Şehre döndün. Bir ortaokulda edebiyat öğretmeni oldun. Kalabalık sınıflar, zil sesleri, kimsenin kimseyi tanımadığı koridorlar.",
 "Burada kimse sana kan davası sormuyor. Öğrencilerin dertleri sınavlar, telefonlar, aşk. Bazen bir çocuk kavgaya karışıyor ve sen onu odana çağırıyorsun. Konuşuyorsunuz. Kavga bitiyor. Bu kadar basit, diye düşünüyorsun. Sonra hatırlıyorsun: değil.",
 P(function(d){ return d.yazdi; }, "Yazdığın defter çekmecende. Bir gün bir yayınevine gönderdin; geri çevrildi. “Fazla karanlık,” dediler. Haklılar. Ama karanlık, yazıldığı için değil, yaşandığı için karanlık."),
@@ -511,6 +526,9 @@ P(function(d){ return d.gelin; }, "Gül'ün düğün günü arkanı dönüp yür
 ]},
 
 son_dongu: { son: true, baslik: "Döngü", metin: [
+P(S("t5A"), "Zarfı yırtmıştın. Parçaları sobaya attın; bir kış daha."),
+P(S("t5B"), "Eşyalarını toplamıştın: iki bavul, bir koli kitap. Minibüsün camından okulun çatısına son kez baktın."),
+P(S("t5C"), "Kalmış ve bir akşam okuma dersi açmıştın. İlk akşam üç yaşlı kadın geldi; biri Hatun Hanım'dı."),
 P(function(d){ return d.sonuc === "kan"; }, "Cemal on iki yıl ceza aldı. Hacı Murat mahkemede başını dik tuttu; torununu vurulmuş bir kahraman gibi değil, borcunu ödemiş bir adam gibi selamladı. Demirciler yas tuttu. Ve yasın içinde, herkesin bildiği bir cümle büyüdü: Demircilerin de bir erkeği daha var. Ali."),
 P(function(d){ return d.sonuc === "cemal"; }, "Cemal'i bir er vurdu. Köy, devletin bir Kaya'yı öldürdüğünü söyledi. Demirciler rahatladı; sonra rahatladıkları için korktular. Hacı Murat'ın evinde boş bir tüfek askısı ve iki mezar var. Ve Kayaların, yaşları on'un altında, üç erkek torunu."),
 "Kırk yıl sonra Karaağaç'ta bir öğretmen olacak. Belki sen değil; belki senin gibi biri. Bir gece kapısı çalınacak. Montunun altında ağır, uzun bir şey taşıyan bir çocuk soracak: “Hocam, bunu yapmak zorunda mıyım?”",
@@ -520,6 +538,9 @@ P(function(d){ return d.sonuc === "cemal"; }, "Cemal'i bir er vurdu. Köy, devle
 ]},
 
 son_muhbir: { son: true, baslik: "Muhbir", metin: [
+P(S("t5A"), "Zarfı yırtmıştın. Parçaları sobaya attın; bir kış daha."),
+P(S("t5B"), "Eşyalarını toplamıştın: iki bavul, bir koli kitap. Minibüsün camından okulun çatısına son kez baktın."),
+P(S("t5C"), "Kalmış ve bir akşam okuma dersi açmıştın. İlk akşam üç yaşlı kadın geldi; biri Hatun Hanım'dı."),
 "Rıza yedi yıl yattı. Mahkeme, kürek darbesini ve kayayı tarttı; kasten öldürme değil, dedi. Yedi yıl. Hacı Murat'a göre bir hiç. Zehra Hanım'a göre bir ömür.",
 "Kimse ölmedi. Bu senin sayende mi, yoksa yalnızca şanslar mı? Bilemiyorsun.",
 "Ama köy biliyor bir şeyi: adını. Muhbir. Kahvede kimse selam vermiyor. Çocukların aileleri onları okula gönderiyor; çünkü başka okul yok. Ama veli toplantısına kimse gelmiyor.",
@@ -529,6 +550,9 @@ son_muhbir: { son: true, baslik: "Muhbir", metin: [
 ]},
 
 son_zincir: { son: true, baslik: "Kırılan Zincir", metin: [
+P(S("t5A"), "Zarfı yırtmıştın. Parçaları sobaya attın; bir kış daha."),
+P(S("t5B"), "Eşyalarını toplamıştın: iki bavul, bir koli kitap. Minibüsün camından okulun çatısına son kez baktın."),
+P(S("t5C"), "Kalmış ve bir akşam okuma dersi açmıştın. İlk akşam üç yaşlı kadın geldi; biri Hatun Hanım'dı."),
 "Kimse ölmedi. Tüfek, Hacı Murat'ın evine değil, senin dolabına girdi ve orada kaldı. Bir gün jandarmaya teslim ettin; teğmen tutanağa “sahipsiz silah” yazdı. Sahipsiz. Doğru bir kelime.",
 P(function(d){ return d.sonuc === "yarali"; }, "Sol omzunda saçma izleri. Kışın sızlıyor. Cemal her bayram seni arıyor. Sesinde bir şey var; suçluluk değil artık, bir tür bağlılık. Senin kanını akıtmış olmak, onu sana bağladı. Belki de kan davaları böyle de biter: kan akar, ama yanlış yönde."),
 P(function(d){ return d.sonuc !== "yarali"; }, "Cemal askere gitti, döndü, evlendi. İlk çocuğu oğlan oldu. Adını sana sordu. “Selim koyma,” dedin. “Ağabeyinin adını taşıyan her çocuk, onun borcunu da taşır.” Adını Umut koydu."),
@@ -539,6 +563,9 @@ P(function(d){ return d.hatun_ziyaret || d.hatun_destek || d.hatun; }, "Hatun Ha
 ]},
 
 son_kagit: { son: true, baslik: "Kâğıt Barış", metin: [
+P(S("t5A"), "Zarfı yırtmıştın. Parçaları sobaya attın; bir kış daha."),
+P(S("t5B"), "Eşyalarını toplamıştın: iki bavul, bir koli kitap. Minibüsün camından okulun çatısına son kez baktın."),
+P(S("t5C"), "Kalmış ve bir akşam okuma dersi açmıştın. İlk akşam üç yaşlı kadın geldi; biri Hatun Hanım'dı."),
 "Barış tuttu. Kâğıt üstünde. Kur'an üzerinde, iki el, bir yemin.",
 "Ama köyde bir şey çözülmedi, yalnızca donduruldu. Kayalarla Demirciler aynı kahvede oturmuyor. Düğünlere çağırmıyorlar. Çocuklar birbiriyle oynamıyor; büyükler söylemeden, çocuklar biliyor.",
 "Hacı Murat öldü. Cenazesinde Demircilerden kimse yoktu. Osman Demirci öldü. Kayalardan kimse yoktu. Ölüm, iki aileyi, dirilikten daha çok ayırdı.",

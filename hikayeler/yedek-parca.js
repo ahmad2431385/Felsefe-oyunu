@@ -532,6 +532,10 @@ P(function(d){ return !d.ret; }, "Kemerli'de kimse ölmez. Ama bu soruyu soran k
 ]},
 
 n2: { baslik: "Son Saat", metin: [
+P(S("n1bA"), "“Korktuğum şey ölmek değil,” demiştin, “ölmeden önce gitmek.” Mira bir süre sustu. Sonra erik ağacının bir dalını eğip sana gösterdi: bir tomurcuk."),
+P(S("n1bB"), "“Ben bu ağaç gibiyim,” demiştin. Mira gülmüştü: “Ama ağaç yeni dalını tanıyor mu baba?”"),
+P(S("n1bC"), "“Sen buradayken korkmuyorum,” demiştin. Mira koluna girmiş, eve kadar bırakmamıştı."),
+P(S("n1bD"), "“Hangi ben ölecek, onu bilmiyorum,” demiştin. Mira uzun süre baktı. “Ben ikisini de tanıyorum,” dedi."),
 "O gece dükkândasın. Mira da. Dışarıda bahar yağmuru, çarşının taş zemininde.",
 "Tezgâhın üstünde babandan kalan cep saati. Elli yıldır senin cebinde. İçinde hiç değişmemiş tek bir parça var: en eski dişli, babanın ellerinin ilk taktığı. Geri kalan her şey yıllar içinde değişti, senin ellerinle.",
 P(function(d){ return d.ikinci === "ikisi"; }, "Öteki de burada. Tezgâhın öbür ucunda oturuyor, aynı büyüteçle, aynı sessizlikle. İkiniz aynı saati tamir edebilirsiniz. Belki bu gece bunu deneyeceksiniz."),
