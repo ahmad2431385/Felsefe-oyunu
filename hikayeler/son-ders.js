@@ -83,6 +83,11 @@ x_tartisma: { saat: "Ekim", baslik: "Seminer", metin: [
 ]},
 
 a3: { saat: "Kasım", baslik: "Defne", metin: [
+P(S("x_nedenB"), "“Anlıyorum,” dedin. Ve anlıyordun. Nevin Hoca gözlerini bir kez kırptı; teşekkür ya da “Hayır, anlamıyorsun ama iyi denedin.”"),
+P(S("x_nedenD"), "Bir şey söyleyemedin. Çay soğudu. Defne gelip bardakları aldı; seninki doluydu. Kimse bir şey demedi."),
+P(S("x_tartismaA"), "“Bedeni olmayan bir argüman yarım,” dedin. Ekranda tek kelime: “Aferin.” Otuz yıl gecikmiş bir A."),
+P(S("x_tartismaB"), "“Elimle sizi öldüremem hocam.” Uzun bir sessizlik. Sonra ekranda: “Öldürmeni istemiyorum. Bırakmanı istiyorum. Bu tartışmanın tamamı o farkta.”"),
+P(S("x_tartismaD"), "Sustun. Nevin Hoca bir süre daha yazdı; bir hasta odasında Kant, Hume. Sonra yorulup gözlerini kapattı. Ders bitmişti; sen hâlâ dinliyordun."),
 P(S("a2A"), "Nevin Hoca bir süre sana baktı. Sonra ekranda: “Biliyorum. Herkes öyle söylüyor. Senin farkın, bunu yüzüme söylemen.” Gözlerini kapadı. Konuşma bitti."),
 P(S("a2C"), "Nevin Hoca'nın gözleri ekrana döndü: “Düşün. Ama çok uzun düşünme. Gözlerim seni beklemeyebilir.”"),
 P(S("x_nedenA"), "Nevin Hoca bir süre baktı. “Okudum,” yazdı. “Elektrotlar, implantlar. Bir zihnin bir makineyle konuşması. Belki. Ama o zihin yine bir kutuda olacak. Kutu yalnızca bir pencere kazanacak.”"),
@@ -149,12 +154,13 @@ P(S("a5D"), "Sabaha kadar oturdun. Nevin Hoca bir süre uyudu. Uyandığında se
 "Nevin Hoca ekranda bir dosya açmış; adı: “Ömer'e.” İçinde dört satır. Mekanik ses okuyor:",
 "“Biliyorum ki bu senin için kolay bir karar değil. Bu yüzden sana seçenekleri ben sıralıyorum. Bir: Hayır de. Bana iyi bak. Yanımda ol. Bunu da kabul ederim. İki: Yasanın sana tanıdığı hakkı kullanmama yardım et. Maskeyi, tüpü bırakayım; sen uyut beni. Üç: İsviçre. Param var. Raporlarını yaz, uçağa bindir. Dört: Bunu yazmaya utanıyorum. Ama yazıyorum. Bana bir yol bırak. Kimsenin bilmeyeceği.”",
 "Ekran kararıyor; göz kırpışıyla kapatılmış.",
-"Nevin Hoca sana bakıyor. Bir hoca, bir öğrencisine. Otuz yıl önce bir amfide, sınavın son sorusunu dağıtırken baktığı gibi."
+"Nevin Hoca sana bakıyor. Bir hoca, bir öğrencisine. Otuz yıl önce bir amfide, sınavın son sorusunu dağıtırken baktığı gibi.",
+"Hangi cevabı verirsen ver, bir şeyi taşıyacaksın: ya onun korkusunu, ya bir yasanın ağırlığını, ya bir sırrı."
 ], secenekler: [
-{ t: "“Hayır hocam. Ama size söz: sonuna kadar yanınızdayım.”", to: "bk1", etki: { yasa: 1, merhamet: 1, kol: "bakim" } },
-{ t: "“İkinci yol. Yasanın sınırında. Ben de sizinle o sınırda duracağım.”", to: "br1", etki: { ozerklik: 2, kol: "birak" } },
-{ t: "“İsviçre. Raporlarınızı yazacağım.”", to: "z1", etki: { ozerklik: 2, kol: "zurih" } },
-{ t: "Bir şey söylemezsin. Ama gözlerine bakarak, yavaşça başını sallarsın.", to: "g1", etki: { merhamet: 2, kol: "gizli" } }
+{ t: "“Hayır hocam. Ama söz: sonuna kadar yanınızdayım.” Onu korktuğu kutuya bırakmak pahasına.", to: "bk1", etki: { yasa: 1, merhamet: 1, kol: "bakim" } },
+{ t: "“İkinci yol: tedaviyi bırakmak. Yasanın sınırında; ben de sizinle o sınırda duracağım.” O sınırı bir gün bir savcının nereye çizeceğini bilmeden.", to: "br1", etki: { ozerklik: 2, kol: "birak" } },
+{ t: "“İsviçre. Raporlarınızı yazacağım.” Onun kendi şehrinden uzakta, yabancı bir odada ölmesine razı olarak.", to: "z1", etki: { ozerklik: 2, kol: "zurih" } },
+{ t: "Bir şey söylemezsin; gözlerine bakarak yavaşça başını sallarsın. Neye evet dediğinizi ikiniz de biliyorsunuz.", to: "g1", etki: { merhamet: 2, kol: "gizli" } }
 ]},
 
 
@@ -236,6 +242,7 @@ bk1: { saat: "Ocak", baslik: "Söz", metin: [
 ]},
 
 bk2: { saat: "Şubat", baslik: "Spinoza", metin: [
+P(S("bk1B"), "Okumaya devam ettin; yanlışı onun bilmesine bırakarak. Bölümün sonunda ekranda bir kelime belirdi: “Sağol.” Neye teşekkür ettiğini sormadın."),
 P(S("bk1A"), "Ekranda: “Acının bir anlamı olduğunu yazmışım. Acı insanı derinleştirir, olgunlaştırır, diye. Bunu acı çekmeyen biri yazmış. Acının anlamı yok Ömer. Anlam, acıya rağmen bulduğun şey.”"),
 P(S("bk1C"), "Bir gün Cemal Süreya okudun. Bir gün Sait Faik. Nevin Hoca bir öyküde gözlerini kapadı; sonra ekranda: “Deniz. Sait Faik'in denizi. Ben de onu severdim.” Ertesi hafta Defne onu tekerlekli sandalyeyle balkona çıkardı; ilk kez bir yıl sonra."),
 P(S("bk1D"), "Not almaya başladın. Her ziyarette yarım saat. Kırk yıl önceki kitabına yeni bir son bölüm. Başlığını o koydu: “Bir Bedenden Yazılan Düzeltmeler.”"),
@@ -254,6 +261,9 @@ P(S("bk1D"), "Not almaya başladın. Her ziyarette yarım saat. Kırk yıl önce
 ]},
 
 bk3: { saat: "Mart", baslik: "Gözler", metin: [
+P(S("bk2A"), "“Belki,” dedin. Nevin Hoca'nın gözlerinde bir şey gülümsedi; dudakları kıpırdamadı."),
+P(S("bk2B"), "“Kutu sandığınız kadar boş olmayabilir.” Ekranda: “Bunu kutudan çıkan biri söylese inanırdım.”"),
+P(S("bk2C"), "Kediyi okşadın. Spinoza mırladı; ses odayı doldurdu. Nevin Hoca gözlerini kapattı. Bu sesi belki kutuya da götürecekti."),
 P(S("bk2D"), "Ekranda uzun bir bekleyiş. Sonra: “Hayır. Ama bugün değişmedi diye yarın da değişmeyecek değil. Felsefecilerin en büyük hatası budur: bir fikri bir kez düşünüp sonsuza kadar düşündüğünü sanmak.”"),
 "Mart. Göz takip kamerası Nevin Hoca'nın bakışlarını artık zor okuyor. Gözler yavaşladı; bazı harflere ulaşamıyor. Bir cümle eskiden beş dakika sürüyordu, şimdi yirmi.",
 "Nörolog evet diyor: birkaç hafta. Belki daha az. Sonra yalnızca göz kırpışları kalacak; evet için bir, hayır için iki. Sonra belki o da.",
@@ -284,6 +294,8 @@ br1: { saat: "Ocak", baslik: "Ret Belgesi", metin: [
 ]},
 
 br2: { saat: "Nisan", baslik: "Erguvan", metin: [
+P(S("br1A"), "Erguvanları beklemeyi kabul ettin. Her hafta Kandilli'ye baktın: tomurcuklar, sonra pembe bir sis. Her hafta gözleri biraz daha yavaşladı."),
+P(S("br1D"), "Belgeyi bir kez daha, kelime kelime okudun. Bir virgül eksikti. Noter yeniden yazdırdı. Bir ölüm, bir virgül kadar."),
 P(S("br1B"), "Nevin Hoca bir süre düşündü. Sonra: “Haklısın. O zaman erguvanları hayal ederim. Kırk yıldır her nisan gördüm; bir tanesini atlarsam bir şey olmaz.” Tarih öne alındı: mart sonu."),
 P(S("br1C"), "Defne uzun süre sustu. Sonra “Evet,” dedi. “Bahar. Benim de son baharım olacak onunla.”"),
 "Nisan. Defne yatağı pencerenin önüne çekmiş. Boğaz'ın karşı yakasında, Kandilli'nin yamaçlarında erguvanlar açmış; pembe, mor, sisin içinde. Nevin Hoca bütün sabah onlara bakıyor.",
@@ -300,6 +312,8 @@ P(S("br1C"), "Defne uzun süre sustu. Sonra “Evet,” dedi. “Bahar. Benim de
 ]},
 
 br3: { saat: "Nisan", baslik: "Otuz Saat", metin: [
+P(S("br2A"), "Sedasyonu kendin başlattın. Serumun valfi parmaklarının altında soğuktu."),
+P(S("br2B"), "Hemşireye başlatmasını söyledin. Hemşire bir an sana baktı, sonra başlattı. O bakışı unutmadın."),
 P(S("br2C"), "Nevin Hoca'nın gözleri sana döndü. Bir kez kırptı. Sonra bir daha. İki. Kalbin durdu: hayır mı? Sonra ekranda, son harfler: “Sorma. Ama sorduğun için sağ ol.”"),
 P(S("br2D"), "Defne'nin eli seninkinin üstünde. Serum açıldı. İkinizin elleriyle. Bir yük, iki omuz."),
 "İlaç damarlara giriyor. Nevin Hoca'nın gözleri ağırlaşıyor. Erguvanlara bakmaya çalışıyor; sonra gözkapakları iniyor. Uyuyor.",
@@ -333,6 +347,8 @@ z1: { saat: "Ocak", baslik: "Belgeler", metin: [
 ]},
 
 z2: { saat: "Şubat", baslik: "Uçak", metin: [
+P(S("z1A"), "Raporu yazdın, bütün riskini üstlenerek. İmzanın altına tarihi yazarken elin titremedi; titremesinden korkmuştun."),
+P(S("z1B"), "Raporu yazdın; yalnızca tıbbi gerçekler, amacından tek kelime yok. Bir doğru, bir susku."),
 P(S("z1C"), "Defne seni dinledi. Uzun süre. Sonra “Gelmeyeceğim,” dedi. Sonra: “Geleceğim. Ama ona veda etmek için değil. Onunla gitmek için. Sonuna kadar.”"),
 P(S("z1D"), "Nevin Hoca'nın gözleri ekrana döndü. “Burada mı? Yasanın kenarında, bir hemşirenin eliyle, senin ellerinle? Hayır. Ben kendi elimle istiyorum. Elim yoksa gözümle.”"),
 "Şubat sonu. Bir ambulans uçağı, Atatürk Havalimanı'nın genel havacılık terminalinden. Nevin Hoca bir sedyede, maskesi takılı, tableti göğsünün üstünde bir askıda. Defne yanında. Sen yanındasın; izin aldın, “kişisel nedenlerle”.",
@@ -349,6 +365,9 @@ P(S("z1D"), "Nevin Hoca'nın gözleri ekrana döndü. “Burada mı? Yasanın ke
 ]},
 
 z3: { saat: "Şubat", baslik: "Mavi Ev", metin: [
+P(S("z2B"), "Doğruca mavi eve gittiniz. Yol kısaydı; daha da kısa olmasını istedin."),
+P(S("z2C"), "Defne ile Nevin Hoca'yı bir süre yalnız bıraktın. Koridorda yarım saat bekledin. Döndüğünde Defne'nin gözleri kuruydu; Nevin Hoca'nınkiler değildi."),
+P(S("z2D"), "Derneğin hekimiyle karar yetisini bir kez daha değerlendirdin. Nevin Hoca ekrana yazdı: “Sınav mı? Yine mi B artı?” Hekim güldü; sen gülemedin."),
 P(S("z2A"), "Bir otel odası. Nevin Hoca, Defne, sen. Pencereden Zürih gölü. Nevin Hoca bütün gece uyumadı. Ekranda tek bir cümle, sabaha karşı: “Bir gece daha. Bu kadarı yeter.”"),
 "Mavi evin içi sade. Bir yatak, bir kanepe, pencerenin önünde bir saksı. Duvarda bir resim: bir göl, dağlar. Binlerce insan bu odadan geçmiş. Hiçbiri geri dönmemiş.",
 "Derneğin iki gönüllüsü: yaşlı bir İsviçreli kadın ve genç bir adam. Kibar, sakin, hiç acele etmeyen. Belgeler bir kez daha okunuyor. Nevin Hoca'ya soruluyor, bir tercüman aracılığıyla: istediği hâlâ bu mu? Ekranda: “Evet.”",
@@ -383,6 +402,9 @@ g1: { saat: "Ocak", baslik: "Pompa", metin: [
 ]},
 
 g2: { saat: "Şubat", baslik: "Bekleyiş", metin: [
+P(S("g1A"), "“Kimse bilmeyecek,” dedin. Nevin Hoca bir kez kırptı. Sonra iki kez: hayır. “Sen bileceksin,” yazdı."),
+P(S("g1B"), "“Ben bileceğim hocam.” Ekranda: “Bu yüzden sana sordum.”"),
+P(S("g1D"), "Bir şey söylemeden pompanın kayıt dosyasını sildin. Tuşa basarken bir yalanın ilk harfini yazdığını hissettin."),
 P(S("g1C"), "Ertesi sabah Defne'ye anlattın. Defne uzun süre sustu. Sonra pompaya baktı; bir yılan gibi. “Bunu ben bilmek istemiyordum,” dedi. “Ama artık biliyorum. Ve hiçbir şey yapmayacağım.”"),
 "Bir hafta. İki hafta. Üç.",
 "Nevin Hoca menüye gitmiyor.",
@@ -400,6 +422,9 @@ P(S("g1C"), "Ertesi sabah Defne'ye anlattın. Defne uzun süre sustu. Sonra pomp
 ]},
 
 g3: { saat: "Mart, 04.20", baslik: "Gece Telefonu", metin: [
+P(S("g2A"), "Pompayı kaldırmayı düşündün. Ekranda: “Kaldırma. Belki kullanmayacağım. Ama orada olsun.”"),
+P(S("g2B"), "Hiçbir şey değiştirmedin. Karar onundu."),
+P(S("g2D"), "Avukatınla konuştun. “Bunu bana hiç anlatmadın,” dedi, “ben de hiç duymadım.” Yine de bir kâğıda iki telefon numarası yazdı."),
 P(S("g2C"), "Yazdı. On gün boyunca, her gün biraz. Başlık: “Bir Düğmenin Özgürlüğü.” Dosyanın sonunda bir not: “Bu metni ben öldükten sonra yayımlayın. Ömer'in adını geçirmeden.”"),
 "Mart. Gece dördü yirmi geçe telefon. Defne. Sesi sakin; tuhaf bir şekilde sakin.",
 "“Ömer Bey. Teyzem gitti. Uyandım, maskenin sesi yoktu. Pompa... ekranda bir şey yazıyor.”",
@@ -417,6 +442,19 @@ P(S("g2C"), "Yazdı. On gün boyunca, her gün biraz. Başlık: “Bir Düğmeni
 
 /* ---------- ORTAK SON BÖLÜM ---------- */
 t1: { saat: "Sonra", baslik: "Ölümden Sonra", metin: [
+P(S("bk3A"), "“Hâlâ orada biri varmış gibi. Her zaman,” dedin. Bir kez kırptı. Son iki haftada bu cümleyi her sabah tekrarladın."),
+P(S("bk3B"), "Cevap vermedin. Hatırlayacaktın. Ve hatırladın; her sabah, yatağın başında."),
+P(S("bk3C"), "Bir evet-hayır sistemi kurdun: bir kırpış evet, iki kırpış hayır. Gözleri tamamen gidene kadar on bir gün kullandı. Son kelimesi bir kırpıştı."),
+P(S("bk3D"), "Eğilip alnından öptün. Gözlerini açmadı. Ama nabzı monitörde bir an hızlandı."),
+P(S("br3A"), "Ölüm belgesine yazdın: ALS, solunum yetmezliği. Doğru ve eksik. Kalemin bir an “sedasyon” kelimesinin üstünde durdu."),
+P(S("br3B"), "Defne'yi uyandırıp pencereyi açtınız. Erguvanlar kokmaz; ama rüzgâr vardı."),
+P(S("br3C"), "Spinoza'yı kucağına aldın. Direnmedi. On beş yaşındaydı; ölümleri biliyordu belki."),
+P(S("br3D"), "Bir süre hiçbir şey yapmadın. Otuz saatin ağırlığı omuzlarında, salonda, bir koltukta."),
+P(S("z3A"), "Elini tuttun. O hissetmiyordu; sen hissettin."),
+P(S("z3B"), "Sonuna kadar izledin; o öyle istemişti. Gözleri kapanana kadar. Sonra bir süre daha."),
+P(S("z3C"), "Defne'nin yanına geçip onu tuttun. Titriyordu. Nevin Hoca'nın son baktığı şey birbirine tutunan iki insandı."),
+P(S("z3D"), "Son anda başını çevirdin; yapamazdın. Pencerenin dışında gri bir sanayi bölgesi, kar. Döndüğünde bitmişti."),
+P(S("g3C"), "Ölüm nedenine doğruyu yazdın ama pompanın nasıl kurulduğunu söylemedin. Yarım bir gerçek; yarım bir ceza bekleyerek."),
 P(function(d){ return d.kol === "bakim"; }, "Nevin Hoca nisan ortasında öldü. Gözleri iki hafta önce gitmişti. Son iki haftasında yalnızca göz kırpışlarıyla konuştu; sonra o da zorlaştı. Bir sabah nefesi yavaşladı, yavaşladı, durdu. Yanındaydın. Söz verdiğin gibi."),
 P(function(d){ return d.kol === "bakim" && d.sistem; }, "Kurduğun evet-hayır sistemi son güne kadar işledi. Son sorduğun soru: “Rahat mısınız hocam?” Bir kırpış: evet. Sonra, yavaşça, bir daha: hayır. Sonra bir daha: evet. Ne demek istediğini hiç bilemeyeceksin."),
 P(function(d){ return d.kol === "birak"; }, "Nevin Hoca erguvanların altında öldü; kendi seçtiği gün, kendi salonunda, kendi kitaplarının arasında. Yasa buna ötanazi demiyor. Sen ne dediğini bilmiyorsun."),
@@ -434,6 +472,8 @@ P(function(d){ return d.itiraf; }, "Bildirimini yaptın. Ertesi gün bir savcı 
 ]},
 
 t1b: { saat: "Bir ay sonra", baslik: "Kitaplar", metin: [
+P(S("t1B"), "Kalabalığın arkasında durdun. Seni tanıyan yok sanıyordun. Çıkarken yaşlı bir adam koluna dokundu: “Sen o B artı alan çocuksun,” dedi. “Bize anlatırdı.”"),
+P(S("t1C"), "Defne'nin yanında durdun. Toprak atılırken elini tuttu; bir saniye, sonra bıraktı."),
 P(S("t1A"), "Ne söyleyeceğini bilmiyordun. Ağzından çıkan şu oldu: “Hocam bana bir B artı vermişti. Hâlâ itiraz ediyorum.” Kalabalıktan birkaç kişi güldü; eski öğrenciler. Onlar da biliyordu."),
 P(S("t1D"), "Cenazeye gitmedin. Neden, kendine bile açıklayamadın. Defne bir mesaj attı: “Sizi aradım. Yoktunuz. Anlıyorum.” Anlıyor muydu?"),
 "Bir ay sonra Defne seni arıyor. Daireyi boşaltıyor; ev sahibi yeni kiracı bulmuş. Kitapların çoğu bir üniversite kütüphanesine gidecek. Ama bazılarını sana ayırmış.",
@@ -450,6 +490,9 @@ P(S("t1D"), "Cenazeye gitmedin. Neden, kendine bile açıklayamadın. Defne bir 
 ]},
 
 t2: { saat: "Eylül", baslik: "Davet", metin: [
+P(S("t1bA"), "Kitabı göğsüne bastırdın. Defne bir şey demedi. Kapıda “Teyzem size en çok bunu bırakmak istedi,” dedi."),
+P(S("sd_kenarB"), "Mektubu kitabın içine geri koydun. Simone bir sır olarak kaldı. Bazen kitabı açıp mektubun hâlâ orada olup olmadığına baktın; okumadın."),
+P(S("sd_kediB"), "Bir hafta her akşam öyle oturdun; kitap göğsünde, okunmadan. Sekizinci akşam bir sayfa okudun."),
 P(S("sd_kenarA"), "Defne mektubu okudu. Uzun süre. “Simone,” dedi. “Teyzemin doktorasındaki hocası. Paris'te. Ölümünden sonra teyzem bir yıl hiç konuşmamış, annem anlatırdı. Kimse nedenini bilmiyordu.” Şimdi biliyorsunuz. Ya da bildiğinizi sanıyorsunuz."),
 P(S("sd_kenarC"), "Bir deftere geçirmeye başladın. Her akşam bir kitap. Kenar notları kendi başlarına bir kitap oldu: kırk yıllık bir zihnin, kendisiyle yaptığı bir tartışma."),
 P(S("sd_kenarD"), "Bir mektup yazdın: “Sevgili Nevin Hoca.” Ne yazacağını bilmeden başladın; üç sayfa sürdü. Bitince katlayıp onun kitabının arasına koydun. Cevap gelmeyecek; ve belki bu yüzden yazabildin."),
@@ -504,6 +547,12 @@ y_not: { saat: "Ekim", baslik: "Son Notlar", metin: [
 ]},
 
 t3: { saat: "Aralık", baslik: "Son Dosya", metin: [
+P(S("y_kursuB"), "“Bunu dönem sonunda konuşalım,” dedin. Genç kadın elini indirdi. Dönem boyunca her derste arka sıradan sana baktı; soru hâlâ elindeydi."),
+P(S("y_kursuD"), "“Yanında kaldım,” dedin. Amfide bir sessizlik. Genç kadın başını salladı; bunun bir cevap olmadığını ama doğru olduğunu anlamış gibi."),
+P(S("y_notA"), "“Bu dönem bu notları birlikte okuyacağız,” dedin. On dört hafta boyunca bir ölünün yarım cümleleri bir amfide okundu; her öğrenci kendi sonunu yazdı."),
+P(S("y_notB"), "Dersi erken bitirdin. Öğrenciler çıkarken kimse konuşmadı. Biri tabletin yanına bir kalem bırakıp gitti."),
+P(S("y_notC"), "Tahtaya yazdın: “Bir hekim, bir hastanın ölme isteğine ne borçludur?” Silmedin. Ertesi hafta temizlikçi de silmemişti."),
+P(S("y_notD"), "Ağlayan öğrencinin yanına gittin. Babası ALS'den iki yıl önce ölmüş. “Keşke onun da böyle bir tableti olsaydı,” dedi."),
 P(S("y_kursuA"), "Anlattın. Kırk iki öğrenci, çıt çıkarmadan dinledi. Bitince kimse soru sormadı. Ertesi hafta amfi doluydu; başka sınıflardan gelenler de vardı."),
 P(S("y_kursuC"), "Dönem sonunda kırk iki ödev geldi. Yirmi ikisi “yapmalıydınız,” on dokuzu “yapmamalıydınız” diyordu. Biri boş bir sayfa teslim etmişti, ortasında tek bir cümle: “Bunu ben bilemem; bilmeyi de istemiyorum. Ama yanında olurdum.” O öğrenciye A verdin."),
 P(function(d){ return d.ret_kursu; }, "Dersi vermedin. Bir başka hoca verdi; iyi bir hoca, kitaplardan. Dönem sonu bir öğrenci sana e-posta yazdı: “Hocam, Nevin Arıkan'ın öğrencisiymişsiniz. Neden siz vermediniz?” Cevap vermedin."),
@@ -522,6 +571,10 @@ P(function(d){ return d.kol === "gizli"; }, "“Ömer, bana bir düğme verdin. 
 ]},
 
 t4: { saat: "Nisan", baslik: "Aşiyan", metin: [
+P(S("t3A"), "O gece ödevi yeniden yazmaya başladın. Otuz yıl önceki başlık; ilk cümle bu kez: “Bir hastam vardı.”"),
+P(S("t3B"), "Dosyayı Defne'ye geri gönderdin: “Bu sizin.” Cevap geldi: “Hayır. Teyzem sizin adınızı yazmış.”"),
+P(S("t3C"), "Dosyayı yazdırıp kitabın arasına koydun; “yanlış” dediği bölümün arasına."),
+P(S("t3D"), "Dosyayı okudun ve bir daha açmadın. Ama son cümlesini ezbere biliyordun."),
 "Bir yıl sonra, nisanda, Aşiyan'dasın. Yamaç erguvanlarla pembe. Aşağıda Boğaz; bir şilep yavaşça geçiyor.",
 "Mezar taşı: “Prof. Dr. Nevin Arıkan. 1953–2025. Felsefe yapmak, ölmeyi öğrenmektir.”",
 "Taşın üstünde biri bir şey bırakmış: küçük, tekir bir kedi heykelciği. Defne olmalı.",
@@ -547,6 +600,10 @@ ds: { yonlendir: [
 
 /* ---------- SONLAR ---------- */
 son_bakim: { son: true, baslik: "Bakım", metin: [
+P(S("t4A"), "Yeniden yazdığın ödevi taşın üstüne bırakmıştın; bir çakıl taşıyla sabitleyerek."),
+P(S("t4B"), "Bir erguvan dalı koparıp taşın üstüne bırakmıştın."),
+P(S("t4C"), "Hiçbir şey bırakmamıştın; bir süre oturmuştun, o kadar."),
+P(S("t4D"), "“Hocam, notumu hâlâ beğenmedim,” demiştin, sesli. Bir martı cevap vermişti."),
 "Hayır dedin ve kaldın. Nevin Hoca, korktuğu kutunun içinde iki hafta yaşadı. Gözleri gittikten sonra, son iki haftasında, gerçekten orada olup olmadığını kimse bilmedi. Sen bildiğini sandın. Her sabah ona bir şey okudun; bir şiir, bir öykü, onun kendi kitabından bir paragraf. Cevap vermedi. Belki duydu.",
 "Bir yasanın sınırının içinde kaldın. Mesleğin, adın, vicdanın; hepsi yerinde. Ve bir insanın açıkça istediği bir şeyi ona vermedin.",
 "Bunun doğru olup olmadığını hiç bilmeyeceksin. Palyatif bakımın vaat ettiği şey buydu: hiç kimse acı içinde ölmesin. Nevin Hoca acı içinde ölmedi. Ama korktuğu şeyin içinde, bir kutunun içinde, iki hafta yaşadı.",
@@ -556,6 +613,10 @@ son_bakim: { son: true, baslik: "Bakım", metin: [
 ]},
 
 son_birakmak: { son: true, baslik: "Bırakmak", metin: [
+P(S("t4A"), "Yeniden yazdığın ödevi taşın üstüne bırakmıştın; bir çakıl taşıyla sabitleyerek."),
+P(S("t4B"), "Bir erguvan dalı koparıp taşın üstüne bırakmıştın."),
+P(S("t4C"), "Hiçbir şey bırakmamıştın; bir süre oturmuştun, o kadar."),
+P(S("t4D"), "“Hocam, notumu hâlâ beğenmedim,” demiştin, sesli. Bir martı cevap vermişti."),
 "Yasanın izin verdiği yerin tam sınırında durdun. Bir tedaviyi bıraktın; bir eli bıraktın. Nevin Hoca otuz saat sonra, erguvanların altında, kendi salonunda öldü.",
 "Hiçbir soruşturma açılmadı. Belge, tanıklar, psikiyatri raporu; her şey yerindeydi. Suat Hoca bir gün koridorda yanına geldi: “Doğru yaptın,” dedi. “Yasaya uygun.” Sonra durdu. “Ama yasa bir şeyi uygun bulunca, onun hafif olduğu anlamına gelmez.”",
 "Bir öldürme ile bir bırakma arasında bir fark var. Felsefecilerin yüzyıllardır tartıştığı bir fark. Biri bir şey yapar; öbürü bir şey yapmayı bırakır. Biri neden olur; öbürü izin verir.",
@@ -565,6 +626,10 @@ son_birakmak: { son: true, baslik: "Bırakmak", metin: [
 ]},
 
 son_zurih: { son: true, baslik: "Zürih", metin: [
+P(S("t4A"), "Yeniden yazdığın ödevi taşın üstüne bırakmıştın; bir çakıl taşıyla sabitleyerek."),
+P(S("t4B"), "Bir erguvan dalı koparıp taşın üstüne bırakmıştın."),
+P(S("t4C"), "Hiçbir şey bırakmamıştın; bir süre oturmuştun, o kadar."),
+P(S("t4D"), "“Hocam, notumu hâlâ beğenmedim,” demiştin, sesli. Bir martı cevap vermişti."),
 "Nevin Hoca kendi gözleriyle, kendi kararıyla, yabancı bir şehirde öldü. Son eylemi kendisinindi. Bunu İsviçre yasası güvence altına aldı; Türkiye yasası ise bunu yalnızca “yurt dışında gerçekleşen bir ölüm” olarak kaydetti.",
 "Senin raporun bir dosyada. Kimse sormadı. Belki bir gün biri sorar.",
 P(function(d){ return d.cevirdi; }, "Son anda başını çevirdin. Bunu Defne gördü; bir şey söylemedi. Ama sen biliyorsun: o sınavı izlemeyi bitiremedin. Bir hoca sana son dersini veriyordu ve sen gözlerini kaçırdın. Belki insan olmak bunu da gerektirir."),
@@ -575,6 +640,10 @@ P(function(d){ return d.el_tuttu || d.izledi; }, "Sonuna kadar oradaydın. Gözl
 ]},
 
 son_suc: { son: true, baslik: "Suç", metin: [
+P(S("t4A"), "Yeniden yazdığın ödevi taşın üstüne bırakmıştın; bir çakıl taşıyla sabitleyerek."),
+P(S("t4B"), "Bir erguvan dalı koparıp taşın üstüne bırakmıştın."),
+P(S("t4C"), "Hiçbir şey bırakmamıştın; bir süre oturmuştun, o kadar."),
+P(S("t4D"), "“Hocam, notumu hâlâ beğenmedim,” demiştin, sesli. Bir martı cevap vermişti."),
 P(function(d){ return d.itiraf; }, "Dava iki yıl sürdü. Savcı “intihara yardım” ile “kasten öldürme” arasında gidip geldi. Sonunda mahkeme intihara yardımdan bir ceza verdi; ertelendi. Meslekten men edilmedin; ama palyatif bakım servisinden alındın. Şimdi bir aile sağlığı merkezinde tansiyon ölçüyorsun."),
 P(function(d){ return d.itiraf; }, "Bir yasayı çiğnedin ve bunu açıkça söyledin. Yasa seni cezalandırdı; hafifçe, ama cezalandırdı. Ve sen bu cezayı, garip bir şekilde, haklı buldun. Bir insanın yasaya karşı vicdanıyla hareket etmesi, yasanın ona karşı hareket etmesini de kabul etmesini gerektirir."),
 P(function(d){ return d.ortbas; }, "Kimse bilmiyor. Defne biliyor; ve sen. Ölüm belgesinde bir eksik var ve o eksik senin geri kalan hayatın."),
@@ -586,6 +655,10 @@ P(function(d){ return d.yarim; }, "Ölüm nedenine doğruyu yazdın; pompanın n
 ]},
 
 son_ders: { son: true, baslik: "Son Ders", metin: [
+P(S("t4A"), "Yeniden yazdığın ödevi taşın üstüne bırakmıştın; bir çakıl taşıyla sabitleyerek."),
+P(S("t4B"), "Bir erguvan dalı koparıp taşın üstüne bırakmıştın."),
+P(S("t4C"), "Hiçbir şey bırakmamıştın; bir süre oturmuştun, o kadar."),
+P(S("t4D"), "“Hocam, notumu hâlâ beğenmedim,” demiştin, sesli. Bir martı cevap vermişti."),
 "Her ekim aynı amfide, aynı kürsüde duruyorsun. Kırk, elli, altmış öğrenci. Ders artık seçmeli değil; zorunlu. Fakülte kurulu karar verdi; bir öğrenci dilekçesiyle.",
 "İlk derste her yıl aynı şeyi yapıyorsun: bir tablet getiriyorsun. Nevin Hoca'nın tableti. Bir dosya açıyorsun. Mekanik bir ses amfide yankılanıyor. Ve öğrenciler, her yıl, aynı yerde susuyor.",
 "Doğru cevapları öğretmiyorsun. Bilmiyorsun. Ama bir şey öğretiyorsun: her argümanın içine bir beden koymayı. Bir hasta, bir yatak, bir göz klavyesi. Bir kedi.",
