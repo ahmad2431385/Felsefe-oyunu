@@ -32,6 +32,7 @@ a1: { saat: "Ağustos 2015", baslik: "Basmane", metin: [
 ]},
 
 a2: { saat: "Ağustos 2015", baslik: "Yelek", metin: [
+P(S("a1A"), "Önce yeleklere bakmaya karar verdin. Hiba bir şey demedi; çocukları parkın gölgesinden alıp seninle geldi. “Ne olursa olsun” diye başlayan cümlelerin de bir fiyatı vardı; bunu henüz bilmiyordunuz."),
 P(S("a1B"), "Parkta oturdunuz. Omar uyudu, Yara güvercinlere ekmek attı. Hiba başını omzuna koydu. Bir saat. Halep'ten beri ilk kez, bir saat hiçbir şey yapmadınız. Sonra kalktınız."),
 P(S("a1C"), "Samir'in sesi telefonda telaşlı. “Bu hafta gel Ahmed. Macaristan teller çekiyor. Almanya ne zaman kapatır, bilmiyoruz. Bu hafta.” Hiba yanında duydu. Yüzünden bir şey geçti; korku mu, umut mu, ayırt edemedin."),
 P(S("a1D"), "Bir aile sana üç kaçakçı adı verdi. İkisinin teknesi geçen hafta batmış; biri kayıp. Üçüncüsü Cemil. “Cemil iyidir,” dedi baba. “Botları yeni. Yalnızca hava kötüyse sormadan gönderir.”"),
@@ -96,6 +97,7 @@ P(function(d){ return d.yelek === "karisik"; }, "Omar'ın yeleği iyi; Mesut'un 
 ]},
 
 a4: { saat: "Ağustos 2015, akşam", baslik: "Oda", metin: [
+P(S("a3A"), "Bu gece için yer ayırttın. Cemil yarım saat süre verdi. “Bir saat,” dedin. “Yarım,” dedi, saatine bakmadan. Kararın yarısı senindi, yarısı onun."),
 P(S("a3B"), "Cemil gözlüğünü düzeltti. “Onlar başka kaçakçının botları,” dedi. “Ucuz motor, çürük bot. Benimkiler sağlam.” Bir süre sustu. “Ama deniz denizdir.”"),
 P(S("a3C"), "Cemil güldü. “Pazarlık,” dedi. “Halep'te eczacı mıydın? Pazarlığı bilirsin.” Yüz dolar indirdi. Yüz dolar; bir otel gecesi, belki bir tren bileti. Cemil'in yüz doları önemsemediği belliydi."),
 P(S("a3D"), "Hiba'nın yüzünde hiçbir şey yoktu. Sonra Arapça, alçak sesle: “Ben yüzme bilmiyorum Ahmed. Sen bunu biliyorsun.” Biliyordun. Bütün evliliğiniz boyunca bunu biliyordun ve bir gün önemli olacağını hiç düşünmemiştin."),
@@ -142,6 +144,14 @@ x_ortak: { saat: "Gece", baslik: "Ortak Kese", metin: [
 ]},
 
 a5: { saat: "Ağustos 2015, gece", baslik: "Samir", metin: [
+P(S("x_ummA"), "Keseyi aldın. Hafifti; bir avuç toprak. Astarın içine, kalan paranın yanına koydun. Bir yanda üç bin dolar, bir yanda Humus'tan bir mezar."),
+P(S("x_ummB"), "“Bunu siz torununuza götürün,” dedin. Ümmü Halil keseyi göğsüne bastırıp başını salladı. “Haklısın,” dedi. “Onu da ben gömeyim.”"),
+P(S("x_ummC"), "Hiba'ya döndün: “Özür dilerim. Bin dolar...” Hiba elini kaldırdı. “Özür dileme,” dedi. “Ama bu gece hesap yapan sen olma.” Ne demek istediğini sonra anlayacaktın."),
+P(S("x_ummD"), "“Bu gece aynı tekneye binelim,” dedin. Ümmü Halil uzun süre yüzüne baktı. “Senin teknen benim teknem olsun,” dedi. Hiba başını çevirdi."),
+P(S("x_ortakA"), "Kalan yedi yüz yetmişi sen tamamladın. Ümmü Halil parayı iki kez saydı. Odadan biri bir şey mırıldandı; teşekkür mü kıskançlık mı, anlamadın."),
+P(S("x_ortakB"), "İki yüz otuz dolar, bir şapkanın içinde. Ümmü Halil şapkayı kucağına alıp teşekkür etti; yetmediğini ikiniz de biliyordunuz. Işığı kapattın. Karanlıkta şapkanın hışırtısı."),
+P(S("x_ortakC"), "Cemil'i aradın. “İndirim mi?” dedi, güldü. “Kardeşim, deniz indirim yapıyor mu?” Kapattı. Beş dakika sonra bir mesaj: “Yaşlıya üç yüz eksik. Kimseye söyleme.” Bir kaçakçının da bir annesi vardı demek."),
+P(S("x_ortakD"), "Hamza'ya teşekkür ettin. On dokuz yaşında bir oğul gibi utandı. “Babam olsa o da verirdi,” dedi. Babasının nerede olduğunu sormadın."),
 P(function(d){ return d.samir_borc; }, "Samir telefonda dinledi. “Kardeşim, ben de kirada oturuyorum,” dedi. “Ama tamam. Western Union. Yarın.” Ümmü Halil'e söyledin; yaşlı kadın sana uzun uzun baktı, sonra Samir için dua etti."),
 P(function(d){ return d.umm_ret; }, "“Yok teyze.” Ümmü Halil başını salladı. “Allah yardımcın olsun,” dedi. Kapının yanına geri döndü. Gece boyunca onun sessizce dua ettiğini duydun. Hiba hiçbir şey söylemedi. Ama elini tuttu; senin yerine karar vermiş gibi."),
 "Gece ikide Samir'den bir sesli mesaj. Hamburg'dan. Arkada bir televizyon, Almanca haberler.",
@@ -159,6 +169,8 @@ P(function(d){ return d.umm_ret; }, "“Yok teyze.” Ümmü Halil başını sal
 ]},
 
 a6: { saat: "Ağustos 2015, 03.00", baslik: "Hava Raporu", metin: [
+P(S("a5A"), "“Hesaplanamaz Hiba,” dedin. Hiba gözlerini kapattı. “O zaman hesaplanamayanı seç,” dedi. “Ama sen seç. Ben seçersem ömür boyu sana yüklerim.”"),
+P(S("a5B"), "Yüksek sesle hesapladın: üç bin dolar; bir hafta otel, iki yüz; bir hafta sonra Cemil'in fiyatı bin beş yüz olabilir; rüzgâr dört-beş, sonra iki. Rakamlar odada asılı kaldı. Hiçbiri bir çocuğun ağırlığını taşımıyordu."),
 P(S("a5C"), "Hiba uzun süre düşündü. “Ben Yara'nın okula gitmesini istiyorum,” dedi. “Bir yerde. Bir yıl değil, on yıl. Aynı okula. Bir yerde kalmak istiyorum. Nerede olduğu umurumda değil artık.”"),
 P(S("a5D"), "Omar uyuyordu, ağzı açık, bir eli Hiba'nın göğsünde. Üç yaşında. Halep'i hatırlamıyor. Savaşı hatırlamıyor. Gaziantep'i hatırlıyor; bir bahçe, bir kedi. Bir sonraki hatırlayacağı şey, şimdi verdiğin karar olacak."),
 "Saat üç. Telefonunda hava raporu: Ege, gece yarısından sonra kuzey rüzgârı dört-beş, sabaha doğru azalarak üç. Bir hafta sonra: bir-iki, deniz düz.",
@@ -166,12 +178,13 @@ P(S("a5D"), "Omar uyuyordu, ağzı açık, bir eli Hiba'nın göğsünde. Üç y
 "Hamza yanına geliyor, fısıltıyla. “Ben bu gece gidiyorum,” diyor. “Siz gelirseniz, ben yanınızda olurum. Hiba Abla yüzme bilmiyorsa, ben bilirim. Halep'te yüzme takımındaydım.” Gülümsüyor; on dokuz yaşında bir gülümseme.",
 "Bir de bir şey var ki kimse söylemiyor ama herkes biliyor: Türkiye'de kalabilirsin. Geçici koruma, bir kimlik kartı, bir iş, bir okul. Gaziantep'te bir yıl yaşadınız. Ama burada kalmanın da bir bedeli var: hep misafir olmak, hep “Suriyeli” olmak, Yara'nın hiçbir zaman tam bir yere ait olamaması.",
 "Ve bir son seçenek, en karanlığı: Hiba ve çocuklar bu gece gider, Hamza'yla; sen kalırsın, para biriktirirsin, sonra gelirsin. Bir aile, bir denizle ikiye ayrılır.",
-"Saat üçü beş geçiyor. Minibüs ikiye kadar."
+"Saat üçü beş geçiyor. Minibüs ikiye kadar.",
+"Hiba uyumuyor. Omar uyuyor; yüzü yeleğin turuncusuna dönük. Hangi kararı verirsen ver, bir gün Yara sana soracak: neden? Ve senin elinde yalnızca bu gecenin rüzgâr raporu olacak."
 ], secenekler: [
-{ t: "Bu gece gidersiniz. Hep birlikte.", to: "s1", etki: { umut: 2, kol: "deniz" } },
-{ t: "Bir hafta beklersiniz. Deniz sakinleşsin.", to: "w1", etki: { temkin: 2, kol: "bekle" } },
-{ t: "Gitmezsiniz. Türkiye'de kalıp BM'ye yeniden yerleşim başvurusu yaparsınız.", to: "r1", etki: { temkin: 1, sorumluluk: 1, kol: "kalis" } },
-{ t: "Hiba ve çocuklar bu gece Hamza'yla gider. Sen kalıp para biriktirir, sonra gelirsin.", to: "p1", etki: { sorumluluk: 1, umut: 1, kol: "ayri" } }
+{ t: "Bu gece gidersiniz, hep birlikte. Rüzgâr dört-beş; ama bir hafta sonra bu kaçakçı, bu para, bu kıyı olmayabilir.", to: "s1", etki: { umut: 2, kol: "deniz" } },
+{ t: "Bir hafta beklersiniz. Deniz sakinleşir; ama paranın, Cemil'in, sınırın bir hafta sonra ne olacağını bilmiyorsun.", to: "w1", etki: { temkin: 2, kol: "bekle" } },
+{ t: "Gitmezsiniz. Türkiye'de kalıp BM'ye yeniden yerleşim başvurusu yaparsınız. Yüzde bir ihtimal; ama kimse boğulmaz.", to: "r1", etki: { temkin: 1, sorumluluk: 1, kol: "kalis" } },
+{ t: "Hiba ve çocuklar bu gece Hamza'yla gider; sen kalıp para biriktirir, sonra gelirsin. Aileni bir denizle bir kaldırım arasında bölerek.", to: "p1", etki: { sorumluluk: 1, umut: 1, kol: "ayri" } }
 ]},
 
 /* ---------- DENİZ KOLU ---------- */
@@ -193,6 +206,8 @@ P(function(d){ return d.flamingo; }, "Yara'nın üstünde pembe flamingo. Altın
 ]},
 
 s2: { saat: "Deniz, 06.10", baslik: "Motor", metin: [
+P(S("s1A"), "Dümene geçtin. Motorun titreşimi kollarına yayıldı. Eczacı ellerin, bir lastik botun sapında."),
+P(S("s1D"), "Ümmü Halil'i ve Zahra'yı ortaya oturttun; yaşlı kadın bir dua mırıldandı, Zahra Farid'in elini tuttu. Sonra dümene geçtin."),
 P(function(d){ return d.dumen_hamza || d.dumen_ret; }, "Hamza motoru aldı. Gülümsedi; “Halep'te kayık kullanmıştım, Fırat'ta,” dedi. Yalan olabilirdi. Herkes inanmak istedi."),
 "Bot kıyıdan ayrılıyor. Dalgalar önce küçük, sonra büyük. Rüzgâr kuzeyden; botun yan tarafına vuruyor. Su içeri sıçrıyor. Kadınlar dua ediyor. Çocuklar ağlıyor.",
 "Bir saat. Kıyının ışıkları arkada küçüldü; önde, Midilli'nin ışıkları büyüdü. Yarı yol.",
@@ -246,6 +261,8 @@ w1: { saat: "Ağustos 2015", baslik: "Bir Hafta", metin: [
 ]},
 
 w2: { saat: "Eylül 2015", baslik: "Atölye", metin: [
+P(S("w1B"), "Başka bir kaçakçı aradın. Bir haftada üç adamla görüştün: biri yeleği de satıyordu, biri çocuklar için ek ücret istedi, biri telefonunu kapattı. Para azaldı; umut azalmadı. Ya da sen öyle sandın."),
+P(S("w1D"), "Kimseye söylemedin. Hiba sordu: “Kapora ne oldu?” “Verdim,” dedin. Doğruydu; ama kime verdiğini söylemedin. O yalan bir taş gibi cebinde kaldı."),
 P(S("w1A"), "Karakolda bir memur dinledi. “Kaçakçılık,” dedi. “Siz de bir suça ortak oldunuz kardeşim. Ne bekliyorsunuz?” Bir tutanak tutmadı. Beş yüz dolar, bir karakol kapısında, bir cümleyle kayboldu."),
 P(S("w1C"), "Hiba dinledi. Bir şey söylemedi. Sonra Omar'ı yere bırakıp kalktı, pencereye gitti. “Bin dolar Ümmü Halil'e,” dedi, ya da “Beş yüz Cemil'e.” Hesap yapıyordu. Sonra döndü: “Çalışacağız. İkimiz de.”"),
 "Para azaldı. Dört bin dolar artık iki bin; sonra bin beş yüz. Bir kaçakçı için yetmiyor; Almanya için hiç yetmiyor.",
@@ -261,6 +278,7 @@ P(S("w1C"), "Hiba dinledi. Bir şey söylemedi. Sonra Omar'ı yere bırakıp kal
 ]},
 
 w3: { saat: "Eylül 2015", baslik: "Kırmızı Tişört", metin: [
+P(S("w2C"), "İplik kesen çocukların ailelerini buldun: Urfa'dan bir aile, Halep'ten iki aile. Biri kapıyı yüzüne kapattı. Biri ağladı: “Ne yapalım kardeşim, ekmek.” Biri sana çay koydu ve hiçbir şey söylemedi."),
 P(S("w2A"), "Hakan Bey omuz silkti. “Sen bilirsin,” dedi. Yara ertesi hafta bir Türk okuluna başladı; Gaziantep'te bir yıl okumuştu, sınıfın en iyi Türkçe konuşanlarından biriydi. İlk gün sana bir resim getirdi: bir ev, bir ağaç, bir deniz. Denizin öbür tarafında bir şey yok."),
 P(S("w2B"), "Yara bir ay atölyede çalıştı. Akşamları parmakları kızarık, sessiz. Bir ay sonra para birikmişti; yüz elli lira fazla. Yara'yı okula yazdırdın. İlk gün öğretmen sordu: “Ellerine ne oldu?” Yara cevap vermedi."),
 "Bir eylül sabahı atölyede herkes telefonuna bakıyor. Bir fotoğraf. Bodrum. Bir kumsal. Kıyıda, yüzüstü, küçük bir çocuk. Kırmızı tişört, mavi şort, küçük ayakkabılar. Üç yaşında. Bir botun batışından.",
@@ -292,6 +310,8 @@ r1: { saat: "Eylül 2015", baslik: "Kayıt", metin: [
 ]},
 
 r2: { saat: "2016", baslik: "Okul", metin: [
+P(S("r1A"), "Bornova'da bir ev kiraladın; iki oda, nemli, ama pencereden bir çam ağacı görünüyor. Yara ağacın adını sordu. Türkçede öğrendiği ilk kelime: çam."),
+P(S("r1D"), "Formun kopyasını yastığının altına koydun ve her gece okudun: “Değerlendirme süreci uzun sürebilir.” Yüzde bir, bir yastığın altında."),
 P(function(d){ return d.sikayet; }, "Şikâyetin bir derneğe ulaştı. Atölye bir ay sonra denetlendi; sen işini kaybettin. Ama derneğin avukatı seni bir şeye yönlendirdi: geçici koruma kaydı, BM yeniden yerleşim başvurusu, bir eczanede kayıt dışı bir iş. Bir şikâyet, bir kapıyı kapatıp bir başkasını açtı."),
 P(S("r1C"), "Hamza'dan cevap ertesi gün geldi; bir fotoğraf. Midilli, bir kamp, Hamza ıslak saçlarla gülümsüyor. “Vardık. Herkes sağ. Ümmü Halil bile.” Rahatladın. Ve bir şey daha hissettin; adını koymak istemediğin."),
 P(S("r1B"), "Karşıyaka'da bir eczanede iş buldun; eczacı yardımcısı, kayıt dışı. Eczacı Nilgün Hanım, yetmişlerinde. İlk gün bir reçeteye baktın, bir ilaç etkileşimi fark ettin, söyledin. Nilgün Hanım sana uzun uzun baktı. “Siz eczacı mıydınız?” Evet. “Halep'te mi?” Evet. Bir şey söylemedi. Ama ertesi gün maaşını artırdı."),
@@ -307,6 +327,8 @@ P(S("r1B"), "Karşıyaka'da bir eczanede iş buldun; eczacı yardımcısı, kay�
 ]},
 
 r3: { saat: "2018", baslik: "Mülakat", metin: [
+P(S("r2C"), "Elif Hanım'a teşekkür edip başka bir okul aradın. Yara itiraz etti: “Ama Elif Hoca'yı seviyorum.” Bir ay sonra yeni okulda aynı kelimeyi duydu; bu kez başka bir çocuğun ağzından."),
+P(S("r2D"), "Eve dönüp formu yeniden okudun. Yüzde bir. Yara'nın okulundan gelen kâğıdı formun yanına koydun: iki kâğıt, iki ihtimal."),
 P(S("r2A"), "Yara'yla balkonda konuştun. “Baba, ben Türk müyüm, Suriyeli miyim?” dedi. Bilmiyordun. “İkisi,” dedin. Yara düşündü. “İkisi olunca hiçbiri olmuyor,” dedi. Dokuz yaşında."),
 P(S("r2B"), "O çocuğun babası bir inşaat işçisiydi; Sivaslı. Bir kahvede buluştunuz. Uzun süre bir şey konuşmadınız. Sonra adam dedi ki: “Benim babam da Almanya'ya gitmişti. Altmışlarda. Ona da ‘Türk, ülkene dön’ demişler.” Oğluna ne diyeceğini bilmediğini söyledi. Sen de bilmiyordun."),
 "İki yıl sonra bir telefon. BM. Bir mülakat. Ankara.",
@@ -314,12 +336,13 @@ P(S("r2B"), "O çocuğun babası bir inşaat işçisiydi; Sivaslı. Bir kahvede 
 "Bir ay sonra bir mektup. Kanada. Toronto. Bir ev, bir dil kursu, bir yıllık destek. Kalıcı oturum. Beş yıl sonra vatandaşlık.",
 "Yüzde bir. Size düştü.",
 "Ama artık İzmir'de bir eczanen var; kendinin değil, Nilgün Hanım'ın, ama orada bir yerin var. Yara Bornova'da, beşinci sınıfta, bir arkadaşı oldu sonunda; o Sivaslı çocuk. Omar Türkçe konuşuyor; Arapçası yok. Hiba'nın derneğinde altmış kadın.",
-"İzmir sizin oldu mu? Hayır. Ama bir şey oldu."
+"İzmir sizin oldu mu? Hayır. Ama bir şey oldu.",
+"Bir yanda bir mektup ve bir kıta; öbür yanda iki yılda kurulmuş, kırılgan, yarım bir hayat. Yara'nın şiir defteri masanın üstünde."
 ], secenekler: [
 { t: "Kanada'ya gidersiniz.", to: "t1", etki: { umut: 2, kanada: true } },
 { t: "Kalırsınız. İzmir'de.", to: "t1", etki: { temkin: 1, sorumluluk: 1, kaldi: true } },
-{ t: "Hiba'ya ve Yara'ya sorarsın; onlar karar versin.", to: "t1", etki: function(d){ d.sorumluluk++; d.aile_karar = true; d.kaldi = true; } },
-{ t: "Nilgün Hanım'a danışırsın.", to: "t1", etki: function(d){ d.temkin++; d.nilgun = true; d.kanada = true; } }
+{ t: "Hiba'ya ve Yara'ya sorarsın; onlar karar versin. Kararın ağırlığını bir çocuğa yükleme pahasına.", to: "t1", etki: function(d){ d.sorumluluk++; d.aile_karar = true; d.kaldi = true; } },
+{ t: "Nilgün Hanım'a danışırsın; seni yıllardır tanıyan tek Türk'e.", to: "t1", etki: function(d){ d.temkin++; d.nilgun = true; d.kanada = true; } }
 ]},
 
 /* ---------- AYRI KOL ---------- */
@@ -340,6 +363,9 @@ p1: { saat: "Ağustos 2015, 05.00", baslik: "İskele", metin: [
 ]},
 
 p2: { saat: "Ağustos 2015", baslik: "Sessizlik", metin: [
+P(S("p1A"), "Otele dönüp telefonunu elinden bırakmadan bekledin. Odada artık on iki değil, altı kişi vardı. Yer yatakları boş, şarj kabloları duvarda."),
+P(S("p1C"), "Camiye gidip sabah namazına durdun. Secdede alnın halıya değdi ve kalkmak istemedin."),
+P(S("p1D"), "Bornova'daki atölyeye gidip çalışmaya başladın. Makinenin sesi kafanın içindeki sesi bastırsın diye."),
 P(S("p1B"), "Koştun. İki sokak, üç. Minibüs bir köşeyi döndü ve kayboldu. Bir kaldırımda nefes nefese durdun. Bir fırıncı kepengini açıyordu; sana baktı, bir şey sormadı. Basmane'de herkes birilerinin arkasından koşan birini görmüştü."),
 "Saat altı. Yedi. Sekiz. Telefon sessiz.",
 "Hiba'nın telefonu kapalı; denizde kapatmak gerekiyor, Cemil'in adamları öyle demiş. Hamza'nınki de.",
@@ -357,12 +383,17 @@ P(S("p1B"), "Koştun. İki sokak, üç. Minibüs bir köşeyi döndü ve kaybold
 ]},
 
 p3: { saat: "Kasım 2015", baslik: "Tel", metin: [
+P(S("p2A"), "Ağladın; bir otel odasında, tek başına, bir fotoğrafın karşısında. Sonra kalkıp yüzünü yıkadın ve aynaya baktın: yarım bir aile, tek bir yüzde."),
+P(S("p2B"), "Cemil'i aradın. “Bin beş yüz,” dedi. “Ama şimdi değil. Anlaşma geliyor, kıyılar sıkı.” Elinde bin iki yüz vardı."),
+P(S("p2C"), "Hamza'ya teşekkür yazdın. Cevap bir fotoğraftı: Omar onun omuzlarında, Midilli'de bir kumsalda. “Oğlun beni yordu,” yazmıştı."),
+P(S("p2D"), "Fotoğrafı büyütüp Omar'ın yüzüne baktın. Uyuyordu, Hiba'nın kucağında. Ona veda edememiştin; o da sana."),
 "Para yetmiyor. Bir ay atölyede, sonra bir ay daha. Bin dolar. Bin iki yüz. Cemil artık bin beş yüz istiyor. Bir ay daha.",
 "Hiba ve çocuklar Midilli'den Atina'ya, Atina'dan Makedonya'ya, Sırbistan'a, Hırvatistan'a. Her gün bir fotoğraf; bir tren, bir çadır, bir sınır, bir otobüs. Hamza her zaman bir köşede.",
 "Ekimde Hamburg. Samir'in evi. Bir fotoğraf: Yara bir Alman okul sırasında, yeni bir çanta. Omar bir parkta. Hiba bir pencerenin önünde; yüzü yorgun, ama bir pencerenin önünde.",
 "Kasımda haberler: Avrupa sınırları kapanıyor. Balkan rotası kapandı. Yunanistan'dan öteye geçilmiyor. Ve Türkiye ile Avrupa Birliği arasında bir anlaşma konuşuluyor: Yunan adalarına geçenler Türkiye'ye geri gönderilecek.",
 "Bin beş yüz doların var. Bir bot var. Ama botun öbür tarafında artık bir yol yok. Midilli'de bir kamp, belki yıllarca.",
-"Hiba görüntülü arıyor. Arkada Yara, Almanca ödev yapıyor. “Ahmed,” diyor Hiba, “aile birleşimi diye bir şey varmış. Kâğıtla. Yasal. Belki bir yıl, belki iki. Avukat söyledi. Bota binme. Lütfen. Bota binme.”"
+"Hiba görüntülü arıyor. Arkada Yara, Almanca ödev yapıyor. “Ahmed,” diyor Hiba, “aile birleşimi diye bir şey varmış. Kâğıtla. Yasal. Belki bir yıl, belki iki. Avukat söyledi. Bota binme. Lütfen. Bota binme.”",
+"Bir yanda bir avukatın “belki iki yıl”ı; öbür yanda Cemil'in “sakin bir gece”si. Ve her ikisinin arasında, büyüyen bir kız ki seni bir ekrandan tanıyor."
 ], secenekler: [
 { t: "Aile birleşimi için başvurursun. Bekleyeceksin.", to: "t1", etki: { temkin: 2, birlesim: true } },
 { t: "Bota binersin. Kamp da olsa, onlara bir deniz daha yakın.", to: "t1", etki: { umut: 2, bota_bindi: true } },
@@ -372,6 +403,22 @@ p3: { saat: "Kasım 2015", baslik: "Tel", metin: [
 
 /* ---------- ORTAK SON BÖLÜM ---------- */
 t1: { saat: "Bir yıl sonra", baslik: "Sonra", metin: [
+P(S("s3A"), "Herkesi saydın; Arapça, sonra Türkçe, sonra parmaklarınla. Her seferinde başka bir sayı. Bir Yunan askeri omzuna dokundu: “Okay, okay.” Saymayı bırakamadın."),
+P(S("s3B"), "Hiba'yı, Yara'yı, Omar'ı kucakladın; başka hiçbir şeye bakmadan. Omar'ın yeleği ıslak ve ağırdı. Dördünüz bir battaniyenin altında, bir geminin güvertesinde, titreyerek."),
+P(S("s3C"), "Denize baktın: karanlık, köpüklü, sessiz. Bir şey gördüğünü sandın; turuncu bir leke. Sonra gemi döndü, leke kayboldu. O lekeyi yıllarca gördün."),
+P(S("s3D"), "Ümmü Halil'i aradın. Güvertenin köşesinde, bir battaniyenin içinde dua ediyordu. Elini tuttun. “Vardık mı oğlum?” Daha değil, dedin. Ama yaklaştık."),
+P(S("w3A"), "Bir daha bot düşünmemeye karar verdin. Hiba'ya söyledin. Bir şey demedi ama o gece, aylardan sonra ilk kez, derin uyudu."),
+P(S("w3B"), "Fotoğrafa birlikte baktınız ve ağladınız. Omar uyanıp yanınıza geldi; kırmızı bir tişörtle. İkiniz birden ona sarıldınız; ne olduğunu anlamadı."),
+P(S("w3C"), "Samir'i aradın. “Aile birleşimi var,” dedi, “ama önce benim oturumum kalıcı olmalı. İki yıl, belki üç.” İki yıl, belki üç; bir botun yarım saatine karşı."),
+P(S("w3D"), "Omar'ın kırmızı tişörtünü dolabın en arkasına kaldırdın. Omar aradı, bulamadı, ağladı. Ona yeşil bir tişört aldın."),
+P(S("r3A"), "Kanada'yı seçtin. Nilgün Hanım'a söylediğinde gözleri doldu. “Gidin,” dedi. “Ama Yara'nın Türkçesi unutulmasın.”"),
+P(S("r3B"), "Kalmayı seçtin. Mektubu bir çekmeceye koydun. Hiba bir gece çekmeceyi açıp okudu, sonra geri koydu. Bir şey demedi."),
+P(S("r3C"), "Hiba Kanada dedi. Yara, on bir yaşında, ağladı: okulu, arkadaşları, Türkçe şiirleri. Sonunda Hiba, Yara'ya bakarak “Kalalım,” dedi. Kararı bir çocuk verdi; bedelini hepiniz paylaşacaktınız."),
+P(S("r3D"), "Nilgün Hanım uzun süre düşündü. “Ben olsam giderdim,” dedi. “Burada sizi hep misafir sayacaklar. Orada belki bir gün ev sahibi olursunuz.” Kanada'yı seçtin."),
+P(S("p3A"), "Aile birleşimine başvurdun. Formun on yedinci sayfasında bir soru: “Aileden ayrılma tarihi.” Tarihi yazarken elin titredi."),
+P(S("p3B"), "Bota bindin. Kasım sonunda, sakin bir gecede, yalnız. Bu kez dümen başkasındaydı; sen yalnızca bir yolcuydun. Bunun ne kadar korkunç olduğunu ilk kez anladın."),
+P(S("p3C"), "“Sen gel, çocukları al gel,” dedin. Hiba uzun süre sustu. Ekranın köşesinde Yara'nın Almanca defteri, açık."),
+P(S("p3D"), "Yara'yla konuştun. “Baba,” dedi, “ben burada okumak istiyorum. Ama sen de gel.” Bir çocuğun iki isteği; ikisi birden mümkün değildi."),
 P(function(d){ return d.kol === "deniz" && !d.hamza_kayip; }, "Midilli'den sonra yirmi üç gün. Atina, Makedonya, Sırbistan, Hırvatistan, Avusturya, Almanya. Bir Ekim sabahı Hamburg. Samir kapıyı açtı; iki kardeş, bir koridorda, uzun süre sarıldınız. Kırk beş kişiden kırk beşi kurtuldu o sabah. Bir haberde bile yer almadı; haber olmak için birinin ölmesi gerekiyordu."),
 P(function(d){ return d.hamza_kayip; }, "Yunan askerleri kırk dört kişi saydı. Kırk dört. Bir eksik. Hamza. Kendi yeleğini Omar'a giydirmişti. Yüzme biliyordu; Halep'te yüzme takımındaydı. Ama o dalga bir yüzücü için değildi. İki gün sonra cesedini Midilli'nin kuzey kıyısında buldular. On dokuz yaşında. Sırt çantasında bir mühendislik kitabı, ıslak, sayfaları yapışmış."),
 P(function(d){ return d.hamza_kayip; }, "Hamburg'a vardınız. Yirmi üç gün sonra. Samir kapıyı açtı. Omar'ın üstünde hâlâ o turuncu yelek vardı; çıkarmak istememişti. Hiba bir hafta sonra yeleği yıkadı, katladı, bir dolaba koydu."),
@@ -381,7 +428,8 @@ P(function(d){ return d.kol === "kalis" && d.kaldi; }, "İzmir'de kaldınız. Ka
 P(function(d){ return d.kol === "ayri" && d.birlesim; }, "Bir yıl. Hâlâ İzmir'desin. Aile birleşimi başvurusu Almanya'da, bir masanın üstünde. Her hafta Hiba'yla görüntülü konuşuyorsun. Omar seni tanıyor; ama “Papa” diyor artık, Almanca."),
 P(function(d){ return d.kol === "ayri" && d.bota_bindi; }, "Bota bindin. Kasım sonunda, sakin bir gecede. Midilli. Bir kamp; Moria. Bir çadır, bin kişilik bir kampta beş bin kişi. Bir yıl. Hâlâ oradasın. Ailen Hamburg'da, sen bir adada; aranızda bir anlaşma, bir tel, bir deniz."),
 P(function(d){ return d.kol === "ayri" && (d.geri_cagir || d.yara_ne); }, "Hiba gelmedi. Yara Almanca okuyordu; Omar kreşe başlamıştı. “Gelirsek yine başa döneriz Ahmed,” dedi Hiba. Bir yıl. Sen İzmir'de, onlar Hamburg'da. Bir aile, bir ekranda."),
-"Bir sabah bir mesaj. Mesut'tan. Basmane'deki dükkân. Bir fotoğraf: dükkânın vitrini boş. “Kapattım,” yazıyor. “Yelek satmıyorum artık. Eşofman satıyorum. Kızım üniversiteyi bitirdi.” Altında bir cümle daha: “Hepiniz geçtiniz mi?”"
+"Bir sabah bir mesaj. Mesut'tan. Basmane'deki dükkân. Bir fotoğraf: dükkânın vitrini boş. “Kapattım,” yazıyor. “Yelek satmıyorum artık. Eşofman satıyorum. Kızım üniversiteyi bitirdi.” Altında bir cümle daha: “Hepiniz geçtiniz mi?”",
+"Bu soruya ne cevap vereceğin, o geceyi nasıl anlattığın; belki de bundan sonra onu nasıl hatırlayacağın."
 ], secenekler: [
 { t: "Mesut'a cevap yazarsın; olduğu gibi.", to: "t1b", etki: { sorumluluk: 1, mesuta: true } },
 { t: "Mesut'a bir teşekkür yazarsın.", to: "t1b", etki: { umut: 1 } },
@@ -390,6 +438,10 @@ P(function(d){ return d.kol === "ayri" && (d.geri_cagir || d.yara_ne); }, "Hiba 
 ]},
 
 t1b: { saat: "Bir yıl sonra", baslik: "Ümmü Halil", metin: [
+P(S("t1A"), "Mesut'a olduğu gibi yazdın: kim geçti, kim geçmedi, kim nerede. Bir saat sonra cevap verdi: “Teşekkür ederim. Kimse bana bunu anlatmamıştı.”"),
+P(S("t1B"), "Mesut'a bir teşekkür yazdın. Cevap tek kelimeydi: “Utanıyorum.”"),
+P(S("t1C"), "Cevap vermedin. Mesaj telefonunda kaldı: “Hepiniz geçtiniz mi?” Bazı geceler açıp baktın."),
+P(S("t1D"), "Yeleklerin fotoğrafını gönderdin; dördü, bir dolabın içinde. Mesut bir kalp gönderdi, sonra sildi, sonra yeniden gönderdi."),
 P(function(d){ return d.hamza_kayip; }, "Bir ay sonra Hamza'nın annesini buluyorsun. Halep'te; telefonla. Ona ne söyleyeceğini bilmiyorsun. Bir yabancının sesi, bir oğlun son saatleri. Anlatıyorsun: yeleği, Omar'ı, dalgayı. Kadın uzun süre bir şey söylemiyor. Sonra: “O hep böyleydi. Hep birine bir şeyini verirdi. Kalemini, ekmeğini. Şimdi de...” Cümleyi bitirmiyor."),
 "Bir gün bir mesaj geliyor; İsveç'ten. Bir fotoğraf. Bir hastane koridoru. Beyaz önlüklü genç bir doktor; yanında, tekerlekli sandalyede, çok yaşlı bir kadın. Ümmü Halil.",
 P(function(d){ return d.umm_para || d.samir_borc; }, "Altında Arapça bir not: “Ahmed oğlum. Torunumu buldum. Senin bin dolarınla. Her gün senin için dua ediyorum. Ümmü Halil.”"),
@@ -407,17 +459,22 @@ P(function(d){ return d.kese; }, "Cebinde hâlâ o bez kese var. Humus'un topra�
 ]},
 
 t2: { saat: "2018", baslik: "Yara", metin: [
+P(S("t1bA"), "Ümmü Halil'e uzun bir cevap yazdın, Arapça. Bir hafta sonra bir sesli mesaj geldi: titrek bir ses, bir dua, sonra torununun sesi: “Büyükannem sizi hiç unutmadı.”"),
+P(S("t1bB"), "Fotoğrafı gösterdin. Yara hatırlamadı; Hiba hatırladı. “O gece o kadın bana bir şey dedi,” dedi Hiba. “Kocana iyi bak. O herkesi kurtarmaya çalışacak, kendini unutacak.”"),
+P(S("t1bC"), "Fotoğrafa bakıp o geceyi düşündün: on iki kişi, yer yatakları, şarj kabloları, bir şapka. O odadakilerin kaçı bir kıyıya vardı, bilmiyorsun."),
+P(S("t1bD"), "Fotoğrafı kaydettin. Telefonunda adı olmayan bir klasör var; içinde bir dükkân vitrini, bir hastane koridoru, bir deniz."),
 "Yara on yaşında. Bir akşam yanına oturuyor ve sana bir soru soruyor; bütün bu yılların sorusu.",
 P(function(d){ return d.hamza_kayip; }, "“Baba, Hamza Abi neden öldü?” Yara o geceyi hatırlıyor; bir dalga, bir el, bir itiş. Kendisinin bir babanın koluna itildiğini, Hamza'nın gittiğini. Dört yıldır bir şey sormadı. Şimdi soruyor."),
 P(function(d){ return !d.hamza_kayip && d.kol === "deniz"; }, "“Baba, o gece denizde neden bizi o bota bindirdin?” Yara o geceyi hatırlıyor; karanlık, rüzgâr, soğuk su. Bir yaz tatili değildi. Dört yıldır sormadı. Şimdi soruyor."),
 P(function(d){ return d.kol !== "deniz"; }, "“Baba, biz neden denize hiç gitmedik? Herkes yazın denize gidiyor. Sen hep hayır diyorsun.” Yara deniz kıyısında bir şehirde yaşıyor ve dört yıldır bir kez bile denize girmedi."),
 "Yara'nın gözleri ciddi. Bir çocuğun gözleri değil artık; bir soru soran birinin.",
-"Bu soruya bir cevap var mı? Bir rüzgâr raporu, bir yelek, bir dolandırıcı, bir dalga. Bir babanın kararları ve bir denizin hiç kimseye sormadan yaptıkları."
+"Bu soruya bir cevap var mı? Bir rüzgâr raporu, bir yelek, bir dolandırıcı, bir dalga. Bir babanın kararları ve bir denizin hiç kimseye sormadan yaptıkları.",
+"Yara cevabı bekliyor. Ona ne söylersen, o geceyi bundan sonra o da öyle taşıyacak."
 ], secenekler: [
 { t: "Ona her şeyi anlatırsın; bir hikâye gibi, baştan.", to: "y_hikaye", etki: { sorumluluk: 1, anlatti: true } },
 { t: "Onu denize götürürsün. Bir yaz günü. İlk kez.", to: "y_deniz", etki: { umut: 1, denize: true } },
-{ t: "“Büyüyünce anlatacağım,” dersin.", to: "t3", etki: { temkin: 1, ertele: true } },
-{ t: "“Bilmiyorum kızım,” dersin. Dürüstçe.", to: "t3", etki: { sorumluluk: 1, bilmiyorum: true } }
+{ t: "“Büyüyünce anlatacağım,” dersin. Onu korumak için; belki kendini korumak için.", to: "t3", etki: { temkin: 1, ertele: true } },
+{ t: "“Bilmiyorum kızım,” dersin. Dürüstçe; bir babanın ağzından en zor cümle.", to: "t3", etki: { sorumluluk: 1, bilmiyorum: true } }
 ]},
 
 y_hikaye: { saat: "2018", baslik: "Hikâye", metin: [
@@ -456,6 +513,14 @@ P(function(d){ return d.bota_bindi; }, "Midilli. Kampın arkasındaki kayalık. 
 ]},
 
 t3: { saat: "2022", baslik: "Dil", metin: [
+P(S("t2C"), "“Büyüyünce anlatacağım,” demiştin. Yara başını sallayıp odasına gitmişti. Dört yıl boyunca bir daha sormadı. Sen her gün bekledin."),
+P(S("t2D"), "“Bilmiyorum kızım.” Yara bir süre sana bakmıştı. “Ben de bilmiyorum,” demişti. “İkimiz bilmiyoruz o zaman.” Duyduğun en dürüst cümleydi."),
+P(S("y_hikayeA"), "“Elimden geleni yaptım,” demiştin. Yara düşünmüştü. “Bu bir cevap değil baba,” demişti. “Ama doğru.”"),
+P(S("y_hikayeB"), "“Başka doğru yoktu,” demiştin. Yara uzun süre susmuştu. Sonra: “Belki vardı. Ama sen onu görmedin. Bu da bir şans.”"),
+P(S("y_hikayeC"), "“Sen ne düşünüyorsun?” Yara şaşırmıştı. Sonra yavaşça: “Bence biz şanslıyız. Ve bu adil değil.” On yaşında."),
+P(S("y_hikayeD"), "Bir şey söylemeden onu kucakladın. Yara ağlamadı; sen ağladın. Bir süre sonra Yara saçını okşadı; bir baba gibi."),
+P(S("y_denizA"), "“Deniz bilmiyor,” demiştin, “ama biz biliyoruz.” Yara bir taş alıp suya atmıştı. “O zaman biz hatırlayalım,” demişti."),
+P(S("y_denizC"), "Onu kıyıya geri götürmüştün. Yara havluya sarılıp denize uzun uzun bakmıştı; bir şey bekliyormuş gibi."),
 P(S("y_denizB"), "Yara bir haftada yüzmeyi öğrendi. Önce senin kollarında, sonra tek başına. Bir sabah kıyıdan elli metre açıldı ve sana el salladı. Sen de el salladın. İkiniz de ağladınız; Yara tuzlu su sandı."),
 P(S("y_denizD"), "Toprak suya karıştı. Humus'un toprağı, Ege'nin ya da Baltık'ın suyunda. Yara bir şey sormadı. Ümmü Halil'in oğulları; bir başka denizde. Yara elini suya soktu, toprağın dağılışını izledi."),
 "Dört yıl sonra. Yara on dört yaşında. Bir akşam yemekte, aile masasında, bir şey fark ediyorsun.",
@@ -473,6 +538,10 @@ P(function(d){ return d.kol === "kalis" && d.kanada; }, "Yara ve Omar İngilizce
 ]},
 
 t4: { saat: "2025", baslik: "Karşı Kıyı", metin: [
+P(S("t3A"), "Her akşam bir saat Arapça. Yara harfleri yeniden öğrendi: elif, be, te. Bir akşam Halep'teki eczanenin adını tek başına yazdı."),
+P(S("t3B"), "“Sen buranın dilini konuş,” demiştin. Yara rahatladı; sonra bir şey kaybettiğini fark etti. O akşam odasında eski bir Arapça çizgi film izledi, sesini kısarak."),
+P(S("t3C"), "Eczanenin tabelasını eski bir fotoğraftan Yara'ya okuttun: “Saydaliyyat el-Şifa.” Heceledi, sonra bir daha. “Bizim eczanemiz,” dedi. Hiç görmediği bir eczane."),
+P(S("t3D"), "Ümmü Halil'i anlattın; bir torunun büyükannesini bulmak için Arapça öğrendiğini. Yara sustu. Ertesi gün Arapça bir kitap istedi."),
 "On yıl. Bir sabah bir kıyıda duruyorsun.",
 P(function(d){ return d.kol === "deniz"; }, "Midilli'desin. On yıl sonra, bir turist olarak; Alman pasaportuyla. Kuzey kıyısı. Kayalar, zeytinlikler, bir mezarlık; adı olmayan mezarlar, üstlerinde yalnızca tarihler. Karşıda Türkiye. Ayvalık'ın ışıkları."),
 P(function(d){ return d.kol === "bekle" || (d.kol === "kalis" && d.kaldi) || d.birlesim || d.geri_cagir || d.yara_ne; }, "Ayvalık'tasın. On yıl sonra. Bir kıyı, bir çay bahçesi, turistler. Karşıda Midilli. Yirmi kilometre. Her yaz binlerce turist feribotla geçiyor; yarım saat, otuz avro. On yıl önce bir lastik botla, bin iki yüz dolara, bir gece."),
@@ -500,6 +569,10 @@ ks: { yonlendir: [
 
 /* ---------- SONLAR ---------- */
 son_kiyi: { son: true, baslik: "Karşı Kıyı", metin: [
+P(S("t4A"), "“Burada,” demiştin. Yara başını sallamıştı; yeterliydi."),
+P(S("t4B"), "“İkisinde de,” demiştin. Yara gülmüştü: “Bu kolay bir cevap baba.” Kolay değildi."),
+P(S("t4C"), "“Hiçbirinde,” demiştin; hüzünsüz. Yara elini tutmuştu."),
+P(S("t4D"), "Bir şey söylememiştin; Yara'nın elini tutmuştun. Bir dalga ayaklarınıza gelip geri çekilmişti."),
 "Geçtiniz. Hepiniz. Kırk beş kişi, bir lastik bot, rüzgârlı bir gece. Bir Yunan sahil güvenlik gemisi, doğru zamanda, doğru yerde. Kırk beş kişi.",
 "Bu bir erdem miydi? Bir karar mıydı? Yoksa bir rüzgârın, bir motorun, bir projektörün şansı mıydı?",
 "Aynı gece, aynı denizde, bir başka bot. O botun yolcuları da bir karar verdi; aynı karar. Rüzgâr aynıydı, deniz aynıydı. O botta bir Yunan gemisi doğru zamanda gelmedi. O botun hikâyesini bir gazete yazdı; seninkini kimse yazmadı.",
@@ -509,15 +582,23 @@ son_kiyi: { son: true, baslik: "Karşı Kıyı", metin: [
 ]},
 
 son_deniz: { son: true, baslik: "Deniz", metin: [
+P(S("t4A"), "“Burada,” demiştin. Yara başını sallamıştı; yeterliydi."),
+P(S("t4B"), "“İkisinde de,” demiştin. Yara gülmüştü: “Bu kolay bir cevap baba.” Kolay değildi."),
+P(S("t4C"), "“Hiçbirinde,” demiştin; hüzünsüz. Yara elini tutmuştu."),
+P(S("t4D"), "Bir şey söylememiştin; Yara'nın elini tutmuştun. Bir dalga ayaklarınıza gelip geri çekilmişti."),
 "Kırk dört kişi kurtuldu. Biri değil. Hamza. On dokuz yaşında, Halep'ten, yüzme takımından. Sırt çantasında bir mühendislik kitabı. Kendi yeleğini Omar'a giydirdi; çünkü Omar'ın yeleği sahteydi. Çünkü sen, Basmane'de, bir dükkânda, ucuz olanı almıştın.",
 "Bu cümleyi her gün kendine söylüyorsun. Bazen başka türlü söylüyorsun: Mesut onları satmasaydı. Cemil o gece göndermeseydi. Rüzgâr dört-beş olmasaydı. Avrupa bir yol açsaydı. Bir savaş olmasaydı. Her cümle doğru. Hiçbiri yükü hafifletmiyor.",
 "Omar on yaşında. Hamza'yı hatırlamıyor; üç yaşındaydı. Ama turuncu yelek hâlâ dolabında. Bir gün sordu: “Bu kimin?” Anlattın. Omar uzun süre yeleğe baktı. Sonra: “O zaman ben onun yerine de yaşamalıyım, değil mi?” Bir çocuğun omzuna bir yük koydun mu? Yoksa bir anlam mı?",
 "Yara mühendislik okuyor. Bir gün sana dedi ki: “Hamza Abi'nin kitabını ben bitireceğim.”",
 "Hamza'nın annesine her yıl bir mesaj atıyorsun. Ağustosun on dokuzunda. Bazen cevap veriyor; bazen vermiyor. Bir yıl bir fotoğraf gönderdi: Hamza, on yaşında, bir havuzun kenarında, madalyasıyla.",
-"Ahlaki şans diye bir şey var, demişti bir zamanlar Halep'teki bir felsefe hocası; eczane müşterisi, emekli. Aynı kararı veren iki insan; birinin önüne bir talih çıkar, öbürünün bir felaket. Hangisi daha suçlu? Senin önüne bir felaket çıktı; ama o felaketin bedelini bir başkası ödedi. Bu, bir şansın en ağır hâli."
+"Halep'te eczaneye her sabah gelen emekli bir öğretmen bir gün tansiyon ilacını alırken demişti ki: aynı kararı veren iki insandan birinin önüne bir talih çıkar, öbürünün önüne bir felaket. Hangisi daha suçlu? Senin önüne bir felaket çıktı; ama o felaketin bedelini bir başkası ödedi. Bu, bir şansın en ağır hâli."
 ]},
 
 son_kalan: { son: true, baslik: "Kalan", metin: [
+P(S("t4A"), "“Burada,” demiştin. Yara başını sallamıştı; yeterliydi."),
+P(S("t4B"), "“İkisinde de,” demiştin. Yara gülmüştü: “Bu kolay bir cevap baba.” Kolay değildi."),
+P(S("t4C"), "“Hiçbirinde,” demiştin; hüzünsüz. Yara elini tutmuştu."),
+P(S("t4D"), "Bir şey söylememiştin; Yara'nın elini tutmuştun. Bir dalga ayaklarınıza gelip geri çekilmişti."),
 "Kaldınız. Türkiye'de, İzmir'de. Bir bot düşüncesi bir gece, bir rüzgâr raporuyla ya da bir kırmızı tişörtle bitti.",
 P(function(d){ return d.kol === "bekle"; }, "Bekleme kararın, bir dolandırıcı ve bir rüzgâr sayesinde, seni bir denizden uzak tuttu. O haftanın sonunda o kumsaldaki fotoğraf geldi. Sen o hafta bir otel odasında, beş yüz doları çalınmış, bir pişmanlıkla oturuyordun. Pişmanlığın, sonra, bir şükre dönüştü; ve şükür, bir utanca. Başkasının çocuğunun ölümüne şükretmek."),
 "Yara Bornova'da büyüdü. Türkçe konuşuyor; İzmir şivesiyle. Bir Türk üniversitesinde mühendislik okuyor. Kimlik kartında hâlâ “geçici koruma” yazıyor; on yıl sonra. Geçici. Bir kelime ki bir hayatı tarif ediyor.",
@@ -528,6 +609,10 @@ P(function(d){ return d.kol === "bekle"; }, "Bekleme kararın, bir dolandırıc�
 ]},
 
 son_kagit: { son: true, baslik: "Kâğıt", metin: [
+P(S("t4A"), "“Burada,” demiştin. Yara başını sallamıştı; yeterliydi."),
+P(S("t4B"), "“İkisinde de,” demiştin. Yara gülmüştü: “Bu kolay bir cevap baba.” Kolay değildi."),
+P(S("t4C"), "“Hiçbirinde,” demiştin; hüzünsüz. Yara elini tutmuştu."),
+P(S("t4D"), "Bir şey söylememiştin; Yara'nın elini tutmuştun. Bir dalga ayaklarınıza gelip geri çekilmişti."),
 "Yüzde bir. Size düştü. Bir mektup, bir uçak, bir şehir: Toronto.",
 "Bir bota binmediniz. Bir denizi geçmediniz. Bir mülakat, bir dosya, bir ülkenin kararıyla bir okyanusun öbür yanına uçtunuz. Hiçbir rüzgâr, hiçbir motor, hiçbir yelek. Yalnızca kâğıt.",
 "Ve kâğıt, bir deniz kadar keyfi. Yüzde bir. Sizinle aynı sırada bekleyen yüzlerce aile hâlâ bekliyor; bazıları on yıldır. Neden siz? Bir memurun bir dosyayı önce açması. Bir kotanın o ay boş olması. Bir eczacının “risk altındaki meslek grubu” sayılması.",
@@ -537,6 +622,10 @@ son_kagit: { son: true, baslik: "Kâğıt", metin: [
 ]},
 
 son_ayri: { son: true, baslik: "İki Kıyı", metin: [
+P(S("t4A"), "“Burada,” demiştin. Yara başını sallamıştı; yeterliydi."),
+P(S("t4B"), "“İkisinde de,” demiştin. Yara gülmüştü: “Bu kolay bir cevap baba.” Kolay değildi."),
+P(S("t4C"), "“Hiçbirinde,” demiştin; hüzünsüz. Yara elini tutmuştu."),
+P(S("t4D"), "Bir şey söylememiştin; Yara'nın elini tutmuştun. Bir dalga ayaklarınıza gelip geri çekilmişti."),
 "Bir aile, bir gece, bir minibüsün arka camında ikiye bölündü. Bir yarısı bir denizi geçti; öbür yarısı bir kaldırımda kaldı.",
 P(function(d){ return d.birlesim; }, "Aile birleşimi iki yıl sürdü. İki yıl sonra bir uçakla, bir vizeyle, bir koltukta Hamburg'a vardın. Havalimanında Omar seni tanımadı; beş yaşındaydı. Hiba'nın arkasına saklandı. Bir hafta sonra “Baba” dedi; Arapça değil, Almanca. “Papa.”"),
 P(function(d){ return d.bota_bindi; }, "Bota bindin. Midilli'de üç yıl. Bir kampta, bir çadırda, bir tel örgünün arkasında. Ailen her yaz bir hafta geldi; turist olarak, feribotla. Bir aile, bir adanın iki yanında; bir yanı kamp, öbür yanı otel. Dördüncü yıl bir mahkeme kararı. Hamburg."),
