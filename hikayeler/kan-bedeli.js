@@ -16,9 +16,11 @@ sahneler: {
 
 k1: { saat: "Ekim 1994", baslik: "Silah", metin: [
 "Karaağaç köyünde on beşinci kışın. Adın Kerim, kırk yaşındasın; şehirden tayinle geldin, gitmedin. Köyün tek okulunun tek öğretmenisin. Bu köyde yirmi yaşın altındaki herkes, bir zaman senin sıralarında oturdu.",
+"Okul dediğin tek bir oda: kara tahta, kırk yıllık sıralar, ortada bir soba. Duvarda çocukların çizdiği bir Türkiye haritası; Karaağaç'ın yeri kırmızı kalemle işaretlenmiş, çünkü gerçek haritalarda yok. Her kış bu odada uyuyorsun; lojmanın sobası çekmiyor. Bu köyde gece on biriden sonra kapı çalınmaz. Çalınırsa ya bir doğum vardır, ya bir ölüm.",
 "Üç gün önce Kayaların büyük oğlu Selim, Demircilerin oğlu Rıza'yla su yüzünden kavgaya tutuştu. Bir kürek, bir itiş, bir kaya. Selim yirmi altı yaşındaydı. Rıza dağa çıktı; kimse yerini bilmiyor, herkes biliyor.",
 "Bu gece okulun kapısı çalınıyor. Kayaların küçük oğlu Cemal. On yedi yaşında. İki yıl önce sınıfının en iyi kompozisyonlarını o yazardı; bir tanesini hâlâ çekmecende saklıyorsun: “Büyüyünce ne olacağım.”",
 "Montunun altında bir şey var. Ağır, uzun. Görmezden gelmeye çalışıyorsun; o da göstermemeye çalışıyor. İkiniz de beceremiyorsunuz.",
+"Cemal'i bu sıralarda büyüttün. İlk kez kalem tuttuğunda harfleri ters yazardı; “b” ile “d”yi hiç ayıramadı, sonra bir gün ayırdı ve sana koşup gösterdi, defterini bir ödül gibi havaya kaldırarak. Şimdi aynı eller bir tüfeğin kabzasını montunun altında saklıyor. Bu iki görüntüyü aynı çocukta bir arada tutamıyorsun.",
 "Sobanın yanına oturuyor, ellerini ısıtıyor. Uzun süre konuşmuyor.",
 "“Hocam,” diyor sonunda. “Dedem tüfeği bana verdi. Ağabeyimin kanı yerde kalmaz, dedi. Ailede büyük erkek benim artık.” Durakladı. “Ben bunu yapmak zorunda mıyım?”",
 "Bu soruyu sana soruyor; dedesine değil, imama değil, babasının mezarına değil. Bunun ne anlama geldiğini biliyorsun ve bu bilgi sobanın sıcaklığından daha çok yakıyor."
@@ -35,6 +37,7 @@ P(S("k1B"), "Cemal dinledi. “Yasa,” dedi. “Yasa ağabeyimi geri getirecek 
 P(S("k1C"), "Cemal sana uzun süre baktı. Sanki bir kapının açılmasını beklemişti ve kapı açılmamıştı. “Peki hocam,” dedi. Kalktı. Bir çocuğa özgür olduğunu söylemenin, onu yalnız bırakmak olup olmadığını bilmiyorsun."),
 P(S("k1D"), "Hacı Murat'ın kapısına vardığınızda Cemal'in kolu elinin içinde titriyordu. İçeri girdin; Cemal'i dışarıda bıraktılar."),
 "Ertesi gün Hacı Murat Kaya seni çağırıyor. Yetmiş sekiz yaşında, köyün en yaşlı erkeği. Odası loş, duvarda bir saat ve bir tüfek askısı. Askı boş.",
+"Kapıda Cemal'in annesi Hatun seni karşılıyor. Gözleri kan çanağı. Seni içeri alırken kulağına fısıldıyor: “Hocam, onu sen ikna et. Dedesini. Benim sözüm bu evde geçmez.” Sonra kapıyı açıp bir adım geri çekiliyor; bu evde kadınlar o odaya girmez.",
 "Çayını kendisi koyuyor; bu bir onur. “Öğretmen,” diyor. “Sen okumuş adamsın. Şehirde kan davası yok derler. Orada ne var? Mahkeme. Mahkeme ne yapar? Katili besler.”",
 "Bir süre susuyor. “Bin dokuz yüz elli ikide babamı vurdular. On dokuz yaşındaydım. Ben de vurdum. Yemin ettim, bu iş benimle bitsin diye. Bitmedi. Torunumu toprağa verdim.” Sesi titremiyor. Titremeyi kırk yıl önce bırakmış.",
 "“Kan yerde kalmazsa, bir sonraki kan da yerde kalmaz. Bunu biliyorum. Ama kan yerde kalırsa, Kayaların adı yerde kalır. Hangisi daha kötü, sen söyle öğretmen.”"
@@ -67,23 +70,33 @@ P(S("k2bB"), "Cemal'in yanında durdun. Bir şey söylemedin. Annesinin sesi her
 P(S("k2bC"), "Hacı Murat'ın yüzünde hiçbir şey kıpırdamadı. Ama ağıt bitmeden döndü ve eve yürüdü. Yalnız, yavaş, bastonuna yaslanarak."),
 P(S("k2bD"), "Uzaktan izledin. Bir yabancı olarak. On beş yılda bu köyün yabancısı olmayı hiç bırakmadığını fark ettin."),
 "Sabah derste Demircilerin küçük oğlu Ali sırasında oturuyor. On iki yaşında. Kitabını açmamış. Defterine bir şey çiziyor: bir dağ, dağda bir kulübe, kulübenin içinde bir adam.",
+"Ders Türkçe: “Okuduğunu anlama.” Bir paragraf okutuyorsun, sorular soruyorsun. Sınıfın yarısı Kayalara, yarısı Demircilere akraba. Sıralar kendiliğinden ikiye ayrılmış, ortada bir koridor oluşmuş. Geçen hafta bu koridor yoktu. Çocuklar, büyüklerin söylemediği şeyleri onlardan önce öğrenir.",
 "Teneffüste Ali yanına geliyor. “Hocam, ağabeyimi vuracaklar mı?” Sonra daha alçak sesle: “Ağabeyimi bulamazlarsa beni mi vururlar? Babam öyle dedi. Erkek olan herkes, dedi.”",
 "Öğleden sonra okulun kapısında Zehra Demirci. Ali'nin annesi. Başörtüsünün ucunu ağzına bastırmış.",
 "“Hocam,” diyor. “Ali'yi bir süre okulda tutsanız. Gece de. Ya da şehre götürseniz. Kimseye söylemeyiz. Ali sizin öğrenciniz. Sizin yanınızda kimse dokunmaz.”"
 ], secenekler: [
-{ t: "Ali'yi kendi evine alırsın. Kimse sormadıkça kimseye söylemezsin.", to: "k4", etki: { merhamet: 1, ali_sende: true } },
+{ t: "Ali'yi kendi evine alırsın. Kimse sormadıkça kimseye söylemezsin.", to: "kb_ali", etki: { merhamet: 1, ali_sende: true } },
 { t: "Zehra Hanım'a jandarmaya gitmesini söylersin. Koruma onların işi.", to: "k4", etki: { adalet: 1 } },
 { t: "Zehra Hanım'a Rıza'nın teslim olması gerektiğini söylersin. Ali'yi kurtaracak tek şey bu.", to: "k4", etki: { adalet: 1, teslim_dedi: true } },
-{ t: "“Ben öğretmenim, Zehra Hanım. Bu kavgada taraf olamam,” dersin.", to: "k4", etki: { gelenek: 1, taraf_olmadi: true } }
+{ t: "“Ben öğretmenim, Zehra Hanım. Bu kavgada taraf olamam,” dersin.", to: "kb_kahve", etki: { gelenek: 1, taraf_olmadi: true } }
 ]},
 
 k4: { saat: "Kasım 1994", baslik: "Kulübe", metin: [
+P(S("kb_aliA"), "Ali bir süre düşündü. “O zaman ben affederim,” dedi. “Ben yaşıyorum.” Sonra uyudu. Sen sabaha kadar uyuyamadın."),
+P(S("kb_aliB"), "Ali gözlerini kapadı, rahatladı. Bir yalan bir çocuğu uyuttu. Sabah, yalanın tadı ağzındaydı."),
+P(S("kb_aliC"), "“Söz mü?” dedi Ali. “Söz,” dedin. Bir öğretmen bir çocuğa söz verdi; ikiniz de bu sözün bu dağlarda ne kadar hafif olduğunu bilmeden."),
+P(S("kb_aliD"), "Yanına oturdun. Ali elini tuttu. Bir saat sonra uyudu. Elini bırakmadı; sen de çekmedin."),
+P(S("kb_kahveA"), "Osman Demirci'nin masasına geçtin. Kahve sustu. Osman başını kaldırmadı ama çayını sana doğru itti. Ertesi gün köyde iki şey konuşuldu: Rıza'nın nerede olduğu, ve öğretmenin kimin masasına oturduğu."),
+P(S("kb_kahveB"), "Sözlerin kahvede çınladı. Kimse cevap vermedi. Sonra biri taşları topladı, biri sobaya odun attı; konuşma, sen hiç konuşmamışsın gibi devam etti. Bir köy bir sesi böyle yutar."),
+P(S("kb_kahveC"), "Cuma. Namazdan sonra. Bu bilgi şimdi cebinde. Bilmek, bir şey yapmak zorunda olmak demek mi? Kahveden çıkarken bu sorunun cevabını bilmiyordun."),
+P(S("kb_kahveD"), "Hacı Murat'ın kapısı açıldı. Yaşlı adam seni dinledi. “Cuma,” dedi. “Evet. Ben söyledim.” Utanmadı. Ama ertesi gün Cemal'i şehre, bir akrabaya gönderdi; bir haftalığına. Neden, kimse bilmiyor."),
 P(S("k3A"), "Ali'yi evine aldın. İlk gece uyumadı; sobanın çıtırtısında her ses bir ayak sesi oldu. Sabaha karşı başını dizine koydu ve uyudu. Bir çocuğu korumak bu kadar basit, bu kadar ağır."),
 P(S("k3B"), "Zehra Hanım jandarmaya gitti. Bir onbaşı tutanak tuttu, “Gerekeni yaparız,” dedi. Kimse bir şey yapmadı. Devletin gözü köye bir defter kadar uzaktı."),
 P(S("k3C"), "Zehra Hanım ağladı. “Teslim olursa öldürürler,” dedi. “Hapiste de bulurlar. Dışarıda da.” Sonra sustu. “Ama siz söylerseniz belki dinler. Sizi severdi.”"),
 P(S("k3D"), "Zehra Hanım sana baktı ve bir şey söylemeden gitti. Ali ertesi gün derse gelmedi. Taraf olmamak, kimin tarafında durduğunu değiştirmedi; yalnızca kimin yanında durmadığını belli etti."),
 "Pazar günü Zehra Hanım'ın oğlu Rıza seni çağırtıyor. Bir çoban çocuğu, kulağına fısıldıyor: “Yukarı yaylada, eski kulübe. Yalnız gel.”",
 "Kulübe soğuk. Rıza yirmi iki yaşında, sakalı uzamış, gözleri çökmüş. Seni görünce ayağa kalkıyor; bir öğrenci gibi.",
+"Kulübenin bir köşesinde Rıza'nın yatağı: iki battaniye ve bir koyun postu. Duvarda, bir çivide, annesinin ördüğü yün çoraplar. Ocakta küllenmiş bir ateş; gece yakmaya korkuyor, duman görünür diye. Üç haftadır burada. Rıza'yı son gördüğünde düğünlerde halay başı çeken bir gençti. Üç hafta, bir insanı bir gölgeye çevirmeye yetiyor.",
 "“Ben öldürmedim hocam,” diyor. “Yani öldürdüm, ama öldürmek istemedim. Kürekle üstüme geldi. İttim. Taşa düştü. Kafası.” Ellerini gösteriyor; sanki kan hâlâ oradaymış gibi.",
 "“Herkes katil diyor. Ben katil miyim?”",
 "Bir kazayla bir cinayeti ayıran şey niyet mi, sonuç mu? Köyde bunun cevabı yok. Köyde bir ölü var ve bir borç var. Gerisi ayrıntı."
@@ -100,6 +113,7 @@ P(S("k4B"), "Parayı aldı. Ertesi sabah kulübe boştu. Kimse nereye gittiğini
 P(S("k4C"), "Rıza bir süre sustu. “Gelirim,” dedi. “Sen yanımda olursan.” Bir sözün altına girdin; ne kadar ağır olduğunu henüz bilmiyorsun."),
 P(S("k4D"), "“Bilmiyorum,” dedin. Rıza başını salladı. “Ben de,” dedi. İkiniz bir süre kulübenin soğuğunda oturdunuz. Bazen insanlar aynı bilmezliği paylaşınca biraz daha az yalnız oluyor."),
 "Aralık başında, cami avlusunda sulh meclisi kuruluyor. Komşu köyün ağası, imam, iki ailenin büyükleri. Jandarma teğmeni uzakta, cipinin yanında sigara içiyor; görünmek ama karışmamak için.",
+"Meclis eski usulle kuruluyor: erkekler avlunun ortasında, minderlerde; yaşlılar önde, gençler arkada. Ortada bir sini, sinide çay. Komşu köyün ağası Şeyh Ömer yetmişlerinde, bembeyaz sakallı; bu dağlarda kırk yılda yirmiden fazla kan davasını o bağlamış. Herkes ona bakıyor. O kimseye bakmıyor; tespihini çekiyor.",
 "Teklif okunuyor: Demircilerden kan bedeli olarak para, iki tarla ve bir kız. Gül. Demircilerin on altı yaşındaki kızı, Kayaların küçük oğlu Cemal'le evlendirilecek. Kan, kanla değil, akrabalıkla kapanacak.",
 "Gül, iki yıl öncesine kadar sınıfının birincisiydi. Öğretmen olmak istiyordu. Bunu sana bir kompozisyonda yazmıştı.",
 "Ağa sana dönüyor. “Öğretmen. Sen okumuş adamsın. Bu köyün çocuklarını sen yetiştirdin. Sen de söyle.”",
@@ -111,10 +125,72 @@ P(S("k4D"), "“Bilmiyorum,” dedin. Rıza başını salladı. “Ben de,” de
 { t: "Kalkarsın. Cemal avludan çıkıyor ve sen onun arkasından gidiyorsun.", to: "c1", etki: { cemal_pesinde: true } }
 ]},
 
+
+kb_ali: { saat: "Kasım 1994", baslik: "Ali'nin Soruları", metin: [
+"Ali'yi evine getirdin. Lojman iki oda: birinde kitaplar ve bir yatak, ötekinde bir soba ve bir masa. Ali'ye yatağı veriyorsun, sen sobanın yanında, minderde yatacaksın.",
+"Ali uyumuyor. Tavana bakıyor. Bir süre sonra soruyor: “Hocam, siz neden evlenmediniz?”",
+"Bu soruyu köyde herkes merak eder ama kimse sormaz. Bir çocuk sorar. “Bilmiyorum,” diyorsun. “Belki geç kaldım.” Ali düşünüyor. “Çocuğunuz olsaydı,” diyor, “onu da vurabilirlerdi. İyi ki yok.”",
+"On iki yaşında bir çocuğun bir cümlesi. İçinde bir köyün bütün aklı var.",
+"Sonra başka bir soru: “Selim ağabey öldü ya. Şimdi cennette mi? Orada Rıza ağabeyimi affeder mi? Ölüler affedebilir mi?”",
+"Cevabını bilmediğin bir soru. Ama bir çocuğa cevapsız bir soruyla uyumayı öğretmek mi, yoksa bir cevap uydurmak mı daha doğru?",
+"Ali başını yastığa gömüyor. Sesi boğuk: “Ben kimseyi öldürmedim hocam. Neden beni öldürsünler?”",
+"Sobanın ateşi çıtırdıyor. Dışarıda bir köpek havlıyor, sonra susuyor. Bütün köy uyuyor, ya da uyuyor gibi yapıyor."
+], secenekler: [
+{ t: "“Ölüler affedemez Ali. Affetmek yaşayanların işi. Bu yüzden zor,” dersin.", to: "k4", etki: { merhamet: 1, ali_ders: true } },
+{ t: "“Selim ağabey çoktan affetti,” dersin. Bir çocuk uyuyabilsin diye.", to: "k4", etki: { merhamet: 1, ali_teselli: true } },
+{ t: "“Seni kimse öldürmeyecek. Ben buradayım,” dersin. Tutamayacağın bir söz.", to: "k4", etki: { merhamet: 1, ali_soz: true } },
+{ t: "“Bunun cevabını bilmiyorum,” dersin. Yanına oturup uyuyana kadar beklersin.", to: "k4", etki: { adalet: 1 } }
+]},
+
+kb_kahve: { saat: "Kasım 1994", baslik: "Kahvehane", metin: [
+"Akşam kahvehanedesin. Köyün tek kahvesi: bir oda, altı masa, bir soba, duvarda bir televizyon ki yalnızca tek kanal çeker. Erkekler okey oynuyor. Ya da oynuyormuş gibi yapıyor; taşlar uzun süre masada bekliyor.",
+"Seni görünce bir masa yer açıyor. Kayaların akrabaları. Çay geliyor. Konuşma, sen yokmuşsun gibi devam ediyor; ya da tam da sen duyasın diye.",
+"“Cemal cuma günü yapacak,” diyor biri. “Cuma namazından sonra. Hacı Murat öyle istemiş. Kan cuma günü alınırsa sevabı olurmuş.” Bir başkası gülüyor. “Sevap mı? Hacı Murat kırk yıl önce de cuma günü almıştı.”",
+"Masalar arasında bir boşluk var. Odanın köşesinde, tek başına, Osman Demirci oturuyor. Rıza'nın babası. Önünde soğumuş bir çay. Kimse ona bakmıyor; kimse onunla konuşmuyor; ama kimse de onu dışarı çıkarmıyor. Kahvede herkesin hakkı vardır. Bu köyün kuralları kadar, bu köyün nezaketi de eski.",
+"Osman Demirci seni görüyor. Bir an göz göze geliyorsunuz. Sonra o bakışı çeviriyor; senden bir şey beklemekten utanır gibi.",
+"Taraf olmamak istemiştin. Ama bu odada iki taraf var ve sen bir masaya oturdun; masanın hangisi olduğunu herkes gördü.",
+"Televizyonda haberler. Başka bir yerde, başka bir savaş. Kimse izlemiyor."
+], secenekler: [
+{ t: "Kalkıp Osman Demirci'nin masasına geçersin.", to: "k4", etki: { merhamet: 1, osman_masa: true } },
+{ t: "Masadakilere yüksek sesle söylersin: “Bunu bilip susan herkes ortaktır.”", to: "k4", etki: { adalet: 1, kahve_cikis: true } },
+{ t: "Susarsın ve dinlersin. Cuma. Namazdan sonra. Bunu bilmek bir şeydir.", to: "k4", etki: { cuma: true } },
+{ t: "Kalkıp doğruca Hacı Murat'ın kapısına gidersin.", to: "k4", etki: { gelenek: 1, murata_gitti_erken: true } }
+]},
+
+kb_murat: { saat: "Şubat 1995", baslik: "Son Çay", metin: [
+"Savcı gelmeden bir gün önce Hacı Murat seni çağırtıyor. Bir çocuk kapına geliyor: “Hacı dede seni bekliyor.”",
+"Oda aynı. Saat, askı, loş ışık. Ama Hacı Murat değişmiş; bir kış ona on yıl eklemiş. Çayı bu kez kendisi koyamıyor; elleri titriyor, gelini koyuyor.",
+"“Yarın savcıya her şeyi anlatacakmışsın,” diyor. Soru değil. Köyde hiçbir şey sır kalmaz.",
+"“Evet,” diyorsun.",
+"Uzun süre susuyor. Sonra: “O zaman bir şey daha anlat. Elli ikide vurduğum adam. Babamın katili diye vurduğum adam.” Sesi kırılıyor. “O değildi. Kardeşiydi babamı vuran. Ben yanlış kardeşi vurdum. On dokuz yaşındaydım, karanlıktı, ikisi birbirine benzerdi. Kırk iki yıl kimseye söylemedim.”",
+"Pencereden dışarı bakıyor. “Kan yerde kalmaz dedim. Benim döktüğüm kan kırk iki yıldır yerde. Kimse almadı onu. Çünkü kimse bilmiyordu. Şimdi sen biliyorsun.”",
+"Bir adam ömrünün sonunda sana bir yük veriyor. Ve bu yükü ne yapacağını, ona sormadan karar vermen gerekiyor."
+], secenekler: [
+{ t: "“Bunu da yazdıracağım,” dersin. Kırk iki yıllık bir hakikat de bir dosyaya girer.", to: "t3", etki: { adalet: 1, murat_itiraf: "yazdi" } },
+{ t: "“Bu sizin günahınız. Benim değil. Allah'a anlatın,” dersin.", to: "t3", etki: { gelenek: 1, murat_itiraf: "sakla" } },
+{ t: "“Vurduğunuz adamın ailesi yaşıyor mu?” diye sorarsın.", to: "t3", etki: { merhamet: 1, murat_itiraf: "aile" } },
+{ t: "Hacı Murat'ın elini tutarsın. Bu adam ilk kez birinin elini tutmasına izin veriyor.", to: "t3", etki: { merhamet: 1, murat_itiraf: "el" } }
+]},
+
+kb_imam: { saat: "Şubat 1995", baslik: "İmam", metin: [
+"Hiçbir şey anlatmamaya karar verdin. Ama kararın ağırlığını tek başına taşıyamıyorsun. Akşam namazından sonra camiye gidiyorsun.",
+"İmam Halil Efendi altmış yaşında, köye senden beş yıl önce gelmiş. İkiniz bu köyün iki yabancısısınız; biri çocukları, biri ölüleri yönetir. Yıllardır birbirinize saygı duyarsınız ama hiç dost olmadınız.",
+"Caminin avlusunda, çeşmenin başında oturuyorsunuz. Anlatıyorsun: savcıyı, susmayı, nedenini.",
+"İmam dinliyor. Sonra abdest suyunu bir avucuna alıp yere döküyor. “Allah her şeyi bilir,” diyor. “Mahkeme bilmese de. Bu bazen bir teselli, bazen bir tehdit. Hangisi olduğunu insan kendi kalbinden anlar.”",
+"Bir süre susuyor. “Ben de susuyorum, biliyor musun? Yirmi yıldır bu köyde. Kimin kimi vurduğunu, kimin kızını kime verdiğini, kimin kimden kan aldığını biliyorum. Cenazelerini kıldırıyorum. Hiçbirini savcıya söylemedim.” Başını sana çeviriyor. “Ben kendime şunu söylüyorum: ben bir imamım, bir tanık değil. Sen kendine ne söylüyorsun?”",
+"Avluda karanlık. Minarenin ışığı yanıyor."
+], secenekler: [
+{ t: "“Ben bir öğretmenim. Öğretmenler susmaz,” dersin ve fikrini değiştirirsin.", to: "t3", etki: { adalet: 1, ifade: "kismi", imam_dondu: true } },
+{ t: "“Ben bir yabancıyım. Bu köyün kararlarını ben veremem,” dersin.", to: "t3", etki: { gelenek: 1 } },
+{ t: "“Siz de konuşun Halil Efendi. Birlikte,” dersin.", to: "t3", etki: { adalet: 1, imama_teklif: true } },
+{ t: "Cevap vermezsin. Abdest alıp namaza durursun; yıllardır ilk kez.", to: "t3", etki: { merhamet: 1, namaz: true } }
+]},
+
 /* ---------- SULH KOLU ---------- */
 s1: { saat: "Aralık 1994", baslik: "Kızın Yerine", metin: [
 "“Kız verilmez,” dedin. Avlu sustu. Ağa kaşlarını kaldırdı. Osman Demirci yere baktı; kızını kurtardığın için minnet mi, onu utandırdığın için öfke mi, belli değil.",
 "Hacı Murat ayağa kalkıyor. “Kız yoksa sulh yok,” diyor. “Para bir ölünün bedeli değil. Kız gelirse kan karışır, kan karışınca kan dökülmez. Bu eskiden beri böyle.”",
+"Şeyh Ömer tespihini durduruyor. Avlu daha da sessizleşiyor. Bu dağlarda kızsız bağlanan sulhler görülmemiş değil ama nadir. Kız, iki aile arasında yaşayan bir rehine gibidir: kanı karışır, çocukları iki aileden olur, kimse kendi torununun dayısını vurmaz. Bu düzenin bir mantığı var. Korkunç, ama işleyen bir mantık.",
 "Tam o sırada avlunun kenarından bir ses. Kadınların arasından. Hatun.",
 "“Kız istemem.”",
 "Meclislerde kadınlar konuşmaz. Herkes donup kalıyor. Hatun bir adım öne çıkıyor; başörtüsü kaymış, umursamıyor.",
@@ -133,6 +209,7 @@ P(S("s1B"), "Sürgün teklifini ağa beğendi. Hacı Murat itiraz etmedi. Rıza'
 P(S("s1C"), "Ağa güldü. “Devlet ve töre bir arada,” dedi. “Hem yatsın hem ödesin.” Hacı Murat düşündü, düşündü. Sonra başını salladı. Bir adam hem mahkemeye hem meclise borçlu olacak."),
 P(S("s1D"), "Sustun. Hatun Hanım bekledi; seni, birilerini. Sonra kendi başına devam etti: “Bedel ödensin. Kız yok. Kan da yok.” Ve ağa, şaşırtıcı biçimde, kabul etti. Bir kadının tek başına kazandığı bir şey."),
 "Bir hafta sonra cami avlusunda yemin. Kur'an'ın üzerine iki el: Hacı Murat ve Osman Demirci. Sonra gençlerin el sıkışması gerekiyor: Cemal ve Demircilerden biri.",
+"Yemin günü köyün bütün erkekleri avluda. Kadınlar duvarın dibinde, çocuklar damlarda. Şeyh Ömer Kur'an'ı yeşil bir örtünün içinden çıkarıyor, iki eliyle kaldırıyor. Tören yavaş, ağır; her hareketi yüzyıllar öncesinden gelen bir sıraya göre. Bu sıranın içinde bir yerde durduğunu fark ediyorsun; öğretmen olarak değil, tanık olarak.",
 "Osman Demirci elini uzatıyor. Cemal bakıyor. Bir saniye. İki saniye. Avlu nefesini tutmuş.",
 "Cemal elini sıkmıyor. Dönüyor ve avludan çıkıyor. Kapıdan çıkarken sana bakıyor; bir şey söylemek ister gibi ya da senden bir şey bekler gibi.",
 "Hacı Murat'ın sesi arkadan: “Gençtir. Geçer.” Kimse inanmıyor."
@@ -147,6 +224,7 @@ s3: { saat: "Ocak – Mart 1995", baslik: "Ilık Barış", metin: [
 P(S("s2B"), "Cemal o gece eve dönmedi. Ertesi gün döndü. Kimseye bir şey söylemedi. Köy rahatladı; ya da rahatlamış gibi yaptı."),
 P(S("s2C"), "Hacı Murat dinledi. “Ben ona tüfek verdim,” dedi. “Şimdi tüfeği nasıl geri alacağımı bilmiyorum. Kırk yıl önce benden de kimse geri alamadı.” Yine de o akşam Cemal'i odasına çağırdı. Ne konuştuklarını kimse bilmiyor."),
 "Kış geçiyor. Sulh tutuyor. Rıza'nın adı köyde anılmıyor. Ali derse dönüyor; ilk hafta kimseyle konuşmuyor, ikinci hafta konuşuyor.",
+"Köy yavaş yavaş eski hâline dönüyor, ya da dönmüş gibi yapıyor. Kahvede iki ailenin erkekleri aynı masada oturmuyor ama aynı odada oturuyor; bu da bir şey. Düğünlerde birbirlerine davetiye gönderiyorlar ve gitmiyorlar; bu da bir şey. Kan davası bir yangınsa, sulh yangının sönmesi değil, közlerin üstüne kül örtülmesi. Közler orada. Herkes biliyor.",
 "Cemal okulu bırakıyor. Şehre, bir inşaata işçi olarak gidiyor. Gitmeden önce okulun önünden geçiyor, durmuyor.",
 "Bir mart sabahı postacı bir mektup getiriyor. İçinde bir kâğıt, el yazısı tanıdık: “Büyüyünce ne olacağım.” İki yıl önce yazdığı kompozisyon. Sen saklamıştın; nasıl onda? Sonra hatırlıyorsun: aylar önce, o gece, sobanın yanında, çekmeceyi açmıştın.",
 "Kâğıdın arkasına yeni bir cümle eklenmiş: “Hiçbir şey olamadım hocam. Ama katil de olmadım. Bu yeter mi?”",
@@ -162,6 +240,7 @@ P(S("s2C"), "Hacı Murat dinledi. “Ben ona tüfek verdim,” dedi. “Şimdi t
 d1: { saat: "Aralık 1994", baslik: "Karakol", metin: [
 "“Bu meclisin hiçbir yasal değeri yok,” dedin. Ağa yüzünü buruşturdu. Hacı Murat ayağa kalktı ve hiçbir şey söylemeden avludan çıktı. Meclis dağıldı.",
 "Akşam karakoldasın. Teğmen Ercan yirmi altı yaşında, buraya üç ay önce gelmiş. Masasında bir harita, bir çay, bir yorgunluk.",
+"Karakol köyden on iki kilometre uzakta, bir tepenin üstünde, tel örgülerle çevrili. Kapıdaki nöbetçi er seni tanıyor; geçen yıl kardeşinin okul kaydı için gelmişti. “Hocam, hayırdır?” diyor. Hayırdır. Bu köyden jandarmaya gelen kimse hayır için gelmez.",
 "“Öğretmenim,” diyor, “bu köylerde biz yalnızca cesetleri sayarız. Kimse konuşmaz. Siz konuşmaya geldiyseniz, ilk sizsiniz.”",
 P(function(d){ return d.kacirdi; }, "Rıza'nın kaçtığını biliyorsun; parayı sen verdin. Teğmene bunu söylersen kendini de suçlarsın. Söylemezsen, borç Ali'nin omzunda kalır."),
 P(function(d){ return !d.kacirdi; }, "Rıza'nın kulübesini biliyorsun. Teğmen haritayı sana doğru çeviriyor. Bir parmak uzunluğunda bir yayla. Bir parmak, bir hayat."),
@@ -180,6 +259,7 @@ P(S("d1B"), "Teğmen kabul etti. Yaylaya birlikte çıktınız. Rıza seni gör�
 P(S("d1C"), "Teğmen not aldı. “Koruma,” dedi, “bir erle bir cip. Bir hafta.” Bir hafta. Kan davası kırk yıl sürer."),
 P(S("d1D"), "Sabah yaylaya çıktın. Rıza'yı ikna etmen iki saat sürdü. Karakola birlikte yürüdünüz. Kimse görmedi, herkes duydu. Akşam köyde adın değişmişti."),
 "Köyde rüzgâr döndü. Hacı Murat'ın kapısı sana kapalı. Kahvede selam alan yok. Zehra Demirci bile, oğlunu sen teslim ettiğin için mi kurtardığın için mi, sana bakamıyor.",
+"Bir sabah okulun kapısına bir kâğıt iliştirilmiş: el yazısı, imzasız, tek kelime. Muhbir. Kâğıdı indiriyorsun, katlıyorsun, cebine koyuyorsun; çocuklar gelmeden. Ama çocuklar zaten biliyor. O gün sınıfın yarısı derse gelmiyor, gelenler sana bakmıyor. Bir öğretmenin bir köyde kaybedebileceği en ağır şey: çocukların bakışı.",
 "Bir akşam Cemal okulun önünde bekliyor. Gözleri kızarık.",
 "“Devlet aldı onu,” diyor. “Benim kanımı devlet aldı. On yıl, belki sekiz. Çıkacak. Ben burada, ağabeyimin mezarının yanında, onu bekleyeceğim. Her gün.” Bir an susuyor. “Ya da beklemem. Demircilerin bir erkeği daha var.”",
 "Ali. On iki yaşında. Yarın sabah dokuzda sınıfta olacak."
@@ -196,6 +276,7 @@ P(S("d2B"), "Teğmen yorgundu. “Bir çocuğu ne kadar koruyabilirim?” dedi. 
 P(S("d2C"), "Sabaha kadar konuştunuz. Cemal ağladı, sonra öfkelendi, sonra yine ağladı. Şafakta “Bilmiyorum,” dedi. “Ne yapacağımı bilmiyorum.” Bu, bir gece önceki “yapacağım”dan daha iyiydi."),
 P(S("d2D"), "Kapı açılmadı. Ama arkasından Hacı Murat'ın sesi geldi: “Git öğretmen. Sen yapacağını yaptın. Biz de yapacağımızı yapacağız.”"),
 "Bir ocak sabahı, ikinci dersin ortasında, sınıfın kapısı açılıyor. Cemal. Montunun altında o ağır, uzun şey.",
+"Sınıfın penceresinden karlı dağ görünüyor. Çocukların nefesi buğu olup camlara yapışıyor. Sobanın üstünde bir çaydanlık, yanında kurumaya bırakılmış eldivenler. Sıradan bir sabah. Felaketler hep sıradan sabahlarda gelir; çünkü sıradan sabahlar, kimsenin hazırlıklı olmadığı sabahlardır.",
 P(function(d){ return !d.ali_gitti; }, "Ali üçüncü sırada. Kalemini bırakmış. Kımıldamıyor. Diğer çocuklar donmuş; biri ağlamaya başlıyor."),
 P(function(d){ return d.ali_gitti; }, "Ali'nin sırası boş. Cemal sıraya bakıyor, sonra sana. “Nerede?” diyor. Sesi sakin; bu sakinlik her şeyden korkutucu."),
 "Cemal tüfeği çıkarıyor. Elleri titriyor. Sana bakıyor. Bir öğrencinin öğretmenine baktığı gibi; ve bir katilin kurbanına bakmaya hazırlandığı gibi.",
@@ -211,6 +292,7 @@ P(function(d){ return d.ali_gitti; }, "Ali'nin sırası boş. Cemal sıraya bak�
 g1: { saat: "Aralık 1994", baslik: "Gül", metin: [
 "Sustun. Ağa bekledi, sonra sustuğunu bir onay sayarak başını salladı. Sulh kabul edildi. Para, iki tarla ve bir kız.",
 "O gece okulun kapısı yine çalınıyor. Bu kez Gül. On altı yaşında, şalını yüzüne sarmış. Babasının evinden gizlice çıkmış.",
+"Gül'ü en son iki yıl önce sınıfta gördün; ilkokulu bitirdiği gün. Ortaokul için şehre gitmesine babası izin vermemişti. O gün sana kompozisyon defterini vermişti: “Hocam siz saklayın, evde atarlar.” Defter hâlâ çekmecende, Cemal'in kompozisyonunun yanında. İki çocuğun hayalleri aynı çekmecede, yan yana.",
 "Sobanın yanına oturmuyor; ayakta duruyor. “Hocam, siz oradaydınız. Bir şey demediniz.”",
 "Sesi suçlamıyor. Bu daha kötü.",
 "“Ben öğretmen olmak istiyordum. Size yazmıştım. Siz de altına ‘Olacaksın’ yazmıştınız. Kırmızı kalemle.” Durakladı. “Şimdi bir ölünün kardeşiyle evleneceğim. Kanı temizlemek için. Ben bir sabun muyum hocam?”",
@@ -228,6 +310,7 @@ P(S("g1B"), "Osman Demirci seni dinledi, başını önüne eğdi. “Hocam,” d
 P(S("g1C"), "Anlattın: sulh olmazsa ne olacağını, kaç kişinin öleceğini, Ali'yi, Rıza'yı, kırk yıllık kan davalarını. Gül dinledi. Sonunda “Hesabı doğru, hocam,” dedi. “Ama hesapta ben yokum.”"),
 P(S("g1D"), "Cemal sana baktı. “İstiyor muyum?” dedi. “Kimse bana sormadı. Kimse ona da sormadı. İkimizi de satıyorlar, hocam. Biri kan için, biri barış için.”"),
 "Ocakta kına gecesi. Demircilerin evinde kadınlar türkü söylüyor; türküler sevinçli değil, ama sevinçli olmaları gerekiyor. Gül'ün avucuna kına yakılıyor. Gül avucuna bakıyor; sanki bir yarayı izler gibi.",
+"Sen de davetlisin; köyün öğretmeni her düğüne çağrılır. Kadınların tarafına geçemezsin; erkeklerle avluda, ateşin başında oturuyorsun. İçeriden türküler geliyor. Gelin evinden ayrılırken ağlar; bu bir gelenek. Bu gece kimse ağlamanın gelenekten mi, başka bir şeyden mi geldiğini ayırmaya çalışmıyor.",
 "Gece yarısı Cemal seni dışarıda yakalıyor. Biraz içmiş. “Hocam,” diyor, “yarın onu alacağım. Kimseye söylemeyin ama ben de korkuyorum. Ağabeyimin katilinin kardeşiyle her sabah uyanacağım.”",
 "“Dedem diyor ki zamanla alışırsın. Kırk yıl önce babaannemi de böyle almışlar. Bir başka kan için. Alışmış.” Bir süre susuyor. “Alışmak iyi bir şey mi hocam?”"
 ], secenekler: [
@@ -240,6 +323,7 @@ P(S("g1D"), "Cemal sana baktı. “İstiyor muyum?” dedi. “Kimse bana sormad
 g3: { saat: "Ocak 1995", baslik: "Gelin Arabası", metin: [
 P(S("g2C"), "Hacı Murat seni dinledi. Sonra bir şey yaptı: kalktı, duvardaki boş tüfek askısını çıkardı ve sana verdi. “Bunu sakla,” dedi. “Bu evde bir daha asılmasın.” Bir askı. Belki bir başlangıç."),
 "Düğün sabahı kar yağıyor. Demircilerin kapısında süslü bir minibüs. Davul zurna. Gül kırmızı bir duvağın altında, iki kadının kolunda, eşikte duruyor.",
+"Minibüsün ön camına bir ayna, bir kurdele, bir de nazar boncuğu bağlanmış. Şoför kasabadan gelmiş; bir düğün, o kadar. Davulcuyla zurnacı da kasabadan. Para alıp çalacak ve gidecekler. Bu sabah bu avluda bu düğünün ne anlama geldiğini bilmeyen tek insanlar onlar; ve en mutlu görünenler de onlar.",
 "Bütün köy orada. Hacı Murat, Osman Demirci, imam, ağa. Hatun Hanım kalabalığın en arkasında, yüzü kapalı.",
 "Gül bir an duvağın altından sana bakıyor. Göremiyorsun ama biliyorsun.",
 "Bir adım. Gül'ün ayağı minibüsün basamağında. Davul hızlanıyor.",
@@ -257,6 +341,7 @@ P(function(d){ return d.gul_kacti; }, "Gül'ü gece yarısı otobüse bindirdin.
 P(function(d){ return !d.gul_kacti; }, "Cemal'in peşinden avludan çıktın. Köyün son evini geçti, patikaya saptı. Yayla yolu. Elinde bir şey yok gibi; ama dere kenarındaki çalılığa eğildi ve doğrulduğunda omzunda tüfek vardı. Saklamış."),
 P(function(d){ return d.silah_sende && !d.gul_kacti; }, "Tüfeği ondan almıştın, battaniyelerin arasında hâlâ duruyor. Bu başka bir tüfek. Bir köyde bir tüfeği almak, tüfekleri bitirmiyor."),
 "Gece soğuk. Patika dar, taşlı. Ay bulutların arkasında, gidip geliyor. Önünde, elli adım ileride, Cemal'in gölgesi.",
+"Bu patikayı biliyorsun. On beş yıl önce, köye ilk geldiğin yaz, çocuklarla yaylaya çıkmıştın. Cemal o zaman iki yaşındaydı, ağabeyi Selim on bir. Selim en öndeydi, herkese yol gösteriyordu. Bir yerde durmuş, “Hocam, buradan bütün dünya görünür,” demişti. Şimdi o yerin önünden geçiyorsun. Karanlıkta hiçbir şey görünmüyor.",
 "Nefesin göğsünde yanıyor. Kırk yaşındasın; on yedi yaşında bir çocuğun peşinden dağa çıkmak için yaşlı, ona yetişmek için yavaş.",
 "Bir yerde patika ikiye ayrılıyor. Biri yaylaya, kulübeye. Biri dolanarak kulübenin arkasına, Cemal'den önce varabileceğin kestirme.",
 "Cemal bir an duruyor, dönüp arkasına bakıyor. Seni görüyor mu? Bilmiyorsun. Yeniden yürümeye başlıyor."
@@ -273,6 +358,7 @@ P(S("c1B"), "Sessizce izledin. Bir tanık olarak. Ne olacağını görmek, onu e
 P(S("c1D"), "Köye doğru koştun. Yarı yolda bir cipin farlarını gördün; kahvede birileri jandarmayı çoktan aramış. Cipe binip geri döndünüz. Yetişebilecek misiniz?"),
 P(function(d){ return d.uyardi; }, "Kulübeye ondan önce vardın. Rıza uyuyordu; seni görünce sıçradı. “Geliyor,” dedin. Rıza'nın yüzünden geçenleri hiç unutmayacaksın: korku, sonra bir tür rahatlama. Sonunda, diyordu yüzü. Sonunda."),
 "Kulübenin önünde Cemal. Tüfek omzunda, namlu kapıya dönük. Nefesi buhar olup havaya karışıyor.",
+"Ay bulutların arkasından çıkıyor. Kar her şeyi maviye boyuyor: kulübeyi, ağaçları, iki gencin yüzünü. Sessizlik o kadar derin ki Cemal'in nefesini duyabiliyorsun. Dağ, yüzyıllardır bu tür geceleri izlemiş gibi bekliyor.",
 "“Çık dışarı!” diye bağırıyor. Sesi çocuk sesi.",
 "Kapı açılıyor. Rıza çıkıyor. Elleri boş, başı açık. Karın ortasında duruyor.",
 "İki genç. Biri yirmi iki, biri on yedi. Biri kaza mı cinayet mi işlediğini bilmeyen; öbürü intikam mı borç mu ödediğini bilmeyen. Aralarında on adım, bir tüfek, kırk yıllık bir köy.",
@@ -291,6 +377,7 @@ P(S("c2C"), "Rıza diz çöktü. Karın içine. Ellerini birleştirdi. “Ağabe
 P(S("c2D"), "Kımıldamadın. Rüzgâr kulübenin tahtalarında ıslık çalıyor. Cemal sana bir an baktı; bir şey bekleyerek. Gelmeyince yüzü taşlaştı."),
 P(function(d){ return d.jandarma_yolda; }, "Aşağıdan bir motor sesi. Farlar ağaçların arasından geçiyor. Jandarma geliyor. Cemal sesi duyuyor; parmağı tetikte geriliyor. Zaman daralıyor."),
 "Dağda her şey çok yavaş. Karın düşüşü. Cemal'in nefesi. Rıza'nın kapalı gözleri.",
+"Bir an için her şeyi aynı anda görüyorsun: Hacı Murat'ın boş tüfek askısı, Hatun'un ağıdı, Zehra'nın ağzına bastırdığı başörtüsü, Ali'nin defterindeki kulübe resmi, meclisin minderleri. Hepsi bu ana akmış. Bu an, bir köyün kırk yılının toplamı. Ve tetik, on yedi yaşında bir çocuğun parmağının altında.",
 "Bu anda yapabileceğin tek bir şey daha var. Ne yaparsan yap, bu dağdan herkes aynı insan olarak inmeyecek."
 ], secenekler: [
 { t: "Cemal'e dönersin: “Önce beni. Beni vurmadan onu vuramazsın.”", to: "t1", etki: { merhamet: 1, sonuc: "baris", cemal_birakti: true } },
@@ -309,7 +396,8 @@ P(function(d){ return d.sonuc === "kan" && d.oyaladi; }, "Çocuklar arka kapıda
 P(function(d){ return d.sonuc === "kan" && !d.durdurdu && !d.oyaladi; }, "Tek bir silah sesi. Dağ yankıladı, sonra sustu. Rıza karın içinde, yüzüstü. Cemal tüfeği bıraktı ve oturdu, öylece, karın ortasında. Sabaha kadar kımıldamadı."),
 P(function(d){ return d.sonuc === "cemal"; }, "Jandarma yetişti. Bir uyarı, bir ikinci uyarı. Cemal tüfeği indirmedi; belki duymadı, belki duymak istemedi. Bir er ateş etti. Cemal on yedi yaşındaydı. Ağabeyinden dokuz yaş küçük, ağabeyinin yanına gömüldü."),
 P(function(d){ return d.sonuc === "yarali"; }, "Bir patlama. Önce ses, sonra sıcaklık, sonra karın kırmızısı. Saçmalar sol omzuna girdi. Cemal tüfeği attı ve senin üstüne kapandı, bağırarak, ağlayarak. Kimse ölmedi. Sen kanadın. Bu köyde ilk kez, kan bir yabancıdan aktı."),
-"Karaağaç'ta sabah. Kar dinmiş. Köyün üstünde bir sessizlik var, her şeyi biliyor ve hiçbir şey söylemiyor."
+"Karaağaç'ta sabah. Kar dinmiş. Köyün üstünde bir sessizlik var, her şeyi biliyor ve hiçbir şey söylemiyor.",
+"Köyün kadınları çeşmenin başında toplanmış; su doldurmuyorlar, yalnızca duruyorlar. Erkekler kahvede; kimse oyun oynamıyor, çaylar soğuyor. Çocuklar evlere kapatılmış. Bu sessizliği daha önce bir kez duymuştun: Selim'in öldüğü sabah. O zaman bir başlangıcın sessizliğiydi. Şimdi neyin sessizliği olduğunu kimse bilmiyor."
 ], secenekler: [
 { t: "Doğrudan Hacı Murat'ın evine gidersin.", to: "t2", etki: { gelenek: 1, murat_ev: true } },
 { t: "Demircilerin evine gidersin.", to: "t2", etki: { merhamet: 1, demirci_ev: true } },
@@ -327,14 +415,23 @@ P(function(d){ return d.sonuc === "kan" || d.sonuc === "cemal"; }, "Mezarlıkta 
 P(function(d){ return d.sonuc === "baris" || d.sonuc === "yarali"; }, "Mezarlıkta yeni bir mezar yok. Bu, bir şeyin bittiği anlamına mı geliyor, yoksa yalnızca ertelendiği mi? Köyün yaşlıları bilir; ve yaşlılar susuyor."),
 "Kasabadan bir savcı gelecek. İfaneni alacak. Bu köyde konuşan adamın adı bir daha düzgün anılmaz; konuşmayan adamın adı ise hiç anılmaz."
 ], secenekler: [
-{ t: "Savcıya her şeyi anlatmaya karar verirsin: meclisi, kızı, tüfeği veren eli.", to: "t3", etki: { adalet: 1, ifade: "tam" } },
+{ t: "Savcıya her şeyi anlatmaya karar verirsin: meclisi, kızı, tüfeği veren eli.", to: "kb_murat", etki: { adalet: 1, ifade: "tam" } },
 { t: "Yalnızca gördüğünü anlatmaya karar verirsin. Köyün yaşlılarını dışarıda tutarak.", to: "t3", etki: { gelenek: 1, ifade: "kismi" } },
 { t: "Cemal'i korumak için anlatacaklarını düzenlemeye karar verirsin.", to: "t3", etki: { merhamet: 1, ifade: "koru" } },
-{ t: "Hiçbir şey anlatmamaya karar verirsin. Bu köyün sessizliğine katılırsın.", to: "t3", etki: { gelenek: 1, ifade: "sessiz" } }
+{ t: "Hiçbir şey anlatmamaya karar verirsin. Bu köyün sessizliğine katılırsın.", to: "kb_imam", etki: { gelenek: 1, ifade: "sessiz" } }
 ]},
 
 t3: { saat: "Şubat 1995", baslik: "Savcı", metin: [
+P(S("kb_muratA"), "Hacı Murat başını salladı. “Yaz,” dedi. “Kırk iki yıl ağır geldi.” Savcıya anlattığında savcı kalemini bıraktı. “Bu dava zaman aşımına uğramış,” dedi. “Ama yazacağım.” Yazdı."),
+P(S("kb_muratB"), "“Allah'a anlattım,” dedi Hacı Murat. “Kırk iki yıl. Cevap vermedi.” Sustun. Sır, bir odadan bir başka odaya geçti; şimdi seninle birlikte savcının karşısında oturuyor."),
+P(S("kb_muratC"), "“Bir kızı vardı,” dedi Hacı Murat. “Şehre gitmiş. Yaşıyorsa altmışında.” Bir adres yoktu, bir ad vardı. Savcıya o adı da söyledin. Neden, bilmeden."),
+P(S("kb_muratD"), "Hacı Murat'ın eli kuru, kemikli, soğuktu. Bırakmadı. Kırk iki yıl sonra biri onun elini tutuyordu ve tutan, kan davasının hiçbir tarafından değildi."),
+P(S("kb_imamA"), "İmamın yanından kalktın. Fikrini değiştirdin; ama bir yarısını. Savcıya gördüğünü anlattın, yalnızca gördüğünü. Halil Efendi'nin sorusu bütün ifade boyunca kulağındaydı."),
+P(S("kb_imamB"), "“Bir yabancı,” dedi imam ve gülümsedi. “İkimiz de. Belki bu yüzden bu köy bizi tutuyor: kimseye tehlikeli değiliz.”"),
+P(S("kb_imamC"), "İmam uzun süre sustu. “Belki,” dedi. “Belki bir gün.” Ertesi gün savcı geldiğinde imam caminin kapısında duruyordu. Ama içeri girmedi."),
+P(S("kb_imamD"), "Namaz kıldın. Yıllardır ilk kez. Secdede alnın soğuk taşa değdiğinde bir şey hissettin; dua değil, bir tür teslimiyet. Bir köyün sessizliğine, bir dinin sessizliğiyle katıldın."),
 "Savcı otuzlarında, gözlüklü, aceleci. Okulun öğretmenler odasında, senin masanda oturuyor. Masada senin çay bardağın, senin kalemin.",
+"Kasabadan bir cip ile gelmiş, yanında bir zabıt kâtibi. Kâtip yaşlı, sessiz; daktiloyu sıranın üstüne koyuyor, kâğıdı takıyor ve bekliyor. Bu odada yüzlerce çocuğa yazı yazmayı öğrettin. Şimdi senin sözlerin bir daktiloyla bir dosyaya yazılacak. Yazının ağırlığını hiç bu kadar hissetmemiştin.",
 "“Öğretmen bey,” diyor, “bu köylerde kimse konuşmaz. Ama siz devlet memurusunuz. Sizden beklenen başka.”",
 P(function(d){ return d.ifade === "tam"; }, "Anlattın. Meclisi, ağayı, kızı, tüfeği veren eli, yemini, ağıdı. Savcı yazdıkça yüzü değişti. “Bu bir dosya değil,” dedi sonunda. “Bu bir köy.” Ama yazdı. Hacı Murat'ın adı da yazıldı."),
 P(function(d){ return d.ifade === "kismi"; }, "Gördüğünü anlattın. Yalnızca gördüğünü. Meclisi anlatmadın; ağanın, imamın, yaşlıların adını vermedin. Savcı bir şeylerin eksik olduğunu sezdi ama sormadı. Eksik bir gerçek, bütün bir yalandan daha mı iyi?"),
@@ -355,6 +452,7 @@ P(S("t3B"), "İmam dinledi. “Hutbe benim değil,” dedi, “müftülük yazar
 P(S("t3C"), "Hatun Hanım seni avluda karşıladı. Çay koydu. Selim'in bir fotoğrafını gösterdi, sonra bir başkasını. “Herkes intikamdan konuşuyor,” dedi. “Kimse Selim'den konuşmuyor. Sen konuş benimle. Onu anlat bana. Sınıfta nasıldı?”"),
 P(S("t3D"), "Kesirler, ikinci ünite. Bir bütün, eşit parçalar. Hazırlarken düşündün: bir köy eşit parçalara bölünebilir mi? Bölünürse hangi parça kimin?"),
 "Sınıfta boş sıralar var.",
+"Bahar geliyor. Karlar dağların tepesine çekilmiş, dere coşmuş, söğütler yeşermiş. Pencereden tarlalar görünüyor: Kayaların tarlası ile Demircilerin tarlası, aralarındaki su arkıyla. Bütün bu kışın başladığı ark. Bahar suyu iki tarlaya da eşit akıyor; su kimin olduğunu bilmiyor.",
 P(function(d){ return d.sonuc === "cemal"; }, "Cemal'in iki yıl önce oturduğu sıra. Kimse oturmuyor. Çocuklar sıranın çevresinden dolanıyor."),
 P(function(d){ return d.ali_gitti; }, "Ali'nin sırası. Ali şehirde, senin kız kardeşinin evinde, başka bir okulda. Sana bir mektup yazdı: “Hocam burada kar yağmıyor.”"),
 P(function(d){ return d.gelin; }, "Gül'ün kardeşi, sekiz yaşında, ablasının bir zamanlar oturduğu sırada. Ablasının adını defterine yazmış: Gül Kaya. Soyadı değişmiş."),
@@ -369,6 +467,7 @@ P(function(d){ return d.gelin; }, "Gül'ün kardeşi, sekiz yaşında, ablasın�
 
 t5: { saat: "Haziran 1995", baslik: "Tayin", metin: [
 "Haziran. Okul kapanıyor. Masanda bir zarf: Milli Eğitim'den. Şehre tayin talebin kabul edilmiş.",
+"Karne günü. Çocuklar karnelerini alıp koşarak çıkıyor; yaz, dağlar, yaylalar. Son çocuk da gidince sınıfı süpürüyorsun, sıraları siliyorsun, tahtayı temizliyorsun. Tahtanın köşesinde silmeyi unuttuğun tek bir kelime kalmış, bir çocuğun yuvarlak harfleriyle: “Barış.” Silmiyorsun.",
 "Bir talepte bulunduğunu hatırlamıyorsun. Ya da hatırlıyorsun: aralık ayında, bir gece, sobanın yanında, ellerin titrerken yazdığın bir dilekçe. Göndermediğini sanıyordun.",
 "On beş yıl. Köyün yirmi yaşın altındaki herkesi tanıyorsun. Yaşlılarını gömdün, bebeklerinin adını defterlere yazdın. Ve bu kış, bir kan davasının ortasında, hangi tarafta durduğunu bütün köy gördü. Ya da durmadığını.",
 "Gidersen kaçmış olursun. Kalırsan, bundan sonra her kış, aynı soruyla uyanacaksın: bir sonraki kan ne zaman?",

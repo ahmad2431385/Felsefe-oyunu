@@ -19,6 +19,7 @@ sahneler: {
 i1: { baslik: "Gösterim Günü", metin: [
 "Işıl'da sabahlar hep güneşli. Kışın bile. Bahçelerde erik, ayva, nar; aynı ağaçta, aynı anda. Kimse bunun neden böyle olduğunu sormaz, çünkü sorulmadan önce cevap verilmiştir.",
 "Bugün on sekiz yaşına basıyorsun. Adın Deren. Meydanda senin yaşındaki on iki genç için şenlik kuruldu: çiçekler, müzik, bal kokulu ekmekler. Bu akşam, saat kulesinin altına ineceksiniz. Gösterim.",
+"Işıl'da on sekiz yaş bir eşiktir. O güne kadar çocuklar hiçbir şey bilmez; ya da bildiklerini bilmezler. Büyüklerin bakışlarındaki gölgeyi, bazı akşamlar sofrada uzayan sessizlikleri, kulenin önünden geçerken hızlanan adımları görürler ama adını koyamazlar. Gösterim, adı koyduğun gündür. Ondan sonra artık çocuk değilsin; çünkü artık suçsuz değilsin.",
 "Herkes oraya iner. Herkes bir şey görür. Ve herkes geri çıktığında biraz daha sessizdir. Sonra geçer. Işıl'da her şey geçer.",
 "Annen Nermin sabahtan beri mutfakta. Yüzün aydınlık değil; Işıl'da bu bir tuhaflık. Kardeşin Umut yedi yaşında, masanın altında oynuyor. Doğduğunda solgundu; kanı bir türlü kırmızıya dönmüyordu. Şehrin ışığı onu iyileştirdi. Şehir dışında, diyor doktorlar, bir yıl yaşamazdı.",
 "Annen sana şenlik elbiseni uzatırken elin eline değiyor. Soğuk.",
@@ -36,6 +37,7 @@ P(S("i1B"), "Şenlikte dans ettin, güldün, bal kokulu ekmek yedin. Bir an her 
 P(S("i1C"), "Ozan Hoca kapıyı açtı, seni görünce başını salladı. “Hiçbir şey söylemeyeceğim,” dedi. “Söylersem, göreceğin şey benim gördüğüm olur. Sen kendi gördüğünü gör. Sonra gel.”"),
 P(S("i1D"), "Umut sana bir resim gösterdi: kule, kulenin altında bir ev, evin içinde gülümseyen bir yüz. “Orada kim oturuyor?” dedi. “Herkes oraya gidip dönünce susuyor.” Bilmiyorsun, dedin. Bilmiyordun."),
 "Kulenin altında dar bir merdiven. Rutubet, küf, ve başka bir koku; insan kokusu. Bekçiler fenerle önden iniyor. On iki genç, tek sıra.",
+"Kırk iki basamak. Her biri bir öncekinden daha soğuk. Duvarlarda eski yazılar var; tırnakla, taşla kazınmış isimler, tarihler. Yüzlerce yılın on sekiz yaşındaki gençleri buradan inmiş ve bazıları bir iz bırakmış. Bir yerde, çok silik: “Gördüm. Affet.” Kimin yazdığını kimse bilmiyor.",
 "Merdivenin sonunda demir bir kapı. Kapının ortasında küçük bir pencere. Sırayla bakıyorsunuz. Senin sıran.",
 "İçeride bir çocuk var. Dokuz yaşında belki, belki daha büyük; o kadar zayıf ki yaşı belli değil. Çıplak bir zeminde oturuyor, dizlerini göğsüne çekmiş. Gözleri feneri görünce kısılıyor. Işığa alışkın değil.",
 "Bekçi kuralı fısıldıyor, her gence fısıldadığı gibi: “Konuşma. Dokunma. Teselli etme. Bir tek söz, şehrin bütün ışığını söndürür.”",
@@ -53,6 +55,7 @@ P(S("i2B"), "Fısıldadın. Çocuğun gözleri büyüdü. Ağzını açtı ama b
 P(S("i2C"), "Pencereden çekildin. Gözyaşların yanaklarını yaktı. Bekçi omzuna dokundu, “Geçer,” dedi. Kibar, alışkın bir ses. Kaç gencin ağladığını görmüştü ve kaç gencin ağlamayı bıraktığını."),
 P(S("i2D"), "Sonuna kadar baktın. Çocuğun dizindeki yara, saçının rengi, sol kaşının üstündeki iz. Bekçi seni çekmek zorunda kaldı. Bu yüz artık senin içinde. Bir yüzü ezberlemek, bir sorumluluğu ezberlemek gibi."),
 "Merdivenleri çıkarken kimse konuşmuyor. Kulenin dışında gece, yıldızlar, bal kokusu. Şehir her zamanki kadar güzel. Bu güzellik şimdi bir şey söylüyor.",
+"Yukarıda, kulenin kapısında, aileler bekliyor. Her yıl olduğu gibi. Anneler, babalar, büyükanneler. Çıkan gençlere sarılıyorlar, bir şey sormadan. Bu sarılmanın ne anlama geldiğini artık biliyorsun: hoş geldin, artık sen de bizdensin. Artık sen de susanlardansın.",
 "Gençler küçük gruplara ayrılıyor. Defne sinirli sinirli gülüyor: “Abartıyorlar, eminim o çocuk orada mutludur bir bakıma.” Berk yere bakıyor: “Bir çocuk. Ve bütün bir şehir. Hesap ortada.” Kaan merdivenin dibinde oturmuş, kusuyor.",
 "Bir saat önce hepiniz aynı şeyi gördünüz. Şimdi her biriniz başka bir şey söylüyor; söylediğiniz şey, kim olacağınızı belirliyor."
 ], secenekler: [
@@ -64,6 +67,7 @@ P(S("i2D"), "Sonuna kadar baktın. Çocuğun dizindeki yara, saçının rengi, s
 
 i3: { saat: "Gece", baslik: "Bekçi", metin: [
 "Eve vardığında annen mutfakta. Seni bekliyor. İki bardak ıhlamur.",
+"Mutfak her zamanki gibi: bakır tencereler, kurutulmuş otlar, pencerenin önünde bir saksı fesleğen. Işıl'ın her mutfağı böyle; sıcak, dolu, huzurlu. Bu huzurun nereden geldiğini bu akşam öğrendin. Şimdi aynı mutfak sana bir sahne gibi görünüyor; içinde oynanan oyunun ne olduğunu artık bilen bir seyirci olarak bakıyorsun.",
 P(function(d){ return d.fisildadin; }, "Yüzüne bakar bakmaz anlıyor. “Konuştun,” diyor. Soru değil. Sesi korkmuş değil; yorgun. “Fener titredi, değil mi? Hep titrer. Kimse bilmiyor neden.”"),
 "“Ben bekçiyim,” diyor. “On iki yıldır. Her sabah o kapıya ekmek ve su bırakıyorum. Tek kelime etmeden. On iki yıl.”",
 "Bardağını iki eliyle tutuyor. “İlk yıl her gece ağladım. İkinci yıl ağlamadım ve kendimden nefret ettim. Üçüncü yıl nefret etmeyi de bıraktım. Bir şeye alışmak, onu anlamaktan daha korkunç.”",
@@ -72,17 +76,26 @@ P(function(d){ return d.fisildadin; }, "Yüzüne bakar bakmaz anlıyor. “Konu�
 "Masanın altında Umut uyuyor. Yanakları pembe. Bu pembeliğin nereden geldiğini artık biliyorsun."
 ], secenekler: [
 { t: "Annene sarılırsın. Onu yargılayamazsın.", to: "i4", etki: { vicdan: 1, sarildi: true } },
-{ t: "“Bunu bana nasıl yaşattın?” dersin.", to: "i4", etki: { isyan: 1, ofke: true } },
+{ t: "“Bunu bana nasıl yaşattın?” dersin.", to: "is_gece", etki: { isyan: 1, ofke: true } },
 { t: "“Doğru olanı yaptın,” dersin. Umut yaşıyor.", to: "i4", etki: { fayda: 1 } },
-{ t: "Hiçbir şey söylemeden Umut'un yanına uzanırsın.", to: "i4", etki: { vicdan: 1 } }
+{ t: "Hiçbir şey söylemeden Umut'un yanına uzanırsın.", to: "is_ruya", etki: { vicdan: 1 } }
 ]},
 
 i4: { saat: "Birkaç gün sonra", baslik: "Gidenler", metin: [
+P(S("is_geceA"), "“Yetişkin olmak,” diye tekrarladı Kaan ve güldü; gülüşü bir öksürüğe dönüştü. Sabaha karşı ikiniz de evlerinize döndünüz."),
+P(S("is_geceB"), "Kaan sana baktı. “Ne yapalım?” dedi. Bilmiyordun. Ama o gece, çeşmenin başında, iki kişi aynı şeyi bilmediğini kabul etti. Bu da bir başlangıçtı."),
+P(S("is_geceC"), "Sabaha kadar oturdunuz. Konuşmadan. Güneş doğduğunda Kaan kalktı, “Teşekkür ederim,” dedi ve gitti. Neye teşekkür ettiğini ikiniz de bilmiyordunuz."),
+P(S("is_geceD"), "“Bir ay,” dedi Kaan. Başını salladı. Bir ay sonra gerçekten unutmuş gibiydi. Sen hâlâ hatırlıyordun; ve unutmasını önerdiğin için kendini affedemiyordun."),
+P(S("is_ruyaA"), "Annen rüyanı dinledi. Yüzü bembeyaz oldu. “Ben de görüyorum o rüyayı,” dedi. “On iki yıldır. İçeride olan hep ben oluyorum.”"),
+P(S("is_ruyaB"), "Rüyayı unutmaya çalıştın. Gün boyunca. Ama akşam, kulenin saati çaldığında, pencerede kendi yüzünü gördüğün an geri geldi."),
+P(S("is_ruyaC"), "O yüz olmamaya karar verdin. Ama nasıl? Bir kararın içi, eylemle dolana kadar boştur."),
+P(S("is_ruyaD"), "Umut uyandı, şaşkın. “Abla, ne oldu?” Bir şey olmadı, dedin. Ama onu bırakmadın. Umut da sormadı; Işıl'ın çocukları erken öğrenir."),
 P(S("i3A"), "Annen sarılmana önce şaşırdı, sonra bırakmadı. Uzun süre. On iki yılın ilk sarılması gibi."),
 P(S("i3B"), "Annen bir şey söylemedi. Kalktı, bardakları yıkadı. Arkası sana dönüktü. Omuzları titriyordu ama sesi çıkmadı; on iki yıldır sesini çıkarmamayı öğrenmişti."),
 P(S("i3C"), "Annen sana baktı. “Doğru mu?” dedi. “Ben de öyle söylüyorum kendime. Her sabah. Doğru olanı yaptım. Söyle bana Deren: o zaman neden her sabah söylemem gerekiyor?”"),
 P(S("i3D"), "Umut uykusunda koluna sarıldı. Nefesi düzenliydi. Bir şehrin bütün ağırlığı, yedi yaşında bir çocuğun düzenli nefesinin üstünde duruyordu."),
 "Birkaç gün sonra Ozan Hoca'nın evinin önünden geçiyorsun. Kapı açık, içerisi boşaltılmış. Ozan Hoca bahçede, sırt çantasıyla.",
+"Ozan Hoca sana okumayı öğretmişti. Sonra tarihi, sonra şiiri. Bir gün sınıfta “İyilik nedir?” diye sormuştu ve kimse cevap verememişti. Sonra kendisi cevaplamıştı: “İyilik, kimse görmediğinde de yaptığın şeydir.” O zaman güzel bir cümle gibi gelmişti. Şimdi Işıl'da kimin neyi, kimse görmediğinde yaptığını düşünüyorsun.",
 "“Gidiyorum,” diyor. “Bu gece. Kuzey kapısından.”",
 "Işıl'da her yıl birkaç kişi gider. Gösterimden günler, bazen yıllar sonra. Bir sabah kalkarlar ve kuzey kapısından çıkıp yürürler. Geri dönmezler. Nereye gittiklerini kimse bilmez. Şehrin dışında ne olduğunu kimse bilmez; bilmek istemez.",
 "“Kırk yıldır bu şehirde öğretmenim,” diyor Ozan Hoca. “Kırk yıl boyunca çocuklara iyiliği öğrettim. Sonra onları o merdivenden indirdim. Artık yapamıyorum. Gel benimle, Deren. Umut'u da al.”",
@@ -101,6 +114,7 @@ P(S("i4B"), "Ozan Hoca sana uzun süre baktı. “Haklısın,” dedi. “Gitmek
 P(S("i4C"), "Ozan Hoca başını salladı. “Umut için,” dedi. “Herkesin bir Umut'u var. Bu şehir bu yüzden ayakta.” O gece gitti."),
 P(S("i4D"), "Annen dinledi, sonra omuz silkti. “Gidenler de bizim gibi,” dedi. “Yalnızca bakmayı bıraktılar. Bırakmak, bakmaktan kolay.” Ozan Hoca o gece gitti. Kimse durdurmadı. Işıl'da kimse kimseyi durdurmaz."),
 "Bir gece uyuyamıyorsun. Kalkıp kuleye yürüyorsun. Bekçi yok; gece nöbeti yok, çünkü kimse inmez. Merdivenler karanlık.",
+"Gösterimden bu yana uykuların değişti. Eskiden yatağa uzanır uzanmaz uyurdun; Işıl'ın bütün çocukları öyle uyur. Şimdi tavana bakıyorsun. Saatlerce. Kulenin saati her çaldığında sayıyorsun. Bir. İki. Üç. Her saat, bir çocuğun karanlıkta geçen bir saati.",
 "Demir kapının önüne geliyorsun. İçeriden bir ses: bir şarkı. İnce, kırık, kelimeleri yarım.",
 "Tanıyorsun. Bu Işıl'ın ninnisi. Annen sana bu ninniyi söylerdi; sen Umut'a söylüyorsun. “Uyu güzel kuzum, ay doğdu ışığa...”",
 "Çocuk onu nereden biliyor? Kim söyledi ona? Belki biri, yıllar önce, bu kapının önünde, kuralı çiğneyip bir şarkı mırıldandı. Belki annen. Belki kimse; belki şehrin ninnisi duvarlardan sızıyor.",
@@ -118,6 +132,7 @@ P(S("i5B"), "Kapının dibinde oturdun. Çocuk şarkıyı on kez denedi, on kez 
 P(S("i5C"), "Ekmeği kapının altından ittin. İçeriden hiçbir ses gelmedi. Sonra, çok uzun bir sessizlikten sonra, kâğıt hışırtısı. Bir çocuğun bal kokulu bir ekmeği ilk kez kokladığını hayal ettin. Kural “teselli etme” diyordu. Bir ekmek teselli mi?"),
 P(S("i5D"), "Merdivenlerden koştun. Kulenin dışında nefes nefese durdun. Şehrin bütün ışıkları yanıyordu. Duymamış olmak istedin; ama duymuştun, ve bir şeyi duymamış olmak, onu duymaktan çok daha zor."),
 "Bir ay sonra meydanda bir duyuru. Şehrin yaşlıları, beyaz giysiler içinde.",
+"Duyurular Işıl'da nadirdir. Şenlikler ilan edilir, düğünler, doğumlar. Ama yaşlılar beyaz giydiğinde başka bir şey ilan edilir. En son on iki yıl önce giymişlerdi; o zaman sen altı yaşındaydın ve hiçbir şey hatırlamıyorsun. Yalnızca annenin o hafta hiç gülmediğini hatırlıyorsun.",
 "“Bodrumdaki çocuk tükeniyor,” diyor en yaşlısı. Tükeniyor. Bir şehrin bir çocuğu tüketmesi; bu kelimeyi kimse yadırgamıyor. “Ahit gereği, yeni bir çocuk seçilecek. Beş ile dokuz yaş arasındaki bütün çocukların adı kuraya girecek. Bir hafta sonra.”",
 "Meydanda sessizlik. Sonra bir anne çocuğunu kucağına alıyor. Bir başkası. Bir başkası.",
 "Umut yedi yaşında. Adı kuraya girecek.",
@@ -129,10 +144,72 @@ P(S("i5D"), "Merdivenlerden koştun. Kulenin dışında nefes nefese durdun. Şe
 { t: "Kura kâtibine gidip Umut'un adını listeden çıkarmanın bir yolunu ararsın.", to: "h1", etki: { hile: true } }
 ]},
 
+
+is_gece: { saat: "Gece", baslik: "Gece Yürüyüşü", metin: [
+"Annenin cevabını beklemeden evden çıkıyorsun. Kapıyı çarpmıyorsun; Işıl'da kimse kapı çarpmaz. Ama arkandan kapanan kapının sesi, çarpılmış bir kapınınkinden daha ağır geliyor.",
+"Gece sokaklar boş ve ılık. Bahçelerde ağaçlar meyve dolu; kimse toplamıyor, çünkü yarın yine dolu olacaklar. Yerde çürüyen tek bir meyve yok. Işıl'da hiçbir şey çürümez. Bunu ilk kez korkunç buluyorsun.",
+"Meydanda, çeşmenin kenarında biri oturuyor. Kaan; merdivenin dibinde kusan çocuk. Seni görünce yüzünü siliyor.",
+"“Uyuyamadım,” diyor. “Gözümü kapatınca o pencereyi görüyorum.” Bir süre susuyor. “Babama sordum. Biliyor musun ne dedi? ‘Ben de senin yaşındayken öyleydim. Bir ay sürer.’ Bir ay. Babam bir ayda unutmuş.”",
+"Çeşmenin suyu şırıldıyor. Işıl'ın suyu da tatlıdır; dağlardan, hiçbir kuraklık bilmeden.",
+"“Ben unutmak istemiyorum,” diyor Kaan. “Ama hatırlamak da istemiyorum. Bir şeyi hatırlayıp hiçbir şey yapmamak... Bunun adı ne?” Sana bakıyor; sanki sen bilirsin."
+], secenekler: [
+{ t: "“Bunun adı yetişkin olmak,” dersin. Acı bir şaka gibi; ama değil.", to: "i4", etki: { fayda: 1 } },
+{ t: "“Bir şey yapalım o zaman,” dersin. Ne olduğunu bilmeden.", to: "i4", etki: { isyan: 1, kaan_ortak: true } },
+{ t: "Yanına oturup bir şey söylemezsin. Birlikte sabahı beklersiniz.", to: "i4", etki: { vicdan: 1 } },
+{ t: "“Unut,” dersin. “Babanın dediği gibi. Bir ay.” Ve bunu kendine de söylediğini bilirsin.", to: "i4", etki: { fayda: 1, unut: true } }
+]},
+
+is_ruya: { saat: "Gece", baslik: "Rüya", metin: [
+"Umut'un yanına uzanıyorsun. Masanın altında, iki çocuk gibi. Umut uykusunda koluna sarılıyor. Nefesi düzenli, sıcak, bal kokulu.",
+"Uykuya dalıyorsun ve rüyanda bodrumdasın. Ama bu kez kapının öbür tarafında. İçeride.",
+"Karanlık. Taş zemin. Dizlerini göğsüne çekmişsin. Kapının küçük penceresinde bir fener, fenerin arkasında yüzler. On iki yüz. Hepsi sana bakıyor ve hiçbiri bir şey söylemiyor.",
+"Yüzlerden birini tanıyorsun: annen. Bir başkası: Ozan Hoca. Bir başkası: Umut, on sekiz yaşında, büyümüş. Ve sonuncusu: sen. Kendi yüzün, pencerede, sana bakıyor. Susuyor.",
+"Konuşmak istiyorsun. “Beni çıkaracak mısın?” diye. Ama sesin çıkmıyor. Bodrumda ses çıkmaz; yalnızca yukarıdan gelen şehrin uğultusu: müzik, kahkaha, şenlik.",
+"Pencere kapanıyor. Fener uzaklaşıyor.",
+"Uyandığında Umut hâlâ koluna sarılı. Sabah olmuş. Güneş, her sabahki gibi, Işıl'ın üstüne altın bir örtü seriyor. Yanağın ıslak."
+], secenekler: [
+{ t: "Rüyayı annene anlatırsın.", to: "i4", etki: { vicdan: 1, ruya_anne: true } },
+{ t: "Rüyayı unutmaya çalışırsın. Bir rüya, yalnızca bir rüya.", to: "i4", etki: { fayda: 1 } },
+{ t: "Rüyadaki kendi yüzünü düşünürsün. Susan yüzü. Bir daha o yüz olmamaya karar verirsin.", to: "i4", etki: { isyan: 1 } },
+{ t: "Umut'u uyandırıp ona sarılırsın; uzun, sıkı, açıklamasız.", to: "i4", etki: { vicdan: 1 } }
+]},
+
+is_ninni: { baslik: "Ninni", metin: [
+P(function(d){ return !d.disarida; }, "O gece annenle birlikte Umut'u yatırıyorsunuz. Umut uyumak istemiyor; annen ona ninni söylemeye başlıyor. Işıl'ın ninnisi. “Uyu güzel kuzum, ay doğdu ışığa...”"),
+P(function(d){ return d.disarida; }, "O gece ahırın içinde Umut'u yatırıyorsun. Öksürüğü uyumasına izin vermiyor. Ona ninni söylemeye başlıyorsun. Işıl'ın ninnisi. “Uyu güzel kuzum, ay doğdu ışığa...”"),
+"Bu ninniyi bodrumdaki çocuk da biliyordu. Bir yerinde takılıyordu. Şimdi sen söylerken aynı yerde, aynı kelimede, sesin titriyor: “...gümüşe.”",
+"Ninninin sözleri: Ay doğar, ışık iner, kuzular uyur, kimse ağlamaz. Bu sözleri yüzlerce yıldır Işıl'ın anneleri söylüyor. İlk kim söyledi? Belki Ahit'i kuranlar. Belki bodruma ilk çocuğu koyanlar. Belki bir anne, kendi çocuğu için, bir başkasının çocuğunu unutmak için.",
+"Bir ninni bir şehrin hafızası olabilir mi? Söylenen her ninni, söylenmeyen bir şeyin üstünü örtüyor olabilir mi?",
+"Umut uyuyor. Sen susuyorsun. Ninninin son kelimesi havada asılı kalıyor: “...kimse ağlamaz.”",
+"Ama birileri ağlıyor. Hep birileri ağlıyor."
+], secenekler: [
+{ t: "Ninninin sözlerini değiştirirsin; yeni bir dize eklersin: bodrumdaki çocuk için.", to: "a3", etki: { isyan: 1, yeni_dize: true } },
+{ t: "Ninniyi bir daha söylememeye karar verirsin.", to: "a3", etki: { vicdan: 1 } },
+{ t: "Ninniyi baştan, eksiksiz söylersin. Bir şeyin tam söylenmesi gerek.", to: "a3", etki: { fayda: 1 } },
+{ t: "Ninninin ilk kim tarafından söylendiğini araştırmaya karar verirsin.", to: "a3", etki: { isyan: 1, arastir: true } }
+]},
+
+is_pencere: { baslik: "Pencere", metin: [
+P(function(d){ return !d.disarida; }, "Pencerenin önünde duruyorsun. Işıl'ın damları, bahçeleri, ve hepsinin ortasında saat kulesi. Kulenin saati gece yarısını gösteriyor. Kulenin altında bir çocuk var. Hep var."),
+P(function(d){ return d.disarida; }, "Ahırın küçük penceresinden dışarı bakıyorsun. Köyün çamurlu yolu, karanlık evler, ve çok uzakta, ufkun çizgisinde, bir ışık adası. Işıl. Buradan küçücük; bir yıldız gibi. İçinde bir çocuk var. Hep var."),
+"Bir pencere iki şey yapar: seni dünyadan ayırır ve dünyayı sana gösterir. Bodrumun kapısındaki pencere de öyleydi. Herkes o pencereden baktı. Kimse o pencereyi açmadı.",
+"Annenin cümleleri kulağında. On iki yıl. Bir kelime. Hiçbir şey olmadı; ya da her şey oldu.",
+P(function(d){ return !d.umut_gitti; }, "Arkanda annen sessizce duruyor. Sonra yanına geliyor. İkiniz aynı pencereden bakıyorsunuz."),
+P(function(d){ return d.umut_gitti; }, "Annenin mektubu elinde. Son satırını yeniden okuyorsun; sanki annen yanında, aynı pencereden bakıyor."),
+"“Bazen düşünüyorum,” diyor annen, “o çocuk da bir pencereden bakıyor mu? Kapının penceresinden bizi görüyor. Bizim yüzlerimizi. Her yıl on iki yeni yüz. Belki o da bizi bir manzara gibi seyrediyor. Hiç bitmeyen, hiç değişmeyen bir manzara.”",
+"Bir çocuğun gözünde bütün bir şehir: susan yüzlerden oluşan bir manzara."
+], secenekler: [
+{ t: "Pencereyi açarsın. Gece havası içeri dolsun.", to: "a3", etki: { isyan: 1 } },
+{ t: "Perdeyi çekersin.", to: "a3", etki: { fayda: 1 } },
+{ t: function(d){ return d.umut_gitti ? "Mektubu katlayıp göğsüne koyarsın ve bakmaya devam edersin." : "Annenin elini tutarsın ve birlikte bakmaya devam edersiniz."; }, to: "a3", etki: { vicdan: 1 } },
+{ t: "Pencerenin camına parmağınla bir ad yazarsın. Kimsenin okumayacağı bir ad.", to: "a3", etki: { vicdan: 1, cam: true } }
+]},
+
 /* ---------- KABUL KOLU ---------- */
 f1: { saat: "Kura günü", baslik: "Çekilen İsim", metin: [
 P(function(d){ return d.geri_cekildi; }, "Son anda vazgeçtin. Ne yapmaya kalkıştığını kimse bilmiyor. Bu bir rahatlama mı, yoksa bir sırrın ilk günü mü?"),
 "Kura günü meydan dolu. Çocuklar annelerinin bacaklarına sarılmış; kimse onlara neden sarıldıklarını söylememiş ama biliyorlar.",
+"Meydanın ortasına yüksek bir masa konmuş. Masanın üstünde camdan bir kâse, kâsenin içinde katlanmış kâğıtlar. Yüz kırk iki kâğıt; yüz kırk iki çocuk. Kâsenin camı öyle temiz ki her kâğıt görünüyor. Herkes kendi çocuğunun kâğıdını arıyor gözleriyle. Kimse bulamıyor. Hepsi aynı.",
 "Kâtip Tevfik camdan bir kâseye elini daldırıyor. Bir kâğıt. Açıyor. Gözlüğünü düzeltiyor.",
 "“Sedef Aral. Altı yaşında.”",
 "Bir an önce ciğerlerinde biriken nefes dışarı çıkıyor. Umut değil. Umut değil. Bu rahatlamanın sesini kendi göğsünde duyuyorsun ve aynı anda bir başka ses, meydanın öbür ucundan: bir çığlık.",
@@ -151,6 +228,7 @@ P(S("f1B"), "Umut'u eve götürdün. Yolda sordu: “Sedef nereye gidecek?” �
 P(S("f1C"), "Sedef sana baktı. Ağlamıyordu; şaşkındı. Sonra elini kaldırdı, el salladı. Sana. Sen de el salladın. Elinin havada ne kadar ağır olduğunu bilemezsin."),
 P(S("f1D"), "Kalabalığın içinde kayboldun. Sessizlik büyüktü; kimse kimseye bakmıyordu. Sen de bakmadın. Yüzlerce insanın birlikte bakmaması, tek bir insanın bakmamasından daha mı az ağır? Daha mı çok?"),
 "Ertesi gün eski çocuğu kuleden çıkarıyorlar. Gece, ışık gözlerini kör etmesin diye. Bir battaniyeye sarılı, iki bekçinin kollarında.",
+"Çıkarılışını kimsenin görmemesi gerekiyor ama sen görüyorsun; gece, kulenin arka kapısından. Battaniyenin içinde bir şekil. Çok küçük. Bekçinin kollarında hafif. Yıllarca bir şehri taşımış biri, bir yetişkinin kollarında bir kuş kadar hafif.",
 "Onu şehrin kenarındaki Şifa Evi'ne yerleştiriyorlar. Penceresiz bir oda. Işığa alışana kadar, diyorlar. Kimse ne kadar süreceğini bilmiyor. Kimse ziyarete gitmiyor. Bir şehrin borcunu taşıyan çocuk, borç ödenince, unutulmak istiyor.",
 P(function(d){ return d.ezberledin || d.fisildadin; }, "Ona bakıyorsun ve tanıyorsun. Sol kaşının üstündeki iz. Seni de tanıyor mu? Gözleri sana dönüyor, bir an duruyor."),
 "Annen yanında. “Kimse ona bakmayacak,” diyor. “Hiçbir zaman bakmadılar.”"
@@ -167,6 +245,7 @@ P(S("f2B"), "Her gün gittin. İlk gün yüzüne bakmadı. Üçüncü gün bakma
 P(S("f2C"), "“Nur,” dedin. Çocuk bu kelimeyi tekrarladı; ağzında bir yabancı yiyecek gibi. Sonra yine söyledi. Işık demek, dedin. Bunun acı bir şaka olup olmadığını düşünmedin; o gece, yatarken düşündün."),
 P(S("f2D"), "Uzak durdun. Annen her gün gitti. Bir gün sana “Seni sordu,” dedi. “Bodruma bakan son yüzlerden birini hatırlıyormuş.” Sen sustun."),
 "Sedef'in ilk gecesi. Annen bekçi olarak sabah ilk ekmeği götürecek. Gece yarısı kapında duruyor.",
+"Bütün gün Sedef'in evinin önünden geçmedin. Aylin'in penceresinde ışık yanıyordu, sonra söndü, sonra yine yandı. Bir annenin, kızının olmadığı ilk gecesi. Işıl'ın bütün evlerinde ışıklar her zamanki gibi; yalnızca o evde ışık bir türlü karar veremiyor.",
 "“Benimle gelir misin?” diyor. “Bir gün bu görev sana geçecek. Belki. Ya da başkasına. Ama bilmeni isterim, nasıl olduğunu.”",
 "Aşağıda, demir kapının arkasında, altı yaşında bir kız var. Saçlarını sen örerdin. Şimdi orada, karanlıkta, “sıkı yap ama acıtma” diyecek kimse yok.",
 "Umut odasında uyuyor. Yanakları pembe."
@@ -180,6 +259,7 @@ P(S("f2D"), "Uzak durdun. Annen her gün gitti. Bir gün sana “Seni sordu,” 
 /* ---------- GİDENLER KOLU ---------- */
 g1: { saat: "Gece", baslik: "Kuzey Kapısı", metin: [
 "Gece yarısı Umut'u uyandırıyorsun. “Gezmeye gidiyoruz,” diyorsun. Montunu giydiriyorsun, iki ekmek, bir şişe su.",
+"Çıkmadan önce odana son bir kez bakıyorsun. Yatağın, kitapların, duvardaki çocukluk resimlerin. Işıl'da büyüdüğün oda; hiç soğuk olmayan, hiç karanlık olmayan oda. Bir daha görmeyeceksin. Bunu bilerek bakmak, bir şeye ilk kez gerçekten bakmak demek.",
 "Annen mutfakta. Uyumamış. Sizi görünce kalkıyor. Bir şey söylemiyor. Umut'un saçını düzeltiyor, sana bakıyor.",
 "“Dışarıda bir yıl,” diyor sonunda. “Belki daha az.” “Burada belki hiç,” diyorsun. Annen başını sallıyor. Gelmiyor. Biri bekçi olarak kalmalı; ya da gitmeye cesareti yok; ya da kalmak onun cezası. Hangisi, bilmiyorsun.",
 "Kuzey kapısı. Eski, çatlak tahta. Arkasında karanlık.",
@@ -197,6 +277,7 @@ g2: { saat: "Haftalar sonra", baslik: "Dışarısı", metin: [
 P(S("g1B"), "Arkana baktın. Işıl bir ışık adası gibiydi; karanlığın ortasında, yanıyor, ısıtmıyor. İçinde bir çocuk vardı. Şimdi belki iki."),
 P(S("g1D"), "Umut dinledi. Yedi yaşında. Sonunda “Yani o çocuk bizim yüzümüzden orada mı?” dedi. “Herkesin yüzünden,” dedin. “O zaman bizim yüzümüzden de,” dedi."),
 "Üç gün yürüdünüz. Dördüncü gün bir köy. Taş evler, çamurlu sokaklar, öksüren yaşlılar, yamalı giysiler. Hasat bitmiş, ambarlar yarı boş.",
+"Işıl'ın sınırından sonra dünya değişiyor. Önce ağaçlar: meyvesiz, kışın çıplak, dalları rüzgârda gıcırdıyor. Sonra toprak: çatlak, taşlı. Sonra hava: soğuk, gerçekten soğuk, ilk kez. Umut her şeye şaşkınlıkla bakıyor. Bir ağacın meyvesiz olabileceğini bilmiyordu. Sen de bilmiyordun; ya da yalnızca kitaplardan biliyordun.",
 "Ama kapıları çaldığınızda açılıyor. Bir kadın size çorba veriyor. Bir adam ahırında yer gösteriyor. Kimse kim olduğunuzu sormuyor; Işıl'dan geldiğinizi tahmin ediyorlar. “Her yıl birkaç kişi gelir,” diyor kadın. “Sizin oradan. Gözlerinde aynı bakış.”",
 "Köyde Ozan Hoca'yı buluyorsun. Çocuklara okuma öğretiyor, bir ahırın içinde. Sizi görünce gülüyor, sonra Umut'un öksürüğünü duyuyor ve gülüşü siliniyor.",
 "Köyün şifacısı Umut'u muayene ediyor. Uzun süre. Sonra başını kaldırıyor.",
@@ -210,6 +291,7 @@ P(S("g1D"), "Umut dinledi. Yedi yaşında. Sonunda “Yani o çocuk bizim yüzü
 
 g3: { saat: "Aylar sonra", baslik: "Elçi", metin: [
 "Bir sabah köyün girişinde beyaz giysili biri. Işıl'dan bir elçi. Gidenleri aramaz Işıl; ama bu kez gelmiş.",
+"Köyün çocukları elçinin etrafına toplanmış; beyaz giysi, temiz yüz, parlak ayakkabılar. Hiç böyle birini görmemişler. Biri elçinin eteğine dokunuyor, sanki gerçek olup olmadığını anlamak ister gibi. Elçi geri çekilmiyor ama gülümsemiyor da. Işıl'ın insanları, dışarıdakilerle nasıl konuşacaklarını bilmez.",
 "“Kura yapıldı,” diyor. “Sedef Aral. Altı yaşında. Sizin komşunuz.”",
 "Söz bir taş gibi düşüyor. Sedef. Saçlarını ördüğün kız.",
 "“Annen beni gönderdi,” diyor elçi. “Umut'un hastalandığını duymuş. Geri dönebilirsiniz. Umut iyileşir. Şehir kimseyi cezalandırmaz; yalnızca kabul eder. Kura yapıldı, artık bir risk yok.”",
@@ -225,6 +307,7 @@ g3: { saat: "Aylar sonra", baslik: "Elçi", metin: [
 /* ---------- YIKIM KOLU ---------- */
 y1: { saat: "Gece", baslik: "Anahtar", metin: [
 "Annenin anahtarı mutfak kapısının arkasında, bir çivide asılı. On iki yıldır her sabah oradan alınıyor, her öğlen oraya asılıyor. Demir, ağır, paslı.",
+"Bu anahtarı çocukluğundan beri biliyorsun. Hiç sormadın neyin anahtarı olduğunu. Kilerin, dedi annen bir keresinde, ya da sen öyle sandın. Işıl'da çocuklar sormaz; sorulmamış her soru, büyüyünce cevaplanacak bir soru olarak bekler.",
 "Gece yarısı mutfaktasın. Elini uzatıyorsun.",
 "“Deren.”",
 "Annen kapıda. Geceliğiyle, yalınayak. Elindeki mumun ışığında yüzü yaşlı.",
@@ -244,6 +327,7 @@ P(S("y1B"), "Annen kenara çekildi. Arkandan bir ses gelmedi. Belki ağlıyordu,
 P(S("y1D"), "Kapıyı kilitledin. İçeriden bir ses gelmedi. Annen kapıyı çalmadı, bağırmadı. Sanki bunun gelmesini on iki yıldır bekliyordu."),
 "Anahtar kilitte dönüyor. Pas çığlık atıyor. Demir kapı açılıyor.",
 "İçerisi sandığından küçük. Duvarlarda tırnak izleri. Bir köşede taş bir tas, yanında ekmek kırıntıları.",
+"Bir yatak bile yok. Bir köşede taş bir çukur, tuvalet olarak. Duvarlarda nem, tavanda bir örümcek ağı. Kokusu: yıllar. Bir insanın yıllarının kokusu, kapalı bir yerde birikmiş. Bu odada Işıl'ın bütün güzelliğinin karşılığı duruyor; ve karşılık, bu kadar küçük bir odaya sığıyor.",
 "Çocuk duvarın dibinde. Seni görünce bir ses çıkarıyor; korku mu, umut mu, ikisinin ayrılmadığı bir ses.",
 "Yanına diz çöküyorsun. Elini uzatıyorsun. Dokunuyorsun. Teni soğuk, kemikleri ince.",
 "“Buradayım,” diyorsun. “Geçti. Geçti artık.”",
@@ -263,6 +347,7 @@ P(S("y2B"), "Sabaha kadar karanlıkta oturdunuz. Çocuk başını omzuna koydu v
 P(S("y2C"), "“Nur,” dedin. Çocuk tekrarladı. “Nur.” Sonra güldü; kuru, kırık, ama bir gülüş. Belki bu şehrin dibinde ilk kez biri gülüyordu."),
 P(S("y2D"), "Çan çaldı. Bir kez, iki kez, on kez. Şehir uyandı. Herkes kuleye koştu. Ve herkes, ilk kez, birlikte, aynı anda, aşağı baktı."),
 "Sabah Işıl gri uyanıyor. Ağaçlarda meyveler bir gecede buruşmuş. Kuyuların suyu bulanık. Şenlik çiçekleri kurumuş.",
+"İnsanlar sokaklara çıkıyor, gökyüzüne bakıyor. Işıl'da hiç kimse gri bir gökyüzü görmemiş. Bir çocuk ağlıyor; korkudan değil, şaşkınlıktan. Bir yaşlı adam bahçesinde buruşmuş bir elmayı elinde tutuyor ve ne yapacağını bilemiyor. Çürüme, Işıl'ın unuttuğu bir kelime.",
 "Bir ev ötede bir çocuk öksürüyor. Bir başka evde bir yaşlı ateşleniyor.",
 P(function(d){ return true; }, "Umut. Evde. Annenin kollarında. Yanakları solgun. Öksürüyor."),
 "Meydanda kalabalık. Yüzler sana dönük. Kimin yaptığını herkes biliyor. Kimse bir şey söylemiyor; henüz.",
@@ -278,6 +363,7 @@ P(function(d){ return true; }, "Umut. Evde. Annenin kollarında. Yanakları solg
 /* ---------- HİLE KOLU ---------- */
 h1: { saat: "Gece", baslik: "Kâtip", metin: [
 "Kâtip Tevfik'in evi şehrin en eski sokağında. Kapıyı kendisi açıyor. Altmışlarında, ince, gözlüklü. Seni görünce şaşırmıyor.",
+"Ev, Işıl'ın bütün evleri gibi güzel: bahçede gül, kapıda asma, pencerede dantel perde. Ama bir şey eksik. Bir süre neyin eksik olduğunu bulamıyorsun. Sonra buluyorsun: hiçbir çocuk oyuncağı yok. Ne avluda, ne pencere önünde. Tevfik'in çocuğu yok. Belki bu yüzden bu işi o yapıyor; belki bu işi yaptığı için çocuğu olmadı.",
 "“Kardeşin için,” diyor. Soru değil. “Her kura öncesi birkaç kişi gelir. Hep aynı cümleyle. Kardeşim için. Kızım için. Torunum için.”",
 "Seni içeri alıyor. Masanın üstünde bir kâse, içinde kâğıtlar. Yarınki kâse.",
 "“Bir isim çıkarılırsa,” diyor, “bir başka ismin çıkma ihtimali artar. Bunu biliyorsun, değil mi? Kâsede yüz kırk iki isim var. Biri eksilirse, her biri biraz daha ağırlaşır. Bodruma birileri girecek, Deren. Kimin gireceğini değiştirebilirsin. Kimsenin girmemesini değil.”",
@@ -295,6 +381,7 @@ P(S("h1A"), "Tevfik madalyayı aldı. Cebine koymadı; masanın çekmecesine. �
 P(S("h1B"), "Tevfik yüzüne baktı, uzun. Sonra güldü. “Herkes biliyor,” dedi. “Kimse söylemez. Sen de söylemeyeceksin. Ama tamam. Kardeşin için.” Kâseden bir kâğıt çıkardı ve sobaya attı."),
 P(S("h1C"), "Tevfik seni kaldırdı. “Kalk,” dedi. “Diz çöken her kardeş için bunu yapsam kâse boşalırdı.” Sonra kâseden bir kâğıt çıkardı. Okumadan sobaya attı. Okumasına gerek yoktu."),
 "Kura günü. Meydan dolu. Tevfik elini kâseye daldırıyor. Bir kâğıt. Açıyor.",
+"Dün gece uyumadın. Sobada yanan kâğıdın kıvrılışını, Tevfik'in yüzündeki ifadeyi, eve dönüş yolunu, hepsini defalarca yaşadın. Sabah aynaya baktığında yüzün aynıydı. Bu seni şaşırttı. Bir şey yapmış olmanın, bir yüzü hemen değiştireceğini sanırdın.",
 "“Sedef Aral. Altı yaşında.”",
 "Bir sokak ötede oturuyorlar. Annesi çalışırken ona sen bakardın. Saçlarını sen örerdin. “Sıkı yap ama acıtma,” derdi.",
 "Bu ismin çıkma ihtimali, dün geceden bu yana biraz daha büyüktü. Ne kadar? Yüz kırk ikide bir yerine yüz kırk birde bir. Bir matematik hatası kadar küçük. Ama sen biliyorsun, Tevfik biliyor.",
@@ -308,6 +395,7 @@ P(S("h1C"), "Tevfik seni kaldırdı. “Kalk,” dedi. “Diz çöken her karde�
 
 h3: { saat: "Akşam", baslik: "Sedef'in Gözleri", metin: [
 "Akşam Sedef'i kuleye götürüyorlar. İki bekçi, iki yanında. Biri annen.",
+"Bütün şehir meydanda. Her kura gecesi böyledir; kimse gelmek istemez ama herkes gelir. Gelmemek, bir şeyi reddetmek olur; ve Işıl'da kimse bir şeyi reddetmez. Fenerler yanıyor. Kimse konuşmuyor. Sedef'in annesi Aylin kalabalığın en önünde, iki kadının kolunda; ayakta durabildiği için değil, düşmesine izin verilmediği için ayakta.",
 "Sedef bir an duruyor. Kalabalığın içinde seni görüyor. Bekçilerin elinden kurtulmuyor ama başını sana çeviriyor.",
 "“Deren abla,” diyor. Sesi küçük ama meydan sessiz. “Gelecek misin? Saçlarımı örmeye?”",
 "Kalabalık sana dönüyor. Annen sana dönüyor. Tevfik, en arkada, yere bakıyor.",
@@ -329,7 +417,8 @@ P(function(d){ return d.geri_dondu; }, "Işıl'a döndün. Umut'un yanakları il
 P(DIS, "Yedi gün geçti. Köyde kış başladı. Ahırın içi soğuk, ama Ozan Hoca'nın okulunda bir soba var ve sen her sabah onu yakıyorsun."),
 P(function(d){ return d.disarida && !d.umut_gitti; }, "Umut yanında. Öksürüğü geceleri artıyor. Gündüzleri köy çocuklarıyla oynuyor; onlar da öksürüyor, onlar da oynuyor."),
 P(function(d){ return d.umut_gitti; }, "Umut gitti. Elçinin elini tutup, dönüp dönüp bakarak. Şimdi Işıl'da, pembe yanaklarıyla, kızkardeşinin neden gelmediğini soruyordur. Belki sormuyordur. Işıl'ın çocukları sorulmayan soruları erken öğrenir."),
-"Bir şey bitti, bir şey başladı. Hangisinin hangisi olduğu henüz belli değil."
+"Bir şey bitti, bir şey başladı. Hangisinin hangisi olduğu henüz belli değil.",
+"Gösterim gününden bu yana kaç gün geçti? Saymayı bıraktın. Zaman artık eskisi gibi akmıyor; bir öncesi ve bir sonrası var. Öncesi bir çocukluktu, hiçbir şey bilmeden. Sonrası, bir şeyi bilmekle ne yapacağına karar vermek için uzayan, bitmeyen bir sabah."
 ], secenekler: [
 { t: "Her gün yapman gerekeni yaparsın. Hayat devam ediyor; senin de devam etmen gerek.", to: "a2", etki: { fayda: 1 } },
 { t: "Bu yedi günü anlamaya çalışırsın. Neyi değiştirdin, neyi değiştiremedin?", to: "a2", etki: { vicdan: 1 } },
@@ -348,18 +437,27 @@ P(function(d){ return !d.umut_gitti; }, "Annen sana bakıyor. On iki yılın ağ
 P(function(d){ return d.umut_gitti; }, "Mektubun sonunda bir satır daha: “Sana bunu yüzüne söyleyemezdim. Kâğıt daha cesur.”")
 ], secenekler: [
 { t: "“Bunu neden şimdi söylüyorsun?”", to: "a3", etki: { isyan: 1 } },
-{ t: function(d){ return d.umut_gitti ? "Mektubu göğsüne bastırırsın." : "Annenin elini tutarsın."; }, to: "a3", etki: { vicdan: 1 } },
+{ t: function(d){ return d.umut_gitti ? "Mektubu göğsüne bastırırsın." : "Annenin elini tutarsın."; }, to: "is_ninni", etki: { vicdan: 1 } },
 { t: "“Ahit olsa da olmasa da, insanlar inandı. İnanç da bir şeyi ayakta tutar,” dersin.", to: "a3", etki: { fayda: 1 } },
-{ t: "Kalkıp pencereye gidersin. Bir şey söyleyemeyecek kadar ağır.", to: "a3", etki: { vicdan: 1 } }
+{ t: "Kalkıp pencereye gidersin. Bir şey söyleyemeyecek kadar ağır.", to: "is_pencere", etki: { vicdan: 1 } }
 ]},
 
 a3: { baslik: "Umut", metin: [
+P(S("is_ninniA"), "Ninniye bir dize ekledin: “Bir kuzu karanlıkta, kimse sormaz adını.” Annen duydu. Bir şey demedi. Ertesi gece Umut o dizeyi kendisi söyledi."),
+P(S("is_ninniB"), "Ninniyi bir daha söylemeyeceksin. Umut ertesi gece istedi; sustun. Umut kendi kendine söyledi, eksik, yanlış, takılarak. Bodrumdaki çocuk gibi."),
+P(S("is_ninniC"), "Ninniyi baştan, eksiksiz söyledin. Son kelimeye kadar. Bir şeyin tam söylenmesi, onun doğru olduğu anlamına gelmiyor; ama sen bunu bir bütünlük gibi yaşadın."),
+P(S("is_ninniD"), "Ninninin kaynağını aramaya başladın. Eski kitaplar, yaşlıların hafızası. Bir yerde, çok eski bir kayıtta, bir anne adı geçiyordu. Ama sayfa yırtıktı."),
+P(S("is_pencereA"), "Pencereyi açtın. Gece havası soğuktu; ya da sen öyle hissettin. Annen bir şey demedi, ama pencereyi kapatmadı da."),
+P(S("is_pencereB"), "Perdeyi çektin. Annen başını salladı. “Ben de hep çekerim,” dedi. Bir perde, bir şehrin bütün mimarisi."),
+P(S("is_pencereC"), "Birlikte baktınız. Saatlerce. Ne gördüğünüzü konuşmadınız. Bir anne ve bir kız, aynı pencerede, aynı sessizliği paylaşarak."),
+P(S("is_pencereD"), "Camın buğusuna bir ad yazdın. Sabah olunca buğu kurudu, ad kayboldu. Ama bir an için camda vardı. Belki bu kadarı yeter; belki hiçbir şeye yetmez."),
 P(function(d){ return d.umut_gitti; }, "Umut'tan bir mektup geliyor, elçiyle. Yedi yaşında bir çocuğun büyük harfleri: “ABLA BURADA HER ŞEY GÜZEL. AMA SEN YOKSUN. NEDEN?”"),
 P(function(d){ return !d.umut_gitti; }, "Umut yanına geliyor. Elinde bir resim. Kule, kulenin altında bir oda, odanın içinde bir çocuk. Bu kez çocuğun yüzü üzgün çizilmiş."),
 P(function(d){ return !d.umut_gitti; }, "“Abla,” diyor. “Orada bir çocuk var, değil mi? Herkes biliyor. Benim yüzümden mi?”"),
 P(function(d){ return d.yikim && !d.umut_gitti; }, "Umut öksürüyor. Yanakları solgun. Şehrin ışığı onun için sönen ilk ışıktı belki; ve son ışığı belki o."),
 P(function(d){ return d.nur_evde || (d.yikim && d.ad_verdi); }, "Nur masanın altında, Umut'un yanında oturuyor. İkisi aynı resmi boyuyor. Nur, odanın içindeki çocuğu silip yerine bir pencere çiziyor."),
-"Bu sorunun cevabı yedi yaşındaki bir çocuğa nasıl verilir? Belki verilmez. Işıl'da on sekizinci yaş bunun için var: bir şeyi taşıyabilecek yaşa gelene kadar ondan saklamak. Ama sen artık bu düzenin bir parçası olup olmadığını bilmiyorsun."
+"Bu sorunun cevabı yedi yaşındaki bir çocuğa nasıl verilir? Belki verilmez. Işıl'da on sekizinci yaş bunun için var: bir şeyi taşıyabilecek yaşa gelene kadar ondan saklamak. Ama sen artık bu düzenin bir parçası olup olmadığını bilmiyorsun.",
+"Bir çocuğun sorusu, bir şehrin bütün yasalarından daha keskin olabiliyor. Çünkü çocuk henüz o yasaların ne için var olduğunu bilmiyor; yalnızca neyi sakladıklarını görüyor."
 ], secenekler: [
 { t: "Gerçeği söylersin. Bütün gerçeği. Yedi yaşında da olsa.", to: "a4", etki: { isyan: 1, umut_gercek: true } },
 { t: "“Hayır. Senin yüzünden değil,” dersin. Kimsenin yüzünden değilmiş gibi.", to: "a4", etki: { fayda: 1 } },
@@ -373,6 +471,7 @@ P(IC, "Şafakta saat kulesine çıkıyorsun. Merdivenler bu kez yukarı. Kulenin
 P(function(d){ return d.yikim && IC(d); }, "Şehir gri ama yaşıyor. Bacalardan duman çıkıyor; Işıl'da ilk kez insanlar soğuktan korunmak için ateş yakıyor. Bir avluda iki komşu, birlikte odun kırıyor."),
 P(function(d){ return !d.yikim && IC(d); }, "Şehir her zamanki gibi altın rengi. Ayağının altında, kulenin derinliğinde, bir çocuk var. Bu sabah ona ekmeği kim götürecek?"),
 "Çanın ipi elinin yanında. Bir çekiş ve bütün şehir uyanır.",
+"Bu çan yüzyıllardır yalnızca iki şey için çalınır: bir şenlik için, ve bir kura için. Başka bir şey için çalındığını kimse hatırlamıyor. İpi tutan el, Işıl'ın tarihinde hiç olmamış bir şeyi başlatabilir; ya da hiçbir şeyi.",
 "Bu sabah bir karar daha vereceksin. Belki son kararın değil. Ama bütün öncekileri anlamlı kılacak olan."
 ], secenekler: [
 { t: function(d){ return d.disarida ? "Köyde kalırsın. Ozan Hoca'nın okulunda öğretmen olursun." : "Bekçi olmayı kabul edersin. Bir dahaki ekmeği sen götüreceksin."; }, to: "is", etki: function(d){ if(d.disarida){ d.ogretmen = true; d.vicdan++; } else { d.bekci = true; d.fayda++; } } },

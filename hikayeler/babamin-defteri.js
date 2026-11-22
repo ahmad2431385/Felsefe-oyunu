@@ -18,6 +18,7 @@ b1: { saat: "Ekim 2023", baslik: "Çalışma Odası", metin: [
 "Babanı yedi gün önce gömdün. Nuri Arslan, yetmiş dokuz yaşında, kalp. Cenazede belediye başkanı konuştu, eski çalışanları ağladı, gazetede yarım sayfa bir ilan çıktı: “Kentimize değer katan dürüst bir inşaat mühendisi.”",
 "Adın Nesrin, kırk dört yaşındasın, mimarsın. Kendi büronun kapısında da aynı soyadı yazıyor: Arslan Mimarlık. Babanın adı, yıllar boyunca, seninkinin önünü açtı. Bunu hiç inkâr etmedin; ama hiç de yüksek sesle söylemedin.",
 "Bugün annen Sevim Hanım seni babanın çalışma odasını toplamaya çağırdı. Kitaplar, ödüller, eski projeler, cetveller. Odada tütün ve kâğıt kokusu.",
+"Babanın çalışma odasına çocukken girmen yasaktı. Kapı hep aralıktı ama eşik bir sınırdı. İçeriden cetvel sesleri, kalem cızırtıları, bazen bir radyo gelirdi. Bir keresinde gizlice girip masasının altına saklanmıştın; baban seni bulduğunda kızmamış, kucağına alıp bir binanın planını göstermişti. “Bu kolon,” demişti, “bütün binayı taşır. Bir kolon eksik olursa her şey çöker.”",
 "Masanın en alt çekmecesi kilitli. Babanın anahtarlığında, ev anahtarlarının arasında, küçük, pirinç bir anahtar.",
 "Çekmecede tek bir şey var: kahverengi deri kaplı, köşeleri yıpranmış bir defter. Kapağında yalnızca bir yıl: 1993.",
 "Babanın el yazısını tanıyorsun; düzgün, eğik, mühendis yazısı. Defteri elinde tartıyorsun. Ağır değil. Ama bir şey söylüyor: kilitlenmiş şeyler, bir sebeple kilitlenmiştir."
@@ -33,6 +34,7 @@ P(S("b1B"), "Gece, kendi evinde, mutfak masasında açtın defteri. Tarık uyuyo
 P(S("b1C"), "Annen defteri görünce yüzü değişti. Bir an. Sonra toparlandı. “Babanın notları,” dedi. “Hep bir şeyler yazardı. Al, oku istersen. Ben okumadım.” Sesi bir cümle fazla sakindi."),
 P(S("b1D"), "Çekmeceyi kilitledin. Üç gece uyuyamadın. Dördüncü gece annenin evine gidip anahtarı yeniden çevirdin. Kapalı kapılar, kapalı tutulmaya çalışıldıkça daha çok ses çıkarıyor."),
 "Defterin çoğu teknik notlar: hesaplar, malzeme listeleri, şantiye tarihleri. 1993: “Gölcük, Çınar Apartmanı. Yedi kat, yirmi sekiz daire. Ortak: Rahmi Kara.”",
+"Babanın el yazısı otuz yıl boyunca neredeyse hiç değişmemiş. Aynı eğim, aynı düzgünlük, “a” harfinin aynı küçük kuyruğu. Hesaplar, çizimler, kenarlara düşülmüş notlar: “Malzeme fiyatları arttı.” “Rahmi ile tartıştık.” “Nesrin bugün ilk dişini çıkardı.” İş ve hayat aynı sayfalarda, aynı mürekkeple.",
 "Sonra 1999. 18 Ağustos. Depremden bir gün sonra. El yazısı farklı; titrek, sıkışık.",
 "“Çınar yıkıldı. Otuz bir kişi. Demirleri ben eksilttim, 1993 baharında. Rahmi bilmiyordu. Çimento oranını da ben değiştirdim. Fark parası ile Ankara'daki ilk daireyi aldık. Nesrin o evde büyüdü.”",
 "Bir sonraki sayfa, 22 Ağustos: “Rahmi'yi gözaltına aldılar. Yarın ifade vereceğim. Ne diyeceğimi biliyorum.”",
@@ -51,6 +53,7 @@ P(S("b2B"), "Defteri kapattın. Ellerin titriyordu. Okumadığın sayfalar artı
 P(S("b2C"), "Kırk iki fotoğraf. Telefonunun galerisinde, tatil fotoğraflarının ve Ege'nin mezuniyet resimlerinin arasında. Bir şeyi kopyalamak, onu silinemez kılmak. Bunu neden yaptığını tam bilmiyorsun."),
 P(S("b2D"), "Sayfayı yırttın. Kâğıt temiz koptu; defter otuz yıldır bu kopuşu bekliyormuş gibi. Sayfa şimdi cüzdanında. Defter bir yalan söylüyor artık; ama gerçeğin kendisi cebinde."),
 "Defterin arka kapağının içinde bir fotoğraf sıkışmış. Siyah beyaz. 1993 yazı. Çınar Apartmanı'nın temel atma töreni.",
+"Saatlerdir masadasın. Çay soğumuş, dışarısı kararmış. Defteri kapatmak istiyorsun ama ellerin onu bırakmıyor; bir yaraya dokunmaktan kendini alamayan biri gibi. Sayfaları ileri geri çeviriyorsun. Bir şey arıyorsun: bir açıklama, bir gerekçe, bir “ama”. Hiçbir sayfada yok.",
 "İki adam yan yana, kürek ellerinde, gülümsüyor. Biri baban; otuz dokuz yaşında, bıyıklı, gözlüklü. Öbürü Rahmi Kara. Daha kısa, daha zayıf, gömleğinin yakası açık. Elini babanın omzuna koymuş.",
 "Fotoğrafın arkasında babanın el yazısıyla: “Rahmi ile. Ortaklığımızın ilk binası. İnşallah son değil.”",
 "İki adam. Biri yirmi dört yıl boyunca dürüst bir mühendis olarak yaşadı. Öbürü cezaevinde, katil olarak öldü.",
@@ -64,6 +67,7 @@ P(S("b2D"), "Sayfayı yırttın. Kâğıt temiz koptu; defter otuz yıldır bu k
 
 b3: { saat: "Ekim 2023", baslik: "Annen", metin: [
 "Ertesi gün annenin evindesin. Mutfakta, aynı masada, çocukken ödev yaptığın masada. Annen çay koyuyor.",
+"Annenin evi babanın ölümünden sonra değişmedi. Terlikleri hâlâ kapının önünde, gözlükleri hâlâ televizyonun üstünde, ceketi hâlâ askıda. Annen hiçbirine dokunmuyor. “Yerlerinde dursunlar,” diyor. Bir evin, içinde yaşayan birinin yokluğuna alışması zaman alıyor; bazen bir ömür.",
 "Nasıl sorulur böyle bir şey? Kelimeler ağzında dönüp duruyor. Sonunda yalnızca defteri masaya koyuyorsun.",
 "Annen defterin kapağına bakıyor. Uzun süre. Sonra çay bardağını tabağına bırakıyor, ses çıkarmadan.",
 "“Biliyordum,” diyor.",
@@ -72,18 +76,27 @@ b3: { saat: "Ekim 2023", baslik: "Annen", metin: [
 "“Neden?” diyorsun.",
 "Annen sana bakıyor. “Sen on yaşındaydın,” diyor. “Kardeşin yoktu ama sen vardın. Rahmi'nin de bir kızı vardı, biliyorum. Ben kendi kızımı seçtim. Her anne seçer.” Bir süre susuyor. “Doğru muydu? Hayır. Ama yine yapardım.”"
 ], secenekler: [
-{ t: "Annene kızarsın. Yüksek sesle, yıllarca söylenmemiş her şeyle.", to: "b3b", etki: { hakikat: 1, anneye_kizdi: true } },
+{ t: "Annene kızarsın. Yüksek sesle, yıllarca söylenmemiş her şeyle.", to: "bd_kestane", etki: { hakikat: 1, anneye_kizdi: true } },
 { t: "Annenin elini tutarsın. O da bir yük taşımış.", to: "b3b", etki: { sadakat: 1, anne_el: true } },
-{ t: "“Rahmi'nin kızının adı ne?” diye sorarsın.", to: "b3b", etki: { hakikat: 1, elif_adi: true } },
+{ t: "“Rahmi'nin kızının adı ne?” diye sorarsın.", to: "bd_mezar", etki: { hakikat: 1, elif_adi: true } },
 { t: "Kalkıp gidersin. Bu mutfakta artık nefes alamıyorsun.", to: "b3b", etki: { huzur: 1 } }
 ]},
 
 b3b: { saat: "Ekim 2023", baslik: "Arşiv", metin: [
+P(S("bd_kestaneA"), "Kestaneyi kıza verdin. Kız teşekkür etti, koşarak içeri girdi. Pencerenden, senin eski pencerenden, bir an sana el salladı. O odada şimdi başka bir çocuk büyüyor; bilmeden."),
+P(S("bd_kestaneB"), "Kestane cebinde. Ankara'dan dönerken elini cebine soktuğunda parmakların ona değdi. Pürüzsüz, serin. Bir çocukluğun kalıntısı; ya da bir suçun meyvesi. İkisi aynı kabuğun içinde."),
+P(S("bd_kestaneC"), "Kız gözlerini kocaman açtı. “Gerçekten mi? Benim odamda mı?” Evet, dedin. “Orada hiç korktunuz mu?” Hayır, dedin. Hiç korkmadım. Çünkü bir şeyden korkman gerektiğini bilmiyordum."),
+P(S("bd_kestaneD"), "Arabaya bindin, motoru çalıştırdın, sokağın sonuna kadar dikiz aynasına bakmadın. Sokağın sonunda baktın. Kestane ağacı, apartman, balkon. Bir hayatın arka planı, küçülerek uzaklaşıyordu."),
+P(S("bd_mezarA"), "Uzaklaştın. Kapıdan çıkarken arkana baktın; kadın mezarın başına diz çökmüş, su döküyordu. Seni görmedi. Ya da gördü ve tanımadı. Senin yüzün hiçbir gazetede yok."),
+P(S("bd_mezarB"), "Kadın mezara yaklaştı, seni gördü, durdu. “Babamı mı tanıyordunuz?” dedi. Bir şey söyleyemedin. “Deprem şehitlerinden birinin yakını mısınız?” Başını salladın; evet anlamında değil, hayır anlamında da değil. Kadın bir süre baktı, sonra mezarı sulamaya başladı."),
+P(S("bd_mezarC"), "Fotoğrafı mezarın taşına, çiçeklerin yanına bıraktın. İki adam, iki kürek, bir gülümseme. Uzaklaşırken arkana baktın: kadın fotoğrafı eline almış, uzun uzun bakıyordu. Sonra çevresine bakındı. Seni arıyordu."),
+P(S("bd_mezarD"), "Ağacın arkasından izledin. Kadın mezarı suladı, çiçekleri düzeltti, bir süre taşın başında oturdu. Dudakları kıpırdadı; babasıyla konuşuyordu. Yirmi yıldır her hafta. Sen bir kez bile babanın mezarıyla konuşmadın."),
 P(S("b3A"), "Bağırdın. Annen dinledi. Hiç itiraz etmedi; hiç ağlamadı. Bitince yalnızca, “Haklısın,” dedi. Haklı olmak hiçbir şeyi değiştirmedi. Masadaki çay soğudu."),
 P(S("b3B"), "Annenin eli elinde. Kemikleri belirgin, derisi ince. Bu el yirmi dört yıl boyunca bir sırrı taşıdı. Bir babanın kızı olduğunu biliyordun; bir annenin de kızı olduğunu şimdi anlıyorsun."),
 P(S("b3C"), "“Elif,” dedi annen. “Elif Kara. Senden üç yaş küçük.” Bunu nasıl bildiğini sormadın. Bir annenin bilmemesi gereken bir şeyi yirmi dört yıl hatırlaması, her şeyi anlatıyordu."),
 P(S("b3D"), "Arabaya bindin, motoru çalıştırmadın. Bir saat oturdun. Annen pencereden izledi; perdeyi bir kez araladı, bir kez kapattı."),
 "O gece büronda, bilgisayarın başında, 1999-2001 yıllarının gazete arşivlerini tarıyorsun.",
+"Büro boş. Çalışanlar gitmiş, temizlikçi de. Masaların üstünde yarım kalmış maketler, çizimler, kahve fincanları. Duvarda kazandığın ödüller; birinin altında babanın el yazısıyla bir not, çerçeveletmiştin: “Kızıma, benden iyi bir mimar olduğu için.” Bu notu her gün görüyorsun. Bu gece bakamıyorsun.",
 "“Çınar Apartmanı davası.” Bir manşet: “Müteahhit Rahmi Kara'ya 12 yıl.” Altında bir fotoğraf: Rahmi, iki jandarmanın arasında, başı önde. Arkada, kalabalığın içinde, sekiz yaşında bir kız. Elinde bir pankart: “Babam masum.”",
 "Bir başka haber, mahkeme tutanağından alıntı. Babanın ifadesi: “Ortağım malzeme tedarikinden sorumluydu. Ben statik hesapları onayladım. Hesaplar doğruydu. Uygulamada ne yapıldığını bilmiyordum. Bilseydim, o binaya kendi ailemi yerleştirirdim, yerleştirmezdim değil.”",
 "Kendi ailesi. Sen. Otuz bir kişinin öldüğü bir binayı, bir cümlede, kızının adıyla savundu.",
@@ -97,6 +110,7 @@ P(S("b3D"), "Arabaya bindin, motoru çalıştırmadın. Bir saat oturdun. Annen 
 
 b4: { saat: "Kasım 2023", baslik: "Elif Kara", metin: [
 "Elif Kara'yı bulmak beş dakika sürüyor. İzmit'te bir ortaokulda Türkçe öğretmeni. Kırk bir yaşında. Bir derneği var: “Çınar'ın Gerçeği.” Bir internet sitesi, birkaç video, yirmi yıllık bir dava dosyası.",
+"Derneğin sitesi eski, basit. Bir fotoğraf galerisi: duruşma salonları, basın açıklamaları, mezar ziyaretleri. Her yıl 17 Ağustos'ta Çınar'ın yerinde bir anma. Fotoğraflarda Elif'in yaşlandığını görüyorsun; on dokuz, yirmi beş, otuz, kırk. Ve her fotoğrafta aynı şey: elinde babasının fotoğrafı, yüzü kameraya dönük.",
 "Bir videoyu açıyorsun. Elif bir masanın arkasında, arkasında babasının büyütülmüş fotoğrafı. Sesi sakin, kelimeleri özenli; yirmi yıldır aynı şeyi anlatan birinin sesi.",
 "“Babam o binanın malzemesini almadı,” diyor. “Faturalar ortağının imzasını taşıyordu. Mahkeme bunu dikkate almadı. Babam cezaevinde öldü. Ben ona son kez camın arkasından dokundum.”",
 "Videonun sonunda bir cümle. Kameraya doğrudan bakarak söylüyor:",
@@ -116,6 +130,7 @@ P(S("b4B"), "Sabaha kadar izledin. Elif'in on dokuz yaşında, yirmi beş yaşı
 P(S("b4C"), "Avukat dinledi, not aldı. “Yarın konuşalım,” dedi. “Ama şimdiden söyleyeyim: bu defter bir bomba. Kime patlayacağını siz seçeceksiniz.”"),
 P(S("b4D"), "Bilgisayarı kapattın. Ertesi gün işe gittin, toplantılara girdin, bir proje sundun. Kimse bir şey fark etmedi. Bir şeyi saklamanın bu kadar kolay olması seni korkuttu; babanın da böyle başladığını düşündün."),
 "Tarık'a anlatman bir haftayı buluyor. Bir akşam, mutfakta, Ege odasındayken.",
+"O hafta boyunca normal davrandın. Toplantılara girdin, Ege'ye kahvaltı hazırladın, Tarık'la akşam haberlerini izledin. Kimse bir şey fark etmedi. Bir sırrı taşımanın ne kadar kolay olduğunu, ve bu kolaylığın ne kadar korkunç olduğunu öğrendin. Baban yirmi dört yıl boyunca her gün bunu yapmıştı.",
 "Tarık dinliyor. Sonra uzun süre susuyor. Sonra:",
 "“Nesrin. Baban öldü. Rahmi Bey öldü. Bu defter kimi geri getirecek?” Çay bardağını çeviriyor. “Ama şunu götürecek: senin büronu, okul projesini, Ege'nin üniversite bursunu, soyadımızı. Ölmüş bir adamı yargılarken yaşayanları cezalandıracaksın.”",
 "“Peki Elif?” diyorsun.",
@@ -134,6 +149,7 @@ P(S("b5B"), "“Düşüneceğim,” dedin. Tarık başını salladı, rahatladı
 P(S("b5C"), "Tarık yüzüne baktı. Bir şey söyleyecekti, söylemedi. Kalktı, bardağı lavaboya bıraktı. “Haklısın,” dedi, arkası dönükken. “Ama ben de haklıyım. Sorun bu.”"),
 P(S("b5D"), "Tarık uzun süre düşündü. “Bilmiyorum,” dedi sonunda. “Gerçekten bilmiyorum. Belki ben de baban gibi yapardım. Belki sen de. Bu yüzden korkuyorum.”"),
 "Avukat Feride Hanım'ın bürosu. Altmışlarında, gözlükleri burnunun ucunda, defterin fotokopilerini tek tek okuyor.",
+"Feride Hanım babanın da avukatıydı; yirmi yıl boyunca şirketin bütün davalarına o baktı. Seni küçüklüğünden tanıyor. Defteri okurken bir kez bile başını kaldırmıyor. Sonunda gözlüğünü çıkarıyor, gözlerini ovuşturuyor. “Bilmiyordum,” diyor. Ona inanıyorsun. Ama yirmi yıl boyunca hiç sormadığına da inanıyorsun.",
 "“Hukuki olarak,” diyor, “bu defter yeni bir delil. Yargılamanın yenilenmesi istenebilir. Rahmi Bey'in mahkûmiyeti kaldırılabilir. Ölümünden sonra bile. Bu kızı için çok şey demek.”",
 "“Ama,” diyor ve gözlüğünü çıkarıyor, “babanız ölü olduğu için yargılanamaz. Mirası ise sorumlu tutulabilir. Otuz bir ailenin tazminat davası açma hakkı doğar. Annenizin evi, sizin büronuzun sermayesi, babanızdan kalan her şey. Ve basın. Soyadınız.”",
 "“Ya da,” diyor, daha yavaş, “hiçbir şey yapmazsınız. Defter bir çekmecede kalır. Kimse bilmez. Bu da yasal.”",
@@ -145,10 +161,72 @@ P(S("b5D"), "Tarık uzun süre düşündü. “Bilmiyorum,” dedi sonunda. “G
 { t: "Elif'e kimliğini gizleyerek yardım edersin: para, avukat, ama defter değil.", to: "k1", etki: { sadakat: 1, kefaret: true } }
 ]},
 
+
+bd_kestane: { saat: "Ekim 2023", baslik: "Kestane Ağacı", metin: [
+"Annenin evinden çıkıp arabaya biniyorsun ve sürmeye başlıyorsun. Nereye gittiğini ancak oraya vardığında anlıyorsun: Ankara, Bahçelievler, çocukluğunun geçtiği sokak.",
+"Apartman hâlâ orada. Dört katlı, krem rengi, balkonlarında çamaşırlar. 1994'te taşındınız; sen on yaşındaydın. 2008'de satıldı. Şimdi başka bir aile oturuyor; balkonda bir çocuk bisikleti.",
+"Kestane ağacı da orada. Büyümüş; dalları artık üçüncü katın penceresine değiyor. Senin pencerene. Yatağının yanındaki pencere; her sonbahar kestaneleri sayardın, babana gösterirdin. Babanın da kestane sevdiğini hiç sormadın. Şimdi düşünüyorsun: o odada, o pencerenin önünde, baban gece ne düşünüyordu?",
+"“Fark parası ile Ankara'daki ilk daireyi aldık.” Bu cümle şimdi bir binanın üstünde duruyor. Krem rengi bir binanın. Kestane ağaçlı bir sokağın.",
+"Otuz bir kişi öldü ve bu daire alındı. Bu daire alındı ve sen burada büyüdün. Burada okumayı öğrendin, burada ilk aşkına mektup yazdın, burada mimar olmaya karar verdin; bir gün kendi binalarını yapmak için.",
+"Ağacın altında bir bankta oturuyorsun. Bir kestane düşüyor, ayağının dibine. Kabuğu yarılmış, içi parlak, kahverengi.",
+"Balkondaki çocuk bisikletinin sahibi kapıdan çıkıyor; yedi sekiz yaşında bir kız. Seni görüyor. “Teyze, kestane mi topluyorsunuz?” diyor. “Benim penceremden de düşüyor.”"
+], secenekler: [
+{ t: "Kestaneyi kıza verirsin.", to: "b3b", etki: { sadakat: 1 } },
+{ t: "Kestaneyi cebine koyarsın.", to: "b3b", etki: { hakikat: 1, kestane: true } },
+{ t: "Kıza o odada eskiden senin yaşadığını söylersin.", to: "b3b", etki: { huzur: 1 } },
+{ t: "Kalkıp gidersin. Bir daha bu sokağa gelmeyeceksin.", to: "b3b", etki: { huzur: 1 } }
+]},
+
+bd_mezar: { saat: "Ekim 2023", baslik: "Mezar", metin: [
+"Elif. Elif Kara. Annenin hatırladığı isim. Bir hafta sonra kendini İzmit'te, bir mezarlığın kapısında buluyorsun.",
+"Rahmi Kara'nın mezarını bulmak bir saat sürüyor. Mezarlık görevlisi defterleri karıştırıyor, sonra bir yön gösteriyor: deprem şehitlerinin yanında, ama ayrı bir sırada. “Cezaevinden geldi,” diyor görevli, sesini alçaltmadan. “Ailesi buraya gömdürdü. Ötekilerin yanına.”",
+"Mezar taşı sade: “Rahmi Kara, 1951–2004.” Altında bir cümle, sonradan kazınmış gibi, harfleri daha derin: “Masumdu.”",
+"Mezarın üstünde taze çiçekler. Beyaz karanfiller, bir kurdeleyle bağlı. Biri bu hafta gelmiş. Belki dün.",
+"Babanın mezarı Ankara'da, Karşıyaka'da, büyük bir aile mezarlığında. Mermer, adının altında “Mühendis” yazıyor. Cenazesine yüzlerce kişi geldi. Bu mezarın cenazesine kaç kişi geldi? Baban gelmedi. Defterde yazıyor.",
+"İki mezar, iki adam, bir fotoğraftaki iki gülümseme. Biri “Mühendis”, biri “Masumdu.”",
+"Mezarlığın öbür ucundan birinin geldiğini görüyorsun. Bir kadın. Elinde bir şişe su, toprak sulamak için. Kırk yaşlarında. Yüzünü daha önce bir gazete fotoğrafında gördün; sekiz yaşında, bir pankartın arkasında."
+], secenekler: [
+{ t: "Oradan uzaklaşırsın, o seni görmeden.", to: "b3b", etki: { huzur: 1, mezar_kacti: true } },
+{ t: "Mezarın başında durmaya devam edersin. Ne olacaksa olsun.", to: "b3b", etki: { hakikat: 1, mezar_karsilasti: true } },
+{ t: "Kendi getirdiğin bir şeyi mezara bırakırsın: babanın fotoğrafını, iki adamın birlikte olduğu.", to: "b3b", etki: { hakikat: 1, foto_birakti: true } },
+{ t: "Bir ağacın arkasına geçip onu izlersin.", to: "b3b", etki: { izledi: true } }
+]},
+
+bd_amca: { saat: "Haziran 2024", baslik: "Amca", metin: [
+"Mevlitten sonra bahçede, evin arkasında, amcan seni yakalıyor. Seyfi amca; babanın küçük kardeşi, yetmiş üç yaşında, bütün hayatını babanın şirketinde muhasebeci olarak geçirmiş.",
+"“Bir insanmış, öyle mi?” diyor. Sesi titriyor; öfkeden mi, başka bir şeyden mi, belli değil. “Salonun ortasında, yüz kişinin önünde. Bir insanmış.”",
+"Bir süre bahçeye bakıyor. Babanın diktiği gül fidanları. Sonra sesini alçaltıyor.",
+"“Ben biliyordum,” diyor. “1993'te. Faturaları ben tuttum. Demir siparişlerini ben girdim. Bir gün baban gelip ‘Bu siparişi yarıya indir,’ dedi. Ben indirdim. Ne için olduğunu sormadım. Sorsaydım söylerdi. Sormadım.”",
+"Yaşlı adamın elleri titriyor. “Otuz yıl. Otuz yıl kimseye söylemedim. Rahmi'yi tanırdım. Tutuklandığında cezaevine bir kez gittim. Camın arkasından bana baktı ve ‘Seyfi, sen biliyorsun,’ dedi. Ben başımı salladım. Evet anlamında değil. Hayır anlamında da değil. Öylesine.”",
+"Sana bakıyor. Gözleri yaşlı. “Şimdi sen konuştun. Salonda. Bir cümleyle. Ve ben otuz yıl boyunca tek bir cümle bulamadım.”",
+"Bir sır, bir aile içinde bir kişide durmuyor. Herkes bir parçasını taşıyor; ve herkes, ötekilerin de taşıdığını bilmiyor."
+], secenekler: [
+{ t: "“Avukata gelir misin?” diye sorarsın. Bir tanık daha.", to: "z2", etki: { hakikat: 1, seyfi_tanik: true } },
+{ t: "Amcana sarılırsın.", to: "z2", etki: { sadakat: 1 } },
+{ t: "“Neden şimdi bana söylüyorsun?” diye sorarsın.", to: "z2", etki: { hakikat: 1 } },
+{ t: "“Bunu kimseye söyleme,” dersin. Bir sır daha.", to: "z2", etki: { huzur: 1, seyfi_sus: true } }
+]},
+
+bd_mektup: { saat: "Haziran 2024", baslik: "Gönderilmemiş Mektup", metin: [
+"Çalışma odası boş. Masa toplanmış, raflar boşaltılmış. Ama kilitli çekmecenin bir de çift dibi olduğunu bugün fark ediyorsun; içerideki tahtanın bir köşesi hafifçe kalkık.",
+"Tahtayı kaldırıyorsun. Altında bir zarf. Kapalı. Pul yapıştırılmış, ama damgalanmamış. Üstünde bir adres: “Elif Kara, İzmit.” Tarih: babanın ölümünden iki hafta önce.",
+"Zarfı açmak bir hırsızlık mı? Ölü bir adamın gönderemediği mektubu okumak, onun yerine karar vermek mi?",
+"Açıyorsun.",
+"“Elif Hanım. Sizi aradım ama konuşamadım. Yazıyorum, çünkü yazmak daha kolay. Babanız masumdu. Ben biliyorum, çünkü suçlu bendim. Bunu yirmi dört yıldır biliyorum ve yirmi dört yıldır susuyorum. Bu mektubu gönderip göndermeyeceğimi bilmiyorum. Göndermezsem, belki biri bir gün bulur. Belki kızım. Belki o gönderir. Ben gönderemiyorum. Özür dilerim. Bu kelime hiçbir şeye yetmez ama başka bir kelimem yok. Nuri Arslan.”",
+"Mektubun altında, başka bir mürekkeple, sonradan eklenmiş tek bir satır: “Nesrin, bulduysan, sen karar ver.”",
+"Babanın son kararı: kararı sana bırakmak. Bir yükü, ölümünden sonra, bir zarfın içinde, kızına emanet etmek."
+], secenekler: [
+{ t: "Mektubu postaya verirsin. Babanın gönderemediğini sen gönderirsin.", to: "z2", etki: function(d){ d.hakikat++; d.mektup_gitti = true; d.elif_bilir = true; } },
+{ t: "Mektubu cebine koyarsın. Ne yapacağını henüz bilmiyorsun.", to: "z2", etki: { huzur: 1, mektup_cep: true } },
+{ t: "Mektubu yırtarsın. Babanın kararını sana bırakması bir korkaklıktı ve sen bu korkaklığın ortağı olmayacaksın.", to: "z2", etki: { sadakat: 1, mektup_yirtti: true } },
+{ t: "Mektubu annene götürürsün.", to: "z2", etki: { hakikat: 1, mektup_anne: true } }
+]},
+
 /* ---------- ELİF KOLU ---------- */
 e1: { saat: "Ocak 2024", baslik: "İzmit", metin: [
 P(function(d){ return d.yakti; }, "Defteri yakmıştın. Ama Elif'in sorusu sana gerçeği söyletti. Şimdi elinde bir defter yok; yalnızca hatırladıkların var. Bir tanığın sözü, bir belgeden daha mı az ağır?"),
 "İzmit. Elif Kara'nın evi, deprem sonrası yapılmış, beş katlı, sağlam bir binanın üçüncü katında. Kapıyı kendisi açıyor.",
+"İzmit'e giden yol körfezin kıyısından geçiyor. Gölcük karşıda, tersaneler, vinçler, yeni binalar. 1999'da burada otuz bin kişiden fazla insan öldü. Şimdi her şey yeniden yapılmış, yeni, sağlam, renkli. Bir şehir, yıkılan her şeyin üstüne yeniden kurulmuş. Ama altındaki toprak aynı toprak.",
 "Seni tanıyor. İlk anda. “Arslan,” diyor. Soru değil. Yüzü bembeyaz.",
 "İçeri alıyor seni. Salonun duvarında babasının fotoğrafı; videolardaki aynı fotoğraf.",
 P(function(d){ return !d.yakti; }, "Masaya oturuyorsun. Defteri çıkarıyorsun. Elif dokunmuyor. “Ne bu?” “Babamın defteri,” diyorsun. “1999. Ağustos.”"),
@@ -169,6 +247,7 @@ P(S("e1C"), "“Ne istersem mi?” dedi Elif. Gülümsedi; acı bir gülümseme.
 P(S("e1D"), "Elif'in yüzü kaskatı oldu. “Benim babam da iyi bir babaydı,” dedi. “Ama sadece birimiz bunu yüksek sesle söyleyebildi yirmi dört yıl boyunca.” Cümlenin ağırlığı odaya çöktü."),
 P(function(d){ return d.yakti || d.kefaret; }, "Elif'in sorusunu hatırlıyorsun: “Neden şimdi?” Belgesiz bir itirafın, bir mahkemede ne kadar ağırlığı olacağını ikiniz de biliyorsunuz. Ama bir insanın içinde, belki her şeyden ağır."),
 "Bir süre sonra Elif konuşuyor. Kelimeleri dikkatle seçerek.",
+"Pencereden körfez görünüyor. Bir gemi yavaşça geçiyor. Elif'in salonunda her şey düzenli: kitaplar alfabetik, dosyalar etiketli. Yirmi dört yıllık bir dava, bir evin içinde, raflarda. Her dosyanın sırtında bir yıl. 2000'den 2023'e. Bir dosya hayatı.",
 P(function(d){ return !d.yakti; }, "“Babamın adının temizlenmesini istiyorum. Mahkemede. Herkesin önünde. Bunun için bu defter gerekiyor. Ve senin tanıklığın.” Durakladı. “Bu senin babanın adını kirletecek. Annenin evini. Senin işini. Bunu biliyor musun?”"),
 P(function(d){ return d.yakti; }, "“Babamın adının temizlenmesini istiyorum. Mahkemede. Herkesin önünde. Defter yok; ama sen varsın. Senin tanıklığın.” Durakladı. “Bu senin babanın adını kirletecek. Annenin evini. Senin işini. Bunu biliyor musun?”"),
 "“Biliyorum,” diyorsun.",
@@ -186,6 +265,7 @@ P(S("e2B"), "Elif uzun süre sana baktı. “Annen,” dedi. “Benim annem baba
 P(S("e2C"), "Elif bir süre düşündü. “Senin sesin,” dedi. “Bir belgeden daha fazlası. Mahkeme bir kâğıdı okur. Ama bir kızın kendi babası hakkında konuşması... bunu duyacaklar.”"),
 P(S("e2D"), "Elif bir süre sana baktı. “Bana bırakıyorsun,” dedi. “Babam da bana bırakmıştı. Bu yükü. Biraz da senin taşıman gerekmez mi?” Haklıydı. Ama yine de kararı ona bıraktın."),
 "Bir şubat günü Elif bir şey istiyor: annenle tanışmak.",
+"Elif ile o günden sonra birkaç kez konuştunuz. Telefonda, kısa, dikkatli. Hiç arkadaş olmadınız; olamazdınız. Ama bir şey kuruldu aranızda: iki kızın, iki babanın gölgesinde, birbirini anlamaya çalışması. Ne kadar yakın olabileceğinizi ikiniz de bilmiyorsunuz.",
 "Annenin mutfağı. Üç kadın, bir masa. Sevim Hanım, Elif, sen. Annen çay koyuyor; elleri titremiyor ama bardakları masaya koyarken her biri biraz fazla ses çıkarıyor.",
 "Elif annene bakıyor. Uzun süre. Sonra:",
 "“Siz biliyordunuz.”",
@@ -203,6 +283,7 @@ P(S("e2D"), "Elif bir süre sana baktı. “Bana bırakıyorsun,” dedi. “Bab
 /* ---------- KAMU KOLU ---------- */
 m1: { saat: "Ocak 2024", baslik: "Açıklama", metin: [
 "Savcılığa dilekçeyi kendin veriyorsun. Ekinde defterin fotokopisi. Ertesi gün bir gazeteciyle görüşüyorsun; genç bir kadın, deprem davalarını yıllardır takip ediyor.",
+"Adliyenin koridorları kalabalık. Bir sırada bekliyorsun; önünde bir trafik kazası, arkanda bir miras davası. Dilekçeni veren memur zarfı alıp bir numara veriyor. 2024/1873. Otuz bir hayat, yirmi dört yıl, bir babanın itirafı: bir numara.",
 "İki gün sonra haber çıkıyor. Başlık: “Çınar Apartmanı'nın gerçek sorumlusu: Kızı açıkladı.”",
 "Telefonun susmuyor. Akrabalar, meslektaşlar, eski müşteriler. Bazıları tebrik ediyor; çoğu sessiz kalmayı seçiyor. Bir amcan tek bir mesaj atıyor: “Babanın kemiklerini sızlattın.”",
 "Sosyal medyada yüzün. Bazı yorumlar: “Cesur bir kadın.” Bazıları: “Babasının parasıyla mimar oldu, şimdi kahraman.” Bazıları: “Otuz bir kişi öldü, bu kadının ofisi hâlâ açık mı?”",
@@ -221,6 +302,7 @@ P(S("m1B"), "Bir hafta. Telefonun kapalı, perdeler kapalı. Tarık kapının ö
 P(S("m1C"), "Annen haberi televizyondan izledi. Seni aramadı. Üç gün sonra bir mektup geldi, el yazısıyla, tek satır: “Hakkın vardı.” Altında imza yok."),
 P(S("m1D"), "Amcan cevap vermedi. Aile mezarlığının anahtarı ondaydı; ertesi hafta kilidi değiştirmiş, sana haber vermiş. Bir ailenin bir üyeyi dışarıda bırakma biçimleri, bir mahkemenin kararlarından daha kesin."),
 "Bir dernek seni bir toplantıya çağırıyor. Çınar Apartmanı'nda ölenlerin aileleri. Gölcük'te, bir belediye salonunda. Yirmi kişi kadar.",
+"Toplantıya gitmeden önce bütün gece düşündün. Ne giyeceğini, ne söyleyeceğini, nasıl duracağını. Sonunda siyah giydin; yas rengi. Ama yas tutmaya hakkın var mı? Onların ölüleri, senin babanın ölüleri. Siyah bir elbise bu farkı kapatabilir mi?",
 "Kapıdan giriyorsun. Herkes susuyor. Bir sandalye gösteriyorlar, en önde.",
 "Bir kadın kalkıyor. Altmışlarında. Adı Nazmiye. Kızı yedi yaşındaymış; ikinci katta, annesinin kucağında. Kendisi kurtulmuş; kızı kurtulmamış.",
 "“Seni tanımıyorum,” diyor. “Babanı da tanımıyordum. Rahmi Bey'i tanıyordum; yıllarca ona lanet ettim. Şimdi kime lanet edeceğimi bilmiyorum.” Bir süre susuyor. “Ben kimseyi affetmem. Ama sana teşekkür ederim. Bunlar ayrı şeyler. Sen bunu bilmelisin.”",
@@ -238,6 +320,7 @@ P(S("m2B"), "“Zeynep,” dedi Nazmiye Hanım. “Zeynep. Pembe bir elbisesi va
 P(S("m2C"), "Salon sustu. Bir adam, arka sıradan, “Para mı?” dedi. “Para mı istiyoruz sanıyorsun?” Sonra oturdu. Nazmiye Hanım başını salladı: “Ver,” dedi. “Ama para için teşekkür etmeyeceğiz.”"),
 P(S("m2D"), "Sustun. Toplantının sonunda biri yanına geldi, eline bir fotoğraf tutuşturdu: bir düğün, 1997. Altı kişi gülümsüyor. Dördü Çınar'da öldü. Fotoğrafı geri vermek istedin; almadı."),
 "Mart başında okul ihalesi iptal ediliyor. Gerekçe: “Kamuoyu hassasiyeti.” Büronun iki projesi daha askıya alınıyor. Çalışanlarından ikisi istifa ediyor.",
+"Okul projesi senin en sevdiğin projendi. Bir ilkokul, üç yüz çocuk için. Deprem dayanıklılığı için her kolonu, her kirişi üç kez hesaplamıştın. Bir avlu tasarlamıştın; ortasında bir çınar ağacı. Şimdi o okulu başka bir firma yapacak. Belki daha ucuza. Belki daha az demirle.",
 "Tarık bir akşam mutfakta oturuyor, önünde hesaplar. “Altı ay,” diyor. “Altı ay daha dayanabiliriz. Sonra büroyu kapatırız.” Sesi kızgın değil. Yorgun.",
 P(function(d){ return d.ege_bilir; }, "Ege bir akşam elinde bir kâğıtla geliyor. Bursunun iptal edildiğini bildiren bir mektup. Bağışçı vakıf, “Arslan” adını taşıyan bir bursu artık vermek istemiyormuş. Ege kâğıdı masaya bırakıyor. “Önemli değil,” diyor. Ama önemli."),
 "Bir gerçeği söylemenin bedeli, gerçeğin kendisinden daha somut. Banka hesabında. Boş bir ofis odasında. Bir çocuğun yüzünde.",
@@ -252,6 +335,7 @@ P(function(d){ return d.ege_bilir; }, "Ege bir akşam elinde bir kâğıtla geli
 /* ---------- YAKMA KOLU ---------- */
 y1: { saat: "Aralık 2023", baslik: "Ateş", metin: [
 "Bahçedeki eski mangalda. Gece yarısı. Tarık uyuyor. Ege'nin odasının ışığı sönük.",
+"Bu mangalda her yaz et pişirdiniz. Babanın en sevdiği şey; mangalın başında durmak, kömürleri çevirmek, herkese tabak dağıtmak. Ege'nin doğum günleri, Tarık'la evliliğinizin ilk yazı, annenin altmışıncı yaşı. Bütün o yazların külü hâlâ mangalın dibinde. Şimdi üstüne yenisi eklenecek.",
 "Defteri açıyorsun, son bir kez. Sayfaları tek tek koparıyorsun. 1993. 1995. 1999. Babanın titrek el yazısı.",
 "Çakmak. İlk sayfa tutuşuyor. Kâğıt kıvrılıyor, kararıyor, mürekkep bir an parlıyor sonra yok oluyor. İkinci sayfa. Üçüncü.",
 "18 Ağustos 1999 sayfasına geliyorsun. “Demirleri ben eksilttim.” Alev kelimeleri tek tek yiyor; en son “Nesrin” kelimesi kalıyor, sonra o da gidiyor.",
@@ -269,6 +353,7 @@ P(function(d){ return d.foto; }, "Telefonunda kırk iki fotoğraf var. Defteri y
 
 y2: { saat: "Ocak 2024", baslik: "Mektup", metin: [
 "Ocakta bir mektup geliyor. Elle yazılmış, İzmit postası. Gönderen: Elif Kara.",
+"Zarfı görür görmez tanıyorsun; videolarda gördüğün el yazısı değil ama tanıyorsun. Gönderen adının altında küçük bir not: “Çınar'ın Gerçeği Derneği.” Zarfı mutfak masasına koyuyorsun ve bir saat açmıyorsun. Bir saat boyunca zarfın içinde ne olabileceğini düşünüyorsun; her ihtimali.",
 "“Nesrin Hanım,” diye başlıyor. “Babanızın vefatını gazetede okudum. Başınız sağ olsun. Bunu içtenlikle söylüyorum; bir babayı kaybetmenin ne olduğunu biliyorum.”",
 "“Size bir şey sormak istiyorum ve sormaktan utanıyorum. Babanız ölmeden üç ay önce beni aradı. Telefonumu nereden bulduğunu bilmiyorum. ‘Elif Hanım,’ dedi. Sonra uzun bir sessizlik. Sonra telefonu kapattı.”",
 "“Yirmi dört yıldır bir şey bekliyorum. Babanız bir şey bırakmış olabilir mi? Bir not, bir mektup, herhangi bir şey? Lütfen bana dürüst olun. Başka hiçbir şey istemiyorum. Yalnızca bilmek.”",
@@ -286,6 +371,7 @@ P(S("y2A"), "Mektubu yazdın. Postaladın. Bir hafta sonra bir cevap geldi: “T
 P(S("y2C"), "Cevap vermedin. Elif bir daha yazmadı. Belki bekliyor. Belki artık beklemiyor. Sessizlik de bir cevaptır ve sen bu cevabı babanın yaptığı gibi verdin."),
 P(S("y2D"), "Yazdığın her kelime doğruydu. Ve hepsi bir yalanın parçasıydı. Elif'ten bir cevap geldi: “Demek bir şey söylemek istedi. Bu bile bir şey. Teşekkür ederim.” Bir şey bile. Senin ona verdiğin şey bu: bir şey bile."),
 "Bir akşam Ege mutfağa geliyor. Elinde telefonu. Yüzü solgun.",
+"Ege son haftalarda değişti. Daha az konuşuyor, daha çok odasında. Bunu sınavlara, yaşına, üniversiteye verdin. Belki öyleydi. Belki de bir şey biliyordu ve ne yapacağını bilmiyordu; tıpkı senin gibi. Çocuklar, ebeveynlerinin sırlarını ebeveynlerinin sandığından çok daha önce bilir.",
 P(function(d){ return d.foto || d.foto_sildi; }, "“Anne,” diyor. “Bulutta yedeklenen fotoğrafların... aile albümüne düşmüş. Bir defterin sayfaları.” Telefonu sana uzatıyor. Ekranda babanın el yazısı. Sildiğini sandığın şey, bir yerde, bir sunucuda yaşamaya devam etmiş."),
 P(function(d){ return !d.foto && !d.foto_sildi; }, "“Anne,” diyor. “Geçen ay gece yarısı bahçede ne yaktın? Ben pencereden gördüm. Sonra sabah mangalda yanmamış bir köşe buldum.” Elinde küçük, kararmış bir kâğıt parçası. Üstünde babanın el yazısından üç kelime: “Rahmi bilmiyordu. Ben”"),
 "“Dedem ne yaptı?” diyor Ege. On dokuz yaşında. Mimarlık okuyor. Dedesinin kucağında büyüdü.",
@@ -300,6 +386,7 @@ P(function(d){ return !d.foto && !d.foto_sildi; }, "“Anne,” diyor. “Geçen
 /* ---------- KEFARET KOLU ---------- */
 k1: { saat: "Ocak 2024", baslik: "İsimsiz Bağış", metin: [
 "Bir aracı buluyorsun; Feride Hanım'ın tanıdığı bir avukat. Elif Kara'nın derneğine bir bağış yapılacak. Büyük. İsimsiz.",
+"Feride Hanım bu planı dinlerken yüzünü buruşturdu. “Para bir şeyi düzeltmez,” dedi. “Ama bir şeyi kolaylaştırır. Sizin için mi, onun için mi, ona siz karar verin.” Sonra bir isim verdi. Bir avukat, bir hesap numarası, bir aracı. Kefaretin bürokrasisi.",
 "Ayrıca İstanbul'un iyi bir ceza avukatı, Rahmi Kara dosyasını ücretsiz incelemeyi “gönüllü olarak” teklif edecek. Ücretini sen ödeyeceksin. Kimse bilmeyecek.",
 "Defter çekmecende. Kilitli. Babanın çekmecesi gibi.",
 "Bir şeyi düzeltmek için iki yol var: gerçeği söylemek ya da sonuçlarını hafifletmek. Sen ikincisini seçtin. Para, avukat, zaman. Elif'in hayatı biraz daha kolay olacak. Rahmi Bey'in adı belki temizlenecek, belki temizlenmeyecek.",
@@ -315,6 +402,7 @@ k1: { saat: "Ocak 2024", baslik: "İsimsiz Bağış", metin: [
 k2: { saat: "Mart 2024", baslik: "Elif'in Sorusu", metin: [
 P(S("k1D"), "Avukat ipucunu takip etti. Faturalarda bir şey buldu: imza Rahmi'nin ama yazı başkasının. Bir el yazısı uzmanı. Bir rapor. Bir kapı aralandı."),
 "Mart sonunda telefonun çalıyor. Bilinmeyen bir numara.",
+"Bir toplantıdasın. Müşteriler, maketler, sunumlar. Telefon titriyor; bilinmeyen numara. Normalde açmazsın. Bu kez bir şey açmanı söylüyor; belki yalnızca bir sezgi, belki bir korku. Toplantı odasından çıkıp koridorda açıyorsun.",
 "“Nesrin Arslan?” Bir kadın sesi. Sakin. Videolardan tanıdığın ses.",
 "“Elif Kara,” diyor. “Bağışın kimden geldiğini buldum. Bankalar konuşmaz ama aracılar bazen konuşur.” Bir süre susuyor. “Bir soru soracağım. Bir kez soracağım.”",
 "“Neden?”",
@@ -332,6 +420,7 @@ P(S("k2A"), "“Vicdan,” dedin. Elif uzun süre sustu. “Vicdan,” diye tekr
 P(S("k2C"), "Telefonu kapattın. Elif üç kez daha aradı. Açmadın. Dördüncü gün bir mesaj: “Cevabınız bu muydu?” Evet, diye düşündün. Bu muydu."),
 P(S("k2D"), "“Babam isterdi,” dedin. Elif'in sesi değişti; bir an yumuşadı. “Demek söyledi,” dedi. “Demek bir şey söyledi.” Babana hiç söylemediği bir pişmanlık hediye ettin. Ona da, Elif'e de. Kendine de."),
 "Haziranda bir haber: Rahmi Kara dosyası için yargılamanın yenilenmesi talebi reddedildi. Gerekçe: “Yeni ve kesin delil sunulmamıştır.”",
+"Haberi bir gazete sitesinde, sabah kahvesini içerken okuyorsun. Küçük bir haber; sayfanın altında, magazin haberlerinin arasında. Yirmi dört yıllık bir dava, üç paragraf. Okurken kahve soğuyor. Okuduktan sonra da soğumaya devam ediyor.",
 P(function(d){ return d.ipucu; }, "El yazısı raporu yetmemiş. Bir uzman, bir başka uzmanla çelişmiş. Kesin delil. O delil senin çekmecende, kilitli, kahverengi, 1993."),
 "Elif'in yeni videosu. Yorgun. Bu sefer kameraya bakmıyor. “Biri konuşacak demiştim,” diyor. “Belki kimse konuşmayacak. Belki konuşabilecek olanlar da susmayı seçecek. Ben de artık bekleyemiyorum.”",
 "Bu videoyu üç kez izliyorsun. Çekmecenin anahtarı cebinde."
@@ -345,6 +434,7 @@ P(function(d){ return d.ipucu; }, "El yazısı raporu yetmemiş. Bir uzman, bir 
 /* ---------- ORTAK SON BÖLÜM ---------- */
 z1: { saat: "Haziran 2024", baslik: "Mevlit", metin: [
 "Babanın ölümünün üzerinden sekiz ay geçti. Akrabalar bir mevlit düzenlemiş; annenin evinde, salonda. Yüz kişi kadar.",
+"Annenin evi kalabalık. Mutfakta helva kokusu, salonda sandalyeler dizilmiş, kapıda ayakkabılar yığılmış. Kadınlar başörtülerini düzeltiyor, erkekler kollarını kavuşturmuş. Bir mevlit, ölünün ruhuna; ama gerçekte yaşayanların birbirine, ölüyü nasıl hatırlayacaklarını hatırlatması.",
 P(function(d){ return d.kamu; }, "Ama yüz kişi gelmedi. Yirmi kişi geldi. Haberden sonra akrabaların çoğu çekildi. Gelenler sana bakmıyor; annene bakıyor, sonra yere."),
 P(function(d){ return !d.kamu; }, "Herkes geldi. Eski çalışanlar, belediyeden birileri, babanın mühendis arkadaşları. Herkes sana sarılıyor, “Ne kadar dürüst bir adamdı,” diyor."),
 "Bir amcan kalkıp konuşuyor. Babanın gençliğini, ilk şantiyesini, ilk binasını anlatıyor.",
@@ -353,18 +443,27 @@ P(function(d){ return d.kamu; }, "“Nuri,” diyor, “hata yaptı. Büyük bir
 "Hoca duaya başlıyor. Salon sessiz. Annen ön sırada, gözleri kapalı.",
 "Bir çivi eksik çakmadı. Ya da, belki: her şeyi biliyoruz ve yine de seviyoruz. Hangisi söylendiyse, sen o salonda, o cümlenin ortasında oturuyorsun."
 ], secenekler: [
-{ t: "Kalkıp bir şey söylersin. Ne olursa.", to: "z2", etki: { hakikat: 1, mevlitte_konustu: true } },
+{ t: "Kalkıp bir şey söylersin. Ne olursa.", to: "bd_amca", etki: { hakikat: 1, mevlitte_konustu: true } },
 { t: "Dua bitene kadar oturursun. Bu bir dua, bir mahkeme değil.", to: "z2", etki: { sadakat: 1 } },
-{ t: "Salondan çıkıp babanın çalışma odasına gidersin.", to: "z2", etki: { huzur: 1, odaya: true } },
+{ t: "Salondan çıkıp babanın çalışma odasına gidersin.", to: "bd_mektup", etki: { huzur: 1, odaya: true } },
 { t: "Annenin yanına oturup elini tutarsın.", to: "z2", etki: { sadakat: 1, anne_yaninda: true } }
 ]},
 
 z2: { saat: "Haziran 2024", baslik: "Annenin Sırrı", metin: [
+P(S("bd_amcaA"), "Seyfi amca uzun süre sustu. Sonra “Gelirim,” dedi. “Otuz yıl geç ama gelirim.” Bir aile, bir sırrı bir kişiden bir başkasına değil, bir sessizlikten bir sese taşımaya başladı."),
+P(S("bd_amcaB"), "Amcana sarıldın. Yaşlı adam bir çocuk gibi ağladı; kardeşinin ölümünde ağlamamıştı. Şimdi ağlıyordu; belki kardeşi için, belki kendi için, belki Rahmi için."),
+P(S("bd_amcaC"), "“Çünkü sen konuştun,” dedi amcan. “Biri konuşunca ötekiler de konuşmak istiyor. Susmak, herkes sustuğu sürece kolay.”"),
+P(S("bd_amcaD"), "Amcan başını salladı. “Elbette,” dedi. “Otuz yıl sustum, bir otuz yıl daha susarım.” Bu cümle seni bir yerinden yakaladı. Babanın sesini duydun."),
+P(S("bd_mektupA"), "Mektubu postaya verdin. Gişedeki memur zarfa damga vurdu: bugünün tarihi. Babanın ölümünden sekiz ay sonra, babanın son mektubu yola çıktı. Üç gün sonra telefonun çaldı. İzmit."),
+P(S("bd_mektupB"), "Mektup cebinde. Gece annenin mutfağına girerken elini cebine koydun; kâğıdın kenarı parmağını kesti. Küçük bir kesik. Kanadı."),
+P(S("bd_mektupC"), "Mektubu yırttın. Parçaları çöpe değil, cebine attın. Neden, bilmiyorsun. Bir kararı yırtmak, onu ortadan kaldırmıyor; yalnızca parçalara ayırıyor."),
+P(S("bd_mektupD"), "Mektubu annene verdin. Annen okudu. Elleri titredi. “Bunu yazdığını bilmiyordum,” dedi. Sonra masaya bıraktı. “Otur. Sana anlatmam gereken bir şey var.”"),
 P(S("z1A"), "Kalktın. Salon sustu. Ne söyleyeceğini bilmeden ağzını açtın ve yalnızca şu çıktı: “Babam bir insandı.” Sonra oturdun. Kimse bir şey demedi. Bazı cümleler bir mahkemeden daha uzun sürer."),
 P(S("z1B"), "Dua bitti. İnsanlar dağıldı. Bir kadın, hiç tanımadığın biri, kapıda elini tuttu: “Baban bana bir iyilik yapmıştı. Yıllar önce. Kimse bilmez.” Gitti. Bir adamın içinde bir sürü adam."),
 P(S("z1C"), "Çalışma odası boş. Masa toplanmış, raflar boşaltılmış. Yalnızca kilitli çekmece, artık kilitsiz. Masanın başına oturdun; babanın oturduğu yere. Pencereden bahçe görünüyordu. Babanın kırk yıl baktığı bahçe."),
 P(S("z1D"), "Annenin eli soğuktu. Dua boyunca bırakmadı. Sonunda kulağına eğildi: “Gece kal,” dedi. “Sana anlatmam gereken bir şey var.”"),
 "Gece. Annenin mutfağı. Annen iki bardak çay koymuş.",
+"Misafirler gitmiş. Bulaşıklar yıkanmış, sandalyeler toplanmış. Evde yalnızca ikiniz. Annen saçlarını açmış; yıllardır ilk kez saçını açık görüyorsun. Bembeyaz, uzun. Bir kadının, gündüz sakladığı bir şeyi gece çıkarması.",
 "“Sana söylemediğim bir şey var,” diyor. “Baban o gece ağlayarak bana anlattığında, ertesi gün savcıya gidip her şeyi söyleyecekti. Kararını vermişti.”",
 "Bardağını çeviriyor.",
 "“Ben vazgeçirdim onu. ‘Nesrin'i düşün,’ dedim. ‘Kızını hapisteki bir babayla mı büyüteceksin? Rahmi'nin kızı zaten babasız kaldı, bir de seninki mi?’ Bütün gece konuştum. Sabah ifadeye gitti ve benim istediğim gibi konuştu.”",
@@ -383,6 +482,7 @@ P(S("z2B"), "Sustun. Annen de. Çay bardakları soğudu. Saat ikiye doğru annen
 P(S("z2C"), "“Anlıyorsun,” dedi annen. Gülümsedi; hüzünlü, rahatlamış. “Ben de bundan korkuyordum.”"),
 P(S("z2D"), "Annen sana uzun süre baktı. “Belki,” dedi. “Kalbi sessizlikten yoruldu. Doktor öyle demedi ama ben biliyorum. Ben onu susturdum ve sessizlik onu öldürdü.” Hiç ağlamadı. Bunu hiç ağlamadan söyledi."),
 "Temmuzda Gölcük'e gidiyorsun.",
+"Arabayı park ediyorsun ve bir süre içinden çıkmıyorsun. Mahalle tamamen değişmiş. 1999'dan sonra her şey yeniden yapılmış; yeni yollar, yeni binalar, yeni ağaçlar. Ama sokak isimleri aynı. Çınar Sokak. Bir sokağın adı, bir binanın adı, bir ağacın adı. Ve bir anıtın.",
 "Çınar Apartmanı'nın yerinde küçük bir park var. Birkaç bank, birkaç çınar fidanı. Ortada mermer bir anıt. Üzerinde otuz bir isim.",
 "Okuyorsun. Tek tek. Bir aile: anne, baba, iki çocuk. Bir yaşlı çift. Bir öğrenci. Zeynep Yılmaz, yedi yaşında.",
 "Listenin en altında, ayrı bir satırda, daha küçük harflerle, yakın zamanda eklenmiş gibi: “Rahmi Kara (1951–2004). Çınar'ın otuz ikinci kurbanı.”",

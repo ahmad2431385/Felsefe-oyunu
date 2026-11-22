@@ -76,11 +76,19 @@ P(S("s3D"), "Songül Abla omuz silkti. “Ben olsam mı? Ben olsam yirmi beş y�
 ], secenekler: [
 { t: "Kaan'a kararı onun vermesi gerektiğini, senin yalnızca uygulayacağını söylersin.", to: "bk", etki: { kural: 1, sinir: true } },
 { t: "Kaan'ın omzunu tutup “Birlikte vereceğiz,” dersin.", to: "bk", etki: { merhamet: 1, birlikte: true } },
-{ t: "Saniye Hanım'ın yanına gidip olabilecek her şeyi ona dürüstçe anlatırsın.", to: "bk", etki: { gercek: 1, saniye_bilir: true } },
-{ t: "Hiçbir şey söylemeden ambu balonlarını ve yedek oksijen tüplerini hazırlarsın; ne olursa olsun.", to: "bk", etki: { hazir: true } }
+{ t: "Saniye Hanım'ın yanına gidip olabilecek her şeyi ona dürüstçe anlatırsın.", to: "sv_saniye", etki: { gercek: 1, saniye_bilir: true } },
+{ t: "Hiçbir şey söylemeden ambu balonlarını ve yedek oksijen tüplerini hazırlarsın; ne olursa olsun.", to: "sv_depo", etki: { hazir: true } }
 ]},
 
 bk: { saat: "23.10", baslik: "Bekleyiş", metin: [
+P(S("sv_saniyeA"), "Saniye Hanım Kaan'ın yanına gitti ve ona da anlattı. Kaan dinledi, başını salladı, bir şey yazdı bu kez. Bir kararın bir tanığı oldu."),
+P(S("sv_saniyeB"), "Elini tuttun. Saniye Hanım cümlesini tamamlamadı. Tamamlanmamış cümle ikinizin arasında kaldı, sıcak, ağır."),
+P(S("sv_saniyeC"), "Saniye Hanım sana baktı, başını salladı. “Haklısın kızım,” dedi. Rahatlamış mıydı, kırılmış mıydı, anlayamadın."),
+P(S("sv_saniyeD"), "Saniye Hanım içeri girdi, eşinin yanına eğildi, kulağına bir şey fısıldadı. İsmail Bey'in eli bir an kalktı, karısının yanağına dokundu. Ne konuştuklarını hiç bilmeyeceksin."),
+P(S("sv_depoA"), "Eski çocuk servisinde, el feneriyle, buz gibi bir odada, minik bir cihazın arkasını söktün. Valfi çıkardın; avucunda bir umut, avuç içi kadar. Yukarı koşarken uyup uymayacağını bilmiyordun."),
+P(S("sv_depoB"), "Songül Abla eski servise gitti, sen yukarı döndün. Yirmi dakika sonra elinde bir valfle döndü, yüzü kızarmış: “Uymadı,” dedi. “Diş aralığı farklı. Yarım milim.” Yarım milim."),
+P(S("sv_depoC"), "Teknisyen telefonu dördüncü çalışta açtı, uykulu. Dinledi. “Takmayın,” dedi. “Yanlış valfle cihaz basıncı yanlış ölçer, akciğeri patlatırsınız.” Kural, bir kez daha, haklı ve işe yaramaz."),
+P(S("sv_depoD"), "Örtüyü geri çektin. Songül Abla bir şey demedi. Merdivenleri çıkarken ikiniz de biliyordunuz: bazen umut, bir şeyi yapmamak için en iyi bahanedir."),
 P(S("s4A"), "Kaan başını salladı, yutkundu. “Tamam,” dedi. Tamam olmadığını ikiniz de biliyordunuz. Bir çizgi çektin ve çizginin öbür yanında yirmi yedi yaşında bir çocuk tek başına kaldı."),
 P(S("s4B"), "Kaan'ın omzu elinin altında bir an gevşedi. “Birlikte,” dedi. Bu kelimenin ağırlığı bölünmüyor, biliyorsun; yalnızca iki kişi aynı ağırlığı ayrı ayrı taşıyor. Ama yalnız taşımaktan iyidir. Belki."),
 P(S("s4C"), "Saniye Hanım'a anlattın: tek cihaz, yoldaki çocuk, eşinin değerleri. Sözlerini yumuşatmadın. Dinledi, başını salladı ve sonunda yalnızca şunu sordu: “O çocuğun annesi biliyor mu?”"),
@@ -124,6 +132,70 @@ k1: { saat: "23.40", baslik: "Kaan", metin: [
 { t: "“Emin misin?” diye sorarsın.", to: "i1", etki: function(d){ d.cihaz = "ismail"; d.secen = "kaan"; d.kaan_dondu = true; } },
 { t: "Hiçbir şey demeden Deniz'i cihaza bağlarsın.", to: "d1", etki: function(d){ d.cihaz = "deniz"; d.secen = "kaan"; if(d.erken === "ismail") d.cikardin = true; } },
 { t: "Kararı geri alırsın: “Hayır. İkisini de elle solutacağız.”", to: "e1", etki: function(d){ d.cihaz = "elle"; d.secen = "sen"; d.merhamet++; if(d.erken === "ismail") d.cikardin = true; } }
+]},
+
+
+sv_saniye: { saat: "23.00", baslik: "Kırk Yıl", metin: [
+"Saniye Hanım'ın yanına, plastik sandalyelerin bulunduğu koridora gidiyorsun. Ona her şeyi anlatıyorsun: yoldaki çocuğu, tek cihazı, eşinin düşen değerlerini. Sözlerini yumuşatmıyorsun. Yumuşatmak, ona bir karar hakkı tanımamak olurdu.",
+"Saniye Hanım termosun kapağını açıp kapatıyor. Uzun süre bir şey söylemiyor. Sonra anlatmaya başlıyor, sana değil, koridorun öbür ucundaki karanlık pencereye:",
+"“Kırk bir yıl önce evlendik. Düğünümüzde kar yağıyordu. İsmail'in babası o kış makinedeydi, düğüne gelemedi. Üç ay sonra öldü. İsmail cenazeden döndüğü gece bana yemin ettirdi: ‘Beni öyle bir makineye bağlatma, Saniye. Söz ver.’ Söz verdim.”",
+"Bir süre susuyor. “Ama ben de ona her akşam başka bir şey söylerdim. ‘Beni bırakma.’ Kırk yıl. Her akşam. Şimdi iki sözün arasında kaldım kızım. Hangisini tutsam öbürünü bozacağım.”",
+"Gözlerini sana çeviriyor. “O çocuğun annesi var mı?”",
+"“Var,” diyorsun. “Yolda olabilir.”",
+"Saniye Hanım başını sallıyor. “O zaman,” diyor ve cümleyi bitirmiyor. Bitirmemesi, bitirmesinden daha açık konuşuyor. Ama bir insanın yarım bıraktığı bir cümleyi tamamlamak, onun yerine karar vermek mi olur?"
+], secenekler: [
+{ t: "“Bunu Kaan'a da söyler misiniz?” diye sorarsın. Kararın bir tanığı olsun.", to: "bk", etki: { gercek: 1, saniye_tanik: true } },
+{ t: "Elini tutar, cümlesini tamamlamasını beklemezsin.", to: "bk", etki: { merhamet: 1 } },
+{ t: "“Bu kararı size yükleyemem,” dersin. “Sizin işiniz beklemek, bizim işimiz seçmek.”", to: "bk", etki: { kural: 1 } },
+{ t: "“İçeri girin, bunu eşinize kendiniz söyleyin,” dersin. İki söz, iki insanın arasında çözülsün.", to: "bk", etki: { gercek: 1, saniye_soyledi: true } }
+]},
+
+sv_depo: { saat: "23.00", baslik: "Arızalı Cihaz", metin: [
+"Balonları, tüpleri, maskeleri hazırladıktan sonra ellerin hâlâ bir iş arıyor. Songül Abla'yı kolundan tutuyorsun: “Depo.”",
+"Bodrum kattaki depo soğuk ve tozlu. Köşede, üzerine naylon örtülmüş, üç haftadır yedek parçasını bekleyen beşinci cihaz duruyor. Örtüyü çekiyorsun. Ekranı kararmış; bir yerinde, el yazısıyla bir etiket: “ARIZALI. KULLANMAYIN. Valf bekleniyor.”",
+"Songül Abla cihazın arkasını açıyor. Yirmi beş yılda her makineyi bir kez sökmüş biri gibi. “Ekspiratuvar valf,” diyor. “Tek bir parça. Avuç içi kadar.”",
+"Sonra durup düşünüyor. “Eski çocuk servisinde bir cihaz vardı. Servisi kapattıklarında götürmediler, unuttular. Belki onun valfi uyar. Belki uymaz. Belki o da bozuktur.”",
+"Eski çocuk servisi binanın öbür kanadında, ısıtması kapalı, kapısı kilitli. Anahtar güvenlikte. Gitmek, aramak, sökmek, takmak, denemek: belki bir saat. Deniz otuz beş dakika sonra kapıda olacak.",
+"Bir makine bir insanı yaşatabilir. Bir parça bir makineyi. Bir saat bir parçayı. Ve senin bir saatin yok. Ya da var; ama o saat birinin yanında olmadan geçecek.",
+"Songül Abla sana bakıyor. “Karar senin,” diyor. “Ben ne dersen yaparım. Ama ikimiz birden gidemeyiz.”"
+], secenekler: [
+{ t: "Songül Abla'yı yukarı gönderirsin, sen eski servise gidersin. Bir şans varsa denenmeli.", to: "bk", etki: { merhamet: 1, tamir: "sen" } },
+{ t: "Songül Abla'yı eski servise gönderirsin, sen yukarı dönersin. Hastaların başında sen olmalısın.", to: "bk", etki: { kural: 1, tamir: "songul" } },
+{ t: "Biyomedikal teknisyenini evinden ararsın. Yanlış takılan bir valf, hiç valf olmamasından kötü olabilir.", to: "bk", etki: { kural: 1, tamir: "telefon" } },
+{ t: "Örtüyü geri çekersin. Bu gece mucize olmayacak; olmayacağını bilmek de bir hazırlık.", to: "bk", etki: { gercek: 1, tamir: "yok" } }
+]},
+
+sv_otogar: { saat: "08.40", baslik: "Otogar", metin: [
+"Kapıdan çıkıyorsun ve yürüyorsun. Nereye gittiğini bilmeden. Ayakların seni otogara götürüyor; kar yüzünden seferlerin iptal edildiği, bekleme salonunun yarı karanlık olduğu otogara.",
+"On dört yıl önce, babanın öldüğü gece, burada mahsur kalmıştın. Bu banklardan birinde, bu ışığın altında, telefonunu sıkarak sabahı beklemiştin. Banklar aynı. Duvardaki saat aynı; hâlâ dört dakika ileri.",
+"Bankta tek bir kişi var. Üniformalı, montunun yakası kalkık. Jandarma eri Mert. Birliğine dönecek otobüsü bekliyor. Seni görünce ayağa kalkıyor, sonra ne yapacağını bilemeyip yine oturuyor.",
+"“Abla,” diyor. “Siz de mi gidiyorsunuz?”",
+"Yanına oturuyorsun. Bir süre ikiniz de konuşmuyorsunuz. Sonra Mert, yere bakarak: “Bütün gece serum şişesini tuttum. Kolum hâlâ havada gibi. Bırakamıyorum. Bırakırsam bir şey olacakmış gibi.”",
+P(function(d){ return d.deniz_oldu; }, "“Deniz'le aynı koğuştaydık,” diyor. “Annesine ne diyeceğim? Komutan ‘sen git’ dedi. Ne diyeceğim?”"),
+P(function(d){ return !d.deniz_oldu; }, "“Deniz'le aynı koğuştaydık,” diyor. “Uyanınca bana kızacak. Yanlış tutmuşum şişeyi, kolunu şişirmişim. Kızsın. Kızsın, yeter ki.”"),
+"Bekleme salonunun camında ikinizin yansıması. Otuz altı yaşında bir hemşire ve yirmi yaşında bir asker. Bir gece aynı odadaydınız; şimdi aynı bankta, ikiniz de gidecek bir yer arıyorsunuz."
+], secenekler: [
+{ t: "Mert'e babanı, bu bankta geçirdiğin geceyi anlatırsın.", to: "t4", etki: { merhamet: 1, mert_baba: true } },
+{ t: "“Kolunu indir,” dersin. Elini kolunun üstüne koyup yavaşça indirirsin.", to: "t4", etki: { merhamet: 1 } },
+{ t: "Ona ne yapması gerektiğini söylersin: annesine gerçeği, kendi ağzıyla.", to: "t4", etki: { gercek: 1 } },
+{ t: "Kalkıp hastaneye geri yürürsün. Kaçtığın yer burası değilmiş.", to: "t4", etki: { geri_yurudu: true } }
+]},
+
+sv_anlatmak: { saat: "08.30", baslik: "Kelimeler", metin: [
+"Her birine anlatıyorsun. Ama biri var ki anlatmak en uzun onunla sürüyor.",
+P(function(d){ return d.deniz_oldu || d.deniz_koma; }, "Gülay Hanım. Koridorun sonundaki küçük odada, iki sandalye, bir masa, bir kutu mendil. Hastanenin “kötü haber odası”. Bu odaya on iki yılda kaç kez girdiğini sayıyorsun ve bırakıyorsun."),
+P(function(d){ return !d.deniz_oldu && !d.deniz_koma; }, "Saniye Hanım. Koridorun sonundaki küçük odada, iki sandalye, bir masa, bir kutu mendil. Hastanenin “kötü haber odası”. Eşinin gecesini sana soruyor; dakika dakika."),
+"Anlatırken bir şey fark ediyorsun: kelimeler, olanları ya küçültüyor ya büyütüyor. “Cihaz yetersizdi” dediğinde gece küçülüyor; bir kural, bir eksiklik. “Ben seçtim” dediğinde gece büyüyor; bir insan, bir suç. Arada bir yerde doğru olan duruyor ama onun için bir cümle yok.",
+"Karşındaki kadın dinliyor. Bir yerde seni durduruyor: “Bir daha söyle. O saati. Tam olarak.” Söylüyorsun. “Sen neredeydin o sırada?” Söylüyorsun.",
+"Sonra soruyor; asıl sorusunu, bütün gece taşıdığı soruyu:",
+P(function(d){ return d.deniz_oldu || d.deniz_koma; }, "“Acı çekti mi?”"),
+P(function(d){ return !d.deniz_oldu && !d.deniz_koma; }, "“Benim adımı söyledi mi?”"),
+"Bu sorunun doğru cevabını biliyorsun. Ve bu sorunun doğru cevabının, verilebilecek en iyi cevap olmadığını da biliyorsun."
+], secenekler: [
+{ t: "Doğruyu söylersin. Olduğu gibi.", to: "t4", etki: { gercek: 1, aci_dogru: true } },
+{ t: "Bir yalan söylersin; onun geri kalan ömrü için.", to: "t4", etki: { merhamet: 1, aci_yalan: true } },
+{ t: "“Bilmiyorum,” dersin. Belki doğru, belki değil.", to: "t4", etki: { bilmiyorum: true } },
+{ t: "Cevap vermek yerine elini tutar, susarsın. Cevabı kendisi bulsun.", to: "t4", etki: { merhamet: 1 } }
 ]},
 
 /* ---------- DENİZ KOLU ---------- */
@@ -381,12 +453,20 @@ P(function(d){ return d.ferhat_oldu; }, "Ferhat'ın kardeşi pencere kenarında,
 P(function(d){ return !d.ferhat_oldu; }, "Ferhat'ın kardeşi telefonda, çocuklarla konuşuyor: “Babanız iyi. Babanız uyanık.” Sesi her cümlede biraz daha yükseliyor; inanmak için kendini duyması gerekiyor gibi.")
 ], secenekler: [
 { t: "Bekleyenlerin yanına oturur, dinlersin. Ne söylerlerse.", to: "t4", etki: { merhamet: 1 } },
-{ t: "Yüzlerine bakamazsın. Çıkış kapısına yürürsün.", to: "t4", etki: { kacti: true } },
-{ t: "Her birine gece ne olduğunu kendi ağzınla anlatırsın. Kimse bunu onlara başka birinden duymamalı.", to: "t4", etki: { gercek: 1 } },
+{ t: "Yüzlerine bakamazsın. Çıkış kapısına yürürsün.", to: "sv_otogar", etki: { kacti: true } },
+{ t: "Her birine gece ne olduğunu kendi ağzınla anlatırsın. Kimse bunu onlara başka birinden duymamalı.", to: "sv_anlatmak", etki: { gercek: 1 } },
 { t: "Songül Abla'yı bulup ona sarılırsın.", to: "t4", etki: { songul: true } }
 ]},
 
 t4: { saat: "09.00", baslik: "Dönüş", metin: [
+P(S("sv_otogarA"), "Mert'e babanı anlattın. Bu bankı, bu saati, adını hiç sormadığın hemşireyi. Mert dinledi. “Belki o da size bakıyordu abla,” dedi, “biz bilmeden.” Otobüsü geldi; el sallayarak bindi."),
+P(S("sv_otogarB"), "Kolunu indirdin. Mert'in kolu titredi, sonra gevşedi. Gözleri doldu. “Teşekkür ederim,” dedi; neye teşekkür ettiğini ikiniz de bilmeden."),
+P(S("sv_otogarC"), "Mert dinledi, başını salladı. “Kendi ağzımla,” diye tekrarladı. Bir askere yapabileceğin en ağır öğüdü verdin ve o, bir asker gibi, kabul etti."),
+P(S("sv_otogarD"), "Otogardan hastaneye yürüdün. Yarı yolda durdun. Kaçtığın şeyin peşinden yürümek, ondan kaçmaktan daha mı cesur, daha mı korkak, bilemedin."),
+P(S("sv_anlatmakA"), "Doğruyu söyledin. Kadın gözlerini kapadı. Bir süre sonra “Teşekkür ederim,” dedi. “Herkes bana yalan söylüyordu. Yüzlerinden belliydi.”"),
+P(S("sv_anlatmakB"), "Yalan söyledin. Kadının yüzü yumuşadı; bir yük omzundan kalktı ve senin omzuna geçti. Bu, bir hemşirenin yapabileceği en eski iş."),
+P(S("sv_anlatmakC"), "“Bilmiyorum,” dedin. Kadın uzun uzun baktı. “Ben de bilmeyeceğim o zaman,” dedi. Bilmemeyi birlikte taşımaya karar verdiniz."),
+P(S("sv_anlatmakD"), "Elini tuttun, sustun. Kadın cevabı senin yüzünde aradı. Ne bulduğunu bilmiyorsun. Ama bir şey buldu; çünkü bir süre sonra başını salladı ve kalktı."),
 P(S("t3A"), "Oturdun ve dinledin. Söylenenlerin çoğu bir anlama gelmiyordu: bir düğün fotoğrafı, bir bisiklet, bir tarla. İnsanlar yas tutarken, sevdiklerini küçük şeylerle yeniden kurmaya çalışıyor. Sen o küçük şeyleri bir süre tuttun; tutman yetti."),
 P(S("t3B"), "Kapıdan çıktın. Arkanda bir ses adını söyledi ya da söylemedi. Dönmedin. Kaçmak bir cevap değil; ama bazen dayanmanın tek biçimi."),
 P(S("t3C"), "Anlattın. Bir kez, iki kez, üç kez. Her anlatışta cümleler biraz daha düzgün çıktı ve bu seni korkuttu. Bir acının hikâyesi anlatıldıkça cilalanıyor; ama acının kendisi yerinde, pürüzlü kalıyor."),
