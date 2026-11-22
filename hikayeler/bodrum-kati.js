@@ -17,230 +17,225 @@ durum: { vicdan: 0, uyum: 0, tanik: 0 },
 sahneler: {
 
 a1: { saat: "Ağustos 2003", baslik: "İlan", metin: [
-"Fakültenin panosunda, kulüp ilanlarının ve kiralık oda kâğıtlarının arasında, beyaz bir A4: “Hapishane Yaşamı Üzerine Psikolojik Araştırma. 14 gün. Günlük 50 TL. Erkek öğrenciler. Psikoloji Bölümü, Doç. Dr. Tuncay Erdem.”",
-"Adın Emre, yirmi bir yaşındasın, sosyoloji üçüncü sınıf. Sivas'tan geldin; bir yurtta kalıyorsun, bir kafede garsonluk yapıyorsun. Bu dönemin harcı için dört yüz lira eksik. On dört gün, yedi yüz lira.",
-"Başvuru odasında bir kuyruk. Kuyrukta tanıdık bir yüz: Kemal. Aynı mahallede büyüdünüz, aynı lisede okudunuz; o kimya okuyor, sen sosyoloji. Seni görünce gülüyor. “Sen de mi parasızsın?”",
-"Bir anket, bir mülakat, bir kişilik testi. Sonra bir oda: on sekiz öğrenci, bir masa, Doç. Dr. Tuncay Erdem. Kırklarında, sakallı, heyecanlı. Yanında bir asistan: Merve, doktora öğrencisi.",
-"“Rastgele atama yapacağız,” diyor Tuncay Hoca. “Dokuz gardiyan, dokuz mahkûm. Yazı tura.”",
-"Bir madeni para havada dönüyor. Yazı. Gardiyan.",
-"Kemal'in parası: tura. Mahkûm.",
-"Kemal sana göz kırpıyor. “Bana iyi bak, gardiyan efendi,” diyor. Herkes gülüyor."
+"Fakültenin panosunda, kiralık oda ilanlarının arasında bir A4: “Hapishane Yaşamı Üzerine Psikolojik Araştırma. 14 gün. Günlük 50 TL. Erkek öğrenciler. Psikoloji Bölümü, Doç. Dr. Tuncay Erdem.” Biri altına tükenmezle “cezaevi mi kamp mı?” yazmış.",
+"Adın Emre, yirmi bir yaşındasın, sosyoloji üçüncü sınıf. Sivas'tan geldin. Yurtta kalıyorsun, akşamları Beşiktaş'ta bir kafede garsonluk yapıyorsun. Harca dört yüz lira eksik. On dört gün, yedi yüz lira.",
+"Başvuru kuyruğunda tanıdık bir yüz: Celal. Aynı sokakta büyüdünüz, aynı lisede okudunuz. O kimya okuyor. Seni görünce sırıtıyor. “Sen de mi meteliksizsin?”",
+"Bir anket, bir mülakat, bir kişilik testi. Sonra bir oda: on sekiz öğrenci, bir masa, Doç. Dr. Tuncay Erdem. Kırklarında, sakallı, durmadan gözlüğünü silen biri. Yanında asistanı Merve, doktora öğrencisi, elinde kalın bir klasör.",
+"“Rastgele atama,” diyor Tuncay Hoca. “Dokuz gardiyan, dokuz mahkûm. Yazı tura.”",
+"Para havada dönüyor, masaya düşüyor, bir kez yuvarlanıp duruyor. Yazı. Gardiyan.",
+"Celal'inki tura. Mahkûm.",
+"Celal göz kırpıyor. “Bana iyi bak gardiyan efendi.” Herkes gülüyor."
 ], secenekler: [
 { t: "Gülersin: “Merak etme, sana fazladan ekmek veririm.”", to: "a2", etki: { vicdan: 1, kemal_soz: true } },
-{ t: "Tuncay Hoca'ya deneyin kurallarını sorarsın. Neyi yapıp neyi yapamayacağını bilmek istiyorsun.", to: "a2", etki: { tanik: 1, kural_sordu: true } },
-{ t: "Yazı tura sonucunu düşünürsün. Bir para senin ne olacağını belirledi.", to: "a2", etki: { tanik: 1 } },
+{ t: "Tuncay Hoca'ya deneyin kurallarını sorarsın.", to: "a2", etki: { tanik: 1, kural_sordu: true } },
+{ t: "Yazı turayı düşünürsün. Bir para senin ne olacağını belirledi.", to: "a2", etki: { tanik: 1 } },
 { t: "Gardiyan olmana sevinirsin. Mahkûm olmaktan iyidir.", to: "a2", etki: { uyum: 1, sevindi: true } }
 ]},
 
 a2: { saat: "Gün 1", baslik: "Üniforma", metin: [
-P(S("a1A"), "“Merak etme, sana fazladan ekmek veririm,” demiştin. Kemal gülmüştü. Bu şaka bir hafta boyunca aklından çıkmayacaktı."),
-P(S("a1C"), "Bir yazı tura. Kemal tura, sen yazı. Havada dönen bir para birinizi gardiyan, öbürünü mahkûm yaptı. O gece uyumadan önce bunu düşündün: seni başka hiçbir şey seçmemişti."),
-P(S("a1B"), "“Kural yok,” dedi Tuncay Hoca, gülümseyerek. “Yalnızca bir kural: fiziksel şiddet yok. Gerisini siz belirleyeceksiniz. Gardiyanlar düzeni sağlar. Ne kadar, nasıl; size kalmış.” Bu cevap seni rahatlatmadı."),
-P(S("a1D"), "Sevindin. Mahkûm olsaydın iki hafta bir hücrede. Gardiyan olarak sekiz saatlik vardiyalar, sonra eve. Bu sevincin bir başkasının talihsizliğinden geldiğini o an düşünmedin."),
-"Pazar sabahı. Fakültenin bodrum katı bir hapishaneye dönüşmüş: koridorun iki yanında üç hücre, kapılara demir parmaklıklar takılmış; bir “avlu”, bir “tecrit odası” (eski bir süpürge dolabı), bir gardiyan odası. Tavanda kameralar.",
-"Gardiyan odasında üniformalar: haki gömlek, haki pantolon, bir düdük, bir cop, ve aynalı güneş gözlükleri. “Gözlüklerin amacı,” diyor Tuncay Hoca, “mahkûmların sizin gözlerinizi görmemesi. Anonimlik.”",
-"Üniformayı giyiyorsun. Aynaya bakıyorsun. Biri sana bakıyor; haki, kemerli, elinde cop. Tanımıyorsun.",
-"Koridorun ucundan sesler. Mahkûmlar geliyor. Gerçekçilik için Tuncay Hoca yerel karakolla anlaşmış: her mahkûm sabah evinden ya da yurdundan gerçek polislerce “tutuklanmış”, kelepçelenmiş, gözleri bağlanarak getirilmiş. Kemal de aralarında; gözleri bağlı, kolları arkada, yüzünde bir sırıtış ama ellerinde bir titreme.",
-"Aynalı gözlük masanın üstünde duruyor."
+P(S("a1A"), "“Sana fazladan ekmek veririm,” demiştin. Celal gülmüştü. Bu şaka sonraki günlerde aklına çok gelecekti."),
+P(S("a1C"), "Celal tura, sen yazı. O gece yurtta, ranzada, parayı düşündün. Masada bir kez yuvarlanıp duruşunu."),
+P(S("a1B"), "“Kural yok,” dedi Tuncay Hoca, gülümseyerek. “Bir tek: fiziksel şiddet yok. Gerisi size kalmış.” Merve klasöre bir şey yazdı, sonra sildi."),
+P(S("a1D"), "Sevindin. Gardiyan sekiz saat vardiya yapıp eve gidecekti. Mahkûm iki hafta hücrede. Celal'in yüzüne o an bakmadın."),
+"Pazar sabahı. Bodrum katı bir hapishaneye dönmüş: koridorun iki yanında üç hücre, kapılara demir parmaklık. Bir “avlu”, eski bir süpürge dolabından bozma bir “tecrit odası”, bir gardiyan odası. Tavanda kameralar. Duvarda hâlâ eski bir “Sigara İçilmez” levhası.",
+"Gardiyan odasında üniformalar: haki gömlek, haki pantolon, düdük, cop ve aynalı güneş gözlükleri. “Gözlükler,” diyor Tuncay Hoca, “mahkûmlar gözlerinizi görmesin diye.”",
+"Üniformayı giyiyorsun. Pantolon kısa. Bileklerin açıkta. Aynada haki, kemerli, elinde cop biri.",
+"Koridordan sesler. Tuncay Hoca gerçekçilik için karakolla anlaşmış: mahkûmlar sabah evlerinden gerçek polislerce “tutuklanmış”, kelepçelenmiş, gözleri bağlanmış. Celal de aralarında. Yüzünde sırıtış, ellerinde bir titreme.",
+"Aynalı gözlük masada."
 ], secenekler: [
 { t: "Gözlüğü takarsın.", to: "a3", etki: { uyum: 1, gozluk: true } },
 { t: "Gözlüğü takmazsın. Yüzün görünsün.", to: "x_gozluk", etki: { vicdan: 1, gozluk: false } },
-{ t: "Diğer gardiyanlardan Burak'la konuşursun; oyunun nasıl oynanacağını.", to: "x_burak", etki: { uyum: 1, gozluk: true } },
-{ t: "Mahkûmların getirilişini izlersin; gözü bağlı Kemal'i.", to: "a3", etki: { tanik: 1, gozluk: true, izledi_gelis: true } }
+{ t: "Öbür gardiyanlardan Tarkan'la konuşursun. Bu işin nasıl yapılacağını.", to: "x_burak", etki: { uyum: 1, gozluk: true } },
+{ t: "Mahkûmların getirilişini izlersin. Gözü bağlı Celal'i.", to: "a3", etki: { tanik: 1, gozluk: true, izledi_gelis: true } }
 ]},
 
 x_gozluk: { saat: "Gün 1", baslik: "Yüz", metin: [
-"Gözlüğü masada bırakıyorsun. Tuncay Hoca bunu fark ediyor. Gülümsemiyor.",
-"“Emre,” diyor, “gözlük protokolün bir parçası. Deneyin geçerliliği için bütün gardiyanların aynı koşullarda olması lazım.”",
-"“Mahkûmlar arkadaşlarım hocam,” diyorsun. “Benim yüzümü görsünler.”",
-"Tuncay Hoca bir süre düşünüyor. Sonra Merve'ye bir şey fısıldıyor. Merve not alıyor. “Peki,” diyor Tuncay Hoca. “Bu da bir veri. Sen kontrol grubusun. Bir gardiyan, yüzü açık.”",
-"Bir veri. Vicdanın bir veriye dönüştü.",
-"Mahkûmlar içeri alınıyor. Gözleri açılıyor. Dokuz genç, dokuz yüz; ve karşılarında sekiz aynalı gözlük ve bir çıplak yüz. Seninki.",
-"Kemal gözünü açınca seni görüyor. Bir an rahatlıyor; yüzünde tanıdık bir şey bulmuş gibi. Sonra öbür gardiyanlara bakıyor, aynalı gözlüklerde kendi yüzünü görüyor, sekiz kez.",
-"Diğer gardiyanlar sana tuhaf bakıyor. Burak, uzun boylu, işletme son sınıf, yanına gelip fısıldıyor: “Ne yapıyorsun? Bizi zayıf gösteriyorsun.”"
+"Gözlüğü masada bırakıyorsun. Tuncay Hoca fark ediyor.",
+"“Emre, gözlük protokolün parçası. Bütün gardiyanlar aynı koşulda olmalı.”",
+"“İçeride arkadaşım var hocam. Yüzümü görsün.”",
+"Tuncay Hoca düşünüyor, Merve'ye bir şey fısıldıyor. Merve yazıyor. “Peki,” diyor Tuncay Hoca, keyifli. “Bu da bir veri. Yüzü açık bir gardiyan.”",
+"Mahkûmların gözleri açılıyor. Karşılarında sekiz aynalı gözlük ve bir çıplak yüz.",
+"Celal seni görünce bir an rahatlıyor. Sonra öbür gardiyanlara bakıyor. Aynalı camlarda kendi yüzünü görüyor, sekiz kez.",
+"Tarkan yanına gelip fısıldıyor. Uzun boylu, işletme son sınıf. “Ne yapıyorsun? Bizi zayıf gösteriyorsun.”"
 ], secenekler: [
 { t: "“Zayıf değil, insan,” dersin.", to: "a3", etki: { vicdan: 1, burakla_ters: true } },
 { t: "Bir süre sonra gözlüğü takarsın. Ekipten ayrı durmak istemiyorsun.", to: "a3", etki: { uyum: 1, gozluk: true, sonradan_taktı: true } },
-{ t: "Kemal'e başınla bir selam verirsin.", to: "a3", etki: { vicdan: 1, selam: true } },
-{ t: "Burak'a bir şey demezsin. Ama gözlüğü de takmazsın.", to: "a3", etki: { tanik: 1 } }
+{ t: "Celal'e başınla selam verirsin.", to: "a3", etki: { vicdan: 1, selam: true } },
+{ t: "Tarkan'a bir şey demezsin. Gözlüğü de takmazsın.", to: "a3", etki: { tanik: 1 } }
 ]},
 
-x_burak: { saat: "Gün 1", baslik: "Burak", metin: [
-"Burak gardiyan odasında kemerini bağlıyor. Yirmi üç yaşında, işletme son sınıf, uzun boylu, sesi gür. Bir bankada stajyer; seneye işe girecek.",
-"“Bak,” diyor, gözlüğünü burnunun ucuna indirip sana bakarak, “bu bir oyun. Ama madem para alıyoruz, iyi oynayalım. Hoca bir hapishane istiyor. Hapishane neyse onu verelim.”",
-"“Hapishane ne?” diyorsun.",
-"Burak gülüyor. “Filmlerde görmedin mi? Gardiyanlar sert olur. Mahkûmlar kurala uyar. Uymazsa cezası olur. Düzen. Hepsi bu. Fiziksel şiddet yok, merak etme. Ama düzen var.”",
-"Gözlüğünü takıyor. Aynalı yüzeyde sen ve arkadaki floresan lamba.",
-"“İlk gün önemli,” diyor. “İlk gün kim patron, belli olur. Biz yumuşak olursak iki hafta boyunca bizi ezerler. Ben bankada da öğrendim bunu: ilk gün.”",
-"Koridordan mahkûmların ayak sesleri geliyor. Burak copunu alıyor, bir kez avucuna vuruyor. “Hazır mısın, Emre?”"
+x_burak: { saat: "Gün 1", baslik: "Tarkan", metin: [
+"Tarkan kemerini bağlıyor. Yirmi üç yaşında, sesi gür. Bir bankada stajyer. Seneye kadroya girecek, bunu ilk beş dakikada iki kez söyledi.",
+"“Bak,” diyor, gözlüğü burnunun ucunda, “bu bir oyun. Ama para alıyoruz, iyi oynayalım. Hoca hapishane istiyor. Verelim.”",
+"“Hapishane ne?”",
+"Tarkan gülüyor. “Film izlemedin mi? Gardiyan sert olur. Mahkûm kurala uyar. Uymazsa cezası olur. Şiddet yok, merak etme. Düzen var.”",
+"Gözlüğünü takıyor. Aynalı camda sen ve arkadaki floresan.",
+"“İlk gün önemli. Kim patron, ilk gün belli olur. Bankada da böyle.”",
+"Copu bir kez avucuna vuruyor. “Hazır mısın?”"
 ], secenekler: [
 { t: "“Hazırım,” dersin.", to: "a3", etki: { uyum: 2, hazir: true } },
 { t: "“İçlerinde çocukluk arkadaşım var. Abartmayalım,” dersin.", to: "a3", etki: { vicdan: 1, kemal_soyledi: true } },
-{ t: "“Bu bir deney Burak. Hoca ne görmek istiyorsa onu üretmeyelim,” dersin.", to: "a3", etki: { tanik: 1 } },
-{ t: "Bir şey söylemeden copunu alırsın.", to: "a3", etki: { uyum: 1 } }
+{ t: "“Bu bir deney Tarkan. Hoca ne görmek istiyorsa onu üretmeyelim,” dersin.", to: "a3", etki: { tanik: 1 } },
+{ t: "Bir şey demeden copunu alırsın.", to: "a3", etki: { uyum: 1 } }
 ]},
 
 a3: { saat: "Gün 1, 02.30", baslik: "Sayım", metin: [
-P(S("a2A"), "Gözlüğü taktın. Aynaya baktığında kendi gözlerini değil, aynanın içindeki aynayı gördün. Garip bir rahatlık: kimse nereye baktığını bilmeyecekti."),
-P(S("x_gozlukA"), "“Zayıf değil, insan,” dedin. Burak bir süre baktı. “İnsan,” dedi, kelimenin tadına bakar gibi. “Bu bodrumda o kelime işe yaramaz.”"),
-P(S("x_gozlukB"), "Bir saat sonra gözlüğü taktın. Burak omzuna vurdu: “Hah, şöyle.” Kemal o anı gördü mü, bilmiyorsun."),
-P(S("x_gozlukC"), "Kemal'e başınla selam verdin. Kemal bir an gülümsedi, sonra birinin görmesinden korkmuş gibi hızla yere baktı."),
-P(S("x_gozlukD"), "Burak'a bir şey demedin; gözlüğü de takmadın. Burak bütün gün seninle konuşmadı. Bir sessizlik de bir taraf seçmekti."),
-P(S("x_burakA"), "“Hazırım,” dedin. Burak sırıttı, copu avucuna bir kez daha vurdu. Ses koridorda yankılandı."),
-P(S("x_burakC"), "“Hoca ne görmek istiyorsa onu üretmeyelim,” dedin. Burak güldü: “Üretmek mi? Biz sadece oynuyoruz kardeşim.” Ama gözlüğünü takmadan önce bir an düşündü."),
-P(S("x_burakD"), "Bir şey söylemeden copunu aldın; ağır, tahtadan, eski. Kemerine taktığında bir şey yerine oturdu. Ne olduğunu sevmedin."),
-P(function(d){ return d.izledi_gelis; }, "Gözü bağlı Kemal'i koridorda yürütürlerken izledin. Bir polis onu duvara dayadı, üstünü aradı. Kemal bir şaka yaptı; polis gülmedi. Kemal de bir daha şaka yapmadı."),
-P(function(d){ return d.son === "x_burakB"; }, "Burak sana baktı. “Arkadaşın mı? Hangisi?” Söyledin. Burak başını salladı. “Tamam,” dedi. Ama gözlüğün arkasında ne düşündüğünü göremedin."),
-"Gece ikiyi otuz geçe sayım. Tuncay Hoca'nın talimatı değil; Burak'ın fikri. “Gerçek hapishanelerde gece sayım yapılır,” diyor. Düdük.",
-"Mahkûmlar hücrelerinden çıkarılıp koridora diziliyor. Uykulu, şaşkın. Adları yok artık; göğüslerindeki önlüklerde numaralar. Kemal: yedi.",
-"“Numaranızı söyleyin!” diye bağırıyor Burak. “Sırayla! Yüksek sesle!”",
-"“Bir.” “İki.” “Üç.” Ses kırık. “Daha yüksek!” Baştan.",
-"Yedinci sıraya gelince Kemal duraksıyor. “Yedi,” diyor, sonra ekliyor: “Ve yarın sabah kahvaltıda omlet istiyorum.” Birkaç mahkûm gülüyor.",
-"Burak'ın gözlüğü Kemal'e dönüyor. Bir sessizlik. “Yedi numara, yere. Yirmi şınav. Diğerleri sayacak.”",
-"Kemal sana bakıyor. Bir şaka bekleyerek. Bir arkadaşın sesi bekleyerek.",
-"Burak sana dönüyor: “Emre. Say.”"
+P(S("a2A"), "Gözlüğü taktın. Aynada gözlerini değil, aynanın içindeki aynayı gördün. Kimse nereye baktığını bilmeyecekti. Bunun içini rahatlattığını fark ettin, sevmedin."),
+P(S("x_gozlukA"), "“İnsan,” dedi Tarkan, kelimeyi ağzında çevirdi. “Bu bodrumda işe yaramaz.”"),
+P(S("x_gozlukB"), "Bir saat sonra gözlüğü taktın. Tarkan omzuna vurdu: “Hah, şöyle.” Celal o anı gördü mü, bilmiyorsun."),
+P(S("x_gozlukC"), "Celal'e başınla selam verdin. Celal gülümsedi, sonra biri görecek diye hemen yere baktı."),
+P(S("x_gozlukD"), "Tarkan bütün gün seninle konuşmadı. Gözlüğün masada durdu. Arada biri üstüne kahve bardağı koydu."),
+P(S("x_burakA"), "“Hazırım.” Tarkan sırıttı, copu bir kez daha avucuna vurdu. Ses koridorda yankılandı."),
+P(S("x_burakC"), "Tarkan güldü: “Üretmek mi? Oynuyoruz kardeşim.” Gözlüğü takmadan önce yine de bir an durdu."),
+P(S("x_burakD"), "Copu aldın. Tahtadan, eski, birinin baş harfleri kazınmış. Kemerine taktığında bir şey yerine oturdu. Ne olduğunu sevmedin."),
+P(function(d){ return d.izledi_gelis; }, "Gözü bağlı Celal'i duvara dayayıp üstünü aradılar. Celal bir şaka yaptı. Polis gülmedi. Celal bir daha şaka yapmadı."),
+P(function(d){ return d.son === "x_burakB"; }, "“Hangisi?” dedi Tarkan. Söyledin. “Tamam,” dedi. Gözlüğün arkasında ne düşündüğünü göremedin."),
+"Gece ikiyi otuz geçe sayım. Tuncay Hoca'nın değil, Tarkan'ın fikri. “Gerçek hapishanede gece sayımı olur.” Düdük.",
+"Mahkûmlar koridora diziliyor. Uykulu, şaşkın, biri tek çorapla. Önlüklerinde numaralar. Celal: yedi.",
+"“Numaranızı söyleyin! Yüksek sesle!”",
+"“Bir.” “İki.” “Üç.” “Daha yüksek!” Baştan.",
+"Celal'in sırası. “Yedi,” diyor. “Bir de sabah omlet istiyorum.” Birkaç kişi gülüyor.",
+"Tarkan'ın gözlüğü Celal'e dönüyor. “Yedi numara, yere. Yirmi şınav. Ötekiler sayacak.”",
+"Celal sana bakıyor. Bir arkadaşın sesini bekliyor.",
+"Tarkan: “Emre. Say.”"
 ], secenekler: [
 { t: "Sayarsın. Bir. İki. Üç.", to: "a4", etki: { uyum: 1, saydi: true } },
-{ t: "“Bu gereksiz Burak,” dersin. Kemal'in önünde.", to: "a4", etki: { vicdan: 1, karsi_cikti: true } },
-{ t: "Sayarsın ama yavaş, alçak sesle; Kemal'e nefes alması için zaman bırakarak.", to: "a4", etki: { vicdan: 1, uyum: 1, yavas: true } },
-{ t: "Kameraya bakarsın. Biri izliyor mu? Hoca bunu görüyor mu?", to: "a4", etki: { tanik: 1, kamera: true } }
+{ t: "“Bu gereksiz Tarkan,” dersin. Celal'in önünde.", to: "a4", etki: { vicdan: 1, karsi_cikti: true } },
+{ t: "Sayarsın ama yavaş, alçak sesle; Celal nefes alsın.", to: "a4", etki: { vicdan: 1, uyum: 1, yavas: true } },
+{ t: "Kameraya bakarsın. Biri izliyor mu?", to: "a4", etki: { tanik: 1, kamera: true } }
 ]},
 
 a4: { saat: "Gün 2", baslik: "İsyan", metin: [
-P(S("a3A"), "Saydın. Yirmi. Kemal kalktı, yüzü kızarmış. Sana bakmadı. Hücresine girerken omzuyla omzuna hafifçe çarptı; bir kaza gibi. Değildi."),
-P(S("a3B"), "Burak'ın gözlüğü sana döndü. Bir saniye. “Tamam,” dedi soğukça. “Sen sayma. Hakan, say.” Hakan saydı. Kemal şınavları yaparken sana baktı; minnettar. Burak da baktı; başka türlü."),
-P(S("a3C"), "Yavaş saydın. Her sayının arasında bir nefes. Burak bir şey demedi ama üçüncü sayıda “Hızlı!” diye bağırdı. Kemal yirmi şınavı bitirdi. Kalkarken sana bir göz kırptı; zor, ama kırptı."),
-P(S("a3D"), "Kameraya baktın. Kırmızı ışık yanıyordu. Ertesi gün Merve'ye sordun; gece kayıtlarını izliyorlar mıydı? “Hoca sabah izliyor,” dedi. “Hepsini.” Yani gördü. Ve hiçbir şey demedi."),
-"İkinci günün sabahı mahkûmlar isyan ediyor. Birinci hücredekiler yataklarını kapıya dayamış, numaralarını söküp yırtmışlar. “Biz numara değiliz!” diye bağırıyorlar. Kemal de içeride; sesi en yüksek.",
-"Gardiyanlar gardiyan odasında toplanıyor. Burak kızgın. “İlk gün yumuşak davrandık, işte sonucu.”",
-"Plan: koridordaki yangın söndürücülerle karbondioksit sıkılıp mahkûmlar kapıdan geri itilecek. Yataklar alınacak. Elebaşları tecride.",
-"Tuncay Hoca kapıda; dinliyor. Bir şey demiyor. Merve yanında; yüzü solgun.",
-"Burak söndürücüyü alıp sana uzatıyor."
+P(S("a3A"), "Saydın. Yirmi. Celal kalktı, yüzü kızarmış. Hücresine girerken omzu omzuna çarptı. Kaza gibi. Değildi."),
+P(S("a3B"), "Tarkan'ın gözlüğü sana döndü. “Tamam. Sen sayma. Okan, say.” Okan saydı. Celal şınav çekerken sana baktı. Minnettar. Tarkan da baktı. Başka türlü."),
+P(S("a3C"), "Yavaş saydın. Üçüncüde Tarkan “Hızlı!” diye bağırdı. Celal bitirdi. Kalkarken zorla bir göz kırptı."),
+P(S("a3D"), "Kameranın kırmızı ışığı yanıyordu. Ertesi gün Merve'ye sordun. “Hoca sabah izliyor. Hepsini.” Yani görmüştü. Bir şey dememişti."),
+"İkinci gün sabah birinci hücre isyan ediyor. Yataklar kapıya dayanmış, numaralar sökülüp yırtılmış. “Biz numara değiliz!” Celal'in sesi en yüksekte.",
+"Gardiyanlar gardiyan odasında. Tarkan kızgın. “İlk gün yumuşak davrandık, işte.”",
+"Plan: yangın söndürücülerle karbondioksit sıkılacak, kapı açılacak, yataklar alınacak, elebaşları tecride.",
+"Tuncay Hoca kapıda dinliyor. Bir şey demiyor. Merve yanında, klasörü göğsüne bastırmış.",
+"Tarkan bir söndürücüyü sana uzatıyor. Etiketinde son kontrol tarihi: 1998."
 ], secenekler: [
-{ t: "Söndürücüyü alırsın ve öbür gardiyanlarla birlikte koridora yürürsün.", to: "a5", etki: { uyum: 2, isyan_bastirdi: true } },
+{ t: "Söndürücüyü alıp öbürleriyle koridora yürürsün.", to: "a5", etki: { uyum: 2, isyan_bastirdi: true } },
 { t: "Söndürücüyü almazsın. Gardiyan odasında, monitörlerin başında kalırsın.", to: "x_masa", etki: { vicdan: 1, tanik: 1 } },
-{ t: "“Önce bir konuşayım,” dersin. Hücrenin kapısına gidip mahkûmlarla pazarlık edersin.", to: "x_pazarlik", etki: { vicdan: 1, pazarlik: true } },
+{ t: "“Önce bir konuşayım,” deyip hücrenin kapısına gidersin.", to: "x_pazarlik", etki: { vicdan: 1, pazarlik: true } },
 { t: "Tuncay Hoca'ya dönüp bunun durdurulması gerektiğini söylersin.", to: "a5", etki: { tanik: 1, hocaya_dedi: true } }
 ]},
 
 x_masa: { saat: "Gün 2", baslik: "Monitör", metin: [
-"Gardiyan odasında, dört siyah beyaz monitörün başında oturuyorsun. Merve de yanında. Tuncay Hoca koridora çıkmış; isyanı yakından görmek istiyor.",
-"Ekranda sesler yok, yalnızca görüntü. Gardiyanlar koridorda; bir beyaz bulut, söndürücünün karbondioksiti. Mahkûmlar öksürerek geriye çekiliyor. Kapı açılıyor. Yataklar dışarı çekiliyor. Bir mahkûm yere düşüyor; Kemal mi? Görüntü bulanık.",
-"Merve not alıyor. Eli titriyor. “Bu yazılmayacak,” diyor kendi kendine. “Bu yazılmaz.”",
-"“Neden?” diyorsun.",
-"Merve sana dönüyor. Yirmi altı yaşında, doktora öğrencisi. Tuncay Hoca'nın asistanı; ve, koridorda duyduğuna göre, sevgilisi.",
-"“Çünkü Tuncay bunu görmek istiyordu,” diyor. “Bunu bekliyordu. Bir hipotez: durum insanları değiştirir. Şimdi hipotez kanıtlanıyor ve o mutlu. Ben de not alıyorum. Hepimiz bir şey yapıyoruz ki yaptığımız şeyi görmeyelim.”",
-"Ekranda Burak, Kemal'i kolundan tutup tecrit odasına doğru çekiyor."
+"Dört siyah beyaz monitör. Yanında Merve. Tuncay Hoca isyanı yakından görmek için koridora çıkmış.",
+"Ses yok. Beyaz bir bulut. Mahkûmlar öksürerek geriliyor. Kapı açılıyor, yataklar çekiliyor. Biri düşüyor; Celal mi? Görüntü bulanık.",
+"Merve not alıyor. Eli titriyor, kalem kâğıdı yırtıyor. “Bu yazılmayacak,” diyor kendi kendine.",
+"“Neden?”",
+"Merve sana dönüyor. Yirmi altı yaşında. Koridorda duyduğuna göre Tuncay Hoca'nın sevgilisi.",
+"“Çünkü Tuncay bunu bekliyordu. Hipotez kanıtlanıyor ve o mutlu. Ben de not alıyorum. Not alınca bakmak kolaylaşıyor.”",
+"Ekranda Tarkan, Celal'i kolundan tutup tecrit odasına çekiyor."
 ], secenekler: [
 { t: "Koridora koşarsın.", to: "a5", etki: { vicdan: 1, kostu: true } },
-{ t: "Merve'yle konuşmaya devam edersin. Onun ne yapacağını bilmek istiyorsun.", to: "a5", etki: { tanik: 1, merve_yakin: true } },
+{ t: "Merve'yle konuşmaya devam edersin. Ne yapacağını bilmek istiyorsun.", to: "a5", etki: { tanik: 1, merve_yakin: true } },
 { t: "Ekrana bakmaya devam edersin. Kıpırdamadan.", to: "a5", etki: { tanik: 1, izledi: true } },
 { t: "Monitörü kapatırsın.", to: "a5", etki: { uyum: 1, kapatti: true } }
 ]},
 
 x_pazarlik: { saat: "Gün 2", baslik: "Kapı", metin: [
-"Birinci hücrenin kapısına gidiyorsun. Parmaklıkların arkasında yataklar dayanmış; arasından yüzler görünüyor. Kemal en önde.",
-"“Kemal,” diyorsun. Adını söylüyorsun; numarasını değil. Arkadan bir gardiyan bir şey diyor; duymazdan geliyorsun.",
+"Birinci hücrenin kapısındasın. Yatakların arasından yüzler görünüyor. Celal en önde.",
+"“Celal.” Numarasını değil, adını söylüyorsun. Arkadan bir gardiyan bir şey diyor. Duymazdan geliyorsun.",
 "“Ne istiyorsunuz?”",
-"Kemal şaşırıyor. Bir gardiyan ona ne istediğini soruyor. “Gece sayımı olmasın,” diyor. “Tuvalete giderken eşlik edilmeyelim; kapıda bekletmeyin bizi. Ve numaralar...” Duraksıyor. “Adlarımızla çağrılmak istiyoruz.”",
-"Hepsi makul. Hepsi küçük. Bir deneyde, bir oyunda, insanların istediği küçük şeyler.",
-"Arkana dönüyorsun. Burak koridorun ucunda, söndürücü elinde. Tuncay Hoca kapıda. Burak bağırıyor: “Mahkûmlarla pazarlık yapılmaz! Ne yapıyorsun?”",
-"Tuncay Hoca bir şey demiyor. İzliyor. Bir veri daha.",
-"Kemal parmaklıkların arasından elini uzatıyor. “Emre,” diyor. “Bize güveniyor musun?”"
+"Celal şaşırıyor. “Gece sayımı olmasın. Tuvalete giderken kapıda beklemeyin. Bir de...” Duraksıyor. “Adlarımızla çağırın.”",
+"Arkana dönüyorsun. Tarkan koridorun ucunda, söndürücü elinde. “Mahkûmla pazarlık yapılmaz!”",
+"Tuncay Hoca kapıda. İzliyor.",
+"Celal parmaklıkların arasından elini uzatıyor. “Emre. Bize güveniyor musun?”"
 ], secenekler: [
 { t: "Taleplerini Tuncay Hoca'ya iletirsin.", to: "a5", etki: { vicdan: 1, talep_iletti: true } },
-{ t: "Kemal'in elini sıkarsın.", to: "a5", etki: { vicdan: 2, el_sikti: true } },
-{ t: "Geri çekilip Burak'a yer açarsın. Pazarlık işe yaramayacak.", to: "a5", etki: { uyum: 1, cekildi: true } },
-{ t: "Kemal'e yatakları kendilerinin kaldırmasını önerirsin; söndürücü gelmeden.", to: "a5", etki: { vicdan: 1, uyum: 1, ikna: true } }
+{ t: "Celal'in elini sıkarsın.", to: "a5", etki: { vicdan: 2, el_sikti: true } },
+{ t: "Geri çekilip Tarkan'a yer açarsın.", to: "a5", etki: { uyum: 1, cekildi: true } },
+{ t: "Celal'e yatakları kendilerinin kaldırmasını önerirsin. Söndürücü gelmeden.", to: "a5", etki: { vicdan: 1, uyum: 1, ikna: true } }
 ]},
 
 a5: { saat: "Gün 3", baslik: "Ayrıcalık Hücresi", metin: [
-P(S("x_masaA"), "Koridora koştun. Tecrit odasının kapısına vardığında Burak kapıyı kilitlemişti bile. “Geç kaldın,” dedi. Ne demek istediğini ikiniz de bilmiyordunuz."),
-P(S("x_masaB"), "Merve'yle konuşmaya devam ettin. “Bu deney böyle mi olmalıydı?” “Bilmiyorum,” dedi Merve, gözünü ekrandan ayırmadan. “Kimse bilmiyor. Bu yüzden yapıyoruz.”"),
-P(S("x_masaC"), "Ekrana bakmaya devam ettin, kıpırdamadan. Tecrit odasının kapısı kapandı. Ekranda yalnızca kapı kaldı; siyah beyaz, sessiz."),
-P(S("x_masaD"), "Monitörü kapattın. Ekran karardı ama ses koridordan yine geldi. Merve sana baktı ve monitörü yeniden açtı."),
-P(S("x_pazarlikC"), "Geri çekilip Burak'a yer açtın. Kemal parmaklıkların arkasından baktı; elini çekti. Sonra söndürücünün sesi; ardından öksürükler."),
-P(S("a4A"), "Söndürücüyü sıktın. Beyaz bir bulut. Mahkûmlar öksürdü, geriledi. Bir kapı, bir yatak, bir beden yere düştü. Kemal'i tecrit odasına Burak götürdü. Sen kapıyı kilitledin. Anahtarı cebine koydun ve bir an, yalnızca bir an, ellerinin titremediğini fark ettin."),
-P(S("a4D"), "Tuncay Hoca seni dinledi. “Müdür olarak karar veriyorum,” dedi; artık kendisine “Müdür” diyordu. “Bastırın.” Sonra gözlerinin içine baktı: “Emre, rolünden çıkma. Deneyi bozuyorsun.”"),
-P(S("x_pazarlikA"), "Talepleri ilettin. Tuncay Hoca dinledi, düşündü. “Gece sayımı kalsın,” dedi. “Ama adlarıyla çağrılabilirler. Bir saat.” Bir saat sonra Burak yeniden numaralarla çağırmaya başladı. Kimse bir şey demedi."),
-P(S("x_pazarlikB"), "Kemal'in elini sıktın. Arkandan Burak'ın sesi: “Emre!” Mahkûmlar yatakları kendileri kaldırdı. Söndürücüye gerek kalmadı. Ama o gece gardiyan odasında kimse seninle konuşmadı."),
-P(S("x_pazarlikD"), "Kemal düşündü, sonra ötekilere döndü. Yatakları kendileri kaldırdılar. Burak söndürücüyü indirdi; hayal kırıklığına uğramış gibi. İsyan bitti; ama yalnızca bu hücrede."),
-"Üçüncü gün Burak yeni bir taktik öneriyor; bir kitapta okumuş. “Ayrıcalık hücresi.” Bir hücre temizlenecek, yataklar konacak, iyi yemek verilecek. En itaatkâr üç mahkûm oraya alınacak. Diğerleri isyancılarla birlikte.",
-"“Böylece aralarında bir ayrım olur,” diyor. “Dayanışma kırılır. Birbirlerinden şüphelenirler.”",
-"Tuncay Hoca dinliyor, not alıyor. “İlginç,” diyor.",
-"Akşam üç numaralı mahkûm, Levent, ağlamaya başlıyor. Sessiz bir çocuk; matematik okuyor, gözlüklü. “Çıkmak istiyorum,” diyor. “Deneyi bırakıyorum.”",
-"Tuncay Hoca kapıya geliyor. “Bırakırsan sözleşmeye göre ödemeyi alamazsın,” diyor. Bu yalan; sözleşmede böyle bir madde yok, sen okudun. “Bir gün daha düşün.”",
+P(S("x_masaA"), "Koridora koştun. Tecrit odasının kapısına vardığında Tarkan kilitlemişti bile. “Geç kaldın,” dedi."),
+P(S("x_masaB"), "“Bu deney böyle mi olmalıydı?” “Bilmiyorum,” dedi Merve, gözü ekranda. “Bu yüzden yapıyoruz.” Sesi kendi sesi gibi değildi; Tuncay Hoca'nınkine benziyordu."),
+P(S("x_masaC"), "Ekrana baktın. Tecrit odasının kapısı kapandı. Ekranda yalnızca kapı kaldı."),
+P(S("x_masaD"), "Monitörü kapattın. Ses koridordan yine geldi. Merve monitörü yeniden açtı, sana bakmadan."),
+P(S("x_pazarlikC"), "Geri çekildin. Celal elini çekti. Sonra söndürücünün fısıltısı. Öksürükler."),
+P(S("a4A"), "Söndürücüyü sıktın. Beyaz bir bulut, soğuk. Biri yere düştü. Celal'i tecride Tarkan götürdü. Kapıyı sen kilitledin. Anahtarı cebine koyarken ellerinin titremediğini fark ettin."),
+P(S("a4D"), "Tuncay Hoca dinledi. “Müdür olarak karar veriyorum,” dedi. Kendine artık “Müdür” diyordu. “Bastırın.” Sonra: “Emre, rolünden çıkma. Deneyi bozuyorsun.”"),
+P(S("x_pazarlikA"), "Talepleri ilettin. Tuncay Hoca düşündü. “Gece sayımı kalsın. Ama adlarıyla çağrılabilirler.” Bir saat sonra Tarkan yeniden numaralarla çağırmaya başladı. Kimse bir şey demedi."),
+P(S("x_pazarlikB"), "Celal'in elini sıktın. Arkandan Tarkan: “Emre!” Mahkûmlar yatakları kendileri kaldırdı. O gece gardiyan odasında kimse seninle konuşmadı. Çay demlenince sana bardak koymadılar."),
+P(S("x_pazarlikD"), "Celal ötekilere döndü. Yatakları kendileri kaldırdılar. Tarkan söndürücüyü indirdi. Hayal kırıklığına uğramış gibi."),
+"Üçüncü gün Tarkan bir kitapta okuduğu bir şeyi öneriyor: “ayrıcalık hücresi.” Bir hücre temizlenecek, iyi yemek verilecek, en uslu üç mahkûm oraya.",
+"“Aralarında ayrım olur. Birbirlerinden şüphelenirler.”",
+"Tuncay Hoca not alıyor. “İlginç.”",
+"Akşam üç numara, Levent, ağlamaya başlıyor. Matematik okuyor, kalın gözlüklü. “Çıkmak istiyorum.”",
+"Tuncay Hoca kapıya geliyor. “Bırakırsan sözleşmeye göre ödeme alamazsın. Bir gün daha düşün.” Sözleşmede böyle bir madde yok. Sen okudun, üçüncü madde.",
 "Levent sana bakıyor. Gözlükleri buğulanmış."
 ], secenekler: [
 { t: "Levent'e sözleşmenin gerçekte ne dediğini söylersin.", to: "a6", etki: { vicdan: 1, tanik: 1, levent_cikti: true } },
-{ t: "Bir şey söylemezsin. Söylersen protokolü bozmuş olursun; adın tutanağa yazılır.", to: "a6", etki: { uyum: 1 } },
-{ t: "Burak'ın planına göre Kemal'i ayrıcalık hücresine seçersin; onu korumak için.", to: "a6", etki: { uyum: 1, vicdan: 1, kemal_ayricalik: true } },
+{ t: "Bir şey söylemezsin. Söylersen adın tutanağa geçer.", to: "a6", etki: { uyum: 1 } },
+{ t: "Tarkan'ın planına göre Celal'i ayrıcalık hücresine seçersin. Onu korumak için.", to: "a6", etki: { uyum: 1, vicdan: 1, kemal_ayricalik: true } },
 { t: "Merve'ye gidip Levent'in çıkmasına yardım etmesini istersin.", to: "a6", etki: { tanik: 1, merveye: true } }
 ]},
 
 a6: { saat: "Gün 4, gece", baslik: "Gece Vardiyası", metin: [
-P(S("a5B"), "Levent'e bir şey söylemedin. O gece hücresinde bir saat ağladı; kimse kapıyı açmadı. Sabah gözleri şişmişti; numarasını adından önce söyledi."),
-P(S("a5A"), "Levent'e sözleşmenin üçüncü maddesini söyledin: istediği zaman çıkabilir, o güne kadarki ücretini alır. Levent bir saat sonra gitti. Tuncay Hoca sana bakmadı. Ama o gece, tutanakta, adının yanına küçük bir not düşüldü: “Protokol ihlali.”"),
-P(S("a5C"), "Kemal'i ayrıcalık hücresine seçtin. Temiz çarşaf, sıcak yemek. Kemal hücreye girerken sana baktı; anlamadı. Ötekiler de baktı; anladılar. O gece birinci hücreden biri Kemal'e “Gardiyanın köpeği” diye bağırdı."),
-P(S("a5D"), "Merve seni dinledi. Gözleri doldu. “Ben bir şey yapamam,” dedi. “Ben bir asistanım.” Sonra bir süre sustu. “Ama yarın Tuncay'la konuşacağım.” Levent o gece kaldı."),
-"Dördüncü günün gecesi. Gece vardiyası: sen, Burak, Hakan. Tuncay Hoca eve gitmiş. Merve gitmiş. Kameralar kayıtta ama gece kimse izlemiyor; sabah izlenecek. Burak bunu biliyor. “Gece,” diyor, “bizim saatimiz.”",
-"Gece yarısı Burak mahkûmları koridora diziyor. Bu kez sayım değil. Bir “oyun”. Mahkûmlar ikişer ikişer eşleşecek; biri eğilecek, öbürü onun sırtına binecek. “Eşek yarışı,” diyor Burak. Gülüyor. Hakan da gülüyor.",
-"Kemal eğilmesi gerekenlerden. Sırtına başka bir mahkûm biniyor. Kemal'in yüzü yere yakın; ama sana dönük. Gözleri. Dört gündür hiç görmediğin bir şey var o gözlerde. Bir korku değil. Bir boşluk.",
-"Burak sana dönüyor. Gözlüğün arkasında bir şey parlıyor. “Emre. Sen de katıl. Yarışın hakemi sen ol.”",
-"Koridorda floresan ışık, dokuz eğik sırt, bir düdük, bir gülüş.",
-"Bir oyunun bir oyun olmaktan çıktığı an. Kimse o anın ne zaman geldiğini fark etmedi. Şimdi geldi ve sen orada duruyorsun.",
-"Burak düdüğü uzatıyor. Hakan seni izliyor. Kemal'in sırtındaki mahkûm sallanıyor. Bir şey yapmazsan da bir şey yapmış olacaksın."
+P(S("a5B"), "Bir şey söylemedin. Levent o gece bir saat ağladı. Kimse kapıyı açmadı. Sabah numarasını adından önce söyledi."),
+P(S("a5A"), "Üçüncü maddeyi söyledin: istediği zaman çıkabilir, o güne kadarki ücreti ödenir. Levent bir saat sonra gitti. Gözlüğünü önlüğüyle silerek. Tutanakta adının yanına bir not düşüldü: “Protokol ihlali.”"),
+P(S("a5C"), "Celal'i ayrıcalık hücresine seçtin. Temiz çarşaf, sıcak yemek. Celal anlamadı. Ötekiler anladı. O gece biri Celal'e “gardiyan köpeği” diye bağırdı."),
+P(S("a5D"), "Merve'nin gözleri doldu. “Ben bir asistanım,” dedi. Sonra: “Yarın Tuncay'la konuşacağım.” Levent o gece kaldı."),
+"Dördüncü gece. Vardiyada sen, Tarkan, Okan. Tuncay Hoca evde, Merve evde. Kameralar kayıtta ama gece izleyen yok. Tarkan biliyor. “Gece bizim,” diyor.",
+"Gece yarısı mahkûmları koridora diziyor. “Eşek yarışı.” Biri eğilecek, öbürü sırtına binecek. Tarkan gülüyor, Okan da.",
+"Celal eğilenlerden. Sırtında başka bir mahkûm. Yüzü yere yakın, sana dönük. Gözlerinde dört gündür görmediğin bir şey: boşluk.",
+"Tarkan düdüğü uzatıyor. “Emre. Hakem sen ol.”",
+"Floresan ışık, dokuz eğik sırt, bir düdük. Okan seni izliyor. Celal'in sırtındaki mahkûm sallanıyor."
 ], secenekler: [
-{ t: "Düdüğü alırsın. Hakem olursan yarışı sen yönetirsin; belki yumuşatırsın. Belki.", to: "u1", etki: { uyum: 2, kol: "rol" } },
-{ t: "Burak'ın önüne geçersin: “Bitti. Hepsi hücrelere.” Gece vardiyasında, iki gardiyana karşı tek başına.", to: "v1", etki: { vicdan: 2, kol: "direnis" } },
+{ t: "Düdüğü alırsın. Hakem olursan yarışı sen yönetirsin. Belki yumuşatırsın. Belki.", to: "u1", etki: { uyum: 2, kol: "rol" } },
+{ t: "Tarkan'ın önüne geçersin: “Bitti. Hepsi hücrelere.” İki gardiyana karşı tek başına.", to: "v1", etki: { vicdan: 2, kol: "direnis" } },
 { t: "Koridordan çıkıp Tuncay Hoca'yı evinden ararsın. Sen dönene kadar burada ne olacağını bilmeden.", to: "ty1", etki: { tanik: 2, kol: "tanik" } },
-{ t: "Bir şey söylemeden kenarda durur, kafanda bir plan kurarsın. Kemal'in sırtındaki yükü izleyerek.", to: "g1", etki: { vicdan: 1, uyum: 1, kol: "gizli" } }
+{ t: "Bir şey demeden kenarda durursun. Kafanda bir plan kurarak. Celal'in sırtındaki yükü izleyerek.", to: "g1", etki: { vicdan: 1, uyum: 1, kol: "gizli" } }
 ]},
 
 /* ---------- ROL KOLU ---------- */
 u1: { saat: "Gün 4, gece", baslik: "Hakem", metin: [
-"Düdüğü alıyorsun. Kendi elinin düdüğü dudaklarına götürdüğünü izliyorsun; bir başkasının eli gibi.",
-"Düdük. Yarış başlıyor. Mahkûmlar koridor boyunca ilerliyor; sırttakiler düşmemeye çalışıyor, alttakiler dizleri üstünde sürünüyor. Burak bağırıyor, Hakan gülüyor. Bir mahkûm düşüyor; Burak bir “ceza” veriyor: yeniden.",
-"Bir şey oluyor içinde. Önce bir rahatsızlık; sonra, bir yerden, bir güç duygusu. Düdüğün sesi koridorda yankılanıyor ve herkes, dokuz insan, o sese göre hareket ediyor. Senin sesine.",
-"Gözlüğün arkasında yüzün görünmüyor. Kimse senin yüzünü görmüyor. Ve bu, bir şeyi mümkün kılıyor; ne olduğunu adlandıramıyorsun.",
-"Kemal'in sırası. Sırtında bir başka mahkûm. Kemal sürünüyor; dizleri koridorun betonunda. Bir yerde duruyor. Kalkamıyor.",
-"Burak sana bakıyor: “Hakem. Ne diyorsun? Diskalifiye mi, yeniden mi?”",
-"Kemal başını kaldırıyor. Gözlüğüne bakıyor; aynalı yüzeyde kendi yüzünü görüyor, eğik, kızarmış, bir başkasının sırtının altında."
+"Düdüğü alıyorsun. Elinin onu dudaklarına götürdüğünü izliyorsun. Başkasının eli gibi.",
+"Düdük. Mahkûmlar koridor boyunca ilerliyor. Alttakiler dizlerinin üstünde, betonda. Tarkan bağırıyor, Okan gülüyor. Biri düşüyor; Tarkan: “Yeniden.”",
+"İçinde bir şey kıpırdıyor. Önce rahatsızlık. Sonra başka bir şey: düdüğün sesi yankılanıyor ve dokuz kişi o sese göre hareket ediyor. Senin sesine.",
+"Gözlüğün arkasında yüzün görünmüyor.",
+"Celal'in sırası. Sürünüyor. Bir yerde duruyor. Kalkamıyor. Dizlerinden biri kanamış, önlüğe yapışmış.",
+"Tarkan: “Hakem. Diskalifiye mi, yeniden mi?”",
+"Celal başını kaldırıyor. Gözlüğünde kendi yüzünü görüyor."
 ], secenekler: [
 { t: "“Yeniden,” dersin.", to: "u2", etki: { uyum: 2, yeniden: true } },
 { t: "“Diskalifiye. Kenara çekil,” dersin. Onu kurtarmak için.", to: "u2", etki: { uyum: 1, vicdan: 1 } },
 { t: "Düdüğü bırakırsın. Bu kadar.", to: "v1", etki: { vicdan: 2, kol: "direnis", gec_direnis: true } },
-{ t: "Gözlüğünü çıkarırsın. Kemal yüzünü görsün.", to: "u2", etki: { vicdan: 1, gozluk_cikti: true } }
+{ t: "Gözlüğünü çıkarırsın. Celal yüzünü görsün.", to: "u2", etki: { vicdan: 1, gozluk_cikti: true } }
 ]},
 
 u2: { saat: "Gün 5", baslik: "Yedi Numara", metin: [
-P(S("u1A"), "“Yeniden.” Kendi sesin. Kemal kalktı, sırtındaki mahkûm yeniden bindi, Kemal yeniden süründü. Sonuna kadar. Bitirdiğinde koridorun ucunda yere uzandı ve uzun süre kalkmadı."),
-P(S("u1B"), "Diskalifiye. Kemal kenara çekildi. Burak bir şey demedi. Ama sonra Kemal'in yerine bir başkası süründü. Bir insanı kurtarmak, bir başkasını onun yerine koymak demekti."),
-P(S("u1D"), "Gözlüğü çıkardın. Kemal yüzünü gördü. Bir an ikiniz de dondunuz. Sonra Kemal başını eğdi. Gözlüksüz bir yüz, gözlüklüden daha kötüydü; çünkü artık saklanacak bir şey yoktu."),
-"Beşinci gün. Bir şey değişti; sen değiştin. Vardiyalarına erken geliyorsun. Gardiyan odasında Burak'la, Hakan'la bir sonraki “ceza”yı konuşuyorsunuz. Mahkûmlar seni gördüklerinde başlarını eğiyor.",
-"Bir öğleden sonra Kemal'i tuvalete götürüyorsun. Koridorda, kimse yokken, Kemal duruyor. Sesi kısık.",
-"“Emre,” diyor. Adını söylüyor. “Emre, beni tanıyor musun?”",
-"Bir an. Koridor boş. Kamera tavanda.",
-"Kemal devam ediyor: “Annen bana börek yapardı. Senin doğum gününde. Yedi yaşındaydık. Hatırlıyor musun? Ben bütün böreği yemiştim, sen ağlamıştın.”",
-"Bunu hatırlıyorsun. Ve hatırladığın için, bir şey içinde çatlıyor."
+P(S("u1A"), "“Yeniden.” Kendi sesin. Celal kalktı, yeniden süründü, sonuna kadar. Koridorun ucunda yere uzandı, uzun süre kalkmadı."),
+P(S("u1B"), "Diskalifiye. Celal kenara çekildi. Onun yerine başka biri süründü."),
+P(S("u1D"), "Gözlüğü çıkardın. Celal yüzünü gördü. İkiniz de dondunuz. Sonra Celal başını eğdi. Saklanacak bir şey kalmamıştı."),
+"Beşinci gün. Vardiyalara erken geliyorsun. Gardiyan odasında Tarkan'la, Okan'la bir sonraki cezayı konuşuyorsunuz. Bir fikir veriyorsun, Tarkan beğeniyor, sen de beğenilmekten hoşlanıyorsun. Mahkûmlar seni görünce başlarını eğiyor.",
+"Bir öğleden sonra Celal'i tuvalete götürüyorsun. Koridor boş. Celal duruyor.",
+"“Emre. Beni tanıyor musun?”",
+"Kamera tavanda.",
+"“Annen bana börek yapardı. Senin doğum gününde. Yedi yaşındaydık. Ben bütün böreği yemiştim, sen ağlamıştın.”",
+"Hatırlıyorsun. Mutfaktaki fayansları bile."
 ], secenekler: [
 { t: "“Numaranı söyle,” dersin.", to: "u3", etki: { uyum: 2, numara: true } },
 { t: "“Hatırlıyorum,” dersin. Fısıltıyla.", to: "u3", etki: { vicdan: 1, hatirladi: true } },
-{ t: "Kemal'i tuvalete götürür, kapıda beklemezsin. Ona bir dakika verirsin.", to: "u3", etki: { vicdan: 1 } },
-{ t: "Gardiyan odasına gidip Merve'ye her şeyi anlatırsın. Rol bitti.", to: "ty2", etki: { tanik: 2, kol: "tanik", gec_tanik: true } }
+{ t: "Celal'i tuvalete götürüp kapıda beklemezsin. Bir dakika verirsin.", to: "u3", etki: { vicdan: 1 } },
+{ t: "Gardiyan odasına gidip Merve'ye her şeyi anlatırsın.", to: "ty2", etki: { tanik: 2, kol: "tanik", gec_tanik: true } }
 ]},
 
 u3: { saat: "Gün 6", baslik: "Kayıt", metin: [
-P(S("u2A"), "“Numaranı söyle.” Kemal sana baktı. Sonra: “Yedi,” dedi. Sesinde hiçbir şey yoktu. Bir numaranın sesi."),
-P(S("u2B"), "“Hatırlıyorum.” Kemal'in gözleri doldu. Sonra kapıdan Burak'ın sesi geldi; ikiniz de bir adım uzaklaştınız. Bir hatıra, bir koridorda, bir an yaşadı ve öldü."),
-P(S("u2C"), "Kapıda beklemedin. Kemal bir dakika yalnız kaldı. Döndüğünde yüzünü yıkamıştı. “Sağ ol,” dedi. Bir dakika. Bir deneyde bir dakikanın bu kadar büyük olabileceğini bilmiyordun."),
-"Altıncı gün sabah Merve bütün gardiyanları ve Tuncay Hoca'yı bir odaya topluyor. Elinde bir video kaset. Gözleri kızarık.",
-"“Dün gece eve gidip kayıtları izledim,” diyor. “Dördüncü gecenin kayıtlarını. Tuncay, sen izlemedin. İzle.”",
-"Video oynuyor. Siyah beyaz, sessiz. Koridor. Eğik sırtlar. Bir düdük. Ve bir gardiyan, aynalı gözlüklü, düdüğü dudaklarına götürüyor.",
+P(S("u2A"), "“Numaranı söyle.” Celal sana baktı. “Yedi.” Sesinde hiçbir şey yoktu."),
+P(S("u2B"), "“Hatırlıyorum.” Celal'in gözleri doldu. Kapıdan Tarkan'ın sesi geldi. İkiniz de bir adım uzaklaştınız."),
+P(S("u2C"), "Kapıda beklemedin. Celal döndüğünde yüzünü yıkamıştı. “Sağ ol,” dedi. Bir dakika."),
+"Altıncı gün sabah Merve bütün gardiyanları ve Tuncay Hoca'yı bir odaya topluyor. Elinde bir video kaset. Etiketine kendi el yazısıyla “4. gece” yazmış.",
+"“Dün gece evde dördüncü gecenin kayıtlarını izledim. Tuncay, sen izlemedin. İzle.”",
+"Siyah beyaz, sessiz. Koridor. Eğik sırtlar. Bir gardiyan, aynalı gözlüklü, düdüğü dudaklarına götürüyor.",
 "Sen.",
-"Odada kimse konuşmuyor. Tuncay Hoca ekrana bakıyor. Uzun süre. Sonra, ilk kez, bir hoca gibi değil, bir müdür gibi değil, bir insan gibi: “Ben ne yaptım?”",
-"Merve: “Deney bitti. Bugün. Ya sen bitirirsin ya da ben dekanlığa giderim.”",
-"Ekranda sen, düdük çalıyorsun. Sesi yok ama duyuyorsun."
+"Tuncay Hoca ekrana bakıyor. Sonra gözlüğünü çıkarıp siliyor, takmıyor. “Ben ne yaptım?”",
+"Merve: “Bugün bitiyor. Ya sen bitirirsin ya ben dekanlığa giderim.”"
 ], secenekler: [
 { t: "Ekrana bakmaya devam edersin. Sonuna kadar.", to: "t1", etki: { tanik: 1, sonuna: true } },
 { t: "Odadan çıkarsın.", to: "t1", etki: { uyum: 1, cikti: true } },
@@ -250,89 +245,86 @@ P(S("u2C"), "Kapıda beklemedin. Kemal bir dakika yalnız kaldı. Döndüğünde
 
 /* ---------- DİRENİŞ KOLU ---------- */
 v1: { saat: "Gün 4, gece", baslik: "Hayır", metin: [
-P(S("a6B"), "Düdüğü almadın. Burak'ın uzattığı el havada kaldı. Koridorun ortasına, iki gardiyanın arasına yürüdün."),
-P(S("ty1B"), "Telefonu bıraktın, merdivenleri koşarak indin. Düdük sesi her basamakta biraz daha yükseldi."),
-P(function(d){ return d.gec_direnis; }, "Düdüğü bıraktın. Yere düştü; plastik bir ses. Yarış durdu. Herkes sana baktı."),
-"“Bitti,” diyorsun. “Herkes hücresine.”",
-"Bir sessizlik. Mahkûmlar şaşkın; kimin emrine uyacaklarını bilmiyorlar. Burak gözlüğünü çıkarıyor. Dört gündür ilk kez yüzünü görüyorsun; kızarmış, ter içinde, öfkeli. Ve korkmuş.",
-"“Sen kim oluyorsun?” diyor. “Bu benim vardiyam.”",
-"“Bu bir deney Burak. Bu bir oyun değil artık.”",
-"Hakan ikinizin arasında. Sonra Burak'ın yanına geçiyor. İki gardiyan, bir gardiyana karşı.",
-"Burak sana yaklaşıyor. Yüzü yüzüne çok yakın. “Rolünden çıkıyorsun,” diyor. “Hoca ne der biliyor musun? Deneyi bozuyorsun. Bu bir veri değil, bir sabotaj.”",
-"Mahkûmlar hâlâ koridorda, eğik. Kemal doğrulmuş; sana bakıyor. Burak'ın arkasında, bir umutla ve bir korkuyla.",
-"Bir oyunun içinde “hayır” demek, oyunun dışına çıkmak değil. Oyunun yeni bir hamlesine dönüşmek."
+P(S("a6B"), "Düdüğü almadın. Tarkan'ın eli havada kaldı. İki gardiyanın arasına yürüdün."),
+P(S("ty1B"), "Telefonu bıraktın, merdivenleri koşarak indin. Düdük her basamakta biraz daha yükseldi."),
+P(function(d){ return d.gec_direnis; }, "Düdüğü bıraktın. Yere düştü. Plastik bir ses. Yarış durdu."),
+"“Bitti. Herkes hücresine.”",
+"Mahkûmlar şaşkın. Kime uyacaklarını bilmiyorlar. Tarkan gözlüğünü çıkarıyor. Dört gündür ilk kez yüzünü görüyorsun: kızarmış, terli, öfkeli. Ve korkmuş.",
+"“Sen kim oluyorsun? Bu benim vardiyam.”",
+"“Bu artık oyun değil Tarkan.”",
+"Okan ikinizin arasında bir süre bekliyor, sonra Tarkan'ın yanına geçiyor.",
+"Tarkan yüzünü yüzüne yaklaştırıyor. Nefesi çay ve sigara. “Rolünden çıkıyorsun. Bu sabotaj.”",
+"Celal doğrulmuş; Tarkan'ın arkasından sana bakıyor."
 ], secenekler: [
-{ t: "Mahkûmları kendin hücrelerine götürürsün; Burak'ı umursamadan.", to: "v2", etki: { vicdan: 1, gotürdü: true } },
-{ t: "Burak'ı kolundan tutup gardiyan odasına çekersin; konuşmak için.", to: "v2", etki: { vicdan: 1, uyum: 1, konustu: true } },
+{ t: "Mahkûmları kendin hücrelerine götürürsün; Tarkan'ı umursamadan.", to: "v2", etki: { vicdan: 1, gotürdü: true } },
+{ t: "Tarkan'ı kolundan tutup gardiyan odasına çekersin. Konuşmak için.", to: "v2", etki: { vicdan: 1, uyum: 1, konustu: true } },
 { t: "Kameraya dönüp konuşursun: “Saat gece yarısı, dördüncü gün. Bunu kayda geçiriyorum.”", to: "v2", etki: { tanik: 2, kamera_konustu: true } },
-{ t: "Kemal'in yanına gidip ona elini uzatırsın.", to: "v2", etki: { vicdan: 2, el: true } }
+{ t: "Celal'in yanına gidip elini uzatırsın.", to: "v2", etki: { vicdan: 2, el: true } }
 ]},
 
 v2: { saat: "Gün 5", baslik: "On Üç Numara", metin: [
-P(S("v1B"), "Burak'ı kolundan tutup gardiyan odasına çektin. “Ne yapıyorsun?” “Konuşuyorum.” On dakika konuştunuz; ya da sen konuştun. Sonunda Burak gözlüğünü çıkardı. “Yarın Hoca'ya anlatırım,” dedi. Anlattı; ama kendi bildiği gibi."),
-P(S("v1A"), "Mahkûmları hücrelerine götürdün. Burak arkandan bir şey bağırmadı. Ama ertesi sabah Tuncay Hoca'nın masasında Burak'ın el yazısıyla bir not vardı: “Gardiyan Emre, protokolü ihlal etmiş ve mahkûmlarla işbirliği yapmıştır.”"),
-P(S("v1C"), "Kameraya konuştun. Saat, gün, ne olduğu. Ertesi sabah Tuncay Hoca kaydı izledi. Seni çağırdı. Yüzü bembeyaz. Ama kızgın değildi; heyecanlıydı. “Bu,” dedi, “çok değerli bir veri.”"),
-P(S("v1D"), "Kemal'in elini tuttun, kaldırdın. Burak ikinize baktı. “Demek öyle,” dedi. Ertesi sabah Tuncay Hoca'nın masasında bir not."),
-"Beşinci gün sabah Tuncay Hoca seni çağırıyor. Odasında Burak da var.",
-"“Emre,” diyor Tuncay Hoca, “dün gece rolünden çıktın. Bunu anlıyorum. Ama bu deneyin bir yapısı var. Bir gardiyan, mahkûmların tarafına geçemez. Geçerse...” Bir an duraksıyor; bir şey düşünüyor; yüzünde bir parıltı.",
-"“Geçerse,” diyor, “mahkûm olur. Sana bir seçenek sunuyorum: ya deneyden çıkarsın ve ücretini alırsın. Ya da kalırsın; ama mahkûm olarak. On üç numara. Bir gardiyanın mahkûm olması; bu literatürde hiç olmadı.”",
-"Burak gülümsüyor; gözlüğünü yeniden takmış.",
-"Bir “hayır” dedin ve şimdi sistem seni bir başka role yerleştiriyor. Dışarıda kalamıyorsun; ya bu oyundan çıkıyorsun ya da öbür tarafına geçiyorsun."
+P(S("v1B"), "On dakika konuştunuz. Ya da sen konuştun. Sonunda Tarkan gözlüğünü çıkardı. “Yarın Hoca'ya anlatırım,” dedi. Anlattı. Kendi bildiği gibi."),
+P(S("v1A"), "Mahkûmları götürdün. Tarkan arkandan bağırmadı. Ertesi sabah Tuncay Hoca'nın masasında Tarkan'ın el yazısıyla bir not: “Gardiyan Emre protokolü ihlal etmiş ve mahkûmlarla işbirliği yapmıştır.” İmzanın altını iki kez çizmişti."),
+P(S("v1C"), "Kameraya konuştun. Ertesi sabah Tuncay Hoca kaydı izleyip seni çağırdı. Yüzü bembeyaz ama gözleri parlıyordu. “Bu çok değerli bir veri,” dedi."),
+P(S("v1D"), "Celal'in elini tutup kaldırdın. Tarkan ikinize baktı. “Demek öyle.” Ertesi sabah Tuncay Hoca'nın masasında bir not."),
+"Beşinci gün sabah Tuncay Hoca'nın odası. Tarkan da orada.",
+"“Emre, dün gece rolünden çıktın. Anlıyorum. Ama deneyin bir yapısı var. Gardiyan mahkûmun tarafına geçemez. Geçerse...” Duruyor. Yüzünde bir parıltı.",
+"“Geçerse mahkûm olur. Ya deneyden çıkarsın, ücretini alırsın. Ya da kalırsın. Mahkûm olarak. On üç numara. Bu literatürde hiç olmadı.”",
+"Tarkan gülümsüyor. Gözlüğünü yeniden takmış."
 ], secenekler: [
 { t: "Mahkûm olmayı kabul edersin. On üç numara.", to: "v3", etki: { vicdan: 1, mahkum: true } },
 { t: "Deneyden çıkarsın. Ama dekanlığa gidersin.", to: "ty3", etki: { tanik: 2, kol: "tanik", cikip_dekan: true } },
-{ t: "Kabul edersin; ama bir şartla: Kemal'in yanındaki hücreye.", to: "v3", etki: { vicdan: 1, mahkum: true, kemalle: true } },
-{ t: "Deneyden çıkarsın. Merdivenleri çıkıp kantine oturursun; ne yapacağını bilmeden.", to: "ty2", etki: { uyum: 1, sessiz_cikti: true, kol: "tanik" } }
+{ t: "Kabul edersin. Bir şartla: Celal'in yanındaki hücre.", to: "v3", etki: { vicdan: 1, mahkum: true, kemalle: true } },
+{ t: "Deneyden çıkarsın. Kantine oturursun. Ne yapacağını bilmeden.", to: "ty2", etki: { uyum: 1, sessiz_cikti: true, kol: "tanik" } }
 ]},
 
 v3: { saat: "Gün 5–6", baslik: "Hücre", metin: [
-P(S("v2A"), "Mahkûm olmayı kabul ettin. On üç numara. Tuncay Hoca bunu not defterine yazıp altını çizdi."),
-"Haki üniformayı çıkarıyorsun. Bir önlük veriyorlar; göğsünde on üç. Saçların bir bere altına. Ayakkabılarının yerine terlik. Gözlüğün yok artık; ama ötekilerin gözlükleri var.",
-"Hücre ikide. Üç yatak, bir kova, bir parmaklık. Hücre arkadaşların yüzüne bakıyor; dün seni gardiyan olarak gördüler. Biri yüzünü çeviriyor. Biri tükürüyor; yere, senin ayağının yanına.",
-P(function(d){ return d.kemalle; }, "Kemal yan hücrede. Parmaklıkların arasından elini uzatıyor; duvarın öbür yanından, göremeden. Elini tutamıyorsun; duvar var. Ama sesini duyuyorsun: “Delirmişsin. Teşekkürler.”"),
-"Gece sayımı. Burak'ın düdüğü. “Numaranızı söyleyin!” Sıran geliyor.",
+P(S("v2A"), "Kabul ettin. Tuncay Hoca defterine yazıp altını çizdi."),
+"Haki üniformayı çıkarıyorsun. Bir önlük. Göğsünde on üç. Saçların bir bere altında. Ayakkabı yerine terlik. Terliğin biri kırk iki, öbürü kırk dört.",
+"İkinci hücre. Üç yatak, bir kova. Hücre arkadaşların dün seni gardiyan olarak gördü. Biri yüzünü çeviriyor. Biri yere, ayağının yanına tükürüyor.",
+P(function(d){ return d.kemalle; }, "Celal yan hücrede. Duvarın öbür yanından sesi geliyor: “Delirmişsin. Sağ ol.”"),
+"Gece sayımı. Düdük. Sıran geliyor.",
 "“On üç.”",
 "“Daha yüksek!”",
 "“On üç!”",
-"Burak senin önünde duruyor. Gözlüğünde kendi yüzünü görüyorsun: bir önlük, bir numara, bir bere. Dün gece sen o gözlüğün arkasındaydın.",
-"“On üç numara,” diyor Burak. “Yere. Yirmi şınav. Ötekiler sayacak.”",
-"Ötekiler sayıyor. Senin için. Hücre arkadaşların, dün seni gardiyan olarak gören gençler, şimdi senin cezanı sayıyor. Yüksek sesle. Burak istediği için.",
-"Bir rolden çıkmak, bir başka role girmek demekmiş. Bir sistemin dışı yok."
+"Tarkan önünde duruyor. Gözlüğünde kendi yüzün: önlük, numara, bere.",
+"“On üç numara. Yere. Yirmi şınav. Ötekiler sayacak.”",
+"Ötekiler sayıyor. Dün seni gardiyan olarak gören gençler, senin cezanı sayıyor. Yüksek sesle."
 ], secenekler: [
-{ t: "Şınavları yaparsın. Sayılarını dinleyerek.", to: "t1", etki: { uyum: 1, sinav: true } },
-{ t: "Yere inmezsin. “Hayır,” dersin; bir mahkûm olarak.", to: "t1", etki: { vicdan: 2, mahkum_hayir: true } },
-{ t: "Burak'ın gözlüğüne bakıp adını söylersin: “Burak.”", to: "t1", etki: { vicdan: 1, tanik: 1, burak_ad: true } },
-{ t: "Şınavları yapar, sonra hücre arkadaşlarına bir şey fısıldarsın: yarın birlikte.", to: "t1", etki: { vicdan: 1, dayanisma: true } }
+{ t: "Şınavları çekersin.", to: "t1", etki: { uyum: 1, sinav: true } },
+{ t: "Yere inmezsin. “Hayır,” dersin. Bir mahkûm olarak.", to: "t1", etki: { vicdan: 2, mahkum_hayir: true } },
+{ t: "Tarkan'ın gözlüğüne bakıp adını söylersin: “Tarkan.”", to: "t1", etki: { vicdan: 1, tanik: 1, burak_ad: true } },
+{ t: "Şınavları çekip hücre arkadaşlarına fısıldarsın: yarın birlikte.", to: "t1", etki: { vicdan: 1, dayanisma: true } }
 ]},
 
 /* ---------- TANIK KOLU ---------- */
 ty1: { saat: "Gün 4, gece", baslik: "Telefon", metin: [
-"Koridordan çıkıyorsun. Arkandan Burak'ın sesi; adın, bir küfür. Merdivenleri koşarak çıkıyorsun. Fakültenin giriş katı karanlık. Bir telefon kulübesi, kapının yanında. Bir jeton.",
-"Tuncay Hoca'nın ev numarası Merve'nin masasındaki bir kâğıtta; dün gördün, ezberledin.",
-"Telefon dört kez çalıyor. Bir kadın sesi; Tuncay Hoca'nın eşi. Uykulu. “Kim?” Söylüyorsun. Bir süre sessizlik. Sonra Tuncay Hoca.",
-"Anlatıyorsun: eşek yarışı, eğik sırtlar, Kemal'in gözleri. Sesin titriyor; bir yerde kırılıyor.",
-"Tuncay Hoca dinliyor. Sonra: “Emre, gece yarısı. Bunu sabah konuşalım. Kayıtları izleyeceğim. Fiziksel şiddet var mı?”",
-"“Yok,” diyorsun. “Ama...”",
-"“O zaman protokol içinde,” diyor. “Yarın sabah. Rolüne dön. Lütfen. Bu çok önemli bir veri.”",
-"Telefon kapanıyor. Jeton düşüyor. Fakültenin karanlık holünde, bir telefon kulübesinde, elinde ahize, duruyorsun.",
-"Aşağıda, bodrum katında, düdük çalıyor."
+"Koridordan çıkıyorsun. Arkandan Tarkan'ın sesi. Adın, bir küfür. Giriş katı karanlık. Kapının yanında kartlı bir telefon. Cebinde yarım kalmış bir kart.",
+"Tuncay Hoca'nın ev numarası dün Merve'nin masasındaki bir kâğıttaydı. Ezberlemiştin, nedenini bilmeden.",
+"Dört çalış. Uykulu bir kadın sesi. “Kim?” Söylüyorsun. Sonra Tuncay Hoca.",
+"Anlatıyorsun: eşek yarışı, eğik sırtlar, Celal'in gözleri. Sesin bir yerde kırılıyor.",
+"“Emre, gece yarısı. Sabah konuşalım. Fiziksel şiddet var mı?”",
+"“Yok. Ama...”",
+"“O zaman protokol içinde. Rolüne dön. Lütfen. Bu çok önemli bir veri.”",
+"Hat kapanıyor. Kartın ekranında kalan kontör: 3.",
+"Aşağıda düdük çalıyor."
 ], secenekler: [
 { t: "Merve'yi ararsın.", to: "ty2", etki: { tanik: 1, merve_ara: true } },
-{ t: "Aşağı inip Burak'ı durdurursun; kendi başına.", to: "v1", etki: { vicdan: 2, kol: "direnis" } },
+{ t: "Aşağı inip Tarkan'ı durdurursun. Kendi başına.", to: "v1", etki: { vicdan: 2, kol: "direnis" } },
 { t: "Polisi ararsın.", to: "ty2", etki: { tanik: 2, polis: true } },
-{ t: "Telefon kulübesinde sabaha kadar oturursun.", to: "ty2", etki: { uyum: 1, kulube: true } }
+{ t: "Telefonun yanında sabaha kadar oturursun.", to: "ty2", etki: { uyum: 1, kulube: true } }
 ]},
 
 ty2: { saat: "Gün 5", baslik: "Merve", metin: [
-P(S("v2D"), "Deneyden çıkıp kantine oturdun; ne yapacağını bilmeden. Bir saat sonra Merve yanına geldi."),
-P(S("ty1A"), "Merve ilk çalışta açtı. Uyumuyormuş. Dinledi. “Geliyorum,” dedi. Yirmi dakika sonra kapıdaydı; pijamasının üstüne bir mont geçirmiş. Bodruma indi. Düdük sustu."),
-P(S("ty1C"), "Polis yarım saat sonra geldi. İki memur. Bodruma indiler, baktılar, birbirlerine baktılar. “Bu bir deney mi?” dedi biri. “Üniversitenin izni var mı?” Var, dedi Burak. Polis gitti. Gece devam etti. Ama sabah fakültede herkes polisin geldiğini biliyordu."),
-P(S("ty1D"), "Sabaha kadar oturdun. Telefon kulübesinin camında kendi yansıman. Haki üniforma. Bir gardiyan, bir telefon kulübesinde. Saat altıda Merve geldi; erken. Seni gördü. Hiçbir şey sormadı; yüzünden anladı."),
-P(function(d){ return d.gec_tanik; }, "Merve gardiyan odasında, bir dosyanın başındaydı. Ona anlattın: beş günü, düdüğü, Kemal'in “Beni tanıyor musun?” sorusunu. Merve dinlerken ağladı."),
-"Merve seninle kantinde oturuyor. Sabah. Kahve.",
-"“Ben de görüyorum,” diyor. “Her gün. Notlar alıyorum. Kayıtları izliyorum. Ve Tuncay'a her akşam söylüyorum: bu fazla. O da her akşam diyor ki: bir gün daha. Bu çok önemli. Bu literatürü değiştirecek.”",
-"Bir süre susuyor. “Biz birlikteyiz. Biliyorsun herhalde. Tuncay ile ben. Ona karşı gidersem, bir deneye değil, bir insana karşı gidiyorum. Kariyerime de.”",
-"Kahvesini karıştırıyor. “Ama sen bir öğrencisin. Sen bir gardiyansın. Sen bir sözleşmeyle buradasın. Sen gidebilirsin. Dekanlığa. Ben gidemem.”"
+P(S("v2D"), "Deneyden çıkıp kantine oturdun. Bir saat sonra Merve yanına geldi, iki çayla."),
+P(S("ty1A"), "Merve ilk çalışta açtı. Uyumuyormuş. “Geliyorum.” Yirmi dakika sonra kapıdaydı, pijamasının üstüne mont geçirmiş. Bodruma indi. Düdük sustu."),
+P(S("ty1C"), "Polis yarım saat sonra geldi. İki memur indi, baktı, birbirine baktı. “Bu deney mi? İzni var mı?” Var, dedi Tarkan. Polis gitti. Gece devam etti. Ama sabah bütün fakülte polisin geldiğini biliyordu."),
+P(S("ty1D"), "Sabaha kadar oturdun. Telefonun camında kendi yansıman: haki üniforma. Saat altıda Merve geldi. Seni gördü, bir şey sormadı."),
+P(function(d){ return d.gec_tanik; }, "Merve gardiyan odasındaydı. Anlattın: beş günü, düdüğü, “Beni tanıyor musun?”u. Merve dinlerken ağladı."),
+"Kantin. Sabah. Merve kahvesini karıştırıyor.",
+"“Ben de görüyorum. Her akşam Tuncay'a söylüyorum: fazla. O da her akşam: bir gün daha, bu literatürü değiştirecek.”",
+"“Biz birlikteyiz, biliyorsun herhalde. Ona karşı gidersem bir deneye değil, bir insana karşı gidiyorum. Kariyerime de.”",
+"“Sen gidebilirsin ama. Dekanlığa. Ben gidemem.”"
 ], secenekler: [
 { t: "“Birlikte gidelim,” dersin.", to: "ty3", etki: { tanik: 1, birlikte: true } },
 { t: "“Ben giderim,” dersin.", to: "ty3", etki: { tanik: 2, tek: true } },
@@ -341,219 +333,213 @@ P(function(d){ return d.gec_tanik; }, "Merve gardiyan odasında, bir dosyanın b
 ]},
 
 ty3: { saat: "Gün 5", baslik: "Dekan", metin: [
-P(S("ty2A"), "“Birlikte gidelim,” dedin. Merve uzun süre kahvesine baktı. Sonra kalktı. “Ceketimi alayım,” dedi."),
-P(S("ty2B"), "“Ben giderim,” dedin. Merve başını salladı; rahatlamış ve utanmış. Dekanlığın kapısına kadar tek başına yürüdün."),
-P(S("ty2D"), "“Belki o haklı,” dedin. Merve uzun uzun baktı. “Dün gece ne gördün?” Anlattın. Cümlenin sonunda kendi sorunun cevabını duydun. Bir saat sonra dekanlıktaydın."),
-P(function(d){ return d.cikip_dekan; }, "Üniformayı Tuncay Hoca'nın masasına bıraktın. Ücretini almadın. Doğruca dekanlığa çıktın."),
-P(S("ty2C"), "Merve Tuncay Hoca'yla konuştu. Kapalı kapı. Bir saat. Çıktığında yüzü taş gibiydi. “Bir gün daha istiyor,” dedi. “Ben gidiyorum. Sen gelme. Bu benim kavgam artık.” Sonra durdu. “Hayır. Gel.”"),
-"Dekanlık üçüncü katta. Dekan Prof. Dr. Gülten Aras, altmışlarında, eski bir sosyal psikolog. Dinliyor. Her şeyi. Bir kez bile sözünü kesmiyor.",
-"Sonra bir şey yapıyor ki beklemiyorsun: kalkıp asansöre biniyor ve bodruma iniyor. Kendisi. Bir dekan, bir hapishane koridorunda.",
-"Koridorda Burak, Hakan, öbür gardiyanlar. Dekanı görünce donup kalıyorlar. Mahkûmlar parmaklıkların arkasından bakıyor. Dekan koridor boyunca yürüyor; yavaş, her hücreye bakarak.",
-"Sonra Tuncay Hoca'ya dönüyor. Sesi sakin, alçak.",
-"“Tuncay. Bunları kim kurdu?”",
-"“Ben, hocam. Bu bir deney...”",
-"“Bunlar kim?” diyor dekan, mahkûmları göstererek. “Numaralar mı, öğrencilerimiz mi?”",
-"Tuncay Hoca cevap vermiyor. Dekan saatine bakıyor. “Saat on bir. Saat on ikide bu bodrum boşaltılmış olacak. Herkes evine gidecek. Ve sen, Tuncay, öğleden sonra benim odamda olacaksın.”"
+P(S("ty2A"), "Merve kahvesine baktı. Sonra kalktı. “Ceketimi alayım.”"),
+P(S("ty2B"), "Merve rahatlamış ve utanmış göründü. Dekanlığın kapısına kadar yalnız yürüdün. Üçüncü kat, merdivenler."),
+P(S("ty2D"), "“Dün gece ne gördün?” dedi Merve. Anlattın. Cümlenin sonunda kendi sorunun cevabını duydun. Bir saat sonra dekanlıktaydın."),
+P(function(d){ return d.cikip_dekan; }, "Üniformayı Tuncay Hoca'nın masasına bıraktın, katlamadan. Ücretini almadın. Dekanlığa çıktın."),
+P(S("ty2C"), "Merve Tuncay Hoca'yla bir saat konuştu. Çıktığında yüzü taş gibiydi. “Bir gün daha istiyor. Ben gidiyorum. Sen gelme.” Sonra durdu. “Hayır. Gel.”"),
+"Dekan Prof. Dr. Gülten Aras, altmışlarında, eski bir sosyal psikolog. Masasında bir kedi biblosu, kulağı kırık. Dinliyor. Sözünü kesmiyor.",
+"Sonra kalkıp asansöre biniyor ve bodruma iniyor. Kendisi.",
+"Gardiyanlar onu görünce donuyor. Mahkûmlar parmaklıkların arkasından bakıyor. Dekan her hücrenin önünde biraz duruyor.",
+"Sonra Tuncay Hoca'ya dönüyor.",
+"“Tuncay. Bunlar kim? Numaralar mı, öğrencilerimiz mi?”",
+"Tuncay Hoca cevap vermiyor.",
+"“Saat on bir. On ikide bu bodrum boş olacak. Öğleden sonra benim odamdasın.”"
 ], secenekler: [
 { t: "Hücre kapılarını kendin açarsın.", to: "t1", etki: { vicdan: 1, kapilari_acti: true } },
-{ t: "Merve'ye bakarsın. Onun ne hissettiğini görmek istiyorsun.", to: "t1", etki: { tanik: 1 } },
-{ t: "Burak'a bakarsın. Gözlüğü hâlâ takılı.", to: "t1", etki: { tanik: 1, burak_bakti: true } },
-{ t: "Kemal'in hücresine gidersin; ilk o çıksın.", to: "t1", etki: { vicdan: 1, kemal_ilk: true } }
+{ t: "Merve'ye bakarsın.", to: "t1", etki: { tanik: 1 } },
+{ t: "Tarkan'a bakarsın. Gözlüğü hâlâ takılı.", to: "t1", etki: { tanik: 1, burak_bakti: true } },
+{ t: "Celal'in hücresine gidersin. İlk o çıksın.", to: "t1", etki: { vicdan: 1, kemal_ilk: true } }
 ]},
 
 /* ---------- GİZLİ KOL ---------- */
 g1: { saat: "Gün 4–5", baslik: "Ekmek", metin: [
-"Kenarda duruyorsun. Yarış devam ediyor. Burak bağırıyor, Hakan gülüyor. Sen hiçbir şey yapmıyorsun; ve hiçbir şey yapmadığın her saniye bir şey yapıyorsun.",
-"Ama kafanda bir plan. Bu bodrum bir sistemse, sistemin içinde boşluklar vardır. Gece vardiyasının sonunda yemek odasından bir ekmek, iki peynir, bir şişe su alıyorsun. Gömleğinin altına.",
-"Sabaha karşı Kemal'i tuvalete götürüyorsun. Koridor boş. Kamera tavanda; ama tuvaletin içinde kamera yok. Ekmeği, peyniri, suyu bir lavabonun altına bırakıyorsun.",
-"Kemal bakıyor. Anlıyor. Bir şey söylemiyor.",
-"Ertesi gün aynısı. Bu kez bir not da ekliyorsun: “Dayan. İki gün daha. E.”",
-"Gardiyan odasında Burak'la, Hakan'la bir sonraki cezayı konuşuyorsunuz. Sen de bir fikir veriyorsun; makul görünen, zararsız bir fikir: mahkûmların hücrelerini kendilerinin temizlemesi. Burak beğeniyor. Kimse senin gece ne yaptığını bilmiyor.",
-"İki yüzün var artık. Biri haki, aynalı gözlüklü, düdüklü. Biri lavabonun altına ekmek bırakan. Hangisi sensin?"
+"Kenarda duruyorsun. Yarış sürüyor. Bir şey yapmadığın her saniye bir şey yapıyorsun.",
+"Kafanda bir plan. Vardiya sonunda yemek odasından bir ekmek, iki üçgen peynir, bir şişe su. Gömleğinin altına.",
+"Sabaha karşı Celal'i tuvalete götürüyorsun. Tuvalette kamera yok. Ekmeği, peyniri, suyu lavabonun altına bırakıyorsun.",
+"Celal bakıyor. Anlıyor. Bir şey demiyor.",
+"Ertesi gün aynısı. Bu kez bir not: “Dayan. İki gün daha. E.”",
+"Gündüz gardiyan odasında Tarkan'la, Okan'la bir sonraki cezayı konuşuyorsunuz. Sen de zararsız görünen bir fikir veriyorsun: hücreleri kendileri temizlesin. Tarkan beğeniyor.",
+"Gece ekmek bırakan, gündüz ceza öneren biri."
 ], secenekler: [
-{ t: "Diğer mahkûmlara da yiyecek bırakmaya başlarsın.", to: "g2", etki: { vicdan: 1, herkese: true } },
-{ t: "Yalnızca Kemal'e. Riski küçük tutarsın.", to: "g2", etki: { uyum: 1, yalniz_kemal: true } },
-{ t: "Notlara Kemal'e bilgi eklersin: hangi gardiyan ne zaman, nerede.", to: "g2", etki: { vicdan: 1, tanik: 1, bilgi: true } },
+{ t: "Öbür mahkûmlara da yiyecek bırakmaya başlarsın.", to: "g2", etki: { vicdan: 1, herkese: true } },
+{ t: "Yalnızca Celal'e. Riski küçük tutarsın.", to: "g2", etki: { uyum: 1, yalniz_kemal: true } },
+{ t: "Notlara bilgi eklersin: hangi gardiyan ne zaman, nerede.", to: "g2", etki: { vicdan: 1, tanik: 1, bilgi: true } },
 { t: "Merve'ye gizlice ne yaptığını anlatırsın. Bir tanık olsun.", to: "g2", etki: { tanik: 1, merve_bilir: true } }
 ]},
 
 g2: { saat: "Gün 5", baslik: "Mektup", metin: [
-P(S("g1B"), "Yalnızca Kemal'e bıraktın; riski küçük tuttun. Her gece bir dilim ekmek, bir parça peynir. Öbür sekiz mahkûm aç uyudu."),
-P(S("g1C"), "Notlara bilgi ekledin: Burak hangi saatte, Hakan nerede. Kemal'in elinde bir harita oldu, senin elinde bir ihanet. Kime ihanet ettiğinden emin değildin."),
-P(S("g1A"), "Her gece üç tuvalet ziyareti, üç lavabo, üç paket. Mahkûmlar arasında bir fısıltı yayılıyor: içeride bir dost var. Kimse kim olduğunu bilmiyor. Ya da biliyor ve söylemiyor."),
-P(S("g1D"), "Merve dinledi. Uzun süre bir şey demedi. Sonra: “Bunu notlarıma yazmayacağım,” dedi. “Ama biliyorum. Biri biliyor.”"),
-"Beşinci gün akşam lavabonun altında bir şey var; senin bıraktığın değil. Katlanmış bir kâğıt. Kemal'in el yazısı.",
-"“Emre. Bu mektubu anneme götür. Lütfen. Sivas'a değil; teyzemin İstanbul'daki evine, annem orada. Ona deneyde olduğumu söylemedim. Yaz kampında sanıyor. Bu mektubu okursa korkar. Ama okusun. Bir şey yazmam lazım birine. Sen değil; sen buradasın. Biri dışarıda olmalı.”",
-"Mektup ekte; bir mendil kâğıdına, kurşun kalemle. Okumuyorsun. Ama bir kelime görüyorsun, istemeden: “kayboluyorum.”",
-"Gardiyan odasına dönüyorsun. Burak orada. Gözlüğü kafasının üstünde; seni süzüyor.",
-"“Emre,” diyor, “bir şey soracağım. Son iki gecedir yemek odasında bir eksik var. Ekmek. Peynir. Sen bir şey biliyor musun?”"
+P(S("g1B"), "Yalnızca Celal'e bıraktın. Öbür sekiz mahkûm aç uyudu. Bir gece biri Celal'in ağzında peynir kokusu aldı, bir şey demedi."),
+P(S("g1C"), "Notlara bilgi ekledin: Tarkan hangi saatte, Okan nerede. Celal'in elinde bir harita oldu."),
+P(S("g1A"), "Her gece üç tuvalet, üç lavabo, üç paket. Mahkûmlar arasında bir fısıltı: içeride bir dost var. Kim olduğunu kimse söylemiyor."),
+P(S("g1D"), "Merve dinledi. “Bunu notlarıma yazmayacağım. Ama biliyorum.”"),
+"Beşinci gün akşam lavabonun altında senin bırakmadığın bir şey var. Katlanmış bir kâğıt. Celal'in yazısı.",
+"“Emre. Bunu anneme götür. Teyzemin Bağcılar'daki evinde. Deneyde olduğumu bilmiyor. Kampta sanıyor. Okursa korkar. Ama okusun. Birine yazmam lazım. Sen değil. Sen buradasın.”",
+"Mendil kâğıdına, kurşunkalemle. Okumuyorsun. Bir kelime gözüne çarpıyor: “kayboluyorum.”",
+"Gardiyan odasında Tarkan. Gözlüğü kafasının üstünde.",
+"“Emre. Son iki gecedir yemek odasında ekmek eksik. Peynir de. Sen bir şey biliyor musun?”"
 ], secenekler: [
 { t: "“Hayır,” dersin. Gözünü kırpmadan.", to: "g3", etki: { uyum: 1, yalan: true } },
 { t: "“Evet. Bendim,” dersin.", to: "g3", etki: { vicdan: 2, itiraf: true } },
-{ t: "“Belki Hakan'dır,” dersin.", to: "g3", etki: { uyum: 1, hakan_suc: true } },
-{ t: "Burak'ın sorusunu duymazdan gelip mektubu cebine koyarsın; vardiya bitince teyzesinin evine gideceksin.", to: "g3", etki: { vicdan: 1, mektup_goturdu: true } }
+{ t: "“Belki Okan'dır,” dersin.", to: "g3", etki: { uyum: 1, hakan_suc: true } },
+{ t: "Duymazdan gelip mektubu cebine koyarsın. Vardiya bitince Bağcılar'a gideceksin.", to: "g3", etki: { vicdan: 1, mektup_goturdu: true } }
 ]},
 
 g3: { saat: "Gün 6", baslik: "İki Yüz", metin: [
-P(S("g2A"), "“Hayır.” Burak sana uzun uzun baktı. “Peki,” dedi. Bir şey biliyordu; ya da bilmek istemiyordu. Ertesi gece yemek odasının kapısına bir kilit takıldı. Anahtar Burak'ta."),
-P(S("g2B"), "“Evet. Bendim.” Burak'ın yüzü değişti. Önce öfke, sonra başka bir şey; şaşkınlık. “Neden?” dedi. “Bu bir oyun Emre.” “Senin için,” dedin. Burak bir şey demedi. Tuncay Hoca'ya söylemedi. Neden, hiç bilmeyeceksin."),
-P(S("g2C"), "“Belki Hakan'dır.” Ertesi gün Hakan'ı Tuncay Hoca'nın odasında gördün. Çıktığında yüzü kızarmıştı. Hakan bir gardiyandı; ve şimdi senin yerine bir suçlu. Bir sistemin içinde bir yalan, bir başkasının sırtına biner."),
-P(S("g2D"), "Vardiya bittiğinde Bağcılar'a gittin. Bir apartman, dördüncü kat. Bir kadın kapıyı açtı; Kemal'in annesi, seni çocukluğundan tanıyan. Mektubu verdin. Kadın okudu, oturdu, ağladı. “Kampta sanıyordum,” dedi. “Kampta.” Sonra sana baktı: “Sen orada mısın? Sen ne yapıyorsun orada?” Cevap veremedin."),
+P(S("g2A"), "“Hayır.” Tarkan uzun uzun baktı. “Peki.” Ertesi gece yemek odasının kapısına bir asma kilit takıldı. Anahtar Tarkan'ın boynunda, bir ipte."),
+P(S("g2B"), "“Bendim.” Tarkan'ın yüzünde önce öfke, sonra şaşkınlık. “Neden? Bu bir oyun.” “Senin için,” dedin. Tarkan Tuncay Hoca'ya söylemedi. Nedenini hiç öğrenmeyeceksin."),
+P(S("g2C"), "“Belki Okan'dır.” Ertesi gün Okan Tuncay Hoca'nın odasından kızarmış bir yüzle çıktı. Koridorda sana baktı. Senden şüphelenmedi bile."),
+P(S("g2D"), "Vardiya bitince Bağcılar'a gittin. Dördüncü kat. Celal'in annesi kapıyı açtı. Seni çocukluğundan tanıyan kadın. Mektubu okudu, oturdu, ağladı. “Kampta sanıyordum.” Sonra sana baktı: “Sen ne yapıyorsun orada?” Cevap veremedin."),
 "Altıncı gün sabah Merve bütün gardiyanları bir odaya topluyor. Elinde bir video kaset.",
-"“Deney bitiyor,” diyor. “Bugün. Ben dekanlığa gittim. Kayıtlar orada.”",
-"Video oynuyor. Dördüncü gece. Koridor, eğik sırtlar, düdük. Ve kenarda bir gardiyan, hiçbir şey yapmadan duruyor. Sen.",
-"Ekranda sen, kenarda. Gece ne yaptığın ekranda yok. Tuvaletler kayıt dışı. Lavabolar kayıt dışı. Mektuplar kayıt dışı. Ekranda yalnızca bir gardiyan, yarışı izleyen.",
-"Bu kayıt bir gün bir derste gösterilecek. Ve izleyenler seni, kenarda duran o gardiyanı, bir suç ortağı olarak görecek."
+"“Bugün bitiyor. Dekanlığa gittim. Kayıtlar orada.”",
+"Dördüncü gece. Koridor, eğik sırtlar, düdük. Kenarda bir gardiyan, hiçbir şey yapmadan duruyor. Sen.",
+"Tuvaletler kayıt dışı. Lavabolar kayıt dışı. Ekranda yalnızca yarışı izleyen bir gardiyan."
 ], secenekler: [
-{ t: "Merve'ye gece yaptıklarını anlatırsın; kayıtta olmayanları.", to: "t1", etki: { tanik: 1, anlatti_merve: true } },
+{ t: "Merve'ye gece yaptıklarını anlatırsın. Kayıtta olmayanları.", to: "t1", etki: { tanik: 1, anlatti_merve: true } },
 { t: "Bir şey söylemezsin. Kayıt ne diyorsa o.", to: "t1", etki: { uyum: 1, kayit_kabul: true } },
-{ t: "Kemal'e bakarsın. Ne bildiğini o biliyor.", to: "t1", etki: { vicdan: 1 } },
-{ t: "“Ben kenardaydım,” dersin. “Ve bu bir şey yapmamak değildi.”", to: "t1", etki: { vicdan: 1, tanik: 1 } }
+{ t: "Celal'e bakarsın. Ne bildiğini o biliyor.", to: "t1", etki: { vicdan: 1 } },
+{ t: "“Ben kenardaydım,” dersin. “Bu bir şey yapmamak değildi.”", to: "t1", etki: { vicdan: 1, tanik: 1 } }
 ]},
 
 /* ---------- ORTAK SON BÖLÜM ---------- */
 t1: { saat: "Gün 6", baslik: "Bitiş", metin: [
-P(S("u3A"), "Kaydı sonuna kadar izledin. Kırk dakika: düdük, sırtlar, senin gülüşün. Işıklar yandığında kimse sana bakmadı."),
-P(S("u3B"), "Odadan çıktın. Koridorda nefes alamadın. Merve arkandan geldi, bir şey söylemedi; bir bardak su uzattı."),
-P(S("u3C"), "“Bu ben değilim,” dedin, yüksek sesle. Burak başını salladı: “Ben de değilim.” Tuncay Hoca not aldı."),
-P(S("u3D"), "“Bu bendim,” dedin. Oda sustu. Merve sana baktı; ilk kez bir gardiyana değil, bir insana bakar gibi."),
-P(S("v3A"), "Şınavları yaptın, Burak'ın sayışını dinleyerek. Yirmi. Kolların titredi. Yirmi bir. Sayıları sen de içinden onunla birlikte saydın."),
-P(S("v3B"), "“Hayır,” dedin. Burak bir an durdu, sonra seni tecrit odasına götürdü. Süpürge dolabının karanlığında iki saat. Kimse kapıyı açmadı; ama sen “hayır”ı söylemiştin."),
-P(S("v3C"), "“Burak,” dedin; numarasını değil, adını. Yüzü bir an değişti; gözlüğün arkasında bir şey kıpırdadı. “Numaranı söyle,” dedi. Ama sesi bir ton düşmüştü."),
-P(S("v3D"), "Şınavlardan sonra hücre arkadaşlarına fısıldadın: “Yarın birlikte.” Ertesi sabah sayımda dokuz mahkûm aynı anda sustu. Burak düdük çaldı; kimse kıpırdamadı. O sabah Merve kamerayı izliyordu."),
-P(S("ty3A"), "Hücre kapılarını kendin açtın; anahtarlar elinde titredi. Mahkûmlar önce çıkmadı; bir tuzak sandılar. Sonra biri çıktı. Sonra hepsi."),
-P(S("ty3B"), "Merve'ye baktın. Kollarını kavuşturmuş, sessizce ağlıyordu. Göz göze geldiğinizde başını salladı; teşekkür ya da özür."),
-P(S("ty3C"), "Burak'a baktın. Gözlüğü hâlâ takılıydı. Dekan konuşurken bir kez bile çıkarmadı. Belki çıkaramıyordu."),
-P(S("ty3D"), "İlk o çıksın diye Kemal'in hücresine gittin. Kemal kapıda durdu. “Sen mi?” Evet, dedin. Bir şey demeden yanından geçti."),
-P(S("g3A"), "Merve'ye gece yaptıklarını anlattın: ekmekleri, notları. Uzun uzun baktı. “Bunu kayıt görmedi,” dedi. “Makale de görmeyecek.”"),
-P(S("g3B"), "Bir şey söylemedin. Kayıt ne diyorsa o: kenarda duran bir gardiyan."),
-P(S("g3C"), "Kemal'e baktın; o da sana. Bir şey söylemedi ama başını belli belirsiz salladı. Lavabonun altını bilen tek kişi."),
-P(S("g3D"), "“Ben kenardaydım,” dedin, “ve bu bir şey yapmamak değildi.” Tuncay Hoca kaşını kaldırdı. “Kayıtta gördüğümüz bu değil,” dedi."),
-"Deney altıncı günde bitti. On dört gün planlanmıştı. Kapılar açıldı. Mahkûmlar önlüklerini çıkardı; gardiyanlar üniformalarını. Bir saat içinde bodrum katı yine bir bodrum katı oldu: tozlu, nemli, bir sürü eski sandalye.",
-"Öğleden sonra bütün katılımcılar bir sınıfta toplanıyor. Bir “bilgilendirme toplantısı”. Tuncay Hoca kürsüde; yüzü yorgun. Merve yanında, kollarını kavuşturmuş.",
-"Herkes konuşuyor. Mahkûmlar: korku, öfke, aşağılanma. Bir tanesi: “İkinci günden sonra numaramı adımdan önce hatırlıyordum.” Gardiyanlar: bazıları özür diliyor, bazıları savunuyor. Hakan ağlıyor.",
-"Burak ayağa kalkıyor. Sesi gür değil artık. “Ben sadece rolümü oynadım,” diyor. “Bir hapishane istendi, ben verdim. Bana gardiyan ol dendi, oldum. Başka ne yapacaktım?”",
-"Sınıf sessiz.",
-"Sonra Kemal kalkıyor. Burak'a değil, sınıfa bakarak konuşuyor. “Ben dördüncü gece bir şey fark ettim,” diyor. “Burak'ın gözlüğünde kendi yüzümü gördüm. Ve bir an, yalnızca bir an, o yüzün bana ait olmadığını düşündüm. Sonra düşündüm ki belki Burak'ın yüzü de ona ait değil. Belki hiçbirimizin yüzü bize ait değildi o bodrumda.”",
-"Sonra sana dönüyor. Sınıfın ortasında.",
-"Otuz kişi sana bakıyor. Kayıtlar henüz herkese gösterilmedi; o gece ne yaptığını bu odada çok az kişi biliyor. Ne söylersen söyle, kalıcı olacak."
+P(S("u3A"), "Kaydı sonuna kadar izledin. Kırk dakika: düdük, sırtlar, bir yerde senin gülüşün. Işıklar yanınca kimse sana bakmadı."),
+P(S("u3B"), "Odadan çıktın. Koridorda nefes alamadın. Merve arkandan gelip bir bardak su uzattı."),
+P(S("u3C"), "“Bu ben değilim,” dedin. Tarkan başını salladı: “Ben de değilim.” Tuncay Hoca not aldı."),
+P(S("u3D"), "“Bu bendim,” dedin. Oda sustu. Merve sana ilk kez bir gardiyana değil, birine bakar gibi baktı."),
+P(S("v3A"), "Şınavları çektin. Kolların on yedide titredi. Sayıları sen de içinden onlarla birlikte saydın."),
+P(S("v3B"), "“Hayır.” Tarkan seni tecrit odasına götürdü. Süpürge dolabının karanlığında iki saat. Bir paspasın sapı sırtına batıyordu."),
+P(S("v3C"), "“Tarkan,” dedin. Gözlüğün arkasında bir şey kıpırdadı. “Numaranı söyle,” dedi. Sesi bir ton düşmüştü."),
+P(S("v3D"), "“Yarın birlikte.” Ertesi sabah sayımda dokuz mahkûm aynı anda sustu. Tarkan düdük çaldı. Kimse kıpırdamadı. O sabah Merve kamerayı izliyordu."),
+P(S("ty3A"), "Kapıları sen açtın. Anahtarlar elinde şıngırdadı. Mahkûmlar önce çıkmadı. Tuzak sandılar. Sonra biri çıktı. Sonra hepsi."),
+P(S("ty3B"), "Merve kollarını kavuşturmuş, sessizce ağlıyordu. Göz göze gelince başını eğdi."),
+P(S("ty3C"), "Tarkan'ın gözlüğü dekan konuşurken de takılıydı. Çıkarmadı. Belki çıkaramıyordu."),
+P(S("ty3D"), "Celal kapıda durdu. “Sen mi?” Evet. Bir şey demeden yanından geçti. Omzu bu kez değmedi."),
+P(S("g3A"), "Merve'ye ekmekleri, notları anlattın. “Bunu kayıt görmedi,” dedi. “Makale de görmeyecek.”"),
+P(S("g3B"), "Bir şey demedin. Kayıt ne diyorsa o: kenarda bir gardiyan."),
+P(S("g3C"), "Celal'e baktın. Başını belli belirsiz eğdi. Lavabonun altını bilen tek kişi."),
+P(S("g3D"), "Tuncay Hoca kaşını kaldırdı. “Kayıtta gördüğümüz bu değil.”"),
+"Deney altıncı günde bitti. On dört gün planlanmıştı. Bir saat içinde bodrum yine bodrum oldu: tozlu, nemli, eski sandalyeler. Biri “Sigara İçilmez” levhasının altına numarasını bırakmıştı: 4.",
+"Öğleden sonra bir sınıfta “bilgilendirme toplantısı.” Tuncay Hoca kürsüde, yorgun. Merve yanında.",
+"Mahkûmlar konuşuyor. Biri: “İkinci günden sonra numaramı adımdan önce hatırlıyordum.” Gardiyanların bazıları özür diliyor, bazıları savunuyor. Okan ağlıyor. Burnunu koluna siliyor.",
+"Tarkan kalkıyor. Sesi artık gür değil. “Ben rolümü oynadım. Hapishane istendi, verdim. Başka ne yapacaktım?”",
+"Sonra Celal kalkıyor. “Dördüncü gece Tarkan'ın gözlüğünde kendi yüzümü gördüm. O yüzün bana ait olmadığını düşündüm. Sonra belki Tarkan'ın yüzünün de ona ait olmadığını düşündüm.”",
+"Sonra sana dönüyor."
 ], secenekler: [
 { t: "Ayağa kalkıp konuşursun.", to: "t1b", etki: { tanik: 1, konustu_sinif: true } },
-{ t: "Kemal'in bakışını karşılarsın; bir şey söylemeden.", to: "t1b", etki: { vicdan: 1 } },
-{ t: "Burak'a bakarsın. Onun da bir şey söylemesi gerek.", to: "t1b", etki: { tanik: 1 } },
-{ t: "Gözlerini yere indirirsin. Ne söylesen yanlış anlaşılacak; ya da doğru.", to: "t1b", etki: { uyum: 1, yere: true } }
+{ t: "Celal'in bakışını karşılarsın. Bir şey demeden.", to: "t1b", etki: { vicdan: 1 } },
+{ t: "Tarkan'a bakarsın. Onun da bir şey söylemesi gerek.", to: "t1b", etki: { tanik: 1 } },
+{ t: "Gözlerini yere indirirsin.", to: "t1b", etki: { uyum: 1, yere: true } }
 ]},
 
-t1b: { saat: "Gün 6, akşam", baslik: "Kemal", metin: [
-P(S("t1B"), "Kemal'in bakışını karşıladın; bir şey söylemeden. Bir süre sonra Kemal başını çevirdi. Toplantı bitti."),
-P(S("t1C"), "Burak'a baktın. Burak yere bakıyordu. Bir şey söylemesini bekledin; söylemedi. Kimse söylemedi."),
-P(S("t1D"), "Gözlerini yere indirdin. Kemal'in sözü bir süre havada asılı kaldı; sonra Tuncay Hoca “Teşekkürler,” deyip bir sonraki kişiye geçti."),
-P(S("t1A"), "Kalktın. Ne söyleyeceğini bilmiyordun. Ağzından çıkan şu oldu: “Bir parayla gardiyan oldum. Bir parayla. Kemal'in parası tura geldi. Benimki yazı. Aramızdaki fark bu. Bir madeni para.” Oturdun. Kimse bir şey söylemedi."),
-"Akşam fakültenin bahçesinde, bir bankta Kemal'le oturuyorsunuz. Ağustos akşamı, ağustos böcekleri, uzakta trafik. Altı gün önce bu bankta bir sigara içip deneye nasıl harcayacağınızı konuşuyordunuz. Kemal yedi yüz liraya bir bilgisayar alacaktı.",
-"Kemal uzun süre bir şey söylemiyor. Sonra:",
-P(function(d){ return d.kol === "rol"; }, "“Seni tanımadım,” diyor. “Dördüncü gece. Düdüğü çalarken. Yirmi yıldır tanıdığım biri ve tanımadım. Bunu sana kızdığım için söylemiyorum. Kendimden korktuğum için söylüyorum. Ben de gardiyan olsaydım ne yapardım? Bilmiyorum Emre. Hiç bilemeyeceğim. Para tura geldi.”"),
-P(function(d){ return d.kol === "direnis"; }, "“Hücreye girdin,” diyor. “Benim için mi, kendin için mi, bilmiyorum. Ama girdin. Ben olsam girmezdim. Gardiyan olsaydım, büyük ihtimalle Burak gibi olurdum. Belki daha kötü. Bunu bilmek istemezdim; ama şimdi biliyorum.”"),
-P(function(d){ return d.kol === "tanik"; }, "“Dekanı sen getirdin,” diyor. “Merve söyledi. Bunu bilmeni isterim: o gece, dördüncü gece, düdük çalarken, ben senin yukarı çıktığını gördüm. Kaçtığını sandım. Gerçekten kaçtığını. Seni affetmeyecektim. Sonra ertesi gün dekan geldi.”"),
-P(function(d){ return d.kol === "gizli"; }, "“Ekmeği sen bırakıyordun,” diyor. “Biliyordum. Ama kayıtta yoksun. Yarın bütün okul o videoyu izleyecek ve seni kenarda duran bir gardiyan olarak görecek. Ben biliyorum ki sen başka bir şeydin. Ama yalnızca ben biliyorum. Bu yeter mi?”"),
-"Ağustos böcekleri. Bir yerde bir köpek havlıyor.",
-"Kemal sana dönüyor: “Bizi neden seçtiler, biliyor musun? Normal oldukları için. Testlerde en normal çıkanları seçmişler. Kötü insanları değil. Normal insanları.”"
+t1b: { saat: "Gün 6, akşam", baslik: "Celal", metin: [
+P(S("t1B"), "Bakışını karşıladın. Bir süre sonra Celal başını çevirdi. Toplantı bitti."),
+P(S("t1C"), "Tarkan yere bakıyordu. Bir şey söylemesini bekledin. Söylemedi."),
+P(S("t1D"), "Gözlerini yere indirdin. Tuncay Hoca “Teşekkürler,” deyip bir sonrakine geçti."),
+P(S("t1A"), "Kalktın. “Bir parayla gardiyan oldum,” dedin. “Celal'inki tura geldi, benimki yazı. Aramızdaki fark bu.” Oturdun. Kimse bir şey demedi."),
+"Akşam fakültenin bahçesinde bir bank. Ağustos böcekleri. Altı gün önce burada oturup parayı nasıl harcayacağınızı konuşuyordunuz; Celal ikinci el bir bilgisayar alacaktı.",
+"Celal uzun süre bir şey demiyor.",
+P(function(d){ return d.kol === "rol"; }, "“Seni tanımadım,” diyor. “Dördüncü gece, düdüğü çalarken. Bunu kızdığım için söylemiyorum. Ben gardiyan olsaydım ne yapardım, onu bilmiyorum. Para tura geldi.”"),
+P(function(d){ return d.kol === "direnis"; }, "“Hücreye girdin,” diyor. “Ben girmezdim. Gardiyan olsam büyük ihtimalle Tarkan gibi olurdum. Bunu bilmek istemezdim. Şimdi biliyorum.”"),
+P(function(d){ return d.kol === "tanik"; }, "“Dekanı sen getirdin, Merve söyledi. O gece yukarı çıktığını gördüm. Kaçtın sandım. Seni affetmeyecektim. Sonra ertesi gün dekan geldi.”"),
+P(function(d){ return d.kol === "gizli"; }, "“Ekmeği sen bırakıyordun, biliyordum. Ama kayıtta yoksun. Yarın bütün okul seni kenarda duran bir gardiyan olarak görecek. Yalnızca ben biliyorum. Bu yeter mi?”"),
+"Bir köpek havlıyor.",
+"“Bizi neden seçtiler biliyor musun? Testlerde en normal çıkanlar olduğumuz için. Kötüleri değil. Normalleri.”"
 ], secenekler: [
 { t: "“Belki asıl korkunç olan bu,” dersin.", to: "t2", etki: { tanik: 1 } },
-{ t: "Kemal'e annesinin börek hikâyesini anlatırsın.", to: "t2", etki: { vicdan: 1, borek: true } },
+{ t: "Celal'e annesinin börek hikâyesini anlatırsın.", to: "t2", etki: { vicdan: 1, borek: true } },
 { t: "Özür dilersin. Neye, tam bilmeden.", to: "t2", etki: { vicdan: 1, ozur: true } },
-{ t: "Bir sigara yakarsın. Kemal'e de uzatırsın. Konuşmazsınız.", to: "t2", etki: { uyum: 1 } }
+{ t: "Bir sigara yakıp Celal'e de uzatırsın. Konuşmazsınız.", to: "t2", etki: { uyum: 1 } }
 ]},
 
 t2: { saat: "2004", baslik: "Makale", metin: [
-P(S("t1bA"), "“Belki asıl korkunç olan bu,” demiştin. Kemal uzun süre susmuştu. “Normal olmak,” demişti. “Evet.”"),
-P(S("t1bB"), "Annesinin böreğini hatırlattın ona; çocukken apartman merdivenlerinde yediğiniz. Kemal güldü, sonra gülerken ağladı."),
-P(S("t1bC"), "Özür diledin, neye olduğunu tam bilmeden. Kemal elini omzuna koydu. “Ben de bilmiyorum neye,” dedi."),
-P(S("t1bD"), "Bir sigara yaktın, Kemal'e de uzattın. Konuşmadınız. Bir ağustos akşamında iki duman. Bilgisayar hiç alınmadı; para bir kenarda kaldı."),
-"Bir yıl sonra Tuncay Hoca bir makale yayımlıyor. Uluslararası bir dergide. “Durumsal Güç ve Kimlik Çözülmesi: Türkiye'de Bir Hapishane Simülasyonu.” Makale ses getiriyor; konferanslar, röportajlar, bir belgesel teklifi.",
-"Makalede sen “G4” olarak geçiyorsun. Gardiyan dört.",
-P(function(d){ return d.kol === "rol"; }, "“G4, dördüncü günden itibaren rolünü belirgin biçimde benimsemiş ve mahkûmlara yönelik aşağılayıcı uygulamalara aktif olarak katılmıştır. Bu, durumsal faktörlerin bireysel eğilimleri nasıl aşabileceğinin çarpıcı bir örneğidir.”"),
-P(function(d){ return d.kol === "direnis"; }, "“G4, dördüncü gece rolünü reddetmiş ve deney yöneticisinin önerisiyle mahkûm rolüne geçirilmiştir (M13). Bu rol değişiminin ardından G4/M13 hızla mahkûm davranışları sergilemeye başlamıştır. Bu, kimliğin durumsal olarak ne denli akışkan olduğunu göstermektedir.”"),
-P(function(d){ return d.kol === "tanik"; }, "“G4, deneyin dışından yardım isteyerek deneyin erken sonlandırılmasında rol oynamıştır. Bu davranış, bazı bireylerin durumsal baskıya direnebildiğini göstermekle birlikte, G4'ün ilk üç gündeki davranışları rolle uyumludur.”"),
-P(function(d){ return d.kol === "gizli"; }, "“G4, kayıtlarda pasif bir gözlemci olarak görünmektedir; aşağılayıcı uygulamalara katılmamış ancak onları durdurmaya da çalışmamıştır. Bu ‘pasif suç ortaklığı’, durumsal gücün belki de en yaygın biçimidir.”"),
-"Tuncay Hoca bir gün seni arıyor. Bir televizyon programı. Katılımcılardan biri olarak konuşmanı istiyor. “Bilimsel bir tanıklık,” diyor. “Deneyin değerini anlatırsın. Kontrollüydü, etikti, öğreticiydi. Senin sesin önemli.”"
+P(S("t1bA"), "“Normal olmak,” dedi Celal. “Evet.” Sonra bir dal parçası alıp toprağa bir şey çizdi, sildi."),
+P(S("t1bB"), "Böreği anlattın. Mutfağın fayanslarını, annenin “Bir dilim de Emre'ye bırak” deyişini. Celal güldü, gülerken ağladı."),
+P(S("t1bC"), "Özür diledin. Celal elini omzuna koydu. “Ben de bilmiyorum neye,” dedi."),
+P(S("t1bD"), "İki duman. Bilgisayar hiç alınmadı. Para bir zarfta, Celal'in çekmecesinde kaldı."),
+"Bir yıl sonra Tuncay Hoca uluslararası bir dergide makale yayımlıyor: “Durumsal Güç ve Kimlik Çözülmesi: Türkiye'de Bir Hapishane Simülasyonu.” Konferanslar, röportajlar, bir belgesel teklifi.",
+"Makalede sen “G4”sün.",
+P(function(d){ return d.kol === "rol"; }, "“G4, dördüncü günden itibaren rolünü belirgin biçimde benimsemiş ve aşağılayıcı uygulamalara aktif olarak katılmıştır.”"),
+P(function(d){ return d.kol === "direnis"; }, "“G4, dördüncü gece rolünü reddetmiş ve deney yöneticisinin önerisiyle mahkûm rolüne geçirilmiştir (M13). Ardından hızla mahkûm davranışları sergilemiştir.”"),
+P(function(d){ return d.kol === "tanik"; }, "“G4, deneyin dışından yardım isteyerek erken sonlandırılmasında rol oynamıştır. Ancak ilk üç gündeki davranışları rolle uyumludur.”"),
+P(function(d){ return d.kol === "gizli"; }, "“G4, kayıtlarda pasif bir gözlemci olarak görünmektedir. Uygulamalara katılmamış ancak durdurmaya da çalışmamıştır.”"),
+"Tuncay Hoca arıyor. Bir televizyon programı. “Deneyin değerini anlatırsın. Kontrollüydü, etikti, öğreticiydi. Senin sesin önemli.”"
 ], secenekler: [
 { t: "Kabul edersin. Tuncay Hoca'nın istediği gibi konuşursun.", to: "t3", etki: { uyum: 2, tv_kabul: true } },
-{ t: "Reddedersin ve dergiye bir mektup yazarsın; makalede olmayanları anlatarak.", to: "y_mektup", etki: { tanik: 2, mektup_dergi: true } },
-{ t: "Programa katılırsın; ama kendi hikâyeni, olduğu gibi anlatırsın.", to: "y_tv", etki: { tanik: 1, vicdan: 1, tv_kendi: true } },
+{ t: "Reddedip dergiye bir mektup yazarsın. Makalede olmayanları anlatarak.", to: "y_mektup", etki: { tanik: 2, mektup_dergi: true } },
+{ t: "Programa katılırsın. Ama kendi hikâyeni olduğu gibi anlatırsın.", to: "y_tv", etki: { tanik: 1, vicdan: 1, tv_kendi: true } },
 { t: "Reddedersin. Hiçbir şey söylemezsin.", to: "t3", etki: { uyum: 1, sessiz: true } }
 ]},
 
 y_mektup: { saat: "2004", baslik: "Okuyucu Mektubu", metin: [
-"Dergiye bir mektup yazıyorsun. İngilizce, sözlük açık, üç hafta sürüyor. Başlığı sade: “G4'ten.”",
-"Yazıyorsun: makalenin anlattığı ile senin yaşadığın arasındaki farkı. Deneyin protokolünün “fiziksel şiddet yok” kuralından başka hiçbir sınır koymadığını. Tuncay Hoca'nın kendini “Müdür” olarak konumlandırdığını ve böylece deneyin hem yürütücüsü hem öznesi olduğunu. Çıkmak isteyen bir katılımcıya sözleşmede olmayan bir maddeyi hatırlattığını. Gece kayıtlarının kimse tarafından izlenmediğini.",
-P(function(d){ return d.kol === "gizli"; }, "Ve kayıtta olmayanları: lavaboların altına bırakılan ekmekleri, bir anneye götürülen mektubu. “Bir kamera her şeyi kaydetmez,” yazıyorsun. “Ve kaydetmediği şeyler, kaydettiklerinden daha az gerçek değildir.”"),
-"Son paragraf: “Bu deneyin bize gösterdiği şey, durumun gücü değildir yalnızca. Durumu kuranın gücüdür. Biz gardiyanlar ve mahkûmlar bir sistemin içindeydik; ama o sistemi biri tasarladı, biri izledi, biri sürdürmeyi seçti. Makale bu kişiden bir ‘araştırmacı’ olarak söz ediyor. Ben onu dördüncü gece bodrumda göremedim. O gece evindeydi.”",
-"Mektup altı ay sonra yayımlanıyor. Kısaltılmış. Ama yayımlanıyor.",
+"Dergiye bir mektup. İngilizce, sözlük açık, üç hafta. Kafedeki molalarda peçetelere taslak yazıyorsun. Başlık: “G4'ten.”",
+"Yazıyorsun: protokolün “fiziksel şiddet yok” dışında sınır koymadığını. Tuncay Hoca'nın kendine “Müdür” dediğini. Hem yürütücü hem özne olduğunu. Çıkmak isteyen birine sözleşmede olmayan bir maddeyi hatırlattığını. Gece kayıtlarını kimsenin izlemediğini.",
+P(function(d){ return d.kol === "gizli"; }, "Ve kayıtta olmayanları: lavabo altındaki ekmekleri, bir anneye götürülen mektubu."),
+"Son paragraf: “Makale bu deneyin durumun gücünü gösterdiğini söylüyor. Durumu kuran birinin gücünü de gösterdi. Dördüncü gece onu bodrumda göremedim. Evindeydi.”",
+"Mektup altı ay sonra yayımlanıyor. Kısaltılmış.",
 "Tuncay Hoca seni bir daha aramıyor."
 ], secenekler: [
-{ t: "Mektubun bir kopyasını Kemal'e gönderirsin.", to: "t3", etki: { vicdan: 1, kemale_kopya: true } },
+{ t: "Mektubun bir kopyasını Celal'e gönderirsin.", to: "t3", etki: { vicdan: 1, kemale_kopya: true } },
 { t: "Merve'ye gönderirsin.", to: "t3", etki: { tanik: 1, merveye_kopya: true } },
-{ t: "Tuncay Hoca'ya gönderirsin; bir not ekleyerek: “Kayıtları siz de izleyin.”", to: "t3", etki: { tanik: 1 } },
+{ t: "Tuncay Hoca'ya gönderirsin. Bir not ekleyerek: “Kayıtları siz de izleyin.”", to: "t3", etki: { tanik: 1 } },
 { t: "Kimseye göndermezsin. Yayımlanması yeter.", to: "t3", etki: { uyum: 1 } }
 ]},
 
 y_tv: { saat: "2004", baslik: "Stüdyo", metin: [
-"Bir televizyon stüdyosu. Bir sunucu, Tuncay Hoca, bir psikiyatrist, sen. Tuncay Hoca önce konuşuyor: deneyin tasarımı, bulgular, literatüre katkı. Akıcı, ikna edici.",
-"Sıra sana geliyor. Sunucu soruyor: “Siz bir gardiyandınız. Neler yaşadınız?”",
+"Bir stüdyo. Sunucu, Tuncay Hoca, bir psikiyatrist, sen. Makyöz yüzüne pudra sürüyor. Hapşırıyorsun. Tuncay Hoca akıcı, ikna edici.",
+"Sunucu: “Siz gardiyandınız. Neler yaşadınız?”",
 "Tuncay Hoca sana bakıyor. Bir beklentiyle.",
-"Anlatıyorsun. Yazı turayı. Aynalı gözlüğü. Gece sayımını. Kemal'in şınavlarını. Ve dördüncü geceyi.",
-P(function(d){ return d.kol === "rol"; }, "“Ben düdüğü çaldım,” diyorsun kameraya. “Bir arkadaşım sürünürken ‘Yeniden’ dedim. Bunu bir durum yapmadı; ben yaptım. Durum yalnızca bunu yapmamı kolaylaştırdı.”"),
-P(function(d){ return d.kol !== "rol"; }, "“Bir deneyin içinde ‘hayır’ demek mümkündü,” diyorsun. “Zordu. Ama mümkündü. Bunu söylüyorum çünkü makale, durumun herkesi aynı şekilde ezdiğini söylüyor. Hayır. Herkes bir şey seçti. Bazılarımız kötü şeyler seçti.”"),
-"Stüdyoda bir sessizlik. Tuncay Hoca'nın yüzü değişmiyor; ama elleri masanın altında.",
-"Psikiyatrist söz alıyor: “Bu çok önemli bir nokta. Durumun gücü bir açıklamadır, bir mazeret değil.”",
-"Program bitiyor. Kuliste Tuncay Hoca yanına geliyor. Bir şey söyleyecek gibi. Söylemiyor. Gidiyor."
+"Anlatıyorsun. Yazı turayı. Gözlüğü. Gece sayımını. Celal'in şınavlarını. Dördüncü geceyi.",
+P(function(d){ return d.kol === "rol"; }, "“Düdüğü ben çaldım,” diyorsun kameraya. “Bir arkadaşım sürünürken ‘Yeniden’ dedim. Bunu durum yapmadı, ben yaptım. Durum yalnızca kolaylaştırdı.”"),
+P(function(d){ return d.kol !== "rol"; }, "“‘Hayır’ demek mümkündü,” diyorsun. “Zordu ama mümkündü. Makale durumun herkesi aynı ezdiğini söylüyor. Ezmedi. Herkes bir şey seçti. Bazılarımız kötü şeyler seçti.”"),
+"Stüdyoda sessizlik. Tuncay Hoca'nın elleri masanın altında.",
+"Psikiyatrist söz alıyor: “Durum bir açıklamadır, mazeret değil.”",
+"Kuliste Tuncay Hoca yanına geliyor. Bir şey diyecek gibi. Demiyor. Gidiyor."
 ], secenekler: [
 { t: "Arkasından seslenirsin: “Hocam, siz de bir şey seçtiniz.”", to: "t3", etki: { tanik: 1, seslendi: true } },
-{ t: "Kemal'i arayıp programı izleyip izlemediğini sorarsın.", to: "t3", etki: { vicdan: 1 } },
+{ t: "Celal'i arayıp izleyip izlemediğini sorarsın.", to: "t3", etki: { vicdan: 1 } },
 { t: "Kuliste aynaya bakarsın.", to: "t3", etki: { tanik: 1, kulis_ayna: true } },
-{ t: "Sunucuya Burak'ın da programa çağrılmasını önerirsin.", to: "t3", etki: { tanik: 1, burak_cagir: true } }
+{ t: "Sunucuya Tarkan'ın da programa çağrılmasını önerirsin.", to: "t3", etki: { tanik: 1, burak_cagir: true } }
 ]},
 
 t3: { saat: "2015", baslik: "Ofis", metin: [
-P(S("t2A"), "Programa katılıp Tuncay Hoca'nın istediği gibi konuştun: kontrollü, etik, öğretici. Ertesi gün Kemal'den bir mesaj: “İzledim.” Başka bir şey yazmamıştı."),
-P(S("t2D"), "Reddettin. Tuncay Hoca bir daha aramadı. Makale on bir dile çevrildi; senin sessizliğin hiçbirine."),
-P(S("y_mektupA"), "Mektubun kopyasını Kemal'e gönderdin. Cevap bir hafta sonra geldi: “Teşekkür ederim. Ama bunu benim de yazabilmem gerekirdi.”"),
-P(S("y_mektupB"), "Merve'ye gönderdin. Merve doktorasını bırakmış, bir lisede rehber öğretmen olmuştu. “Keşke o gece bunu ben yazsaydım,” dedi."),
-P(S("y_mektupC"), "Tuncay Hoca'ya, notunla birlikte gönderdin. Cevap gelmedi. Ama bir yıl sonra makalenin yeni baskısında bir dipnot vardı: “Katılımcı G4'ün itirazları için bkz.”"),
-P(S("y_mektupD"), "Kimseye göndermedin. Dergi mektubu yayımladı; belki yirmi üç kişi okudu. Yeterliydi; ya da yetmesi gerekiyordu."),
-P(S("y_tvA"), "“Hocam, siz de bir şey seçtiniz,” dedin. Tuncay Hoca kapıda durdu. Dönmedi. Ama durdu."),
-P(S("y_tvB"), "Kemal'i aradın. “İzledim,” dedi. “Doğru anlattın.” Bir süre sustu. “Ama sesin titriyordu.”"),
-P(S("y_tvC"), "Kuliste aynaya baktın. Makyaj hâlâ yüzündeydi; başka bir yüz. Sildin."),
-P(S("y_tvD"), "Sunucuya Burak'ın da çağrılmasını önerdin. Not aldı. Burak hiç çağrılmadı; ya da gelmedi."),
-"On iki yıl sonra. Otuz üç yaşındasın. Bir lojistik şirketinde insan kaynakları müdürüsün. Sosyoloji diploması bir duvarda, çerçevede.",
-"Bir pazartesi sabahı bir stajyer odana geliyor. Yirmi iki yaşında, adı Deniz. Gözleri kızarık. Muhasebe biriminde, iki aydır.",
-"Anlatıyor: biriminin şefi ona her sabah herkesin önünde bir şeyler söylüyor. “Stajyer kız,” diyor; adını kullanmıyor. Toplantılarda onun fikirlerini başkasına mal ediyor. Geçen hafta bir hata yüzünden onu bütün ekibin önünde kürsüye çıkarıp hatasını yüksek sesle okutmuş. Diğerleri gülmüş. Biri telefonuyla çekmiş.",
-"“Herkes gülüyor,” diyor Deniz. “Ama tek tek konuşunca hepsi kibar. Kimse bir şey demiyor. Ben deliriyormuşum gibi hissediyorum.”",
-"Dinlerken bir şey tanıyorsun. Bir koridor. Bir düdük. Bir numara. Ve kenarda duran, gülen, sayan insanlar.",
-"Şef, Hakan Bey, şirketin en verimli şefi. Birimi her yıl hedefleri aşıyor. Genel müdürün golf arkadaşı.",
-"Deniz sana bakıyor. “Siz bir şey yapabilir misiniz?”",
-"Hakan Bey'in birimi bu yıl da hedefi aştı. Bir soruşturma senin de koltuğunu sallayabilir. Ve Deniz'in sesi, on iki yıl önceki bir koridordan geliyormuş gibi."
+P(S("t2A"), "Tuncay Hoca'nın istediği gibi konuştun. Ertesi gün Celal'den tek kelimelik mesaj: “İzledim.”"),
+P(S("t2D"), "Reddettin. Makale on bir dile çevrildi."),
+P(S("y_mektupA"), "Celal bir hafta sonra yazdı: “Teşekkür ederim. Bunu benim de yazabilmem gerekirdi.”"),
+P(S("y_mektupB"), "Merve doktorayı bırakmış, bir lisede rehber öğretmen olmuştu. “Keşke o gece ben yazsaydım,” dedi."),
+P(S("y_mektupC"), "Cevap gelmedi. Bir yıl sonra makalenin yeni baskısında bir dipnot: “Katılımcı G4'ün itirazları için bkz.”"),
+P(S("y_mektupD"), "Kimseye göndermedin. Belki yirmi üç kişi okudu."),
+P(S("y_tvA"), "Tuncay Hoca kapıda durdu. Dönmedi. Ama durdu."),
+P(S("y_tvB"), "“Doğru anlattın,” dedi Celal. Durdu. “Ama sesin titriyordu.”"),
+P(S("y_tvC"), "Aynada pudralı bir yüz. Peçeteyle sildin. Peçete bej oldu."),
+P(S("y_tvD"), "Sunucu not aldı. Tarkan hiç çağrılmadı. Ya da gelmedi."),
+"On iki yıl sonra. Otuz üç yaşındasın, bir lojistik şirketinde insan kaynakları müdürü. Sosyoloji diploması duvarda. Çerçevenin camı çatlak, değiştirmeye üşeniyorsun.",
+"Bir pazartesi bir stajyer geliyor. Yirmi iki yaşında, adı Pelin. Muhasebe biriminde iki aydır. Gözleri kızarık.",
+"Biriminin şefi ona her sabah herkesin önünde “stajyer kız” diyor. Adını kullanmıyor. Fikirlerini başkasına mal ediyor. Geçen hafta bir hata yüzünden onu toplantıda ayağa kaldırıp hatasını yüksek sesle okutmuş. Ötekiler gülmüş. Biri telefonuyla çekmiş.",
+"“Tek tek konuşunca hepsi kibar,” diyor Pelin. “Ben deliriyormuşum gibi.”",
+"Şef Rıza Bey, şirketin en verimli şefi. Genel müdürün golf arkadaşı.",
+"Pelin: “Siz bir şey yapabilir misiniz?”"
 ], secenekler: [
-{ t: "Hakan Bey'in birimine bir soruşturma açarsın; ne pahasına olursa olsun.", to: "t4", etki: { vicdan: 2, sorusturma: true } },
-{ t: "Deniz'i başka bir birime aldırırsın. Sessizce.", to: "t4", etki: { uyum: 1, vicdan: 1, tasidi: true } },
-{ t: "Muhasebe birimine bir sabah haber vermeden gidip toplantıyı izlersin.", to: "t4", etki: { tanik: 2, izledi_toplanti: true } },
-{ t: "“Bu şirketin kültürü böyle Deniz. Dayan,” dersin.", to: "t4", etki: { uyum: 2, dayan: true } }
+{ t: "Rıza Bey'in birimine soruşturma açarsın. Ne pahasına olursa olsun.", to: "t4", etki: { vicdan: 2, sorusturma: true } },
+{ t: "Pelin'i başka bir birime aldırırsın. Sessizce.", to: "t4", etki: { uyum: 1, vicdan: 1, tasidi: true } },
+{ t: "Muhasebe birimine bir sabah habersiz gidip toplantıyı izlersin.", to: "t4", etki: { tanik: 2, izledi_toplanti: true } },
+{ t: "“Bu şirketin kültürü böyle Pelin. Dayan,” dersin.", to: "t4", etki: { uyum: 2, dayan: true } }
 ]},
 
-t4: { saat: "2023", baslik: "Burak", metin: [
-P(S("t3A"), "Soruşturma açtın. Genel müdür seni çağırdı, uyardı. Soruşturma devam etti. Dört çalışan ifade verdi; sonra dokuz. Şef görevden alındı. Sen terfi alamadın; ama Deniz bir yıl sonra kalıcı kadroya geçti."),
-P(S("t3B"), "Deniz'i başka bir birime aldırdın. Sorun çözüldü; Deniz için. Muhasebe biriminde bir sonraki yıl başka bir stajyer geldi. Ona da “stajyer kız” dendi."),
-P(S("t3C"), "Bir sabah habersiz gittin. Toplantı odasının kapısında durdun. İçeride şef, kürsüde bir başka çalışan, ötekiler gülüyor. Seni görünce herkes sustu. Bir tanığın varlığı, bazen, her şeyi durdurmaya yeter. Bazen yalnızca bir sabah için."),
-P(S("t3D"), "“Dayan,” dedin. Deniz sana bir süre baktı, sonra kalkıp gitti. İki hafta sonra istifa etti. Çıkış mülakatında sana tek bir cümle söyledi: “Siz de gülenlerdensiniz.”"),
-"2023. Kırk bir yaşındasın. Bir akşam bir e-posta. Gönderen: Burak.",
-"“Emre. Yirmi yıl oldu. Adresini Kemal'den aldım; o da istemeyerek verdi. Sana bir şey söylemek istiyorum.”",
-"“İki yıl önce oğlum oldu. Geçen hafta parkta bir çocuk onu itti; ötekiler güldü. Oğlum ağladı. Ben o çocuğa bağırdım. Ve bağırırken sesimi tanıdım. O bodrumdaki sesimi.”",
-"“Yirmi yıldır ‘rolümü oynadım’ dedim. Herkese. Kendime. Tuncay Hoca'nın makalesi de bunu söylüyordu; durum. Ben bir durumun kurbanıydım. Ama oğlumun ağladığını görünce düşündüm: o bodrumda bir rol yoktu. Ben vardım. Ve ben o rolü sevdim.”",
-"“Bunu kimseye söylemedim. Sana söylüyorum, çünkü sen oradaydın. Sen gördün. Ne gördüğünü bana söyler misin?”"
+t4: { saat: "2023", baslik: "Tarkan", metin: [
+P(S("t3A"), "Soruşturma açtın. Genel müdür seni uyardı. Dört çalışan ifade verdi, sonra dokuz. Rıza Bey görevden alındı. Sen terfi alamadın; Pelin bir yıl sonra kadroya geçti."),
+P(S("t3B"), "Pelin'i başka birime aldırdın. Muhasebeye ertesi yıl başka bir stajyer geldi. Ona da “stajyer kız” dendi."),
+P(S("t3C"), "Bir sabah toplantı odasının kapısında durdun. İçeride biri ayakta, ötekiler gülüyor. Seni görünce herkes sustu. O sabah için yetti."),
+P(S("t3D"), "“Dayan.” Pelin iki hafta sonra istifa etti. Çıkış görüşmesinde tek cümle söyledi: “Siz de gülenlerdensiniz.”"),
+"2023. Kırk bir yaşındasın. Bir e-posta. Gönderen: Tarkan.",
+"“Emre. Yirmi yıl oldu. Adresini Celal'den aldım. İstemeyerek verdi.”",
+"“İki yıl önce oğlum oldu. Geçen hafta parkta bir çocuk onu itti, ötekiler güldü. Ben o çocuğa bağırdım. Bağırırken sesimi tanıdım. Bodrumdaki sesimi.”",
+"“Yirmi yıl ‘rolümü oynadım’ dedim. Ama o bodrumda rol yoktu. Ben vardım. Ve ben o düdüğü sevdim.”",
+"“Sen oradaydın. Ne gördüğünü bana söyler misin?”"
 ], secenekler: [
-{ t: "Ona gördüğünü söylersin. Olduğu gibi.", to: "bs", etki: { tanik: 2, burak_cevap: "gercek" } },
-{ t: "“Hepimiz rol yaptık Burak. Sen de, ben de,” yazarsın.", to: "bs", etki: { uyum: 1, burak_cevap: "rol" } },
-{ t: "Onunla buluşmayı teklif edersin. Yüz yüze; gözlüksüz.", to: "bs", etki: { vicdan: 2, burak_cevap: "bulusma" } },
+{ t: "Gördüğünü olduğu gibi yazarsın.", to: "bs", etki: { tanik: 2, burak_cevap: "gercek" } },
+{ t: "“Hepimiz rol yaptık Tarkan. Sen de, ben de,” yazarsın.", to: "bs", etki: { uyum: 1, burak_cevap: "rol" } },
+{ t: "Onunla buluşmayı teklif edersin. Yüz yüze. Gözlüksüz.", to: "bs", etki: { vicdan: 2, burak_cevap: "bulusma" } },
 { t: "Cevap vermezsin.", to: "bs", etki: { uyum: 1, burak_cevap: "yok" } }
 ]},
 
@@ -566,59 +552,52 @@ bs: { yonlendir: [
 ]},
 
 /* ---------- SONLAR ---------- */
-son_rol: { son: true, baslik: "Rol", metin: [
-P(S("t4D"), "Burak'ın e-postası hâlâ gelen kutunda; okundu işaretiyle, cevapsız."),
-"Bodrum katı yirmi yıl önce kapandı. Ama sen ondan hiç çıkmadın; ya da o senden.",
-P(function(d){ return d.tv_kabul; }, "Televizyonda Tuncay Hoca'nın yanında oturdun ve deneyin kontrollü olduğunu söyledin. Bu cümle seni de korudu. Bir durumun kurbanıydın; bir rolü oynadın; bir sistem seni değiştirdi. Bu açıklama yıllarca işe yaradı."),
-"Ama bir şey var ki hiçbir açıklama silmiyor: dördüncü gece, düdüğü dudaklarına götürdüğünde, bir güç hissettin. Ve o güç hoşuna gitti. Bunu Kemal'in gözlerinde gördün; Kemal de gördü.",
-"İnsan bir durumun içinde değişir; bu doğru. Ama değiştiği yön, bir yerde, onun içinde zaten vardı. Durum bir anahtardır; kapıyı açar. Kapının arkasındaki oda senin.",
-P(function(d){ return d.burak_cevap === "rol"; }, "Burak'a “Hepimiz rol yaptık” yazdın. O bir daha yazmadı. Belki bu cevap onu rahatlattı. Belki seni. Belki ikinizi de bir yalanın içinde bıraktı."),
-P(function(d){ return d.burak_cevap === "gercek"; }, "Burak'a gördüğünü yazdın. Ve yazarken, kendini de gördün. Düdüğü. “Yeniden”i. Burak cevap verdi: “Teşekkür ederim. Sen de oradaydın, değil mi? Aynı koridorda.” Evet."),
-"Kemal'le yılda bir kez konuşuyorsunuz. Bayramlarda. Kısa, kibar. Börek hikâyesini hiç anmıyorsunuz.",
-"Bir şirkette, bir ailede, bir sınıfta her gün küçük bodrumlar kuruluyor. Sen artık onları tanıyorsun. Bazen içlerine giriyorsun; bir rol olarak, bir düdük olarak. Ve her seferinde, bir anlığına, bir aynalı gözlüğün arkasından kendine bakıyorsun."
+son_rol: { son: true, baslik: "Düdük", metin: [
+P(S("t4D"), "Tarkan'ın e-postası gelen kutunda duruyor. Okundu, cevapsız."),
+P(function(d){ return d.tv_kabul; }, "Televizyonda deneyin kontrollü olduğunu söyledin. Bu cümle seni de korudu. Yıllarca işe yaradı."),
+"Dördüncü gece düdüğü dudaklarına götürdüğünde bir güç hissettin ve hoşuna gitti. Bunu Celal'in gözlerinde gördün. Celal de gördü.",
+P(function(d){ return d.burak_cevap === "rol"; }, "Tarkan'a “Hepimiz rol yaptık” yazdın. Bir daha yazmadı."),
+P(function(d){ return d.burak_cevap === "gercek"; }, "Tarkan'a gördüğünü yazdın. Yazarken kendi düdüğünü, kendi “Yeniden”ini de yazdın. Cevap geldi: “Sen de aynı koridordaydın, değil mi?” Evet."),
+"Celal'le bayramlarda konuşuyorsunuz. Kısa, kibar. Börekten hiç söz etmiyorsunuz.",
+"Bir toplantıda biri bir stajyere bağırınca ötekilerle birlikte gülümsediğini fark ediyorsun. Gülümsemen yüzünde birkaç saniye kalıyor, sonra iniyor."
 ]},
 
 son_hucre: { son: true, baslik: "On Üç Numara", metin: [
-P(S("t4D"), "Burak'ın e-postası hâlâ gelen kutunda; okundu işaretiyle, cevapsız."),
-"Bir gardiyandın ve bir “hayır” dedin. Sonra mahkûm oldun. Literatürde “G4/M13” olarak geçiyorsun; bir dipnot, bir istisna.",
-"Ama o iki günü hiç unutmadın. Bir numaranın içinde, bir önlüğün içinde, bir yere eğilmiş beden olarak; ve yukarıda, aynalı bir gözlükte, kendi yüzün. Bir gün önce o gözlüğün arkasındaydın. Bir sistem, bir insanı bir gecede bir yerden öbürüne taşıyabiliyor. Ve iki taraf da, birbirini, kendisini değil, bir rolü görüyor.",
-P(function(d){ return d.mahkum_hayir; }, "Bir mahkûm olarak da “hayır” dedin. Burak yere inmeni istediğinde inmedin. Ertesi gün tecrit odasında dört saat geçirdin; bir süpürge dolabında, karanlıkta. Bir “hayır”ın bedeli, hangi tarafta durursan dur, aynı: yalnızlık."),
-P(function(d){ return d.dayanisma; }, "Hücre arkadaşlarına “Yarın birlikte” dedin. Ertesi gün sayımda dokuz mahkûm aynı anda yere inmeyi reddetti. Burak ne yapacağını bilemedi. Bir “hayır”, birden çok ağızdan söylenince, başka bir şeye dönüşüyor."),
-"Bir sosyolog olmadın. Bir avukat oldun; insan hakları. Cezaevi koşullarıyla ilgili davalar. Her yıl birkaç kez bir cezaevine gidiyorsun; müvekkillerini görmeye. Koridorlarda gardiyanlar, hücrelerde mahkûmlar.",
-"Ve her seferinde, bir gardiyanın yüzüne bakıyorsun. Gözlüğü yok; ama bir şey var yüzünde, tanıdık. Bir rolün, bir insana yapıştığı yer.",
-"Bazen bir gardiyanla konuşuyorsun. Adını soruyorsun. Çoğu şaşırıyor; kimse sormamış. Bir ad, bir rolün içinde açılan küçük bir pencere."
+P(S("t4D"), "Tarkan'ın e-postası gelen kutunda duruyor. Okundu, cevapsız."),
+"Literatürde “G4/M13” diye geçiyorsun. Bir dipnot.",
+"İki günü hiç unutmadın: önlük, numara, yere eğilmiş beden. Yukarıda aynalı bir gözlükte kendi yüzün. Bir gün önce o gözlüğün arkasındaydın.",
+P(function(d){ return d.mahkum_hayir; }, "Mahkûmken de “hayır” dedin. Ertesi gün süpürge dolabında dört saat. Paspas kovasının kokusu hâlâ burnunda."),
+P(function(d){ return d.dayanisma; }, "“Yarın birlikte” demiştin. Ertesi sabah dokuz kişi aynı anda yere inmedi. Tarkan ne yapacağını bilemedi. Düdüğü ağzından çıkarıp bir süre eline baktı."),
+"Sosyolog olmadın. İnsan hakları avukatı oldun. Yılda birkaç kez cezaevine gidiyorsun.",
+"Bazen bir gardiyana adını soruyorsun. Çoğu şaşırıyor. Biri geçen ay söyledi: “Ramazan.” Sonra ekledi: “Ama burada herkes bana Başgardiyan der.”"
 ]},
 
-son_tanik: { son: true, baslik: "Tanık", metin: [
-P(S("t4D"), "Burak'ın e-postası hâlâ gelen kutunda; okundu işaretiyle, cevapsız."),
-"Deneyi sen durdurmadın; dekan durdurdu. Ama dekana sen gittin. Bir sistemin içinden çıkıp sistemin dışındaki birine “Bakın” dedin. Bazen ahlak bundan ibaret: bakılmasını sağlamak.",
-"Tuncay Hoca'nın makalesinde senin bir dipnotun var: “G4, deneyin erken sonlandırılmasında rol oynamıştır.” Rol. O kelimeyi orada bile kullanmış.",
-P(function(d){ return d.mektup_dergi; }, "Dergiye yazdığın mektup bugün bazı etik derslerinde okutuluyor. Bir öğrenci bir gün sana e-posta attı: “Ben de bir deneyde gözlemciyim. Bir şey yanlış gidiyor. Ne yapmalıyım?” Ona yazdın: “Yukarı çık. Birine göster. Tek başına durdurmaya çalışma; ama tek başına susma da.”"),
-"Merve doktorasını bitirdi; Tuncay Hoca'dan ayrıldı. Şimdi bir başka üniversitede araştırma etiği kurulunun başkanı. Her yıl bir konferansta karşılaşıyorsunuz. Bir keresinde sana dedi ki: “O sabah kantinde sen ‘Ben giderim’ demeseydin, ben gitmezdim. Bunu biliyorsun, değil mi?”",
-"Bir tanığın gücü küçüktür. Bir telefon, bir merdiven, bir dekanın kapısı. Ama bir sistemi ayakta tutan şey, çoğu zaman, hiç kimsenin o merdiveni çıkmamasıdır.",
-P(function(d){ return d.burak_cevap === "gercek" || d.burak_cevap === "bulusma"; }, "Burak'a cevap verdin. Gördüğünü. Bir tanığın son işi bu: görüleni, görülmesi gerekene göstermek. Yirmi yıl sonra bile."),
-"Bazen hâlâ o telefon kulübesini düşünüyorsun. Gece yarısı, fakültenin karanlık holü, elinde bir ahize, aşağıdan gelen düdük. Ve bir sesin, “Rolüne dön” diyen sesin. Dönmedin. O gece bir şeyi kurtarmadın belki. Ama bir şeyin devam etmesine izin vermedin."
+son_tanik: { son: true, baslik: "Üçüncü Kat", metin: [
+P(S("t4D"), "Tarkan'ın e-postası gelen kutunda duruyor. Okundu, cevapsız."),
+"Deneyi dekan durdurdu. Dekana sen çıktın. Üçüncü kat, merdivenler.",
+"Makalede bir dipnotun var: “G4, deneyin erken sonlandırılmasında rol oynamıştır.” Rol. Orada bile.",
+P(function(d){ return d.mektup_dergi; }, "Mektubun bugün bazı derslerde okutuluyor. Bir öğrenci yazdı: “Ben de bir deneyde gözlemciyim. Bir şey yanlış gidiyor.” Cevap yazdın: “Yukarı çık. Birine göster. Tek başına durdurmaya çalışma. Tek başına susma da.”"),
+"Merve doktorayı bitirdi, Tuncay Hoca'dan ayrıldı. Şimdi bir üniversitede araştırma etiği kurulunun başında. Bir konferansta dedi ki: “O sabah kantinde sen ‘Ben giderim’ demeseydin ben gitmezdim.”",
+P(function(d){ return d.burak_cevap === "gercek" || d.burak_cevap === "bulusma"; }, "Tarkan'a cevap verdin. Gördüğünü."),
+"O telefonu hâlâ düşünüyorsun: karanlık hol, kartın ekranında kalan üç kontör, aşağıdan gelen düdük."
 ]},
 
 son_iki_yuz: { son: true, baslik: "İki Yüz", metin: [
-P(S("t4D"), "Burak'ın e-postası hâlâ gelen kutunda; okundu işaretiyle, cevapsız."),
-"Kayıtlarda kenarda duran bir gardiyansın. Makalede “pasif suç ortaklığının” örneği. Bir derste, bir slaytta, aynalı gözlüklü bir siluet, eğik sırtları izliyor.",
-"Ve kayıtta olmayanlar: lavaboların altındaki ekmekler, bir mendil kâğıdına yazılmış bir mektup, bir annenin kapısı.",
-"Hangisi gerçek? İkisi de. Bir insanın iki yüzü olabilir; biri görünen, biri görünmeyen. Ve dünya yalnızca görünene bakar.",
-P(function(d){ return d.mektup_goturdu; }, "Kemal'in annesi o mektubu hâlâ saklıyor. Bir bayram Kemal sana gösterdi; bir çerçevenin içinde, bir mendil kâğıdı, kurşun kalem. “Kayboluyorum.” Altında annesinin el yazısıyla bir not: “Emre getirdi.”"),
-"Bunun bir erdem mi, bir korkaklık mı olduğunu hâlâ bilmiyorsun. Gizlice iyilik yapmak; açıkça kötülüğe karşı çıkmamak. Bir sistemin içinde hayatta kalmanın en eski yolu. Pek çok insan böyle yaşadı; savaşlarda, cezaevlerinde, ofislerde. Kahraman değiller. Kötü de değiller. Görünmezler.",
-"Kemal biliyor. Kemal ile her yıl bir kez buluşuyorsunuz, aynı bankta, fakültenin bahçesinde. Bir yıl Kemal bir şey söyledi: “Senin ekmeğin olmasaydı dayanamazdım. Ama Burak'a ‘hayır’ deseydin, belki hiç ekmeğe ihtiyacım olmazdı.”",
-"İkisi de doğru. Bir yüzle bir insanı kurtardın; öbür yüzle bir sistemin devam etmesine izin verdin. Bu iki yüz hâlâ seninle; aynada her sabah ikisini birden görüyorsun."
+P(S("t4D"), "Tarkan'ın e-postası gelen kutunda duruyor. Okundu, cevapsız."),
+"Kayıtlarda kenarda duran bir gardiyansın. Derslerde bir slayt: aynalı gözlüklü bir siluet.",
+"Kayıtta olmayanlar: lavabo altındaki ekmekler, bir mendil kâğıdına yazılmış mektup, bir annenin kapısı.",
+P(function(d){ return d.mektup_goturdu; }, "Celal'in annesi o mektubu hâlâ saklıyor. Bir çerçevede. “Kayboluyorum.” Altında annesinin el yazısı: “Emre getirdi.”"),
+"Celal'le her yıl aynı bankta buluşuyorsunuz. Bir yıl dedi ki: “Senin ekmeğin olmasa dayanamazdım. Ama Tarkan'a ‘hayır’ deseydin, belki ekmeğe ihtiyacım olmazdı.”",
+"Cevap vermedin. Celal de beklemedi. Bankın kenarına bir simit koydu. Bir güvercin geldi."
 ]},
 
 son_ayna: { son: true, baslik: "Ayna", metin: [
-P(S("t4D"), "Burak'ın e-postası hâlâ gelen kutunda; okundu işaretiyle, cevapsız."),
-"Bodrum katında bir aynalı gözlük taktın. Ve o gözlükte, sonunda, kendi yüzünü gördün.",
-"Bu hikâyede bir şey öğrendin: bir insanı bir durum değiştirebilir. Ama değişimin yönünü bir insan seçer; küçük, sessiz, görünmeyen anlarda. Bir sayımda yavaş saymak. Bir isme numarası yerine adıyla seslenmek. Bir kameraya bakmak. Bir kapıyı açmak.",
-P(function(d){ return d.sorusturma || d.izledi_toplanti; }, "Yıllar sonra bir ofiste, bir başka bodrumu tanıdın; bir toplantı odasında, bir kürsüde, gülen bir ekipte. Ve bu sefer kenarda durmadın. Bir şeyi bir kez görmüş olmak, onu bir daha görmemeyi imkânsız kılıyor."),
-P(function(d){ return d.burak_cevap === "bulusma"; }, "Burak'la buluştunuz. Bir kafede, yirmi yıl sonra. Gözlüksüz. Uzun süre konuşmadınız. Sonra Burak oğlunun fotoğrafını gösterdi. “Ona bir gün anlatacağım,” dedi. “Bodrumu. Ne yaptığımı. Bir rolün arkasına saklanmadan.” Sen de bir şey anlattın: düdüğü, sayımı, kendi payını. İki eski gardiyan, bir kafede, birbirinin aynası."),
-"Kemal'le bağınız kopmadı. Her yıl aynı bankta. Bir yıl Kemal bir şey getirdi: annesinin börek tarifi, bir kâğıda yazılmış. “Bunu sana veriyorum,” dedi. “Yedi yaşındaki çocuk ağlamasın diye.”",
-"Bir insan normal olduğu için bir bodrumda kötülük yapabilir. Bu deneyin söylediği buydu. Ama bir insan, normal olduğu için, bir bodrumda bir kapıyı da açabilir. Bu da aynı deneyin söylediği; yalnızca kimse onu bir makaleye yazmadı."
+P(S("t4D"), "Tarkan'ın e-postası gelen kutunda duruyor. Okundu, cevapsız."),
+"Bodrumda aynalı bir gözlük taktın ve sonunda o gözlükte kendi yüzünü gördün.",
+"Bir sayımda yavaş saymak. Bir numarayı adıyla çağırmak. Bir kameraya bakmak. Bir kapıyı açmak. Hepsi küçüktü.",
+P(function(d){ return d.sorusturma || d.izledi_toplanti; }, "Yıllar sonra bir toplantı odasında bir bodrumu tanıdın ve bu sefer kenarda durmadın."),
+P(function(d){ return d.burak_cevap === "bulusma"; }, "Tarkan'la bir kafede buluştunuz. Gözlüksüz. Uzun süre konuşmadınız. Sonra Tarkan oğlunun fotoğrafını gösterdi. “Ona anlatacağım,” dedi. Sen de anlattın: kendi payını. Hesabı Tarkan ödemek istedi. Sen ödedin."),
+"Celal bir yıl bankta bir kâğıt uzattı: annesinin börek tarifi. “Yedi yaşındaki çocuk ağlamasın diye.” Tarifin altına annesi eklemiş: “Bir dilimi Emre'ye ayır.”"
 ]}
 
 },
@@ -626,13 +605,13 @@ P(function(d){ return d.burak_cevap === "bulusma"; }, "Burak'la buluştunuz. Bir
 ayna: function(d){
   var out = [];
   var v = d.vicdan, u = d.uyum, t = d.tanik;
-  if(v >= u && v >= t) out.push("Bu hikâyede en çok vicdanına yaslandın: bir ada, bir yüze, bir arkadaşa. Vicdan bir sistemin içinde en kolay kaybolan şeydir; ve sen onu, en azından bazı anlarda, bulmaya devam ettin.");
-  else if(u >= t) out.push("Bu hikâyede en çok uyuma yaslandın: role, ekibe, düzene. Uyum, bir grubun içinde hayatta kalmanın yoludur. Ama uyduğun şeyin ne olduğunu sormadan uymak, bir gün aynada tanımadığın bir yüz bırakır.");
-  else out.push("Bu hikâyede en çok tanıklığa yaslandın: kameralara, kayıtlara, merdivenleri çıkıp birine göstermeye. Bir tanık her şeyi değiştirmez. Ama bir sistemin karanlıkta işlemesini zorlaştırır.");
-  if(d.gozluk === false) out.push("İlk gün aynalı gözlüğü takmadın. Bir yüzün açık kalması, bir rolün ilk çatlağıdır.");
-  if(d.kol === "rol") out.push("Dördüncü gece düdüğü çaldın. Bir oyunun oyun olmaktan çıktığı anı, sen de hissetmedin.");
-  if(d.mahkum) out.push("Bir “hayır” seni öbür tarafa taşıdı. Bir sistemin dışı olmadığını, kendi bedeninde öğrendin.");
-  if(d.hakan_suc) out.push("Bir yalanın bir başkasının sırtına bindiğini gördün; ve o yalanı sen söyledin.");
+  if(v >= u && v >= t) out.push("Çoğu kavşakta Celal'in adını ve yüzünü numarasının önüne koydun.");
+  else if(u >= t) out.push("Çoğu kavşakta ekibe ve role uydun.");
+  else out.push("Çoğu kavşakta gördüğünü birine göstermeye çalıştın.");
+  if(d.gozluk === false) out.push("İlk gün aynalı gözlüğü takmadın.");
+  if(d.kol === "rol") out.push("Dördüncü gece düdüğü sen çaldın.");
+  if(d.mahkum) out.push("“Hayır” dedin ve on üç numara oldun.");
+  if(d.hakan_suc) out.push("Ekmekleri Okan'ın üstüne attın.");
   return out;
 },
 
