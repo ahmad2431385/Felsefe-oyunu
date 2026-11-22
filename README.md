@@ -16,6 +16,11 @@ Site: https://ahmad2431385.github.io/Felsefe-oyunu/
 | Son Ders | Gerçek | Ölme hakkı, yasa ve vicdan, acının anlamı, kilitli zihin |
 | Kusursuz Bebek | Hayali (2041) | Engellilik ve değer, iyileştirme ve doğallık, ebeveyn sevgisi, normalin tanımı |
 | 36 Saat | Gerçek | Tıbbi hata ve dürüstlük, ahlaki şans, birey ve sistem, kendini affetmek |
+| Bodrum Katı | Gerçek | Rol ve kimlik, durumun gücü, kalabalıkta kaybolma, otoriteye itaat |
+| Rüya Makinesi | Hayali (2049) | Gerçek ve mutluluk, sahicilik, yaşlılık ve yalnızlık, hafıza ve sevgi |
+| Karşı Kıyı | Gerçek | Ahlaki şans, aidiyet ve sürgün, umut ve risk, yardım ödevi |
+| Linç | Gerçek | Kitle psikolojisi, hakikat sonrası, utanç ve itibar, sessiz tanık |
+| Aynı Salı | Hayali | Ebedi dönüş, absürd ve anlam, özgürlük ve sonuç, bağ kurmak |
 
 ## Nasıl çalışır?
 - Her bölümün sonunda 4 karar vardır.
