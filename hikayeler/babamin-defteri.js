@@ -455,7 +455,7 @@ P(S("k3D"), "Videoyu kapattın. O akşam makarna yaptın. Tencereyi ocaktan alı
 "Mutfakta helva kokusu. Kapının önünde ayakkabılar üst üste. Birinin terliği senin topuğuna takılıyor. Kadınlar başörtülerini düzeltiyor, erkekler salonun kenarında ayakta, kollarını kavuşturmuş. Seyfi amcan kapıda mevlit şekeri dağıtıyor.",
 P(function(d){ return d.kamu; }, "Yüz kişi beklenmiş, yirmi kişi gelmiş. Haberden sonra çoğu aramadı bile. Gelenler sana bakmıyor. Annene bakıyor, sonra halıya."),
 P(function(d){ return !d.kamu; }, "Herkes gelmiş. Eski çalışanlar, belediyeden birileri, babanın mühendis arkadaşları. Hepsi sana sarılıp “Ne dürüst adamdı,” diyor. Biri bunu iki kez söylüyor."),
-"Babanın teyzesinin oğlu Hikmet kalkıp konuşuyor. İlk şantiyeyi anlatıyor. Babanın çamura gömülen ayakkabısını, eve tek ayakkabıyla döndüğünü. Salon gülüyor.",
+"Babanın teyzesinin oğlu Yaşar kalkıp konuşuyor. İlk şantiyeyi anlatıyor. Babanın çamura gömülen ayakkabısını, eve tek ayakkabıyla döndüğünü. Salon gülüyor.",
 P(function(d){ return !d.kamu; }, "“Nuri,” diyor sonra, “bir kere bile bir çivi eksik çakmadı. Bunu bu salonda herkes bilir.” Başlar sallanıyor. Annen gözlerini kapatıyor."),
 P(function(d){ return d.kamu; }, "“Nuri hata yaptı,” diyor sonra. “Büyük hata. Kızı doğruyu söyledi.” Bir süre bir şey diyemiyor, öksürüyor. “Ama ben onu yine de severim. Kusura bakmasın kimse.”"),
 "Hoca duaya başlıyor. Annen ön sırada. Senin yanında bir çocuk, şeker paketini sessizce açmaya çalışıyor, beceremiyor."
@@ -593,7 +593,7 @@ P(S("z4C"), "Defterin son sayfasına iki satır yazmıştın, alt alta: “affed
 "Okul projesi bitti. Açılışta kurdeleyi kestin. Makas körmüş, iki kez denedin, çocuklar güldü. Bina sağlam. Her demiri kendin kontrol ettin. Üç kez.",
 "Defter bir yerde. Ne olduğunu biliyorsun. Bilmek, hiçbir şey yapmamana engel olmadı. Babana da olmamıştı.",
 "Elif'in videolarına bakmıyorsun. Bir akşam önerilenlerde çıktı. Küçük resimde Elif ağzını açmış, bir şey söylerken donmuş. Telefonu kapatıp yüzüstü koydun.",
-"Hikmet amcanın mevlitte söylediği cümle bazen aklına geliyor: “Bir kere bile bir çivi eksik çakmadı.” Kimse düzeltmedi. Sen de.",
+"Yaşar amcanın mevlitte söylediği cümle bazen aklına geliyor: “Bir kere bile bir çivi eksik çakmadı.” Kimse düzeltmedi. Sen de.",
 P(function(d){ return d.affetti; }, "Babanı affettin. Bazı günler, onu affettiğin için onun gibi olmanın kolaylaştığını düşünüyorsun. Sonra bu düşünceyi bir kenara koyuyorsun."),
 P(function(d){ return d.kendi_not; }, "Defterin son sayfasının arkasına Ege için bir not yazdın: “Oğlum, ben de dedemin yaptığını yaptım. Sen yapma.” Yazdıktan sonra okudun. Yanlış yazmışsın: “dedemin” değil, “dedenin” olacaktı. Düzeltmedin."),
 "Bir gece Ege'yi uyurken izliyorsun. Yirmi yaşında. Ertesi gün sınavı var. Masasında enerji içeceği kutuları, ayağı yorganın dışında.",

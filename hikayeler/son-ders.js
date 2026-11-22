@@ -307,7 +307,7 @@ P(S("br1C"), "Hande bir süre ellerine baktı. Parmak uçlarında hâlâ mürekk
 
 br3: { saat: "Nisan", baslik: "Otuz Saat", metin: [
 P(S("br2A"), "Sedasyonu kendin başlattın. Valf parmaklarının altında soğuktu."),
-P(S("br2B"), "Hemşireye söyledin. Hemşire sana bir an baktı, sonra başlattı. O bakışı unutmadın. Adını da unutmadın: Saadet."),
+P(S("br2B"), "Hemşireye söyledin. Hemşire sana bir an baktı, sonra başlattı. O bakışı unutmadın. Adını da unutmadın: Reyhan."),
 P(S("br2C"), "Nevin Hoca bir kez kırptı. Sonra bir daha. İki. Kalbin durdu. Sonra ekranda son harfler: “Sorma. Ama sorduğun için sağ ol.”"),
 P(S("br2D"), "Hande'nin eli seninkinin üstündeydi. Serum açıldı."),
 "İlaç giriyor. Nevin Hoca erguvanlara bakmaya çalışıyor. Göz kapakları iniyor.",
@@ -607,7 +607,7 @@ P(S("t4D"), "“Notumu hâlâ beğenmedim,” demiştin. Bir martı bağırmış
 "Yasanın izin verdiği yerin tam sınırında durdun. Nevin Hoca otuz saat sonra, erguvanların karşısında, kendi salonunda öldü.",
 "Soruşturma açılmadı. Belge, tanıklar, rapor. Hepsi yerindeydi. Suat Hoca bir gün koridorda yanına geldi: “Doğru yaptın. Yasaya uygun.” Durdu. “Yasaya uygun olunca hafif olmuyor ama, değil mi?” Cevap beklemeden asansöre bindi.",
 "Öldürmek ile bırakmak arasında bir fark var. Kitaplarda var. O otuz saat boyunca o farkı odada aradın, bulamadın. Maskeyi çıkarmak bir şeydi. Serumu açmak bir şeydi. Oturup beklemek de bir şeydi.",
-"Hemşire Saadet'le bir yıl sonra bir kongrede karşılaştınız. Kahve kuyruğunda yan yana durdunuz. İkiniz de o günden söz etmediniz. O sana şekeri uzattı, sen ona karıştırıcıyı.",
+"Hemşire Reyhan'la bir yıl sonra bir kongrede karşılaştınız. Kahve kuyruğunda yan yana durdunuz. İkiniz de o günden söz etmediniz. O sana şekeri uzattı, sen ona karıştırıcıyı.",
 "Her nisan karşı yamaca bakıyorsun."
 ]},
 
