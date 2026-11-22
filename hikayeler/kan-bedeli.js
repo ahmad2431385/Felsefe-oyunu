@@ -170,7 +170,7 @@ kb_murat: { saat: "Şubat 1995", baslik: "Son Çay", metin: [
 
 kb_imam: { saat: "Şubat 1995", baslik: "İmam", metin: [
 "Hiçbir şey anlatmamaya karar verdin. Ama kararın ağırlığını tek başına taşıyamıyorsun. Akşam namazından sonra camiye gidiyorsun.",
-"İmam Halil Efendi altmış yaşında, köye senden beş yıl önce gelmiş. İkiniz bu köyün iki yabancısısınız. Biri çocuklarla, biri ölülerle uğraşır. Yıllardır birbirinize saygılısınız ama bir kez olsun aynı sofraya oturmadınız.",
+"İmam Nevzat Efendi altmış yaşında, köye senden beş yıl önce gelmiş. İkiniz bu köyün iki yabancısısınız. Biri çocuklarla, biri ölülerle uğraşır. Yıllardır birbirinize saygılısınız ama bir kez olsun aynı sofraya oturmadınız.",
 "Caminin avlusunda, şadırvanın başında oturuyorsunuz. Anlatıyorsun: savcıyı, susmayı, nedenini.",
 "İmam dinliyor. Sonra musluğu açıp avucuna su alıyor, yere döküyor. “Ben de susuyorum, biliyor musun?” diyor. “Yirmi yıldır. Kimin kimi vurduğunu, kimin kızını kime verdiğini biliyorum. Cenazelerini kıldırıyorum. Hiçbirini savcıya söylemedim.”",
 "Başını sana çeviriyor. “Ben kendime ‘Ben imamım, tanık değilim’ diyorum. Sen kendine ne diyorsun hocam?”",
@@ -178,7 +178,7 @@ kb_imam: { saat: "Şubat 1995", baslik: "İmam", metin: [
 ], secenekler: [
 { t: "“Ben öğretmenim. Öğretmen susmaz,” dersin ve fikrini değiştirirsin.", to: "t3", etki: { adalet: 1, ifade: "kismi", imam_dondu: true } },
 { t: "“Ben bir yabancıyım. Bu köyün kararını ben veremem,” dersin.", to: "t3", etki: { gelenek: 1 } },
-{ t: "“Siz de konuşun Halil Efendi. Birlikte,” dersin.", to: "t3", etki: { adalet: 1, imama_teklif: true } },
+{ t: "“Siz de konuşun Nevzat Efendi. Birlikte,” dersin.", to: "t3", etki: { adalet: 1, imama_teklif: true } },
 { t: "Cevap vermezsin. Abdest alıp namaza durursun. Yıllardır yapmadığın bir şey.", to: "t3", etki: { merhamet: 1, namaz: true } }
 ]},
 
@@ -421,7 +421,7 @@ P(S("kb_muratA"), "Hacı Murat başını salladı. “Söyle,” dedi. “Kırk 
 P(S("kb_muratB"), "“Allah'a anlattım,” dedi Hacı Murat. “Kırk iki yıl. Cevap vermedi.” Sustun. Savcının karşısına o sırla oturdun. Ağzına kadar gelip geri gitti."),
 P(S("kb_muratC"), "“Bir kızı vardı,” dedi Hacı Murat. “Şehre gitti. Yaşıyorsa altmışındadır.” Bir adı vardı, adresi yoktu. Savcıya o adı da söyledin. Neden söylediğini kendine de açıklayamadın."),
 P(S("kb_muratD"), "Hacı Murat'ın eli kuru, kemikli, soğuktu. Bırakmadı. Gelini kapıdan bakıp çekildi."),
-P(S("kb_imamA"), "Fikrini değiştirdin. Ama yarısını. Savcıya kendi gördüğünü anlattın, yalnızca onu. İfade boyunca Halil Efendi'nin sorusu kulağındaydı."),
+P(S("kb_imamA"), "Fikrini değiştirdin. Ama yarısını. Savcıya kendi gördüğünü anlattın, yalnızca onu. İfade boyunca Nevzat Efendi'nin sorusu kulağındaydı."),
 P(S("kb_imamB"), "“Yabancı,” dedi imam ve güldü. “İkimiz de. Bu köy bizi o yüzden tutuyor. Kimseye zararımız yok.” Musluğu kapattı. Damlamaya devam etti."),
 P(S("kb_imamC"), "İmam uzun süre sustu. “Belki bir gün,” dedi. Ertesi gün savcı geldiğinde imam caminin kapısında duruyordu. İçeri girmedi. Ama gitmedi de."),
 P(S("kb_imamD"), "Namaza durdun. Rükûda belin tuttu. Yıllardır eğilmemişsin. Secdede alnın soğuk halıya değdi. Ne okuduğunu tam hatırlamıyordun. İmamın sesinin arkasından gittin."),
