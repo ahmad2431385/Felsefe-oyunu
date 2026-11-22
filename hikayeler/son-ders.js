@@ -7,6 +7,8 @@ window.HIKAYELER.push({
 id: "son-ders",
 baslik: "Son Ders",
 dunya: "Gerçek dünya",
+kategoriler: ["Sağlık ve Tıp"],
+giris: "İstanbul, Cihangir. Sen bir palyatif bakım hekimisin; yeni hastan, otuz yıl önce sana tıp etiği dersi veren hocan. Artık hareket edemiyor, konuşamıyor; yalnızca gözleriyle, bir ekrandaki harflere bakarak yazabiliyor. Ve ilk ziyaretinde senden bir şey istiyor. Türkiye'de bu bir suç. Yasa ile vicdan, merhamet ile özerklik arasında, bir öğrencinin hocasına verebileceği son cevabın hikâyesi.",
 kavramlar: ["Ölme hakkı", "Yasa ve vicdan", "Acının anlamı", "Kilitli zihin"],
 ozet: "Otuz yıl önce sana tıp etiği dersi veren hocan şimdi yalnızca gözleriyle konuşabiliyor. Sen onun palyatif bakım hekimisin. Senden ölmesine yardım etmeni istiyor. Türkiye'de bu bir suç.",
 baslangic: "a1",

@@ -7,6 +7,8 @@ window.HIKAYELER.push({
 id: "babamin-defteri",
 baslik: "Babamın Defteri",
 dunya: "Gerçek dünya",
+kategoriler: ["Aile ve Hafıza", "Toplum ve Adalet"],
+giris: "Babanın cenazesinden bir hafta sonra çalışma odasında kilitli bir çekmece buluyorsun. İçinde 1993 tarihli bir defter, defterde ise 1999 depreminde yıkılan bir binanın hiç anlatılmamış hikâyesi var. Yirmi dört yıldır bir başkası suçlu biliniyor ve o başkasının kızı hâlâ adalet bekliyor. Sen bir mimarsın ve babanın adını taşıyorsun. Hakikat ile huzur, bir aileye sadakat ile bir yabancıya borç arasında bir seçim.",
 kavramlar: ["Hakikat ve huzur", "Kuşaklar arası suç", "Kendini kandırma", "Affetme"],
 ozet: "Babanın cenazesinden bir hafta sonra kilitli bir çekmecede bir defter buluyorsun. 1999 depreminde yıkılan bir binanın gerçek hikâyesi orada yazıyor. Yirmi dört yıldır başka bir adam suçlu biliniyor.",
 baslangic: "b1",

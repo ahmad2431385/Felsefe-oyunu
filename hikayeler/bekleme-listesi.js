@@ -9,6 +9,8 @@ window.HIKAYELER.push({
 id: "bekleme-listesi",
 baslik: "Bekleme Listesi",
 dunya: "Gerçek dünya",
+kategoriler: ["Sağlık ve Tıp", "Toplum ve Adalet"],
+giris: "Gece ikide telefonun çalıyor. Sen İzmir'de bir organ nakli koordinatörüsün. On yedi yaşında bir kızın, bir bisiklet kazasından sonra beyin ölümü gerçekleşmiş; kalbi hâlâ atıyor. Koridorda annesiyle babası henüz hiçbir şey bilmeden bekliyor. Ankara'da bir çocuk aylardır bir kalp bekliyor. Önünde birkaç saat, bir yas, bir rıza ve bir listenin adaleti var. Bir bedenin bittiği yerde bir başkasının nasıl başladığının hikâyesi.",
 kavramlar: ["Ölümün tanımı", "Beden ve armağan", "Adil paylaşım", "Yas ve rıza"],
 ozet: "Gece ikide telefonun çalıyor. On yedi yaşında bir kızın beyni ölmüş, kalbi atıyor. Ankara'da dokuz yaşında bir çocuk on dört aydır bir kalp bekliyor. Aradaki birkaç saat senin elinde.",
 baslangic: "a1",

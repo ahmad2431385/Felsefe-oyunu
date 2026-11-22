@@ -7,6 +7,8 @@ window.HIKAYELER.push({
 id: "kan-bedeli",
 baslik: "Kan Bedeli",
 dunya: "Gerçek dünya",
+kategoriler: ["Toplum ve Adalet"],
+giris: "1994, bir dağ köyü. Bir tarla kavgasında bir genç öldü ve şimdi kan, kan istiyor. Sen köyün on beş yıllık öğretmenisin; iki ailenin çocukları da senin sıralarında büyüdü. Bir gece kapına, montunun altında tüfek taşıyan eski bir öğrencin geliyor. Töre, devlet, vicdan ve bir annenin ağıdı arasında sıkışmış bir kışın hikâyesi. Bir yabancı bir köyün yasasını değiştirebilir mi, yoksa yalnızca tanıklık mı eder?",
 kavramlar: ["Adalet ve intikam", "Affetme", "Töre ve toplumsal baskı", "Şiddetin döngüsü"],
 ozet: "1994 sonbaharı, bir dağ köyü. Bir tarla kavgasında bir genç öldü. Şimdi bir başka gencin eline silah verildi. Sen köyün öğretmenisin ve iki ailenin çocukları da senin öğrencin.",
 baslangic: "k1",

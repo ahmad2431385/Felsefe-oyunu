@@ -7,6 +7,8 @@ window.HIKAYELER.push({
 id: "teshis",
 baslik: "Teşhis",
 dunya: "Gerçek dünya",
+kategoriler: ["Sağlık ve Tıp", "Aile ve Hafıza"],
+giris: "Ankara'da bir onkoloji servisi. Dört yüz on iki numaralı odada emekli bir marangoz, hastane kurallarına rağmen torunu için ceviz bir beşik oyuyor. Sonuçları sen biliyorsun; oğlu da biliyor. Oğlu “Babama söylemeyin” diyor. Usta ise her sabah sana ne zaman evine döneceğini soruyor. Bir hekimin hastasına ne kadar gerçeği borçlu olduğunun ve bir ailenin sevgisinin bazen bir yalanın içinden geçtiğinin hikâyesi.",
 kavramlar: ["Hastanın özerkliği", "Hakikat ve umut", "Merhametli yalan", "Ölümle yüzleşme"],
 ozet: "Bir marangoz ustası hastane odasında torununa beşik oyuyor. Sonuçları sen biliyorsun, oğlu da biliyor. Oğlu “Babama söylemeyin” diyor. Usta ise sana her sabah aynı soruyu soruyor.",
 baslangic: "a1",

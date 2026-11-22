@@ -9,6 +9,8 @@ window.HIKAYELER.push({
 id: "otuz-alti-saat",
 baslik: "36 Saat",
 dunya: "Gerçek dünya",
+kategoriler: ["Sağlık ve Tıp"],
+giris: "İstanbul'da bir eğitim hastanesinin acil servisi. Sen üçüncü yılında bir asistansın ve otuz altı saatlik bir nöbetin ortasındasın. Bekleme salonunda yüz yirmi kişi var, bir arkadaşın az önce yumruklandı, gözlerin yorgunluktan kapanıyor. Otuz birinci saatte, ekranda açmadığın tek bir sekme her şeyi değiştirecek. Bir hatanın, bir sistemin ve bir insanın kendisiyle yaşamaya devam edip edemeyeceğinin hikâyesi.",
 kavramlar: ["Tıbbi hata ve dürüstlük", "Ahlaki şans", "Birey ve sistem", "Kendini affetmek"],
 ozet: "Acil serviste otuz birinci saatindesin. Yorgunluktan ekrandaki bir sekmeyi açmadın. Yetmiş dört yaşında bir kadın, senin yazdığın bir ilaçla yoğun bakımda. Şimdi kimse bilmiyor. Henüz.",
 baslangic: "a1",

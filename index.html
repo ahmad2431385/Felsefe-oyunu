@@ -74,6 +74,21 @@ h2.sahne{font-size:34px;line-height:1.2;font-weight:400;margin:0 0 26px;padding-
 .btn{font-family:var(--sans);font-size:14px;padding:10px 18px;border-radius:8px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:#14110b;font-weight:600}
 .btn.alt{background:none;color:var(--muted);border-color:var(--line);font-weight:500}
 .btn.alt:hover{color:var(--ink);border-color:var(--muted)}
+.filtre{margin:0 0 22px;font-family:var(--sans)}
+.filtre .satir{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px;align-items:center}
+.filtre .baslik{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;width:100%;margin:0 0 2px}
+.cip{font-family:var(--sans);font-size:13.5px;padding:7px 13px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer}
+.cip:hover{color:var(--ink);border-color:var(--muted)}
+.cip.aktif{background:var(--accent);border-color:var(--accent);color:#14110b;font-weight:600}
+.sayac{font-family:var(--sans);font-size:13px;color:var(--faint);margin:0 0 14px}
+.bos{font-family:var(--sans);color:var(--muted);text-align:center;padding:30px 0}
+.etiketler{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+.etiketler span{font-family:var(--sans);font-size:11.5px;padding:3px 9px;border-radius:999px;background:var(--surface2);border:1px solid var(--line);color:var(--muted)}
+.tanitim .etiket{font-family:var(--sans);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin:0 0 8px}
+.tanitim h2{font-size:36px;line-height:1.2;font-weight:400;margin:0 0 8px}
+.tanitim .kav{font-family:var(--sans);font-size:14px;color:var(--muted);margin:0 0 18px;font-style:italic}
+.tanitim .uzun{font-size:18px;line-height:1.75;margin:24px 0;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.tanitim .olcu{font-family:var(--sans);font-size:13.5px;color:var(--accent);margin:0 0 24px}
 .alt-not{font-family:var(--sans);font-size:12.5px;color:var(--faint);text-align:center;margin-top:48px}
 .gir{animation:gir .45s ease}
 @keyframes gir{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -231,7 +246,30 @@ function anaSayfa(){
     el("h1", { text: "Her karar bir bedeldir." }),
     el("p", { text: "Kararlarınla şekillenen hikâyeler. Doğru seçenek yok; yalnızca taşıyabileceğin ve taşıyamayacağın seçenekler var." })
   ]));
-  H.forEach(function(h){
+  var TEMALAR = ["Tümü"]; H.forEach(function(h){ (h.kategoriler || []).forEach(function(k){ if(TEMALAR.indexOf(k) < 0) TEMALAR.push(k); }); });
+  var DUNYALAR = ["Tümü", "Gerçek", "Hayali"];
+  var sec = oku("fo2-filtre", { tema: "Tümü", dunya: "Tümü" });
+  if(TEMALAR.indexOf(sec.tema) < 0) sec.tema = "Tümü";
+  if(DUNYALAR.indexOf(sec.dunya) < 0) sec.dunya = "Tümü";
+  function cipSatiri(baslik, liste, anahtar){
+    var satir = el("div", { class: "satir" }, [ el("p", { class: "baslik", text: baslik }) ]);
+    liste.forEach(function(x){
+      satir.appendChild(el("button", { type: "button", class: "cip" + (sec[anahtar] === x ? " aktif" : ""), "aria-pressed": sec[anahtar] === x ? "true" : "false", text: x, onclick: function(){
+        sec[anahtar] = x; yaz("fo2-filtre", sec); anaSayfa();
+      } }));
+    });
+    return satir;
+  }
+  kok.appendChild(el("div", { class: "filtre" }, [ cipSatiri("Tema", TEMALAR, "tema"), cipSatiri("Dünya", DUNYALAR, "dunya") ]));
+  var gorunen = H.filter(function(h){
+    var hayali = /hayali/i.test(h.dunya);
+    var temaOk = sec.tema === "Tümü" || (h.kategoriler || []).indexOf(sec.tema) >= 0;
+    var dunyaOk = sec.dunya === "Tümü" || (sec.dunya === "Hayali" ? hayali : !hayali);
+    return temaOk && dunyaOk;
+  });
+  kok.appendChild(el("p", { class: "sayac", text: gorunen.length + " hikâye" }));
+  if(!gorunen.length) kok.appendChild(el("p", { class: "bos", text: "Bu filtrelere uyan bir hikâye yok." }));
+  gorunen.forEach(function(h){
     var a = analiz(h);
     var kayit = oku(kayitAnahtar(h), null);
     var bulunan = oku(sonAnahtar(h), []);
@@ -241,17 +279,19 @@ function anaSayfa(){
       if(h.sahneler[o.id] && h.sahneler[o.id].son){ durumMetni = "Bitirdin"; eylem = "Yeniden oku"; }
       else { durumMetni = "Bölüm " + (o.gecmis.length + 1) + "'desin"; eylem = "Devam et →"; }
     } else { durumMetni = bulunan.length ? "Bitirdin" : "Başlanmadı"; eylem = bulunan.length ? "Yeniden oku" : "Başla →"; }
+    if(bulunan.length) durumMetni += " · " + bulunan.length + " son buldun";
     var hayali = /hayali/i.test(h.dunya);
     kok.appendChild(el("button", { class: "kart gir", type: "button", onclick: function(){ location.hash = "#/" + h.id; } }, [
       el("p", { class: "etiket " + (hayali ? "hayali" : "gercek"), text: h.dunya }),
       el("h2", {}, [ h.baslik + " ", el("span", { class: "kav", text: "(" + h.kavramlar.join(", ") + ")" }) ]),
+      el("div", { class: "etiketler" }, (h.kategoriler || []).map(function(k){ return el("span", { text: k }); })),
       el("p", { class: "olcu" }, [
-        (a.minB === a.maxB ? a.minB : a.minB + "–" + a.maxB) + " bölüm · " + a.sonlar.length + " farklı son", el("br"),
+        (a.minB === a.maxB ? a.minB : a.minB + "–" + a.maxB) + " bölüm", el("br"),
         "Toplam " + sayiYaz(a.toplam) + " kelime · bir okuma ≈ " + sayiYaz(a.okuma) + " kelime (~" + a.dk + " dk)"
       ]),
       el("p", { class: "ozet", text: h.ozet }),
       el("div", { class: "durum" }, [
-        el("span", {}, [ durumMetni + " · Sonlar: ", el("b", { text: bulunan.length + "/" + a.sonlar.length }) ]),
+        el("span", { text: durumMetni }),
         el("span", { text: eylem })
       ])
     ]));
@@ -266,6 +306,22 @@ function hikayeSayfa(h){
   var d = o.d, id = o.id, s = h.sahneler[id];
   kok.textContent = "";
   kok.appendChild(ust(true));
+  if(!o.gecmis.length && !h._basladi){
+    var an = analiz(h), hay = /hayali/i.test(h.dunya);
+    kok.appendChild(el("div", { class: "tanitim gir" }, [
+      el("p", { class: "etiket " + (hay ? "hayali" : "gercek"), text: h.dunya }),
+      el("h2", { text: h.baslik }),
+      el("p", { class: "kav", text: h.kavramlar.join(" · ") }),
+      el("div", { class: "etiketler" }, (h.kategoriler || []).map(function(k){ return el("span", { text: k }); })),
+      el("p", { class: "uzun", text: h.giris || h.ozet }),
+      el("p", { class: "olcu", text: (an.minB === an.maxB ? an.minB : an.minB + "–" + an.maxB) + " bölüm · bir okuma ≈ " + sayiYaz(an.okuma) + " kelime (~" + an.dk + " dk)" }),
+      el("div", { class: "dugmeler" }, [
+        el("button", { class: "btn", type: "button", text: "Okumaya başla →", onclick: function(){ h._basladi = true; render(); window.scrollTo(0,0); } }),
+        el("button", { class: "btn alt", type: "button", text: "Hikâyelere dön", onclick: function(){ location.hash = ""; } })
+      ])
+    ]));
+    return;
+  }
   var kap = el("div", { class: "gir" });
   kok.appendChild(kap);
 
@@ -309,13 +365,12 @@ function hikayeSayfa(h){
     if(ayna.length){
       kap.appendChild(el("div", { class: "blok ayna" }, [ el("h3", { text: "Ayna" }) ].concat(ayna.map(function(t){ return el("p", { text: t }); }))));
     }
-    var a = analiz(h);
     var ul = el("ul", { class: "sonlar" });
-    a.sonlar.forEach(function(sid){
-      var var_ = bulunan.indexOf(sid) >= 0;
-      ul.appendChild(el("li", { class: (sid === id ? "simdi " : "") + (var_ ? "bulundu" : ""), text: var_ ? h.sahneler[sid].baslik + (sid === id ? "  ← bu okuma" : "") : "? ? ?" }));
+    bulunan.forEach(function(sid){
+      if(!h.sahneler[sid]) return;
+      ul.appendChild(el("li", { class: "bulundu" + (sid === id ? " simdi" : ""), text: h.sahneler[sid].baslik + (sid === id ? "  ← bu okuma" : "") }));
     });
-    kap.appendChild(el("div", { class: "blok" }, [ el("h3", { text: "Sonlar · " + bulunan.length + "/" + a.sonlar.length }), ul ]));
+    kap.appendChild(el("div", { class: "blok" }, [ el("h3", { text: "Bulduğun sonlar" }), ul, el("p", { class: "sayac", style: "margin-top:12px", text: "Farklı kararlarla başka sonlara ulaşabilirsin." }) ]));
     if(h.dipnot){
       var dl = el("dl", { class: "dipnot" });
       h.dipnot.forEach(function(x){ dl.appendChild(el("dt", { text: x.ad })); dl.appendChild(el("dd", { text: x.t })); });

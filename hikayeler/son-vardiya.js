@@ -7,6 +7,8 @@ window.HIKAYELER.push({
 id: "son-vardiya",
 baslik: "Son Vardiya",
 dunya: "Gerçek dünya",
+kategoriler: ["Sağlık ve Tıp"],
+giris: "Doğu Anadolu'da küçük bir ilçe hastanesi. Kar bütün yolları kapatmış; ambulans gelmez, helikopter kalkmaz. Sen on iki yıllık bir yoğun bakım hemşiresisin ve gece daha başlamadan bir sorun olduğunu biliyorsun: boşta tek bir solunum cihazı var. Koridorda eşinin beklediği yaşlı bir öğretmen, yolda olduğu söylenen yaralı bir asker ve sabaha kadar uzayacak bir gece. Bu hikâye, doğru cevabın olmadığı yerde nasıl karar verildiğini soruyor.",
 kavramlar: ["Trajik ikilem", "Ödev ve fayda", "Ahlaki yara", "Ölümle yüzleşme"],
 ozet: "Kar yolları kapatmış. Küçük bir ilçe hastanesinin yoğun bakımında tek bir boş solunum cihazı var. Gece uzun ve sen nöbetçi hemşiresin.",
 baslangic: "s1",

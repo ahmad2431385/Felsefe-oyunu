@@ -9,6 +9,8 @@ window.HIKAYELER.push({
 id: "isik-sehri",
 baslik: "Işık Şehri",
 dunya: "Hayali dünya",
+kategoriler: ["Toplum ve Adalet"],
+giris: "Işıl'da kimse hastalanmaz, kimse aç kalmaz, ağaçlar her mevsim meyve verir. Bu mutluluğun bir sebebi var ve on sekiz yaşına basan herkese bir kez gösterilir. Bugün senin doğum günün. Gördüğün şeyden sonra eski hayatına dönemeyeceksin; ama ondan kaçmak da, onu değiştirmek de bir bedel istiyor. Hasta küçük bir kardeş, sessiz bir anne ve kapısı hiç açılmayan bir bodrum. Bir şehrin vicdanının hikâyesi.",
 kavramlar: ["Mutluluğun bedeli", "Suç ortaklığı", "Kaçış ve direniş", "Çoğunluğun vicdanı"],
 ozet: "Işıl'da kimse hastalanmaz, kimse aç kalmaz, hasat hiç bitmez. Bunun bir sebebi var ve on sekiz yaşına basan herkese gösterilir. Bugün senin doğum günün.",
 baslangic: "i1",

@@ -7,6 +7,8 @@ window.HIKAYELER.push({
 id: "kusursuz-bebek",
 baslik: "Kusursuz Bebek",
 dunya: "Hayali dünya · 2041",
+kategoriler: ["Sağlık ve Tıp", "Toplum ve Adalet", "Kimlik ve Beden"],
+giris: "2041. Embriyolar rutin olarak taranıyor, genler düzeltiliyor, “ağır engellilik” taşıyan doğumlar yasayla önleniyor. Sen bir genetik danışmansın; kardeşin, artık neredeyse hiç doğmayan bir durumla, Down sendromuyla yaşayan bir simitçi. Bir gün karşına, kendileri gibi işitme engelli bir çocuk isteyen bir çift oturuyor. Bir toplumun “kusur” dediği şeyin ve bir ailenin “biz” dediği şeyin hikâyesi.",
 kavramlar: ["Engellilik ve değer", "İyileştirme ve doğallık", "Ebeveyn sevgisi", "Normalin tanımı"],
 ozet: "2041. Embriyolar taranıyor, genler düzeltiliyor, “kusurlu” doğumlar yasakla önleniyor. Sen bir genetik danışmansın ve kardeşin Down sendromlu. Bugün karşına, kendileri gibi işitme engelli bir çocuk isteyen bir çift oturuyor.",
 baslangic: "a1",

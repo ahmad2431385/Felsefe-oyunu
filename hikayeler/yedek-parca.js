@@ -8,6 +8,8 @@ window.HIKAYELER.push({
 id: "yedek-parca",
 baslik: "Yedek Parça",
 dunya: "Hayali dünya",
+kategoriler: ["Kimlik ve Beden", "Aile ve Hafıza"],
+giris: "Kemerli'de bozulan hiçbir şey atılmaz; Süreklilik Kurumu her organı, hatta anıları bile yeniler. Sen elli iki yaşında bir saat tamircisisin ve bedenin parça parça seni bırakmaya başladı. Önce el, sonra kalp, sonra daha derini. Her yenilenmede bir şey kazanıyor, bir şey kaybediyorsun. Kızın, bir hurdacı, Kurum'un teknisyeni ve tamir ettiğin eski bir cep saati eşliğinde bu hikâye tek bir soruyu kovalıyor: her şeyi değişen bir insandan geriye ne kalır?",
 kavramlar: ["Kişisel kimlik", "Bellek ve benlik", "Kopya sorunu", "Ölüm ve süreklilik"],
 ozet: "Kemerli şehrinde bozulan hiçbir şey atılmaz, yenilenir: ciğer, kalp, el, hatta anı. Bir saat tamircisinin bedeni parça parça vazgeçmeye başladığında, geriye ne kalacağı sorusu yalnızca ona ait değil.",
 baslangic: "y1",
