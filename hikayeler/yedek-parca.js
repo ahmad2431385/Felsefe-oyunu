@@ -18,54 +18,54 @@ durum: { koruma: 0, kabul: 0, bag: 0 },
 sahneler: {
 
 y1: { baslik: "Titreme", metin: [
-"Kemerli'de hiçbir şey kaybolmaz. Şehrin her kapısında, her otobüs durağında aynı yazı: “Hiçbir şey kaybolmaz, yalnızca yenilenir.” Süreklilik Kurumu'nun sözü bu. Bozulan ciğer yenilenir, yorulan kalp yenilenir, kör olan göz yenilenir. Kemerli'de kimse hastalıktan ölmez. Yalnızca, bir gün, yeterince değişmiş olur.",
-"Sen Bakırcılar Çarşısı'nın en dip dükkânında saat tamircisisin. Adın Yusuf, elli iki yaşındasın. Babandan kalan tezgâh, babandan kalan büyüteç, babandan kalan sabır.",
-"Bu sabah bir cep saatinin spiral yayını yerine oturtmaya çalışıyorsun ve elin titriyor. Saç teli inceliğinde bir yay, üç kez kayıyor. Dördüncüde bırakıyorsun. Ellerine bakıyorsun; elli yıldır seninle olan, her çizgisini bildiğin eller.",
-"Saat, Ece adında on iki yaşında bir kızın. Dedesinden kalmış. Dün getirdi, tezgâha bıraktı ve “Dedem bu saatin hiç durmadığını söylerdi,” dedi. “Ben onu durdurdum. Düşürdüm.”",
-"Tezgâhın kenarında bir zarf duruyor. Kurum'un mührü. İçindeki kâğıt kısa: “İlerleyici doku kaybı. Değişim süreciniz başlamıştır. Önce sağ el. Sonraki aşamalar size bildirilecektir.” Sonraki aşamalar. Kemerli'de herkes bu kelimenin sonunun nereye vardığını bilir: en son baş.",
-"Evde on yedi yaşındaki kızın Mira bekliyor. Annesi Selma altı yıl önce öldü; Kurum'un yenileyemediği türden, ani bir şeyle. Kemerli'de bile bazı şeyler yenilenmeye fırsat bırakmıyor."
+"Kemerli'de otobüs duraklarında, hastane kapılarında, hatta simit arabalarının yan camında aynı çıkartma var: “Hiçbir şey kaybolmaz, yalnızca yenilenir.” Süreklilik Kurumu'nun sözü. Ciğer bozulursa yenisi, kalp yorulursa yenisi, göz kararırsa yenisi. Bu şehirde kimse hastalıktan ölmüyor. Komşun Remzi Efendi'nin dediği gibi: “Burada adam ölmez, eskir.”",
+"Bakırcılar Çarşısı'nın en dip dükkânı senin. Adın Yusuf, elli iki yaşındasın, saat tamircisisin. Tezgâh babandan, büyüteç babandan, tezgâhın altındaki çatlak çay bardağı da babandan. Kimse atmaya kıyamadı.",
+"Bu sabah bir cep saatinin spiral yayını yerine oturtmaya çalışıyorsun ve elin titriyor. Saç teli inceliğinde yay cımbızın ucundan üç kez kayıyor. Dördüncüde cımbızı bırakıp elini dizine koyuyorsun, bekliyorsun. Titreme dizinde de devam ediyor.",
+"Saat, Ece adında on iki yaşında bir kızın. Dedesinden kalmış. Dün okul çantasıyla geldi, saati tezgâha bıraktı. “Dedem bu saat hiç durmadı derdi,” dedi. “Ben durdurdum. Teneffüste düşürdüm.” Sonra “Kaç para?” diye sordu ve cevabı beklemeden cebindeki bozuklukları saymaya başladı.",
+"Tezgâhın kenarında Kurum'un mühürlü zarfı duruyor. Üç satır: “İlerleyici doku kaybı. Değişim süreciniz başlamıştır. Önce sağ el. Sonraki aşamalar size bildirilecektir.” Kemerli'de “sonraki aşamalar”ın nerede bittiğini herkes bilir: en son kafada.",
+"Evde on yedi yaşındaki kızın Mira var. Annesi Selma altı yıl önce öldü. Bir salı akşamı mutfakta, Kurum'un yetişemeyeceği kadar çabuk. Mira o akşamdan beri salıları makarna yapmıyor."
 ], secenekler: [
-{ t: "Yarın sabah Kurum'a gidersin. Bir şeyi ertelemek, onu iyileştirmez.", to: "y2", etki: { kabul: 1 } },
-{ t: "Zarfı çekmeceye kaldırırsın. Mira'nın sınavları var; şimdi söylemeyeceksin.", to: "yp_mira", etki: { koruma: 1, sakladi: true } },
-{ t: "Akşam yemeğinde Mira'ya her şeyi anlatırsın.", to: "y2", etki: { bag: 1, mira_bilir: true } },
+{ t: "Yarın sabah Kurum'a gidersin. Beklemekle el düzelmeyecek.", to: "y2", etki: { kabul: 1 } },
+{ t: "Zarfı çekmeceye kaldırırsın. Mira'nın sınavları var. Şimdi söylemeyeceksin.", to: "yp_mira", etki: { koruma: 1, sakladi: true } },
+{ t: "Akşam yemeğinde Mira'ya anlatırsın.", to: "y2", etki: { bag: 1, mira_bilir: true } },
 { t: "Bütün gece o saatle uğraşırsın, titreyen elinle, bitirene kadar.", to: "yp_ece", etki: { koruma: 1, ece_saati: true } }
 ]},
 
 y2: { baslik: "Süreklilik Kurumu", metin: [
-P(S("yp_miraA"), "Anlattın. Her şeyi. Mira dinledi, bir kez bile sözünü kesmedi. Sonunda “Tamam,” dedi. “Şimdi ikimizin.” Sabah seni Kurum'un kapısına kadar o götürdü."),
-P(S("yp_miraB"), "“Bu kadarını bana bırak,” dedin. Mira bir süre baktı, sonra kalktı. “Tamam baba,” dedi. Ama kapıda döndü: “Annem de böyle derdi.” Ertesi sabah kahvaltıda konuşmadınız."),
-P(S("yp_miraC"), "Söz verdiniz. İkiniz de. Mutfak masasında, gece yarısı, el sıkışarak; bir anlaşma gibi, bir dua gibi. Bu sözün ne kadar ağır olacağını henüz ikiniz de bilmiyordunuz."),
-P(S("yp_miraD"), "Zarfı çekmeceye geri koydun. Mira bir şey demedi. Odasına gitti. Sabah, çekmecede zarfın yanında küçük bir not buldun: “Ben buradayım. Hazır olunca.”"),
-P(S("yp_eceA"), "“Bir el, yalnızca bir eldir,” dedin. Ece başını eğdi. “Dedem de öyle derdi,” dedi. “Ama sonra ellerini hiç değiştirmedi.” Okula koştu."),
-P(S("yp_eceB"), "“Belki ben de eski usulüm,” dedin. Ece gülümsedi; tanıdık bir şey bulmuş gibi. “Dedem sizi severdi,” dedi. “Hiç tanışmadınız ama severdi.”"),
-P(S("yp_eceC"), "Ece dedesini anlattı. Balıkçıymış. Saati denizde bir kez düşürmüş, bir gün sonra ağın içinden çıkarmış. “Hâlâ benimle,” demiş. Okul zili çalana kadar anlattı."),
-P(S("yp_eceD"), "İkiniz de ellerine baktınız. Titriyordu. Ece elini uzatıp senin elinin üstüne koydu; küçük, sıcak. Titreme durmadı. Ama bir şey değişti."),
-P(S("y1A"), "Gece uyumadın. Sabah ilk otobüse bindin. Camdan, birer birer yenilenmiş insanların yüzlerine baktın; hangisinin hangi parçası yeni, anlaşılmıyor. Kemerli'de bunu sormak ayıptır."),
-P(S("y1B"), "Zarf çekmecede. Mira kahvaltıda sana bir şey sordu, cevap verirken kahve fincanını sol elinle tuttun. Fark etmedi. Ya da fark etti ve o da sana bir şey söylemedi; bu evde susmak bir aile mirası."),
-P(S("y1C"), "Mira dinledi ve sonra, hiç beklemediğin bir şey yaptı: elini tuttu, sağ elini, titreyeni. “Bu el beni bisiklete binmeyi öğretti,” dedi. “Yenisi öğretemez ki. Ben zaten biliyorum artık.” Gülmeye çalıştı."),
-P(S("y1D"), "Sabaha karşı dörtte yay yerine oturdu. Saat çalışmaya başladı; tik, tak, Ece'nin dedesinin ritmiyle. Elin bunu son kez yapabildi, belki. Bunu bilerek yapmak, işi bir vedaya çevirdi."),
-"Kurum'un binası beyaz, penceresiz değil ama pencereleri hiçbir şeye bakmıyor. İçerisi ılık, hafif bir çiçek kokusu. Bekleme salonunda insanlar sessiz.",
-"Yanında yaşlı bir kadın oturuyor. Hayriye Hanım. Kendisi söylüyor, sormadan: “Yüzde seksen,” diyor ve gülümsüyor. “Ciğerler, kalp, böbrekler, iki göz, bir kulak, hafızanın bir kısmı. Düğün günümü hatırlamıyorum ama tarihini biliyorum. On iki haziran. Güzel bir gün olmalı.”",
-"Teknisyen Lale seni içeri çağırıyor. Genç, sakin, gözleri biraz fazla parlak. “Sağ el,” diyor. “Basit bir işlem. Yeni el, eskisinin bütün becerilerini öğrenir; sinir haritanızı çıkarıyoruz. Bir haftada fark etmezsiniz bile. Eski eliniz yasal hakkınızdır, size mühürlü bir kutuda teslim edilir.”",
-"Bir kutu. Elli iki yılın içinde bir kutu."
+P(S("yp_miraA"), "Anlattın. Bu kez hiçbir şeyi eksiltmeden. Mira bir kez bile sözünü kesmedi. Bitince “Tamam,” dedi, “şimdi ikimizin.” Sabah seni Kurum'un kapısına kadar o götürdü. Otobüste kulaklığının bir tekini sana verdi, ne dinlediğini anlamadın."),
+P(S("yp_miraB"), "“Bu kadarını bana bırak,” dedin. Mira bir süre baktı, sonra kalktı. “Tamam baba.” Kapıda döndü: “Annem de böyle derdi.” Ertesi sabah kahvaltıda ikiniz de radyoyu dinliyormuş gibi yaptınız."),
+P(S("yp_miraC"), "Gece yarısı mutfak masasında söz verdiniz; Mira elini uzattı, el sıkıştınız, bir esnaf pazarlığı gibi. Sonra Mira güldü. “Çok ciddi olduk,” dedi. “Çay koyayım mı?”"),
+P(S("yp_miraD"), "Zarfı çekmeceye geri koydun. Mira bir şey demeden odasına gitti. Sabah çekmecede zarfın yanında bir post-it buldun: “Ben buradayım. Hazır olunca.” Altında bir surat çizmiş, ağzı düz."),
+P(S("yp_eceA"), "“Bir el yalnızca bir el,” dedin. Ece kaşlarını çattı. “Dedem de öyle derdi,” dedi, “ama ellerini hiç değiştirmedi.” Saati cebine koyup okula koştu. Montunun fermuarı açık kaldı."),
+P(S("yp_eceB"), "“Belki ben de eski usulüm,” dedin. Ece sırıttı. Tanıdık bir şey bulmuş gibi. “Dedem sizi severdi,” dedi. “Hiç tanışmadınız ama severdi. Huysuz adamları severdi.”"),
+P(S("yp_eceC"), "Ece dedesini anlattı. Balıkçıymış. Saati bir kere denize düşürmüş, ertesi gün ağdan çıkarmış. Bir istavritle beraber. “Hâlâ benimle,” demiş. Ece bu kısmı anlatırken gülmekten bitti. Zil çalana kadar anlattı."),
+P(S("yp_eceD"), "İkiniz de senin ellerine baktınız. Titriyordu. Ece kendi elini uzatıp senin elinin üstüne koydu. Küçük, mürekkep lekeli. Titreme durmadı. Ece elini çekmedi."),
+P(S("y1A"), "Gece uyumadın. Sabah ilk otobüse bindin. Karşındaki adamın yeni gözleri o kadar maviydi ki bakmamak için cama döndün. Kemerli'de kimin neyinin yeni olduğunu sormak ayıptır. Bakmak da."),
+P(S("y1B"), "Zarf çekmecede. Kahvaltıda Mira bir şey sordu. Cevap verirken çay bardağını sol elinle tuttun ve bardak bir an sallandı. Mira fark etmedi. Ya da etti ve bir şey demedi. Bu evde susmak babadan kalma."),
+P(S("y1C"), "Mira dinledi, sonra beklemediğin bir şey yaptı: sağ elini tuttu, titreyeni. “Beni bisiklete bu el bindirdi,” dedi. “Yenisi bindiremez. Ama ben artık biliyorum zaten.” Gülmeye çalıştı, burnu kızardı."),
+P(S("y1D"), "Sabaha karşı dörtte yay yerine oturdu. Saat çalıştı. Cımbızı tezgâha bıraktın ve elinin kendiliğinden yumruk olduğunu fark ettin. Açmak için bir süre uğraştın."),
+"Kurum'un binası bembeyaz. Pencereleri var ama hiçbiri bir şeye bakmıyor. İçerisi ılık, havada hafif bir yasemin kokusu. Sonradan öğreneceksin, havalandırmadan veriliyormuş.",
+"Yanındaki sandalyede yaşlı bir kadın. Hayriye Hanım. Sen sormadan söylüyor: “Yüzde seksen.” Parmaklarıyla sayıyor: “Ciğerler, kalp, böbrekler, iki göz, bir kulak, hafızanın bir kısmı. Düğün günümü hatırlamıyorum ama tarihini biliyorum. On iki haziran. Güzel bir gün olmalı, fotoğraflarda gülüyorum.” Çantasından bir naneli şeker çıkarıp sana uzatıyor.",
+"Teknisyen Lale seni içeri çağırıyor. Genç, sakin, tırnakları kısa kesilmiş. “Sağ el,” diyor. “Basit bir işlem. Yeni el eskisinin bütün becerilerini öğrenir. Sinir haritanızı çıkarıyoruz. Bir haftada fark etmezsiniz. Eski eliniz yasal hakkınızdır, mühürlü kutuda size teslim edilir.”",
+"Kutunun boyutunu elleriyle gösteriyor. Ayakkabı kutusu kadar."
 ], secenekler: [
-{ t: "Kabul edersin. Bir el, yalnızca bir eldir.", to: "y3", etki: { kabul: 1, el: "yeni" } },
+{ t: "Kabul edersin. Bir el, sonuçta bir el.", to: "y3", etki: { kabul: 1, el: "yeni" } },
 { t: "Reddedersin. Eski elinle gidebildiğin yere kadar gideceksin.", to: "y3", etki: { koruma: 1, el: "eski" } },
-{ t: "Kabul etmeden önce Hayriye Hanım'a dönüp sorarsın: “Neyi kaybettiğinizi nasıl biliyorsunuz?”", to: "y3", etki: { bag: 1, el: "yeni", hayriye: true } },
-{ t: "Mira'yı arar, kararı ona sorarsın.", to: "y3", etki: { bag: 1, el: "yeni", mira_karar: true } }
+{ t: "Önce Hayriye Hanım'a dönüp sorarsın: “Neyi kaybettiğinizi nereden biliyorsunuz?”", to: "y3", etki: { bag: 1, el: "yeni", hayriye: true } },
+{ t: "Mira'yı arayıp kararı ona sorarsın.", to: "y3", etki: { bag: 1, el: "yeni", mira_karar: true } }
 ]},
 
 y3: { baslik: "Kutu", metin: [
-P(S("y2C"), "Hayriye Hanım bir süre düşündü. “Bilmiyorum,” dedi. “Ama bir şeyi kaybettiğimde içimde bir yer serinliyor. Kapısı açık kalmış bir oda gibi. Odada ne olduğunu hatırlamıyorum, ama kapının açık olduğunu biliyorum.” Sonra senin eline baktı. “El kolay. El oda değil.”"),
-P(S("y2D"), "Mira telefonda uzun süre sustu. Sonra “Değiştir baba,” dedi. “Seni kaybetmek istemiyorum. Elini kaybetmek seni kaybetmek değil, değil mi?” Bu bir soru muydu? Cevap vermedin; o da beklemedi."),
-P(function(d){ return d.el === "yeni"; }, "Bir hafta geçti. Lale haklıydı: fark etmiyorsun bile. Yeni el, eskisinden daha sabit, daha hızlı. Ece'nin saatinin yayını üç saniyede taktın. Büyütecin altında dişliler, hiç olmadığı kadar net."),
-P(function(d){ return d.el === "yeni"; }, "Ama bir akşam Mira yanından geçerken elini tuttu, bir alışkanlıkla; ve hemen bıraktı. Bir saniye. Belki daha az. Hiçbir şey söylemedi. Sen de söylemedin. Elin ılıktı, yumuşaktı, seninkine benziyordu. Yalnızca benziyordu."),
-P(function(d){ return d.el === "yeni"; }, "Eski elin, Kurum'un mühürlü kutusunda, dolabın üst rafında duruyor. Bazen gece kalkıp kutuya bakıyorsun. Açmıyorsun."),
-P(function(d){ return d.el === "eski"; }, "Bir hafta geçti. Titreme kötüleşti. Artık küçük vidaları tutamıyorsun. Ece'nin saati tezgâhta açık duruyor. Mira okuldan sonra dükkâna geliyor; sen tarif ediyorsun, o yapıyor. Parmakları ince, sabırlı. Annesininki gibi. Bunu ona söylemiyorsun."),
-"Bir öğleden sonra dükkânın kapısında bir adam beliriyor. Uzun, zayıf, eski bir paltonun içinde. Hurdacı Necmi. Çarşının herkes tarafından bilinen ve kimse tarafından tanınmayan adamı.",
-P(function(d){ return d.el === "yeni"; }, "“Eski elin bende daha iyi korunur,” diyor, selam vermeden. “İyi para veririm. Eski parçaları toplarım. Her şeyi. Bir gün hepsini birleştireceğim. Eski parçalardan bir insan. O zaman göreceğiz, hangisi asıl.”"),
-P(function(d){ return d.el === "eski"; }, "“Elini değiştirmemişsin,” diyor, selam vermeden. “Akıllıca. Ya da değil. Ben eski parçaları toplarım. Bir gün değiştirirsen, kutuyu bana getir. Bir gün hepsini birleştireceğim. Eski parçalardan bir insan. O zaman göreceğiz, hangisi asıl.”"),
-"Gülüyor. Dişlerinin yarısı parlak, yarısı sarı."
+P(S("y2C"), "Hayriye Hanım şekeri ağzında bir yanağından öbürüne geçirdi. “Bilmiyorum,” dedi. “Bir şey gidince içimde bir yer serinliyor. Kapısı açık kalmış bir oda gibi. İçinde ne vardı, hatırlamıyorum. Ama cereyan yapıyor.” Sonra eline baktı. “El kolay oğlum. El oda değil.”"),
+P(S("y2D"), "Mira telefonda bir süre sustu. Arkadan okul koridorunun gürültüsü geliyordu. “Değiştir baba,” dedi. “Elini kaybetmek seni kaybetmek değil, değil mi? Değil.” Kendi sorusuna kendi cevap verdi ve zil çaldı."),
+P(function(d){ return d.el === "yeni"; }, "Bir hafta geçti. Lale haklıymış: fark etmiyorsun bile. Yeni el eskisinden sabit, eskisinden hızlı. Ece'nin saatinin yayını üç saniyede taktın. Taktıktan sonra bir süre eline baktın. Aferin demek mi lazım, bilemedin."),
+P(function(d){ return d.el === "yeni"; }, "Bir akşam Mira yanından geçerken alışkanlıkla elini tuttu ve hemen bıraktı. “Pardon,” dedi. Kimden özür dilediği belli değildi. Yeni elin ılık, yumuşak, seninkine benziyor. Mira o akşam bulaşıkları kendisi yıkadı."),
+P(function(d){ return d.el === "yeni"; }, "Eski elin Kurum'un mühürlü kutusunda, dolabın üst rafında. Bazen gece kalkıp kutuya bakıyorsun. Açmıyorsun. Bir keresinde üstündeki tozu yeni elinle sildin, sonra elini pantolonuna sildin."),
+P(function(d){ return d.el === "eski"; }, "Bir hafta geçti. Titreme kötüleşti. Artık küçük vidaları tutamıyorsun. Ece'nin saati tezgâhta açık. Mira okuldan sonra dükkâna gelip senin tarifinle çalışıyor. Parmakları ince, sabırlı. Annesininki gibi. Bunu ona söylemiyorsun. O da bir gün vida düşürdüğünde annesi gibi “Hay aksi” diyor. Sen gülüyorsun, o anlamıyor."),
+"Bir öğleden sonra kapıda bir adam beliriyor. Uzun, sıska, eski bir paltonun içinde, paltonun düğmeleri birbirinden farklı. Hurdacı Necmi. Çarşıda herkes bilir, kimse tanımaz.",
+P(function(d){ return d.el === "yeni"; }, "“Eski elin bende daha iyi durur,” diyor, selam vermeden. “İyi para veririm. Eski parçaları toplarım. Her şeyi. Bir gün hepsini birleştireceğim. Eskilerden bir adam. O zaman görürüz hangisi asıl.”"),
+P(function(d){ return d.el === "eski"; }, "“Değiştirmemişsin,” diyor, selam vermeden, elini işaret ederek. “Akıllıca. Ya da değil. Ben eski parçaları toplarım. Bir gün değiştirirsen kutuyu bana getir. Bir gün hepsini birleştireceğim. Eskilerden bir adam. O zaman görürüz hangisi asıl.”"),
+"Gülüyor. Dişlerinin yarısı bembeyaz, yarısı sarı. Hangileri yeni, belli."
 ], secenekler: [
 { t: function(d){ return d.el === "yeni" ? "Kutuyu Necmi'ye satarsın." : "Necmi'ye, zamanı gelince eski parçalarını ona vereceğine söz verirsin."; }, to: "y3b", etki: { kabul: 1, necmi: true } },
 { t: function(d){ return d.el === "yeni" ? "Kutuyu saklarsın. Atölyenin arka rafında, gözünün önünde." : "Necmi'yi kapıdan çevirirsin. Parçaların kimseye satılık değil."; }, to: "y3b", etki: { koruma: 1, sakla: true } },
@@ -74,222 +74,220 @@ P(function(d){ return d.el === "eski"; }, "“Elini değiştirmemişsin,” diyo
 ]},
 
 y3b: { baslik: "Yüzde Doksan Beş", metin: [
-P(S("y3A"), "Necmi parayı tezgâha sayarak bıraktı. Gitmeden kapıda döndü: “Merak etme,” dedi. “Ben iyi bakarım. Sen kendine bakamıyorsun ama ben senin eskine bakarım.”"),
-P(S("y3B"), "Necmi omuz silkti. “Herkes önce böyle der,” dedi. “Sonra parçaların bir kutuya, kutu bir dolaba, dolap bir depoya gider. Bir gün biri dolabı açar ve ne olduğunu bilmez. Ben bilirim. Düşün.”"),
-P(S("y3C"), "Necmi bir süre sustu. Sonra şapkasını çıkardı. “Toprak da bir koleksiyoncu,” dedi. “Benden daha sabırlı.” Gitti."),
-P(S("y3D"), "Mira kutuyu ya da kararı aldı, uzun süre baktı. Sonra kendi odasına götürdü. Ne yaptığını sormadın. Bir babanın bir parçası, kızının odasında; bu bir miras mı, bir yük mü, ikisi de mi?"),
-"Bir ay sonra kontrol için yine Kurum'dasın. Bekleme salonunda Hayriye Hanım. Ya da Hayriye Hanım'ın oturduğu sandalyede oturan biri.",
-"Yanında kırklarında bir adam var: oğlu. Oğlu ona bir fotoğraf gösteriyor. Hayriye Hanım fotoğrafa bakıyor, nazikçe gülümsüyor. “Ne güzel bir çocuk,” diyor. “Kimin?”",
-"Oğlu fotoğrafı cebine koyuyor. Sana dönüyor, çünkü odada başka kimse yok. “Yüzde doksan beş,” diyor, sesini alçaltmadan. “Annem mutlu. Her sabah uyanıyor, kahvaltı ediyor, bahçede oturuyor, gülümsüyor. Hiçbir şeyden şikâyeti yok. Doktorlar kişiliğinin korunduğunu söylüyor. Aynı kahkaha, aynı bakış.”",
-"Bir süre susuyor. “Ama beni tanımıyor. Ve her sabah ona kim olduğumu söylediğimde, nazikçe inanıyor. Sizce o hâlâ annem mi? Yoksa annemin kahkahasını taşıyan iyi bir yabancı mı?”",
-"Hayriye Hanım ikinize de gülümsüyor. Güzel, sıcak, tanıdık bir gülümseme. Kime ait olduğunu bilmediğin bir gülümseme."
+P(S("y3A"), "Necmi parayı tezgâha tek tek sayarak bıraktı. Bozuklukları en sona sakladı. Kapıda döndü: “Merak etme. Sen kendine bakamıyorsun ama ben senin eskine iyi bakarım.”"),
+P(S("y3B"), "Necmi omuz silkti. “Herkes önce böyle der,” dedi. “Sonra kutu dolaba, dolap depoya gider. Bir gün biri açar, ne olduğunu bilmez, çöpe atar. Ben bilirim. Düşün.” Giderken kapının çıngırağına elini koyup susturdu."),
+P(S("y3C"), "Necmi bir süre sustu. Sonra şapkasını çıkardı, içini kokladı, yine taktı. “Toprak da koleksiyoncu,” dedi. “Benden sabırlı ama.” Gitti."),
+P(S("y3D"), "Mira kutuyu, ya da kararı, aldı ve uzun süre baktı. Sonra odasına götürdü. Ne yaptığını sormadın. Bir hafta sonra odasının kapısına bir kâğıt yapıştırılmıştı: “Girmeden önce kapıyı çal. Ciddiyim.”"),
+"Bir ay sonra kontrol için yine Kurum'dasın. Bekleme salonunda Hayriye Hanım. Aynı sandalye, aynı naneli şeker.",
+"Yanında kırklarında bir adam: oğlu. Oğlu ona telefonundan bir fotoğraf gösteriyor. Hayriye Hanım fotoğrafa bakıp nazikçe gülümsüyor. “Ne tatlı çocuk,” diyor. “Kimin?”",
+"Oğlu telefonu cebine koyuyor ve sana dönüyor. Odada başka kimse yok. “Yüzde doksan beş,” diyor. “Annem mutlu. Her sabah uyanıyor, kahvaltı ediyor, bahçede oturuyor. Hiçbir şeyden şikâyeti yok. Doktorlar kişiliği korunmuş diyor. Aynı kahkaha.”",
+"Bir süre bekliyor. “Ama beni tanımıyor. Her sabah ona kim olduğumu söylüyorum, nazikçe inanıyor. ‘Ay ne güzel,’ diyor, ‘oğlum varmış.’ Sizce bu hâlâ annem mi? Yoksa annemin kahkahasını taşıyan iyi bir yabancı mı?”",
+"Hayriye Hanım ikinize de birer şeker uzatıyor."
 ], secenekler: [
-{ t: "“Hâlâ anneniz,” dersin. “Bir insan hatırladıklarından ibaret değil.”", to: "y4", etki: { kabul: 1, cevap_hayriye: "anne" } },
-{ t: "“Bilmiyorum,” dersin. “Ama siz onu hatırladığınız sürece bir şey devam ediyor.”", to: "y4", etki: { bag: 1, cevap_hayriye: "siz" } },
-{ t: "Cevap vermezsin. Bu soruyu bir gün kendi kızının sana soracağını düşünüyorsun.", to: "y4", etki: { koruma: 1, cevap_hayriye: "sessiz" } },
+{ t: "“Hâlâ anneniz,” dersin. “İnsan hatırladıklarından ibaret değil.”", to: "y4", etki: { kabul: 1, cevap_hayriye: "anne" } },
+{ t: "“Bilmiyorum,” dersin. “Ama siz hatırladıkça bir şey devam ediyor.”", to: "y4", etki: { bag: 1, cevap_hayriye: "siz" } },
+{ t: "Cevap vermezsin. Bir gün Mira'nın sana aynı soruyu soracağını düşünüyorsun.", to: "y4", etki: { koruma: 1, cevap_hayriye: "sessiz" } },
 { t: "Hayriye Hanım'a dönüp sorarsın: “Mutlu musunuz?”", to: "y4", etki: { cevap_hayriye: "sordu" } }
 ]},
 
 y4: { baslik: "Kalp", metin: [
-P(S("y3bA"), "Adam sana uzun süre baktı. “Herkes böyle söylüyor,” dedi. “Benden başka herkes.” Kalktı, annesinin paltosunu düzeltti ve onu kolundan tuttu. Hayriye Hanım ona teşekkür etti; bir yabancıya eder gibi, çok nazikçe."),
-P(S("y3bB"), "Adam başını salladı. “Ben hatırlıyorum,” dedi. “Ama ben de bir gün buraya geleceğim. O zaman ne olacak? Kim hatırlayacak?” Cevabın yoktu."),
-P(S("y3bC"), "Sustun. Adam da sustu. Aranızdaki sessizliği Hayriye Hanım doldurdu; havadan, çiçeklerden, yarın yağmur yağıp yağmayacağından bahsetti. Kimse dinlemiyordu. Kimsenin dinlemesine gerek yoktu."),
-P(S("y3bD"), "Hayriye Hanım sana baktı, düşündü. “Mutlu musun diye soran ilk kişisiniz,” dedi. “Herkes kim olduğumu soruyor.” Sonra gülümsedi. “Evet. Bilmiyorum ama evet.” Oğlu pencereden dışarı bakıyordu."),
-"Üç ay sonra bir sabah merdivenleri çıkarken göğsünde bir sıkışma. Durup nefes alıyorsun. Bir sonraki basamakta bir daha. Kurum'un mektubu iki gün sonra geliyor: “İkinci aşama: kalp.”",
-"Lale yine karşında. Bu kez yanında bir kâğıt daha var. “Kalp değişimi rutin,” diyor. “Ama bu aşamada bir şey daha öneriyoruz: tam yedekleme. Hafızanızın, kişiliğinizin, alışkanlıklarınızın bütün haritası. Bir sonraki aşama sinirsel olacak ve sinirsel aşamada kayıp riski var. Yedek, bir şeyler ters giderse onarım için kullanılır.”",
-"“Yalnızca onarım için mi?” diye soruyorsun.",
-"Lale bir an duraksıyor. Gözleri bir an kâğıda iniyor. “Yalnızca onarım için,” diyor. “Yönetmelik böyle.”",
-P(function(d){ return d.el === "eski"; }, "Elin masanın üstünde titriyor. Lale ona bakıyor, sonra sana. “Eli hâlâ değiştirmediniz,” diyor. “Kalpte bu kadar sabırlı olamazsınız. Kalp beklemiyor.”")
+P(S("y3bA"), "Adam sana uzun uzun baktı. “Herkes böyle diyor,” dedi. “Benden başka herkes.” Kalkıp annesinin paltosunu omuzlarına geçirdi. Hayriye Hanım ona teşekkür etti. Bir taksi şoförüne eder gibi, çok kibar."),
+P(S("y3bB"), "“Ben hatırlıyorum,” dedi adam. “Ama ben de bir gün bu sandalyeye oturacağım. O zaman kim hatırlayacak?” Bir şey diyemedin. Şekerin kâğıdını açıp kapattın."),
+P(S("y3bC"), "Sustun. Adam da sustu. Aranızdaki boşluğu Hayriye Hanım doldurdu: hava, çiçekler, yarın yağmur yağar mı. Kimse dinlemiyordu. O da bunu umursamıyordu."),
+P(S("y3bD"), "Hayriye Hanım şaşırdı, düşündü. “Mutlu musun diye soran olmadı,” dedi. “Hep kim olduğumu soruyorlar.” Sonra güldü. “Evet. Neye bilmiyorum ama evet.” Oğlu pencereden otoparka bakıyordu."),
+"Üç ay sonra bir sabah merdiven çıkarken göğsün sıkışıyor. Durup tırabzana tutunuyorsun. Bir sonraki basamakta bir daha. Kurum'un mektubu iki gün sonra geliyor: “İkinci aşama: kalp.”",
+"Lale yine karşında. Bu kez önünde iki kâğıt var. “Kalp değişimi rutin,” diyor. “Ama bu aşamada bir şey daha öneriyoruz: tam yedekleme. Hafızanızın, kişiliğinizin, alışkanlıklarınızın haritası. Sonraki aşama sinirsel olacak, orada kayıp riski var. Yedek, ters giden bir şey olursa onarım için.”",
+"“Yalnızca onarım için mi?”",
+"Lale'nin gözü bir an kâğıda iniyor. “Yalnızca onarım için,” diyor. “Yönetmelik böyle.” Kalemin kapağını takıp çıkarıyor.",
+P(function(d){ return d.el === "eski"; }, "Elin masada titriyor. Kâğıdın köşesi elinin altında hışırdıyor. Lale bakıyor. “Eli hâlâ değiştirmediniz,” diyor. “Kalpte bu kadar inat edemezsiniz. Kalp beklemez.”")
 ], secenekler: [
-{ t: "İkisini de kabul edersin: yeni kalp ve tam yedek.", to: "y4b", etki: { kabul: 1, kalp: "yeni", yedek: true } },
-{ t: "Kalbi kabul edersin, yedeği reddedersin. Kendinin bir kopyası olsun istemiyorsun.", to: "y4b", etki: { kalp: "yeni" } },
+{ t: "İkisini de kabul edersin: yeni kalp, tam yedek.", to: "y4b", etki: { kabul: 1, kalp: "yeni", yedek: true } },
+{ t: "Kalbi kabul edersin, yedeği reddedersin. Bir kopyan olsun istemiyorsun.", to: "y4b", etki: { kalp: "yeni" } },
 { t: "Kalbi de reddedersin. Kendi kalbin ne kadar atarsa o kadar.", to: "y4b", etki: { koruma: 1, kalp: "eski" } },
 { t: "Kararı Mira'ya bırakırsın.", to: "y4b", etki: { bag: 1, kalp: "yeni", yedek: true, mira_karar2: true } }
 ]},
 
 y4b: { baslik: "Mira", metin: [
-P(S("y4A"), "İki imza attın. Yeni kalp göğsünde, ilk gece sessizce atıyor; eskisinden daha düzenli, daha az telaşlı. Ve bir yerde, Kurum'un bir sunucusunda, sen varsın. Tamamen. Uyuyan bir sen."),
-P(S("y4B"), "Yedeğin kâğıdını imzalamadın. Lale başını salladı, bir şey not etti. Yeni kalbin göğsünde atarken, hiçbir yerde ikinci bir sen olmadığını bilmek içini rahatlattı. Ya da tersine: geri dönüşü olmayan bir yola girdiğini."),
-P(S("y4C"), "Kalbi de reddettin. Lale itiraz etmedi; Kurum kimseyi zorlamaz, yalnızca bekler. Merdivenler artık her gün daha uzun. Ama göğsündeki ses, eskisi gibi düzensiz, eskisi gibi senin."),
-P(S("y4D"), "Mira bir gece boyunca kâğıtları okudu. Sabah ikisini de imzalamanı istedi. “Yedek de,” dedi. “Ne olur ne olmaz. Seni kaybedersem bir yerde olmalısın.” Onu kırmadın. Bir yerde olmak ile burada olmak arasındaki farkı ona anlatamadın."),
-"Bir gece Mira mutfakta, ders kitaplarının arasında. Sınavlarına üç ay var. Kalemini bırakıp sana bakıyor.",
-"“Baba,” diyor. “Sinirsel aşamaya gelince ne olacak? Lale Hanım bir şeylerin kaybolabileceğini söyledi. Ya annemi unutursan?”",
-"Sesi sakin ama elleri değil.",
-"“Ben annemi pek hatırlamıyorum,” diyor. “On bir yaşındaydım. Yüzünü fotoğraflardan biliyorum. Sesini artık bilmiyorum. Onu en iyi sen hatırlıyorsun. Sen de unutursan, o tamamen gider.”",
-"Bir süre susuyor. “Annemle nasıl tanıştınız? Hiç düzgün anlatmadın.”",
-"Selma bir gün dükkâna bozuk bir kol saatiyle gelmişti. Saat bozuk değildi, yalnızca kurulmamıştı. Bunu ona söylediğinde kızardı. Ertesi hafta yine geldi; aynı saat, yine kurulmamış. Üçüncü hafta sen sordun: “Bu saati bilerek mi kurmuyorsunuz?” “Evet,” dedi. Bu kadar."
+P(S("y4A"), "İki imza attın. Yeni kalp ilk gece göğsünde sessizce atıyor. Eskisinden düzenli, telaşsız. Uyuyamayıp kalktın, bir bardak su içtin. Bir yerde, Kurum'un bir sunucusunda, sen de uyuyorsun. Ondan haberin yok."),
+P(S("y4B"), "Yedeğin kâğıdını imzalamadın. Lale bir şey not etti, başka bir şey sormadı. Eve dönerken otobüste kalbini dinledin. Yeni kalp, eski şehrin çukurlarında bir tık fazla atıyor."),
+P(S("y4C"), "Kalbi de reddettin. Lale itiraz etmedi; Kurum kimseyi zorlamaz, bekler. Merdivenler artık her gün biraz daha uzun. Mira sana merdiven başına bir tabure koydu, üstüne bir minder."),
+P(S("y4D"), "Mira bir gece boyunca kâğıtları okudu, sabah ikisini de imzalamanı istedi. “Yedek de,” dedi. “Ne olur ne olmaz. Seni kaybedersem bir yerde olmalısın.” İmzaladın. Bir yerde olmakla burada olmak arasındaki farkı ona anlatmaya çalışmadın. Sen de tam bilmiyordun."),
+"Bir gece Mira mutfakta, ders kitaplarının arasında. Sınavına üç ay var. Kalemini bırakıp sana bakıyor.",
+"“Baba. Sinirsel aşamada ne olacak? Lale Hanım bir şeyler gidebilir dedi. Ya annemi unutursan?”",
+"Kalemi alıp kapağını ısırıyor. Küçükken de böyle yapardı, Selma kızardı.",
+"“Ben annemi pek hatırlamıyorum,” diyor. “On bir yaşındaydım. Yüzünü fotoğraftan biliyorum. Sesini artık bilmiyorum. Telefonda bir sesli mesajı vardı, telefonu değiştirince gitti. Onu en iyi sen hatırlıyorsun. Sen de unutursan tamamen gider.”",
+"“Annemle nasıl tanıştınız? Hiç düzgün anlatmadın.”",
+"Selma bir gün dükkâna bozuk dediği bir kol saatiyle gelmişti. Saat bozuk değildi, kurulmamıştı. Söylediğinde kulaklarına kadar kızardı. Ertesi hafta yine geldi. Aynı saat, yine kurulmamış. Üçüncü hafta sen sordun: “Bunu bilerek mi kurmuyorsunuz?” “Evet,” dedi. “Siz de bilerek mi soruyorsunuz?”"
 ], secenekler: [
-{ t: "Mira'ya her şeyi en ince ayrıntısına kadar anlatırsın. Sen unutsan bile o hatırlasın.", to: "yp_mektuplar", etki: { bag: 1, anlatti: true } },
+{ t: "Mira'ya her şeyi en küçük ayrıntısına kadar anlatırsın. Sen unutsan o hatırlasın.", to: "yp_mektuplar", etki: { bag: 1, anlatti: true } },
 { t: "“Unutmayacağım,” dersin. Bilmeden.", to: "y5", etki: { koruma: 1, soz: true } },
-{ t: "“Unutursam, unuttuğumu da unuturum. Acı çekmem,” dersin.", to: "yp_mira_gece", etki: { kabul: 1 } },
-{ t: "Hiçbir şey söylemezsin. Onu Selma'nın eski kol saatinin yanına götürür, birlikte kurarsınız.", to: "y5", etki: { bag: 1, saat_kurdu: true } }
+{ t: "“Unutursam unuttuğumu da unuturum. Acı çekmem,” dersin.", to: "yp_mira_gece", etki: { kabul: 1 } },
+{ t: "Bir şey demeden onu Selma'nın eski kol saatinin yanına götürürsün. Birlikte kurarsınız.", to: "y5", etki: { bag: 1, saat_kurdu: true } }
 ]},
 
 y5: { baslik: "Bedel", metin: [
-P(S("yp_mektuplarA"), "Mira mektupları okudu. Bir gece, iki gece, bir hafta. Her mektupta bir genç adam, bir genç kadına âşık oluyordu. Sen dinledin; bazılarını hatırladın, bazılarını yeniden öğrendin. Hangisinin hangisi olduğunu bir süre sonra ayırt edemedin."),
-P(S("yp_mektuplarB"), "Mektupları kutuya koydun. Mira bir şey demedi. Ama kutuyu kendi odasına götürdü. Bir hafıza, iki kişi arasında, bir kutunun içinde bölündü."),
-P(S("yp_mektuplarC"), "“Benim hafızam,” dedi Mira, kutuya bakarak. “Ben bunları yaşamadım.” Ama kutuyu bırakmadı. Bazen gece odasından bir mektubun hışırtısı geliyor."),
-P(S("yp_mektuplarD"), "Bütün gece okudun. Sabaha karşı bir an, yalnızca bir an, kurmadığın bir saatin tezgâhta durduğunu gördün; gözlerinin önünde, net. Sonra kayboldu. Bir anı mı, bir hayal mi?"),
-P(S("yp_mira_geceA"), "Saati birlikte topladınız. Sabaha kadar. Senin titreyen ya da yeni ellerin, Mira'nın ince parmakları. Sabah altıda saat çalıştı. İkiniz de bir şey söylemediniz. Sonra Mira başını omzuna koydu ve uyudu."),
-P(S("yp_mira_geceB"), "“Unutmayacağım,” dedin. Bu kez bir söz olarak. Mira sana baktı. “Söz tutulmayacaksa bile,” dedi, “söylenmesi iyi.” Saati kutusuna koydu. Toplamadı."),
-P(S("yp_mira_geceC"), "Mira'ya sarıldın. Saatin dişlileri tezgâhta, dağınık, bekliyordu. Bir sabah bir başkası toplayacak; belki sen, belki o."),
-P(S("yp_mira_geceD"), "Tarif ettin; o yaptı. Dört saat. Her dişliyi tek tek. Sonunda saat çalıştı. Mira gözlerini sildi. “Ben yaptım,” dedi. “Ama senin ellerinle.”"),
-P(S("y4bA"), "Bir saat boyunca anlattın. Kızarık yanakları, saatin markası, o gün yağan yağmur, Selma'nın şemsiyesini dükkânda unutup bir dahaki gelişe bahane yapması. Mira not almadı; dinledi. Anlatırken bir şey fark ettin: bazı ayrıntıları uyduruyordun. Nerede hatırladığın bitip nerede kurduğun başlıyor, bilemedin."),
-P(S("y4bB"), "“Unutmayacağım,” dedin. Mira başını salladı, sana inanmak istedi. İkiniz de bunun bir söz değil, bir dua olduğunu biliyordunuz."),
-P(S("y4bC"), "Mira yüzüne baktı. “Ama ben hatırlarım,” dedi. “Senin unuttuğunu ben hatırlarım. Acıyı ben çekerim.” Bu cümle seni yıllarca takip edecek."),
-P(S("y4bD"), "Selma'nın saati çekmecede, altı yıldır durmuş. Mira kurdu, sen ayarladın. Saat çalışmaya başladı. İkiniz de bir şey söylemediniz; bir süre ikiniz de o sesi dinlediniz. Tik. Tak."),
-"Kış geliyor. Bir sabah aynanın karşısında kendi adını bir an hatırlayamıyorsun. Yalnızca bir an. Sonra geliyor: Yusuf. Ama o bir an, içinde açık kalmış bir kapı gibi.",
-"Kurum'un üçüncü mektubu: “Sinirsel aşama.” Lale bu kez seni farklı bir odaya alıyor. Duvarlar daha koyu.",
-"“Şunu açıkça söylemem gerek,” diyor. “Yeni sinir dokusu her şeyi taşıyabilir, ama aktarım sırasında bir şeyin bırakılması gerekiyor. Kapasite meselesi. Büyük, birbirine bağlı bir anı kümesi. Hangisi olacağını siz seçersiniz. Seçmezseniz sistem seçer.”",
-"“Seçenekler,” diyor ve bir kâğıt uzatıyor. Kâğıtta üç satır var. Selma'ya dair her şey: tanışmanız, evliliğiniz, ölümü. Mira'nın çocukluğu: doğumundan on iki yaşına kadar. Ya da kendi çocukluğun: babanın dükkânı, babanın elleri, babanın ölümü.",
-"“Bir de dördüncü seçenek var,” diyor Lale, daha sessiz. “Sinirsel değişimi reddedebilirsiniz. O zaman hastalık doğal seyrinde ilerler. Anılarınız gider, ama sizin seçmediğiniz bir sırayla. Rastgele. Ve sonunda...” Cümleyi bitirmiyor."
+P(S("yp_mektuplarA"), "Mira mektupları okudu: bir gece, iki gece, bir hafta. Her mektupta genç bir adam genç bir kadına âşık oluyordu, kötü yazılmış cümlelerle. Bazılarını dinlerken hatırladın, bazılarını yeniden öğrendin. Bir süre sonra hangisinin hangisi olduğunu karıştırdın."),
+P(S("yp_mektuplarB"), "Mektupları kutuya koydun. Mira bir şey demedi ama kutuyu kendi odasına götürdü. Gece kapısının altından ışık sızdı. Bir ara bir kahkaha duydun, sonra burnunu çektiğini."),
+P(S("yp_mektuplarC"), "“Benim hafızam olacak bunlar,” dedi Mira, kutuya bakarak. “Ama ben bunları yaşamadım ki.” Kutuyu yine de bırakmadı. Bazen gece odasından kâğıt hışırtısı geliyor."),
+P(S("yp_mektuplarD"), "Bütün gece okudun. Sabaha karşı tezgâhta, kurmadığın bir saati gördün. Gözünün önünde, net. Sonra kayboldu. Anı mıydı, uykusuzluk mu, bilemedin."),
+P(S("yp_mira_geceA"), "Saati birlikte topladınız. Sabaha kadar. Senin ellerin ve Mira'nın ince parmakları. Altıda saat çalıştı. Mira başını omzuna koydu ve hemen uyudu. Ağzı açık, annesi gibi."),
+P(S("yp_mira_geceB"), "“Unutmayacağım,” dedin, bu kez bir söz olarak. Mira sana baktı. “Tutamasan da söylemen iyi,” dedi. Saati kutusuna koydu. Toplamadı."),
+P(S("yp_mira_geceC"), "Mira'ya sarıldın. Dişliler tezgâhta, dağınık, bekledi. Sabah ikiniz de onlara dokunmadan kahvaltı ettiniz."),
+P(S("yp_mira_geceD"), "Tarif ettin, o yaptı. Dört saat. Her dişliyi tek tek. Sonunda saat çalıştı. Mira gözlerini koluyla sildi. “Ben yaptım,” dedi. “Ama senin ellerinle. Yani eskileriyle. Neyse, anladın.”"),
+P(S("y4bA"), "Bir saat anlattın: kızaran kulakları, saatin markası, o gün yağan yağmur, Selma'nın şemsiyesini bilerek dükkânda unutup bir dahaki sefere bahane etmesi. Mira not almadı, dinledi. Anlatırken bazı ayrıntıları uydurduğunu fark ettin. Şemsiye mavi miydi, yeşil mi? Mavi dedin."),
+P(S("y4bB"), "“Unutmayacağım,” dedin. Mira başını sallamak yerine kalemin kapağını ısırmaya devam etti."),
+P(S("y4bC"), "Mira yüzüne baktı. “Ama ben hatırlarım,” dedi. “Senin unuttuğunu ben hatırlarım. Acıyı ben çekerim.” Kalkıp odasına gitti. Kapıyı çarpmadı ama kapattı."),
+P(S("y4bD"), "Selma'nın saati çekmecede, altı yıldır durmuş. Mira kurdu, sen ayarladın. Saat çalışmaya başladı. Mira saati bileğine taktı. Kayışı büyük geldi, bir delik daha açtın."),
+"Kış geliyor. Bir sabah aynanın karşısında kendi adını bulamıyorsun. Bir saniye, iki. Sonra geliyor: Yusuf. Diş fırçası ağzında, köpüğü lavaboya damlıyor.",
+"Kurum'un üçüncü mektubu: “Sinirsel aşama.” Lale bu kez seni başka bir odaya alıyor. Duvarları koyu yeşil, masada bir kutu mendil.",
+"“Açık söylemem lazım,” diyor. “Yeni sinir dokusu neredeyse her şeyi taşıyabilir. Ama aktarımda bir şeyin bırakılması gerekiyor. Kapasite meselesi. Büyük, birbirine bağlı bir anı kümesi. Hangisi olacağını siz seçersiniz. Seçmezseniz sistem seçer.”",
+"Bir kâğıt uzatıyor. Üç satır: Selma'ya dair her şey. Tanışmanız, evliliğiniz, ölümü. Mira'nın çocukluğu. Doğumundan on iki yaşına kadar. Kendi çocukluğun. Babanın dükkânı, babanın elleri, babanın ölümü.",
+"“Dördüncü bir seçenek de var,” diyor Lale, daha alçak sesle. “Sinirsel değişimi reddedebilirsiniz. O zaman hastalık kendi seyrinde ilerler. Anılarınız gider, ama sizin seçmediğiniz bir sırayla. Rastgele. Ve sonunda...” Mendil kutusunu biraz sana doğru itiyor."
 ], secenekler: [
 { t: "Selma'yı bırakırsın.", to: "dg1", etki: { kayip: "selma", kabul: 1 } },
 { t: "Mira'nın çocukluğunu bırakırsın.", to: "dg1", etki: { kayip: "mira", kabul: 1 } },
 { t: "Kendi çocukluğunu bırakırsın: babanı, dükkânı, her şeyin başladığı yeri.", to: "dg1", etki: { kayip: "cocukluk", kabul: 1 } },
-{ t: "Reddedersin. Ne gidecekse kendi sırasıyla gitsin. Sen sen olarak öleceksin.", to: "r1", etki: { koruma: 2, ret: true } }
+{ t: "Reddedersin. Ne gidecekse kendi sırasıyla gitsin.", to: "r1", etki: { koruma: 2, ret: true } }
 ]},
 
 
 yp_mira: { baslik: "Çekmece", metin: [
-"Zarfı çekmeceye koydun ve çekmeceyi kapattın. Akşam yemeğinde Mira okuldan, sınavlardan, bir arkadaşının saçını mor boyatmasından bahsetti. Sen dinledin, güldün, sol elinle ekmek kopardın.",
-"Gece yarısı mutfakta bir ışık. Mira masada oturuyor. Önünde açık bir zarf. Kurum'un mührü.",
-"“Makas arıyordum,” diyor. Sesi sakin; bu sakinlik onun değil, annesinin. “Çekmecede makas yoktu. Bu vardı.”",
-"Karşısına oturuyorsun. Bir süre ikiniz de konuşmuyorsunuz. Buzdolabının motoru çalışıyor, duruyor.",
-"“Ne zaman söyleyecektin?” diyor. Sonra, sen cevap veremeden: “Annem hastalandığında da bana söylememiştiniz. On bir yaşındaydım. Bir sabah hastaneye gittiniz ve bir akşam yalnız döndün. Ben üç gün boyunca annemin yalnızca yorgun olduğunu sandım.”",
-"Gözlerinde öfke yok. Ondan daha kötüsü var: bir şeyin ikinci kez tekrarlandığını gören birinin yorgunluğu.",
-"“Beni korumaya çalıştığını biliyorum,” diyor. “Ama korunmak istemiyorum. Bilmek istiyorum. Bir şeyi bilmemek, onu yaşamamak demek değil baba. Sadece yalnız yaşamak demek.”"
+"Zarfı çekmeceye koyup kapattın. Akşam yemeğinde Mira okuldan, sınavlardan, sınıftan birinin saçını mora boyatıp müdüre yakalanmasından bahsetti. Sen dinledin, güldün, ekmeği sol elinle kopardın.",
+"Gece yarısı mutfakta ışık yanıyor. Mira masada. Önünde açılmış bir zarf; Kurum'un mührü.",
+"“Makas arıyordum,” diyor. “Çekmecede makas yoktu. Bu vardı.”",
+"Karşısına oturuyorsun. Buzdolabının motoru çalışıyor, duruyor, yine çalışıyor.",
+"“Ne zaman söyleyecektin?” Sen cevap veremeden devam ediyor: “Annem hastalandığında da söylememiştiniz. On bir yaşındaydım. Bir sabah hastaneye gittiniz, bir akşam tek başına döndün. Ben üç gün annem yorgun sandım. Üç gün baba. Okula gittim.”",
+"Bağırmıyor. Zarfı tırnağıyla katlayıp açıyor, katlayıp açıyor.",
+"“Korumaya çalıştığını biliyorum,” diyor. “İstemiyorum ama. Bilmeyince yaşamamış olmuyorum ki. Yalnız yaşamış oluyorum.”"
 ], secenekler: [
-{ t: "Özür dilersin ve her şeyi anlatırsın; bu sefer hiçbir şeyi eksiltmeden.", to: "y2", etki: { bag: 1, mira_bilir: true } },
+{ t: "Özür dileyip her şeyi anlatırsın. Bu kez hiçbir şeyi eksiltmeden.", to: "y2", etki: { bag: 1, mira_bilir: true } },
 { t: "“Seni korumak benim işim,” dersin. “Bu kadarını bana bırak.”", to: "y2", etki: { koruma: 1 } },
-{ t: "Ondan sana bir söz vermesini istersin: bundan sonra ikiniz de birbirinizden hiçbir şey saklamayacaksınız.", to: "y2", etki: { bag: 1, soz_mira: true, mira_bilir: true } },
+{ t: "Bir söz istersin: bundan sonra ikiniz de birbirinizden hiçbir şey saklamayacaksınız.", to: "y2", etki: { bag: 1, soz_mira: true, mira_bilir: true } },
 { t: "Zarfı alıp yeniden çekmeceye koyarsın. Konuşmaya hazır değilsin.", to: "y2", etki: { koruma: 1, kacti: true } }
 ]},
 
 yp_ece: { baslik: "Ece", metin: [
-"Sabah altıda dükkânın kapısı çalınıyor. Çarşı daha açılmamış; demir kepenklerin arasında yalnızca seninkinin ışığı yanıyor.",
-"Ece. Okul önlüğünün üstüne bir mont geçirmiş, nefes nefese. “Annem söyledi, okuldan önce gelirsem bitmiş olabilirmiş.”",
-"Saati ona uzatıyorsun. Kulağına götürüyor, gözlerini kapatıyor. Tik, tak. Yüzünde bir şey açılıyor; bir kapı gibi.",
-"“Dedem de böyle dinlerdi,” diyor. “Her sabah. Kulağına götürür, ‘Hâlâ benimle,’ derdi.”",
-"Sonra tezgâhın kenarına oturuyor, ayaklarını sallayarak. “Dedem Kurum'a hiç gitmedi biliyor musunuz? Ciğerleri bozulduğunda bile. Annem çok yalvardı. Dedem ‘Ben eski usul ölürüm,’ dedi. Annem ona hâlâ kızgın. Ben değilim.”",
-"“Neden?” diye soruyorsun.",
-"Ece omuz silkiyor. “Çünkü dedem dedemdi. Sonuna kadar. Yenilenseydi, belki hâlâ burada olurdu. Ama belki o zaman başka biri olurdu ve ben onu dedem diye sevmeye çalışırdım.” Saati cebine koyuyor. “Siz de mi Kurum'a gideceksiniz? Elleriniz titriyor.”",
-"On iki yaşında bir çocuk, Kemerli'nin hiçbir yetişkininin sormadığı soruyu soruyor."
+"Sabah altıda dükkânın kapısı çalınıyor. Çarşı açılmamış. Demir kepenklerin arasında bir tek seninkinin ışığı yanıyor.",
+"Ece. Okul önlüğünün üstüne bir mont geçirmiş, nefes nefese, bir eli hâlâ ağzındaki poğaçada. “Annem dedi, okuldan önce gelirsem bitmiş olabilirmiş.”",
+"Saati uzatıyorsun. Kulağına götürüyor, gözlerini kapatıyor. Poğaçayı çiğnemeyi bırakıyor.",
+"“Dedem de böyle dinlerdi,” diyor, ağzı dolu. “Her sabah. Kulağına götürür, ‘Hâlâ benimle,’ derdi. Annem ‘Baba deli misin’ derdi.”",
+"Tezgâhın kenarına oturuyor, ayaklarını sallıyor. “Dedem Kurum'a hiç gitmedi, biliyor musunuz? Ciğerleri bozulunca bile. Annem çok yalvardı. Dedem ‘Ben eski usul ölürüm,’ dedi. Annem hâlâ kızgın. Ben değilim.”",
+"“Neden?”",
+"Ece omuz silkiyor. “Dedem dedemdi çünkü. Yenilenseydi belki hâlâ olurdu. Ama belki başka biri olurdu, ben de onu dedem diye sevmeye çalışırdım. Zor olurdu.” Saati cebine koyuyor. “Siz de mi gideceksiniz Kurum'a? Elleriniz titriyor da.”"
 ], secenekler: [
-{ t: "“Evet,” dersin. “Bir el, yalnızca bir eldir.”", to: "y2", etki: { kabul: 1, ece_evet: true } },
+{ t: "“Evet,” dersin. “Bir el sonuçta bir el.”", to: "y2", etki: { kabul: 1, ece_evet: true } },
 { t: "“Bilmiyorum,” dersin. “Belki ben de eski usulüm.”", to: "y2", etki: { koruma: 1 } },
-{ t: "Ona dedesini sorarsın. Saatini değil, onu.", to: "y2", etki: { bag: 1, ece_dede: true } },
-{ t: "Bir şey söylemeden ellerine bakarsın. Ece de bakıyor.", to: "y2" }
+{ t: "Saatini değil, dedesini sorarsın.", to: "y2", etki: { bag: 1, ece_dede: true } },
+{ t: "Bir şey demeden ellerine bakarsın. Ece de bakıyor.", to: "y2" }
 ]},
 
 yp_ates: { baslik: "Yakmak", metin: [
-"“Yak onu,” dedin. Necmi bir süre şekle baktı. Sonra sana. Sonra, hiçbir şey söylemeden, deponun arkasına yürüdü.",
-"Döndüğünde elinde bir kutu var. Kendi kutusu. Üstünde kendi adı: “Necmi Tanrıverdi. Kalp, 1994. Ciğerler, 1998. Gözler, 2003. Hafıza, kısmi, 2009.”",
-"“O şekli yakamam,” diyor. “Ama bunu yakabilirim. Kendimi. Eski kendimi. Otuz yıldır bu kutuyu saklıyorum; bir gün yeniden bir araya gelirim diye. Gelmeyecek. Sen haklısın.”",
-"Deponun avlusunda bir varil var. Necmi içine eski gazeteler, tahta parçaları atıyor. Bir kibrit. Alev yükseliyor.",
-"Kutuyu açmadan ateşin üstüne tutuyor. Elleri titriyor; yenilenmiş elleri, hiç titrememesi gereken elleri.",
-"“Bir şey söyle,” diyor sana. “Ben bırakırken bir şey söyle. Kimse yoktu, bıraktığım her şeyde. Kurum'da hep bir kâğıt imzaladım, o kadar. Bir kere de biri bir şey söylesin.”",
-"Alev kutunun kenarına uzanıyor. Necmi bekliyor."
+"“Yak onu,” dedin. Necmi şekle baktı, sonra sana. Sonra hiçbir şey demeden deponun arkasına yürüdü.",
+"Döndüğünde elinde bir kutu var. Kendi kutusu. Üstünde kendi adı, kurşun kalemle, yıllar içinde eklene eklene: “Necmi Tanrıverdi. Kalp, 1994. Ciğerler, 1998. Gözler, 2003. Hafıza, kısmi, 2009.”",
+"“O şekli yakamam,” diyor. “Ama bunu yakarım. Kendimi. Eskimi. Otuz yıldır saklıyorum, bir gün yine bir araya gelirim diye. Gelmeyecek. Haklısın.”",
+"Avludaki varile eski gazeteler, tahta parçaları atıyor. İlk kibrit sönüyor. İkincisi tutuyor.",
+"Kutuyu açmadan ateşin üstüne tutuyor. Elleri titriyor. Yenilenmiş, hiç titrememesi gereken elleri.",
+"“Bir şey söyle,” diyor. “Bıraktığım hiçbir şeyde yanımda kimse yoktu. Kurum'da hep bir kâğıt imzaladım, o kadar. Bir kere de biri bir şey söylesin.”",
+"Alev kutunun köşesini yalıyor. Necmi bekliyor. Gözleri dumandan sulanmış."
 ], secenekler: [
-{ t: "“Hoşça kal, Necmi,” dersin. Eski Necmi'ye.", to: "n1b", etki: { bag: 1, kabul: 1, veda: true } },
-{ t: "Kutuyu elinden alırsın. “Yakma. Ben yanlış söyledim.”", to: "n1b", etki: { koruma: 1, kurtardi: true } },
-{ t: "“Bıraktıkların, sen bırakmasan da gitti,” dersin.", to: "n1b", etki: { kabul: 1 } },
-{ t: "Hiçbir şey söylemezsin. Yanında durursun. Bazen tanık olmak yeter.", to: "n1b", etki: { bag: 1 } }
+{ t: "“Hoşça kal Necmi,” dersin. Eski Necmi'ye.", to: "n1b", etki: { bag: 1, kabul: 1, veda: true } },
+{ t: "Kutuyu elinden alırsın: “Yakma. Yanlış söyledim.”", to: "n1b", etki: { koruma: 1, kurtardi: true } },
+{ t: "“Bıraktıkların sen bırakmasan da gitti,” dersin.", to: "n1b", etki: { kabul: 1 } },
+{ t: "Hiçbir şey söylemezsin. Yanında durursun.", to: "n1b", etki: { bag: 1 } }
 ]},
 
 yp_sekil: { baslik: "Şekil", metin: [
-"Şeklin eline dokunduğunda Necmi bir şey söylemedi. Kapıyı arkasından kapattı ve seni depoda yalnız bıraktı. “Saat dokuzda kilitlerim,” dedi. “Kalmak istersen kal.”",
-"Kaldın. Loş ışıkta, kavanozların ve kutuların arasında, birçok insanın parçalarından yapılmış bir insanla.",
-"Gece ilerledikçe depo değişiyor. Belki yorgunluk; belki Kemerli'nin gecelerinin bir özelliği. Raflardaki etiketler okunur oluyor. “Seher, 1987, gözler.” “Kemal, 2001, sol el.” “Adsız, 1979, kalp.” Her parça bir hayat, her hayat bir etiket.",
-"Sonra şeklin dudakları kıpırdıyor. Ya da sen öyle görüyorsun.",
-"Bir ses. Birkaç ses. Bir kadın, bir çocuk, yaşlı bir adam, hepsi aynı ağızdan, üst üste: “Bir zamanlar ben...” “Bir zamanlar biz...” “Ben bir eldim, bir adamın ekmeğini kopardım...” “Ben bir kalptim, bir düğünde hızlı attım...”",
-"Ve bir ses daha, tanıdık. Kendi sesin, ama yıllar önceki: “Ben bir eldim. Bir saatin yayını taktım. Bir kızın saçını okşadım.”",
-"Parçalar konuşuyor. Ama kimse cevap vermiyor; çünkü konuşanların hiçbiri, öbürlerini duymuyor. Bir araya getirilmiş ama hiç buluşmamış sesler.",
-"Sabah olduğunda Necmi kapıyı açıyor. Seni şeklin yanında, yerde oturur buluyor."
+"Şeklin eline dokunduğunda Necmi bir şey demedi. Ceketini aldı. “Dokuzda kilitlerim,” dedi. “Kalacaksan kal. Tuvalet arkada, sifon kendi kendine akar, aldırma.”",
+"Kaldın. Loş ışıkta, kavanozların ve kutuların arasında, bir sürü insanın parçalarından yapılmış bir şeyle.",
+"Gece ilerledikçe raflardaki etiketleri okumaya başlıyorsun. Okumak için değil, uyumamak için. “Seher, 1987, gözler.” “Kemal, 2001, sol el.” “Adsız, 1979, kalp.” Birinin üstüne biri kurşun kalemle küçük bir çiçek çizmiş.",
+"Saat ikiye doğru şeklin dudaklarının kıpırdadığını görüyorsun. Ya da gözlerin yoruldu.",
+"Sesler duyuyorsun. Bir kadın, bir çocuk, yaşlı bir adam. Hepsi aynı ağızdan, birbirinin üstüne: “Ben bir eldim, bir adamın ekmeğini kopardım...” “Ben bir kalptim, bir düğünde hızlı attım...” “Ben iki gözdüm, bir otobüsün arkasından el salladım...”",
+"Bir ses daha, tanıdık. Kendi sesin, yıllar önceki: “Ben bir eldim. Bir saatin yayını taktım. Bir kızın saçını ördüm, beceremedim, annesi bozdu, yeniden ördü.”",
+"Kimse kimseye cevap vermiyor. Herkes kendi cümlesini söyleyip susuyor.",
+"Sabah Necmi kapıyı açtığında seni şeklin ayağının dibinde, yerde, paltonu üstüne çekmiş buluyor. “Üşüdün mü?” diyor. “Burası hep soğuk. Eski şeyler sıcak sevmez.”"
 ], secenekler: [
 { t: "Necmi'ye gece duyduklarını anlatırsın.", to: "n1b", etki: { bag: 1, sesler: true } },
-{ t: "Hiçbir şey anlatmazsın. Bir rüya olduğuna karar verirsin.", to: "n1b", etki: { koruma: 1 } },
-{ t: "Necmi'ye şekli parçalarına ayırmasını, her parçayı sahibinin adıyla gömmesini önerirsin.", to: "n1b", etki: { kabul: 1, gom: true } },
-{ t: "Şeklin eline bir kez daha dokunur, sonra gidersin.", to: "n1b", etki: { dokundu2: true } }
+{ t: "Hiçbir şey anlatmazsın. Rüya gördüğüne karar verirsin.", to: "n1b", etki: { koruma: 1 } },
+{ t: "Necmi'ye şekli parçalarına ayırıp her parçayı sahibinin adıyla gömmesini önerirsin.", to: "n1b", etki: { kabul: 1, gom: true } },
+{ t: "Şeklin eline bir kez daha dokunup çıkarsın.", to: "n1b", etki: { dokundu2: true } }
 ]},
 
 
 yp_mektuplar: { baslik: "Mektuplar", metin: [
-"Bir saat boyunca anlattın: kızarık yanaklar, kurulmamış saat, yağmur, unutulan kırmızı şemsiye. Mira dinledi, hiçbir şey sormadı. Bitince kalktı, odasına gitti; ve bir kutuyla döndü.",
-"“Annemin dolabında buldum,” diyor. “Geçen yıl. Sana söylemedim.”",
-"Kutunun içinde mektuplar. Senin el yazın. Yirmi beş yıl önce, Selma'ya yazdığın mektuplar; evlenmeden önce, bir yıl boyunca, her hafta. Selma hepsini saklamış.",
-"Birini açıyorsun. Kendi el yazın; daha düzgün, daha genç. “Selma, bugün dükkâna gelmedin. Saatin kurulmamış olarak kaldı tezgâhta. Ben kurmadım. Senin gelmen için.”",
-"Bunu hatırlamıyorsun. Hiç. Kendi yazdığın bir cümle ve hatırlamıyorsun.",
-"Mira yüzüne bakıyor. “Anlattığın hikâyede bu yoktu,” diyor. “Şemsiye vardı, yağmur vardı. Ama kurmadığın saat yoktu.”",
-"Bir hafıza, kendi kendini düzenliyor. Bazı şeyleri tutuyor, bazılarını bırakıyor, bazılarını uyduruyor. Henüz hiçbir makine dokunmadan. Bir insan zaten her gün biraz kendi yedek parçasıdır."
+"Bir saat anlattın: kızaran kulaklar, kurulmamış saat, yağmur, dükkânda unutulan mavi şemsiye. Mira hiçbir şey sormadı. Bitince kalkıp odasına gitti ve elinde bir ayakkabı kutusuyla döndü.",
+"“Annemin dolabında buldum,” diyor. “Geçen yıl. Sana söylemedim. Kızma.”",
+"Kutunun içinde mektuplar. Senin el yazın. Yirmi beş yıl önce Selma'ya yazdıkların. Evlenmeden önce, bir yıl boyunca, her hafta. Selma hepsini saklamış, tarih sırasıyla, lastikle bağlamış. Lastik çürümüş, dokununca kopuyor.",
+"Birini açıyorsun. El yazın daha düzgün, daha genç. “ğ”leri o zamanlar böyle yazıyormuşsun demek. “Selma, bugün dükkâna gelmedin. Saatin kurulmamış olarak tezgâhta kaldı. Kurmadım. Gelesin diye.”",
+"Bunu hatırlamıyorsun. Hiç. Kendi yazdığın bir cümle.",
+"Mira yüzüne bakıyor. “Anlattığında bu yoktu,” diyor. “Şemsiye vardı, yağmur vardı. Kurmadığın saat yoktu.” Bir zarfı daha açıyor, okuyor, kızarıyor. “Baba bu çok fena.”"
 ], secenekler: [
 { t: "Mira'dan mektupları sana yüksek sesle okumasını istersin.", to: "y5", etki: { bag: 1, mektup_okundu: true } },
 { t: "Mektupları kutuya geri koyarsın. Kendi hatırladığın Selma'yı korumak istiyorsun.", to: "y5", etki: { koruma: 1 } },
-{ t: "Mektupları Mira'ya verirsin: “Bunlar artık senin hafızan.”", to: "y5", etki: { kabul: 1, mektup_mira: true } },
-{ t: "Bir mektubu alıp bütün gece tekrar tekrar okursun; hatırlamaya çalışarak.", to: "y5", etki: { koruma: 1, gece_okudu: true } }
+{ t: "Mektupları Mira'ya verirsin: “Bunlar artık senin.”", to: "y5", etki: { kabul: 1, mektup_mira: true } },
+{ t: "Bir mektubu alıp bütün gece tekrar tekrar okursun. Hatırlamaya çalışarak.", to: "y5", etki: { koruma: 1, gece_okudu: true } }
 ]},
 
 yp_mira_gece: { baslik: "Arayış", metin: [
-"“Unutursam, unuttuğumu da unuturum,” dedin. Mira'nın yüzü kapandı. “Acıyı ben çekerim,” dedi ve kalktı. Odasına gitti. Kapıyı kilitledi.",
-"Gece yarısı odası boş. Pencere açık. Bir not: “Burak'tayım. Arama.” Burak'ı tanımıyorsun. Bir sınıf arkadaşı olmalı. Bir erkek arkadaş belki. Bilmiyorsun; ve bilmediğin şeylerin listesinin ne kadar uzun olduğunu ilk kez fark ediyorsun.",
-"Ceketini giyip sokağa çıkıyorsun. Kemerli'nin gece sokakları; yenilenmiş insanların yenilenmiş evleri, hepsinin pencereleri aynı sarı ışıkla yanıyor. Mira'nın arkadaşlarının adreslerini bilmiyorsun. Okulun önüne gidiyorsun; kapalı. Parka. Boş.",
-"Sonra Bakırcılar Çarşısı. Dükkânın kepengi yarı açık. İçeride ışık.",
-"Mira tezgâhta oturuyor. Önünde Selma'nın saati; açılmış, dişlileri dağılmış. Bir cımbız elinde. Ağlıyor.",
-"“Kurmaya çalıştım,” diyor seni görünce. “Annemin saatini. Sen unutmadan önce bir şey yapmak istedim. Ama bozdum. Bilmiyorum nasıl yapılır.”",
-"Dişliler tezgâhın üstünde. Küçük, parlak, birbirinden ayrı. Bir saatin içi; ya da bir hafızanın."
+"“Unutursam unuttuğumu da unuturum,” dedin. Mira'nın yüzü kapandı. “Acısını ben çekerim ama,” dedi ve kalkıp odasına gitti. Kapı kilitlendi.",
+"Gece yarısı odası boş. Pencere açık, perde dışarı uçuşuyor. Yastığın üstünde bir not: “Burak'tayım. Arama.” Burak'ı tanımıyorsun. Sınıftan biri. Ya da başka bir şey. Bilmiyorsun ve kaç şeyi bilmediğini o pencerenin önünde sayamıyorsun.",
+"Ceketini giyip sokağa çıkıyorsun. Kemerli'nin gece sokakları. Bütün pencerelerde aynı sarı ışık. Mira'nın arkadaşlarının adresini bilmiyorsun. Okulun önüne gidiyorsun. Kapalı. Parka. Boş, salıncaklardan biri rüzgârda gıcırdıyor.",
+"Sonra Bakırcılar Çarşısı. Dükkânın kepengi yarıya kadar açık. İçeride ışık.",
+"Mira tezgâhta. Önünde Selma'nın saati. Açılmış, dişlileri her yana dağılmış. Elinde cımbız, yanağında siyah bir yağ lekesi. Ağlıyor.",
+"“Kurmak istedim,” diyor seni görünce. “Annemin saatini. Sen unutmadan önce bir şey yapayım dedim. Bozdum. Nasıl yapılıyor bilmiyorum ki. Hiç öğretmedin.”",
+"Son cümleyi söyledikten sonra kendisi de şaşırıyor, cımbızı bırakıyor."
 ], secenekler: [
 { t: "Yanına oturup saati birlikte toplarsınız.", to: "y5", etki: { bag: 1, saat_topladi: true } },
 { t: "“Unutmayacağım,” dersin. Bu kez bir söz olarak.", to: "y5", etki: { koruma: 1, soz: true } },
 { t: "Mira'ya sarılırsın. Saat bekleyebilir.", to: "y5", etki: { bag: 1 } },
-{ t: "Cımbızı Mira'ya geri verip tarif edersin; yapan o olsun.", to: "y5", etki: { kabul: 1, mira_yapti: true } }
+{ t: "Cımbızı Mira'ya geri verip tarif edersin. Yapan o olsun.", to: "y5", etki: { kabul: 1, mira_yapti: true } }
 ]},
 
 yp_kayit: { baslik: "Kayıt", metin: [
-"Mira telefonunu masaya koyuyor. Kırmızı bir nokta yanıyor. Kayıt.",
-"“Ne anlatayım?” diyorsun.",
-"“Her şeyi,” diyor Mira. “Baştan.”",
-"Baştan. Nereden başlar bir hayat? Doğduğun evden mi, babanın tezgâhından mı, ilk tamir ettiğin saatten mi? Anlatmaya başlıyorsun. Babanın elleri. Büyüteç. Dükkânın tozlu camı. İlk kez bir yayın yerine oturduğu an.",
-"Bir saat geçiyor. Mira hiçbir şey sormuyor; yalnızca dinliyor, bazen bir kâğıda not alıyor.",
-"Bir yerde duruyorsun. Bir isim. Babanın en yakın arkadaşı, dükkâna her cuma gelen, çay içen bir adam. Yüzünü görüyorsun; adını bulamıyorsun.",
-"Uzun bir sessizlik. Kırmızı nokta yanmaya devam ediyor.",
-"“Adını hatırlamıyorum,” diyorsun sonunda. Kayda. Mira'ya. Kendine.",
-"Mira kaydı durdurmuyor. “Bu da kayıtta kalsın,” diyor. “Unuttuğun şeyler de senin hikâyen.”"
+"Mira telefonunu masaya koyuyor. Ekranda kırmızı bir nokta yanıp sönüyor.",
+"“Ne anlatayım?”",
+"“Her şeyi,” diyor Mira. “Baştan. Ama sıkıcı yerleri atla.”",
+"Nereden başlanır? Doğduğun evden mi, babanın tezgâhından mı, ilk tamir ettiğin saatten mi? Anlatmaya başlıyorsun: babanın elleri, büyüteç, dükkânın tozlu camı, ilk kez bir yay yerine oturduğunda babanın “Hah” demesi. Sadece “Hah.”",
+"Bir saat geçiyor. Mira arada bir kâğıda bir şey yazıyor. Bir keresinde gülüyor. Babanın müşteriye yanlışlıkla iki kez para üstü verdiği gün.",
+"Bir yerde duruyorsun. Babanın en yakın arkadaşı. Her cuma dükkâna gelir, tezgâhın kenarına oturur, şekeri ayrı isterdi. Yüzünü görüyorsun. Bıyığını, şapkasını. Adını bulamıyorsun.",
+"Kırmızı nokta yanıp sönmeye devam ediyor.",
+"“Adını hatırlamıyorum,” diyorsun sonunda.",
+"Mira kaydı durdurmuyor. “Bu da kalsın,” diyor. Kâğıdına bir şey yazıyor. Göremiyorsun."
 ], secenekler: [
-{ t: "Devam edersin. Unutulanlarla birlikte.", to: "r2", etki: { kabul: 1, unutulan_kayit: true } },
+{ t: "Devam edersin. Unuttuklarınla birlikte.", to: "r2", etki: { kabul: 1, unutulan_kayit: true } },
 { t: "Kaydı durdurmasını istersin. Unuttuklarının kaydedilmesini istemiyorsun.", to: "r2", etki: { koruma: 1 } },
 { t: "Mira'dan da bir şey anlatmasını istersin. Sen de onun bir anısını hatırlamak istiyorsun.", to: "r2", etki: { bag: 1, mira_anlatti: true } },
 { t: "Kayda Selma'ya bir mesaj bırakırsın.", to: "r2", etki: { bag: 1, selma_mesaj: true } }
 ]},
 
 yp_necmi_ev: { baslik: "Necmi'nin Evi", metin: [
-"Necmi'yi deposunda değil, evinde buluyorsun. Çarşının arkasında, eski bir apartmanın bodrum katında. Kapıyı açtığında şaşırıyor; kimse onu evinde ziyaret etmez.",
-"Ev şaşırtıcı derecede boş. Bir yatak, bir masa, bir sandalye. Duvarda tek bir fotoğraf: genç bir kadın, bir deniz kıyısında, gülüyor. Necmi'nin karısı.",
+"Necmi'yi deposunda değil evinde buluyorsun. Çarşının arkasında, eski bir apartmanın bodrum katında. Kapıyı açınca şaşırıyor. Üstünde atlet, elinde yarım bir ekmek.",
+"Ev boş denecek kadar sade: bir yatak, bir masa, bir sandalye, köşede tüplü bir ocak. Duvarda tek bir fotoğraf: deniz kenarında, rüzgârda saçları yüzüne yapışmış, gülen genç bir kadın.",
 "“Bedenimi sana bağışlamak istiyorum,” diyorsun. “Öldüğümde. Bütün olarak.”",
-"Necmi uzun süre bir şey söylemiyor. Sonra sana bir çay koyuyor; tek fincanı var, onu sana veriyor, kendisi bir kavanozdan içiyor.",
-"“Kırk yıl,” diyor. “Kırk yılda hiç kimse bana bir şey bağışlamadı. Hep ben satın aldım. Parçaları, kutuları. İnsanlar eski parçalarından kurtulmak istedi; ben onları aldım. Ama kimse bana kendini vermedi.”",
-"Fotoğrafa bakıyor. “O da vermedi. Kurum'un yenileyemediği bir şeyle öldü. Bedenini ailesi gömdü; benim haberim olmadan. Ben ona son kez dokunamadım.”",
-"Sana dönüyor. “Neden bana? Neden Kurum'a değil, toprağa değil, kızına değil?”"
+"Necmi ekmeği masaya bırakıyor. Sana çay koyuyor. Tek bardağı var, onu sana veriyor, kendisi reçel kavanozundan içiyor.",
+"“Kırk yıl,” diyor. “Kırk yılda kimse bana bir şey vermedi. Hep ben aldım. Herkes eskisinden kurtulmak istedi, ben aldım. Para verdim. Kimse kendini vermedi.”",
+"Fotoğrafa bakıyor. “O da vermedi. Kurum'un yetişemediği bir şeyle gitti. Ailesi gömdü, bana haber vermediler. Son bir kere dokunamadım.” Kavanozdan bir yudum alıyor. “Kızkardeşi hâlâ bayramlarda arar, ‘Necmi sen iyi misin’ der. İyiyim derim.”",
+"Sana dönüyor. “Niye ben? Niye Kurum değil, toprak değil, kızın değil?”"
 ], secenekler: [
 { t: "“Çünkü sen her parçanın bir insan olduğunu biliyorsun,” dersin.", to: "r2", etki: { bag: 1, necmi_insan: true } },
-{ t: "“Bilmiyorum. Belki yalnız kalmasın diye,” dersin.", to: "r2", etki: { bag: 1 } },
-{ t: "Fikrini değiştirirsin: “Haklısın. Kızıma sormalıyım.”", to: "r2", etki: { koruma: 1, mira_sor: true } },
-{ t: "“Çünkü ben de eski usul ölüyorum. Ve sen eski usulden anlayan tek kişisin,” dersin.", to: "r2", etki: { kabul: 1 } }
+{ t: "“Bilmiyorum. Yalnız kalmasın diye belki,” dersin.", to: "r2", etki: { bag: 1 } },
+{ t: "Fikrini değiştirirsin: “Haklısın. Önce kızıma sormalıyım.”", to: "r2", etki: { koruma: 1, mira_sor: true } },
+{ t: "“Ben de eski usul ölüyorum. Bundan anlayan bir tek sensin,” dersin.", to: "r2", etki: { kabul: 1 } }
 ]},
 
 /* ---------- DEĞİŞİM KOLU ---------- */
 dg1: { baslik: "Uyanış", metin: [
-"Uyandığında oda beyaz ve sessiz. Kendini iyi hissediyorsun. Çok iyi. Zihnin hiç olmadığı kadar berrak; bir saatin bütün dişlilerini aynı anda görebiliyormuşsun gibi.",
-"Adın Yusuf. Elli üç yaşındasın. Saat tamircisisin. Bunları hiç çaba harcamadan biliyorsun. Neyin eksik olduğunu bilmiyorsun. Eksik olan şeyin yeri, insanın bildiği bir şey değil.",
-P(function(d){ return d.kayip === "selma"; }, "Mira yatağının yanında. Gözleri kızarık. Bir süre seni izliyor, sonra soruyor: “Baba. Annemle nerede tanıştınız?” Cevap hemen geliyor: “Dükkânda. Kurulmamış bir saatle geldi.” Doğru cümle. Ama içinde hiçbir şey yok. Bir ansiklopediden okuyor gibisin. Kadının yüzü bir fotoğraf, adı bir kelime: Selma. Kim olduğunu biliyorsun. Onu sevdiğini biliyorsun; çünkü biri sana söyledi."),
-P(function(d){ return d.kayip === "mira"; }, "Mira yatağının yanında. On yedi yaşında bir kız; kızın olduğunu biliyorsun ve onu seviyorsun, bu değişmedi. Ama bir şey soruyor: “Baba, bana bisiklete binmeyi öğrettiğin gün ne demiştin?” Bilmiyorsun. Mira'nın on iki yaşından önceki hayatı bir boşluk. Karşındaki genç kadını tanıyorsun; o küçük kızı hiç tanımadın."),
-P(function(d){ return d.kayip === "cocukluk"; }, "Mira yatağının yanında. Onu tanıyorsun; Selma'yı hatırlıyorsun, her şeyi. Ama sağ elini kaldırıp büyüteci düşünüyorsun ve büyütecin kimden kaldığını bilmiyorsun. Dükkânın ne zaman açıldığını, sabrı kimden öğrendiğini. Arkanda bir yol vardı; artık yalnızca nereden başladığını bilmediğin bir yürüyüş var."),
-P(function(d){ return d.anlatti && d.kayip === "selma"; }, "Sonra Mira anlatmaya başlıyor. Bir zamanlar senin ona anlattığın hikâyeyi: kızarık yanaklar, yağmur, unutulan şemsiye. Kendi hikâyeni kızının ağzından duyuyorsun. Ayrıntıları biliyorsun artık. Ama bilmek, hatırlamak değil."),
-"Mira'nın sana bakışında bir şey var: arıyor. Yüzünde, sesinde, bir şeyin hâlâ orada olup olmadığını."
+"Uyandığında oda beyaz ve sessiz. Kendini iyi hissediyorsun. Fazla iyi. Kafanın içi yeni silinmiş bir cam gibi.",
+"Adın Yusuf. Elli üç yaşındasın. Saat tamircisisin. Bunları hiç uğraşmadan biliyorsun. Neyin eksik olduğunu bilmiyorsun. Zaten eksik olan şeyin yerini insan bilmez.",
+P(function(d){ return d.kayip === "selma"; }, "Mira yatağının yanında, gözleri kızarık. Bir süre seni izliyor, sonra soruyor: “Baba. Annemle nerede tanıştınız?” Cevap hemen geliyor: “Dükkânda. Kurulmamış bir saatle geldi.” Doğru cümle. Ama içi boş. Bir kitabın arkasındaki özeti okur gibisin. Kadının yüzü bir fotoğraf, adı bir kelime: Selma. Onu sevdiğini biliyorsun, çünkü sana söylediler."),
+P(function(d){ return d.kayip === "mira"; }, "Mira yatağının yanında. On yedi yaşında bir kız. Kızın olduğunu biliyorsun ve onu seviyorsun, bu değişmemiş. Ama soruyor: “Baba, bana bisiklete binmeyi öğrettiğin gün ne demiştin?” Bilmiyorsun. On iki yaşından öncesi boş. Karşındaki genç kadını tanıyorsun. O küçük kızla hiç tanışmamışsın."),
+P(function(d){ return d.kayip === "cocukluk"; }, "Mira yatağının yanında. Onu tanıyorsun; Selma'yı hatırlıyorsun, her şeyi. Ama büyüteci düşündüğünde kimden kaldığını bilmiyorsun. Dükkânın ne zaman açıldığını, sabrı kimden öğrendiğini. Tezgâhın altındaki çatlak bardak aklına geliyor. Neden atmadığını bilmiyorsun."),
+P(function(d){ return d.anlatti && d.kayip === "selma"; }, "Sonra Mira anlatmaya başlıyor. Bir zamanlar senin ona anlattığın hikâyeyi: kızaran kulaklar, yağmur, unutulan şemsiye. Kendi hikâyeni kızının ağzından dinliyorsun. Bir yerde Mira “Mavi şemsiye,” diyor ve sen başını sallıyorsun. Öyleyse öyle."),
+"Mira sana bakıyor. Yüzünde, sesinde bir şeyin hâlâ orada olup olmadığını arıyor. Sen de ona bakıyorsun ve onun ne aradığını bilmiyorsun."
 ], secenekler: [
 { t: "Mira'ya dürüstçe söylersin: kaybettiğin şeyi hissetmiyorsun bile.", to: "dg2", etki: { bag: 1, durust: true } },
-{ t: "Hatırlıyormuş gibi yaparsın. Onu üzmemek için.", to: "dg2", etki: { rol: true } },
-{ t: "Kayıp olanı yeniden öğrenmek istediğini söylersin: anlatsın, sen yeniden ezberle.", to: "dg2", etki: { kabul: 1, yeniden: true } },
-{ t: "Kaybettiğin şeyi umursamadığını fark edersin ve bu seni her şeyden çok korkutur.", to: "dg2", etki: { koruma: 1, korku: true } }
+{ t: "Hatırlıyormuş gibi yaparsın. Üzülmesin.", to: "dg2", etki: { rol: true } },
+{ t: "Kaybettiğini yeniden öğrenmek istediğini söylersin: anlatsın, sen yeniden ezberle.", to: "dg2", etki: { kabul: 1, yeniden: true } },
+{ t: "Kaybettiğin şeyi umursamadığını fark edersin. Seni en çok bu korkutur.", to: "dg2", etki: { koruma: 1, korku: true } }
 ]},
 
 dg2: { yonlendir: [
@@ -298,204 +296,200 @@ dg2: { yonlendir: [
 ]},
 
 dg3: { baslik: "Son Yüzde On", metin: [
-P(S("dg1A"), "“Hiçbir şey hissetmiyorum,” dedin. Mira'nın yüzü düştü, sonra toparlandı. “En azından dürüstsün,” dedi. “Dürüstlük kalmış.” Bunu bir iltifat gibi söylemedi."),
-P(S("dg1B"), "Hatırlıyormuş gibi yaptın. Mira'nın yüzü aydınlandı. O akşam, o gün ve ondan sonraki her gün, bir rol oynamaya başladın: eski Yusuf'u, onun en iyi bildiği kişi olarak. Ne kadar iyi oynadığını fark ettikçe korktun. Belki eski Yusuf da bir roldü."),
-P(S("dg1C"), "Mira her akşam anlatıyor, sen dinliyorsun. Hikâyeler yerine oturuyor; boşluk, kelimelerle doluyor. Ama yeni öğrendiğin bir anının, eskisinin yerini tutup tutmadığını bilmiyorsun. Bir saatin kopyalanmış dişlisi, eskisi gibi döner; ama eskisi değildir. Değil midir?"),
-P(S("dg1D"), "Kaybettiğin şeyi umursamıyorsun. Ve bu umursamazlık sana bir şey anlatıyor: yeni sen, eski senin acısını taşımıyor. Belki daha mutlu. Ama eski sen, şu an burada olsaydı, buna nasıl bakardı?"),
+P(S("dg1A"), "“Hiçbir şey hissetmiyorum,” dedin. Mira'nın yüzü düştü, sonra toparlandı. “En azından dürüstsün,” dedi. “O kalmış.” Kapıdan çıkarken montunu ters giydi. Fark etmedi."),
+P(S("dg1B"), "Hatırlıyormuş gibi yaptın. Mira'nın yüzü aydınlandı. O günden sonra her gün biraz oynadın: eski Yusuf'u, onun en iyi bildiği hâliyle. Ne kadar kolay oynadığını fark edince korktun."),
+P(S("dg1C"), "Mira her akşam anlatıyor, sen dinliyorsun. Bazen yemekte, bazen bulaşık yıkarken. Hikâyeler yerine oturuyor. Bir akşam, anlatmadığı bir ayrıntıyı sen ekliyorsun; Mira duruyor. “Bunu ben söylemedim,” diyor. “Nereden bildin?” Bilmiyorsun."),
+P(S("dg1D"), "Kaybettiğin şeyi umursamıyorsun. Hatta biraz hafiflemiş gibisin. Bu hafifliği kimseye söylemiyorsun; Mira'ya hiç."),
 "Altı ay geçiyor. Başka parçalar da değişiyor: ciğerler, bir göz, bir kulak. Lale her ziyarette bir yüzde söylüyor. Bugün: doksan.",
-"“Kalan yüzde on,” diyor Lale, “beyninizin derin bir bölgesi. Hastalık oraya da ulaştı. Son bir işlem önerebiliriz. Ondan sonra yüzde yüz Kurum dokusu olacaksınız. Hiçbir şeyi kaybetmezsiniz; işlemin bu bölümünde kayıp yok.”",
-"“Peki o yüzde on,” diyorsun. “Benim en son orijinal parçam. Orada ne var?”",
-"Lale bir süre düşünüyor. “Bilmiyoruz,” diyor. “Belki hiçbir şey. Belki her şey. Birine sorsanız bir şey der, öbürüne başka. Bizim ölçebildiğimiz bir şey değil.”",
-"Pencere hiçbir şeye bakmıyor. Kendi yansımanı görüyorsun. Elli üç yaşında bir adam. Ya da elli üç yıllık bir adamın, yüzde doksanı yenilenmiş bir devamı."
+"“Kalan yüzde on,” diyor Lale, “beyninizin derin bir bölgesi. Hastalık oraya da ulaştı. Son bir işlem önerebiliriz. Ondan sonra yüzde yüz Kurum dokusu olursunuz. Bu aşamada kayıp yok.”",
+"“O yüzde on,” diyorsun. “Benim son orijinal parçam. İçinde ne var?”",
+"Lale kalemini bırakıyor. “Bilmiyoruz,” diyor. “Belki hiçbir şey. Belki çok şey. Ölçebildiğimiz bir şey değil.” Sonra, kâğıtlara bakmadan: “Babam da sordu bunu. Ben de bilmiyorum dedim.”",
+"Pencerede kendi yansıman. Elli üç yaşında bir adam."
 ], secenekler: [
-{ t: "Kabul edersin. Yüzde yüz. Bir eşiği geçmek, ötekileri geçmekten farklı değil.", to: "dg3b", etki: { kabul: 1, tam: true } },
-{ t: "Reddedersin. O yüzde on ne olursa olsun, sende kalacak; çürüse bile.", to: "dg3b", etki: { koruma: 1, son_on: true } },
+{ t: "Kabul edersin. Yüzde yüz. Bir eşik, ötekilerden farklı değil.", to: "dg3b", etki: { kabul: 1, tam: true } },
+{ t: "Reddedersin. O yüzde on, ne olursa olsun, sende kalacak. Çürüse bile.", to: "dg3b", etki: { koruma: 1, son_on: true } },
 { t: "Eve gidip Mira'ya sorarsın: “Ben hâlâ senin baban mıyım?”", to: "dg3b", etki: { bag: 1, mira_sordu: true } },
-{ t: "Lale'den o yüzde onun içinde ne olduğunu bulmasını istersin, ne pahasına olursa olsun.", to: "dg3b", etki: { koruma: 1, arastir: true } }
+{ t: "Lale'den o yüzde onun içinde ne olduğunu bulmasını istersin. Ne pahasına olursa olsun.", to: "dg3b", etki: { koruma: 1, arastir: true } }
 ]},
 
 dg3b: { baslik: "Kaset", metin: [
-P(S("dg3A"), "İşlemi yaptırdın. Uyandığında hiçbir şey değişmemişti. Bu en tuhafıydı: bir eşik geçtin ve eşiğin öbür tarafı, berisiyle aynıydı. Belki hiç eşik yoktu. Belki baştan beri yoktu."),
-P(S("dg3B"), "Reddettin. Lale itiraz etmedi. O yüzde on, beyninin derin bir köşesinde, yavaşça sönüyor. Her gün biraz daha az. Ne kaybettiğini bilmeden, bir şeyin gittiğini hissediyorsun."),
-P(S("dg3C"), "Mira uzun süre sustu. “Bilmiyorum baba,” dedi sonunda. “Ama sen bana baba diye bakıyorsun. Ben de sana öyle bakıyorum. Belki baba olmak böyle bir şey. Bir anlaşma.”"),
-P(S("dg3D"), "Lale aylarca uğraştı. Sonunda bir rapor getirdi: “Bir ses,” dedi. “Yüzde onun içinde bulabildiğimiz en tutarlı iz bir ses. Bir kadın sesi, bir şarkı mırıldanıyor. Kim olduğunu bilmiyoruz.” Sen de bilmiyorsun. Ama o ses, şu an, her şeyden daha yakın."),
-"Bir gün dolabı temizlerken bir kutu buluyorsun. Eski bir video kaseti. Üzerinde Selma'nın el yazısı: “Mira, 6 yaş, deniz.”",
-"Kaseti oynatıyorsun. Ekranda bir sahil. Küçük bir kız dalgalardan kaçıyor, gülüyor. Kamerayı tutan kadının sesi: “Yusuf, bak, bak!” Sonra kamera dönüyor ve ekranda sen varsın. Genç, güneşte, kumların içinde, kızını havaya kaldırıyorsun.",
-P(function(d){ return d.kayip === "selma"; }, "O sesi tanımıyorsun. Karın bu. Seni “Yusuf” diye çağıran ses. Hiçbir şey hissetmiyorsun ve hiçbir şey hissetmemek, ekrandaki adamın sen olmadığını söylüyor."),
-P(function(d){ return d.kayip === "mira"; }, "Bu kızı tanımıyorsun. Mira bu. Senin kızın, altı yaşında. Ekrandaki adam onu seviyor; bu açık. Sen o adamın sevgisini izliyorsun, bir yabancının mutluluğunu izler gibi."),
-P(function(d){ return d.kayip === "cocukluk"; }, "Her şeyi hatırlıyorsun: o günü, o sahili, Selma'nın sesini. Ama ekrandaki adamın elindeki saat, babandan kalan saat; ve sen babanın yüzünü hatırlamıyorsun. Ekrandaki adam, kendisinden önce gelen birini taşıyor; sen yalnızca onu taşıyorsun."),
-"Kaset bitiyor. Ekran mavi. Mira kapıda duruyor; ne zamandır orada olduğunu bilmiyorsun."
+P(S("dg3A"), "İşlemi yaptırdın. Uyandığında hiçbir şey değişmemişti. Lale “Nasılsınız?” diye sordu. “Acıktım,” dedin. Gülümsedi, not aldı."),
+P(S("dg3B"), "Reddettin. Lale itiraz etmedi. O yüzde on başının içinde bir yerde yavaş yavaş sönüyor. Ne gittiğini bilmiyorsun. Bazen bir şarkının nakaratı yarıda kalıyor, o kadar."),
+P(S("dg3C"), "Mira uzun süre sustu. “Bilmiyorum baba,” dedi sonunda. “Ama sen bana baba gibi bakıyorsun, ben de sana kız gibi. Bu yetmiyorsa ne yetecek bilmiyorum.” Sonra çaydanlığı ocağa koydu."),
+P(S("dg3D"), "Lale aylarca uğraştı. Sonunda bir rapor getirdi. “Bir ses,” dedi. “Yüzde onun içinde bulabildiğimiz en tutarlı iz bir ses. Bir kadın, bir şarkı mırıldanıyor. Sözleri yok, ezgi var.” Raporun arkasına notalarını yazmıştı. Mira'ya gösterdin; Mira bir süre baktı, sonra mırıldandı. Ninni."),
+"Bir gün dolabı temizlerken bir kutu buluyorsun. Eski bir video kaseti. Üstünde Selma'nın el yazısı: “Mira, 6 yaş, deniz.”",
+"Çarşıdaki eskiciden bir video oynatıcı bulup kaseti takıyorsun. Ekranda bir sahil. Görüntü titrek. Küçük bir kız dalgalardan kaçıyor, gülüyor. Kamerayı tutan kadının sesi: “Yusuf bak, bak! Çek şunu, ay kaçtı!” Sonra kamera dönüyor ve ekranda sen varsın. Genç, güneşten kızarmış, kızını havaya atıp tutuyorsun.",
+P(function(d){ return d.kayip === "selma"; }, "O sesi tanımıyorsun. Karın bu. Seni “Yusuf” diye çağıran ses. Ekrandaki adam o sese dönüp gülüyor. Sen o gülüşün nereden geldiğini bilmiyorsun."),
+P(function(d){ return d.kayip === "mira"; }, "Bu kızı tanımıyorsun. Mira bu. Altı yaşında. Ekrandaki adam onu deli gibi seviyor, belli. Sen o adamı izliyorsun, bir komşunun düğün kasetini izler gibi."),
+P(function(d){ return d.kayip === "cocukluk"; }, "Her şeyi hatırlıyorsun: o günü, o sahili, Selma'nın sesini. Ama ekrandaki adamın bileğindeki saat babandan kalma ve sen babanın yüzünü hatırlamıyorsun."),
+"Kaset bitiyor. Ekran maviye dönüyor, bir cızırtı. Mira kapıda. Ne zamandır orada, bilmiyorsun."
 ], secenekler: [
 { t: "Mira'ya ekrandaki adamın sen olup olmadığını bilmediğini söylersin.", to: "dg4", etki: { bag: 1, durust: true } },
 { t: "Kaseti başa sarıp bir daha izlersin. Ve bir daha.", to: "dg4", etki: { koruma: 1 } },
 { t: "Kaseti Mira'ya verirsin: “Bu artık senin.”", to: "dg4", etki: { bag: 1 } },
-{ t: "Ekrandaki adama karşı hiçbir şey hissetmediğini kabul eder, kaseti kutusuna geri koyarsın.", to: "dg4", etki: { kabul: 1 } }
+{ t: "Hiçbir şey hissetmediğini kabul edip kaseti kutusuna geri koyarsın.", to: "dg4", etki: { kabul: 1 } }
 ]},
 
 dg4: { baslik: "Dedenin Saati", metin: [
-P(S("dg3bA"), "“Bilmiyorum,” dedin. Mira yanına oturdu. “Ben de bilmiyorum,” dedi. “Ama ekrandaki kızın ben olduğunu biliyorum ve onu da hatırlamıyorum. Altı yaşımı hiç hatırlamıyorum. Yani bir bakıma, ikimiz de o kasette yabancıyız.”"),
-P(S("dg3bB"), "Kaseti beş kez izledin. Her seferinde bir şey hissetmeye çalıştın; her seferinde hissetmeye çalıştığını hissettin. Bir anıyı izlemek ile onu yaşamış olmak arasında bir duvar var ve o duvar, ne kadar izlersen izle, yerinde."),
-P(S("dg3bC"), "Mira kaseti aldı, göğsüne bastırdı. “Teşekkür ederim,” dedi. Bir babadan bir anı aldı; ama o anının sahibi artık babası mı, kendisi mi?"),
-P(S("dg3bD"), "Kaseti kutusuna geri koydun. Hafif bir rahatlama. Bu rahatlamanın ne söylediğini düşünmek istemiyorsun."),
-"Bir öğleden sonra dükkânın kapısı açılıyor. Ece. Artık on üç yaşında. Bir yıl önce dedesinin saatini getirmişti.",
-"O saati bir yıl boyunca tamir ettin. Önce yay değişti. Sonra bir dişli. Sonra denge çarkı, sonra kadran camı, sonra akrep. Her ay bir şey bozuldu ve her ay bir parça değişti. Şimdi saatin içinde orijinal tek bir parça kalmadı. Ama aynı kasada, aynı ritimle çalışıyor. Tik, tak.",
-"Ece saati alıyor, kulağına götürüyor. Gülümsüyor. Sonra bir şey fark ediyor: kadranın kenarında, dedesinin yaptığı küçük bir çizik yok. Cam değişmiş.",
-"Sana bakıyor. “Amca,” diyor. “Bu hâlâ dedemin saati mi?”"
+P(S("dg3bA"), "“Bilmiyorum,” dedin. Mira yanına oturdu. “Ben de bilmiyorum,” dedi. “O kız benim, biliyorum, ama altı yaşımı hiç hatırlamıyorum. İkimiz de o kasette misafiriz yani.” Kumandayı alıp bir daha başlattı."),
+P(S("dg3bB"), "Kaseti beş kez izledin. Her seferinde bir şey hissetmeye çalıştın. Her seferinde çalıştığını fark ettin. Beşincide bant koptu. Eskici “Yapıştırırım,” dedi, “ama bir saniyesi gider.” Hangi saniyenin gideceğini sormadın."),
+P(S("dg3bC"), "Mira kaseti aldı, göğsüne bastırdı. “Sağ ol,” dedi. Sonra odasına gitti. O gece oynatıcının sesini duydun, çok kısık."),
+P(S("dg3bD"), "Kaseti kutusuna geri koydun. İçinde hafif bir rahatlama. Kutuyu dolabın en üst rafına, eski elinin kutusunun yanına koydun."),
+"Bir öğleden sonra dükkânın kapısı açılıyor. Ece. On üç yaşında, boyu uzamış, sesi kalınlaşmış, yüzünde bir sivilce.",
+"Dedesinin saatini bir yıl boyunca tamir ettin. Önce yay değişti. Sonra bir dişli. Sonra denge çarkı, kadran camı, akrep. Her ay bir şey bozuldu, her ay bir parça değişti. Şimdi içinde orijinal tek parça kalmadı. Aynı kasada, aynı ritimle çalışıyor.",
+"Ece saati alıp kulağına götürüyor, gülümsüyor. Sonra kadranın kenarına bakıyor. Dedesinin çakıyla attığı küçük çizik yok. Cam değişmiş.",
+"“Amca,” diyor. “Bu hâlâ dedemin saati mi?”"
 ], secenekler: [
-{ t: "“Evet. Aynı kasada, aynı ritimle çalışıyor. Bir saat parçalarından ibaret değil.”", to: "n1", etki: { kabul: 1, ece: "evet" } },
+{ t: "“Evet. Aynı kasa, aynı ritim. Saat parçalarından ibaret değil.”", to: "n1", etki: { kabul: 1, ece: "evet" } },
 { t: "“Hayır. Dedenin saati, değiştirdiğim parçaların kutusunda.”", to: "n1", etki: { koruma: 1, ece: "hayir" } },
-{ t: "“Sen onu dedenin saati diye taşıdıkça, öyle.”", to: "n1", etki: { bag: 1, ece: "sen" } },
-{ t: "“Bilmiyorum, kızım. Gerçekten bilmiyorum.”", to: "n1", etki: { ece: "bilmem" } }
+{ t: "“Sen onu dedenin saati diye taşıdıkça öyle.”", to: "n1", etki: { bag: 1, ece: "sen" } },
+{ t: "“Bilmiyorum kızım. Gerçekten bilmiyorum.”", to: "n1", etki: { ece: "bilmem" } }
 ]},
 
 /* ---------- İKİNCİ KOLU ---------- */
 ik1: { baslik: "Kapıdaki Adam", metin: [
-P(S("dg1A"), "“Hiçbir şey hissetmiyorum,” dedin Mira'ya. O gece Mira odasında uzun süre ağladı. Ertesi sabah kapı çalındı."),
-P(S("dg1B"), "Hatırlıyormuş gibi yaptın ve Mira inandı. Ya da inanmak istedi. Bir hafta boyunca bir rol oynadın. Sonra kapı çalındı."),
-P(S("dg1C"), "Mira her akşam anlatmaya başladı; sen ezberledin. Bir hafta sonra, bir akşam, kapı çalındı."),
-P(S("dg1D"), "Kaybettiğin şeyi umursamamak içini ürpertti. Bunu kimseye söylemedin. Bir hafta sonra kapı çalındı."),
-"Kapıyı Mira açıyor. Sonra bir ses çıkarıyor; çığlık değil, nefesin yanlış yere gitmesi gibi bir ses.",
-"Kapıda bir adam duruyor. Senin yüzün. Biraz daha genç görünüyor; teni daha düzgün, omuzları daha dik. Ama senin yüzün. Senin duruşun. Ve sağ elini, senin her zaman yaptığın gibi, başparmağını işaret parmağına sürterek tutuyor.",
+P(S("dg1A"), "“Hiçbir şey hissetmiyorum,” dedin Mira'ya. O gece Mira odasında uzun süre ağladı. Bir hafta sonra kapı çalındı."),
+P(S("dg1B"), "Hatırlıyormuş gibi yaptın; Mira inandı, ya da inanmak istedi. Bir hafta oynadın. Sonra kapı çalındı."),
+P(S("dg1C"), "Mira her akşam anlattı, sen ezberledin. Bir hafta sonra, bir akşam, kapı çalındı."),
+P(S("dg1D"), "Hiçbir şeyi umursamamak içini ürpertti. Kimseye söylemedin. Bir hafta sonra kapı çalındı."),
+"Kapıyı Mira açıyor. Sonra bir ses çıkarıyor. Çığlık değil, yutkunurken nefesin ters gitmesi gibi.",
+"Kapıda bir adam duruyor. Senin yüzün. Biraz daha genç, teni daha düzgün, omuzları daha dik. Ama senin yüzün. Sağ elinin başparmağını işaret parmağına sürtüyor. Sen düşünürken hep öyle yaparsın.",
 "“Mira,” diyor. Sesi seninki. “Kızım.”",
-"Sonra sana bakıyor. Uzun süre. Bir aynaya bakar gibi değil; bir aynanın kendisine bakar gibi.",
-"“Kurum'da bir hata olmuş,” diyor. “Senin sinirsel işlemin sırasında, birkaç saat boyunca kayıtlarda “kaybedildi” olarak görünmüşsün. Protokol yedeği yedek bir bedende uyandırmış. Ben. Uyandığımda her şeyi hatırlıyordum.” Durakladı. “Her şeyi.”",
-P(function(d){ return d.kayip === "selma"; }, "Ve sonra, sana değil, Mira'ya bakarak: “Annenin şemsiyesini dükkânda unuttuğu günü hatırlıyorum. Yağmur yağıyordu. Kırmızı bir şemsiyeydi.” Mira'nın yüzü değişiyor. Sen bunu hatırlamıyorsun. O hatırlıyor."),
-P(function(d){ return d.kayip === "mira"; }, "Ve sonra, sana değil, Mira'ya bakarak: “Bisiklete binmeyi öğrendiğin gün, düşmekten korkuyordun. Sana ‘Ben arkadayım’ dedim ve bıraktım. Sen pedal çevirirken dönüp baktın ve ben çok uzaktaydım. Ağlamadın. Güldün.” Mira'nın gözleri doluyor. Sen bunu hatırlamıyorsun. O hatırlıyor."),
-P(function(d){ return d.kayip === "cocukluk"; }, "Ve sonra, sana bakarak: “Babamızın elleri. Sabahları tezgâhı silerken mırıldandığı şarkı. Sen onu artık bilmiyorsun, değil mi?” Bilmiyorsun. O biliyor."),
-"Mira ikinizin arasında duruyor. Kapı hâlâ açık. Kış rüzgârı içeri doluyor."
+"Sonra sana bakıyor. Uzun süre.",
+"“Kurum'da bir hata olmuş,” diyor. “Senin sinirsel işlemin sırasında birkaç saat kayıtlarda kaybolmuşsun. Protokol yedeği yedek bir bedende uyandırmış. Beni. Uyandığımda her şeyi hatırlıyordum.” Duruyor. “Her şeyi.”",
+P(function(d){ return d.kayip === "selma"; }, "Sonra sana değil, Mira'ya bakarak: “Annenin şemsiyesini dükkânda unuttuğu günü hatırlıyorum. Yağmur yağıyordu. Kırmızı bir şemsiyeydi, sapı kırık.” Mira'nın yüzü değişiyor. Sen ona hep mavi demiştin."),
+P(function(d){ return d.kayip === "mira"; }, "Sonra sana değil, Mira'ya bakarak: “Bisiklete binmeyi öğrendiğin gün düşmekten korkuyordun. ‘Ben arkadayım’ dedim ve bıraktım. Pedal çevirirken dönüp baktın, ben çok gerideydim. Ağlamadın. Güldün. Sonra bir çalıya girdin.” Mira gülüyor ve ağlıyor. Sen bunu hatırlamıyorsun."),
+P(function(d){ return d.kayip === "cocukluk"; }, "Sonra sana bakarak: “Babamın elleri. Sabahları tezgâhı silerken mırıldandığı türkü. Sen onu artık bilmiyorsun, değil mi?” Bilmiyorsun. O mırıldanmaya başlıyor. İki ölçü sonra susuyor."),
+"Kapı hâlâ açık. Kış rüzgârı içeri doluyor, Mira'nın ayakları çıplak."
 ], secenekler: [
 { t: "Onu içeri alırsın. Kim olursa olsun, kapıda bırakılmaz.", to: "ik2", etki: { kabul: 1, iceri: true } },
-{ t: "Kapıyı kapatır, Kurum'u ararsın.", to: "ik2", etki: { koruma: 1, kurum_aradi: true } },
+{ t: "Kapıyı kapatıp Kurum'u ararsın.", to: "ik2", etki: { koruma: 1, kurum_aradi: true } },
 { t: "Ona sorarsın: “Senin için ben kimim?”", to: "ik2", etki: { soru: true } },
 { t: "Mira'ya bakarsın. Bu kapıda ne olacağına o karar versin.", to: "ik2", etki: { bag: 1, mira_kapi: true } }
 ]},
 
 ik2: { baslik: "İki Baba", metin: [
-P(S("ik1A"), "Onu içeri aldın. Mutfak masasına oturdu; senin sandalyene, hiç düşünmeden. Sonra fark edip kalktı. “Pardon,” dedi. Kendi evinde, kendine özür diledi."),
-P(S("ik1B"), "Kapıyı kapattın. Kurum'u aradın. Kapının öbür tarafında adam bekliyordu; çalmadı, gitmedi. Mira pencereden onu izledi ve bir saat sonra, sana sormadan, kapıyı açtı."),
-P(S("ik1C"), "“Senin için ben kimim?” diye sordun. Uzun süre düşündü. “Bilmiyorum,” dedi. “Sanırım ben, senin olabileceğin kişiyim. Ya da senin olduğun kişi. Ya da sen, benim olduğum kişiden bir şey eksiği.”"),
-P(S("ik1D"), "Mira ikinize de baktı. Sonra kenara çekildi ve adamın içeri girmesine izin verdi. Kararı o verdi; ama sana bakmadan değil."),
-"Ertesi gün Lale geliyor. Yüzü solgun, elinde bir dosya. Kurum adına özür diliyor; uzun, dikkatli, yasal cümlelerle.",
-"“Ancak bir sorunumuz var,” diyor. “Kemerli'de bir kişi yalnızca bir kez kayıtlı olabilir. Yusuf Taner adına yalnızca bir kimlik, bir ev, bir velayet. Biriniz bu kimliği taşıyacak. Öteki yeni bir adla yaşayabilir, başka bir şehirde. Ya da...” Durakladı. “Yedek, talep edilirse arşive geri alınabilir. Acısız. Uyku gibi.”",
+P(S("ik1A"), "Onu içeri aldın. Mutfak masasına oturdu. Senin sandalyene, hiç düşünmeden. Sonra fark edip kalktı. “Pardon,” dedi. Kendi evinde, kendine."),
+P(S("ik1B"), "Kapıyı kapattın, Kurum'u aradın. Hat meşguldü. Adam kapının öbür yanında bekledi. Çalmadı, gitmedi. Bir saat sonra Mira, sana sormadan, kapıyı açtı ve ona terlik verdi."),
+P(S("ik1C"), "“Senin için ben kimim?” Düşündü. “Bilmiyorum,” dedi. “Sanırım sen, benim bir yıl sonramsın. Ben de senin bir yıl öncen. Ama ikimiz de bugünüz. Kafam karıştı.”"),
+P(S("ik1D"), "Mira ikinize de baktı. Sonra kenara çekilip adamın girmesine izin verdi. Kararı o verdi. Ama önce sana bir kez baktı."),
+"Ertesi gün Lale geliyor. Yüzü solgun, elinde kalın bir dosya. Kurum adına özür diliyor. Uzun, dikkatli, avukat cümleleriyle.",
+"“Ancak bir sorunumuz var,” diyor. “Kemerli'de bir kişi bir kez kayıtlı olabilir. Yusuf Taner adına bir kimlik, bir ev, bir velayet. Biriniz bu kimliği taşıyacak. Öteki yeni bir adla, başka bir şehirde yaşayabilir. Ya da...” Durakladı. “Talep edilirse yedek arşive geri alınabilir. Acısız. Uyku gibi.”",
 "“Hangimiz?” diye soruyor öteki.",
-"“Kurum'un görüşü,” diyor Lale, “bedensel süreklilik. Bu beden, bu süreç, kesintisiz. Yani siz.” Sana bakıyor. Sonra ötekine. “Ama hukuk müşavirimiz başka bir görüşte: zihinsel süreklilik. Bütün anılar, eksiksiz. Yani siz.”",
-"Mira köşede duruyor. Kollarını göğsünde kavuşturmuş, iki babasına bakıyor.",
+"“Kurum'un görüşü bedensel süreklilik,” diyor Lale. “Bu beden, bu süreç. Yani siz.” Sana bakıyor. Sonra ötekine. “Hukuk müşavirimiz başka düşünüyor: zihinsel süreklilik. Anılar eksiksiz. Yani siz.” Dosyayı kapatıyor. “Kendi aramızda da anlaşamadık.”",
+"Mira köşede, kollarını kavuşturmuş, iki babasına bakıyor.",
 P(function(d){ return d.kayip === "mira"; }, "Biri onun çocukluğunu hatırlıyor. Biri hatırlamıyor."),
 P(function(d){ return d.kayip === "selma"; }, "Biri annesini hatırlıyor. Biri hatırlamıyor."),
-P(function(d){ return d.kayip === "cocukluk"; }, "İkisi de onu hatırlıyor. Ama yalnızca biri, kendisinin nereden geldiğini.")
+P(function(d){ return d.kayip === "cocukluk"; }, "İkisi de onu hatırlıyor. Yalnızca biri kendi babasını.")
 ], secenekler: [
-{ t: "Sen kalırsın, o gider. Bu beden, bu süreç, bu hayat senin.", to: "ik3", etki: { koruma: 1, ikinci: "gitti" } },
+{ t: "Sen kalırsın, o gider. Bu beden, bu hayat senin.", to: "ik3", etki: { koruma: 1, ikinci: "gitti" } },
 { t: "O kalsın, sen gidersin. Mira'nın ihtiyacı olan, eksiksiz olan.", to: "ik3", etki: { kabul: 1, bag: 1, ikinci: "kaldi" } },
 { t: "İkiniz de kalırsınız, Kurum'a rağmen. Mira'nın iki babası olur.", to: "ik3", etki: { bag: 1, ikinci: "ikisi" } },
 { t: "Mira seçsin.", to: "ik3", etki: function(d){ d.bag++; d.ikinci = (d.kayip === "mira" || d.kayip === "selma") ? "kaldi" : "gitti"; d.mira_secti = true; } }
 ]},
 
 ik3: { baslik: "Ayna", metin: [
-P(function(d){ return d.mira_secti && d.ikinci === "kaldi"; }, "Mira uzun süre ikinize baktı. Sonra ötekinin yanına geçti. “Özür dilerim,” dedi sana. “Sen de babamsın. Ama o... o beni hatırlıyor.” Ağlamadı. Sesindeki kararlılık, annesininkiydi. Bunu bilen yalnızca öteki."),
-P(function(d){ return d.mira_secti && d.ikinci === "gitti"; }, "Mira uzun süre ikinize baktı. Sonra senin yanına geçti. Ötekine döndü: “Sen her şeyi hatırlıyorsun,” dedi. “Ama bu son bir yılı ben onunla yaşadım. Elini değiştirdiğini, kalbini değiştirdiğini, unuttuğunu. Sen bunları bilmiyorsun. Sen onun dünkü hâlisin.”"),
-P(function(d){ return !d.mira_secti && d.ikinci === "gitti"; }, "Ötekine gitmesini söyledin. Başını salladı. İtiraz etmedi; belki itiraz etmemeyi senden öğrenmişti, ya da sen ondan. Lale'ye yeni bir ad seçeceğini söyledi. Başka bir şehir."),
-P(function(d){ return !d.mira_secti && d.ikinci === "kaldi"; }, "Gideceğini söyledin. Mira itiraz etti, ağladı, sonra sustu. Öteki hiçbir şey söylemedi. Yalnızca sana baktı ve sen o bakışta, kendini nasıl göründüğünü ilk kez gördün."),
-P(function(d){ return d.ikinci === "ikisi"; }, "Kurum'a hayır dediniz. Lale bir süre sessiz kaldı, sonra dosyasını kapattı. “Bu konuda bir yönetmeliğimiz yok,” dedi. “Hiç olmadı. Kimse istemedi.” Bir yasa boşluğunda, iki kişi aynı adı taşıyacak."),
-"O gece mutfakta ikiniz kalıyorsunuz. Mira uyuyor ya da uyuyormuş gibi yapıyor. Masada iki çay bardağı. İkiniz de bardağı aynı şekilde tutuyorsunuz; sağ elle, başparmak kulpun üstünde.",
-"Öteki bir şey anlatmaya başlıyor. Senin kaybettiğin anıyı. Yavaşça, ayrıntılarıyla. Sesinde hiçbir kibir yok; yalnızca bir şeyi geri vermeye çalışan birinin özeni.",
-"Dinlerken fark ediyorsun: kendi hayatının bir parçası sana bir başkasının ağzından geliyor. Ve o başkası, senin sesinle konuşuyor.",
-"Bir an, ikinizden hangisinin asıl olduğu sorusu anlamını yitiriyor. Belki baştan beri “asıl” diye bir şey yoktu. Belki yalnızca devam eden şeyler vardı ve devam etmek, birden fazla yöne gidebiliyordu."
+P(function(d){ return d.mira_secti && d.ikinci === "kaldi"; }, "Mira uzun süre ikinize baktı. Sonra ötekinin yanına geçti. “Özür dilerim,” dedi sana. “Sen de babamsın. Ama o beni hatırlıyor.” Sesi annesininki kadar kararlıydı. Bunu bilen yalnızca öteki."),
+P(function(d){ return d.mira_secti && d.ikinci === "gitti"; }, "Mira uzun süre ikinize baktı. Sonra senin yanına geçti ve ötekine döndü: “Sen her şeyi hatırlıyorsun. Ama bu son yılı ben onunla geçirdim. Elini değiştirdiğini, kalbini, unuttuğunu. Sen bunları bilmiyorsun.”"),
+P(function(d){ return !d.mira_secti && d.ikinci === "gitti"; }, "Ötekine gitmesini söyledin. İtiraz etmedi. Lale'ye yeni bir ad seçeceğini söyledi. Bir süre düşündü, sonra babanızın adını söyledi. “Olur mu?” dedi sana. Bir şey diyemedin."),
+P(function(d){ return !d.mira_secti && d.ikinci === "kaldi"; }, "Gideceğini söyledin. Mira itiraz etti, ağladı, sonra sustu. Öteki hiçbir şey demedi. Yalnızca sana baktı. Kendini dışarıdan nasıl göründüğünü o bakışta gördün. Yorgun, eski bir paltonun içinde."),
+P(function(d){ return d.ikinci === "ikisi"; }, "Kurum'a hayır dediniz. Lale bir süre dosyaya baktı. “Bu konuda yönetmeliğimiz yok,” dedi. “Kimse istemedi daha önce.” Kapıdan çıkarken döndü: “Bir şey olursa beni arayın. Kurum'u değil, beni.”"),
+"O gece mutfakta ikiniz kalıyorsunuz. Mira uyuyor ya da uyuyormuş gibi yapıyor. Masada iki çay bardağı. İkiniz de bardağı aynı şekilde tutuyorsunuz. Sağ elle, başparmak kenarın üstünde. Fark edip aynı anda bırakıyorsunuz.",
+"Öteki sana senin kaybettiğin anıyı anlatmaya başlıyor. Yavaşça, ayrıntılarıyla. Sesinde hiç kibir yok. Arada bir duruyor, “Doğru mu anlatıyorum?” diye soruyor. Sonra bunun ne saçma bir soru olduğunu fark edip gülüyor. Sen de gülüyorsun.",
+"Bir saat sonra çay soğumuş. Hangisinin bardağı hangisi, karışmış."
 ], secenekler: [
-{ t: "Ondan anıyı baştan, eksiksiz anlatmasını istersin.", to: "n1", etki: { kabul: 1, dinledi: true } },
-{ t: "Durdurursun. “Bu anı artık senin,” dersin. “Ben onsuz devam edeceğim.”", to: "n1", etki: { koruma: 1 } },
+{ t: "Anıyı baştan, eksiksiz anlatmasını istersin.", to: "n1", etki: { kabul: 1, dinledi: true } },
+{ t: "Durdurursun. “Bu anı artık senin,” dersin. “Ben onsuz devam ederim.”", to: "n1", etki: { koruma: 1 } },
 { t: "Kalkıp ona sarılırsın.", to: "n1", etki: { bag: 1, sarildi: true } },
-{ t: "Ona babandan kalan büyüteci verirsin. Hangisinde kalacağına o karar versin.", to: "n1", etki: { bag: 1, buyutec: true } }
+{ t: "Babandan kalan büyüteci ona verirsin. Kimde kalacağına o karar versin.", to: "n1", etki: { bag: 1, buyutec: true } }
 ]},
 
 /* ---------- RET KOLU ---------- */
 r1: { baslik: "Kendi Sırasıyla", metin: [
-"“Reddediyorum,” diyorsun. Lale bir süre sessiz kalıyor, sonra kâğıdı geri çekiyor. “Kurum kimseyi zorlamaz,” diyor. Kemerli'de herkesin bildiği bir cümle. “Yalnızca bekler.”",
-"Eve dönüyorsun. Mira mutfakta. Kararını söylüyorsun. Önce susuyor, sonra öfkeleniyor, sonra ağlıyor, sonra tekrar susuyor.",
-"“Seçebilirdin,” diyor. “Bir şeyi bırakırdın ama geri kalanı kalırdı. Şimdi her şey gidecek. Hangi sırayla gideceğini bile bilmeyeceğiz.”",
-"Haklı. Ama sen de bir şey biliyorsun: hangi anıyı bırakacağını seçmek, kendi kendini budamaktı. Neyin değerli olduğuna karar vermek, geri kalanın değersiz olduğuna karar vermekti. Sen hiçbir şeyi değersiz ilan etmedin. Hepsini kaybedeceksin ama hiçbirini ele vermedin.",
-"Bu bir ilke mi, yoksa inat mı? Gece yatakta tavana bakarken bunu bilmiyorsun.",
-"Bir hafta sonra anahtarlarını kapının dışında bırakıyorsun. İki hafta sonra Ece'nin adını hatırlayamıyorsun; Ece kapıdan girene kadar. Bir ay sonra bir sabah bir kelime kayboluyor: “şemsiye.” Bir gün boyunca o şeyi tarif ediyorsun, yağmurda açılan, ama adını bulamıyorsun.",
-"Ve “şemsiye” kelimesiyle birlikte bir şey daha titreşiyor, gitmek üzere: kırmızı, bir dükkânda unutulmuş."
+"“Reddediyorum,” diyorsun. Lale kâğıdı geri çekiyor. “Kurum kimseyi zorlamaz,” diyor. “Bekler.” Kalemi kâğıdın üstüne bırakıyor, sonra bir daha alıp cebine koyuyor.",
+"Eve dönüyorsun. Mira mutfakta, patates soyuyor. Söylüyorsun. Önce susuyor, sonra bıçağı bırakıp bağırıyor, sonra ağlıyor, sonra yine patates soymaya başlıyor. Kabuklar kalın kalın kopuyor.",
+"“Seçebilirdin,” diyor. “Bir şeyi bırakırdın, gerisi kalırdı. Şimdi hepsi gidecek. Hangi sırayla gideceğini bile bilmeyeceğiz.”",
+"Haklı. Ama o kâğıdın üstünde Selma'yı ya da Mira'yı ya da babanı karalamak elini kaldıramadığın bir şeydi. Bunu ona nasıl söyleyeceğini bilmiyorsun. İlke mi bu, inat mı. Gece tavana bakarken de bilmiyorsun.",
+"Bir hafta sonra anahtarlarını kapının dışında unutuyorsun. İki hafta sonra Ece'nin adı kayboluyor; Ece kapıdan girene kadar. Bir ay sonra bir sabah bir kelime gidiyor: şemsiye. Bütün gün tarif ediyorsun. Yağmurda açılan, kolun altına sıkıştırılan, otobüste unutulan şey. Mira sonunda söylüyor. “Ha,” diyorsun. “O.”",
+"Akşam, o kelimeyle birlikte bir şeyin daha gitmek üzere olduğunu hissediyorsun: bir renk, bir dükkân, bir yağmur."
 ], secenekler: [
-{ t: "Bir defter tutmaya başlarsın. Her gün, hatırladığın her şeyi yazarsın.", to: "r2", etki: { koruma: 1, defter: true } },
+{ t: "Bir defter tutmaya başlarsın. Her gün hatırladığın her şeyi yazarsın.", to: "r2", etki: { koruma: 1, defter: true } },
 { t: "Mira'dan seni kaydetmesini istersin: sesini, anlattıklarını, yüzünü.", to: "yp_kayit", etki: { bag: 1, kayit: true } },
-{ t: "Hiçbir şey yapmazsın. Ne gidiyorsa gitsin. Unutmak da hayatın bir parçası.", to: "r2", etki: { kabul: 1, birak: true } },
-{ t: "Necmi'ye gidip, öldüğünde bedenini ona bağışlamak istediğini söylersin.", to: "yp_necmi_ev", etki: { kabul: 1, necmi_soz: true } }
+{ t: "Hiçbir şey yapmazsın. Ne gidiyorsa gitsin.", to: "r2", etki: { kabul: 1, birak: true } },
+{ t: "Necmi'ye gidip öldüğünde bedenini ona bağışlamak istediğini söylersin.", to: "yp_necmi_ev", etki: { kabul: 1, necmi_soz: true } }
 ]},
 
 r2: { baslik: "Mira'nın Defteri", metin: [
-P(S("yp_kayitA"), "Devam ettin. Unuttuklarınla birlikte. Kayıtlar birikti: hatırladıklarının yanında, hatırlayamadıklarının boşlukları. Mira hepsini sakladı. “Boşluklar da sesin,” dedi."),
-P(S("yp_kayitB"), "Kaydı durdurdu. Ama Mira bir şey yazdı defterine; sen görmedin. Sonradan öğrendin: “Babam unuttuklarının kaydedilmesini istemedi. Ben bunu kaydettim.”"),
-P(S("yp_kayitC"), "Mira anlattı: senin hatırlamadığın bir gün. Yedi yaşında, ateşlenmiş, sen bütün gece başında oturmuşsun, ona bir saatin nasıl çalıştığını anlatmışsın. Hatırlamıyorsun. Ama şimdi biliyorsun. Bir anı, bir yönden öbürüne geçti."),
-P(S("yp_kayitD"), "Kayda Selma'ya bir mesaj bıraktın. “Selma, belki seni unutacağım. Ama bu kayıt seni hatırlayacak.” Mira bu kaydı hiç silmedi."),
-P(S("yp_necmi_evA"), "Necmi gözlerini kapadı. “Bir insan,” dedi. “Evet. Her parça bir insan.” Sonra fotoğrafa baktı. “Teşekkür ederim.” Bunu kırk yıldır kimseye söylememiş gibiydi."),
-P(S("yp_necmi_evC"), "Necmi başını salladı. “Doğru,” dedi. “Kızına sor.” Kapıda seni uğurlarken ekledi: “Ama sorduğun için sağ ol. Bir an, bir an sadece, biri bana kendini vermek istedi.”"),
-P(function(d){ return d.son === "yp_necmi_evB" || d.son === "yp_necmi_evD"; }, "Necmi uzun süre bir şey söylemedi. Sonra çayını bitirdi ve kalktı. “Kabul,” dedi. Fotoğrafın önünde bir an durdu. Sana dönmeden: “Ama acele etme.”"),
-P(S("r1A"), "Defterin ilk sayfasına yazdın: “Adım Yusuf. Elli üç yaşındayım. Kızım Mira. Karım Selma, öldü.” Sonra her gün bir sayfa. Bir ay sonra ilk sayfayı okuduğunda, kendi el yazını tanıdın ama cümleleri tanımadın. Biri sana senin hayatını anlatıyordu ve o biri sendin."),
-P(S("r1B"), "Mira her akşam telefonu masaya koydu ve sen anlattın. Babanı, dükkânı, Selma'yı, onun çocukluğunu. Bazı geceler aynı hikâyeyi iki kez anlattın; Mira seni durdurmadı. Kayıtlar birikiyor. Bir gün onlar senden daha çok sen olacak."),
-P(S("r1C"), "Hiçbir şey yapmadın. Kayboluşu izledin, bir sonbahar ağacını izler gibi. Bazı günler hafif, bazı günler korkunç. Gitmesine izin vermenin bir tür huzuru var; ama o huzurun içinde, giden şeyin ne olduğunu bilmemenin derin bir serinliği."),
-P(S("r1D"), "Necmi seni dinledi, başını salladı. “Bütün olarak,” dedi. “Hiç bütün bir insan almamıştım.” Gözleri parladı. Sonra söndü. “Ama seni bütün olarak alacağım zaman, sen artık sen olmayacaksın. Hatıraların gitmiş olacak. Bana boş bir saat kasası bırakacaksın.”"),
-"Aylar geçiyor. Mira sınavlarını verdi; sonucunu ona üç kez sordun, her seferinde sevinçle.",
-"Bir sabah mutfakta Mira'yı buluyorsun; bir defterin başında. Senin değil, kendi defteri. Kalın, mavi kapaklı. Sayfa sayfa yazı.",
-"“Ne yazıyorsun?” diye soruyorsun.",
-"Mira bir süre bakıyor. “Seni,” diyor. “Sen unuttukça ben yazıyorum. Senin anlattıklarını, benim hatırladıklarımı, annemin dediklerini. Bir gün sen hiçbir şeyi hatırlamadığında, ben sana senin hayatını okuyacağım. Bir masal gibi.”",
-"Defteri sana uzatıyor. Ortalardan bir sayfa açıyorsun. Mira'nın yuvarlak el yazısıyla: “Babam bana bisiklete binmeyi öğrettiği gün, ‘Ben arkadayım’ dedi ve bıraktı. Döndüğümde çok uzaktaydı.”",
-"Bu anıyı hatırlamıyorsun artık. Ama kızının el yazısında okuyorsun ve bir şey kıpırdıyor; bir anı değil, bir anının gölgesi."
+P(S("yp_kayitA"), "Devam ettin. Kayıtlar birikti. Hatırladıklarının yanında, hatırlayamadığın yerlerde uzun sessizlikler. Mira hiçbirini silmedi. Bir gece o sessizliklerden birini dinlerken uyuyakalmış. Sabah telefon yanağının altındaydı."),
+P(S("yp_kayitB"), "Mira kaydı durdurdu. Ama kâğıdına bir şey yazdı. Sonradan defterinde okuyacaktın: “Babam unuttuklarının kaydedilmesini istemedi. Bunu da yazıyorum, kızmasın.”"),
+P(S("yp_kayitC"), "Mira anlattı: senin hatırlamadığın bir gece. Yedi yaşında, ateşi kırka çıkmış. Sen bütün gece başında oturup bir saatin içini anlatmışsın, dişli dişli. “En sıkıcı masaldı,” dedi Mira. “Ama uyudum.”"),
+P(S("yp_kayitD"), "Kayda Selma'ya bir mesaj bıraktın. Söyleyeceklerini düşünmüştün. Telefon kayda başlayınca hepsi gitti. “Selma,” dedin. Sonra uzun bir sessizlik. Sonra “Şemsiyeni hâlâ bende,” dedin. Mira bu kaydı hiç silmedi."),
+P(S("yp_necmi_evA"), "Necmi gözlerini kapadı. “Evet,” dedi. “Her parça bir insan.” Sonra fotoğrafa baktı. “Sağ ol.” Kavanozu masaya bıraktı, eli titriyordu."),
+P(S("yp_necmi_evC"), "Necmi başını salladı. “Doğru. Kızına sor.” Kapıda seni uğurlarken ekledi: “Ama aklına geldi ya. Bir kere biri bana kendini vermek istedi. O da bir şey.”"),
+P(function(d){ return d.son === "yp_necmi_evB" || d.son === "yp_necmi_evD"; }, "Necmi çayını bitirip kalktı. “Kabul,” dedi. Fotoğrafın önünde durdu. Sana dönmeden: “Ama acele etme. Ben bekleyebilirim. Bekleyemeyen sensin.”"),
+P(S("r1A"), "Defterin ilk sayfasına yazdın: “Adım Yusuf. Elli üç yaşındayım. Kızım Mira. Karım Selma, öldü.” Sonra her gün bir sayfa. Bir ay sonra ilk sayfayı okuduğunda el yazını tanıdın, cümleleri tanımadın. En altta bir not vardı: “Ekmek al.” Neden yazdığını bilmeden ekmek aldın."),
+P(S("r1B"), "Mira her akşam telefonu masaya koydu ve sen anlattın: babanı, dükkânı, Selma'yı, onun çocukluğunu. Bazı geceler aynı hikâyeyi iki kez anlattın; Mira durdurmadı. Bir keresinde “Bunu dün de anlattın,” dedi, sonra hemen “Ama bugün daha güzel anlattın,” diye ekledi."),
+P(S("r1C"), "Hiçbir şey yapmadın. Kayboluşu izledin. Bazı günler hafif, bazı günler korkunç. Bir gün Mira'nın doğum gününü unuttun; Mira bir şey demedi, akşam kendi pastasını kendi aldı, sen mumları yaktın."),
+P(S("r1D"), "Necmi seni dinledi. “Bütün olarak,” dedi. “Hiç bütün bir insan almamıştım.” Gözleri parladı, sonra söndü. “Ama seni aldığımda sen olmayacaksın ki. Hatıraların gitmiş olacak. Bana boş bir kasa bırakacaksın.” Bunu kötü niyetle söylemedi. Bir esnafın hesabı gibi söyledi."),
+"Aylar geçiyor. Mira sınavlarını verdi. Sonucunu ona üç kez sordun, üçünde de sevindin. Üçüncüsünde Mira da gerçekten sevinmiş gibi yaptı.",
+"Bir sabah mutfakta Mira'yı bir defterin başında buluyorsun. Senin değil. Kalın, mavi kapaklı, kendi defteri. Sayfa sayfa yazı.",
+"“Ne yazıyorsun?”",
+"Mira bir süre bakıyor. “Seni,” diyor. “Sen unuttukça ben yazıyorum. Senin anlattıklarını, benim hatırladıklarımı, annemin dediklerini. Bir gün hiçbir şey hatırlamadığında sana okuyacağım. Masal gibi.” Sonra ekliyor: “Sıkıcı yerleri atlayacağım ama.”",
+"Defteri uzatıyor. Ortalardan bir sayfa açıyorsun. Mira'nın yuvarlak el yazısıyla: “Babam bana bisiklete binmeyi öğrettiği gün ‘Ben arkadayım’ dedi ve bıraktı. Döndüğümde çok uzaktaydı. Bir çalıya girdim.”",
+"Bu anıyı artık hatırlamıyorsun. Çalıyı hatırlamıyorsun. Okurken gülüyorsun yine de."
 ], secenekler: [
 { t: "Defteri ondan istersin. Her gece kendin okuyacaksın.", to: "r3", etki: { koruma: 1, mira_defter: true } },
-{ t: "Mira'ya yazmayı bırakmasını söylersin: “Sen kendi hayatını yaşa. Benimkini değil.”", to: "r3", etki: { bag: 1, birak_mira: true } },
-{ t: "Mira'dan defteri sesli okumasını istersin. Şimdi. Hatırlarken.", to: "r3", etki: { bag: 1, okudu: true } },
+{ t: "Yazmayı bırakmasını söylersin: “Sen kendi hayatını yaz. Benimkini değil.”", to: "r3", etki: { bag: 1, birak_mira: true } },
+{ t: "Defteri şimdi, sen hâlâ hatırlarken, sesli okumasını istersin.", to: "r3", etki: { bag: 1, okudu: true } },
 { t: "Defteri kapatıp geri verirsin. O sayfalardaki adamı tanımaya hazır değilsin.", to: "r3", etki: { koruma: 1 } }
 ]},
 
 r3: { baslik: "Yabancı Yüz", metin: [
-P(S("r2A"), "Defter artık başucunda. Her gece okuyorsun. Bazı geceler gülüyorsun, bazı geceler ağlıyorsun, bazı geceler hiçbir şey hissetmiyorsun ve bu en kötüsü."),
-P(S("r2B"), "Mira itiraz etti. “Bu benim hayatım,” dedi. “Seni yazmak benim hayatım.” Haklıydı ya da değildi; ama yazmaya devam etti. Sen de bir daha söylemedin."),
-P(S("r2C"), "Mira okudu. Bir saat, iki saat. Sesini dinledin. Bir yerde sustu, çünkü sen ağlıyordun. “Devam et,” dedin. Ne için ağladığını bilmiyordun. Belki hatırladığın için. Belki hatırlamadığın için."),
-P(S("r2D"), "Defteri geri verdin. Mira kapattı, göğsüne bastırdı. “Bekleyeceğim,” dedi."),
-"Kışın ortasında bir sabah uyanıyorsun ve mutfakta genç bir kadın var. Kahve yapıyor. Sana dönüp gülümsüyor: “Günaydın baba.”",
-"Bir an. Yalnızca bir an. Ama o an boyunca bu kadının kim olduğunu bilmiyorsun. Yüzü tanıdık bir manzara gibi ama ne zaman, nerede görüldüğü belli değil.",
-"Sonra geliyor. Mira. Kızın. Ama o bir an olmuştu ve Mira bunu yüzünden okudu. Elindeki fincan titredi. Kahve dökülmedi; ama neredeyse.",
-"“Baba,” diyor. Sesi kırık. “Beni tanıdın mı?”",
-"Bu sorunun cevabı “evet”. Ama cevap gelmeden önceki o boşluk, ikinizin arasına bir şey yerleştirdi. Bir daha bu soruyu sormadan sana bakamayacak."
+P(S("r2A"), "Defter artık başucunda. Her gece okuyorsun. Bazı geceler gülüyorsun, bazı geceler ağlıyorsun. Bazı geceler hiçbir şey hissetmiyorsun ve sabah Mira'ya defterin iyi yazıldığını söylüyorsun, bir kitap okumuş gibi."),
+P(S("r2B"), "Mira itiraz etti. “Bu benim hayatım,” dedi. “Seni yazmak benim hayatım.” Yazmaya devam etti. Sen bir daha söylemedin. Bir gece defteri masada açık bulup bir sayfasını okudun, sonra kapatıp eski yerine koydun."),
+P(S("r2C"), "Mira okudu. Bir saat, iki saat. Bir yerde durdu, çünkü sen ağlıyordun. “Devam et,” dedin. Neden ağladığını bilmiyordun. Mira de bilmiyordu. O da ağlıyordu."),
+P(S("r2D"), "Defteri geri verdin. Mira göğsüne bastırdı. “Beklerim,” dedi."),
+"Kışın ortasında bir sabah uyanıyorsun ve mutfakta genç bir kadın var. Kahve yapıyor. Dönüp gülümsüyor: “Günaydın baba.”",
+"Bu kadının kim olduğunu bilmiyorsun. Yüzü tanıdık. Bir otobüste her sabah gördüğün biri gibi.",
+"Sonra geliyor. Mira. Kızın. Ama o boşluk olmuştu ve Mira yüzünden okudu. Elindeki fincan sallandı. Kahve tezgâha döküldü. Bezi almak için dönmedi.",
+"“Baba,” diyor. “Beni tanıdın mı?”"
 ], secenekler: [
-{ t: "“Tanıdım,” dersin. Ve o bir anı hiç anmazsın.", to: "r4", etki: { koruma: 1, gizledi: true } },
-{ t: "“Bir an tanımadım,” dersin. “Ama sonra tanıdım. Hep tanıyacağım, bir gün tanımasam bile.”", to: "r4", etki: { bag: 1, durust: true } },
-{ t: "Kurum'u aramayı düşünürsün; belki geç değildir.", to: "r4", etki: { kabul: 1, pisman: true } },
+{ t: "“Tanıdım,” dersin ve o boşluktan hiç söz etmezsin.", to: "r4", etki: { koruma: 1, gizledi: true } },
+{ t: "“Önce tanımadım,” dersin. “Sonra tanıdım. Bir gün tanımasam bile hep tanıyacağım.”", to: "r4", etki: { bag: 1, durust: true } },
+{ t: "Kurum'u aramayı düşünürsün. Belki hâlâ geç değildir.", to: "r4", etki: { kabul: 1, pisman: true } },
 { t: "Kalkıp ona sarılırsın. Kelimelere güvenmiyorsun artık.", to: "r4", etki: { bag: 1, sarildi: true } }
 ]},
 
 r4: { baslik: "Berrak Gün", metin: [
-P(S("r3A"), "“Tanıdım,” dedin. Mira sana inandı. Ya da inanmayı seçti. Kahveyi bıraktı, sana sarıldı. Omzunun üstünden, mutfağın penceresinden, karla kaplı erik ağacına baktın."),
-P(S("r3B"), "Mira bir süre sustu. Sonra güldü; gözleri dolu, ama güldü. “Bir gün tanımasan bile,” dedi. “Bu iyi bir cümle. Bunu deftere yazacağım.”"),
-P(S("r3C"), "Kurum'u aradın. Lale sesini tanıdı. “Sinirsel işlem için çok geç,” dedi, nazikçe. “Kaybedilen doku geri getirilemez. Kalanı değiştirebiliriz ama kalan, artık çok az.” Telefonu kapattın. Bir yolun kapandığını bilmek, onu kendin kapatmış olmaktan daha mı ağır?"),
-P(S("r3D"), "Ona sarıldın. Mira'nın saçları kahve ve sabun kokuyordu. Bu kokuyu hatırlıyorsun. İsmini bir an unuttuğun kızının kokusunu hatırlıyorsun. Zihin, hiç kimseye sormadan, neyi tutacağını kendi seçiyor."),
-"Bahara doğru bir sabah uyandığında her şey berrak. Bazen böyle günler oluyor: sis kalkıyor ve geride kalan her şey keskin, renkli, yerli yerinde. Kaybettiklerin geri gelmiyor ama kalanlar parlıyor.",
-"Dükkâna gidiyorsun. Uzun zamandır gitmiyordun. Tezgâh tozlu. Büyüteç yerinde. Çekmecede Ece'nin dedesinin saati; hiç teslim edemediğin, yarım kalan.",
-"Saati açıyorsun. Ellerin titriyor ama bugün titreme bile tanıdık. Yayı yerine oturtmaya çalışıyorsun. Kayıyor. Bir kez daha. Kayıyor.",
-"Kapı açılıyor. Ece. On üç yaşında. Yanında Mira. İkisi de bir şey söylemiyor. Ece tezgâhın öbür tarafına geçip oturuyor. Mira senin yanına.",
-"Mira'nın parmakları ince, sabırlı."
+P(S("r3A"), "“Tanıdım,” dedin. Mira inandı, ya da inanmayı seçti. Bezi alıp tezgâhı sildi, sonra sana sarıldı. Omzunun üstünden karla kaplı erik ağacını gördün."),
+P(S("r3B"), "Mira bir süre sustu. Sonra güldü. Gözleri dolu, ama güldü. “Bir gün tanımasan bile,” dedi. “Güzel cümle. Deftere yazacağım.” Hemen yazdı, kahve lekeli parmaklarıyla."),
+P(S("r3C"), "Kurum'u aradın. Lale sesini tanıdı. “Sinirsel işlem için çok geç,” dedi, nazikçe. “Giden doku geri gelmez. Kalanı değiştirebiliriz ama çok az kaldı.” Telefonu kapattın. Mira kapının pervazında duruyordu. Ne konuştuğunu duymuştu."),
+P(S("r3D"), "Ona sarıldın. Saçları kahve ve sabun kokuyordu. Bu kokuyu biliyorsun. Az önce adını bulamadığın kızının kokusunu biliyorsun."),
+"Bahara doğru bir sabah uyandığında her şey berrak. Böyle günler oluyor bazen: sis kalkıyor, kalan her şey yerli yerinde, keskin. Mira bu günlere “iyi gün” diyor ve takvime yıldız koyuyor.",
+"Dükkâna gidiyorsun. Uzun zamandır gitmiyordun. Tezgâh tozlu. Büyüteç yerinde. Çekmecede Ece'nin dedesinin saati. Hiç teslim edemediğin, yarım kalan.",
+"Saati açıyorsun. Ellerin titriyor. Yayı yerine oturtmaya çalışıyorsun. Kayıyor. Bir daha. Kayıyor.",
+"Kapı açılıyor. Ece, on üç yaşında. Yanında Mira. Ece tezgâhın öbür tarafına oturuyor, Mira senin yanına. Kimse bir şey söylemiyor; Ece çantasından bir paket bisküvi çıkarıp tezgâhın ortasına koyuyor."
 ], secenekler: [
-{ t: "Mira'ya cımbızı verirsin. “Sen tak. Ben söyleyeyim.”", to: "n1", etki: { bag: 1, devretti: true } },
-{ t: "Bir kez daha denersin. Kendi elinle. Ne kadar sürerse sürsün.", to: "n1", etki: { koruma: 1, kendi: true } },
-{ t: "Saati kapatıp Ece'ye olduğu gibi verirsin: “Bazı saatler durmalı.”", to: "n1", etki: { kabul: 1, durdu: true } },
+{ t: "Cımbızı Mira'ya verirsin. “Sen tak, ben söyleyeyim.”", to: "n1", etki: { bag: 1, devretti: true } },
+{ t: "Bir kez daha denersin. Kendi elinle. Ne kadar sürerse.", to: "n1", etki: { koruma: 1, kendi: true } },
+{ t: "Saati kapatıp Ece'ye olduğu gibi verirsin: “Bazı saatler durur.”", to: "n1", etki: { kabul: 1, durdu: true } },
 { t: "Ece'ye dedesini sorarsın. Saati değil, adamı.", to: "n1", etki: { bag: 1, ece_dede: true } }
 ]},
 
 /* ---------- ORTAK: NECMİ VE SON ---------- */
 n1: { baslik: "Necmi'nin Deposu", metin: [
-P(function(d){ return d.son && d.son.indexOf("dg4") === 0; }, "Ece saati cebine koydu ve gitti. Kapıda bir an durdu, döndü, bir şey söyleyecekti, söylemedi. O soruyu artık sen de taşıyorsun; bir saatin değil, bir hayatın sorusu olarak."),
-P(function(d){ return d.son && d.son.indexOf("ik3") === 0; }, "Ertesi sabah Necmi kapıyı çaldı. İkinizi birden gördü ve bir süre hiçbir şey söylemedi. Sonra güldü; uzun, garip, neredeyse ağlamaya benzeyen bir kahkaha. “Ben yıllardır bunu yapmaya çalışıyorum,” dedi. “Kurum bir gecede yapmış.”"),
-P(S("r4A"), "Mira yayı taktı. Bir denemede. Saat çalışmaya başladı. Ece ağladı, gülerek. Sen bir şey hissettin: kendi ellerinin başka birinin ellerinde devam ettiği bir an."),
-P(S("r4B"), "Yirminci denemede yay yerine oturdu. Ellerin bunu bir kez daha yapabildi. Belki son kez. Bu sefer kesin."),
-P(S("r4C"), "Ece saati aldı, kulağına götürdü. Sessizlik. “Dedem de durdu,” dedi. “Belki saati de dursun.” Cebine koydu."),
-P(S("r4D"), "Ece bir saat boyunca dedesini anlattı. Sen dinledin. Saat tezgâhta açık, yarım kaldı. Bir adamı tanıdın: hiç görmediğin, yalnızca saatini tanıdığın bir adamı."),
-"Birkaç gün sonra Necmi seni deposuna çağırıyor. Çarşının en arkasında, eski bir han. İçerisi loş, raflar tavana kadar.",
-"Raflarda kavanozlar, kutular, etiketler. Eller, gözler, kalpler, bir kulak, bir dişeti. Her birinin üstünde bir ad ve bir tarih. Kemerli'nin, yenilenirken bıraktığı her şey.",
-"Ortada bir masa. Masanın üstünde bir şekil. Bir insan. Ya da bir insanın taslağı. Farklı insanların parçalarından, özenle birleştirilmiş. Hareket etmiyor. Ama bir insanın bütün parçaları yerli yerinde.",
-P(function(d){ return d.necmi && d.el === "yeni"; }, "Şeklin sağ eli seninki. Tanıyorsun: başparmağın yanındaki eski kesik, çocukken babanın dükkânında. Elli yıl seninle olan el, şimdi bir başkasının bileğine bağlı."),
-"“Bu benim karım,” diyor Necmi. “Yani olmaya çalışıyor. Otuz yıl önce öldü. Kurum yenileyemedi. O günden beri parçaları topluyorum. Onunkileri değil; onunkiler gömüldü. Başkalarınınkileri. Her parça bir başkasının, ama hepsi bir araya gelince... belki.”",
-"Bir süre şekle bakıyor. “Ben de yüzde yüz yenilendim,” diyor. “Eski parçalarım şurada, o rafta. Bazen düşünüyorum: hangisi Necmi? Rafta duran mı, burada konuşan mı? Rafta duranın içinde karımı seven adamın kalbi var. Bende yalnızca onu sevdiğimi bilen bir kalp var.”"
+P(function(d){ return d.son && d.son.indexOf("dg4") === 0; }, "Ece saati cebine koyup gitti. Kapıda durdu, döndü, bir şey soracaktı, sormadı. Kapı çıngırağı bir süre sallandı."),
+P(function(d){ return d.son && d.son.indexOf("ik3") === 0; }, "Ertesi sabah Necmi kapıyı çaldı. İkinizi birden gördü ve bir süre bir şey diyemedi. Sonra güldü. Uzun, tuhaf, öksürüğe dönen bir kahkaha. “Otuz yıldır bunu yapmaya uğraşıyorum,” dedi. “Kurum bir gecede yapmış. Kâğıt hatasıyla.”"),
+P(S("r4A"), "Mira yayı ilk denemede taktı. Saat çalıştı. Ece önce güldü, sonra ağladı, sonra bisküvi yedi. Sen Mira'nın ellerine baktın. Senin tarifinle hareket eden başka eller."),
+P(S("r4B"), "Yirminci denemede yay yerine oturdu. Ece saymıştı. “Yirmi!” dedi, ayağa kalkıp. Sen ellerini dizine koydun, titremeleri geçsin diye bekledin."),
+P(S("r4C"), "Ece saati alıp kulağına götürdü. Ses yok. “Dedem de durdu,” dedi. “Belki saati de dursun.” Cebine koydu, bisküvinin son tanesini sana bıraktı."),
+P(S("r4D"), "Ece bir saat boyunca dedesini anlattı: istavrit, ağ, bir de hiç bitmeyen fıkraları. Saat tezgâhta açık, yarım kaldı. Mira bisküvileri bitirdi."),
+"Birkaç gün sonra Necmi seni deposuna çağırıyor. Çarşının en arkasında eski bir han. İçeri girerken başını eğmen gerekiyor.",
+"Raflarda kavanozlar, kutular, etiketler. Eller, gözler, kalpler, bir kulak, bir dişeti. Her birinin üstünde bir ad ve bir tarih. Kemerli'nin yenilenirken geride bıraktığı her şey, toz içinde.",
+"Ortada bir masa. Masanın üstünde bir şekil: bir insanın taslağı. Farklı insanların parçalarından, özenle birleştirilmiş. Kıpırdamıyor. Saçları bir yerden, elleri bir yerden.",
+P(function(d){ return d.necmi && d.el === "yeni"; }, "Şeklin sağ eli seninki. Başparmağın yanındaki kesik izinden tanıyorsun. On yaşında babanın dükkânında, yeni bir çakıyla. O el şimdi bir başkasının bileğine bağlı."),
+"“Bu benim karım,” diyor Necmi. “Yani olmaya çalışıyor. Otuz yıl önce öldü. O günden beri parçaları topluyorum. Onunkileri değil. Onunkiler gömüldü. Başkalarınınkileri. Hepsi bir araya gelince belki...” Cümleyi bitirmiyor. Şeklin omzundaki tozu üflüyor.",
+"“Ben de yüzde yüz yenilendim,” diyor. “Eski parçalarım şu rafta. Bazen düşünüyorum, hangisi Necmi? Rafta duranın içinde karımı seven adamın kalbi var. Bendeki kalp yalnızca onu sevdiğimi biliyor.”"
 ], secenekler: [
 { t: function(d){ return d.necmi && d.el === "yeni" ? "Eski elini geri istersin." : "Necmi'ye, şeklin yarım kalmaması için bir parçanı bağışlamayı teklif edersin."; }, to: "n1b", etki: function(d){ if(d.necmi && d.el === "yeni"){ d.koruma++; d.geri_aldi = true; } else { d.kabul++; d.bagisladi = true; } } },
 { t: "Necmi'ye o şekli yakmasını söylersin. Karısı o değil, olamaz.", to: "yp_ates", etki: { koruma: 1, yak: true } },
@@ -504,26 +498,26 @@ P(function(d){ return d.necmi && d.el === "yeni"; }, "Şeklin sağ eli seninki. 
 ]},
 
 n1b: { baslik: "Erik Ağacı", metin: [
-P(S("yp_atesA"), "“Hoşça kal, Necmi,” dedin. Necmi kutuyu ateşe bıraktı. Alev onu yuttu. Necmi ağladı; yenilenmiş gözlerinden, ilk kez. “Teşekkür ederim,” dedi. “Biri söyledi. Sonunda biri söyledi.”"),
-P(S("yp_atesB"), "Kutuyu elinden aldın. Necmi'nin yüzü önce şaşkın, sonra rahatlamış. “Biliyordum,” dedi. “Kimse gerçekten yakmak istemez. Ama birinin istediğini söylemesi gerekiyordu.” Kutu yine rafına döndü."),
-P(S("yp_atesC"), "Necmi bir süre düşündü. Sonra kutuyu ateşe bıraktı. “Haklısın,” dedi. “Zaten gitmişti. Ben yalnızca kutusunu tutuyordum.”"),
-P(S("yp_atesD"), "Sustun. Necmi kutuyu ateşe bıraktı. İkiniz alev sönene kadar orada durdunuz. Bir şey söylenmedi. Belki söylenmesine gerek yoktu."),
-P(S("yp_sekilA"), "Necmi dinledi. Yüzü değişmedi. Sonra “Ben de duyuyorum,” dedi. “Her gece. Bu yüzden burada uyumuyorum.”"),
-P(S("yp_sekilB"), "Bir rüyaydı, dedin kendine. Kemerli'de rüyalar bile yenilenir. Ama ceketinin cebinde, sabah, bir etiket buldun: “Yusuf, sağ el.” Nereden geldiğini bilmiyorsun."),
-P(S("yp_sekilC"), "Necmi uzun süre düşündü. “Otuz yıl,” dedi. “Ama belki haklısın. Belki her parça kendi adıyla gitmeli.” Sonra şeklin saçını okşadı. “Henüz değil. Ama bir gün.”"),
-P(S("yp_sekilD"), "Şeklin eline bir kez daha dokundun. Bu kez sıcaktı. Ya da senin elin sıcaktı. Hangisi olduğunu bilmeden kapıdan çıktın."),
-P(S("n1A"), "Necmi bir süre sustu. Sonra başını salladı ve rafa döndü. Bu ona bir şey kaybettirdi; gözlerinden belliydi. Ama itiraz etmedi. “Herkesin kendi parçası üzerinde hakkı var,” dedi. “Yalnızca, bir parçanın bir bütünden ayrılınca hâlâ kime ait olduğunu düşün. Bir gün.”"),
-P(S("n1B"), "Necmi şeklin başında uzun süre durdu. “Belki haklısın,” dedi. “Ama otuz yıl. Otuz yılı yakamam.” Yakmadı. Sen de ısrar etmedin."),
-P(S("n1C"), "Necmi sana döndü. Gözleri yaşlı. “Kimse bunu söylemedi,” dedi. “Otuz yılda kimse.” Sonra şeklin saçını, kimin olduğu bilinmeyen o saçı, nazikçe düzeltti."),
-P(S("n1D"), "Şeklin eline dokundun. Soğuktu. Hiçbir şey hissetmedin. Ya da şunu hissettin: bir insanın bütün parçaları bir araya gelse bile, onları bir insan yapan şey parçaların arasında, ölçülemeyen bir yerde duruyor. Belki o yer de bir parçadır. Belki hiçbir yer değildir."),
-"Eve dönüyorsun. Bahçede, Selma'nın diktiği erik ağacı. Kış bitiyor; dallarda ilk tomurcuklar.",
-"Selma bu ağacı Mira doğduğu yıl dikmişti. “Mira büyüdükçe büyüsün,” demişti. Ağaç her yıl budandı, her yıl yenilendi. Kökleri dışında, bugün üzerindeki hiçbir dal, Selma'nın diktiği dal değil. Yine de herkes ona “Selma'nın ağacı” diyor.",
-P(function(d){ return d.gomdu; }, "Ağacın dibinde, toprağın altında, eski elin ya da onun sözü duruyor. Bir şeyin bir başka şeyi beslemesi. Belki bu da bir süreklilik biçimi."),
-P(function(d){ return d.kayip === "selma"; }, "Selma'yı hatırlamıyorsun. Ama ağacın ona ait olduğunu biliyorsun. Bir ağaç, bir kadını, onu hatırlamayan bir adama hatırlatıyor."),
-"Mira mutfak penceresinden sana bakıyor. Sonra çıkıp yanına geliyor. Bir süre ikiniz de konuşmadan ağaca bakıyorsunuz.",
-"“Baba,” diyor Mira. “Ölmekten korkuyor musun?”",
-P(function(d){ return d.ret; }, "Ret ettiğin günden beri bu soruyu bekliyordun. Hastalık ilerliyor. Doktorlar bir yıl diyor, belki daha az."),
-P(function(d){ return !d.ret; }, "Kemerli'de kimse ölmez. Ama bu soruyu soran kızının ne sorduğunu biliyorsun: biten bir şey olup olmadığını. Değişen bir şeyin bir noktada bitip bitmediğini.")
+P(S("yp_atesA"), "“Hoşça kal Necmi,” dedin. Necmi kutuyu ateşe bıraktı. Alev yükseldi, karton kıvrıldı. Necmi ağladı. Yenilenmiş gözleri kızardı, burnu aktı. “Sağ ol,” dedi. “Biri söyledi. Sonunda biri bir şey söyledi.”"),
+P(S("yp_atesB"), "Kutuyu elinden aldın. Köşesi kararmıştı. Necmi önce şaşırdı, sonra omuzları indi. “Biliyordum,” dedi. “Kimse gerçekten yakmak istemez. Ama biri istesin istedim.” Kutu rafına döndü, kararmış köşesi öne bakacak şekilde."),
+P(S("yp_atesC"), "Necmi bir süre düşündü, sonra kutuyu ateşe bıraktı. “Haklısın,” dedi. “Zaten gitmişti. Ben kutusunu tutuyordum.” Ellerini ateşe tutup ısıttı."),
+P(S("yp_atesD"), "Sustun. Necmi kutuyu ateşe bıraktı. Alev sönene kadar orada durdunuz. Sonra Necmi varilin içine biraz su döktü ve “Hadi, çay koyayım,” dedi."),
+P(S("yp_sekilA"), "Necmi dinledi. Yüzü değişmedi. “Ben de duyuyorum,” dedi. “Her gece. Bu yüzden burada yatmıyorum.”"),
+P(S("yp_sekilB"), "Rüyaydı, dedin kendine. Ama sabah ceketinin cebinde bir etiket buldun: “Yusuf, sağ el.” Nereden geldiğini bilmiyorsun. Etiketi çöpe atamadın. Cüzdanına koydun."),
+P(S("yp_sekilC"), "Necmi uzun süre düşündü. “Otuz yıl,” dedi. “Ama belki haklısın. Belki herkes kendi adıyla gitmeli.” Şeklin saçını okşadı. “Daha değil. Ama bir gün.”"),
+P(S("yp_sekilD"), "Şeklin eline bir kez daha dokundun. Bu kez ılıktı. Ya da senin elin ılıktı. Hangisi olduğunu düşünmeden kapıdan çıktın."),
+P(S("n1A"), "Necmi rafa döndü ve kutuyu indirdi. Bir şey kaybettiği belliydi, ama itiraz etmedi. “Herkesin kendi parçasına hakkı var,” dedi. Kutuyu uzatırken bir an bırakmadı."),
+P(S("n1B"), "Necmi şeklin başında durdu. “Belki haklısın,” dedi. “Ama otuz yıl. Otuz yılı yakamam.” Yakmadı. Sen de ısrar etmedin. Çıkarken şekle bir daha bakmadın."),
+P(S("n1C"), "Necmi sana döndü. Gözleri yaşlı. “Kimse bunu söylemedi,” dedi. “Otuz yılda kimse.” Sonra şeklin saçını, kimin olduğu bilinmeyen o saçı, parmaklarıyla taradı."),
+P(S("n1D"), "Şeklin eline dokundun. Soğuktu. Hiçbir şey hissetmedin. Belki biraz utanç. Birinin karısının eline izinsiz dokunmuş gibi."),
+"Eve dönüyorsun. Bahçede Selma'nın diktiği erik ağacı. Kış bitiyor. Dallarda ilk tomurcuklar.",
+"Selma onu Mira doğduğu yıl dikmişti. “Mira büyüdükçe büyüsün,” demişti. Ağaç her yıl budandı. Bugün üstündeki dalların hiçbiri Selma'nın diktiği dal değil. Mahallede yine de herkes “Selma'nın eriği” diyor. Komşular izinsiz toplarken bile.",
+P(function(d){ return d.gomdu; }, "Ağacın dibinde, toprağın altında, eski elin ya da elinin sözü duruyor. Geçen yaz o köşedeki erikler daha iri oldu; Mira bunu senin elin yüzünden olduğunu söyledi, şakayla karışık."),
+P(function(d){ return d.kayip === "selma"; }, "Selma'yı hatırlamıyorsun. Ama ağacın ona ait olduğunu biliyorsun. Her bahar budamak için makası sen alıyorsun."),
+"Mira mutfak penceresinden sana bakıyor. Sonra terliklerini giyip yanına geliyor.",
+"“Baba,” diyor. “Ölmekten korkuyor musun?”",
+P(function(d){ return d.ret; }, "Reddettiğin günden beri bu soruyu bekliyordun. Doktorlar bir yıl diyor, belki daha az."),
+P(function(d){ return !d.ret; }, "Kemerli'de kimse ölmez. Ama kızının ne sorduğunu biliyorsun.")
 ], secenekler: [
 { t: "“Evet,” dersin. “Ama korktuğum şey ölmek değil. Ölmeden önce gitmek.”", to: "n2", etki: { koruma: 1 } },
 { t: "“Hayır,” dersin. “Ben bu ağaç gibiyim. Dallar değişse de kökler yerinde.”", to: "n2", etki: { kabul: 1 } },
@@ -533,24 +527,23 @@ P(function(d){ return !d.ret; }, "Kemerli'de kimse ölmez. Ama bu soruyu soran k
 
 n2: { baslik: "Son Saat", metin: [
 P(S("n1bA"), "“Korktuğum şey ölmek değil,” demiştin, “ölmeden önce gitmek.” Mira bir süre sustu. Sonra erik ağacının bir dalını eğip sana gösterdi: bir tomurcuk."),
-P(S("n1bB"), "“Ben bu ağaç gibiyim,” demiştin. Mira gülmüştü: “Ama ağaç yeni dalını tanıyor mu baba?”"),
+P(S("n1bB"), "“Ben bu ağaç gibiyim,” demiştin. Mira gülmüştü: “Ağaç yeni dalını tanıyor mu ama baba?”"),
 P(S("n1bC"), "“Sen buradayken korkmuyorum,” demiştin. Mira koluna girmiş, eve kadar bırakmamıştı."),
 P(S("n1bD"), "“Hangi ben ölecek, onu bilmiyorum,” demiştin. Mira uzun süre baktı. “Ben ikisini de tanıyorum,” dedi."),
-"O gece dükkândasın. Mira da. Dışarıda bahar yağmuru, çarşının taş zemininde.",
-"Tezgâhın üstünde babandan kalan cep saati. Elli yıldır senin cebinde. İçinde hiç değişmemiş tek bir parça var: en eski dişli, babanın ellerinin ilk taktığı. Geri kalan her şey yıllar içinde değişti, senin ellerinle.",
-P(function(d){ return d.ikinci === "ikisi"; }, "Öteki de burada. Tezgâhın öbür ucunda oturuyor, aynı büyüteçle, aynı sessizlikle. İkiniz aynı saati tamir edebilirsiniz. Belki bu gece bunu deneyeceksiniz."),
-P(function(d){ return d.ikinci === "kaldi"; }, "Bu dükkân artık senin değil. Ötekinin. Ona son kez bakmaya geldin. Mira seni yalnız bırakmadı; anahtarı o açtı. Yarın yeni bir adla, yeni bir şehre gideceksin. Bir sen, burada devam edecek."),
-P(function(d){ return d.tam; }, "Sen artık yüzde yüz yenisin. Saatin o eski dişlisi, belki de dünyada senden kalan en eski şey."),
-P(function(d){ return d.ret; }, "Bugün iyi bir gün. Ellerin titriyor ama zihnin berrak. Böyle günlerin azaldığını biliyorsun."),
-"Mira yanında oturuyor. “Bu saat hâlâ dedemin saati mi?” diye soruyor, Ece'nin sorduğu gibi. Belki Ece'den duydu. Belki her çocuk bir gün bu soruyu sorar.",
-"Saati açıyorsun. Dişliler dönüyor. Ortada, en altta, o eski dişli; aşınmış, kenarları yuvarlaklaşmış, ama dönüyor.",
-"Bir hayat boyunca neyin “sen” olduğunu sordun: el mi, kalp mi, anılar mı, beden mi, bir başkasının taşıdığı sesin mi? Hiçbirinin tek başına yetmediğini, ama hepsinin birlikte de yetmediğini öğrendin. Belki “sen” bir parça değil, parçaların birbirine geçme biçimi. Bir ritim. Tik, tak.",
-"Ve ritimler, onları başlatan el gittikten sonra da devam edebilir."
+"O gece dükkândasın. Mira da. Dışarıda bahar yağmuru, çarşının taşlarında.",
+"Tezgâhın üstünde babandan kalan cep saati. Elli yıldır cebinde. İçinde hiç değişmemiş tek bir parça var: en eski dişli, babanın taktığı. Gerisi yıllar içinde senin ellerinle değişti.",
+P(function(d){ return d.ikinci === "ikisi"; }, "Öteki de burada. Tezgâhın öbür ucunda, aynı büyüteçle. Biri kahvesini, biri çayını içiyor."),
+P(function(d){ return d.ikinci === "kaldi"; }, "Bu dükkân artık senin değil, ötekinin. Ona son kez bakmaya geldin. Kepengi Mira açtı. Yarın yeni bir adla, yeni bir şehre gideceksin."),
+P(function(d){ return d.tam; }, "Sen artık yüzde yüz yenisin. Saatin o eski dişlisi, senden kalan en eski şey olabilir."),
+P(function(d){ return d.ret; }, "Bugün iyi bir gün. Takvimde bir yıldız. Ellerin titriyor ama kafan berrak."),
+"Mira yanında. “Bu hâlâ dedemin saati mi?” diye soruyor; Ece'nin sorduğu gibi. Ece'den duymuş olmalı.",
+"Saati açıyorsun. Dişliler dönüyor. En altta o eski dişli. Dişleri aşınmış, kenarları yuvarlaklaşmış. Dönüyor.",
+"Yağmur kepengin üstünde tıkırdıyor. Saatin sesi ona karışıyor. Hangisinin hangisi olduğunu bir süre ayıramıyorsun."
 ], secenekler: [
-{ t: "Saati kurar ve bırakırsın. Çalışsın.", to: "ys", etki: { saat: "kur" } },
-{ t: "Saati durdurursun. Bazı şeylerin bir sonu olmalı.", to: "ys", etki: { saat: "dur" } },
+{ t: "Saati kurup bırakırsın. Çalışsın.", to: "ys", etki: { saat: "kur" } },
+{ t: "Saati durdurursun.", to: "ys", etki: { saat: "dur" } },
 { t: "Saati Mira'ya verirsin.", to: "ys", etki: { saat: "mira", bag: 1 } },
-{ t: "Saatin içinden o eski dişliyi çıkarıp cebine koyarsın; saati yeni bir dişliyle kapatırsın.", to: "ys", etki: { saat: "disli", koruma: 1 } }
+{ t: "O eski dişliyi çıkarıp cebine koyarsın. Saati yeni bir dişliyle kapatırsın.", to: "ys", etki: { saat: "disli", koruma: 1 } }
 ]},
 
 ys: { yonlendir: [
@@ -564,64 +557,60 @@ ys: { yonlendir: [
 /* ---------- SONLAR ---------- */
 son_unutus: { son: true, baslik: "Unutuş", metin: [
 P(function(d){ return d.saat === "kur"; }, "Saati kurdun. Dükkânın sessizliğinde çalışmaya başladı."),
-P(function(d){ return d.saat === "dur"; }, "Saati durdurdun. Sessizlik, dükkânı bir an doldurdu."),
-P(function(d){ return d.saat === "mira"; }, "Saati Mira'ya verdin. Avucunda tuttu, kapatmadan."),
-P(function(d){ return d.saat === "disli"; }, "Eski dişliyi cebine koydun. Saat yeni dişliyle çalıştı; aynı ritimle."),
-"Sonbaharda, erik ağacının yaprakları dökülürken, Mira'nın yüzünü bir sabah tanımadın ve bu kez “sonra” gelmedi.",
-"Ama Mira her akşam geldi. Mavi kapaklı defteri açtı ve okudu: bir saat tamircisinin hikâyesi. Kurulmamış bir saatle dükkâna gelen bir kadın. Bisikletin arkasını bırakan bir baba. Sen dinledin; nazikçe, ilgiyle, bir yabancının hikâyesini dinler gibi. Bazen bir yerde gülümsedin. Mira o yerleri işaretledi.",
-"Kışın öldün. Kendi bedeninde, kendi kalbinle, kendi seçmediğin bir sırayla her şeyi kaybetmiş olarak. Kemerli'de buna “eski usul ölüm” diyorlar ve az insan seçiyor.",
-"Senden geriye bir defter kaldı, bir saat, bir erik ağacı ve bir kız. Hiçbiri sen değildi. Hepsi senin bir biçimindi.",
-"Bütün yaşamın boyunca neyin “sen” olduğunu sordun. Sonunda cevap, senin dışında bir yerde bulundu: bir başkasının seni hatırlama biçiminde. Belki de kimlik, insanın kendi içinde değil, onu taşıyanların arasında yaşar. Sen bunu hiç bilmedin. Mira biliyor."
+P(function(d){ return d.saat === "dur"; }, "Saati durdurdun. Yağmurun sesi kaldı."),
+P(function(d){ return d.saat === "mira"; }, "Saati Mira'ya verdin. Avucunda tuttu, kapağını kapatmadan."),
+P(function(d){ return d.saat === "disli"; }, "Eski dişliyi cebine koydun. Saat yeni dişliyle çalıştı, aynı ritimle."),
+"Sonbaharda, erik yaprakları dökülürken, bir sabah Mira'nın yüzünü tanımadın ve bu kez arkasından bir şey gelmedi.",
+"Mira yine de her akşam geldi. Mavi kapaklı defteri açıp okudu: bir saat tamircisinin hikâyesi. Kurulmamış bir saatle dükkâna gelen bir kadın. Bisikletin arkasını bırakan bir baba, bir çalı. Sen dinledin. Kibarca, ilgiyle. Bazı yerlerde gülümsedin. Mira o yerlerin yanına küçük yıldızlar koydu.",
+"Kışın öldün. Kendi bedeninde, kendi kalbinle. Kemerli'de buna “eski usul” diyorlar. Cenazeye çarşıdan çok kişi geldi. Necmi en arkada durdu, şapkasını hiç çıkarmadı. Ece, dedesinin saatini cebinde getirmişti. Çalışıyordu.",
+"Mira defterin son sayfasına bir şey yazmadı. Boş bıraktı."
 ]},
 
 son_giden: { son: true, baslik: "Giden", metin: [
-P(function(d){ return d.saat === "kur"; }, "Saati kurdun ve tezgâhın üstüne bıraktın. Öteki için. Kendin için."),
-P(function(d){ return d.saat === "dur"; }, "Saati durdurdun ve tezgâhta bıraktın. Öteki onu yeniden kuracak; o senin ellerinle, senin sabrınla."),
-P(function(d){ return d.saat === "mira"; }, "Saati Mira'ya verdin. “Babana ver,” dedin. Sonra durdun. “Ötekine,” dedin. Sonra yine durdun. Hangi kelime doğruydu, bilemedin."),
-P(function(d){ return d.saat === "disli"; }, "Eski dişliyi cebine koydun. Saat kaldı, sen gittin. Bir parçanı yanına aldın; en eski, en aşınmış olanı."),
-"Ertesi sabah yeni bir adla trene bindin. Kurum bir ad önermişti; reddettin, kendin seçtin. Babanın adı. Kimse bunun ne anlama geldiğini bilmeyecek.",
-"Başka bir şehirde, başka bir çarşıda küçük bir dükkân. Saat tamiri. İnsanlar sana adını soruyor, söylüyorsun. Kimse sana geçmişini sormuyor; sen de anlatmıyorsun.",
-"Mira her ay mektup yazıyor. Her mektuba “Sevgili babam” diye başlıyor. Sen de cevap yazıyorsun. Bir gün bir mektupta “Babam sana selam söylüyor,” yazıyor. Bu cümleyi uzun süre okuyorsun.",
-"Bir yerde, bir mutfakta, senin sesinle konuşan bir adam senin kızına kahvaltı hazırlıyor. Onun hayatı, senin olabilecek hayat. Senin hayatın, onun olmayan hayat. Hangisi asıl? Bu soru artık seni rahatsız etmiyor.",
-"Giden olmayı seçtin. Belki de baştan beri bir insan, kendisinden çıkıp başka biri olabilecek kadar genişti. Ve bunu, ancak kendini bırakarak öğrenebildin."
+P(function(d){ return d.saat === "kur"; }, "Saati kurup tezgâhın üstüne bıraktın."),
+P(function(d){ return d.saat === "dur"; }, "Saati durdurup tezgâhta bıraktın. Öteki onu yeniden kuracak. Senin ellerinle."),
+P(function(d){ return d.saat === "mira"; }, "Saati Mira'ya verdin. “Babana ver,” dedin. Sonra durdun. “Ötekine.” Sonra yine durdun. Mira “Anladım baba,” dedi."),
+P(function(d){ return d.saat === "disli"; }, "Eski dişliyi cebine koydun. Saat kaldı, sen gittin."),
+"Ertesi sabah yeni bir adla trene bindin. Kurum bir ad önermişti. Reddettin, babanın adını seçtin.",
+"Başka bir şehirde, başka bir çarşıda küçük bir dükkân. İnsanlar adını soruyor, söylüyorsun. Kimse geçmişini sormuyor. Karşı dükkândaki kunduracı her sabah sana “Günaydın usta” diyor. Adını hiç kullanmıyor, bu hoşuna gidiyor.",
+"Mira her ay mektup yazıyor. “Sevgili babam,” diye başlıyor. Bir mektupta “Babam sana selam söylüyor,” yazıyor. O cümleyi okuduktan sonra mektubu katlayıp bir süre çekmecede bekletiyorsun, sonra yine açıp okuyorsun.",
+"Bir yerde, bir mutfakta, senin sesinle konuşan bir adam senin kızına kahvaltı hazırlıyor. Yumurtayı da senin gibi fazla pişiriyordur. Mira yine de yiyordur."
 ]},
 
 son_iki: { son: true, baslik: "İki Kişilik Hayat", metin: [
-P(function(d){ return d.saat === "kur"; }, "Saati kurdun. Öteki onu dinledi. İkiniz de aynı anda gülümsediniz ve bundan hiç bahsetmediniz."),
-P(function(d){ return d.saat === "dur"; }, "Saati durdurdun. Öteki elini uzattı, yeniden kurdu. Bir şey söylemediniz. Bir anlaşmazlık değil; bir konuşma biçimi."),
-P(function(d){ return d.saat === "mira"; }, "Saati Mira'ya verdin. Öteki başıyla onayladı. İkinizin de aynı şeyi yapacağını biliyordunuz."),
-P(function(d){ return d.saat === "disli"; }, "Eski dişliyi çıkardın. Öteki yeni dişliyi taktı. İki el, bir saat."),
-"Kurum bir çözüm bulamadı. Kemerli'nin bütün kayıtlarında bir boşluk: Yusuf Taner, iki kez.",
-"Dükkânı ikiye böldünüz. O sabahları, sen öğleden sonraları. Müşteriler fark etmiyor; ya da fark edip bir şey söylemiyor. Ece fark ediyor ve güler: “Hangisisiniz bugün?” Cevap vermiyorsunuz; artık cevabın bir önemi yok.",
-"Bazı akşamlar mutfakta üç kişi oturuyorsunuz. Mira, sen ve öteki. Öteki bazen sana senin kaybettiğin anılarından birini anlatıyor; sen de ona, onun hiç yaşamadığı son bir yılı. Bir hayat, iki kişinin arasında, iki yöne doğru büyüyor.",
-"İkiniz yavaş yavaş farklılaşıyorsunuz. O sabahları kahve içiyor, sen çay. O bahçeye gül dikti. Sen dikmezdin. Her gün biraz daha az aynı.",
-"Bir gün belki artık iki Yusuf değil, iki farklı adam olacaksınız; aynı yerden başlayıp ayrı yerlere varmış. Belki herkes böyledir: her sabah, dünkünden biraz farklı biri uyanıyor ve kimse ona “sen hâlâ sen misin?” diye sormuyor. Sizin farkınız, bunu birbirinizin yüzünde görebilmeniz."
+P(function(d){ return d.saat === "kur"; }, "Saati kurdun. Öteki dinledi. İkiniz aynı anda gülümsediniz. Bundan hiç söz etmediniz."),
+P(function(d){ return d.saat === "dur"; }, "Saati durdurdun. Öteki elini uzatıp yeniden kurdu. Kavga değildi bu. Bir konuşma biçimiydi."),
+P(function(d){ return d.saat === "mira"; }, "Saati Mira'ya verdin. Öteki başıyla onayladı."),
+P(function(d){ return d.saat === "disli"; }, "Eski dişliyi sen çıkardın, yenisini öteki taktı."),
+"Kurum bir çözüm bulamadı. Kemerli'nin kayıtlarında bir boşluk: Yusuf Taner, iki kez.",
+"Dükkânı ikiye böldünüz: o sabahları, sen öğleden sonraları. Müşteriler fark etmiyor, ya da etmiyormuş gibi yapıyor. Ece fark ediyor ve her gelişinde soruyor: “Hangisisiniz bugün?” Bazen yanlış cevap veriyorsunuz, bilerek.",
+"Bazı akşamlar mutfakta üç kişi oturuyorsunuz. Öteki sana senin kaybettiğin anılardan birini anlatıyor. Sen ona onun hiç yaşamadığı son yılı.",
+"Yavaş yavaş farklılaşıyorsunuz. O sabahları kahve içiyor, sen çay. O bahçeye gül dikti. Sen dikmezdin. Gülü sen sulamaya başladın, nedenini ikiniz de sormadınız."
 ]},
 
-son_gemi: { son: true, baslik: "Theseus'un Gemisi", metin: [
-P(function(d){ return d.saat === "kur"; }, "Saati kurdun. Babanın dişlisi dönmeye devam etti; yüzde yüz yeni bir adamın elinde, dünyadaki en eski şeylerden biri."),
-P(function(d){ return d.saat === "dur"; }, "Saati durdurdun. İçindeki eski dişli hareketsiz kaldı. Belki ondan geriye yalnızca bu hareketsizlik kalacak."),
-P(function(d){ return d.saat === "mira"; }, "Saati Mira'ya verdin. Eski dişli, şimdi onun cebinde. Bir gün o da bir parçayı değiştirecek. Belki."),
-P(function(d){ return d.saat === "disli"; }, "Eski dişliyi cebine koydun. Saat yeni dişliyle aynı ritimle çalıştı. Ve sen de."),
+son_gemi: { son: true, baslik: "Tahta Tahta", metin: [
+P(function(d){ return d.saat === "kur"; }, "Saati kurdun. Babanın dişlisi dönmeye devam etti."),
+P(function(d){ return d.saat === "dur"; }, "Saati durdurdun. İçindeki eski dişli kıpırdamadan kaldı."),
+P(function(d){ return d.saat === "mira"; }, "Saati Mira'ya verdin. Eski dişli şimdi onun cebinde."),
+P(function(d){ return d.saat === "disli"; }, "Eski dişliyi cebine koydun. Saat yeni dişliyle aynı ritimle çalıştı. Sen de."),
 "Yaşamaya devam ettin. Kemerli'de kimse ölmez.",
-"Dükkânı açtın, saatleri tamir ettin, Mira üniversiteye gitti, sonra döndü, sonra evlendi. Torunun dünyaya geldi. Onu kucağına aldığında elin titremedi; o el hiç titremedi, hiç titreyemezdi.",
-"Bir gün torunun sana soracak: “Dede, sen hep böyle miydin?” Ve sen bilmeyeceksin. Elinde, gözünde, kalbinde, zihninde başlangıçtan kalan tek bir hücre yok. Yine de her sabah aynı adı söyleyerek uyanıyorsun. Aynı tezgâha oturuyorsun. Aynı sabırla.",
-"Eski bir hikâye var: bir gemi, tahtaları birer birer değiştirilerek yüzyıllarca korunur. Sonunda tek bir orijinal tahta kalmaz. Hâlâ aynı gemi midir? Ya eski tahtalar toplanıp yeniden bir gemi yapılsa, hangisi asıl olur?",
-"Necmi'nin deposunda bir yerde eski parçaların duruyor. Sen burada, yaşıyor ve konuşuyorsun. Hangisi asıl, bilmiyorsun. Ama şunu öğrendin: bu soru, gemiyi kullananlar için değil, kıyıda durup izleyenler için önemli. Gemi, denizde olduğu sürece, sadece yüzüyor."
+"Dükkânı açtın, saatleri tamir ettin. Mira üniversiteye gitti, döndü, evlendi. Düğünde gelin arabasının saatini sen ayarladın, yine de geç kaldılar. Torunun doğdu. Onu kucağına aldığında elin titremedi. O el hiç titremedi.",
+"Bir gün torunun sana soracak: “Dede, sen hep böyle miydin?” Ve sen bilmeyeceksin. Elinde, gözünde, kalbinde başlangıçtan kalan tek bir hücre yok. Yine de her sabah aynı adı söyleyerek uyanıyorsun, aynı tezgâha oturuyorsun.",
+"Necmi'nin deposunda bir rafta eski parçaların duruyor. Bazen önünden geçiyorsun. Bir keresinde içeri girdin; Necmi seni görünce rafı gösterdi. “İyi duruyor,” dedi. “Tozunu alıyorum.” Teşekkür ettin, kendi elinin kutusuna dokunmadan çıktın."
 ]},
 
 son_kalan: { son: true, baslik: "Kalan Parça", metin: [
-P(function(d){ return d.saat === "kur"; }, "Saati kurdun. Tik, tak. Babanın dişlisi, senin elinle, senin artık hatırlamadığın şeylerin arasında dönüyor."),
-P(function(d){ return d.saat === "dur"; }, "Saati durdurdun. Bazı şeylerin bir sonu olmalı, dedin. Ama sen devam ettin."),
-P(function(d){ return d.saat === "mira"; }, "Saati Mira'ya verdin. “Bir gün sana bu soruyu soran biri olacak,” dedin. “Ne cevap vereceğini sen bileceksin.”"),
-P(function(d){ return d.saat === "disli"; }, "Eski dişliyi cebine koydun. Artık her yere onunla gidiyorsun. Bir parça; başka hiçbir şeyin yerini tutamayacağı bir parça."),
-P(function(d){ return d.ikinci === "gitti"; }, "Öteki gitti. Bir yerde, başka bir şehirde, senin kaybettiğin anıyı taşıyan bir adam yaşıyor. Bazen düşünüyorsun: o anı hâlâ bir yerde var. Yalnızca sende değil. Bu bir teselli mi, bir yara mı, her gün başka."),
-P(function(d){ return d.son_on; }, "O yüzde on yavaş yavaş söndü. Bir gün tamamen gitti. Ne kaybettiğini hiç öğrenmedin. Belki bir kadın sesi, bir şarkı. Belki hiçbir şey."),
-"Yaşamaya devam ettin. Bir şey eksik; ama her insanda bir şey eksik, diye düşünüyorsun bazen. Sen yalnızca neyin eksik olduğunu biliyorsun. Bu seni ötekilerden daha mı eksik yapıyor, yoksa daha mı bütün?",
-P(function(d){ return d.kayip === "selma"; }, "Selma'yı hiç hatırlamadın. Ama erik ağacını her bahar budadın. Kim için yaptığını bilmeden, onun için."),
-P(function(d){ return d.kayip === "mira"; }, "Mira'nın çocukluğunu hiç hatırlamadın. Ama onu yeniden tanıdın: on yedi yaşında, yirmi yaşında, otuz yaşında. Bir babanın kızını ikinci kez, bu kez yetişkin olarak tanıması. Belki bazı babalar bu şansı hiç bulamıyor."),
-P(function(d){ return d.kayip === "cocukluk"; }, "Babanı hiç hatırlamadın. Ama onun sabrı ellerinde, onun büyüteci tezgâhında. Bir adamı hatırlamadan taşımak mümkünmüş."),
-"Kayıp, bir yerde bir boşluk bırakıyor. Hayriye Hanım'ın dediği gibi: kapısı açık kalmış bir oda. İçinde ne olduğunu bilmiyorsun. Ama bazen, bir şarkı duyduğunda ya da yağmurda kırmızı bir şemsiye gördüğünde, o odanın kapısından bir rüzgâr esiyor. Ve sen, bilmeden, dönüp bakıyorsun."
+P(function(d){ return d.saat === "kur"; }, "Saati kurdun. Babanın dişlisi, artık hatırlamadığın şeylerin arasında dönüyor."),
+P(function(d){ return d.saat === "dur"; }, "Saati durdurdun. Sen devam ettin."),
+P(function(d){ return d.saat === "mira"; }, "Saati Mira'ya verdin. “Bir gün biri sana da bu soruyu soracak,” dedin. Mira saati kulağına götürdü."),
+P(function(d){ return d.saat === "disli"; }, "Eski dişliyi cebine koydun. Artık her yere onunla gidiyorsun. Ceketini değiştirirken cebinden cebine taşıyorsun."),
+P(function(d){ return d.ikinci === "gitti"; }, "Öteki gitti. Başka bir şehirde, senin kaybettiğin anıyı taşıyan bir adam yaşıyor. Bayramlarda bir kartpostal geliyor. İmzasız. El yazısı seninki."),
+P(function(d){ return d.son_on; }, "O yüzde on yavaş yavaş söndü. Bir gün tamamen gitti. Ne gittiğini hiç öğrenmedin. O gün akşam yemeğinde tuzu iki kez istedin, o kadar."),
+"Yaşamaya devam ettin. Bir şey eksik. Bazen tezgâhta çalışırken eline bir parça alıp nereye takılacağını bilmeden bir süre tutuyorsun.",
+P(function(d){ return d.kayip === "selma"; }, "Selma'yı hiç hatırlamadın. Ama erik ağacını her bahar budadın; Mira'nın tarifiyle, annesinin yaptığı gibi."),
+P(function(d){ return d.kayip === "mira"; }, "Mira'nın çocukluğunu hiç hatırlamadın. Onu yeniden tanıdın: on yedi yaşında, yirmi yaşında, otuz yaşında. Bir gün Mira sana bir çocukluk fotoğrafını gösterdi. “Tatlıymışım,” dedi. “Tatlıymışsın,” dedin, ilk kez görerek."),
+P(function(d){ return d.kayip === "cocukluk"; }, "Babanı hiç hatırlamadın. Ama tezgâhın altındaki çatlak bardağı hâlâ atmıyorsun."),
+"Bazen yağmurda kırmızı bir şemsiye görünce duruyorsun. Neden durduğunu bilmeden, şemsiye köşeyi dönene kadar bakıyorsun."
 ]}
 
 },
@@ -629,14 +618,14 @@ P(function(d){ return d.kayip === "cocukluk"; }, "Babanı hiç hatırlamadın. A
 ayna: function(d){
   var out = [];
   var k = d.koruma, a = d.kabul, b = d.bag;
-  if(k >= a && k >= b) out.push("Bu hikâye boyunca en çok korumaya çalıştın: elini, kalbini, anılarını, olduğun şeyi. Değişime karşı durmak bir tür sadakatti. Ama neye sadık olduğunu, o şey değiştikçe bilmek zorlaştı.");
-  else if(a >= b) out.push("Bu hikâye boyunca en çok kabullendin. Her yeni parçayı, her kaybı, her eşiği. Bunun bir bilgelik mi, bir teslimiyet mi olduğu, kimin baktığına göre değişir.");
-  else out.push("Bu hikâye boyunca en çok başkalarına yaslandın: Mira'ya, Hayriye'ye, Necmi'ye, hatta ötekine. Kendini başkalarının gözünde tanımaya çalıştın. Belki kimlik zaten orada yaşıyor.");
-  if(d.kayip) out.push("Bir anı kümesini, " + KAYIP[d.kayip] + ", bıraktın. Bir şeyi değerli bulmak, başka bir şeyi daha az değerli bulmaktı. Seçimin, neyi kim olduğunun dışında tuttuğunu gösterdi.");
-  if(d.ret) out.push("Hiçbir anıyı seçmeyi reddettin. Hepsini kaybettin, ama hiçbirini ele vermedin.");
-  if(d.yedek && d.ikinci) out.push("Bir yedeğe izin verdin ve yedek uyandı. Kendinle karşılaştın; bir aynada değil, bir kapıda.");
-  if(d.rol) out.push("Bir süre eski kendini oynadın. İyi oynadığını fark ettiğinde, eski kendinin de belki bir rol olduğunu düşündün.");
-  if(d.mira_karar || d.mira_karar2) out.push("Bazı kararları Mira'ya bıraktın. Bir babanın kızına yük mü verdiği, güven mi, yalnızca o bilecek.");
+  if(k >= a && k >= b) out.push("Bu hikâye boyunca en çok korumaya çalıştın: elini, kalbini, anılarını.");
+  else if(a >= b) out.push("Bu hikâye boyunca en çok kabullendin: her yeni parçayı, her kaybı.");
+  else out.push("Bu hikâye boyunca en çok başkalarına yaslandın: Mira'ya, Hayriye Hanım'a, Necmi'ye.");
+  if(d.kayip) out.push("Bir anı kümesini bıraktın: " + KAYIP[d.kayip] + ".");
+  if(d.ret) out.push("Hiçbir anıyı seçmeyi kabul etmedin.");
+  if(d.yedek && d.ikinci) out.push("Yedeğine izin verdin ve yedek uyandı; kendinle bir kapıda karşılaştın.");
+  if(d.rol) out.push("Bir süre eski kendini oynadın.");
+  if(d.mira_karar || d.mira_karar2) out.push("Bazı kararları Mira'ya bıraktın.");
   return out;
 },
 
