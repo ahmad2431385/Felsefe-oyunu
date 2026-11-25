@@ -538,7 +538,7 @@ P(S("t5C"), "Kalıp akşamları okuma dersi açmıştın. İlk akşam üç yaşl
 P(S("t5D"), "Gitmeden önce sobanın başında üç gecede kırk sayfalık bir defter doldurmuştun."),
 "Kimse ölmedi. Tüfek senin dolabına girdi ve orada kaldı, bir gün jandarmaya teslim ettin. Teğmen tutanağa “sahipsiz silah” yazdı.",
 P(function(d){ return d.sonuc === "yarali"; }, "Sol omzunda saçma izleri kaldı, kışın da, havalar nemlenince de sızlıyor. Cemal her bayram arıyor. Bir keresinde telefonu kapatmadan önce “Hocam omzun nasıl?” diye sordu. “Yağmur yağacak,” dedin, güldü."),
-P(function(d){ return d.sonuc !== "yarali"; }, "Cemal askere gitti, döndü, evlendi. İlk çocuğu oğlan olunca adını sana sordu. “Selim koyma,” dedin. Adını Umut koydu. Köyde şimdi iki Umut var, biri de Demircilerde."),
+P(function(d){ return d.sonuc !== "yarali"; }, "Cemal askere gitti, döndü, evlendi. İlk çocuğu oğlan olunca adını sana sordu. “Selim koyma,” dedin. Adını Doğan koydu. Köyde şimdi iki Doğan var, biri de Demircilerde."),
 P(function(d){ return d.hatun_ziyaret || d.hatun_destek || d.hatun; }, "Hatun her bayram okula bir tabak irmik helvası gönderiyor, üstünde not yok. Tabağı her seferinde yıkayıp geri gönderiyorsun. Bir keresinde tabağın içine bir kalem koydun. Bir sonraki bayram helvanın yanında o kalem, ucu açılmış olarak geri geldi."),
 "Bir bahar yaylaya çıkıp Selim'in “Buradan bütün dünya görünür” dediği yere oturuyorsun. Üç köy, bir baraj gölü görünüyor. Aşağıda iki tarla, aralarında ark, su akıyor."
 ]},
