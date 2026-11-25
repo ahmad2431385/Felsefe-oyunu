@@ -24,3 +24,23 @@ Bu sitedeki her hikâye insan kaleminden çıkmış gibi okunmalı. Aşağıdaki
 6. **Alt metin.** Karakterler asıl derdini söylemez; başka bir şey konuşurken söyler.
 7. **Ritim çeşitliliği.** Uzun, akan cümlelerle kısa cümleler karışık. Her paragraf aynı nefeste bitmez.
 8. **Seçimler insan sesiyle.** Seçenekler, o anda bir insanın gerçekten düşünebileceği şekilde yazılır; bedeli metinden anlaşılır ama vaaz edilmez.
+
+## İkinci tur: asıl sorun cümlenin kendisi
+
+İlk turda kalıp kelimeler temizlendi ama metin hâlâ yapay okunuyordu. Sebep kelimeler değil, cümlenin kuruluşuydu:
+
+- **Kesik cümle bombardımanı.** Cümlelerin üçte biri bir-üç kelimeydi ("Kahve. Radyo. Güvercinler."), ortalama cümle beş kelimeydi. İnsan böyle anlatmaz; böyle yazan bir makine "edebî" görünmeye çalışır.
+- **Çeviri kokusu.** "Bunu saklamaya çalışmıyor bile", "kimse ne zamandan beri yolda olduğunu bilmiyor", "o kadar." gibi İngilizceden çevrilmiş duran yapılar.
+- **Her paragrafın sonunda zekice bir gözlem.** Anlatıcı sürekli göz kırpıyor, her sahneyi küçük bir ironiyle kapatıyor.
+- **Her karaktere bir "tuhaf ayrıntı".** Delik terlik, karton, kırık ekran… Tek tek güzel, hepsi bir arada formül.
+
+Bundan sonra:
+
+1. **Türkçe anlatır gibi yaz.** Cümleler bağlanır: -ip, -ince, -ken, -dığı için, ama, da, ki, hem de, derken. Ortalama cümle en az dokuz-on kelime; kısa cümle yalnızca vurgu gerektiğinde.
+2. **Konuşma dili ve deyim.** "Allah'tan", "neyse", "hadi bakalım", "içi cız etti", "ağzını bıçak açmıyor", ikilemeler (yol mol, kıpır kıpır, usul usul). Karakterler bölgesine, yaşına, mesleğine göre konuşur.
+3. **Anlatıcı sıcak ve sade.** Akıllılık taslamaz, okura göz kırpmaz, olanı anlatır. Bazen özetler ("Gece böyle geçti, saat ikiye kadar kimse oturmadı.").
+4. **Noktalı virgül kullanılmaz.** Türkçe düzyazıda neredeyse hiç yoktur.
+5. **Paragraf sıradan biter.** Bir eylemle, bir lafla, bir sonraki işe geçişle.
+6. **Ayrıntı az ama yerinde.** Sahne başına en fazla bir "unutulmaz" ayrıntı.
+
+Ölçüt (tarayıcı): kesik cümle oranı %15'in altında, ortalama cümle 9 kelimenin üstünde, noktalı virgül yok denecek kadar az.
