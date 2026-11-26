@@ -449,7 +449,7 @@ P(function(d){ return d.kol === "gizli"; }, "“Ekmeği sen bırakıyordun, bili
 { t: "“Belki asıl korkunç olan da bu,” dersin.", to: "t2", etki: { tanik: 1 } },
 { t: "Celal'e annesinin böreğini anlatırsın.", to: "t2", etki: { vicdan: 1, borek: true } },
 { t: "Neye olduğunu tam bilmeden özür dilersin.", to: "t2", etki: { vicdan: 1, ozur: true } },
-{ t: "Bir sigara yakıp Celal'e de uzatırsın. Konuşmazsınız.", to: "t2", etki: { uyum: 1 } }
+{ t: "Bir sigara yakıp Celal'e de uzatırsın, hiç konuşmazsınız.", to: "t2", etki: { uyum: 1 } }
 ]},
 
 t2: { saat: "2004", baslik: "Makale", metin: [
