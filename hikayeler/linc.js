@@ -8,146 +8,146 @@ id: "linc",
 baslik: "Linç",
 dunya: "Gerçek dünya",
 kategoriler: ["Toplum ve Adalet"],
-giris: "2024, İstanbul. Bir lisenin kimya laboratuvarında sekiz saniyelik bir video çekiliyor: bir öğretmen bir öğrencinin kolunu tutup bağırıyor. Bir gecede iki milyon izlenme, bir etiket, bir “öğretmen öğrenciyi darp etti” cümlesi. Sen o gün kapıdaydın ve telefonunda kırk saniyelik bir video var. Kırk saniye gerçeği gösteriyor; ama gerçeği göstermek, bir başka çocuğu yakmak demek. Bir kalabalığın, bir hakikatin ve bir öğretmenin sessizliğinin hikâyesi.",
+giris: "2024, İstanbul. Bir lisenin kimya laboratuvarında sekiz saniyelik bir video çekiliyor, bir öğretmen bir öğrencinin kolunu tutmuş bağırıyor. Bir gecede iki milyon izlenme, bir etiket ve “öğretmen öğrenciyi darp etti” diye tek bir cümle. Sen o gün kapıdaydın ve telefonunda kırk saniyelik bir video var. O kırk saniye gerçeği gösteriyor ama gerçeği göstermek başka bir çocuğu yakmak demek. Bu, bir kalabalığın, bir hakikatin ve bir öğretmenin sessizliğinin hikâyesi.",
 kavramlar: ["Kitle psikolojisi", "Hakikat sonrası", "Utanç ve itibar", "Sessiz tanık"],
-ozet: "Sekiz saniyelik bir video bir öğretmeni bir gecede “şiddet uygulayan öğretmen”e çeviriyor. Sende videonun tamamı var. Ama gerçeği göstermek bir başka çocuğu ateşe atmak demek.",
+ozet: "Sekiz saniyelik bir video bir öğretmeni bir gecede “şiddet uygulayan öğretmen” yapıyor. Videonun tamamı sende var ama gerçeği göstermek başka bir çocuğu ateşe atmak demek.",
 baslangic: "a1",
 durum: { hakikat: 0, koruma: 0, kalabalik: 0 },
 
 sahneler: {
 
 a1: { saat: "Pazartesi, 11.40", baslik: "Laboratuvar", metin: [
-"Kadıköy'de bir Anadolu lisesi. Pazartesi, dördüncü ders. Koridor boş. Teneffüse beş dakika var. Kalorifer peteğinin üstünde birinin unuttuğu bir eşofman üstü kuruyor.",
-"Adın İrem, otuz dört yaşındasın, edebiyat öğretmenisin. Sözleşmelisin. Üç yıldır kadroyu bekliyorsun. Kolunda on birlerin kompozisyonları: “Hayatımı değiştiren bir an.” Yarısı aynı internet sitesinden.",
-"Kimya laboratuvarının önünden geçerken bir bağırış, bir cam sesi. Kapı aralık.",
-"İçeride on bir-C. Masaların arasında iki çocuk. Arda. Senin öğrencin, gözlüklü, defterinin arkasına şiir yazan. Elinde bir beher. Deney için hazırlanmış asit çözeltisi. Karşısında Berk. Uzun boylu, basketbolcu, gülüyor. “Hadi, at bakalım. Atamazsın.”",
-"Telefonunu çıkarıyorsun. Kayıt. Neden, bilmiyorsun.",
-"Arda'nın eli titriyor. Beher yükseliyor.",
-"Kimya öğretmeni Cengiz Bey. Elli iki yaşında, sert, otuz yıllık, öğrencilerin arkasından “Kimyager Dede” dediği. İki adımda Arda'nın yanında. Kolunu yakalıyor. “Bırak onu! Bırak dedim!” Beher Arda'nın elinden kayıp masaya düşüyor, devrilmiyor.",
-"Kırk saniye. Telefonu indiriyorsun. Arda ağlıyor. Berk gülüyor. Sesi titriyor. Cengiz Bey bir sandalyeye çöküyor. Ellerini dizlerine bastırıyor, titremesin diye.",
+"Kadıköy'de bir Anadolu lisesi, pazartesi, dördüncü ders. Teneffüse beş dakika var, koridor bomboş. Kaloriferin üstünde birinin unuttuğu bir eşofman üstü kuruyor.",
+"Adın İrem, otuz dört yaşındasın, edebiyat öğretmenisin. Sözleşmelisin ve üç yıldır kadro bekliyorsun. Koltuğunun altında on birlerin “Hayatımı değiştiren bir an” konulu kompozisyonları var, yarısı aynı internet sitesinden kopyalanmış.",
+"Kimya laboratuvarının önünden geçerken içeriden bir bağırış ve bir cam sesi geliyor. Kapı aralık.",
+"İçeride on bir-C var. Masaların arasında iki çocuk karşı karşıya durmuş. Biri senin öğrencin Arda, gözlüklü, defterinin arkasına şiir yazan bir çocuk. Elinde deney için hazırlanmış asit çözeltisiyle dolu bir beher var. Karşısında uzun boylu, basketbolcu Berk gülüyor. “Hadi at bakalım, atamazsın.”",
+"Telefonunu çıkarıp kaydetmeye başlıyorsun, neden yaptığını sen de bilmiyorsun.",
+"Arda'nın eli titriyor, beher yavaş yavaş yükseliyor.",
+"Kimya öğretmeni Cengiz Bey elli iki yaşında, sert, otuz yıllık bir öğretmen, öğrenciler arkasından ona “Kimyager Dede” diyor. İki adımda Arda'nın yanına varıp kolunu yakalıyor. “Bırak onu! Bırak dedim!” Beher Arda'nın elinden kayıp masaya düşüyor ama devrilmiyor.",
+"Kırk saniye sonra telefonu indiriyorsun. Arda ağlıyor, Berk gülüyor ama sesi titriyor. Cengiz Bey bir sandalyeye çöküp titremesin diye ellerini dizlerine bastırıyor.",
 "Zil çalıyor.",
-"Arda kapıya yürüyor, yüzü bembeyaz. Arka sırada bir öğrenci telefonunu hızla cebine sokuyor. Koridor birazdan dolacak."
+"Arda bembeyaz bir yüzle kapıya yürüyor. Arka sırada bir öğrenci telefonunu hızla cebine sokuyor. Koridor birazdan dolacak."
 ], secenekler: [
-{ t: "Arda'nın peşinden gidersin. Cengiz Bey'i o sandalyede bırakarak.", to: "a2", etki: { koruma: 1, girdi: true } },
-{ t: "Cengiz Bey'in yanına gidersin. Arda koridora tek başına çıkarken.", to: "a2", etki: { hakikat: 1, cengize: true } },
-{ t: "Arka sıradaki öğrenciden kaydını silmesini istersin. Kendi kaydını silmeden.", to: "a2", etki: { kalabalik: 1, silmesini_istedi: true } },
-{ t: "Müdüre haber vermek için koşarsın. Odadaki üç kişiyi kendi hâline bırakarak.", to: "a2", etki: { kalabalik: 1, gitti: true } }
+{ t: "Cengiz Bey'i o sandalyede bırakıp Arda'nın peşinden gidersin.", to: "a2", etki: { koruma: 1, girdi: true } },
+{ t: "Arda koridora tek başına çıkarken Cengiz Bey'in yanına gidersin.", to: "a2", etki: { hakikat: 1, cengize: true } },
+{ t: "Kendi kaydını silmeden arka sıradaki öğrenciden kaydını silmesini istersin.", to: "a2", etki: { kalabalik: 1, silmesini_istedi: true } },
+{ t: "Odadaki üç kişiyi kendi hâline bırakıp müdüre haber vermeye koşarsın.", to: "a2", etki: { kalabalik: 1, gitti: true } }
 ]},
 
 a2: { saat: "Salı", baslik: "Sekiz Saniye", metin: [
-P(S("a1C"), "Çocuğun adı Batu'ydu. “Sildim hocam,” dedi, galerisini gösterdi. Boştu. Salı sabahı anlayacaktın: kayıt çoktan bir buluta, oradan bir gruba gitmişti."),
-P(S("a1D"), "Şükran Hanım toplantıdaydı. Kırk dakika kapıda bekledin. “Laboratuvarda bir olay oldu.” “Cengiz Bey halleder,” dedi, dosyalarına dönerek. Kaydı göstermedin. Sormadı."),
-P(S("a1A"), "Arda'nın yanına gittin. Bir şey demedi. Sana baktı, sonra koşarak merdivenlerden indi. Berk arkasından bir şey bağırdı."),
-P(S("a1B"), "Cengiz Bey başını kaldırdı. “İyiyim,” dedi. “Kimseye bir şey söyleme.” Neyi kastettiğini sormadın."),
-"Salı sabahı telefonunda yüz on yedi bildirim.",
-"Bir video. Sekiz saniye. Masanın arkasından, alçak açıdan. Yalnızca Cengiz Bey, Arda'nın kolunu sertçe yakalıyor: “Bırak dedim!” Beher görünmüyor. Berk görünmüyor.",
-"Altında: “Kadıköy'de öğretmen öğrenciyi darp etti! Çocuklarımız güvende mi?”",
-"Gece yarısı bir öğrenci hesabından paylaşılmış. Sabah altıda üç yüz bin takipçili bir annelik hesabı paylaşmış. Hesabın sahibi Gülsüm Hanım: Berk'in annesi.",
-"İki milyon izlenme. #CengizHocaKovulsun. Okulun adı, Cengiz Bey'in tam adı, eski bir öğretmenler günü fotoğrafı. Elinde bir karanfil.",
-"Yorumlar: “Bu adam hapse girmeli.” “Benim çocuğuma dokunsa elini kırardım.” “Adresini bulan var mı?”",
-"Senin telefonunda kırk saniye. Beher, Berk, “At bakalım.” Kimse senin kapıda olduğunu bilmiyor. Ya da sen öyle sanıyorsun."
+P(S("a1C"), "Çocuğun adı Batu'ydu. “Sildim hocam,” deyip galerisini gösterdi, galeri boştu. Kaydın çoktan bir buluta, oradan da bir gruba gittiğini salı sabahı anlayacaktın."),
+P(S("a1D"), "Şükran Hanım toplantıdaydı, kırk dakika kapıda bekledin. “Laboratuvarda bir olay oldu,” dedin. “Cengiz Bey halleder,” dedi dosyalarına dönerek. Kaydı göstermedin, o da sormadı."),
+P(S("a1A"), "Arda'nın yanına gittin. Bir şey demedi, sana bir baktı, sonra koşarak merdivenlerden indi. Berk arkasından bir şey bağırdı."),
+P(S("a1B"), "Cengiz Bey başını kaldırdı. “İyiyim,” dedi, “kimseye bir şey söyleme.” Neyi kastettiğini sormadın."),
+"Salı sabahı telefonunda yüz on yedi bildirim var.",
+"Bir video dolaşıyor, sekiz saniyelik. Masanın arkasından, alçak bir açıdan çekilmiş. Yalnızca Cengiz Bey'in Arda'nın kolunu sertçe yakalayıp “Bırak dedim!” diye bağırdığı görülüyor. Ne beher görünüyor ne de Berk.",
+"Altında şu yazıyor: “Kadıköy'de öğretmen öğrenciyi darp etti! Çocuklarımız güvende mi?”",
+"Video gece yarısı bir öğrenci hesabından paylaşılmış. Sabah altıda üç yüz bin takipçili bir annelik hesabı da paylaşmış. Hesabın sahibi Gülsüm Hanım, Berk'in annesi.",
+"İki milyon izlenme olmuş, #CengizHocaKovulsun diye bir etiket açılmış. Okulun adı, Cengiz Bey'in tam adı ve eski bir öğretmenler günü fotoğrafı ortalıkta, fotoğrafta elinde bir karanfil var.",
+"Yorumlar şöyle: “Bu adam hapse girmeli.” “Benim çocuğuma dokunsa elini kırardım.” “Adresini bulan var mı?”",
+"Senin telefonunda ise kırk saniye var, beher de, Berk de, “At bakalım” da içinde. Kapıda olduğunu kimse bilmiyor, ya da sen öyle sanıyorsun."
 ], secenekler: [
-{ t: "Yorumları okursun. Hepsini.", to: "x_yorum", etki: { kalabalik: 1 } },
+{ t: "Yorumların hepsini okursun.", to: "x_yorum", etki: { kalabalik: 1 } },
 { t: "Cengiz Bey'i ararsın.", to: "x_cengiz", etki: { hakikat: 1, aradi: true } },
-{ t: "Telefonu kapatıp okula gidersin. Otuz iki çocuk o videoyu izlemiş olarak seni bekliyor.", to: "a3", etki: { koruma: 1, kapatti: true } },
-{ t: "Kendi videonu yeniden izlersin. Kırk saniye de bir şeyi göstermiyor olabilir.", to: "a3", etki: { hakikat: 1, izledi: true } }
+{ t: "Telefonu kapatıp otuz iki çocuğun o videoyu izlemiş olarak seni beklediği okula gidersin.", to: "a3", etki: { koruma: 1, kapatti: true } },
+{ t: "Kırk saniyenin de bir şeyi göstermiyor olabileceğini düşünüp kendi videonu yeniden izlersin.", to: "a3", etki: { hakikat: 1, izledi: true } }
 ]},
 
 x_yorum: { saat: "Salı", baslik: "Yorumlar", metin: [
-"Okuyorsun. Bin, iki bin, beş bin. Kahve soğuyor. Üstünde bir zar oluşuyor.",
+"Okudukça okuyorsun, bin, iki bin, beş bin. Kahven soğuyor, üstünde bir zar oluşuyor.",
 "“Benim de öğretmenimdi, hep sertti.” “Bu okulda okudum, bize dokunmadı ama korkardık.” “Ülkenin hâli bu.”",
-"Biri Cengiz Bey'in kızının hesabını bulmuş: “Babana söyle, utansın.” Kızın son fotoğrafı bir mezuniyet töreninden.",
-"Biri bir sokak adı yazmış: Göztepe.",
-"Kimse “Önce ne oldu?” diye sormuyor.",
-"Çoğu bir anne, bir baba, bir eski öğrenci. Bir çocuğu korumak istiyorlar. Yanlış çocuğu.",
-"Bir yorumun altında senin okulundan bir öğretmen, adı tanıdık: “Bu adamla ilgili daha önce de şikâyetler oldu.” Olmadı. Biliyorsun."
+"Biri Cengiz Bey'in kızının hesabını bulup “Babana söyle, utansın,” yazmış. Kızın son fotoğrafı bir mezuniyet töreninden.",
+"Biri de bir sokak adı yazmış, Göztepe.",
+"“Önce ne oldu?” diye soran tek kişi yok.",
+"Yazanların çoğu anne, baba ya da eski öğrenci. Bir çocuğu korumak istiyorlar ama yanlış çocuğu.",
+"Bir yorumun altında kendi okulundan, adını tanıdığın bir öğretmen “Bu adamla ilgili daha önce de şikâyetler olmuştu,” diye yazmış. Olmadığını biliyorsun."
 ], secenekler: [
 { t: "O öğretmene özelden yazıp yalan söylediğini söylersin.", to: "a3", etki: { hakikat: 1, ogretmene: true } },
-{ t: "Bir yoruma cevap yazarsın: “Videonun öncesini bilmiyorsunuz.”", to: "a3", etki: { hakikat: 1, yorum_yazdi: true } },
-{ t: "Telefonu bırakırsın. Daha fazla okuyamazsın.", to: "a3", etki: { koruma: 1 } },
-{ t: "Başparmağın bir yorumun üstünde kalır. Beğeni düğmesine dokunursun.", to: "a3", etki: { kalabalik: 2, begendi: true } }
+{ t: "Bir yoruma “Videonun öncesini bilmiyorsunuz,” diye cevap yazarsın.", to: "a3", etki: { hakikat: 1, yorum_yazdi: true } },
+{ t: "Daha fazla okuyamayıp telefonu bırakırsın.", to: "a3", etki: { koruma: 1 } },
+{ t: "Başparmağın bir yorumun üstünde kalır ve beğeni düğmesine dokunursun.", to: "a3", etki: { kalabalik: 2, begendi: true } }
 ]},
 
 x_cengiz: { saat: "Salı", baslik: "Cengiz Bey", metin: [
-"Uzun çalıyor. Sonra yorgun bir ses. “Efendim.”",
-"“Cengiz Hocam, İrem. Edebiyattan.”",
+"Telefon uzun uzun çalıyor, sonra yorgun bir ses “Efendim,” diyor.",
+"“Cengiz Hocam, ben İrem, edebiyattan.”",
 "“Biliyorum. Ne istiyorsun?”",
-"“Ben o gün kapıdaydım. Kaydettim. Kırk saniye. Beheri, Berk'i.”",
-"Arkada bir televizyon. Bir kadın sesi bir şey soruyor; Cengiz Bey ahizeyi kapatıp “Okuldan,” diyor.",
+"“Ben o gün kapıdaydım, kaydettim. Kırk saniye, beher de var, Berk de.”",
+"Arkada bir televizyon açık. Bir kadın sesi bir şey soruyor, Cengiz Bey ahizeyi kapatıp “Okuldan,” diyor.",
 "“Sil onu.”",
 "“Hocam?”",
-"“Sil. Emekliliğime üç yıl var. Bu sekiz saniye beni bitirebilir. Bitirsin. O çocuk on altı yaşında. O videoyu gösterirsen bütün ülke onu asit atmaya kalkan çocuk diye tanır. Ben bir ay sonra unutulurum. O unutulmaz.”",
-"Sesi kırılıyor, öksürerek düzeltiyor. “Önce öğrenci.”"
+"“Sil. Emekliliğime üç yıl var, bu sekiz saniye beni bitirebilir, bitirsin. O çocuk on altı yaşında. O videoyu gösterirsen bütün ülke onu asit atmaya kalkan çocuk diye tanır. Ben bir ay sonra unutulurum ama o unutulmaz.”",
+"Sesi kırılıyor, öksürerek toparlıyor. “Önce öğrenci.”"
 ], secenekler: [
-{ t: "“Siz de insansınız hocam. Sizi kim koruyacak?” dersin.", to: "a3", etki: { hakikat: 1, sizi_kim: true } },
-{ t: "“Tamam hocam. Kimseye göstermem,” dersin.", to: "a3", etki: { koruma: 2, cengize_soz: true } },
-{ t: "“Silemem hocam. Ama şimdilik göstermem,” dersin.", to: "a3", etki: { koruma: 1, hakikat: 1 } },
+{ t: "“Siz de insansınız hocam, sizi kim koruyacak?” dersin.", to: "a3", etki: { hakikat: 1, sizi_kim: true } },
+{ t: "“Tamam hocam, kimseye göstermem,” dersin.", to: "a3", etki: { koruma: 2, cengize_soz: true } },
+{ t: "“Silemem hocam ama şimdilik göstermem,” dersin.", to: "a3", etki: { koruma: 1, hakikat: 1 } },
 { t: "“Eşiniz ne diyor?” diye sorarsın.", to: "a3", etki: { koruma: 1, esi: true } }
 ]},
 
 a3: { saat: "Salı, öğleden sonra", baslik: "Müdür", metin: [
-P(S("a2C"), "On bir-C'ye girdiğinde otuz iki baş aynı anda kalktı, aynı anda eğildi. Tahtaya yazarken arkanda bir fısıltı: “Hoca da oradaymış.” Dönmedin. Tebeşir kırıldı."),
-P(S("a2D"), "Kare kare izledin. Bir şey gördün: beheri tutan el, Cengiz Bey yakalamadan bir saniye önce inmeye başlamıştı. Arda vazgeçiyor muydu? Yoksa sen mi öyle görmek istiyordun?"),
-P(S("x_yorumA"), "Yazdın. Üç dakika sonra cevap: “Sen kimin tarafındasın?” Sonra engelledi. Ertesi sabah öğretmenler odasında yanından geçerken başını çevirmedi."),
-P(S("x_yorumB"), "On dakikada iki yüz cevap. “Öğretmen yalakası.” “Bu da o okuldan, bulun.” Yorumunu sildin. Ekran görüntüsü alınmıştı bile."),
-P(S("x_yorumC"), "Telefonu bıraktın. Son gördüğün yorum aklında kaldı: “Adresini bulan var mı?”"),
-P(S("x_cengizB"), "“Kimseye göstermem.” Kapattıktan sonra fark ettin: sözün öbür ucunda yanan bir adam vardı."),
-P(S("x_cengizC"), "“Şimdilik,” dedi Cengiz Bey. Bir süre sustu. “İyi bir kelime. Hiç bitmez.”"),
-P(S("x_yorumD"), "“Bu öğretmenler hep böyle.” Beğeniyi hemen geri aldın. Bir saniye boyunca sen de iki milyonun içinde bir sayıydın."),
-P(S("x_cengizA"), "“Öğretmeni kimse korumaz İrem. Ne veli, ne müdür, ne bakanlık. Sen de koruma. Ama o çocuğu da yakma.”"),
-P(S("x_cengizD"), "“Eşim ağlıyor. Kızımın hesabına mesajlar geliyor. Ona hiçbir şey anlatmadım.”"),
-"Öğleden sonra müdür Şükran Hanım bütün öğretmenleri topluyor. Herkes telefonunda.",
-"“Arkadaşlar. İlçeden müfettiş gelecek. Cengiz Bey tedbiren görevden uzaklaştırıldı. Basına, sosyal medyaya hiçbir şey söylemeyin. Velilere açıklama yapmayın.” Telefonu masada titreyip duruyor. Ters çeviriyor.",
-"Matematikten Serkan Bey el kaldırıyor. “O gün ne olduğunu bilen var mı?”",
-"Şükran Hanım duraksıyor. “Öğrenciler farklı şeyler söylüyor.” Sonra sana bakıyor. Ya da sen öyle hissediyorsun.",
+P(S("a2C"), "On bir-C'ye girdiğinde otuz iki baş aynı anda kalkıp aynı anda eğildi. Tahtaya yazarken arkanda biri “Hoca da oradaymış,” diye fısıldadı. Dönmedin ama tebeşir elinde kırıldı."),
+P(S("a2D"), "Kare kare izlerken bir şey gördün. Beheri tutan el, Cengiz Bey yakalamadan bir saniye önce inmeye başlamıştı. Arda vazgeçiyor muydu, yoksa sen mi öyle görmek istiyordun?"),
+P(S("x_yorumA"), "Yazdın. Üç dakika sonra “Sen kimin tarafındasın?” diye cevap geldi, sonra seni engelledi. Ertesi sabah öğretmenler odasında yanından geçerken başını bile çevirmedi."),
+P(S("x_yorumB"), "On dakikada iki yüz cevap geldi. “Öğretmen yalakası.” “Bu da o okuldanmış, bulun.” Yorumunu sildin ama ekran görüntüsü çoktan alınmıştı."),
+P(S("x_yorumC"), "Telefonu bıraktın ama son gördüğün yorum aklında kaldı: “Adresini bulan var mı?”"),
+P(S("x_cengizB"), "“Kimseye göstermem,” dedin. Kapattıktan sonra sözünün öbür ucunda yanan bir adam olduğunu fark ettin."),
+P(S("x_cengizC"), "“Şimdilik,” dedi Cengiz Bey ve bir süre sustu. “İyi kelime, hiç bitmez.”"),
+P(S("x_yorumD"), "Yorumda “Bu öğretmenler hep böyle” yazıyordu. Beğeniyi hemen geri aldın ama bir saniyeliğine sen de o iki milyonun içindeki bir sayı olmuştun."),
+P(S("x_cengizA"), "“Öğretmeni kimse korumaz İrem,” dedi, “ne veli, ne müdür, ne bakanlık. Sen de koruma ama o çocuğu da yakma.”"),
+P(S("x_cengizD"), "“Eşim ağlıyor,” dedi. “Kızımın hesabına mesajlar geliyor. Ona hiçbir şey anlatmadım.”"),
+"Öğleden sonra müdür Şükran Hanım bütün öğretmenleri topluyor, herkesin gözü telefonunda.",
+"“Arkadaşlar, ilçeden müfettiş gelecek. Cengiz Bey tedbiren görevden uzaklaştırıldı. Basına, sosyal medyaya hiçbir şey söylemeyin, velilere açıklama yapmayın.” Masadaki telefonu titreyip duruyor, ters çeviriyor.",
+"Matematik öğretmeni Serkan Bey el kaldırıyor. “O gün ne olduğunu bilen var mı?”",
+"Şükran Hanım bir an duraksıyor. “Öğrenciler farklı şeyler söylüyor,” diyor ve sana bakıyor, ya da sana öyle geliyor.",
 "Kadro listesi ay sonunda açıklanacak."
 ], secenekler: [
-{ t: "El kaldırıp “Ben gördüm. Bir videom var,” dersin.", to: "a4", etki: { hakikat: 2, mudure_soyledi: true } },
+{ t: "El kaldırıp “Ben gördüm, bir videom var,” dersin.", to: "a4", etki: { hakikat: 2, mudure_soyledi: true } },
 { t: "Toplantıdan sonra Şükran Hanım'a özelden söylersin.", to: "a4", etki: { hakikat: 1, ozel: true } },
-{ t: "Bir şey söylemezsin. Sözleşmelisin. Kadro listesi bu ay.", to: "a4", etki: { kalabalik: 1, sozlesme: true } },
-{ t: "Serkan Bey'e “Önce Arda'yla konuşmak lazım,” dersin. Bir şey bildiğini ele vererek. Ama tamamını değil.", to: "a4", etki: { koruma: 1 } }
+{ t: "Sözleşmeli olduğun ve kadro listesi bu ay açıklanacağı için bir şey söylemezsin.", to: "a4", etki: { kalabalik: 1, sozlesme: true } },
+{ t: "Serkan Bey'e “Önce Arda'yla konuşmak lazım,” deyip bir şey bildiğini ama hepsini değil, ele verirsin.", to: "a4", etki: { koruma: 1 } }
 ]},
 
 a4: { saat: "Çarşamba", baslik: "Arda", metin: [
-P(S("a3C"), "Bir şey söylemedin. Kapıda Şükran Hanım kolunu tuttu. “Senin o gün laboratuvarın önünde olduğunu söyleyen bir öğrenci var. Bir şey bilseydin söylerdin, değil mi?” Başını oynattın. Evet de değil, hayır da."),
-P(S("a3D"), "Oda sana döndü. “Arda kim?” dedi biri. İsim o odada ilk kez senin ağzından çıktı. Şükran Hanım not aldı."),
-P(S("a3A"), "Oda sustu. Şükran Hanım'ın yüzü bembeyaz oldu. “Toplantıdan sonra odama gel.” Arka sıradan bir fısıltı: “Sözleşmeli değil miydi?”"),
-P(S("a3B"), "Şükran Hanım videoyu iki kez izledi, telefonu geri verdi. “Kimseye gösterme. Müfettişe ben söylerim. Bu çıkarsa okul biter. Bir öğrenci asit atmaya kalktı, bir öğretmen engelledi, biri çarpıtıp yaydı, bir veli oğlunun zorbalığını gizlemek için öğretmeni yaktı. Hangi kısmı okulu kurtarır?”"),
-"Çarşamba, son ders bitince sınıfta yalnızsın. Kapı açılıyor. Arda.",
-"Gözlükleri buğulu. Kapıyı kapatıyor.",
-"“Hocam. Kapıdaydınız. Telefonunuzu da gördüm.”",
-"“Lütfen göstermeyin. Herkes asit atmaya kalktığımı öğrenir. Okuldan atılırım. Belki polis. Bir de neden kalktığımı öğrenirler. Berk'in yaptıklarını. İki yıldır. Annem bilmiyor.”",
-"Ağlıyor. “Cengiz Hoca beni kurtardı. Şimdi onu ben yaktım. Bir şey diyemiyorum. Dersem ben yanarım.”",
-"Koridordan bir velinin sesi. Telefonda, yüksek, Cengiz Bey'in adını söylüyor."
+P(S("a3C"), "Bir şey söylemedin. Kapıda Şükran Hanım kolunu tuttu. “O gün laboratuvarın önünde olduğunu söyleyen bir öğrenci var. Bir şey bilseydin söylerdin, değil mi?” Başını ne evet ne hayır anlamına gelecek şekilde oynattın."),
+P(S("a3D"), "Oda sana döndü, biri “Arda kim?” diye sordu. Bu isim o odada ilk kez senin ağzından çıkmıştı, Şükran Hanım da not aldı."),
+P(S("a3A"), "Oda sustu, Şükran Hanım'ın yüzü bembeyaz oldu. “Toplantıdan sonra odama gel,” dedi. Arka sıradan biri “Sözleşmeli değil miydi bu?” diye fısıldadı."),
+P(S("a3B"), "Şükran Hanım videoyu iki kere izleyip telefonunu geri verdi. “Kimseye gösterme, müfettişe ben söylerim. Bu çıkarsa okul biter. Bir öğrenci asit atmaya kalkmış, bir öğretmen engellemiş, biri çarpıtıp yaymış, bir veli de oğlunun zorbalığını gizlemek için öğretmeni yakmış. Hangi kısmı okulu kurtarır söyle?”"),
+"Çarşamba son ders bitince sınıfta yalnız kalıyorsun. Kapı açılıyor, gelen Arda.",
+"Gözlükleri buğulanmış, kapıyı arkasından kapatıyor.",
+"“Hocam, kapıdaydınız. Telefonunuzu da gördüm.”",
+"“Lütfen göstermeyin. Herkes asit atmaya kalktığımı öğrenir, okuldan atılırım, belki polis de gelir. Bir de neden kalktığımı öğrenirler, Berk'in iki yıldır yaptıklarını. Annemin bundan haberi yok.”",
+"Ağlıyor. “Cengiz Hoca beni kurtardı, şimdi onu ben yaktım. Bir şey de diyemiyorum, dersem ben yanarım.”",
+"Koridordan telefonda yüksek sesle konuşan bir velinin sesi geliyor, Cengiz Bey'in adını söylüyor."
 ], secenekler: [
-{ t: "“Göstermeyeceğim,” dersin. Cengiz Bey'in adı her saat biraz daha yanarken.", to: "a5", etki: { koruma: 2, ardaya_soz: true } },
+{ t: "Cengiz Bey'in adı her saat biraz daha yanarken “Göstermeyeceğim,” dersin.", to: "a5", etki: { koruma: 2, ardaya_soz: true } },
 { t: "“Berk sana ne yaptı?” diye sorarsın.", to: "x_arda", etki: { hakikat: 1, koruma: 1 } },
-{ t: "“Gerçek bir gün çıkacak Arda. Benden ya da başkasından,” dersin. Söz vermeyi reddederek.", to: "a5", etki: { hakikat: 2 } },
+{ t: "Söz vermeyip “Gerçek bir gün çıkacak Arda, benden ya da başkasından,” dersin.", to: "a5", etki: { hakikat: 2 } },
 { t: "Onu rehber öğretmene götürürsün.", to: "x_rehber", etki: { koruma: 1, rehber: true } }
 ]},
 
 x_arda: { saat: "Çarşamba", baslik: "İki Yıl", metin: [
-"Arda telefonunu çıkarıyor. Sınıfın bir grubu; Arda'sız. Biri ekran görüntülerini ona göndermiş.",
-"İki yıl. Gizlice çekilmiş, değiştirilmiş fotoğraflar. Edebiyat defterinden çalınmış şiirler, grupta okunmuş. Bir şiirin altında Berk: “Bu ibne şiir mi yazıyor.”",
-"Babasının işsizliği hakkında şakalar. Ve o pazartesi sabahından bir mesaj: “Bugün laboratuvarda bir şey yapacağız ona. Kaydedin.”",
-"Bu senin sınıfın. Bu çocuklara her hafta Nazım, Cemal Süreya, Edip Cansever okuttun.",
-"“Berk beheri bana gösterdi. ‘At,’ dedi. ‘Korkaksın.’ Bir an gerçekten atmak istedim. Bir an. Sonra Cengiz Hoca.”",
-"“O bir an'ı kimse bilmemeli. Bilirlerse ben de Berk gibi olurum.”"
+"Arda telefonunu çıkarıp sınıfın Arda'sız kurulmuş bir grubunu gösteriyor. Biri ekran görüntülerini ona göndermiş.",
+"İki yıllık birikim var. Gizlice çekilip değiştirilmiş fotoğraflar, edebiyat defterinden çalınıp grupta okunmuş şiirler. Bir şiirin altına Berk “Bu ibne şiir mi yazıyor” yazmış.",
+"Babasının işsizliğiyle ilgili şakalar var. Bir de o pazartesi sabahından bir mesaj: “Bugün laboratuvarda ona bir şey yapacağız, kaydedin.”",
+"Bu senin sınıfın. Bu çocuklara her hafta Nâzım'ı, Cemal Süreya'yı, Edip Cansever'i okuttun.",
+"“Berk beheri bana gösterdi, ‘At,’ dedi, ‘korkaksın.’ Bir an gerçekten atmak istedim, yalnızca bir an. Sonra Cengiz Hoca geldi.”",
+"“O bir anı kimse bilmemeli. Bilirlerse ben de Berk gibi olurum.”"
 ], secenekler: [
-{ t: "Ekran görüntülerini Arda'dan istersin. Bir gün lazım olabilir.", to: "a5", etki: { hakikat: 1, ekran: true } },
+{ t: "Bir gün lazım olabilir diye ekran görüntülerini Arda'dan istersin.", to: "a5", etki: { hakikat: 1, ekran: true } },
 { t: "“O bir an seni Berk gibi yapmaz,” dersin.", to: "a5", etki: { koruma: 2 } },
 { t: "Arda'dan kendi şiirlerinden birini okumasını istersin.", to: "a5", etki: { koruma: 1, siir: true } },
 { t: "Berk'in ailesiyle konuşmaya karar verirsin.", to: "a5", etki: { hakikat: 1, berk_aile: true } }
 ]},
 
 x_rehber: { saat: "Çarşamba", baslik: "Rehber", metin: [
-"Rehber öğretmen Tülay Hanım. Odasında bir kanepe, bir kaktüs, bir kutu mendil.",
-"Arda içeri giriyor. Sen kapıdasın. Tülay Hanım çay koyuyor. Arda bir saat konuşmuyor.",
-"Sonra her şeyi anlatıyor. İki yıl. Grup. Şiirler. Beher. O bir an.",
-"Tülay Hanım çıkınca alçak sesle: “Bu çocuk risk altında. Kendine zarar verme düşünceleri var. Ailesini aramam gerek. Bir de müdüre rapor etmek zorundayım. Akran zorbalığı, bir saldırı girişimi. Rapor müfettişe gider.”",
-"Arda kapıda; duymuş.",
-"“Hocam. Söz vermiştiniz.”",
-"Söz vermedin. Ama bir şey verdin."
+"Rehber öğretmen Tülay Hanım'ın odasında bir kanepe, bir kaktüs ve bir kutu mendil var.",
+"Arda içeri giriyor, sen kapıda kalıyorsun. Tülay Hanım çay koyuyor ama Arda bir saat hiç konuşmuyor.",
+"Sonra her şeyi anlatıyor, iki yılı, grubu, şiirleri, beheri ve o bir anı.",
+"Tülay Hanım dışarı çıkınca alçak sesle konuşuyor. “Bu çocuk risk altında, kendine zarar verme düşünceleri var. Ailesini aramam gerek. Müdüre de rapor etmek zorundayım, akran zorbalığı var, bir saldırı girişimi var. Rapor müfettişe gider.”",
+"Arda kapıda duruyor, duymuş.",
+"“Hocam, söz vermiştiniz.”",
+"Söz vermemiştin ama ona bir şey vermiştin."
 ], secenekler: [
 { t: "Tülay Hanım'dan raporu bir hafta bekletmesini istersin.", to: "a5", etki: { koruma: 1, beklet: true } },
 { t: "Arda'ya “Bu seni korumak için,” dersin.", to: "a5", etki: { hakikat: 1, koruma: 1 } },
@@ -156,157 +156,157 @@ x_rehber: { saat: "Çarşamba", baslik: "Rehber", metin: [
 ]},
 
 a5: { saat: "Perşembe akşamı", baslik: "Göztepe", metin: [
-P(S("a4A"), "Söz vermiştin. Gece telefonu üç kez açıp videoya baktın, üç kez kapattın."),
-P(S("a4C"), "Arda uzun uzun baktı. “O zaman başkasından çıksın,” dedi, çıktı. Kapıyı kapatmadı."),
-P(S("x_ardaA"), "Yirmi üç ekran görüntüsü geldi. Sonra: “Kimseye göstermeyin. Söz?” Cevap yazmadın. Yazmadığını o da gördü. İki mavi tik."),
-P(S("x_ardaB"), "Arda gözlüğünü çıkarıp sildi. “Siz öyle diyorsunuz. İnternet öyle demez.”"),
-P(S("x_ardaC"), "Arda bir şiir okudu. Laboratuvarın penceresinden görünen bir ıhlamur üzerine. Son dize: “Ağaç bilmez kimin baktığını.” Bitirince kısa, utangaç güldü."),
-P(S("x_ardaD"), "Gülsüm Hanım'ın hesabını açtın: üç yüz bin takipçi, dün akşam bir canlı yayın, “Bir anne olarak.” Kapısını çalmak bir yangına yürümek gibiydi."),
-P(S("x_rehberA"), "“Bir hafta,” dedi Tülay Hanım. “Sonra benim de elim kolum bağlı.” Arda koridorda sana baktı."),
-P(S("x_rehberB"), "Arda sana öyle baktı ki cümlenin boşluğunu duydun. “Herkes beni korur ve ben yanarım.”"),
-P(S("x_rehberC"), "Annesi Hacer Hanım açtı. “Arda iyi mi?” İyi, dedin. Okula gelmesini istedin. Gerisini söylemedin."),
-P(S("x_rehberD"), "Yanına oturdun. Tülay Hanım çıktı. Arda omzunu omzuna yasladı. Bir saniye. Sonra doğruldu."),
-"Perşembe akşamı Göztepe. Eski bir apartman, üçüncü kat. Kapıda bir kâğıdın sökülmüş yapışkan izi. Biri “Çocuk döven” yazmış, sökmüşler.",
-"Kapıyı eşi Perihan Hanım açıyor. Emekli hemşire. Gözleri kızarık.",
-"Cengiz Bey salonda, kapalı televizyonun karşısında. Önünde soğumuş bir kahve. Üç günde yüzü çökmüş. Tıraş olmamış.",
-"“Kızım üniversitede,” diyor Perihan Hanım. “Hesabını kapattı. Bir arkadaşı ‘Baban çocuk mu dövüyor?’ demiş.”",
-"“Dün gece arabanın camını kırdılar. Polis tutanak tuttu, gitti. ‘Sosyal medya hassasiyeti,’ dedi.”",
+P(S("a4A"), "Söz vermiştin. Gece telefonu üç kere açıp videoya baktın, üç kere kapattın."),
+P(S("a4C"), "Arda uzun uzun yüzüne baktı. “O zaman başkasından çıksın,” deyip çıktı ve kapıyı kapatmadı."),
+P(S("x_ardaA"), "Yirmi üç ekran görüntüsü geldi, ardından da “Kimseye göstermeyin, söz mü?” diye bir mesaj. Cevap yazmadın, yazmadığını o da gördü, iki mavi tik."),
+P(S("x_ardaB"), "Arda gözlüğünü çıkarıp sildi. “Siz öyle diyorsunuz,” dedi, “internet öyle demez.”"),
+P(S("x_ardaC"), "Arda laboratuvarın penceresinden görünen bir ıhlamur ağacı üstüne yazdığı bir şiiri okudu. Son dizesi “Ağaç bilmez kimin baktığını” idi. Bitirince kısa, utangaç bir gülüş attı."),
+P(S("x_ardaD"), "Gülsüm Hanım'ın hesabını açtın. Üç yüz bin takipçi, dün akşam “Bir anne olarak” diye başlayan bir canlı yayın. O kapıyı çalmak bir yangına doğru yürümek gibiydi."),
+P(S("x_rehberA"), "“Bir hafta,” dedi Tülay Hanım, “sonra benim de elim kolum bağlı.” Arda koridorda sana baktı."),
+P(S("x_rehberB"), "Arda sana öyle bir baktı ki cümlenin içindeki boşluğu duydun. “Herkes beni koruyor ve ben yanıyorum,” dedi."),
+P(S("x_rehberC"), "Telefonu annesi Hacer Hanım açtı, “Arda iyi mi?” diye sordu. İyi olduğunu söyledin, okula gelmesini istedin, gerisini anlatmadın."),
+P(S("x_rehberD"), "Yanına oturdun, Tülay Hanım dışarı çıktı. Arda omzunu bir saniyeliğine omzuna yasladı, sonra doğruldu."),
+"Perşembe akşamı Göztepe'de eski bir apartmanın üçüncü katındasın. Kapıda sökülmüş bir kâğıdın yapışkan izi var. Biri “Çocuk döven” yazıp yapıştırmış, onlar da sökmüş.",
+"Kapıyı Cengiz Bey'in eşi Perihan Hanım açıyor. Emekli bir hemşire, gözleri kızarmış.",
+"Cengiz Bey salonda kapalı televizyonun karşısında oturuyor, önünde soğumuş bir kahve var. Üç günde yüzü çökmüş, tıraş da olmamış.",
+"“Kızım üniversitede,” diyor Perihan Hanım, “hesabını kapattı. Bir arkadaşı ona ‘Baban çocuk mu dövüyor?’ diye sormuş.”",
+"“Dün gece arabanın camını kırdılar. Polis gelip tutanak tuttu ve gitti, ‘sosyal medya hassasiyeti’ dedi.”",
 P(function(d){ return d.aradi; }, "Cengiz Bey sana dönüyor. “Videoyu sildin mi?”"),
-P(function(d){ return !d.aradi; }, "Cengiz Bey sana dönüyor. “O gün kapıdaydın. Kaydettin, değil mi?” Başını sallıyorsun. “Sil onu.”"),
-P(function(d){ return d.cengize_soz; }, "“Silmedim hocam. Ama kimseye göstermedim.”"),
-"Perihan Hanım kocasına, sonra sana bakıyor. “Hangi video?”",
+P(function(d){ return !d.aradi; }, "Cengiz Bey sana dönüyor. “O gün kapıdaydın, kaydettin değil mi?” Başını sallıyorsun. “Sil onu.”"),
+P(function(d){ return d.cengize_soz; }, "“Silmedim hocam ama kimseye de göstermedim.”"),
+"Perihan Hanım önce kocasına, sonra sana bakıyor. “Hangi video?”",
 "Cengiz Bey eşine hiç söylememiş."
 ], secenekler: [
-{ t: "Perihan Hanım'a gerçeği söylersin. Videoyu.", to: "a6", etki: { hakikat: 2, ayten_bildi: true } },
-{ t: "Cengiz Bey'e bakarsın. Karar onun. Ama susman da bir cevap.", to: "a6", etki: { koruma: 1 } },
-{ t: "“Bir şey yok,” dersin. Bir kadının yüzüne bakarak, kocasının sırrı için.", to: "a6", etki: { koruma: 1, kalabalik: 1 } },
-{ t: "Cengiz Bey'e: “Eşinize siz söyleyin hocam,” dersin.", to: "a6", etki: { hakikat: 1, kendisi_soylesin: true } }
+{ t: "Perihan Hanım'a gerçeği, videoyu anlatırsın.", to: "a6", etki: { hakikat: 2, ayten_bildi: true } },
+{ t: "Kararın Cengiz Bey'e ait olduğunu düşünüp ona bakarsın ama susman da bir cevap.", to: "a6", etki: { koruma: 1 } },
+{ t: "Kocasının sırrı için bir kadının yüzüne bakıp “Bir şey yok,” dersin.", to: "a6", etki: { koruma: 1, kalabalik: 1 } },
+{ t: "Cengiz Bey'e “Eşinize siz söyleyin hocam,” dersin.", to: "a6", etki: { hakikat: 1, kendisi_soylesin: true } }
 ]},
 
 a6: { saat: "Cuma", baslik: "Seçim", metin: [
-P(S("a5B"), "Cengiz Bey eşine baktı. “Bir video var Perihan,” dedi, yorgun. “Bir şey değişmez.” Kapıda Perihan Hanım “Teşekkür ederim kızım,” dedi. Neye, anlamadın."),
-P(S("a5C"), "“Bir şey yok.” Perihan Hanım sana otuz yıl yalan söyleyen hastalara bakmış gözlerle baktı. “Peki.” Kapıda elini uzatmadı."),
-P(S("a5A"), "Anlattın. Perihan Hanım kocasına döndü. “Üç gündür ‘bir şey yok’ diyorsun.” Cengiz Bey yere baktı. “O çocuk on altı yaşında.” Perihan Hanım uzun süre sustu. “Bizim kızımız da yirmi bir.”"),
-P(S("a5D"), "Cengiz Bey eşine anlattı. Perihan Hanım dinledi, kalkıp mutfağa gitti, kapıyı kapattı. İçeriden musluk sesi geldi, uzun süre. Cengiz Bey: “Görüyorsun. Doğrusunu söylemek bir şeyi kolaylaştırmıyor.”"),
-"Cuma. Beş milyon izlenme. Ana haber bülteninde otuz saniye. Bir milletvekili soru önergesi verdi. Gülsüm Hanım ağlayarak canlı yayın yaptı: “Bir anne olarak...”",
-"Müfettiş pazartesi geliyor. Soruşturma otuz gün.",
-"Cengiz Bey'in adını arama motoruna yazınca ilk sayfanın tamamı o sekiz saniye.",
-"Telefonunda kırk saniye. Arda'nın sesi: “Lütfen göstermeyin.” Cengiz Bey'in sesi: “Sil onu.”",
-P(S("a5A"), "Perihan Hanım'ın sesi: “Bizim kızımız da yirmi bir.”"),
-P(function(d){ return d.ekran; }, "Bir de Arda'nın gönderdiği yirmi üç ekran görüntüsü. Berk'in. Gülsüm Hanım'ın oğlunun."),
-P(function(d){ return !d.ekran; }, "Bir de sınıfın mesaj grubu. İki yılın kanıtı, bir öğrencinin telefonunda, bir mesaj uzağında."),
+P(S("a5B"), "Cengiz Bey eşine baktı. “Bir video var Perihan,” dedi yorgun bir sesle, “bir şey değişmez.” Kapıda Perihan Hanım “Teşekkür ederim kızım,” dedi, neye teşekkür ettiğini anlamadın."),
+P(S("a5C"), "“Bir şey yok,” dedin. Perihan Hanım otuz yıl boyunca yalan söyleyen hastalara bakmış gözlerle sana baktı ve “Peki,” dedi. Kapıda elini uzatmadı."),
+P(S("a5A"), "Anlattın. Perihan Hanım kocasına döndü. “Üç gündür ‘bir şey yok’ diyorsun.” Cengiz Bey yere bakıp “O çocuk on altı yaşında,” dedi. Perihan Hanım uzun süre sustu. “Bizim kızımız da yirmi bir yaşında,” dedi."),
+P(S("a5D"), "Cengiz Bey eşine anlattı. Perihan Hanım dinledi, kalkıp mutfağa gitti ve kapıyı kapattı. İçeriden uzun süre musluk sesi geldi. “Görüyorsun,” dedi Cengiz Bey, “doğrusunu söylemek hiçbir şeyi kolaylaştırmıyor.”"),
+"Cuma gelmiş, video beş milyon izlenmiş. Ana haber bülteninde otuz saniye yer aldı, bir milletvekili soru önergesi verdi. Gülsüm Hanım ağlayarak “Bir anne olarak...” diye canlı yayın yaptı.",
+"Müfettiş pazartesi geliyor ve soruşturma otuz gün sürecek.",
+"Cengiz Bey'in adını arama motoruna yazınca ilk sayfanın tamamı o sekiz saniyeden ibaret.",
+"Telefonunda kırk saniye duruyor. Kulağında Arda'nın “Lütfen göstermeyin” deyişi, Cengiz Bey'in “Sil onu” deyişi var.",
+P(S("a5A"), "Bir de Perihan Hanım'ın sesi: “Bizim kızımız da yirmi bir yaşında.”"),
+P(function(d){ return d.ekran; }, "Bir de Arda'nın gönderdiği yirmi üç ekran görüntüsü var, Berk'in, yani Gülsüm Hanım'ın oğlunun yazdıkları."),
+P(function(d){ return !d.ekran; }, "Bir de sınıfın mesaj grubu var. İki yılın kanıtı bir öğrencinin telefonunda, bir mesaj uzağında duruyor."),
 "Pazartesiye iki gün var."
 ], secenekler: [
-{ t: "Kırk saniyelik videoyu kendi hesabından paylaşırsın. Cengiz Bey kurtulur; Arda'nın yüzü de görünür.", to: "h1", etki: { hakikat: 2, kol: "hakikat" } },
-{ t: "Videoyu yalnızca müfettişe verirsin. Doğru yol bu. Ama otuz gün sürecek ve Cengiz Bey her gün biraz daha yanacak.", to: "r1", etki: { hakikat: 1, koruma: 1, kol: "resmi" } },
-{ t: "Hiçbir şey yapmazsın. Arda'yı korursun. Bir öğretmenin yanışını seyrederek.", to: "s1", etki: { koruma: 2, kol: "sessiz" } },
-{ t: "Videoyu değil, Berk'in iki yıllık mesajlarını paylaşırsın. Ateşi asıl suçluya çevirirsin. O da on altı yaşında.", to: "b1", etki: { kalabalik: 1, hakikat: 1, kol: "karsi" } }
+{ t: "Kırk saniyelik videoyu kendi hesabından paylaşırsın. Cengiz Bey kurtulur ama Arda'nın yüzü de görünür.", to: "h1", etki: { hakikat: 2, kol: "hakikat" } },
+{ t: "Videoyu yalnızca müfettişe verirsin. Doğru yol bu ama otuz gün sürecek ve Cengiz Bey her gün biraz daha yanacak.", to: "r1", etki: { hakikat: 1, koruma: 1, kol: "resmi" } },
+{ t: "Arda'yı korumak için hiçbir şey yapmaz, bir öğretmenin yanışını seyredersin.", to: "s1", etki: { koruma: 2, kol: "sessiz" } },
+{ t: "Videoyu değil, Berk'in iki yıllık mesajlarını paylaşıp ateşi asıl suçluya çevirirsin, ama o da on altı yaşında.", to: "b1", etki: { kalabalik: 1, hakikat: 1, kol: "karsi" } }
 ]},
 
 /* ---------- HAKİKAT KOLU ---------- */
 h1: { saat: "Cuma gecesi", baslik: "Kırk Saniye", metin: [
-P(S("a6A"), "Cuma gecesi saat on bir. Mutfak masasında, soğumuş bir ıhlamurun yanında."),
-P(S("r2D"), "Otuz günü bekleyemedin. Perihan Hanım'ın telefonundan sonra müfettişi, kadroyu bir kenara koydun. Gece yarısı."),
-"Kendi hesabın. Yedi yüz takipçi, çoğu eski öğrenci. Videoyu yüklüyorsun. Altına bir metin. Üç kez silip yeniden yazıyorsun.",
-"“O okulda öğretmenim. O gün kapıdaydım. Videonun tamamı bu. Cengiz Hoca bir öğrenciyi darp etmedi. Bir öğrencinin bir başkasına zarar vermesini engelledi.”",
-"Arda'nın yüzünü bulanıklaştırıyorsun. Berk'inkini de.",
-"Paylaş.",
-"Bir saat: yüz paylaşım. Gece yarısı bir haber sitesi. Sabah altıda bir milyon.",
-"Aynı hesaplar, aynı öfke. Yön değiştirmiş. “Bu öğretmen kahraman!” “O veli kim? Gülsüm Hanım'ın oğlu değil mi?”",
-"Sonra biri bulanıklığı bir yapay zekâ aracıyla kaldırmış. Sabah yedide Arda'nın yüzü, net: “İşte asit atmaya kalkan çocuk.” Adı, okul numarası.",
-"Sabah sekizde Arda'nın adı trend."
+P(S("a6A"), "Cuma gecesi saat on bir, mutfak masasındasın, yanında soğumuş bir ıhlamur var."),
+P(S("r2D"), "Otuz günü bekleyemedin. Perihan Hanım'ın telefonundan sonra müfettişi de kadroyu da bir kenara koydun. Gece yarısı olmuştu."),
+"Kendi hesabını açıyorsun, yedi yüz takipçin var, çoğu eski öğrencin. Videoyu yüklüyorsun. Altına yazacağın metni üç kere silip yeniden yazıyorsun.",
+"“O okulda öğretmenim ve o gün kapıdaydım. Videonun tamamı bu. Cengiz Hoca bir öğrenciyi darp etmedi, bir öğrencinin başka birine zarar vermesini engelledi.”",
+"Arda'nın yüzünü bulanıklaştırıyorsun, Berk'inkini de.",
+"Paylaşıyorsun.",
+"Bir saatte yüz kişi paylaşıyor. Gece yarısı bir haber sitesi alıyor, sabah altıda izlenme bir milyonu buluyor.",
+"Aynı hesaplar, aynı öfke, yalnızca yönü değişmiş. “Bu öğretmen kahraman!” “O veli kim? Gülsüm Hanım'ın oğlu değil mi?”",
+"Sonra biri bulanıklığı bir yapay zekâ aracıyla kaldırıyor. Sabah yedide Arda'nın yüzü net bir şekilde ortada, altında “İşte asit atmaya kalkan çocuk” yazıyor, adı ve okul numarası da var.",
+"Sabah sekizde Arda'nın adı gündemde."
 ], secenekler: [
 { t: "Videoyu hemen kaldırırsın.", to: "h2", etki: { koruma: 2, kaldirdi: true } },
-{ t: "Bir açıklama yazarsın: Arda'nın neden o beheri tuttuğunu. İki yılı.", to: "h2", etki: { hakikat: 1, koruma: 1, aciklama: true } },
+{ t: "Arda'nın o beheri neden tuttuğunu, iki yılı anlatan bir açıklama yazarsın.", to: "h2", etki: { hakikat: 1, koruma: 1, aciklama: true } },
 { t: "Arda'yı ararsın.", to: "h2", etki: { koruma: 1, ardayi_aradi: true } },
 { t: "Arda'nın yüzünü açan hesapları platforma şikâyet edersin.", to: "h2", etki: { hakikat: 1, sikayet: true } }
 ]},
 
 h2: { saat: "Cumartesi", baslik: "Arda'nın Annesi", metin: [
-P(S("h1D"), "Yüz on iki hesabı şikâyet ettin. Otomatik cevap: “İncelemeye alındı.” Sabaha kadar yüz on iki yeni hesap açıldı."),
-P(S("h1A"), "Kaldırdın. Yüz bin kişi indirmişti. Kaldırdığın şey yalnızca senin adındı."),
-P(S("h1B"), "Açıklama yazdın; Arda'nın adını hiç kullanmadan. Ama herkes adını biliyordu artık. Açıklaman ikinci bir ifşa gibi okundu."),
-P(S("h1C"), "Arda açmadı. On kez. Sonra bir mesaj: “Neden?”"),
-"Cumartesi öğlen kapın çalınıyor. Kırklarında, başörtülü, gözleri şiş bir kadın. Arda'nın annesi Hacer Hanım. İçeri girmiyor.",
+P(S("h1D"), "Yüz on iki hesabı şikâyet ettin, “İncelemeye alındı” diye otomatik bir cevap geldi. Sabaha kadar yüz on iki yeni hesap açıldı."),
+P(S("h1A"), "Kaldırdın ama yüz bin kişi çoktan indirmişti. Kaldırdığın tek şey senin adındı."),
+P(S("h1B"), "Arda'nın adını hiç anmadan bir açıklama yazdın ama artık herkes adını biliyordu. Açıklaman ikinci bir ifşa gibi okundu."),
+P(S("h1C"), "On kere aradın, Arda açmadı. Sonra tek kelimelik bir mesaj geldi: “Neden?”"),
+"Cumartesi öğlen kapın çalıyor. Kırklarında, başörtülü, gözleri şişmiş bir kadın duruyor, Arda'nın annesi Hacer Hanım. İçeri girmiyor.",
 "“Videoyu siz mi koydunuz?”",
 "Evet.",
-"“Oğlum dün gece banyoya kapandı. Babası kapıyı kırdı. Bir şey yapmamıştı. Karanlıkta oturuyordu. Telefonunda bin mesaj. ‘Psikopat.’ ‘Öl.’ On altı yaşında.”",
-"“İki yıl oğlumun okulda ne yaşadığını bilmedim. Dün gece bir ekrandan öğrendim. Bir milyon kişiyle birlikte.”",
-"“Bir öğretmeni kurtardınız. Benim oğlumu kim kurtaracak?” Elindeki poşette Arda'nın ilaçları. Eczaneden dönüyormuş."
+"“Oğlum dün gece banyoya kapandı, babası kapıyı kırdı. Bir şey yapmamıştı, karanlıkta oturuyordu. Telefonunda bin mesaj vardı, ‘psikopat’, ‘öl’. On altı yaşında.”",
+"“Oğlumun iki yıldır okulda neler yaşadığını bilmiyordum. Dün gece bir ekrandan, bir milyon kişiyle birlikte öğrendim.”",
+"“Bir öğretmeni kurtardınız, benim oğlumu kim kurtaracak?” Elindeki poşette Arda'nın ilaçları var, eczaneden dönüyormuş."
 ], secenekler: [
 { t: "Özür dilersin.", to: "h3", etki: { koruma: 1, ozur: true } },
-{ t: "“Bir gün çıkacaktı Hacer Hanım,” dersin.", to: "h3", etki: { hakikat: 1 } },
-{ t: "Ona Arda'nın iki yılını belgeleyen her şeyi verirsin. Hukuki yol için.", to: "h3", etki: { hakikat: 1, koruma: 1, belge: true } },
+{ t: "“Bu bir gün çıkacaktı Hacer Hanım,” dersin.", to: "h3", etki: { hakikat: 1 } },
+{ t: "Hukuki yol için Arda'nın iki yılını belgeleyen her şeyi ona verirsin.", to: "h3", etki: { hakikat: 1, koruma: 1, belge: true } },
 { t: "Hacer Hanım'ı içeri alıp çay koyarsın.", to: "h3", etki: { koruma: 1, cay: true } }
 ]},
 
 h3: { saat: "İki hafta sonra", baslik: "İkinci Dalga", metin: [
-P(S("h2A"), "“Özrünüz oğlumun adını internetten silmiyor,” dedi Hacer Hanım. “Ama söylediğiniz için teşekkür ederim.”"),
-P(S("h2B"), "“Çıkacaktı mı?” dedi Hacer Hanım. “Çıkması gereken şey, oğlumun iki yıl her gün eve gelip odasına kapandığıydı. Onu kimse paylaşmadı.”"),
-P(S("h2C"), "Bütün belgeleri verdin. Hacer Hanım bir avukat buldu; Berk'in ailesine dava açıldı. Gülsüm Hanım bir canlı yayın daha yaptı."),
-P(S("h2D"), "Hacer Hanım bardağı iki eliyle tuttu, bir saat konuşmadı. Sonra Arda'nın ilk şiirini anlattı. Bir kedi üzerine, yedi yaşında. Giderken: “Bunu kimseye anlatmamıştım.”"),
-"İki hafta. Cengiz Bey kamuoyu baskısıyla göreve iade edildi. Bir program ona “kahraman öğretmen” dedi. Bir bakan yardımcısı ziyaret etti. Fotoğraf çekildi, Cengiz Bey fotoğrafta gülümsemiyor.",
-"Gülsüm Hanım önce özür diledi, sonra hesabını kapattı. Berk okula gelmiyor.",
-"Arda da gelmiyor. Okul bir disiplin soruşturması başlattı: “Tehlikeli madde ile saldırı girişimi.” Nakil öneriliyor.",
-"Rehber öğretmen: Arda evden çıkmıyor, ilaç kullanıyor.",
+P(S("h2A"), "“Özrünüz oğlumun adını internetten silmiyor,” dedi Hacer Hanım, “ama söylediğiniz için teşekkür ederim.”"),
+P(S("h2B"), "“Çıkacaktı mı?” dedi Hacer Hanım. “Asıl çıkması gereken, oğlumun iki yıl boyunca her gün eve gelip odasına kapanmasıydı. Onu kimse paylaşmadı.”"),
+P(S("h2C"), "Bütün belgeleri verdin. Hacer Hanım bir avukat buldu ve Berk'in ailesine dava açıldı. Gülsüm Hanım da bir canlı yayın daha yaptı."),
+P(S("h2D"), "Hacer Hanım bardağı iki eliyle tuttu ve bir saat konuşmadı. Sonra Arda'nın yedi yaşında bir kedi üstüne yazdığı ilk şiirini anlattı. Giderken “Bunu kimseye anlatmamıştım,” dedi."),
+"İki hafta geçiyor. Cengiz Bey kamuoyunun baskısıyla göreve iade ediliyor. Bir programda ona “kahraman öğretmen” diyorlar, bir bakan yardımcısı ziyarete geliyor, fotoğraf çekiliyor. Cengiz Bey fotoğrafta gülümsemiyor.",
+"Gülsüm Hanım önce özür diliyor, sonra hesabını kapatıyor. Berk okula gelmiyor.",
+"Arda da gelmiyor. Okul onun hakkında “tehlikeli madde ile saldırı girişimi” gerekçesiyle disiplin soruşturması başlatıyor ve nakil öneriliyor.",
+"Rehber öğretmen Arda'nın evden çıkmadığını, ilaç kullandığını söylüyor.",
 "Bir öğleden sonra Cengiz Bey odana geliyor.",
-"“Teşekkür ederim. İstemediğim bir şeyi yaptın. Beni kurtardı.”",
-"“Dün Arda'ya gittim. Annesi açtı. ‘Siz kurtuldunuz, o yandı,’ dedi.”",
-"Pencereye bakıyor. “Otuz yılda ilk kez bir öğrencimi kurtaramadım. Beni kurtaran şey yüzünden.”"
+"“Teşekkür ederim. İstemediğim bir şeyi yaptın ama beni kurtardı.”",
+"“Dün Arda'ya gittim. Kapıyı annesi açtı, ‘Siz kurtuldunuz, o yandı,’ dedi.”",
+"Pencereye bakıyor. “Otuz yılda ilk kez bir öğrencimi kurtaramadım, hem de beni kurtaran şey yüzünden.”"
 ], secenekler: [
-{ t: "“Bunu ben yaptım hocam. Siz değil,” dersin.", to: "t1", etki: { hakikat: 1, ben_yaptim: true } },
+{ t: "“Bunu ben yaptım hocam, siz değil,” dersin.", to: "t1", etki: { hakikat: 1, ben_yaptim: true } },
 { t: "“Arda'yı birlikte ziyaret edelim,” dersin.", to: "t1", etki: { koruma: 2, birlikte_ziyaret: true } },
 { t: "“Disiplin soruşturmasında Arda'yı savunacağım,” dersin.", to: "t1", etki: { koruma: 2, savunma: true } },
-{ t: "Bir şey demezsin. Pencereden birlikte bakarsınız.", to: "t1", etki: { koruma: 1 } }
+{ t: "Bir şey demeden pencereden birlikte bakarsınız.", to: "t1", etki: { koruma: 1 } }
 ]},
 
 /* ---------- RESMÎ KOL ---------- */
 r1: { saat: "Pazartesi", baslik: "Müfettiş", metin: [
-P(S("a6B"), "Pazartesi sabahı erkenden okuldasın. Kırk saniye bir belleğe kopyalanmış, cebinde."),
-P(S("s2D"), "İpek'in videosunu aldın. “Arda bilmesin,” dedi İpek. Söz vermedin."),
-"Müfettiş Ahmet Bey, altmışlarında, kütüphanede bir masa. Dosyaların yanında bir termos.",
+P(S("a6B"), "Pazartesi sabahı erkenden okuldasın, kırk saniyeyi bir belleğe kopyalamışsın, cebinde duruyor."),
+P(S("s2D"), "İpek'in videosunu aldın. “Arda bilmesin,” dedi İpek, söz vermedin."),
+"Müfettiş Necdet Bey altmışlarında bir adam, kütüphanede bir masaya yerleşmiş, dosyaların yanında bir termos duruyor.",
 "Telefonunu masaya koyuyorsun.",
-"Ahmet Bey izliyor. Bir kez, bir daha, üçüncü kez yavaşlatarak. Bir kâğıda bir şey yazıyor.",
-"“Bir kopyasını alacağım. Yazılı ifadenizi de. Soruşturma bitene kadar bu videoyu kimseyle paylaşmayın. Yasal yükümlülüğünüz.”",
+"Necdet Bey videoyu bir kere izliyor, bir daha izliyor, üçüncüsünde yavaşlatıyor ve bir kâğıda bir şey yazıyor.",
+"“Bir kopyasını alacağım, yazılı ifadenizi de alacağım. Soruşturma bitene kadar bu videoyu kimseyle paylaşmayın, bu sizin yasal yükümlülüğünüz.”",
 "“Ne kadar sürecek?”",
-"“Otuz gün. Yönetmelik.”",
-"“Otuz günde Cengiz Bey'in hayatı bitecek.”",
-"Ahmet Bey gözlüğünü çıkarıyor. “Hanımefendi, ben internete bakmıyorum. Dosyaya bakıyorum.” Termostan bir bardak çay koyuyor, sana da koyuyor."
+"“Otuz gün, yönetmelik böyle.”",
+"“Otuz günde Cengiz Bey'in hayatı biter.”",
+"Necdet Bey gözlüğünü çıkarıyor. “Hanımefendi, ben internete bakmam, dosyaya bakarım.” Termostan kendine bir bardak çay koyuyor, sana da koyuyor."
 ], secenekler: [
-{ t: "“Ama şu an bir insanı öldürüyor,” dersin.", to: "r2", etki: { hakikat: 1, itiraz: true } },
-{ t: "Kabul edersin. Bekleyeceksin.", to: "r2", etki: { koruma: 1, bekle: true } },
+{ t: "“Ama şu anda bir insanı öldürüyor,” dersin.", to: "r2", etki: { hakikat: 1, itiraz: true } },
+{ t: "Kabul edip beklersin.", to: "r2", etki: { koruma: 1, bekle: true } },
 { t: "Hiç değilse bir ara açıklama yapılmasını istersin.", to: "r2", etki: { hakikat: 1, ara_aciklama: true } },
 { t: "İfadene Arda'nın iki yılını da eklersin.", to: "r2", etki: { hakikat: 1, koruma: 1, zorbalik_ifade: true } }
 ]},
 
 r2: { saat: "İki hafta sonra", baslik: "Otuz Gün", metin: [
 P(S("r1B"), "Bekleyecektin. Koridorda iki öğrenci aynı videoyu izliyordu."),
-P(S("r1D"), "Tarihlerle, isimlerle ekledin. Ahmet Bey kaşlarını kaldırdı. “Bu dosyayı genişletir. Ve uzatır.”"),
-P(S("r1A"), "“Biliyorum,” dedi Ahmet Bey. “Ama elimde yalnızca bir dosya var. Kırk yıldır.”"),
-P(S("r1C"), "Bir hafta sonra ilçeden kısa bir açıklama: “Görüntülerin bağlamından koparılmış olabileceğine dair bulgular incelenmektedir.” İki yüz kişi okudu. Video yedi milyondaydı."),
-"İki hafta.",
-"Cengiz Bey evden çıkmıyor. Bir program apartmanın önüne muhabir göndermiş. Bir komşu: “Hep sertti.” Bir başkası: “Selamlaşmazdı.”",
-"Perihan Hanım arıyor. “Bir şey biliyorsunuz. Söyleyin. Dün gece balkonda buldum onu. Saat üçte, korkuluğa yaslanmış, aşağı bakıyordu.”",
-"Telefonda nefesi.",
-"“Yasal yükümlülüğünüz var, biliyorum. Ama kocam otuz gün bekleyemez.”"
+P(S("r1D"), "Tarihleri, isimleri ekledin. Necdet Bey kaşlarını kaldırdı. “Bu dosyayı genişletir,” dedi, “bir de uzatır.”"),
+P(S("r1A"), "“Biliyorum,” dedi Necdet Bey, “ama benim elimde yalnızca bir dosya var, kırk yıldır da öyle.”"),
+P(S("r1C"), "Bir hafta sonra ilçeden kısa bir açıklama çıktı: “Görüntülerin bağlamından koparılmış olabileceğine dair bulgular incelenmektedir.” Açıklamayı iki yüz kişi okudu, video ise yedi milyona ulaşmıştı."),
+"İki hafta geçiyor.",
+"Cengiz Bey evden çıkmıyor. Bir program apartmanın önüne muhabir göndermiş, bir komşu “Hep sertti,” diyor, bir başkası “Selam vermezdi,” diyor.",
+"Perihan Hanım arıyor. “Bir şey biliyorsunuz, söyleyin. Dün gece onu balkonda buldum, saat üçte, korkuluğa yaslanmış, aşağı bakıyordu.”",
+"Telefonda nefesini duyuyorsun.",
+"“Yasal yükümlülüğünüz olduğunu biliyorum ama kocam otuz gün bekleyemez.”"
 ], secenekler: [
-{ t: "Perihan Hanım'a videoyu gösterirsin. Yalnızca ona.", to: "r3", etki: { hakikat: 1, koruma: 1, aytene: true } },
-{ t: "Müfettişe gidip Cengiz Bey'in durumunu anlatırsın. Acil.", to: "r3", etki: { hakikat: 1, acil: true } },
-{ t: "Psikiyatrist bir arkadaşını Göztepe'ye göndermesi için ararsın.", to: "r3", etki: { koruma: 2, psikiyatrist: true } },
+{ t: "Videoyu yalnızca Perihan Hanım'a gösterirsin.", to: "r3", etki: { hakikat: 1, koruma: 1, aytene: true } },
+{ t: "Müfettişe gidip Cengiz Bey'in durumunun acil olduğunu anlatırsın.", to: "r3", etki: { hakikat: 1, acil: true } },
+{ t: "Psikiyatrist bir arkadaşını arayıp Göztepe'ye gitmesini istersin.", to: "r3", etki: { koruma: 2, psikiyatrist: true } },
 { t: "Yükümlülüğünü çiğneyip videoyu paylaşırsın.", to: "h1", etki: { hakikat: 2, kol: "hakikat", gec_paylasim: true } }
 ]},
 
 r3: { saat: "Bir ay sonra", baslik: "Rapor", metin: [
-P(S("r2B"), "“Raporu hızlandıramam,” dedi Ahmet Bey. “Tedbirin kaldırılması için bir ara yazı yazabilirim.” On gün sonra çıktı. Kimse görmedi."),
-P(S("r2A"), "Mutfakta, Perihan Hanım'ın telefonunda izlediniz. Telefonu bırakıp ağladı. “Biliyordum. O kimseye el kaldırmazdı.” O gece kocasının yanında uyudu."),
-P(S("r2C"), "Arkadaşın gitti. Cengiz Bey önce açmadı, sonra açtı. İki saat. Bir reçete. “Ciddi,” dedi arkadaşın. “Ama artık biri onu izliyor.”"),
-"Otuz birinci gün rapor. Kırk iki sayfa.",
-"“Öğretmen Cengiz Y.'nin bir öğrencinin tehlikeli bir madde ile bir başka öğrenciye zarar vermesini engellemek amacıyla müdahale ettiği tespit edilmiştir. Darp unsuru bulunmamaktadır.”",
-"Devamı: “Öğrenci Berk K.'nın uzun süreli akran zorbalığı...” “Öğrenci Arda T.'nin rehberliğe yönlendirilmesi...”",
-"Rapor ilçenin sitesinde bir pdf. On dört kişi indiriyor.",
-"Video sekiz milyon. Cengiz Bey'in adı hâlâ “öğretmen darp” ile çıkıyor. Rapor ikinci sayfada."
+P(S("r2B"), "“Raporu hızlandıramam,” dedi Necdet Bey, “ama tedbirin kaldırılması için bir ara yazı yazabilirim.” Yazı on gün sonra çıktı ve kimse görmedi."),
+P(S("r2A"), "Mutfakta Perihan Hanım'ın telefonunda izlediniz. Telefonu bırakıp ağladı. “Biliyordum,” dedi, “o kimseye el kaldırmazdı.” O gece kocasının yanında uyudu."),
+P(S("r2C"), "Arkadaşın gitti. Cengiz Bey önce kapıyı açmadı, sonra açtı. İki saat konuştular ve bir reçete yazıldı. “Durumu ciddi,” dedi arkadaşın, “ama artık onu izleyen biri var.”"),
+"Otuz birinci gün kırk iki sayfalık rapor çıkıyor.",
+"“Öğretmen Cengiz Y.'nin, bir öğrencinin tehlikeli bir madde ile bir başka öğrenciye zarar vermesini engellemek amacıyla müdahale ettiği tespit edilmiştir. Darp unsuru bulunmamaktadır.”",
+"Devamında “Öğrenci Berk K.'nın uzun süreli akran zorbalığı...” ve “Öğrenci Arda T.'nin rehberliğe yönlendirilmesi...” diye maddeler var.",
+"Rapor ilçenin sitesinde bir pdf olarak duruyor ve on dört kişi indiriyor.",
+"Video sekiz milyona ulaşmış. Cengiz Bey'in adı hâlâ “öğretmen darp” diye çıkıyor, rapor ikinci sayfada."
 ], secenekler: [
-{ t: "Raporu kendi hesabından paylaşırsın. Artık yasal.", to: "t1", etki: { hakikat: 1, rapor_paylas: true } },
+{ t: "Artık yasal olduğu için raporu kendi hesabından paylaşırsın.", to: "t1", etki: { hakikat: 1, rapor_paylas: true } },
 { t: "Raporu basılı olarak Cengiz Bey'e götürürsün.", to: "t1", etki: { koruma: 1, rapor_elden: true } },
 { t: "Bir gazeteciden raporun haberini yapmasını istersin.", to: "t1", etki: { hakikat: 2, gazeteci: true } },
 { t: "Bir şey yapmazsın.", to: "t1", etki: { koruma: 1, kalabalik: 1 } }
@@ -314,46 +314,46 @@ P(S("r2C"), "Arkadaşın gitti. Cengiz Bey önce açmadı, sonra açtı. İki sa
 
 /* ---------- SESSİZ KOL ---------- */
 s1: { saat: "Bir hafta", baslik: "Sessizlik", metin: [
-"Bir şey yapmıyorsun. Telefon cebinde.",
-"Bir hafta. On milyon. Cengiz Bey'in arabası ikinci kez. Başka bir şehirde başka bir öğretmen, başka bir video: “Tıpkı Kadıköy'deki gibi.”",
-"Öğretmenler odasında Cengiz Bey'i savunanlar alçak sesle konuşuyor. Odanın içinde.",
-"Arda okula geliyor. Koridorda sana bakıyor. Minnet mi, başka bir şey mi, çıkaramıyorsun.",
-"Berk antrenmanda. Gülüyor. Annesi hâlâ canlı yayında.",
+"Hiçbir şey yapmıyorsun, telefon cebinde duruyor.",
+"Bir hafta geçiyor, video on milyona varıyor. Cengiz Bey'in arabası ikinci kez kırılıyor. Başka bir şehirde başka bir öğretmenin başka bir videosu çıkıyor, altında “Tıpkı Kadıköy'deki gibi” yazıyor.",
+"Öğretmenler odasında Cengiz Bey'i savunanlar yalnızca odanın içinde, alçak sesle konuşuyor.",
+"Arda okula geliyor. Koridorda sana bakıyor, minnet mi, başka bir şey mi, çıkaramıyorsun.",
+"Berk antrenmanda gülüp duruyor, annesi hâlâ canlı yayınlarda.",
 "Her akşam videoyu açıp kapatıyorsun."
 ], secenekler: [
-{ t: "Videoyu bir buluta yedeklersin. Bir gün.", to: "s2", etki: { hakikat: 1, yedek: true } },
-{ t: "Videoyu silersin. Sözünü tutmak için.", to: "s2", etki: { koruma: 2, sildi: true } },
-{ t: "Cengiz Bey'e her gün bir mesaj atarsın: “Buradayım.”", to: "s2", etki: { koruma: 1, mesaj: true } },
+{ t: "Bir gün lazım olur diye videoyu bir buluta yedeklersin.", to: "s2", etki: { hakikat: 1, yedek: true } },
+{ t: "Sözünü tutmak için videoyu silersin.", to: "s2", etki: { koruma: 2, sildi: true } },
+{ t: "Cengiz Bey'e her gün “Buradayım” diye bir mesaj atarsın.", to: "s2", etki: { koruma: 1, mesaj: true } },
 { t: "Berk'i antrenmanda izlersin.", to: "s2", etki: { hakikat: 1, berki_izledi: true } }
 ]},
 
 s2: { saat: "İkinci hafta", baslik: "İpek", metin: [
-P(S("s1A"), "Şifreli bir klasör. Adını “Kompozisyonlar” koydun."),
-P(S("s1C"), "Dokuz gün cevap gelmedi. Onuncu gün: “Biliyorum.”"),
-P(S("s1D"), "Berk bir arkadaşının sırtına vurdu. Arkadaşı irkildi. Bir saat izledin."),
-P(S("s1B"), "Sildin. “Son silinenler”den de. Artık yalnızca hafızanda."),
-"İkinci haftanın pazartesisi İpek seni bekliyor. On bir-C'den, Arda'nın tek arkadaşı.",
-"“Hocam, bende de bir video var. Laboratuvarın öbür köşesinden. Elli saniye. Berk'in ‘At’ demesi de, Arda'nın beheri kaldırması da var.”",
-"“Bu akşam paylaşacağım. Arda'ya sormadım. Size soruyorum.”",
+P(S("s1A"), "Videoyu şifreli bir klasöre koyup klasörün adını “Kompozisyonlar” yaptın."),
+P(S("s1C"), "Dokuz gün cevap gelmedi, onuncu gün tek kelime geldi: “Biliyorum.”"),
+P(S("s1D"), "Berk bir arkadaşının sırtına vurdu, arkadaşı irkildi. Bir saat boyunca onu izledin."),
+P(S("s1B"), "Videoyu sildin, “son silinenler”den de sildin. Artık yalnızca hafızanda duruyor."),
+"İkinci haftanın pazartesi günü İpek seni bekliyor. On bir-C'den, Arda'nın tek arkadaşı.",
+"“Hocam, bende de bir video var, laboratuvarın öbür köşesinden çekilmiş, elli saniye. Berk'in ‘At’ demesi de var, Arda'nın beheri kaldırması da.”",
+"“Bu akşam paylaşacağım. Arda'ya sormadım, size soruyorum.”",
 "Senin vermediğin kararı on altı yaşında bir kız vermek üzere."
 ], secenekler: [
-{ t: "“Paylaşma İpek. Arda'yı yakarsın,” dersin.", to: "s3", etki: { koruma: 2, ece_durdur: true } },
-{ t: "“Önce Arda'yla konuş. O karar versin,” dersin.", to: "s3", etki: { koruma: 1, hakikat: 1, arda_karar: true } },
-{ t: "“Paylaş. Ama Arda'nın yüzünü sakla,” dersin.", to: "s3", etki: { hakikat: 1, ece_paylas: true } },
+{ t: "“Paylaşma İpek, Arda'yı yakarsın,” dersin.", to: "s3", etki: { koruma: 2, ece_durdur: true } },
+{ t: "“Önce Arda'yla konuş, o karar versin,” dersin.", to: "s3", etki: { koruma: 1, hakikat: 1, arda_karar: true } },
+{ t: "“Paylaş ama Arda'nın yüzünü sakla,” dersin.", to: "s3", etki: { hakikat: 1, ece_paylas: true } },
 { t: "İpek'in videosunu alıp müfettişe götürürsün.", to: "r1", etki: { hakikat: 1, kol: "resmi", ece_mufettis: true } }
 ]},
 
 s3: { saat: "Bir ay sonra", baslik: "Boş Laboratuvar", metin: [
-P(S("s2A"), "İpek paylaşmadı. Bir ay sonra koridorda seni selamlamadı."),
-P(S("s2B"), "Arda hayır dedi. Ama ilk kez birine Berk'i anlattı: İpek'e."),
-P(S("s2C"), "İpek paylaştı, yüz bulanık. Ertesi sabah biri bulanıklığı kaldırdı. Arda'nın adı trend oldu."),
-"Bir ay sonra Cengiz Bey istifa ediyor. Rapor çıkmış, aklanmış. Kimse okumamış.",
-"Son günü cuma. Laboratuvarı topluyor: beherler, tüpler, köşeleri sararmış bir periyodik tablo.",
+P(S("s2A"), "İpek paylaşmadı. Bir ay sonra koridorda karşılaştığınızda seni selamlamadı."),
+P(S("s2B"), "Arda hayır dedi ama Berk'i ilk kez birine, İpek'e anlattı."),
+P(S("s2C"), "İpek yüzü bulanıklaştırıp paylaştı. Ertesi sabah biri bulanıklığı kaldırdı ve Arda'nın adı gündeme oturdu."),
+"Bir ay sonra Cengiz Bey istifa ediyor. Rapor çıkmış, aklanmış ama kimse okumamış.",
+"Son günü cuma. Laboratuvarı topluyor, beherleri, tüpleri, köşeleri sararmış periyodik tabloyu.",
 "Sen kapıdasın.",
-"Bir beheri ışığa tutuyor. “Otuz yıl. Düz tut, iki elle, asla yüze doğru değil.” Beheri gazete kâğıdına sarıp kutuya koyuyor.",
-"“Sözünü tuttun. Teşekkür ederim. Keşke tutmasaydın.”"
+"Bir beheri ışığa tutuyor. “Otuz yıldır söylerim, düz tut, iki elle tut, asla yüze doğru tutma.” Beheri gazete kâğıdına sarıp kutuya koyuyor.",
+"“Sözünü tuttun, teşekkür ederim. Keşke tutmasaydın.”"
 ], secenekler: [
-{ t: "“Ben de keşke,” dersin.", to: "t1", etki: { hakikat: 1, keske: true } },
+{ t: "“Ben de keşke tutmasaydım,” dersin.", to: "t1", etki: { hakikat: 1, keske: true } },
 { t: "Kutuyu taşımasına yardım edersin.", to: "t1", etki: { koruma: 1 } },
 { t: "“Arda iyileşiyor hocam,” dersin.", to: "t1", etki: { koruma: 1, arda_iyi: true } },
 { t: "Bir şey diyemezsin.", to: "t1", etki: { kalabalik: 1 } }
@@ -361,82 +361,82 @@ P(S("s2C"), "İpek paylaştı, yüz bulanık. Ertesi sabah biri bulanıklığı 
 
 /* ---------- KARŞI LİNÇ KOLU ---------- */
 b1: { saat: "Cuma gecesi", baslik: "Ekran Görüntüleri", metin: [
-P(function(d){ return !d.ekran; }, "İpek'e yazdın. Bir saat sonra yirmi üç ekran görüntüsü. Altında: “Arda bilmesin hocam.”"),
-"Yirmi üç ekran görüntüsü. İki yıl. “İbne.” “Psikopat.” “Kendini öldür.” O pazartesi sabahı: “Bugün laboratuvarda bir şey yapacağız ona. Kaydedin.”",
-"Arda'nın adını kapatıyorsun. Yalnızca Berk.",
-"“Viral olan videodaki ‘mağdur’ öğrencinin annesi Gülsüm K. Bu da oğlunun iki yıl boyunca sınıf arkadaşına yaptıkları.”",
-"Paylaş.",
-"Gece yarısı on bin paylaşım. Sabah Gülsüm Hanım'ın hesabının altında elli bin yorum.",
-"Rüzgâr dönüyor; Berk'e. “Bu çocuk bir canavar.” Basketbol formalı bir fotoğraf. “Okul numarasını bulan var mı?”",
-"Sabah yedide biri Berk'in ev adresini ve babasının iş yerini paylaşmış."
+P(function(d){ return !d.ekran; }, "İpek'e yazdın. Bir saat sonra yirmi üç ekran görüntüsü geldi, altında “Arda bilmesin hocam” yazıyordu."),
+"Yirmi üç ekran görüntüsünde iki yıl var. “İbne.” “Psikopat.” “Kendini öldür.” Bir de o pazartesi sabahki mesaj: “Bugün laboratuvarda ona bir şey yapacağız, kaydedin.”",
+"Arda'nın adını kapatıyorsun, yalnızca Berk'in adı kalıyor.",
+"“Viral olan videodaki ‘mağdur’ öğrencinin annesi Gülsüm K. Bunlar da oğlunun iki yıl boyunca sınıf arkadaşına yaptıkları.”",
+"Paylaşıyorsun.",
+"Gece yarısı on bin paylaşım oluyor, sabah Gülsüm Hanım'ın hesabının altında elli bin yorum birikmiş.",
+"Rüzgâr Berk'e dönüyor. “Bu çocuk bir canavar.” Basketbol formalı bir fotoğrafı dolaşıyor. “Okul numarasını bulan var mı?”",
+"Sabah yedide biri Berk'in ev adresini ve babasının iş yerini paylaşıyor."
 ], secenekler: [
 { t: "Paylaşımı hemen kaldırırsın.", to: "b2", etki: { koruma: 1, kaldirdi: true } },
-{ t: "Bir ek yazarsın: “Lütfen çocuklara saldırmayın.”", to: "b2", etki: { koruma: 1, ek: true } },
-{ t: "Bekleyip izlersin. Gülsüm Hanım bunu hak etti.", to: "b2", etki: { kalabalik: 2, izledin: true } },
+{ t: "“Lütfen çocuklara saldırmayın,” diye bir ek yazarsın.", to: "b2", etki: { koruma: 1, ek: true } },
+{ t: "Gülsüm Hanım'ın bunu hak ettiğini düşünüp bekler, izlersin.", to: "b2", etki: { kalabalik: 2, izledin: true } },
 { t: "Kırk saniyelik videoyu da eklersin.", to: "b2", etki: { hakikat: 2, video_ekle: true } }
 ]},
 
 b2: { saat: "Cumartesi", baslik: "Berk", metin: [
-P(S("b1B"), "Ekin altına iki bin yorum: “Asıl annesine söyle.” Kimse eki okumadı."),
-P(S("b1D"), "Videoyu da ekledin. Kalabalık her şeyi aldı ve iki çocuğu birden yaktı."),
-P(S("b1A"), "Kaldırdın. Görüntüler yüz bin telefondaydı."),
-P(S("b1C"), "Gülsüm Hanım bir saatte otuz bin takipçi kaybetti. Bir marka iş birliğini iptal etti. İçinde bir tatmin kıpırdadı. Sonra o tatmine baktın."),
-"Cumartesi öğleden sonra okulun boş bahçesinde bir bankta Berk. Eşofman, kapüşon. Seni görünce kalkacak gibi oluyor, oturuyor.",
+P(S("b1B"), "Ekin altına “Asıl annesine söyle” diye iki bin yorum geldi, eki kimse okumadı."),
+P(S("b1D"), "Videoyu da ekledin. Kalabalık her şeyi kaptı ve iki çocuğu birden yaktı."),
+P(S("b1A"), "Kaldırdın ama görüntüler çoktan yüz bin telefona girmişti."),
+P(S("b1C"), "Gülsüm Hanım bir saatte otuz bin takipçi kaybetti, bir marka iş birliğini iptal etti. İçinde bir tatmin kıpırdadı, sonra dönüp o tatmine baktın."),
+"Cumartesi öğleden sonra okulun boş bahçesinde, bir bankta Berk oturuyor. Üstünde eşofman var, kapüşonu başında. Seni görünce kalkacak gibi oluyor ama oturuyor.",
 "Yanına oturuyorsun.",
-"“Hocam. Siz mi koydunuz onları?”",
+"“Hocam, onları siz mi koydunuz?”",
 "Evet.",
-"Telefonunu gösteriyor. Bin mesaj. “Öl.” “Seni okulun önünde bekleyeceğiz.”",
-"“Kötü bir şey yaptım. Arda'ya. Biliyorum.” Ağlıyor. “Babam beni döver hocam. Annemin hesabı aslında onun. Parayı o kazanıyor. Bu sabah çok kötüydü.”",
-"Kapüşonu indiriyor. Elmacık kemiğinin üstünde bir morluk."
+"Telefonunu gösteriyor, bin mesaj var. “Öl.” “Seni okulun önünde bekleyeceğiz.”",
+"“Arda'ya kötü bir şey yaptım, biliyorum.” Ağlıyor. “Babam beni döver hocam. Annemin hesabı aslında onun, parayı o kazanıyor. Bu sabah çok kötüydü.”",
+"Kapüşonunu indiriyor, elmacık kemiğinin üstünde bir morluk var."
 ], secenekler: [
 { t: "Berk'i rehber öğretmene, gerekirse polise götürürsün.", to: "b3", etki: { koruma: 2, berk_koru: true } },
-{ t: "“Arda'ya yaptıklarını bu haklı çıkarmaz,” dersin.", to: "b3", etki: { hakikat: 1 } },
+{ t: "“Bu Arda'ya yaptıklarını haklı çıkarmaz,” dersin.", to: "b3", etki: { hakikat: 1 } },
 { t: "Berk'e sarılırsın.", to: "b3", etki: { koruma: 1, sarildi: true } },
 { t: "Kalkıp gidersin.", to: "b3", etki: { kalabalik: 1, gitti_b: true } }
 ]},
 
 b3: { saat: "Bir hafta sonra", baslik: "Döngü", metin: [
-P(S("b2B"), "“Biliyorum,” dedi Berk. “Ama bunu da haklı çıkarmaz.” Morluğu gösterdi."),
-P(S("b2D"), "Kapıda dönüp baktın; Berk bankta, kapüşonu yine başında."),
-P(S("b2A"), "Rehber öğretmen, bir doktor, bir sosyal hizmet uzmanı. Babası hakkında soruşturma. Berk Bursa'da anneannesinin yanına gitti. Mesaj attı: “Arda'dan özür dileyeceğim. Bir gün.”"),
-P(S("b2C"), "Önce kaskatıydı. Sonra omzunda bir çocuk gibi ağladı. Bunu kimseye anlatmadın."),
-"Bir hafta. Rüzgâr üç kez döndü: Cengiz Bey'e, Berk'e, sonra bir gazetecinin “Öğretmen öğrenciyi ifşa etti” haberiyle sana.",
-"Bir program tartıştı: “Öğretmenin çocuk ifşası etik mi?” Bir milletvekili soru önergesi verdi. Bu kez senin hakkında.",
-"Milli eğitim soruşturma açtı: “Öğrenci kişisel verilerinin izinsiz paylaşımı.” Sözleşmen askıya alındı.",
-"Bilinmeyen bir numaradan mesaj: “Sen de şimdi bizim gibisin.”"
+P(S("b2B"), "“Biliyorum,” dedi Berk, “ama bunu da haklı çıkarmaz,” deyip morluğu gösterdi."),
+P(S("b2D"), "Kapıda dönüp baktın, Berk bankta oturuyordu, kapüşonu yine başındaydı."),
+P(S("b2A"), "Rehber öğretmen, bir doktor ve bir sosyal hizmet uzmanı devreye girdi, babası hakkında soruşturma açıldı. Berk Bursa'ya, anneannesinin yanına gitti. Sonra bir mesaj attı: “Arda'dan özür dileyeceğim, bir gün.”"),
+P(S("b2C"), "Önce kaskatı kesildi, sonra omzunda bir çocuk gibi ağladı. Bunu kimseye anlatmadın."),
+"Bir haftada rüzgâr üç kere dönüyor. Önce Cengiz Bey'e, sonra Berk'e, sonra bir gazetecinin “Öğretmen öğrenciyi ifşa etti” haberiyle sana.",
+"Bir programda “Öğretmenin çocuk ifşası etik mi?” diye tartışılıyor. Bir milletvekili soru önergesi veriyor, bu kez senin hakkında.",
+"Milli Eğitim “öğrenci kişisel verilerinin izinsiz paylaşımı” gerekçesiyle soruşturma açıyor ve sözleşmen askıya alınıyor.",
+"Bilinmeyen bir numaradan bir mesaj geliyor: “Sen de artık bizim gibisin.”"
 ], secenekler: [
 { t: "Soruşturmada her şeyi kabul edersin.", to: "t1", etki: { hakikat: 2, kabul: true } },
-{ t: "Kendini savunursun: “Bir çocuğu korumaya çalıştım.”", to: "t1", etki: { koruma: 1, savun: true } },
-{ t: "Mesaja cevap yazarsın: “Evet.”", to: "t1", etki: { hakikat: 1, evet: true } },
+{ t: "“Bir çocuğu korumaya çalıştım,” diyerek kendini savunursun.", to: "t1", etki: { koruma: 1, savun: true } },
+{ t: "Mesaja “Evet” diye cevap yazarsın.", to: "t1", etki: { hakikat: 1, evet: true } },
 { t: "Telefonunu kapatıp bir hafta açmazsın.", to: "t1", etki: { kalabalik: 1 } }
 ]},
 
 /* ---------- ORTAK SON BÖLÜM ---------- */
 t1: { saat: "Bir ay sonra", baslik: "Öğretmenler Odası", metin: [
-P(S("h3A"), "Cengiz Bey başını salladı. “Biliyorum. Ama faydalanan benim. Bunu nasıl taşıyacağımı bilmiyorum.”"),
-P(S("h3B"), "Birlikte Arda'nın evine gittiniz. Hacer Hanım perdenin arkasından baktı, açmadı. İkinci hafta açtı. Arda odasından çıkmadı. Kapısını araladı."),
-P(S("h3C"), "Kurulda iki saat ekran görüntüleriyle Arda'yı savundun. Uzaklaştırma bir haftaya indi. Çıkarken bir öğretmen: “Önce yakıp sonra savunmak. İlginç yöntem.”"),
-P(S("h3D"), "Aşağıda bahçede çocuklar top oynuyordu. Top bir kere kantinin camına çarptı. İkiniz de irkildiniz."),
-P(S("r3A"), "Kırk iki sayfa. Üç günde iki bin kişi gördü. Videoyu sekiz milyon kişi görmüştü."),
-P(S("r3B"), "Cengiz Bey raporun kapağına baktı, masaya koydu. “Kızım bu otuz günde okul değiştirdi,” dedi."),
-P(S("r3C"), "Haber bir sitenin dördüncü sayfasında çıktı: “Darp iddiasındaki öğretmen aklandı.” Altında üç yorum. Biri: “Yine de bir şey yapmıştır.”"),
-P(S("r3D"), "Adalet yerini bulmuştu, dedin kendine. Her sabah biraz daha az inanarak."),
-P(S("s3A"), "Cengiz Bey kutuyu kaldırdı. “İkimiz de keşkeyle yaşarız o zaman.”"),
-P(S("s3B"), "Kutuyu otoparka kadar birlikte taşıdınız. Bagaja koydu. Teşekkür etmedi. Etmesine gerek yoktu."),
-P(S("s3C"), "Cengiz Bey gözlerini kapattı. “İyi. O zaman bir şey işe yaradı.”"),
-P(S("s3D"), "Koridorun sonunda durdu, arkasına bakmadı."),
-P(S("b3A"), "Her şeyi kabul ettin: ekran görüntülerini, bir çocuğun adresinin yayılmasına yol açtığını. Sözleşmen askıya alındı."),
-P(S("b3B"), "“Bir çocuğu korumaya çalıştım.” Kurul başkanı sordu: “Hangisini?” Cevap veremedin."),
-P(S("b3C"), "“Evet,” yazdın. Cevap gelmedi. Kendi cevabını defalarca okudun."),
-P(S("b3D"), "Bir hafta sonra açtığında dört yüz bildirim. Hiçbirine bakmadan hepsini sildin."),
-"Bir ay sonra öğretmenler odası, pazartesi sabahı. Çay ocağının önünde kuyruk. Herkes telefonunda. Ama başka bir şehirden başka bir videoya bakıyorlar.",
-"Bir ay. Arama motoru unutmuyor.",
-P(function(d){ return d.kol === "hakikat"; }, "Bazıları sana kahraman gibi bakıyor, bazıları başka türlü. Serkan Bey alçak sesle: “Ben yapamazdım. Doğru mu yaptın bilmiyorum. Ama yaptın.”"),
-P(function(d){ return d.kol === "resmi"; }, "Serkan Bey: “Cengiz Hoca aklanmış diyorlar. Nereden çıktı bu?” Bir dosyadan. “Kim verdi?” Çayını karıştırıyorsun."),
-P(function(d){ return d.kol === "sessiz"; }, "Cengiz Bey'in masası boş. Biri üstüne bir karanfil koymuş. Kurumuş. Kimse kaldırmıyor."),
-P(function(d){ return d.kol === "karsi"; }, "Öğretmenler odasına girmiyorsun. Bir arkadaşın panonun fotoğrafını gönderiyor: biri bir kâğıt asmış, “Çocukları sosyal medyada ifşa etmeyin.” İmza yok."),
-"Şükran Hanım seni çağırıyor.",
-"“Kadro kontenjanı açıldı. Adın listede. Bir şey soracağım: o günden beri bu okulda bir şey değişti mi?”"
+P(S("h3A"), "Cengiz Bey başını salladı. “Biliyorum,” dedi, “ama faydalanan benim. Bunu nasıl taşıyacağımı bilmiyorum.”"),
+P(S("h3B"), "Birlikte Arda'nın evine gittiniz. Hacer Hanım perdenin arkasından baktı ama açmadı. İkinci hafta açtı. Arda odasından çıkmadı, yalnızca kapısını araladı."),
+P(S("h3C"), "Kurulda iki saat boyunca ekran görüntüleriyle Arda'yı savundun ve uzaklaştırma bir haftaya indi. Çıkarken bir öğretmen “Önce yakıp sonra savunmak, ilginç bir yöntem,” dedi."),
+P(S("h3D"), "Aşağıda bahçede çocuklar top oynuyordu. Top bir ara kantinin camına çarptı ve ikiniz de irkildiniz."),
+P(S("r3A"), "Kırk iki sayfayı üç günde iki bin kişi gördü. Videoyu sekiz milyon kişi görmüştü."),
+P(S("r3B"), "Cengiz Bey raporun kapağına bakıp masaya koydu. “Kızım bu otuz günde okul değiştirdi,” dedi."),
+P(S("r3C"), "Haber bir sitenin dördüncü sayfasında “Darp iddiasındaki öğretmen aklandı” başlığıyla çıktı. Altında üç yorum vardı, biri “Yine de bir şey yapmıştır” diyordu."),
+P(S("r3D"), "Adalet yerini bulmuştu, diye söyledin kendine, her sabah biraz daha az inanarak."),
+P(S("s3A"), "Cengiz Bey kutuyu kaldırdı. “O zaman ikimiz de keşkeyle yaşarız,” dedi."),
+P(S("s3B"), "Kutuyu otoparka kadar birlikte taşıyıp bagaja koydunuz. Teşekkür etmedi, etmesine gerek de yoktu."),
+P(S("s3C"), "Cengiz Bey gözlerini kapadı. “İyi,” dedi, “o zaman bir şey işe yaramış.”"),
+P(S("s3D"), "Koridorun sonunda bir an durdu ama arkasına bakmadı."),
+P(S("b3A"), "Ekran görüntülerini, bir çocuğun adresinin yayılmasına yol açtığını, her şeyi kabul ettin. Sözleşmen askıya alındı."),
+P(S("b3B"), "“Bir çocuğu korumaya çalıştım,” dedin. Kurul başkanı “Hangisini?” diye sordu ve cevap veremedin."),
+P(S("b3C"), "“Evet,” diye yazdın. Cevap gelmedi, sen de kendi cevabını defalarca okudun."),
+P(S("b3D"), "Bir hafta sonra telefonu açtığında dört yüz bildirim vardı, hiçbirine bakmadan hepsini sildin."),
+"Bir ay sonra, bir pazartesi sabahı öğretmenler odasındasın. Çay ocağının önünde kuyruk var, herkes telefonuna bakıyor ama bu kez başka bir şehirden başka bir videoya.",
+"Bir ay geçti ama arama motoru unutmuyor.",
+P(function(d){ return d.kol === "hakikat"; }, "Bazıları sana kahramanmışsın gibi bakıyor, bazıları başka türlü. Serkan Bey alçak sesle “Ben yapamazdım,” diyor, “doğru mu yaptın bilmiyorum ama yaptın.”"),
+P(function(d){ return d.kol === "resmi"; }, "Serkan Bey “Cengiz Hoca aklanmış diyorlar, nereden çıktı bu?” diye soruyor. Bir dosyadan çıktı. “Kim verdi peki?” Sen çayını karıştırıyorsun."),
+P(function(d){ return d.kol === "sessiz"; }, "Cengiz Bey'in masası boş. Biri üstüne bir karanfil koymuş, karanfil kurumuş ama kimse kaldırmıyor."),
+P(function(d){ return d.kol === "karsi"; }, "Öğretmenler odasına girmiyorsun. Bir arkadaşın panonun fotoğrafını gönderiyor, biri “Çocukları sosyal medyada ifşa etmeyin” yazan imzasız bir kâğıt asmış."),
+"Şükran Hanım seni odasına çağırıyor.",
+"“Kadro kontenjanı açıldı ve adın listede. Sana bir şey soracağım. O günden beri bu okulda bir şey değişti mi?”"
 ], secenekler: [
 { t: "“Hiçbir şey değişmedi hocam,” dersin.", to: "t1b", etki: { hakikat: 1, degismedi: true } },
 { t: "“Ben değiştim,” dersin.", to: "t1b", etki: { koruma: 1 } },
@@ -445,68 +445,68 @@ P(function(d){ return d.kol === "karsi"; }, "Öğretmenler odasına girmiyorsun.
 ]},
 
 t1b: { saat: "Bir ay sonra", baslik: "Gülsüm", metin: [
-P(S("t1A"), "“Ben de öyle düşünüyorum,” dedi Şükran Hanım. Liste o akşam açıklandı. Adın yoktu. “Bir sonraki dönem.”"),
-P(S("t1B"), "“İyi mi, kötü mü?” Bilmiyordun. Adın listeye girdi. Sevinmedin."),
-P(S("t1D"), "Şükran Hanım gözlüğünü çıkardı. “Bunu soran ilk öğretmensin.” Adını listeye yazdı."),
-P(S("t1C"), "“Bütçe yok,” dedi Şükran Hanım. “Ama yap. Benim adımı koy.” Ertesi hafta on bir-C'de ilk oturum. Arda yoktu. İpek vardı."),
-"Bir akşam Kadıköy'de bir kafede biri karşına oturuyor. Güneş gözlüklü, sade. Gözlüğü çıkarıyor. Gülsüm Hanım.",
-"“Konuşabilir miyiz?” Ekrandaki sesten çok farklı. Kısık.",
-"“Berk o akşam eve gelip ‘Cengiz Hoca bana bağırdı’ dedi. Sordum mu? Sormadım. Bir video vardı. Paylaştım.”",
-"“Bir gecede iki milyon. Bir an iyi hissettim. Haklı olmak. İki milyon kişi benimle aynı şeyi düşünüyordu.”",
-"“Sonra aynı iki milyon beni yaktı. O iki milyon ne benim yanımdaydı ne Cengiz Hoca'nın.”",
-P(function(d){ return d.kol === "karsi"; }, "Sana bakıyor. “Siz de benim oğlumu yaktınız. Şimdi aynı masadayız.”"),
-"Gözlüğü masaya bırakıyor. Sapını çevirip duruyor."
+P(S("t1A"), "“Ben de öyle düşünüyorum,” dedi Şükran Hanım. Liste o akşam açıklandı ve adın yoktu. “Bir sonraki dönem,” dediler."),
+P(S("t1B"), "“İyi yönde mi, kötü yönde mi?” diye sordu, bilmiyordun. Adın listeye girdi ama sevinmedin."),
+P(S("t1D"), "Şükran Hanım gözlüğünü çıkardı. “Bunu soran ilk öğretmensin,” dedi ve adını listeye yazdı."),
+P(S("t1C"), "“Bütçe yok,” dedi Şükran Hanım, “ama sen yap, benim adımı da koy.” Ertesi hafta on bir-C'de ilk oturum yapıldı. Arda yoktu, İpek vardı."),
+"Bir akşam Kadıköy'de bir kafede biri karşına oturuyor. Sade giyinmiş, güneş gözlüklü bir kadın, gözlüğünü çıkarıyor. Gülsüm Hanım.",
+"“Konuşabilir miyiz?” Sesi ekrandakinden çok farklı, kısık.",
+"“Berk o akşam eve gelip ‘Cengiz Hoca bana bağırdı’ dedi. Sordum mu? Sormadım. Bir video vardı, paylaştım.”",
+"“Bir gecede iki milyon oldu. Bir an iyi hissettim, haklı olmak güzeldi, iki milyon kişi benimle aynı şeyi düşünüyordu.”",
+"“Sonra aynı iki milyon beni yaktı. O iki milyon ne benim yanımdaydı ne de Cengiz Hoca'nın.”",
+P(function(d){ return d.kol === "karsi"; }, "Sana bakıyor. “Siz de benim oğlumu yaktınız, şimdi aynı masada oturuyoruz.”"),
+"Gözlüğünü masaya bırakıp sapını çevirip duruyor."
 ], secenekler: [
 { t: "Berk'in nasıl olduğunu sorarsın.", to: "t2", etki: { koruma: 1, berk_sordu: true } },
 { t: "“Cengiz Hoca'dan özür dilediniz mi?” diye sorarsın.", to: "t2", etki: { hakikat: 1, ozur_sordu: true } },
-{ t: "Bir şey demez, dinlersin.", to: "t2", etki: { koruma: 1 } },
-{ t: "Kalkıp gidersin. Onun pişmanlığını taşımak senin işin değil.", to: "t2", etki: { kalabalik: 1, kalkti: true } }
+{ t: "Bir şey demeden dinlersin.", to: "t2", etki: { koruma: 1 } },
+{ t: "Onun pişmanlığını taşımanın senin işin olmadığını düşünüp kalkıp gidersin.", to: "t2", etki: { kalabalik: 1, kalkti: true } }
 ]},
 
 t2: { saat: "Bahar dönemi", baslik: "Ders", metin: [
-P(S("t1bA"), "“Okul değiştirdi. Gece kalkıp telefonunu kontrol ediyor. On altı yaşında, uyuyamıyor.” Gözlüğünü taktı."),
-P(S("t1bB"), "“Bir mektup yazdım. Göndermedim.” Masada bir peçete bıraktı. Üstünde bir adres. Göztepe."),
-P(S("t1bC"), "Bir saat konuştu. Sonunda: “İki milyon kişi bana bağırdı. Bir kişi dinledi.”"),
-P(S("t1bD"), "Kalkıp gittin. Kapıda dönmek istedin. Dönmedin."),
-"Bahar dönemi. “Roman” ünitesi. On birlere bir kitap seçeceksin.",
-"Listede Tutunamayanlar, Kürk Mantolu Madonna, Suç ve Ceza. Bir de listede olmayan Kafka'nın Dava'sı: Josef K. bir sabah neyle suçlandığını bilmeden tutuklanıyor.",
-"Ya da kitap değil, bir mektup: o pazartesiyi kendi ağzından anlatmak.",
-"Otuz iki öğrenci. Hepsi o videoyu izledi. Belki bazıları paylaştı.",
-P(function(d){ return d.kol !== "karsi"; }, "Arda arka sırada. Bir ay sonra döndü. Başka bir şubeye, ama senin dersine."),
-P(function(d){ return d.kol === "karsi"; }, "Sözleşmen bir uyarıyla geri verildi. İlk dersin. Arda arka sırada."),
-"Sınıfta birinin o sekiz saniyeyi ilk paylaşan kişi olduğunu biliyorsun. Kim olduğunu bilmiyorsun."
+P(S("t1bA"), "“Okul değiştirdi,” dedi. “Gece kalkıp telefonunu kontrol ediyor. On altı yaşında ve uyuyamıyor.” Gözlüğünü taktı."),
+P(S("t1bB"), "“Bir mektup yazdım ama göndermedim,” dedi. Masada üstüne bir adres yazılmış bir peçete bıraktı, Göztepe."),
+P(S("t1bC"), "Bir saat konuştu. Sonunda “İki milyon kişi bana bağırdı, bir kişi dinledi,” dedi."),
+P(S("t1bD"), "Kalkıp gittin. Kapıda dönmek istedin ama dönmedin."),
+"Bahar dönemi geldi, sıra “Roman” ünitesinde. On birlere bir kitap seçeceksin.",
+"Listede Tutunamayanlar, Kürk Mantolu Madonna, Suç ve Ceza var. Bir de listede olmayan Kafka'nın Dava'sı var, Josef K.'nin bir sabah neyle suçlandığını bilmeden tutuklandığı kitap.",
+"Ya da kitap yerine bir mektup okuyabilirsin, o pazartesiyi kendi ağzından anlatırsın.",
+"Otuz iki öğrencinin hepsi o videoyu izledi, belki bazıları paylaştı da.",
+P(function(d){ return d.kol !== "karsi"; }, "Arda arka sırada oturuyor. Bir ay sonra döndü, başka bir şubeye geçti ama yine senin dersinde."),
+P(function(d){ return d.kol === "karsi"; }, "Sözleşmen bir uyarıyla geri verildi ve bu ilk dersin. Arda arka sırada oturuyor."),
+"Sınıftan birinin o sekiz saniyeyi ilk paylaşan kişi olduğunu biliyorsun ama kim olduğunu bilmiyorsun."
 ], secenekler: [
 { t: "Dava'yı okutursun.", to: "y_dava", etki: { hakikat: 1, dava: true } },
 { t: "Sınıfa o pazartesi hakkında kendi yazdığın bir mektubu okursun.", to: "y_mektup", etki: { hakikat: 1, koruma: 1, mektup: true } },
-{ t: "Listeden bir klasik seçersin. Konuyu açmamak da bir koruma.", to: "t3", etki: { koruma: 1, klasik: true } },
-{ t: "Öğrencilere ne okumak istediklerini sorarsın. Belki de kaçarak.", to: "t3", etki: { koruma: 1, sordu_ogr: true } }
+{ t: "Konuyu açmamanın da bir koruma olduğunu düşünüp listeden bir klasik seçersin.", to: "t3", etki: { koruma: 1, klasik: true } },
+{ t: "Belki biraz da kaçarak, öğrencilere ne okumak istediklerini sorarsın.", to: "t3", etki: { koruma: 1, sordu_ogr: true } }
 ]},
 
 y_dava: { saat: "Bahar", baslik: "Josef K.", metin: [
-"“Birisi Josef K.'ye iftira etmiş olmalıydı...” İlk cümleyi tahtaya yazıyorsun.",
-"Bir hafta okuyorsunuz. Tavan arasında bir mahkeme, görünmeyen yargıçlar, söylenmeyen bir suç.",
-"İpek el kaldırıyor. “Josef K. neyle suçlandığını hiç öğrenmiyor, değil mi? O zaman nasıl savunuyor kendini?”",
+"İlk cümleyi tahtaya yazıyorsun: “Birisi Josef K.'ye iftira etmiş olmalıydı...”",
+"Bir hafta boyunca okuyorsunuz. Tavan arasında bir mahkeme, görünmeyen yargıçlar, kimsenin söylemediği bir suç.",
+"İpek el kaldırıyor. “Josef K. neyle suçlandığını hiç öğrenmiyor, değil mi? O zaman kendini nasıl savunuyor?”",
 "Savunamıyor.",
-"Biri: “Ama bu kitap. Gerçekte deliller var.”",
-"İpek ona dönüyor. “Sekiz saniye. Mahkeme yoktu. Delil yoktu.”",
+"Biri “Ama bu bir kitap,” diyor, “gerçekte deliller var.”",
+"İpek ona dönüyor. “Sekiz saniye vardı. Ne mahkeme vardı ne delil.”",
 "Arka sırada Arda başını kaldırıyor."
 ], secenekler: [
 { t: "İpek'e teşekkür edip konuyu kitapta tutarsın.", to: "t3", etki: { koruma: 1 } },
-{ t: "Sınıfa sorarsın: “Siz o sekiz saniyeyi görünce ne düşündünüz?”", to: "t3", etki: { hakikat: 2, sinif_soru: true } },
-{ t: "Arda'ya bakarsın. Konuşmak isteyip istemediğini.", to: "t3", etki: { koruma: 1, ardaya_bakti: true } },
+{ t: "Sınıfa “Siz o sekiz saniyeyi görünce ne düşündünüz?” diye sorarsın.", to: "t3", etki: { hakikat: 2, sinif_soru: true } },
+{ t: "Konuşmak isteyip istemediğini anlamak için Arda'ya bakarsın.", to: "t3", etki: { koruma: 1, ardaya_bakti: true } },
 { t: "Kitabın son cümlesini okursun: “Bir köpek gibi!”", to: "t3", etki: { hakikat: 1 } }
 ]},
 
 y_mektup: { saat: "Bahar", baslik: "Mektup", metin: [
-"Üç gece yazdığın, on kez sildiğin bir kâğıt.",
-"“Sevgili on birler. Bu bir edebiyat dersi değil. Ya da tam olarak öyle. Çünkü edebiyat bir hikâyenin önünü ve arkasını görmeyi öğretir.”",
-"O pazartesiyi okuyorsun. Kapıyı, telefonu, kırk saniyeyi. Salıyı. Yorumları. Kendi ne yaptığını.",
-P(function(d){ return d.kol === "hakikat"; }, "“Videoyu paylaştım. Bir öğretmeni kurtardım. Bir öğrenciyi yaktım.”"),
-P(function(d){ return d.kol === "sessiz"; }, "“Sustum. Bir öğrenciyi korudum. Bir öğretmeni kaybettik.”"),
-P(function(d){ return d.kol === "resmi"; }, "“Bir dosya, bir müfettiş, otuz gün. Adalet geldi. Kimse fark etmedi.”"),
-P(function(d){ return d.kol === "karsi"; }, "“Bir öğrencinin acısını göstermek için bir başka öğrenciyi ifşa ettim.”"),
-"“Bir gün telefonunuzda bir video olacak. Paylaşmadan önce bir şey sorun: bu hikâyenin önünde ne var, arkasında kim kalacak?”",
-"Kâğıdı katlıyorsun. Arka sıradan bir ses. Arda."
+"Üç gece yazıp on kere sildiğin bir kâğıdı açıyorsun.",
+"“Sevgili on birler. Bu bir edebiyat dersi değil, ya da tam olarak öyle, çünkü edebiyat bir hikâyenin önünü de arkasını da görmeyi öğretir.”",
+"O pazartesiyi okuyorsun, kapıyı, telefonu, kırk saniyeyi. Sonra salıyı, yorumları ve kendi ne yaptığını.",
+P(function(d){ return d.kol === "hakikat"; }, "“Videoyu paylaştım. Bir öğretmeni kurtardım, bir öğrenciyi yaktım.”"),
+P(function(d){ return d.kol === "sessiz"; }, "“Sustum. Bir öğrenciyi korudum, bir öğretmeni kaybettik.”"),
+P(function(d){ return d.kol === "resmi"; }, "“Bir dosya, bir müfettiş, otuz gün. Adalet geldi ama kimse fark etmedi.”"),
+P(function(d){ return d.kol === "karsi"; }, "“Bir öğrencinin acısını göstermek için başka bir öğrenciyi ifşa ettim.”"),
+"“Bir gün sizin de telefonunuzda bir video olacak. Paylaşmadan önce kendinize şunu sorun, bu hikâyenin önünde ne var, arkasında kim kalacak?”",
+"Kâğıdı katlıyorsun. Arka sıradan bir ses geliyor, Arda."
 ], secenekler: [
 { t: "Arda'yı dinlersin.", to: "t3", etki: { koruma: 1, arda_soz: true } },
 { t: "Mektubu panoya asarsın.", to: "t3", etki: { hakikat: 1, pano: true } },
@@ -515,47 +515,47 @@ P(function(d){ return d.kol === "karsi"; }, "“Bir öğrencinin acısını gös
 ]},
 
 t3: { saat: "Haziran", baslik: "Cengiz Bey", metin: [
-P(S("t2C"), "Kürk Mantolu Madonna'yı okuttun. Kimse o pazartesiden söz etmedi. Son derste Arda: “Raif Efendi neden kimseye anlatmadı?” Cevap veremedin."),
-P(S("t2D"), "İpek: “Bir zorbalık kitabı olsun.” Gergin bir gülüş. Oylama: Sefiller. Bir ekmek, on dokuz yıl."),
-P(S("y_davaA"), "Zil çalınca herkes çıktı, İpek kaldı. “Ben o videoyu ilk görenlerdendim. Paylaşmadım. Durdurmadım da.”"),
-P(S("y_davaB"), "Uzun bir sessizlik. Sonra Batu: “Ben paylaştım hocam. Gece yarısı. Herkes paylaşıyordu.” Sınıf ona döndü. Arda dönmedi."),
+P(S("t2C"), "Kürk Mantolu Madonna'yı okuttun, kimse o pazartesiden söz etmedi. Son derste Arda “Raif Efendi neden kimseye anlatmadı?” diye sordu, cevap veremedin."),
+P(S("t2D"), "İpek “Bir zorbalık kitabı olsun,” deyince gergin bir gülüşme oldu. Oylamada Sefiller çıktı, bir ekmek için on dokuz yıl."),
+P(S("y_davaA"), "Zil çalınca herkes çıktı, İpek kaldı. “Ben o videoyu ilk görenlerdendim,” dedi. “Paylaşmadım ama durdurmadım da.”"),
+P(S("y_davaB"), "Uzun bir sessizlik oldu. Sonra Batu “Ben paylaştım hocam,” dedi, “gece yarısı, herkes paylaşıyordu.” Sınıf ona döndü, Arda dönmedi."),
 P(S("y_davaC"), "Arda başını iki yana salladı. Ders bitince kitabın bir sayfasının köşesini kıvırdığını gördün."),
-P(S("y_davaD"), "“Bir köpek gibi!” İpek devamını fısıldadı: “Ve utanç ondan sonra da yaşayacakmış gibiydi.”"),
-P(S("y_mektupB"), "Ertesi sabah altına biri bir kâğıt iliştirmişti: “Biz de oradaydık.” Üç gün sonra altına bir başkası: “Ben de.”"),
-P(S("y_mektupC"), "Bir hafta sonra Moda iskelesi resimli bir kartpostal. Arkasında tek satır: “Kapıda durmak da bir şeydir.”"),
-P(S("y_mektupD"), "Mektubu sınıfın önünde yırttın. Ders bitince Arda çöp kutusunun başında durdu. Parçalara baktı, almadı."),
-P(S("y_mektupA"), "“Ben de bir mektup yazacağım,” dedi Arda. “Berk'e.” Başını eğmedi."),
-"Haziran. Cengiz Bey'den mesaj: “Moda'da bir çay bahçesi. Saat on.”",
-"Denize bakan bir masa. Zayıflamış. Ama yüzünde birkaç ay önce olmayan bir şey var.",
-P(function(d){ return d.kol === "sessiz"; }, "Erken emekli oldu, maaşından kesintiyle. “Bir okulda daha çalışamazdım. Her koridorda bir telefon.”"),
-P(function(d){ return d.kol !== "sessiz"; }, "Üsküdar'da bir meslek lisesine geçti. “Orada kimse beni umursamıyor. Çocukların kendi dertleri var.”"),
-"Çay geliyor.",
-"“Arda bana bir mektup yazdı.” Bir defter sayfası çıkarıyor. Uzatmıyor, tutuyor.",
-"“Ben kimyacıyım, şiir anlamam. Ama bir dizesi var.” Okuyor: “Bir el kolumu tuttu ve ilk kez düşmediğimi anladım.”",
-"Kâğıdı katlayıp cebine koyuyor. Gözlüğünü çıkarıp siliyor."
+P(S("y_davaD"), "“Bir köpek gibi!” diye okudun. İpek devamını fısıldadı: “Ve utanç ondan sonra da yaşayacakmış gibiydi.”"),
+P(S("y_mektupB"), "Ertesi sabah biri mektubun altına “Biz de oradaydık” yazan bir kâğıt iliştirmişti. Üç gün sonra bir başkası altına “Ben de” yazdı."),
+P(S("y_mektupC"), "Bir hafta sonra Moda iskelesi resimli bir kartpostal geldi, arkasında tek satır vardı: “Kapıda durmak da bir şeydir.”"),
+P(S("y_mektupD"), "Mektubu sınıfın önünde yırttın. Ders bitince Arda çöp kutusunun başında durup parçalara baktı ama almadı."),
+P(S("y_mektupA"), "“Ben de bir mektup yazacağım,” dedi Arda, “Berk'e.” Bunu söylerken başını eğmedi."),
+"Haziranda Cengiz Bey'den bir mesaj geliyor: “Moda'da bir çay bahçesi, saat on.”",
+"Denize bakan bir masada oturuyor. Zayıflamış ama yüzünde birkaç ay önce olmayan bir şey var.",
+P(function(d){ return d.kol === "sessiz"; }, "Maaşından kesinti yapılmasına razı olup erken emekli olmuş. “Başka bir okulda çalışamazdım,” diyor, “her koridorda bir telefon var.”"),
+P(function(d){ return d.kol !== "sessiz"; }, "Üsküdar'da bir meslek lisesine geçmiş. “Orada kimse beni umursamıyor,” diyor, “çocukların kendi dertleri var.”"),
+"Çaylar geliyor.",
+"“Arda bana bir mektup yazdı,” diyor ve bir defter sayfası çıkarıyor, sana uzatmıyor, elinde tutuyor.",
+"“Ben kimyacıyım, şiirden anlamam. Ama bir dizesi var.” Okuyor: “Bir el kolumu tuttu ve ilk kez düşmediğimi anladım.”",
+"Kâğıdı katlayıp cebine koyuyor, gözlüğünü çıkarıp siliyor."
 ], secenekler: [
-{ t: "“Sekiz saniye değil hocam. Kırk saniye,” dersin.", to: "t4", etki: { hakikat: 1 } },
+{ t: "“Sekiz saniye değil hocam, kırk saniye,” dersin.", to: "t4", etki: { hakikat: 1 } },
 { t: "Bir şey demeden çayını içersin.", to: "t4", etki: { koruma: 1 } },
-{ t: "Özür dilersin. Ne yaptıysan ya da yapmadıysan.", to: "t4", etki: { koruma: 1, cengiz_ozur: true } },
+{ t: "Ne yaptıysan ya da yapmadıysan, onun için özür dilersin.", to: "t4", etki: { koruma: 1, cengiz_ozur: true } },
 { t: "“Arda'yla görüşmek ister misiniz?” diye sorarsın.", to: "t4", etki: { koruma: 1, gorus: true } }
 ]},
 
 t4: { saat: "Eylül", baslik: "Arda'nın Defteri", metin: [
-P(S("t3A"), "Cengiz Bey gülümsedi. “Otuz iki saniyelik fark. Ben o farkın içinde yaşadım.”"),
-P(S("t3B"), "Martılar, vapur. Bir saat sonra kalktınız. Kapıda “Yine gel,” dedi."),
-P(S("t3C"), "Elini kaldırdı. “Öğretmenin özrü öğrenciye yapılır. Bana değil.”"),
-P(S("t3D"), "“Henüz değil. O hazır olunca.”"),
-"Eylül. İlk gün masanda mavi kapaklı, köşeleri yıpranmış bir defter. “İrem Hocam'a. Arda.”",
-"Şiirler. İki yıllık. Bazıları grupta alay edilenler.",
-"Son sayfada: “Sekiz Saniye.”",
-"“Bir şehir bir çocuğu bir gecede tanıdı.\nAdını bilmeden, yüzünü bilmeden.\nBir öğretmeni bir gecede tanıdı;\notuz yılını bilmeden.\nBir kalabalık bir beheri gördü,\nbeheri tutan eli görmedi.\nBen o elim.\nBen o beherim.\nBen o kalabalığım da.”",
-"Altında küçük bir not: “Sınıfta okuyabilirsiniz. Benim adımla. Artık saklanmak istemiyorum.”",
-"Arda üçüncü sırada. Pencereye bakıyor."
+P(S("t3A"), "Cengiz Bey gülümsedi. “Otuz iki saniyelik bir fark,” dedi, “ben o farkın içinde yaşadım.”"),
+P(S("t3B"), "Martılar uçuşuyor, vapurlar geçiyordu. Bir saat sonra kalktınız, kapıda “Yine gel,” dedi."),
+P(S("t3C"), "Elini kaldırdı. “Öğretmen özrünü öğrenciye diler,” dedi, “bana değil.”"),
+P(S("t3D"), "“Henüz değil,” dedi, “o hazır olunca.”"),
+"Eylülde, okulun ilk günü masanda mavi kapaklı, köşeleri yıpranmış bir defter buluyorsun. Üstünde “İrem Hocam'a. Arda.” yazıyor.",
+"İçinde iki yıllık şiirler var, bazıları grupta alay edilenler.",
+"Son sayfadakinin adı “Sekiz Saniye.”",
+"“Bir şehir bir çocuğu bir gecede tanıdı,\nadını bilmeden, yüzünü bilmeden.\nBir öğretmeni bir gecede tanıdı,\notuz yılını bilmeden.\nBir kalabalık bir beheri gördü,\nbeheri tutan eli görmedi.\nBen o elim.\nBen o beherim.\nBen o kalabalığım da.”",
+"Altında küçük bir not var: “Sınıfta okuyabilirsiniz, benim adımla. Artık saklanmak istemiyorum.”",
+"Arda üçüncü sırada oturmuş, pencereden dışarı bakıyor."
 ], secenekler: [
 { t: "Şiiri sınıfta Arda'nın adıyla okursun.", to: "ls", etki: { hakikat: 1, okudu_siir: true } },
-{ t: "Şiiri sınıfta adsız okursun. Arda'yı bir kez daha korumak için.", to: "ls", etki: { koruma: 1, adsiz: true } },
+{ t: "Arda'yı bir kez daha korumak için şiiri sınıfta adsız okursun.", to: "ls", etki: { koruma: 1, adsiz: true } },
 { t: "Şiiri Arda'nın kendisinin okumasını istersin.", to: "ls", etki: { koruma: 1, hakikat: 1, arda_okudu: true } },
-{ t: "Defteri kapatırsın. Şimdilik.", to: "ls", etki: { koruma: 1 } }
+{ t: "Defteri şimdilik kapatırsın.", to: "ls", etki: { koruma: 1 } }
 ]},
 
 ls: { yonlendir: [
@@ -568,53 +568,53 @@ ls: { yonlendir: [
 
 /* ---------- SONLAR ---------- */
 son_kirk: { son: true, baslik: "Kırk Saniye", metin: [
-P(S("t4B"), "Şiiri adsız okumuştun. Arda pencereden dışarı baktı."),
+P(S("t4B"), "Şiiri adsız okumuştun, Arda pencereden dışarı baktı."),
 P(S("t4D"), "Defteri kapatmıştın."),
-"Kırk saniyeyi gösterdin. Bir öğretmen aklandı. Kalabalık bir hafta özür diledi. Bir çocuğun adı bir hafta trend oldu.",
-P(function(d){ return d.arda_okudu || d.okudu_siir; }, "Şiir Arda'nın adıyla okundu. Sonra biri alkışladı; İpek. Sonra herkes. Arda kızardı, sıranın altında ellerini sıktı."),
-"Bazı geceler pişmansın, bazı sabahlar değil.",
-"Telefonunda hâlâ o kırk saniye. Her yıl biri soruyor: “Hocam, o videoyu neden paylaştınız?” Her yıl cevabın biraz değişiyor."
+"Kırk saniyeyi gösterdin ve bir öğretmen aklandı. Kalabalık bir hafta boyunca özür diledi, bir çocuğun adı da bir hafta boyunca gündemde kaldı.",
+P(function(d){ return d.arda_okudu || d.okudu_siir; }, "Şiir Arda'nın adıyla okundu. Önce biri alkışladı, İpek, sonra herkes. Arda kıpkırmızı oldu, sıranın altında ellerini sıktı."),
+"Bazı geceler pişman oluyorsun, bazı sabahlar olmuyorsun.",
+"Telefonunda hâlâ o kırk saniye duruyor. Her yıl biri “Hocam, o videoyu neden paylaştınız?” diye soruyor ve her yıl cevabın biraz değişiyor."
 ]},
 
 son_dosya: { son: true, baslik: "Dosya", metin: [
-P(S("t4B"), "Şiiri adsız okumuştun. Bir dosyadaki adsız bir tanık ifadesi gibi."),
+P(S("t4B"), "Şiiri bir dosyadaki adsız bir tanık ifadesi gibi adsız okumuştun."),
 P(S("t4D"), "Defteri çekmecene, raporun yanına koymuştun."),
-"Bir müfettiş, bir ifade, kırk iki sayfa. Kimse fark etmedi.",
-P(function(d){ return d.gazeteci; }, "Haber on bin kez okundu. Video sekiz milyon kez izlenmişti."),
-"Arda'nın adı hiçbir yerde geçmedi. Cengiz Bey otuz gün boyunca gecenin üçünde bir balkonda durdu.",
-"Ahmet Bey'in sözü aklında: “Ben dosyaya bakıyorum.”",
-"Bir gün pdf'i yeniden açıyorsun. On dördüncü sayfada bir dipnot: “Öğretmen İrem K.'nın sunduğu görüntüler belirleyici olmuştur.” Adın, bir dipnotta."
+"Bir müfettiş, bir ifade ve kırk iki sayfa oldu, kimse fark etmedi.",
+P(function(d){ return d.gazeteci; }, "Haber on bin kere okundu. Video sekiz milyon kere izlenmişti."),
+"Arda'nın adı hiçbir yerde geçmedi. Cengiz Bey ise otuz gün boyunca gecenin üçünde bir balkonda durdu.",
+"Necdet Bey'in sözü aklından çıkmıyor: “Ben dosyaya bakarım.”",
+"Bir gün pdf'i yeniden açıyorsun. On dördüncü sayfada bir dipnot var: “Öğretmen İrem K.'nın sunduğu görüntüler belirleyici olmuştur.” Adın bir dipnotta geçiyor."
 ]},
 
 son_sekiz: { son: true, baslik: "Sekiz Saniye", metin: [
-P(S("t4B"), "Şiiri adsız okumuştun. Bir kez daha onun yerine karar verdin."),
-P(S("t4D"), "Defteri kapatmıştın. Zamanını da sen seçmiştin."),
-"Sustun. Arda'nın adı hiçbir yerde geçmedi.",
-"Cengiz Bey istifa etti. Bir rapor onu akladı. Kimse okumadı.",
-"“Sil onu,” demişti. Sen de dinledin.",
-P(function(d){ return d.ece_paylas; }, "Sen sustuğun sırada İpek konuştu. Senin “Paylaş” demenle. Bir çocuk yine yandı."),
-"Arda iyileşiyor. Bir psikiyatrist, ilaçlar, İpek, bir defter. Bir gün: “Siz susmasaydınız ben bugün burada olmazdım.” Doğru. Bir öğretmenin otuz yılı pahasına.",
-"Moda'da bir çay bahçesinin önünden geçiyorsun bazen. Cengiz Bey her sabah orada. Bazen el sallıyor, bazen sallamıyor."
+P(S("t4B"), "Şiiri adsız okumuştun, yine onun yerine sen karar vermiştin."),
+P(S("t4D"), "Defteri kapatmıştın, zamanını da sen seçmiştin."),
+"Sustun ve Arda'nın adı hiçbir yerde geçmedi.",
+"Cengiz Bey istifa etti. Bir rapor onu akladı ama kimse okumadı.",
+"“Sil onu,” demişti, sen de onu dinledin.",
+P(function(d){ return d.ece_paylas; }, "Sen sustuğun sırada İpek konuştu, hem de senin “Paylaş” demenle, ve bir çocuk yine yandı."),
+"Arda iyileşiyor. Bir psikiyatrist, ilaçlar, İpek ve bir defter onu ayakta tutuyor. Bir gün sana “Siz susmasaydınız ben bugün burada olmazdım,” dedi. Doğruydu, ama bir öğretmenin otuz yılı pahasına.",
+"Bazen Moda'daki bir çay bahçesinin önünden geçiyorsun. Cengiz Bey her sabah orada oturuyor, bazen el sallıyor, bazen sallamıyor."
 ]},
 
 son_hedef: { son: true, baslik: "Yirmi Üç Görüntü", metin: [
-P(S("t4B"), "Şiiri adsız okumuştun. Bir adı saklamayı bir adı yaktıktan sonra öğrendin."),
-P(S("t4D"), "Defteri kapatmıştın. Bir şeyi açmaya korkuyordun."),
-"Kalabalığı çevirdin. Gösterdiğin yöne döndü ve oradaki çocuğu yaktı.",
-"Berk iki yıl bir çocuğa işkence etti. Bir babadan dayak yiyordu. İkisi birden.",
-P(function(d){ return d.berk_koru; }, "Berk Bursa'dan el yazısıyla bir mektup gönderdi: “Siz beni ifşa ettiniz, sonra kurtardınız. Ben de Arda'yı o laboratuvara götürdüm ki bir şey olsun. Belki birinin beni durdurmasını istiyordum.”"),
-"Gülsüm Hanım bir kafede dedi ki: “Siz doğru tarafta durduğunuzu sanıyordunuz. Ben de.”",
-"Bilinmeyen numaradan gelen mesajı silmedin: “Sen de şimdi bizim gibisin.”"
+P(S("t4B"), "Şiiri adsız okumuştun. Bir adı saklamayı ancak başka bir adı yaktıktan sonra öğrendin."),
+P(S("t4D"), "Defteri kapatmıştın, bir şeyi açmaktan korkuyordun."),
+"Kalabalığı çevirdin, o da gösterdiğin yöne dönüp oradaki çocuğu yaktı.",
+"Berk iki yıl boyunca bir çocuğa eziyet etti ve bir babadan dayak yedi, ikisi aynı anda oluyordu.",
+P(function(d){ return d.berk_koru; }, "Berk Bursa'dan el yazısıyla bir mektup gönderdi: “Siz beni ifşa ettiniz, sonra kurtardınız. Ben de Arda'yı bir şey olsun diye o laboratuvara götürmüştüm. Belki birinin beni durdurmasını istiyordum.”"),
+"Gülsüm Hanım o kafede “Siz doğru tarafta durduğunuzu sanıyordunuz, ben de öyle sanıyordum,” demişti.",
+"Bilinmeyen numaradan gelen “Sen de artık bizim gibisin” mesajını silmedin."
 ]},
 
 son_ogretmen: { son: true, baslik: "Öğretmen", metin: [
-P(S("t4B"), "Şiiri adsız okumuştun. Sınıfın yarısı kimin yazdığını biliyordu, kimse söylemedi."),
-P(S("t4D"), "Defteri kapatmıştın. Haziranda Arda kendisi açtı. Son derste, kendi sesiyle."),
-"Kalabalığı durduramadın. Bir sınıfı bir saatliğine durdurdun.",
-"Cengiz Bey'in otuz yılı, Arda'nın adı, Berk'in yüzü. Hiçbiri geri gelmiyor.",
-P(function(d){ return d.program; }, "Programın ikinci yılında Arda ve İpek bir grup kurdu: “Önü ve Arkası.” Toplantılar salı öğle arası, kimya laboratuvarında. Cengiz Bey'in eski masasında."),
-"Her dönem başında Arda'nın şiirini okuyorsun. Onun adıyla.",
-"Her dönem biri soruyor: “Hocam, o gün siz neredeydiniz?” “Kapıdaydım,” diyorsun."
+P(S("t4B"), "Şiiri adsız okumuştun. Sınıfın yarısı kimin yazdığını biliyordu ama kimse söylemedi."),
+P(S("t4D"), "Defteri kapatmıştın ama haziranda, son derste Arda onu kendisi açıp kendi sesiyle okudu."),
+"Kalabalığı durduramadın ama bir sınıfı bir saatliğine durdurdun.",
+"Cengiz Bey'in otuz yılı, Arda'nın adı, Berk'in yüzü, hiçbiri geri gelmiyor.",
+P(function(d){ return d.program; }, "Programın ikinci yılında Arda ile İpek “Önü ve Arkası” adında bir grup kurdu. Toplantılar salı öğle aralarında kimya laboratuvarında, Cengiz Bey'in eski masasında yapılıyor."),
+"Her dönemin başında Arda'nın şiirini onun adıyla okuyorsun.",
+"Her dönem biri “Hocam, o gün siz neredeydiniz?” diye soruyor. “Kapıdaydım,” diyorsun."
 ]}
 
 },
@@ -622,7 +622,7 @@ P(function(d){ return d.program; }, "Programın ikinci yılında Arda ve İpek b
 ayna: function(d){
   var out = [];
   var h = d.hakikat, k = d.koruma, c = d.kalabalik;
-  if(h >= k && h >= c) out.push("Çoğu kavşakta olanı göstermeyi seçtin: videoyu, dosyayı, mektubu.");
+  if(h >= k && h >= c) out.push("Çoğu kavşakta olanı göstermeyi seçtin, videoyu, dosyayı, mektubu.");
   else if(k >= c) out.push("Çoğu kavşakta Arda'yı korudun.");
   else out.push("Bazı anlarda sen de kalabalığın içindeydin.");
   if(d.begendi) out.push("Bir yorumu bir saniyeliğine beğendin.");
