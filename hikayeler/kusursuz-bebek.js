@@ -8,525 +8,525 @@ id: "kusursuz-bebek",
 baslik: "Kusursuz Bebek",
 dunya: "Hayali dünya · 2041",
 kategoriler: ["Sağlık ve Tıp", "Toplum ve Adalet", "Kimlik ve Beden"],
-giris: "2041. Embriyolar rutin olarak taranıyor, genler düzeltiliyor, “ağır engellilik” taşıyan doğumlar yasayla önleniyor. Sen bir genetik danışmansın; kardeşin, artık neredeyse hiç doğmayan bir durumla, Down sendromuyla yaşayan bir simitçi. Bir gün karşına, kendileri gibi işitme engelli bir çocuk isteyen bir çift oturuyor. Bir toplumun “kusur” dediği şeyin ve bir ailenin “biz” dediği şeyin hikâyesi.",
+giris: "2041 yılındayız. Embriyolar rutin olarak taranıyor, genler düzeltiliyor, “ağır engellilik” taşıyan doğumlar yasayla önleniyor. Sen bir genetik danışmansın. Kardeşin ise artık neredeyse hiç doğmayan bir durumla, Down sendromuyla yaşayan bir simitçi. Bir gün karşına, kendileri gibi işitme engelli bir çocuk isteyen bir çift oturuyor. Bu hikâye, bir toplumun “kusur” dediği şeyle bir ailenin “biz” dediği şeyi anlatıyor.",
 kavramlar: ["Engellilik ve değer", "İyileştirme ve doğallık", "Ebeveyn sevgisi", "Normalin tanımı"],
-ozet: "2041. Embriyolar taranıyor, genler düzeltiliyor, “kusurlu” doğumlar yasakla önleniyor. Sen bir genetik danışmansın ve kardeşin Down sendromlu. Bugün karşına, kendileri gibi işitme engelli bir çocuk isteyen bir çift oturuyor.",
+ozet: "2041 yılı. Embriyolar taranıyor, genler düzeltiliyor, “kusurlu” doğumlar yasayla önleniyor. Sen bir genetik danışmansın ve kardeşin Down sendromlu. Bugün karşına, kendileri gibi işitme engelli bir çocuk isteyen bir çift oturuyor.",
 baslangic: "a1",
 durum: { cesitlilik: 0, yasa: 0, sefkat: 0 },
 
 sahneler: {
 
 a1: { saat: "Mart 2041", baslik: "Merkez", metin: [
-"Ankara, Eskişehir yolu. Camdan bir bina. Cephede dev bir ekran, ekranda gülümseyen bir bebek: “Kusursuzluk bir haktır. Yeni Nesil Üreme ve Genetik Merkezi.” Bebeğin bir gözü, ekranın bozuk pikselleri yüzünden üç gündür yeşil yanıp sönüyor.",
-"Adın Aslı, otuz dokuz yaşındasın, genetik danışmansın. Masanda bir embriyo modeli, bir bilgisayar ve kâğıt bir poşet: kardeşin Gökhan'ın fırınından, sabah sıcak simit. Poşetin üstüne keçeli kalemle “ABLAMA” yazmış, “M” ters.",
-"2039 tarihli Kalıtsal Hastalıkların Önlenmesi Kanunu: tüp bebek tedavisinde bütün embriyolar taranır, “ağır kalıtsal engellilik” taşıyanlar aktarılamaz. Listede kırk yedi durum var. Down sendromu listede. Doğuştan işitme kaybı listede.",
-"Kanundan beri Down sendromlu doğumlar yüzde ikiye inmiş. Gökhan o rakamın arka tarafında duruyor. Otuz beş yaşında, Keçiören'in en iyi simitçisi.",
-"İlk randevu: Selim ve Nehir Aydın. Dosyada not: “Çift işitme engellidir. Türk İşaret Dili tercümanı talep edilmiştir.” Sekreterin el yazısıyla bir not daha: “Özel bir talepleri var.”",
-"Simidin yarısını yiyip yarısını poşete geri koyuyorsun. Susamlar klavyenin arasına dökülüyor. Kapı çalınıyor."
+"Ankara'da, Eskişehir yolunun üstünde camdan bir bina. Cephesindeki dev ekranda gülümseyen bir bebek var, altında da “Kusursuzluk bir haktır. Yeni Nesil Üreme ve Genetik Merkezi.” yazıyor. Ekranın bozuk pikselleri yüzünden bebeğin bir gözü üç gündür yeşil yeşil yanıp sönüyor.",
+"Adın Aslı, otuz dokuz yaşındasın, genetik danışmansın. Masanda bir embriyo modeli, bir bilgisayar, bir de kardeşin Gökhan'ın fırınından gelmiş kâğıt bir poşette sabah sıcak simit duruyor. Poşetin üstüne keçeli kalemle “ABLAMA” yazmış, M'yi ters yazmış.",
+"2039 tarihli Kalıtsal Hastalıkların Önlenmesi Kanunu'na göre tüp bebek tedavisinde bütün embriyolar taranıyor ve “ağır kalıtsal engellilik” taşıyanlar aktarılamıyor. Listede kırk yedi durum var, Down sendromu da doğuştan işitme kaybı da bu listede.",
+"Kanun çıktığından beri Down sendromlu doğumlar yüzde ikiye inmiş. Gökhan o rakamın arka tarafında duruyor. Otuz beş yaşında ve Keçiören'in en iyi simitçisi.",
+"Bugünkü ilk randevun Doruk ve Nehir Aydın'la. Dosyada “Çift işitme engellidir, Türk İşaret Dili tercümanı talep edilmiştir,” diye bir not var. Sekreter el yazısıyla bir not daha eklemiş: “Özel bir talepleri var.”",
+"Simidin yarısını yiyip kalanını poşete geri koyuyorsun, susamlar klavyenin arasına dökülüyor. Kapı çalınıyor."
 ], secenekler: [
 { t: "Kapıyı kendin açıp elini uzatırsın.", to: "a2", etki: { sefkat: 1 } },
-{ t: "Dosyayı bir kez daha okursun. “Özel talep” ne olabilir?", to: "a2", etki: { yasa: 1, dosya: true } },
-{ t: "İşaret dilinde bildiğin tek kelimeyi hatırlamaya çalışırsın: “Merhaba.”", to: "a2", etki: { cesitlilik: 1, merhaba: true } },
-{ t: "Pencereden reklama bakarsın. Yanıp sönen yeşil göze.", to: "a2", etki: { reklam: true } }
+{ t: "“Özel talep” ne olabilir diye dosyayı bir kez daha okursun.", to: "a2", etki: { yasa: 1, dosya: true } },
+{ t: "İşaret dilinde bildiğin tek kelimeyi, “merhaba”yı hatırlamaya çalışırsın.", to: "a2", etki: { cesitlilik: 1, merhaba: true } },
+{ t: "Pencereden reklama, yanıp sönen o yeşil göze bakarsın.", to: "a2", etki: { reklam: true } }
 ]},
 
 a2: { saat: "Mart 2041", baslik: "İşaret", metin: [
-P(S("a1A"), "Kapıyı açıp elini uzattın. Selim sıktı; Nehir bir an baktı, sonra o da sıktı. Arkalarında tercüman Gül gülümsedi."),
-P(S("a1B"), "Dosyayı yeniden okudun. “Özel talep: işitme durumu.” Başka bir şey yazmıyordu. Ne olabileceğini tahmin ettin. Yanılmış olmayı istedin."),
-P(S("a1C"), "Kapıyı açınca elini kaldırıp merhaba dedin. Nehir gülümsedi, elini tutup parmaklarını doğru yere koydu. Daha oturmadan bir ders aldın."),
-P(S("a1D"), "Reklamdaki bebeğin gözü yanıp söndü. Altı yıldır bu reklamın altında çalışıyorsun. Bir keresinde arızayı bildirmek için bir form doldurmuştun. Kimse gelmemişti."),
-"Selim kırk yaşlarında, uzun, mimar. Nehir otuz altı, bir sağırlar okulunda öğretmen. Tırnaklarında tebeşir tozu. Gül yanlarında, elleri hazır.",
-"Selim işaret ediyor. Elleri hızlı, keskin. Gül çeviriyor:",
-"“Biz sağırız. İkimiz de doğuştan. Annem, babam, dedem sağırdı. Dört kuşak. Bizim evde konuşulan dil işaret dili.”",
-"Nehir ekliyor. Onun elleri daha yavaş:",
-"“Embriyolarımız taranacak. Bazıları sağır olacak. İkimiz de aynı geni taşıyoruz. Biz o embriyolardan birini istiyoruz. Sağır bir çocuk.”",
-"Gözünü senden ayırmadan:",
-"“Bizim için eksiklik değil. Bir dil. Bir aile. İşiten bir çocuk bizim evde yabancı olur.”"
+P(S("a1A"), "Kapıyı açıp elini uzattın. Doruk elini sıktı, Nehir bir an baktı, sonra o da sıktı. Arkalarında tercüman Pınar gülümsüyordu."),
+P(S("a1B"), "Dosyayı yeniden okudun. “Özel talep: işitme durumu.” Başka bir şey yazmıyordu. Ne olabileceğini tahmin ettin ve yanılmış olmayı istedin."),
+P(S("a1C"), "Kapıyı açınca elini kaldırıp merhaba dedin. Nehir gülümsedi, elini tutup parmaklarını doğru yere koydu. Daha oturmadan bir ders almıştın."),
+P(S("a1D"), "Reklamdaki bebeğin gözü yanıp söndü. Altı yıldır bu reklamın altında çalışıyorsun. Bir keresinde arızayı bildirmek için bir form doldurmuştun ama kimse gelmemişti."),
+"Doruk kırk yaşlarında, uzun boylu bir mimar. Nehir otuz altı yaşında, bir sağırlar okulunda öğretmen, tırnaklarında tebeşir tozu var. Pınar yanlarında, elleri hazır bekliyor.",
+"Doruk işaret etmeye başlıyor, elleri hızlı ve keskin. Pınar çeviriyor:",
+"“Biz sağırız, ikimiz de doğuştan. Annem, babam, dedem de sağırdı, dört kuşak. Bizim evde konuşulan dil işaret dili.”",
+"Nehir ekliyor, onun elleri daha yavaş:",
+"“Embriyolarımız taranacak ve bazıları sağır olacak, çünkü ikimiz de aynı geni taşıyoruz. Biz o embriyolardan birini istiyoruz. Sağır bir çocuk istiyoruz.”",
+"Gözünü senden ayırmadan devam ediyor:",
+"“Bizim için bu bir eksiklik değil, bir dil, bir aile. İşiten bir çocuk bizim evde yabancı olur.”"
 ], secenekler: [
-{ t: "Kanunu açıklarsın: işitme kaybı listede, aktarım yasak.", to: "a3", etki: { yasa: 2, kanun: true } },
+{ t: "Kanunu açıklarsın, işitme kaybı listede, aktarım yasak.", to: "a3", etki: { yasa: 2, kanun: true } },
 { t: "Nehir'e çocukluğunu sorarsın.", to: "x_cocukluk", etki: { cesitlilik: 1 } },
 { t: "“Çocuğunuzun kendi geleceğini seçme hakkı ne olacak?” diye sorarsın.", to: "a3", etki: { yasa: 1, acik_gelecek: true } },
-{ t: "Onlardan sana bir işaret öğretmelerini istersin: “aile”.", to: "x_isaret", etki: { cesitlilik: 1, sefkat: 1 } }
+{ t: "Onlardan sana “aile” işaretini öğretmelerini istersin.", to: "x_isaret", etki: { cesitlilik: 1, sefkat: 1 } }
 ]},
 
 x_cocukluk: { saat: "Mart 2041", baslik: "Bağlı Eller", metin: [
-"Nehir bir süre sana bakıyor. Sonra ellerini kucağına indiriyor. Sonra başlıyor.",
-"Gül'ün sesi alçalıyor:",
-"“Annemle babam işitiyordu. Doktor ‘sağır’ deyince annem iki yıl ağlamış. Beni konuşturmaya çalıştılar. Bir okula verdiler. İşaret dili yasaktı. Ellerimizle konuşursak ellerimizi arkamızdan bağlarlardı. Dudaktan okuyacaktık.”",
-"Nehir bileklerini arkasında çaprazlayıp gösteriyor. Sonra ellerini yeniden öne getiriyor, bir süre masanın üstünde düz tutuyor.",
-"“On beş yaşında bir yaz kampında ilk kez sağır çocuklarla tanıştım. İlk akşam onların ellerini izledim. İkinci akşam ben de konuştum. Bir dilim oldu.”",
-"Selim karısının bileğini tutuyor. Tam bağlandığı yerden.",
-"“Annem öldüğünde hâlâ birbirimizi anlamıyorduk. Beni sevdi, ben onu sevdim. Otuz yıl aynı evde iki yabancı. Annemin son sözünü bir hemşireden öğrendim, kâğıda yazdı. Ben bunu çocuğuma yaşatmayacağım.”"
+"Nehir bir süre sana bakıyor, sonra ellerini kucağına indiriyor, sonra anlatmaya başlıyor.",
+"Pınar'ın sesi alçalıyor:",
+"“Annemle babam işitiyordu. Doktor ‘sağır’ deyince annem iki yıl ağlamış. Beni konuşturmaya çalıştılar, bir okula verdiler. Orada işaret dili yasaktı. Ellerimizle konuşursak ellerimizi arkamızdan bağlarlardı, dudaktan okumamız gerekiyordu.”",
+"Nehir bileklerini arkasında çaprazlayıp gösteriyor. Sonra ellerini yeniden öne getirip bir süre masanın üstünde düz tutuyor.",
+"“On beş yaşında bir yaz kampında ilk kez sağır çocuklarla tanıştım. İlk akşam onların ellerini izledim, ikinci akşam ben de konuştum. Bir dilim olmuştu.”",
+"Doruk karısının bileğini tam bağlandığı yerden tutuyor.",
+"“Annem öldüğünde hâlâ birbirimizi anlamıyorduk. Beni sevdi, ben de onu sevdim ama otuz yıl aynı evde iki yabancı gibi yaşadık. Annemin son sözünü bir hemşireden öğrendim, kâğıda yazdı. Ben bunu çocuğuma yaşatmayacağım.”"
 ], secenekler: [
 { t: "“İşiten bir çocuk da sizin dilinizi öğrenebilir,” dersin.", to: "a3", etki: { yasa: 1, isiten_ogrenir: true } },
 { t: "“Anlıyorum,” dersin.", to: "a3", etki: { sefkat: 1 } },
 { t: "Kardeşin Gökhan'dan bahsedersin.", to: "a3", etki: { cesitlilik: 1, ozan_anlatti: true } },
-{ t: "Bir şey demezsin. Ellerini izlersin.", to: "a3", etki: { cesitlilik: 1 } }
+{ t: "Bir şey demeden ellerini izlersin.", to: "a3", etki: { cesitlilik: 1 } }
 ]},
 
 x_isaret: { saat: "Mart 2041", baslik: "Aile", metin: [
-"Selim gülümsüyor. Ellerini yavaşça, senin görebileceğin hızda kaldırıyor. Parmak uçlarını birleştirip bir daire çiziyor. Bir çatı gibi.",
-"“Aile,” diyor Gül.",
-"Deniyorsun. Daire yamuk çıkıyor. Selim ellerini tutup düzeltiyor. Avuçları kuru ve sıcak, işaret parmağında bir cetvel nasırı. Bir daha. Daha iyi.",
-"Nehir başka bir işaret gösteriyor: avucu kalbin üstüne, sonra dışarı. “Sevgi.” Sonra iki parmak, gözlerin önünden ileri. “Görmek.”",
-"Gül aracılığıyla soruyorsun: “Sessizlik için bir işaret var mı?”",
-"Selim ile Nehir bakışıyor. Selim gülerek uzun uzun işaret ediyor. Gül biraz bekliyor, sonra:",
-"“Var ama kullanmayız. Siz bizi sessizlikte yaşıyor sanıyorsunuz. Bizim ev eller, yüzler, ışık, titreşimle dolu. Komşunun matkabı duvardan geçer, biz hissederiz, o bizden daha çok rahatsız eder.”"
+"Doruk gülümsüyor. Ellerini yavaşça, senin görebileceğin bir hızda kaldırıyor. Parmak uçlarını birleştirip çatıya benzer bir daire çiziyor.",
+"“Aile,” diyor Pınar.",
+"Sen de deniyorsun ama daire yamuk çıkıyor. Doruk ellerini tutup düzeltiyor. Avuçları kuru ve sıcak, işaret parmağında bir cetvel nasırı var. Bir daha deniyorsun, bu sefer daha iyi oluyor.",
+"Nehir başka bir işaret gösteriyor, önce avucunu kalbinin üstüne koyup sonra dışarı doğru açıyor. “Sevgi.” Sonra iki parmağını gözlerinin önünden ileri uzatıyor. “Görmek.”",
+"Pınar aracılığıyla soruyorsun: “Sessizlik için bir işaret var mı?”",
+"Doruk'la Nehir bakışıyor. Doruk gülerek uzun uzun işaret ediyor. Pınar biraz bekleyip çeviriyor:",
+"“Var ama kullanmayız. Siz bizi sessizlikte yaşıyor sanıyorsunuz. Bizim ev ellerle, yüzlerle, ışıkla, titreşimle dolu. Komşunun matkabı duvardan geçer, biz hissederiz, hatta ondan daha çok rahatsız oluruz.”"
 ], secenekler: [
 { t: "“Ama çocuğunuz işitirse ikisine birden sahip olabilir,” dersin.", to: "a3", etki: { yasa: 1, ikisi: true } },
 { t: "“Aile” işaretini bir kez daha, düzgünce yaparsın.", to: "a3", etki: { sefkat: 1, cesitlilik: 1 } },
 { t: "“Bunu kanunu yapanlara anlatmanız gerek,” dersin.", to: "a3", etki: { cesitlilik: 1, kanun_yapan: true } },
-{ t: "Defterine not alırsın: sessizlik bir yokluk değil.", to: "a3", etki: { cesitlilik: 1 } }
+{ t: "Defterine bir not alırsın: sessizlik bir yokluk değil.", to: "a3", etki: { cesitlilik: 1 } }
 ]},
 
 a3: { saat: "Mart 2041, akşam", baslik: "Gökhan", metin: [
-P(S("x_cocuklukB"), "“Anlıyorum,” demiştin. Nehir başını eğmiş, sonra bir şey eklemişti: “Anlamak başka.” Gül cümlenin devamını çevirmemişti; Nehir de devam etmemişti."),
-P(S("x_cocuklukD"), "Bir şey dememiş, Nehir'in ellerini izlemiştin. Bir ara Nehir durup sana baktı, sonra devam etti. Bakıldığını bilmek hoşuna gitmiş gibi."),
-P(S("x_isaretA"), "“İkisine birden sahip olabilir,” demiştin. Selim ellerini indirmişti. “Herkes bunu söylüyor,” dedi. “İkisinin arasında yaşayan kimse söylemiyor.”"),
-P(S("x_isaretD"), "Not almıştın. Akşam fırına giderken defteri açıp o satıra baktın. Altına Selim'in matkap cümlesini de yazmıştın."),
-P(S("a2A"), "Kanunu açıkladın: madde dokuz, liste, aktarım yasağı. Selim'in elleri durdu. Nehir başını eğdi. Sonra Selim: “Biliyoruz. Bir yol arıyoruz. Bu yüzden buradayız.”"),
-P(S("a2C"), "Selim'in cevabını Gül çevirdi: “Siz işiten bir çocuğa açık bir gelecek veriyorsunuz. Biz sağır bir çocuğa bir aile veriyoruz. Hangisi daha açık?”"),
-P(S("x_cocuklukA"), "“Öğrenebilir,” dedi Nehir. “Annem de öğrenebilirdi. Öğrenmedi.”"),
-P(S("x_cocuklukC"), "Gökhan'ı anlattın. Nehir dinledi. Sonra işaret etti: “Kardeşiniz bugün doğsaydı bu binada ne olurdu?” Gül çevirirken sesi kırıldı. Cevap veremedin."),
-P(S("x_isaretB"), "“Aile” işaretini yaptın, düzgün. Selim ile Nehir aynı anda güldü. Bir yabancının elinde kendi dillerini görmek, yüzlerinden belliydi."),
-P(S("x_isaretC"), "Selim acı acı güldü. “Anlattık,” dedi Gül. “Komisyonda. Beş dakika verdiler. Sonra bir sağlık ekonomisti yarım saat konuştu: bir işitme engellinin topluma maliyeti.”"),
-"Akşam Gökhan'ın fırınındasın. Keçiören'de köşe başında küçük bir dükkân. Camında “SİMİT POĞAÇA AÇMA” yazıyor, “AÇMA”nın “Ç”si düşmüş. Gökhan un içinde, simit diziyor. Sabah dörtte kalkıyor, her gün.",
-"Seni görünce unlu elleriyle sarılıyor. Montunun sırtında iki beyaz el izi kalıyor. “Abla! Bugün kaç kusursuz bebek yaptınız?”",
-"Reklamı otobüsten her gün görüyor. Şaka yapıyor. Gözleri şaka yapmıyor.",
-"“Bugün bir teyze geldi,” diyor. “Bana baktı, ‘Artık senin gibiler doğmuyor, değil mi?’ dedi. Ben de ‘Evet teyze, ben sonuncuyum,’ dedim. Güldü. İki simit aldı.”",
-"Simitlere bakıyor. Sonra sana dönüyor.",
+P(S("x_cocuklukB"), "“Anlıyorum,” demiştin. Nehir başını eğmiş, sonra bir şey eklemişti: “Anlamak başka.” Pınar cümlenin devamını çevirmemişti, Nehir de devam etmemişti."),
+P(S("x_cocuklukD"), "Bir şey dememiş, Nehir'in ellerini izlemiştin. Bir ara Nehir durup sana baktı, sonra devam etti, bakıldığını bilmek hoşuna gitmiş gibiydi."),
+P(S("x_isaretA"), "“İkisine birden sahip olabilir,” demiştin. Doruk ellerini indirmişti. “Herkes bunu söylüyor,” dedi, “ama ikisinin arasında yaşayan kimse söylemiyor.”"),
+P(S("x_isaretD"), "Not almıştın. Akşam fırına giderken defteri açıp o satıra baktın, altına Doruk'un matkap cümlesini de yazmıştın."),
+P(S("a2A"), "Kanunu açıkladın, dokuzuncu madde, liste, aktarım yasağı. Doruk'un elleri durdu, Nehir başını eğdi. Sonra Doruk işaret etti: “Biliyoruz, bir yol arıyoruz. Bu yüzden buradayız.”"),
+P(S("a2C"), "Pınar Doruk'un cevabını çevirdi: “Siz işiten bir çocuğa açık bir gelecek veriyorsunuz, biz sağır bir çocuğa bir aile veriyoruz. Hangisi daha açık?”"),
+P(S("x_cocuklukA"), "“Öğrenebilir,” dedi Nehir. “Annem de öğrenebilirdi ama öğrenmedi.”"),
+P(S("x_cocuklukC"), "Gökhan'ı anlattın. Nehir seni dinledi, sonra işaret etti: “Kardeşiniz bugün doğsaydı bu binada ne olurdu?” Pınar bunu çevirirken sesi kırıldı. Cevap veremedin."),
+P(S("x_isaretB"), "“Aile” işaretini düzgünce yaptın. Doruk'la Nehir aynı anda güldüler. Bir yabancının elinde kendi dillerini görmenin onlara ne hissettirdiği yüzlerinden belliydi."),
+P(S("x_isaretC"), "Doruk acı acı güldü. Pınar çevirdi: “Anlattık. Komisyonda bize beş dakika verdiler. Sonra bir sağlık ekonomisti yarım saat boyunca bir işitme engellinin topluma maliyetini anlattı.”"),
+"Akşam Gökhan'ın fırınındasın. Keçiören'de bir köşe başında küçük bir dükkân, camında “SİMİT POĞAÇA AÇMA” yazıyor ama “AÇMA”nın Ç'si düşmüş. Gökhan un içinde simit diziyor. Her gün sabahın dördünde kalkıyor.",
+"Seni görünce unlu elleriyle sarılıyor, montunun sırtında iki beyaz el izi kalıyor. “Abla! Bugün kaç tane kusursuz bebek yaptınız?”",
+"Reklamı her gün otobüsten görüyor. Şaka yapıyor ama gözleri şaka yapmıyor.",
+"“Bugün bir teyze geldi,” diyor. “Bana baktı, ‘Artık senin gibiler doğmuyor, değil mi?’ dedi. Ben de ‘Evet teyze, ben sonuncuyum,’ dedim. Güldü, iki simit aldı.”",
+"Simitlere bakıyor, sonra sana dönüyor.",
 "“Abla, ben kusurlu muyum?”"
 ], secenekler: [
-{ t: "“Hayır Gökhan. Sen kusursuz bir simitçisin,” dersin.", to: "a4", etki: { sefkat: 1, simit: true } },
-{ t: "“Kimse kusursuz değil. Ben de değilim,” dersin.", to: "a4", etki: { cesitlilik: 1 } },
+{ t: "“Hayır Gökhan, sen kusursuz bir simitçisin,” dersin.", to: "a4", etki: { sefkat: 1, simit: true } },
+{ t: "“Kimse kusursuz değil, ben de değilim,” dersin.", to: "a4", etki: { cesitlilik: 1 } },
 { t: "“Neden öyle düşünüyorsun?” diye sorarsın.", to: "a4", etki: { sefkat: 1, ozan_dusun: true } },
-{ t: "Cevap veremezsin. Ona sarılırsın.", to: "a4", etki: { sefkat: 1, sarildi: true } }
+{ t: "Cevap veremez, ona sarılırsın.", to: "a4", etki: { sefkat: 1, sarildi: true } }
 ]},
 
 a4: { saat: "Mart 2041", baslik: "Direktör", metin: [
-P(S("a3A"), "Gökhan güldü. “Kusursuz simitçi. Tabelaya yazalım.” Sonra ciddileşti. “Ama ben simitçi olmadan önce de vardım abla.”"),
-P(S("a3B"), "Gökhan düşündü. “Senin neyin kusurlu?” Cevap bulamadın. Gökhan güldü: “Bilmiyorsun bile. Ben en azından biliyorum.”"),
-P(S("a3C"), "“Herkes öyle bakıyor,” dedi Gökhan. “Eskiden bakmazlardı. Eskiden benim gibi başkaları da vardı. Şimdi ben bir... müze gibiyim.” Kelimeyi nereden bulduğunu bilmiyorsun. Geçen ay okul gezisiyle gelen çocuklardan olabilir."),
-P(S("a3D"), "Sarıldın. Gökhan'ın unlu kolları sırtında. “Tamam abla. Ağlama. Simitler soğur.”"),
-"Ertesi sabah direktör Dr. Bora Ersoy seni odasına çağırıyor. Elli yaşında, spor ayakkabılı, masasında bir sıkma topu. Konuşurken topu sıkıyor.",
-"“Aslı, rakamlar harika. Optimum Paket bu çeyrekte yüzde kırk arttı. Sen en iyi danışmanlarımızdansın ama paket satışların düşük. Neden?”",
-"Optimum Paket: listede olmayan özellikler için seçim ve düzenleme. Boy, kas yapısı, hastalık riskleri ve “bilişsel potansiyel puanı.” Yasal, pahalı. Her çifte sunman gerekiyor. Sunuyorsun, ısrar etmiyorsun.",
-"Sonra sesini alçaltıyor. “Aydın çifti. Duydum. Sağır embriyo istiyorlarmış. Tartışma yok. Lisansımız buna bağlı.”",
-"Topu masaya bırakıyor. “Gelecek ay klinik koordinatörlük açılıyor. Adın listede.”"
+P(S("a3A"), "Gökhan güldü. “Kusursuz simitçi, tabelaya yazalım,” dedi, sonra ciddileşti. “Ama abla, ben simitçi olmadan önce de vardım.”"),
+P(S("a3B"), "Gökhan biraz düşündü. “Senin neyin kusurlu?” diye sordu. Cevap bulamadın. Gökhan güldü. “Bilmiyorsun bile. Ben en azından biliyorum.”"),
+P(S("a3C"), "“Herkes öyle bakıyor,” dedi Gökhan. “Eskiden bakmazlardı. Eskiden benim gibi başkaları da vardı. Şimdi ben bir müze gibiyim.” Bu kelimeyi nereden bulduğunu bilmiyorsun, belki geçen ay okul gezisiyle gelen çocuklardan duymuştu."),
+P(S("a3D"), "Ona sarıldın, Gökhan'ın unlu kolları sırtındaydı. “Tamam abla, ağlama,” dedi, “simitler soğuyacak.”"),
+"Ertesi sabah direktör Dr. Bora Ersoy seni odasına çağırıyor. Elli yaşında, ayağında spor ayakkabılar, masasında bir sıkma topu var, konuşurken topu sıkıyor.",
+"“Aslı, rakamlar harika. Optimum Paket bu çeyrekte yüzde kırk arttı. Sen en iyi danışmanlarımızdan birisin ama paket satışların düşük. Neden?”",
+"Optimum Paket, listede olmayan özelliklerin seçilmesi ve düzenlenmesi demek. Boy, kas yapısı, hastalık riskleri, bir de “bilişsel potansiyel puanı.” Yasal ama pahalı. Her çifte sunman gerekiyor, sen de sunuyorsun ama ısrar etmiyorsun.",
+"Sonra sesini alçaltıyor. “Aydın çifti. Duydum, sağır embriyo istiyorlarmış. Bunun tartışması yok, lisansımız buna bağlı.”",
+"Topu masaya bırakıyor. “Gelecek ay klinik koordinatörlüğü açılıyor, adın listede.”"
 ], secenekler: [
-{ t: "“Yasayı biliyorum Bora Bey. Uygulayacağım,” dersin.", to: "a5", etki: { yasa: 2 } },
-{ t: "“Satışlarım düşük, çünkü çiftlere çocuklarını ürün gibi seçtirmek istemiyorum,” dersin.", to: "kus_gul", etki: { cesitlilik: 2, paket_ret: true } },
+{ t: "“Yasayı biliyorum Bora Bey, uygulayacağım,” dersin.", to: "a5", etki: { yasa: 2 } },
+{ t: "“Satışlarım düşük, çünkü çiftlere çocuklarını ürün seçer gibi seçtirmek istemiyorum,” dersin.", to: "kus_gul", etki: { cesitlilik: 2, paket_ret: true } },
 { t: "“Aydın çiftinin durumu etik kurula gitmeli,” dersin.", to: "a5", etki: { yasa: 1, cesitlilik: 1, kurul: true } },
-{ t: "Terfiyi düşünürsün. Bir şey demezsin.", to: "kus_kat", etki: { terfi_dusun: true } }
+{ t: "Bir şey demeden terfiyi düşünürsün.", to: "kus_kat", etki: { terfi_dusun: true } }
 ]},
 
 
-kus_gul: { saat: "Mart 2041", baslik: "Gül", metin: [
-"Kantinde Gül bir köşede tek başına, önünde kahve. Seni görünce el sallıyor. Sonra fark ediyorsun, el sallamıyor, işaret ediyor: “Gel.”",
-"Kırklarında. Konuşurken bile elleri bir şey söylüyor.",
-"“Ben CODA'yım,” diyor. “Sağır ebeveynlerin işiten çocuğu.”",
-"“Beş yaşında annemin tercümanıydım. Doktorda, bankada, öğretmenle görüşmede. Babamın işten atıldığını patronundan ben duydum, ben çevirdim. Altı yaşındaydım. Babamın yüzünü hiç unutmadım. Benim ağzımdan duyduğu için.”",
-"Kahvesini karıştırıyor. Kaşık bardağa hiç değmiyor, ses çıkmasın diye. “Bunu evde öğrendim. Ses çıkarmamayı değil. Sesin kimseye bir şey anlatmadığını.”",
-"“Nehir ile Selim'i anlıyorum. Annemle babamı da anlıyorum. Beni çok sevdiler. Yabancı olmadım hiç. Yalnızca yorgun oldum.”",
-"“Kimse bana sormadı, hangisi olmak isterdin diye.”"
+kus_gul: { saat: "Mart 2041", baslik: "Pınar", metin: [
+"Kantinde Pınar bir köşede tek başına oturuyor, önünde bir kahve var. Seni görünce el sallıyor. Sonra fark ediyorsun ki el sallamıyor, “Gel” diye işaret ediyor.",
+"Kırklarında bir kadın. Konuşurken bile elleri bir şey söylüyor.",
+"“Ben CODA'yım,” diyor, “sağır anne babaların işiten çocuğuyum.”",
+"“Beş yaşında annemin tercümanıydım. Doktorda, bankada, öğretmenle görüşmelerde ben çevirirdim. Babamın işten atıldığını patronundan ben duydum ve ben çevirdim, altı yaşındaydım. Babamın yüzünü hiç unutmadım, çünkü bunu benim ağzımdan duymuştu.”",
+"Kahvesini karıştırıyor, ses çıkmasın diye kaşığı bardağa hiç değdirmiyor. “Bunu evde öğrendim. Ses çıkarmamayı değil, sesin kimseye bir şey anlatmadığını öğrendim.”",
+"“Nehir'le Doruk'u anlıyorum, annemle babamı da anlıyorum. Beni çok sevdiler, hiç yabancı olmadım. Yalnızca yoruldum.”",
+"“Kimse bana hangisi olmak isterdin diye sormadı.”"
 ], secenekler: [
 { t: "“Hangisi olmak isterdin?” diye sorarsın.", to: "a5", etki: { cesitlilik: 1, gul_sordu: true } },
-{ t: "“Bunu Selim ve Nehir'e anlatır mısın?” diye sorarsın.", to: "a5", etki: { sefkat: 1, gul_anlatsin: true } },
-{ t: "“Bu hikâye yasanın lehine bir argüman olabilir,” dersin, düşünerek.", to: "a5", etki: { yasa: 1 } },
-{ t: "Kahveni bitirip teşekkür edersin. Düşünmek için zamana ihtiyacın var.", to: "a5", etki: { sefkat: 1 } }
+{ t: "“Bunu Doruk'la Nehir'e anlatır mısın?” diye sorarsın.", to: "a5", etki: { sefkat: 1, gul_anlatsin: true } },
+{ t: "Düşünerek “Bu hikâye yasanın lehine bir argüman olabilir,” dersin.", to: "a5", etki: { yasa: 1 } },
+{ t: "Düşünmek için zamana ihtiyacın var, kahveni bitirip teşekkür edersin.", to: "a5", etki: { sefkat: 1 } }
 ]},
 
 kus_kat: { saat: "Mart 2041", baslik: "On Beşinci Kat", metin: [
-"Bora seni yeni binaya götürüyor. Yolun öbür tarafında, henüz açılmamış bir cam kule. Asansör on beşinci kata çıkıyor. İçi hâlâ naylon koruyucu kaplı.",
-"Kat boş. Beyaz duvarlar, büyük pencereler. Bora bir köşeyi gösteriyor: “Senin ofisin.”",
-"Koridorda kapıları açıyor. “Danışma odaları, on iki tane. Embriyo görüntüleme. Burası Optimum sunum salonu. Perdede çiftler embriyolarının on sekiz yaşındaki muhtemel yüzünü görecek.”",
-"Yere dizilmiş posterler. Gülümseyen bebekler, çocuklar, gençler. Hepsi birbirine benziyor. Burun mu, gülüş mü, çıkaramıyorsun.",
-"Bora pencerenin önünde. “On yıl sonra doğan her çocuğun yüzde yetmişi bu binadan geçecek. Sen o neslin mimarı olabilirsin.”",
-"Aşağıda Eskişehir yolu. Bir yerde, görünmeyen bir köşede, sabah dörtte kalkıp simit yapan biri."
+"Bora seni yolun öbür tarafındaki, henüz açılmamış cam kuleye götürüyor. Asansör on beşinci kata çıkıyor, içi hâlâ naylon koruyucuyla kaplı.",
+"Kat bomboş, beyaz duvarlar, büyük pencereler. Bora bir köşeyi gösteriyor. “Burası senin ofisin.”",
+"Koridordaki kapıları tek tek açıyor. “Danışma odaları, on iki tane. Embriyo görüntüleme burada. Burası da Optimum sunum salonu. Çiftler perdede embriyolarının on sekiz yaşındaki muhtemel yüzünü görecek.”",
+"Yere posterler dizilmiş. Gülümseyen bebekler, çocuklar, gençler var ve hepsi birbirine benziyor. Burunları mı, gülüşleri mi, neyin benzediğini çıkaramıyorsun.",
+"Bora pencerenin önünde duruyor. “On yıl sonra doğan her çocuğun yüzde yetmişi bu binadan geçecek. Sen o neslin mimarı olabilirsin.”",
+"Aşağıda Eskişehir yolu uzanıyor. Bir yerde, buradan görünmeyen bir köşede, sabahın dördünde kalkıp simit yapan biri var."
 ], secenekler: [
-{ t: "“Düşüneceğim,” dersin. Gerçekten.", to: "a5", etki: { yasa: 1, terfi_dusun: true } },
+{ t: "Gerçekten düşüneceğin için “Düşüneceğim,” dersin.", to: "a5", etki: { yasa: 1, terfi_dusun: true } },
 { t: "“Bu posterlerde neden hiç Down sendromlu bir çocuk yok?” diye sorarsın.", to: "a5", etki: { cesitlilik: 2, poster_soru: true } },
-{ t: "Pencereden Keçiören'in yönünü bulmaya çalışırsın.", to: "a5", etki: { sefkat: 1 } },
-{ t: "“Mimar bina yapar Bora Bey. İnsan değil,” dersin.", to: "a5", etki: { cesitlilik: 1, mimar: true } }
+{ t: "Pencereden Keçiören'in ne tarafta olduğunu bulmaya çalışırsın.", to: "a5", etki: { sefkat: 1 } },
+{ t: "“Mimar bina yapar Bora Bey, insan yapmaz,” dersin.", to: "a5", etki: { cesitlilik: 1, mimar: true } }
 ]},
 
 a5: { saat: "Nisan 2041", baslik: "Altı Embriyo", metin: [
-P(S("kus_gulA"), "Gül düşündü. Elleri senin anlamadığın bir işaret yaptı. Sesli: “İkisi. Ama kimse ikisi olmama izin vermedi.”"),
-P(S("kus_gulB"), "Gül başını salladı. Ertesi hafta Selim ve Nehir'le bir kafede buluştu. Sonra Nehir sana yazdı: “Gül'ü dinledik. Bir şey değişmedi. Her şey biraz değişti.”"),
-P(S("kus_gulC"), "Gül sana baktı. “Benim hayatım bir argüman mı oldu şimdi?” Kalktı. Kahvesi masada kaldı."),
-P(S("kus_gulD"), "Teşekkür ettin. Gül avucunu kalbine koyup dışarı açtı."),
+P(S("kus_gulA"), "Pınar düşündü, elleri senin anlamadığın bir işaret yaptı. Sonra sesli söyledi: “İkisi de. Ama kimse ikisi birden olmama izin vermedi.”"),
+P(S("kus_gulB"), "Pınar başını salladı. Ertesi hafta Doruk'la Nehir'le bir kafede buluştu. Sonra Nehir sana yazdı: “Pınar'ı dinledik. Hiçbir şey değişmedi ama her şey biraz değişti.”"),
+P(S("kus_gulC"), "Pınar sana baktı. “Benim hayatım şimdi bir argüman mı oldu?” dedi ve kalktı, kahvesi masada kaldı."),
+P(S("kus_gulD"), "Teşekkür ettin. Pınar avucunu kalbine koyup dışarı doğru açtı."),
 P(S("kus_katA"), "“Düşüneceğim,” dedin. Asansörde naylon kaplı aynada kendine baktın."),
-P(S("kus_katB"), "Bora bir an durdu. “Posterleri pazarlama seçiyor,” dedi. Sonra, daha yavaş: “İyi soru.” Ertesi hafta posterler asıldı. Hâlâ hiçbiri yoktu."),
-P(S("kus_katC"), "Keçiören'i buldun. Ya da bulduğunu sandın. Gri bir tepe. Bora ne baktığını sormadı."),
-P(S("kus_katD"), "Bora'nın çenesi bir an kasıldı. Sonra güldü. “Felsefe,” dedi. Asansörde konuşmadınız."),
-P(S("a4A"), "Bora gülümsedi, topu yeniden eline aldı. “Biliyordum.”"),
-P(S("a4B"), "Bora'nın gülümsemesi dondu, sonra yerine oturdu. “Felsefe güzel. Bu bina felsefeyle ayakta durmuyor.”"),
-P(S("a4C"), "“Kurul yasayı uygular,” dedi Bora. “Ama tamam, kayda geçsin. Vicdanın rahatlasın.” Bunu sana bir iyilik yapıyormuş gibi söyledi."),
-P(S("a4D"), "Bir şey demedin. Bora memnun başını salladı. Odadan çıkarken sessizliğinin bir imza gibi okunduğunu düşündün."),
-"Nisanda sonuçlar geliyor. Aydın çiftinin altı embriyosu. Ekranda altı satır.",
-"Bir: işitme kaybı geni, iki kopya. Sağır olacak. Başka bulgu yok. İki: aynı. Üç: işiten, taşıyıcı. Dört: işiten. Bilişsel potansiyel puanı yüzde beşlik dilimde. Beş: işiten. Kalp kası hastalığı için yüksek risk.",
-"Altı: kromozom yirmi bir, üç kopya. Down sendromu.",
-"Altıncı satırda duruyorsun. Kanuna göre bu embriyo atılacak. Bir tıklama. Otuz beş yıl önce aynı tıklama annenin önüne konsaydı, bu sabah poşetin üstüne ters “M” yazan kimse olmazdı.",
-"Bütün sonuçları çifte göstermen gerekiyor. Hangisinden başlayacağını sen seçeceksin."
+P(S("kus_katB"), "Bora bir an durdu. “Posterleri pazarlama seçiyor,” dedi, sonra daha yavaş ekledi: “İyi soru.” Ertesi hafta posterler asıldı ama hâlâ hiçbiri yoktu."),
+P(S("kus_katC"), "Keçiören'i buldun, ya da bulduğunu sandın, gri bir tepe. Bora neye baktığını sormadı."),
+P(S("kus_katD"), "Bora'nın çenesi bir an kasıldı, sonra güldü. “Felsefe,” dedi. Asansörde hiç konuşmadınız."),
+P(S("a4A"), "Bora gülümseyip topu yeniden eline aldı. “Biliyordum,” dedi."),
+P(S("a4B"), "Bora'nın gülümsemesi dondu, sonra yerine oturdu. “Felsefe güzel şey,” dedi, “ama bu bina felsefeyle ayakta durmuyor.”"),
+P(S("a4C"), "“Kurul yasayı uygular,” dedi Bora. “Ama tamam, kayda geçsin, vicdanın rahatlasın.” Bunu sana bir iyilik yapıyormuş gibi söyledi."),
+P(S("a4D"), "Bir şey demedin, Bora da memnun bir şekilde başını salladı. Odadan çıkarken suskunluğunun bir imza gibi okunduğunu düşündün."),
+"Nisanda sonuçlar geliyor. Aydın çiftinin altı embriyosu ekranda altı satır olarak duruyor.",
+"Birincisinde işitme kaybı geninden iki kopya var, sağır olacak, başka bir bulgu yok. İkincisi de aynı. Üçüncüsü işitiyor ama taşıyıcı. Dördüncüsü işitiyor, bilişsel potansiyel puanı en üstteki yüzde beşlik dilimde. Beşincisi işitiyor ama kalp kası hastalığı riski yüksek.",
+"Altıncısında yirmi birinci kromozomdan üç kopya var. Down sendromu.",
+"Altıncı satırda duruyorsun. Kanuna göre bu embriyo atılacak, bir tıklamayla. Otuz beş yıl önce aynı tıklama annenin önüne konsaydı bu sabah poşetin üstüne ters bir M yazan kimse olmayacaktı.",
+"Bütün sonuçları çifte göstermen gerekiyor ve hangisinden başlayacağına sen karar vereceksin."
 ], secenekler: [
-{ t: "Sonuçları sırasıyla, yorum katmadan anlatırsın.", to: "a6", etki: { yasa: 1, tarafsiz: true } },
-{ t: "Önce dördüncü embriyoyu anlatırsın: işiten, yüksek puanlı. Belki onları yumuşatır.", to: "a6", etki: { yasa: 1, dort_once: true } },
-{ t: "Altıncı embriyodan da bahsedersin. Kardeşini anlatarak.", to: "a6", etki: { cesitlilik: 1, alti_anlatti: true } },
-{ t: "Önce birinci ve ikinci embriyoyu anlatırsın. İstediklerinin var olduğunu bilsinler.", to: "a6", etki: { cesitlilik: 1, sefkat: 1 } }
+{ t: "Sonuçları yorum katmadan, sırasıyla anlatırsın.", to: "a6", etki: { yasa: 1, tarafsiz: true } },
+{ t: "Belki onları yumuşatır diye önce işiten ve puanı yüksek olan dördüncü embriyoyu anlatırsın.", to: "a6", etki: { yasa: 1, dort_once: true } },
+{ t: "Kardeşini anlatarak altıncı embriyodan da bahsedersin.", to: "a6", etki: { cesitlilik: 1, alti_anlatti: true } },
+{ t: "İstedikleri şeyin var olduğunu bilsinler diye önce birinci ve ikinci embriyoyu anlatırsın.", to: "a6", etki: { cesitlilik: 1, sefkat: 1 } }
 ]},
 
 a6: { saat: "Nisan 2041", baslik: "Seçim", metin: [
-P(S("a5A"), "Sırasıyla anlattın. Altıncıya gelince Nehir'in eli bir hareket yaptı; Gül bir an duraksadı: “O da mı atılacak?” Evet, dedin."),
-P(S("a5B"), "Dördüncüyü anlattın. Selim ellerini masaya koydu, bir süre kaldırmadı. Sonra: “Bize zeki bir yabancı mı satıyorsunuz?”"),
-P(S("a5C"), "Gökhan'ı anlattın: simitler, sabah dördü, ‘Ben sonuncuyum teyze.’ Nehir'in gözleri doldu. Selim işaret etti: “Kardeşiniz de bizim gibi. Var olmaması için yasa yazılmış biri.”"),
-P(S("a5D"), "Birinci ve ikinciyi anlattın. Nehir'in eli karnına gitti. Henüz boş bir karna. Selim karısının omzunu tuttu."),
-"Masada altı satırlık bir kâğıt.",
-"Selim işaret ediyor. Gül'ün sesi artık bir tercümanın sesi gibi değil:",
-"“Biz size bir şey sormuyoruz Aslı Hanım. Anlatıyoruz. İşiten bir embriyo verirseniz onu da severiz. Anne baba olacağız. Ama bu ülke bize, kendiniz gibi bir çocuk istemeniz yanlış demiş olacak.”",
-"Nehir son bir işaret yapıyor. Yavaş, senin anlayacağın hızda. Avuç, kalp, dışarı. Sonra kaşları kalkık: bir soru.",
-"Elleri masada duruyor."
+P(S("a5A"), "Sonuçları sırasıyla anlattın. Altıncıya gelince Nehir'in eli bir hareket yaptı, Pınar bir an duraksayıp çevirdi: “O da mı atılacak?” Evet dedin."),
+P(S("a5B"), "Dördüncüyü anlattın. Doruk ellerini masaya koydu, bir süre kaldırmadı. Sonra işaret etti: “Bize zeki bir yabancı mı satıyorsunuz?”"),
+P(S("a5C"), "Gökhan'ı anlattın, simitleri, sabahın dördünü, “Ben sonuncuyum teyze” demesini. Nehir'in gözleri doldu. Doruk işaret etti: “Kardeşiniz de bizim gibi, var olmaması için yasa yazılmış biri.”"),
+P(S("a5D"), "Birinci ve ikinciyi anlattın. Nehir'in eli henüz boş olan karnına gitti, Doruk karısının omzunu tuttu."),
+"Masada altı satırlık bir kâğıt duruyor.",
+"Doruk işaret ediyor. Pınar'ın sesi artık bir tercümanın sesi gibi değil:",
+"“Size bir şey sormuyoruz Aslı Hanım, anlatıyoruz. İşiten bir embriyo verirseniz onu da severiz, anne baba olacağız. Ama bu ülke bize kendiniz gibi bir çocuk istemeniz yanlış demiş olacak.”",
+"Nehir son bir işaret yapıyor, yavaşça, senin anlayabileceğin bir hızda. Avucunu kalbine koyup dışarı açıyor, sonra kaşları kalkıyor, bir soru soruyor.",
+"Elleri masanın üstünde bekliyor."
 ], secenekler: [
-{ t: "Yasaya uyarsın: işiten bir embriyo önerirsin, üçüncüyü. Yasal. Ama onlara bir yabancı doğurtmak pahasına.", to: "y1", etki: { yasa: 2, kol: "yasa" } },
-{ t: "Birinci embriyoyu sistemde “belirsiz” işaretlersin. Aktarılabilir. On iki yıllık mesleğini bir tıklamaya koyarak.", to: "i1", etki: { cesitlilik: 2, kol: "ihlal" } },
-{ t: "Çifte dava açmalarını önerirsin. Sen de tanık olacaksın. Yıllar sürebilir ve Nehir otuz altı yaşında.", to: "d1", etki: { cesitlilik: 1, yasa: 1, kol: "dava" } },
-{ t: "Bir uzlaşma önerirsin: birinci embriyonun işitme genini düzeltmek. Yasal ve onların embriyosu. Ama tam da kaçtıkları şey.", to: "z1", etki: { yasa: 1, sefkat: 1, kol: "duzenle" } }
+{ t: "Yasaya uyar, işiten üçüncü embriyoyu önerirsin. Yasal ama onlara bir yabancı doğurtmak pahasına.", to: "y1", etki: { yasa: 2, kol: "yasa" } },
+{ t: "On iki yıllık mesleğini bir tıklamaya koyarak birinci embriyoyu sistemde “belirsiz” diye işaretlersin, böylece aktarılabilir.", to: "i1", etki: { cesitlilik: 2, kol: "ihlal" } },
+{ t: "Çifte dava açmalarını önerirsin, sen de tanıklık edeceksin. Yıllar sürebilir ve Nehir otuz altı yaşında.", to: "d1", etki: { cesitlilik: 1, yasa: 1, kol: "dava" } },
+{ t: "Bir uzlaşma önerirsin, birinci embriyonun işitme genini düzeltmek. Yasal ve onların embriyosu ama tam da kaçtıkları şey.", to: "z1", etki: { yasa: 1, sefkat: 1, kol: "duzenle" } }
 ]},
 
 /* ---------- YASA KOLU ---------- */
 y1: { saat: "Nisan 2041", baslik: "Üçüncü", metin: [
 P(S("a6A"), "Kâğıdı onlara çevirip parmağını üçüncü satıra koydun. Parmağının altında “taşıyıcı” kelimesi kaldı."),
-P(S("i1B"), "Son anda “Onayla”yı seçtin. Parmağın öbür tuşa kaymak istedi. Kaymadı. Ertesi gün çifte üçüncüyü anlattın."),
-"“Üçüncü embriyo. İşiten, taşıyıcı. Sağlıklı. Yasa bunu öneriyor. Ben de öneriyorum.”",
-"Gül çeviriyor. Selim'in yüzü kıpırdamıyor. Nehir gözlerini kapatıyor.",
+P(S("i1B"), "Son anda “Onayla”yı seçtin. Parmağın öbür tuşa kaymak istedi ama kaymadı. Ertesi gün çifte üçüncü embriyoyu anlattın."),
+"“Üçüncü embriyo,” diyorsun. “İşitiyor, taşıyıcı ve sağlıklı. Yasa bunu öneriyor, ben de öneriyorum.”",
+"Pınar çeviriyor. Doruk'un yüzü kıpırdamıyor, Nehir gözlerini kapatıyor.",
 "Sonra Nehir gözlerini açıp işaret ediyor:",
-"“Yıllardır bir çocuk istiyoruz. Üç deneme. Bu dördüncüsü. Beşincisine paramız yok.” Durup ekliyor: “Kapı buysa bu kapıdan geçeceğiz. Üçüncüyü aktarın.”",
-"Selim karısına dönüp hızlı, sert işaret ediyor. Gül çevirmiyor. Aralarında bir konuşma. Sonra Selim sana dönüyor:",
-"“Bir çocuğu seveceğiz. Ama bu kâğıdı imzalarken bilin: bir yasa bizim yerimize karar verdi. Siz de o yasanın elisiniz.”",
-"Nehir imzalıyor. Selim bir süre kalemi parmaklarının arasında çeviriyor. Sonra o da imzalıyor. İmzası bir bina çizimi gibi düz ve keskin."
+"“Yıllardır bir çocuk istiyoruz. Üç kere denedik, bu dördüncüsü. Beşincisine paramız yok.” Durup ekliyor: “Kapı buysa bu kapıdan geçeceğiz. Üçüncüyü aktarın.”",
+"Doruk karısına dönüp hızlı ve sert bir şekilde işaret ediyor. Pınar çevirmiyor, aralarında bir konuşma geçiyor. Sonra Doruk sana dönüyor:",
+"“Bir çocuğu seveceğiz. Ama bu kâğıdı imzalarken bilin ki bizim yerimize bir yasa karar verdi ve siz de o yasanın elisiniz.”",
+"Nehir imzalıyor. Doruk bir süre kalemi parmaklarının arasında çeviriyor, sonra o da imzalıyor. İmzası bir bina çizimi gibi düz ve keskin."
 ], secenekler: [
-{ t: "“Haklısınız,” dersin. Başka bir şey bulamadan.", to: "y2", etki: { sefkat: 1 } },
-{ t: "“Yasanın eli değilim. Ama yasanın içindeyim,” dersin.", to: "y2", etki: { yasa: 1 } },
-{ t: "Bebeğe işaret dilini ilk dili olarak öğretmeleri için kaynaklar önerirsin.", to: "y2", etki: { cesitlilik: 1, kaynak: true } },
+{ t: "Başka bir şey bulamadığın için “Haklısınız,” dersin.", to: "y2", etki: { sefkat: 1 } },
+{ t: "“Yasanın eli değilim ama yasanın içindeyim,” dersin.", to: "y2", etki: { yasa: 1 } },
+{ t: "Bebeğe ilk dil olarak işaret dilini öğretmeleri için kaynaklar önerirsin.", to: "y2", etki: { cesitlilik: 1, kaynak: true } },
 { t: "Kâğıdı alıp sessizce dosyaya koyarsın.", to: "y2", etki: { yasa: 1 } }
 ]},
 
 y2: { saat: "Mayıs – Aralık 2041", baslik: "Titreşim", metin: [
-P(S("y1A"), "“Haklısınız,” dedin. Nehir'in eli imzalarken titremedi. Seninki kâğıdı alırken titredi."),
-P(S("y1B"), "Gül çevirdi. Selim düşündü, sonra ellerini kaldırdı: “Biz de.”"),
-P(S("y1D"), "Kâğıdı dosyaya koydun. Dosyanın kapağında bir numara."),
-P(S("y1C"), "Bir liste verdin: sağırlar derneği, bebek işaret dili grupları, CODA toplulukları. Nehir listeyi katlayıp çantasına koydu. Teşekkür etmedi. Atmadı da."),
-"Aktarım tuttu. Nehir hamile. Sen başka çiftler, başka altı satırlık kâğıtlar.",
-"Eylülde bir e-posta. Nehir'den. Tercümansız. Yazılı Türkçe, biraz kırık:",
-"“Aslı Hanım. Bebek hareket ediyor. Doktor müzik sevdiğini söyledi, ultrasonda müzik açınca kıpırdıyormuş. Biz müziği duymuyoruz. Selim hoparlörü karnıma dayadı. Bebek kıpırdadı. Selim ağladı. Bebek bizim duymadığımız şeyi duyuyor. İçimde yabancı değil. Başka bir dünya.”",
-"Aralıkta doğum. Bir kız, Deniz. Hastane tercüman bulamamış; Nehir doğum boyunca ebelerin ne dediğini anlamamış. Bebeğin ilk ağlayışını duymamış. Göğsünde, teninde hissetmiş.",
-"Bir fotoğraf: Selim'in elleri bebeğin yüzünün önünde. Altında: “İlk söylediğimiz kelime: aile.”"
+P(S("y1A"), "“Haklısınız,” dedin. Nehir imzalarken eli titremedi ama seninki kâğıdı alırken titredi."),
+P(S("y1B"), "Pınar çevirdi. Doruk biraz düşündü, sonra ellerini kaldırdı: “Biz de öyleyiz.”"),
+P(S("y1D"), "Kâğıdı dosyaya koydun, dosyanın kapağında bir numara yazıyordu."),
+P(S("y1C"), "Sağırlar derneklerini, bebek işaret dili gruplarını, CODA topluluklarını yazdığın bir liste verdin. Nehir listeyi katlayıp çantasına koydu. Teşekkür etmedi ama atmadı da."),
+"Aktarım tutuyor, Nehir hamile kalıyor. Sen de başka çiftlerle, başka altı satırlık kâğıtlarla uğraşıyorsun.",
+"Eylülde Nehir'den bir e-posta geliyor, tercümansız, biraz kırık bir Türkçeyle yazılmış:",
+"“Aslı Hanım. Bebek hareket ediyor. Doktor müzik sevdiğini söyledi, ultrasonda müzik açınca kıpırdıyormuş. Biz müziği duymuyoruz. Doruk hoparlörü karnıma dayadı, bebek kıpırdadı, Doruk ağladı. Bebek bizim duymadığımız şeyi duyuyor. İçimde bir yabancı değil, başka bir dünya.”",
+"Aralıkta doğum oluyor, bir kız, Ilgaz. Hastane tercüman bulamamış, Nehir doğum boyunca ebelerin ne dediğini anlamamış. Bebeğin ilk ağlayışını duymamış, göğsünde, teninde hissetmiş.",
+"Bir fotoğraf geliyor. Doruk'un elleri bebeğin yüzünün önünde, altında şöyle yazıyor: “Ona söylediğimiz ilk kelime: aile.”"
 ], secenekler: [
 { t: "Onları ziyarete gidersin.", to: "y3", etki: { sefkat: 1, ziyaret: true } },
-{ t: "Bir tebrik mesajı yazarsın. “aile” işaretinin çizimini ekleyerek.", to: "y3", etki: { cesitlilik: 1 } },
-{ t: "Hastaneye doğumda tercüman olmamasıyla ilgili bir şikâyet yazarsın.", to: "y3", etki: { cesitlilik: 1, sikayet: true } },
-{ t: "Fotoğrafı kaydedersin. Bir şey yazmazsın.", to: "y3", etki: { yasa: 1 } }
+{ t: "“Aile” işaretinin çizimini ekleyerek bir tebrik mesajı yazarsın.", to: "y3", etki: { cesitlilik: 1 } },
+{ t: "Doğumda tercüman olmadığı için hastaneye bir şikâyet yazarsın.", to: "y3", etki: { cesitlilik: 1, sikayet: true } },
+{ t: "Fotoğrafı kaydedersin ama bir şey yazmazsın.", to: "y3", etki: { yasa: 1 } }
 ]},
 
-y3: { saat: "2042", baslik: "Deniz", metin: [
-P(S("y2B"), "Mesajın sonuna “aile” işaretini çizdin, yamuk. Nehir cevap verdi: “Hâlâ yamuk. Ama bizim.”"),
-P(S("y2C"), "Şikâyet yazdın: Nehir sancılarını kâğıda yazarak anlatmıştı. Üç ay sonra cevap: “Değerlendirilecektir.”"),
-P(S("y2D"), "Fotoğrafı kaydettin. Aylarca telefonunun ekranında durdu; Gökhan bir gün görüp “Bu kim abla?” dedi."),
-P(S("y2A"), "Eryaman'da bir daire. Kapı zili yerine bir lamba yanıyor. Bebek ağlarsa Nehir'in bileğindeki bilezik titriyor."),
-"Deniz on aylık. İşitiyor. Kapı çarpınca dönüyor, müzik açılınca gülüyor.",
-"Ve elleriyle konuşuyor. “Süt.” “Anne.” Bir de kendi uydurduğu bir işaret: elini kulağına götürüp açıyor. Nehir “ses” demek olduğunu düşünüyor.",
-"Nehir seni mutfakta yakalıyor; Gül yanında, artık ailenin bir parçası gibi.",
-"“Onu çok seviyorum. Ama bir gün sesle konuşacak. Arkadaşlarıyla telefonda, şarkı söyleyerek. Ben duvarın öbür yanında olacağım. Annemle benim aramdaki duvar şimdi benimle kızım arasında. Yönü değişti, o kadar.”",
-"Salonda Deniz babasının kucağında, ellerini sallıyor."
+y3: { saat: "2042", baslik: "Ilgaz", metin: [
+P(S("y2B"), "Mesajın sonuna yamuk bir “aile” işareti çizdin. Nehir cevap verdi: “Hâlâ yamuk ama bizim.”"),
+P(S("y2C"), "Bir şikâyet yazdın. Nehir sancılarını kâğıda yazarak anlatmak zorunda kalmıştı. Üç ay sonra “Değerlendirilecektir” diye bir cevap geldi."),
+P(S("y2D"), "Fotoğrafı kaydettin. Aylarca telefonunun ekranında durdu. Gökhan bir gün görüp “Bu kim abla?” diye sordu."),
+P(S("y2A"), "Eryaman'daki bir daireye gittin. Kapı zili yerine bir lamba yanıyor, bebek ağlarsa Nehir'in bileğindeki bilezik titriyor."),
+"Ilgaz on aylık oldu ve işitiyor. Kapı çarpınca dönüp bakıyor, müzik açılınca gülüyor.",
+"Ama elleriyle de konuşuyor, “süt,” “anne” diyor. Bir de kendi uydurduğu bir işaret var, elini kulağına götürüp açıyor. Nehir bunun “ses” demek olduğunu düşünüyor.",
+"Nehir seni mutfakta yakalıyor, Pınar da yanında, artık ailenin bir parçası gibi.",
+"“Onu çok seviyorum,” diyor Nehir. “Ama bir gün sesle konuşacak. Arkadaşlarıyla telefonda konuşacak, şarkı söyleyecek, ben de duvarın öbür yanında kalacağım. Annemle aramdaki duvar şimdi kızımla benim aramda. Yalnızca yönü değişti.”",
+"Salonda Ilgaz babasının kucağında ellerini sallıyor."
 ], secenekler: [
-{ t: "“Duvar her zaman bir yerde olur Nehir. Siz ona bir kapı da açmışsınız,” dersin.", to: "t1", etki: { sefkat: 1, cocuk: "isiten" } },
+{ t: "“Duvar her zaman bir yerde olur Nehir, ama siz ona bir kapı da açmışsınız,” dersin.", to: "t1", etki: { sefkat: 1, cocuk: "isiten" } },
 { t: "“Yanlış mı yaptım?” diye sorarsın.", to: "t1", etki: { cesitlilik: 1, cocuk: "isiten", soru: true } },
-{ t: "Deniz'in uydurduğu işareti yaparsın: el kulağa, sonra açılış.", to: "t1", etki: { cesitlilik: 1, sefkat: 1, cocuk: "isiten", deniz_isaret: true } },
-{ t: "Bir şey demezsin. Ellerini izlersin.", to: "t1", etki: { cocuk: "isiten" } }
+{ t: "Ilgaz'ın uydurduğu işareti yaparsın, elini kulağına götürüp açarsın.", to: "t1", etki: { cesitlilik: 1, sefkat: 1, cocuk: "isiten", deniz_isaret: true } },
+{ t: "Bir şey demeden ellerini izlersin.", to: "t1", etki: { cocuk: "isiten" } }
 ]},
 
 /* ---------- İHLAL KOLU ---------- */
 i1: { saat: "Nisan 2041", baslik: "Belirsiz", metin: [
-"Sistemi on iki yıldır kullanıyorsun. Bir sonucu “belirsiz” işaretlersen yeniden test istenir. Yeniden test başka bir laboratuvarda yapılır ve sonucu yine senin onayına gelir.",
-"Bir sonucu değiştirmek değil. Bir belirsizlikle örtmek. Bir hafta. Bir onay.",
-"Çifte yalnızca “Birinci embriyonun sonucunda bir belirsizlik var, yeniden test edilecek,” diyorsun. Selim sana uzun uzun bakıyor. Bir şey anlıyor. Ya da anlamak istiyor.",
-"Nehir: “İyi bir belirsizlik mi, kötü mü?”",
-"“Bilmiyorum,” diyorsun. Tuhaf ama doğru.",
-"Bir hafta sonra ikinci laboratuvarın sonucu ekranda: iki kopya. Aynı. Altında senin onay tuşun.",
-"İki seçenek var: “Onayla” ve “Belirsiz, aktarıma uygun.” İkincisi mozaiklik şüphesi için. Nadiren kullanılır, kimse kontrol etmez.",
-"İmlecin iki tuşun arasında. Masanın kenarında Gökhan'ın simit poşeti, boş."
+"Bu sistemi on iki yıldır kullanıyorsun. Bir sonucu “belirsiz” diye işaretlersen yeniden test istenir. Yeniden test başka bir laboratuvarda yapılır ve sonuç yine senin onayına gelir.",
+"Bu bir sonucu değiştirmek değil, bir belirsizlikle örtmek demek. Bir hafta, bir onay.",
+"Çifte yalnızca “Birinci embriyonun sonucunda bir belirsizlik var, yeniden test edilecek,” diyorsun. Doruk sana uzun uzun bakıyor. Bir şey anlıyor, ya da anlamak istiyor.",
+"Nehir soruyor: “İyi bir belirsizlik mi, kötü mü?”",
+"“Bilmiyorum,” diyorsun. Tuhaf ama doğru bu.",
+"Bir hafta sonra ikinci laboratuvarın sonucu ekranda, iki kopya, aynı. Altında senin onay tuşun var.",
+"İki seçenek görünüyor, “Onayla” ve “Belirsiz, aktarıma uygun.” İkincisi mozaiklik şüphesi için var, nadiren kullanılır ve kimse kontrol etmez.",
+"İmleç iki tuşun arasında duruyor. Masanın kenarında Gökhan'ın boş simit poşeti var."
 ], secenekler: [
 { t: "“Belirsiz, aktarıma uygun”u seçersin.", to: "i2", etki: { cesitlilik: 1, ihlal: true } },
-{ t: "Son anda “Onayla”yı seçersin. Yapamazsın.", to: "y1", etki: { yasa: 2, kol: "yasa", vazgecti: true } },
-{ t: "Seçmeden önce Selim ve Nehir'e gerçeği söylersin. Ne yaptığını, ne riske girdiğini.", to: "i2", etki: { cesitlilik: 1, sefkat: 1, ihlal: true, ciftle: true } },
-{ t: "Gül'e danışırsın. O da tanık olacak.", to: "i2", etki: { sefkat: 1, ihlal: true, gul_bilir: true } }
+{ t: "Yapamazsın, son anda “Onayla”yı seçersin.", to: "y1", etki: { yasa: 2, kol: "yasa", vazgecti: true } },
+{ t: "Seçmeden önce Doruk'la Nehir'e ne yaptığını, neyi riske attığını, gerçeği söylersin.", to: "i2", etki: { cesitlilik: 1, sefkat: 1, ihlal: true, ciftle: true } },
+{ t: "O da tanık olacağı için Pınar'a danışırsın.", to: "i2", etki: { sefkat: 1, ihlal: true, gul_bilir: true } }
 ]},
 
 i2: { saat: "Haziran 2041", baslik: "Denetim", metin: [
-P(S("i1A"), "Tıkladın. Ekran bir saniye düşündü, yeşil bir onay verdi. Kimse kontrol etmedi. Henüz."),
-P(S("i1C"), "Selim ve Nehir'e söyledin. Nehir ağladı. Selim işaret etti: “Bizim için mi yapıyorsunuz?” Hayır, dedin, doğru olduğunu düşündüğüm için. Selim: “O zaman bizim için yapıyorsunuz. Biz doğruyuz.”"),
-P(S("i1D"), "Gül uzun süre sustu. “Ben tercümanım,” dedi. “Bir mahkemede bunu çevirmem gerekirse çeviririm. Bilin.” Sonra: “Ama şu an bir şey çevirmiyorum. Sadece buradayım.”"),
-"Aktarım yapıldı. Tuttu.",
-"Haziranda iç denetim. Rutin, diyor Bora. Ama bu yıl denetçiler belirsiz işaretli embriyolara bakıyor. Sistemde altı tane. Beşi başka danışmanlardan, bir yıl öncesinden. Biri senin.",
-"Bora seni çağırıyor. Ekranda: Aydın, embriyo bir. Sıkma topu masada, dokunmuyor.",
-"“Aslı. Bu belirsizlik neydi?”",
-"İkinci laboratuvarın raporu da açık: iki kopya. Belirsizlik yok.",
-"“Bunu bana açıklayabilirsin. Ya da ben teknik hata diye kapatırım. Bir şartla: koordinatörlüğü kabul edersin ve bundan sonra her dosyan benim masamdan geçer.”"
+P(S("i1A"), "Tıkladın. Ekran bir saniye düşündü, sonra yeşil bir onay verdi. Kimse kontrol etmedi, henüz."),
+P(S("i1C"), "Doruk'la Nehir'e söyledin. Nehir ağladı. Doruk işaret etti: “Bizim için mi yapıyorsunuz?” Hayır, doğru olduğunu düşündüğün için yaptığını söyledin. Doruk “O zaman bizim için yapıyorsunuz,” dedi, “çünkü biz doğruyuz.”"),
+P(S("i1D"), "Pınar uzun süre konuşmadı. “Ben tercümanım,” dedi. “Bir mahkemede bunu çevirmem gerekirse çeviririm, bunu bilin.” Sonra ekledi: “Ama şu an hiçbir şey çevirmiyorum, yalnızca buradayım.”"),
+"Aktarım yapıldı ve tuttu.",
+"Haziranda bir iç denetim yapılıyor. Bora rutin olduğunu söylüyor ama denetçiler bu yıl “belirsiz” diye işaretlenmiş embriyolara bakıyor. Sistemde altı tane var. Beşi başka danışmanlardan, bir yıl öncesinden, biri de senin.",
+"Bora seni çağırıyor. Ekranda Aydın dosyası açık, birinci embriyo. Sıkma topu masada duruyor ama dokunmuyor.",
+"“Aslı, bu belirsizlik neydi?”",
+"İkinci laboratuvarın raporu da açık, iki kopya, hiçbir belirsizlik yok.",
+"“Bunu bana açıklayabilirsin,” diyor. “Ya da ben teknik hata deyip kapatırım. Bir şartla, koordinatörlüğü kabul edersin ve bundan sonra her dosyan benim masamdan geçer.”"
 ], secenekler: [
-{ t: "Her şeyi itiraf edersin. Bilerek yaptığını.", to: "i3", etki: { cesitlilik: 1, yasa: 1, itiraf: true } },
-{ t: "Teklifi kabul edersin. Dosya kapanır.", to: "i3", etki: { yasa: 1, terfi: true, kapatti: true } },
-{ t: "“Teknik hataydı,” dersin. Terfiyi reddederek.", to: "i3", etki: { teknik: true } },
-{ t: "“Nehir hamile. Ne yapacaksınız, bebeği mi aldıracaksınız?” dersin.", to: "i3", etki: { cesitlilik: 1, meydan: true } }
+{ t: "Bilerek yaptığını, her şeyi itiraf edersin.", to: "i3", etki: { cesitlilik: 1, yasa: 1, itiraf: true } },
+{ t: "Teklifi kabul edersin ve dosya kapanır.", to: "i3", etki: { yasa: 1, terfi: true, kapatti: true } },
+{ t: "Terfiyi reddedip “Teknik bir hataydı,” dersin.", to: "i3", etki: { teknik: true } },
+{ t: "“Nehir hamile. Ne yapacaksınız, bebeği aldıracak mısınız?” dersin.", to: "i3", etki: { cesitlilik: 1, meydan: true } }
 ]},
 
 i3: { saat: "Aralık 2041", baslik: "Sessiz Doğum", metin: [
-P(S("i2A"), "İtiraf ettin. Bora sana uzun uzun baktı, sonra raporu yazdı. Lisansın askıya alındı. Selim ile Nehir'e dokunulmadı. Yasa sağlık çalışanını cezalandırıyor."),
-P(S("i2B"), "Kabul ettin. Dosya “teknik hata” diye kapandı. Bir hafta sonra yeni odana taşındın. Kapıda tabela: Klinik Koordinatör. Pencereden reklamın yanıp sönen yeşil gözü görünüyor. Hâlâ tamir edilmemiş."),
-P(S("i2C"), "“Teknik hata,” dedin. Bora: “Teknik hata bir kere olur.” Dosyayı kapattı. Terfi listesinde adın artık yoktu."),
-P(S("i2D"), "Bora'nın yüzü bembeyaz oldu. “Hayır. Tabii ki hayır.” Topu eline alıp sıktı. Dosya kapandı. Kimse bunun ne demek olduğunu yüksek sesle söylemedi."),
-"Aralıkta doğum. Bir oğlan: Efe.",
-"Bu kez doğumda Gül var. Ebelerin dediklerini ellere çeviriyor. Bebek ağlıyor. Nehir ağlayışı göğsünde hissediyor.",
-"İki hafta sonra işitme taraması: iki kulakta işitme yok. Bir hemşire Nehir'e acıyarak bakıp bir broşür uzatıyor: “Koklear implant seçenekleri.”",
-"Nehir broşürü nazikçe geri veriyor. Oğlunun yüzünün önünde ellerini kaldırıyor. Efe annesinin ellerine bakıyor. Gözleri o ellerin peşinde.",
-"Bir fotoğraf geliyor. Altında yazılı Türkçe: “Bizim dilimizle doğdu. Teşekkür ederiz. Ne pahasına olduğunu biliyoruz.”"
+P(S("i2A"), "İtiraf ettin. Bora uzun uzun yüzüne baktı, sonra raporu yazdı. Lisansın askıya alındı ama Doruk'la Nehir'e dokunulmadı, çünkü yasa sağlık çalışanını cezalandırıyor."),
+P(S("i2B"), "Kabul ettin ve dosya “teknik hata” diye kapandı. Bir hafta sonra kapısında “Klinik Koordinatör” yazan yeni odana taşındın. Pencereden reklamın yanıp sönen yeşil gözü görünüyor, hâlâ tamir edilmemiş."),
+P(S("i2C"), "“Teknik bir hataydı,” dedin. Bora “Teknik hata bir kere olur,” deyip dosyayı kapattı. Terfi listesinde artık adın yoktu."),
+P(S("i2D"), "Bora'nın yüzü bembeyaz oldu. “Hayır, tabii ki hayır,” dedi, topu eline alıp sıktı. Dosya kapandı ama kimse bunun ne demek olduğunu yüksek sesle söylemedi."),
+"Aralıkta doğum oluyor, bir oğlan, Efe.",
+"Bu sefer doğumda Pınar da var, ebelerin söylediklerini ellerle çeviriyor. Bebek ağlıyor, Nehir ağlayışı göğsünde hissediyor.",
+"İki hafta sonra işitme taraması yapılıyor, iki kulakta da işitme yok. Bir hemşire Nehir'e acıyarak bakıp “Koklear implant seçenekleri” yazan bir broşür uzatıyor.",
+"Nehir broşürü nazikçe geri veriyor, sonra oğlunun yüzünün önünde ellerini kaldırıyor. Efe annesinin ellerine bakıyor, gözleri o ellerin peşinden gidiyor.",
+"Bir fotoğraf geliyor, altına Türkçe yazılmış: “Bizim dilimizle doğdu. Teşekkür ederiz. Bunun ne pahasına olduğunu biliyoruz.”"
 ], secenekler: [
-{ t: "Onları ziyarete gidersin. Ne olursa olsun.", to: "t1", etki: { sefkat: 1, cocuk: "sagir", ziyaret: true } },
+{ t: "Ne olursa olsun onları ziyarete gidersin.", to: "t1", etki: { sefkat: 1, cocuk: "sagir", ziyaret: true } },
 { t: "Fotoğrafa bakıp ağlarsın.", to: "t1", etki: { sefkat: 1, cocuk: "sagir" } },
-{ t: "Cevap yazarsın: “Pahası benim. Sizin değil.”", to: "t1", etki: { cesitlilik: 1, cocuk: "sagir" } },
-{ t: "Fotoğrafı silersin. Kanıt olmasın.", to: "t1", etki: { yasa: 1, cocuk: "sagir", sildi: true } }
+{ t: "“Bedelini ben ödüyorum, siz değil,” diye cevap yazarsın.", to: "t1", etki: { cesitlilik: 1, cocuk: "sagir" } },
+{ t: "Kanıt olmasın diye fotoğrafı silersin.", to: "t1", etki: { yasa: 1, cocuk: "sagir", sildi: true } }
 ]},
 
 /* ---------- DAVA KOLU ---------- */
 d1: { saat: "Mayıs 2041", baslik: "Dilekçe", metin: [
-"Selim ve Nehir bir avukat buluyor: engelli hakları alanında genç bir kadın, Av. Melike Er. Dava: kanunun dokuzuncu maddesinde işitme kaybını “ağır kalıtsal engellilik” sayan kısmın iptali.",
-"Avukat senden bilirkişi tanıklığı istiyor. Merkezin içinden.",
+"Doruk'la Nehir bir avukat buluyor, engelli hakları alanında çalışan genç bir kadın, Av. Melike Er. Kanunun dokuzuncu maddesinde işitme kaybını “ağır kalıtsal engellilik” sayan kısmın iptali için dava açacaklar.",
+"Avukat senden, merkezin içinden biri olarak bilirkişi tanıklığı istiyor.",
 "“Siz içeriden konuşursanız,” diyor Av. Er, “bu dava bir azınlığın talebi olmaktan çıkar.” Konuşurken kalemiyle dosyanın kenarına küçük kutular çiziyor.",
-"Bora duyuyor. Bu kez top elinde değil.",
-"“Tanıklık edersen burada çalışamazsın. Ayrıca kazanılırsa ne olacak biliyor musun? Sağır çocuk isteyenler, cücelik isteyenler, başka şeyler isteyenler. Bir kapı açılır.”",
-"Akşam Gökhan'a anlatıyorsun. Hamuru yoğururken dinliyor. Sonra: “Abla, ben de mi bir kapıydım? Annemiz beni doğururken?”"
+"Bora bunu duyuyor ve bu sefer topu elinde değil.",
+"“Tanıklık edersen burada çalışamazsın. Hem kazanılırsa ne olacak biliyor musun? Sağır çocuk isteyenler, cücelik isteyenler, başka şeyler isteyenler gelecek. Bir kapı açılır.”",
+"Akşam Gökhan'a anlatıyorsun. Hamuru yoğururken seni dinliyor, sonra soruyor: “Abla, ben de mi bir kapıydım? Annemiz beni doğururken?”"
 ], secenekler: [
-{ t: "Tanıklık etmeyi kabul edersin. Ne pahasına olursa olsun.", to: "d2", etki: { cesitlilik: 2, tanik: true } },
-{ t: "Yazılı bir bilirkişi raporu vermeyi teklif edersin. Mahkemeye çıkmadan.", to: "d2", etki: { cesitlilik: 1, yasa: 1, yazili: true } },
-{ t: "Reddedersin. Ama başka bir uzman bulmalarına yardım edersin.", to: "d2", etki: { yasa: 1, sefkat: 1, baska_uzman: true } },
-{ t: "Gökhan'a cevap verirsin: “Hayır. Sen bir insandın. Kapılar insanlardan sonra gelir.”", to: "d2", etki: { sefkat: 1, cesitlilik: 1, tanik: true, ozan_cevap: true } }
+{ t: "Ne pahasına olursa olsun tanıklık etmeyi kabul edersin.", to: "d2", etki: { cesitlilik: 2, tanik: true } },
+{ t: "Mahkemeye çıkmadan yazılı bir bilirkişi raporu vermeyi teklif edersin.", to: "d2", etki: { cesitlilik: 1, yasa: 1, yazili: true } },
+{ t: "Reddedersin ama başka bir uzman bulmalarına yardım edersin.", to: "d2", etki: { yasa: 1, sefkat: 1, baska_uzman: true } },
+{ t: "Gökhan'a cevap verirsin: “Hayır, sen bir insandın. Kapılar insanlardan sonra gelir.”", to: "d2", etki: { sefkat: 1, cesitlilik: 1, tanik: true, ozan_cevap: true } }
 ]},
 
 d2: { saat: "Ekim 2041", baslik: "Mahkeme", metin: [
-P(function(d){ return d.tanik; }, "Bora seni işten çıkarmadı. “izne” gönderdi. Ücretsiz, süresiz."),
-P(S("d1C"), "Emekli bir profesör buldunuz. Kendisi de işitme engelli. Mahkemede o konuştu. Sen arka sıradaydın. Nehir bir ara dönüp sana bir işaret yaptı. Sonra Gül'e sordun: “Burada olduğun için,” demiş."),
-"Anayasa Mahkemesi. Mermer bir salon, yüksek kürsü, on beş üye. Köşede iki tercüman, sırayla. İzleyici sıralarında yüzlerce sağır. Elleri salonda sessiz bir dalga gibi.",
-P(function(d){ return d.tanik || d.yazili; }, "Sıra sende. On beş yüz sana bakıyor. Arkanda yüzlerce el."),
-P(function(d){ return d.tanik || d.yazili; }, "Altı satırlık kâğıtları anlatıyorsun, bir tıklamayla silinen embriyoları, “ağır” kelimesinin kim tarafından konduğunu. Bir de bir poşetin üstündeki ters “M”yi."),
-"Hükümet avukatı konuşuyor: çocuğun açık gelecek hakkı, işiten bir dünyada yaşamanın kolaylığı, kaygan zemin. Güçlü. Bazı üyeler not alıyor.",
-"Sonra Nehir, kürsüde, ellerle. Gül çeviriyor. Bağlanan elleri anlatıyor. Yaz kampını. Annesiyle otuz yılı. Sonra bir cümle; Gül'ün sesi titriyor:",
-"“Bu yasa bana, sen var olmamalıydın diyor. Ben buradayım. Kimin var olmaması gerektiğine var olanlar mı karar verecek?”"
+P(function(d){ return d.tanik; }, "Bora seni işten çıkarmadı, ücretsiz ve süresiz “izne” gönderdi."),
+P(S("d1C"), "Kendisi de işitme engelli olan emekli bir profesör buldunuz, mahkemede o konuştu. Sen arka sıradaydın. Nehir bir ara dönüp sana bir işaret yaptı. Sonra Pınar'a sordun, “Burada olduğun için,” demiş."),
+"Anayasa Mahkemesi'ndesiniz. Mermer bir salon, yüksek bir kürsü, on beş üye var. Köşede sırayla çeviren iki tercüman duruyor. İzleyici sıralarında yüzlerce sağır oturuyor, elleri salonda sessiz bir dalga gibi kıpırdıyor.",
+P(function(d){ return d.tanik || d.yazili; }, "Sıra sana geliyor. On beş yüz sana bakıyor, arkanda yüzlerce el var."),
+P(function(d){ return d.tanik || d.yazili; }, "Altı satırlık kâğıtları, bir tıklamayla silinen embriyoları, “ağır” kelimesini kimin koyduğunu anlatıyorsun. Bir de bir poşetin üstündeki ters M'yi anlatıyorsun."),
+"Hükümet avukatı konuşuyor. Çocuğun açık bir geleceğe hakkı olduğunu, işiten bir dünyada yaşamanın kolaylığını, kaygan zemini anlatıyor. Güçlü bir konuşma, bazı üyeler not alıyor.",
+"Sonra Nehir kürsüye çıkıp elleriyle konuşuyor, Pınar çeviriyor. Bağlanan ellerini, yaz kampını, annesiyle geçen otuz yılı anlatıyor. Sonra bir cümle söylüyor ve Pınar'ın sesi titriyor:",
+"“Bu yasa bana sen var olmamalıydın diyor. Ama ben buradayım. Kimin var olmaması gerektiğine var olanlar mı karar verecek?”"
 ], secenekler: [
-{ t: "Sağır izleyicilerle birlikte ellerini kaldırıp sallarsın. İşaret dilinde alkış.", to: "d3", etki: { cesitlilik: 1, alkis: true } },
-{ t: "Hareketsiz oturursun.", to: "d3", etki: { yasa: 1 } },
+{ t: "Sağır izleyicilerle birlikte ellerini kaldırıp sallarsın, işaret dilinde alkış böyle yapılır.", to: "d3", etki: { cesitlilik: 1, alkis: true } },
+{ t: "Kıpırdamadan oturursun.", to: "d3", etki: { yasa: 1 } },
 { t: "Hükümet avukatının argümanlarını gerçekten dinlersin.", to: "d3", etki: { yasa: 1, dinledi: true } },
 { t: "Nehir'in yanına gidersin.", to: "d3", etki: { sefkat: 1 } }
 ]},
 
 d3: { saat: "Ocak 2042", baslik: "Karar", metin: [
-P(S("d2B"), "Hareketsiz oturdun. Ellerin kucağında, kimse görmeden, “aile” işaretini yaptı."),
-P(S("d2D"), "Nehir'in yanına gittin. Hükümet avukatı konuşurken bileğini bırakmadı."),
-P(S("d2A"), "Yüzlerce el havada. Mahkeme başkanı bir an durdu, sonra devam etti. Ertesi gün gazetede bir fotoğraf: havada eller ve aralarında beceriksizce sallanan bir çift el. Seninkiler."),
-P(S("d2C"), "Hükümet avukatını dinledin. Bazı argümanları gerçekten iyiydi. Bir çocuğun ebeveynlerinin seçiminden bağımsız bir geleceği. Reddedemedin. Nehir'in sorusunu da reddedemedin."),
-"Ocakta karar. Sekize yedi.",
-"İşitme kaybına ilişkin kısım iptal edildi. Gerekçe: “Devlet, kendine özgü dili olan bir topluluğun yaşam biçimini sağlık politikası adına yok sayamaz.”",
-"Yedi üyenin karşı oyu: “Bir gün bu çocuklar büyüyecek ve bu seçimi kimin yaptığını soracaklardır.”",
-"Mahkemenin önünde, karda, Selim ile Nehir sarılıyor. Nehir sana bir işaret yapıyor. Bu kez anlıyorsun, çok çalıştın: “Teşekkür ederim.” Sonra bir başkası, anlamadığın. Gül: “Şimdi korkuyorum.”"
+P(S("d2B"), "Kıpırdamadan oturdun. Kucağındaki ellerin kimse görmeden “aile” işaretini yaptı."),
+P(S("d2D"), "Nehir'in yanına gittin. Hükümet avukatı konuşurken bileğini bırakmadın."),
+P(S("d2A"), "Yüzlerce el havaya kalktı. Mahkeme başkanı bir an durdu, sonra devam etti. Ertesi gün gazetede bir fotoğraf çıktı, havadaki ellerin arasında beceriksizce sallanan bir çift el, seninkiler."),
+P(S("d2C"), "Hükümet avukatını dinledin, bazı argümanları gerçekten iyiydi. Bir çocuğun anne babasının seçiminden bağımsız bir geleceği olmalıydı, bunu reddedemedin. Ama Nehir'in sorusunu da reddedemedin."),
+"Ocakta karar çıkıyor, sekize karşı yedi oyla.",
+"İşitme kaybıyla ilgili kısım iptal ediliyor. Gerekçede şöyle yazıyor: “Devlet, kendine özgü dili olan bir topluluğun yaşam biçimini sağlık politikası adına yok sayamaz.”",
+"Yedi üyenin karşı oy yazısında da şu cümle var: “Bir gün bu çocuklar büyüyecek ve bu seçimi kimin yaptığını soracaklardır.”",
+"Mahkemenin önünde, karın içinde Doruk'la Nehir sarılıyor. Nehir sana bir işaret yapıyor ve bu sefer anlıyorsun, çok çalıştın: “Teşekkür ederim.” Sonra anlamadığın bir işaret daha yapıyor. Pınar çeviriyor: “Şimdi korkuyorum.”"
 ], secenekler: [
-{ t: "“Korkmanız iyi,” dersin. “Bu bir sorumluluk.”", to: "d4", etki: { yasa: 1 } },
+{ t: "“Korkmanız iyi, bu bir sorumluluk,” dersin.", to: "d4", etki: { yasa: 1 } },
 { t: "Nehir'e sarılırsın.", to: "d4", etki: { sefkat: 1 } },
-{ t: "Karşı oy şerhini bir kez daha okursun. Haklı bir yanı var mı?", to: "d4", etki: { yasa: 1, serh: true } },
-{ t: "“Şimdi birinci embriyo,” dersin. “Birlikte.”", to: "d4", etki: { cesitlilik: 1 } }
+{ t: "Haklı bir yanı var mı diye karşı oy yazısını bir kez daha okursun.", to: "d4", etki: { yasa: 1, serh: true } },
+{ t: "“Şimdi sıra birinci embriyoda, birlikte,” dersin.", to: "d4", etki: { cesitlilik: 1 } }
 ]},
 
-d4: { saat: "Aralık 2042", baslik: "Ece", metin: [
-P(S("d3A"), "“Korkmanız iyi,” dedin. Nehir: “Eskiden yasa bizim yerimize korkuyordu. Şimdi biz korkacağız.”"),
-P(S("d3B"), "Nehir'e sarıldın. Omzunda ses çıkarmadan ağladı. Gül sonra söyledi: sağırın ağlaması daha sessiz değil. Sadece kimse duymuyor."),
-P(S("d3C"), "Şerhi yeniden okudun. Bir çocuk bir gün soracaktı. Bunu sen de biliyordun."),
-P(S("d3D"), "“Birlikte,” dedin. Selim'in elleri bir işaret yaptı; Gül çevirmedi, gerek yoktu."),
-"Aktarım martta, başka bir merkezde; Bora'nın merkezi “kurumsal politika” gereği reddediyor.",
-"Aralıkta bir kız: Ece. İşitme taraması: işitme yok.",
-"Gazetelerde: “Türkiye'nin yasal olarak seçilmiş ilk sağır bebeği.” Bir köşe yazarı “bilimin geri adımı” diyor, bir başkası “zafer.” Sosyal medyada biri ailenin adresini paylaşıyor.",
-"Bir akşam Nehir'den mesaj: “Kapımıza bir kâğıt bırakmışlar. ‘Kızınıza ne yaptınız?’ yazıyor. Ece uyuyor. Hiçbir şey duymadı. Biz de duymadık. Okuduk.”"
+d4: { saat: "Aralık 2042", baslik: "İlke", metin: [
+P(S("d3A"), "“Korkmanız iyi,” dedin. Nehir işaret etti: “Eskiden yasa bizim yerimize korkuyordu, şimdi biz korkacağız.”"),
+P(S("d3B"), "Nehir'e sarıldın, omzunda ses çıkarmadan ağladı. Pınar sonra söyledi, sağırların ağlaması daha sessiz değilmiş, yalnızca kimse duymuyormuş."),
+P(S("d3C"), "Karşı oy yazısını yeniden okudun. Bir çocuk bir gün soracaktı, bunu sen de biliyordun."),
+P(S("d3D"), "“Birlikte,” dedin. Doruk'un elleri bir işaret yaptı, Pınar çevirmedi, gerek yoktu."),
+"Aktarım martta başka bir merkezde yapılıyor, Bora'nın merkezi “kurumsal politika” gereği reddediyor.",
+"Aralıkta bir kız doğuyor, İlke. İşitme taraması yapılıyor, işitmiyor.",
+"Gazeteler “Türkiye'nin yasal olarak seçilmiş ilk sağır bebeği” diye yazıyor. Bir köşe yazarı buna “bilimin geri adımı” diyor, bir başkası “zafer.” Sosyal medyada biri ailenin adresini paylaşıyor.",
+"Bir akşam Nehir'den bir mesaj geliyor: “Kapımıza bir kâğıt bırakmışlar, ‘Kızınıza ne yaptınız?’ yazıyor. İlke uyuyor, hiçbir şey duymadı. Biz de duymadık, okuduk.”"
 ], secenekler: [
 { t: "Aileyi korumak için bir avukatla, polisle iletişime geçersin.", to: "t1", etki: { yasa: 1, cocuk: "sagir", koruma: true } },
-{ t: "Bir gazeteye, Ece'nin değil, Nehir'in hikâyesinin yazılması için bir yazı gönderirsin.", to: "t1", etki: { cesitlilik: 1, cocuk: "sagir", yazi: true } },
-{ t: "Onları ziyaret edip bir gece kalırsın.", to: "t1", etki: { sefkat: 1, cocuk: "sagir", ziyaret: true } },
-{ t: "Kendine sorarsın: bu çocuk bir gün sana ne soracak?", to: "t1", etki: { yasa: 1, cocuk: "sagir", ece_soru: true } }
+{ t: "Bir gazeteye İlke'nin değil, Nehir'in hikâyesini anlatan bir yazı gönderirsin.", to: "t1", etki: { cesitlilik: 1, cocuk: "sagir", yazi: true } },
+{ t: "Onları ziyaret edip bir gece yanlarında kalırsın.", to: "t1", etki: { sefkat: 1, cocuk: "sagir", ziyaret: true } },
+{ t: "Bu çocuğun bir gün sana ne soracağını düşünürsün.", to: "t1", etki: { yasa: 1, cocuk: "sagir", ece_soru: true } }
 ]},
 
 /* ---------- DÜZENLEME KOLU ---------- */
 z1: { saat: "Nisan 2041", baslik: "Düzeltme", metin: [
-"“Bir seçenek daha var,” diyorsun. “Birinci embriyo sizin istediğiniz embriyo. Ama işitme genini düzeltebiliriz. Yasal, onaylı. Aynı embriyo. Bir harf değişir. Sizin çocuğunuz olur, yasa da izin verir.”",
-"Gül çeviriyor. Selim'in yüzünde bir şey değişiyor.",
-"Selim yavaşça, her işareti tek tek:",
+"“Bir seçenek daha var,” diyorsun. “Birinci embriyo sizin istediğiniz embriyo. Ama işitme genini düzeltebiliriz, yasal ve onaylı bir işlem. Aynı embriyo kalır, yalnızca bir harf değişir. Sizin çocuğunuz olur ve yasa da izin verir.”",
+"Pınar çeviriyor. Doruk'un yüzünde bir şey değişiyor.",
+"Doruk yavaşça, her işareti tek tek yapıyor:",
 "“Bir harf. O harf benim dilim, dedem, karım. Onu değiştirirseniz bizim çocuğumuz olmaz. Bizim genlerimizden yapılmış ama bizim evimizden çıkarılmış bir çocuk olur.”",
-"Nehir'in elleri kucağında. İşaret etmiyor.",
-"“Düzeltmek,” diyor Selim. “Bu kelimeyi seçtiniz. Bozuk şey düzeltilir. Ben bozuk değilim Aslı Hanım.”"
+"Nehir'in elleri kucağında, işaret etmiyor.",
+"“Düzeltmek,” diyor Doruk. “Bu kelimeyi siz seçtiniz. Bozuk olan şey düzeltilir. Ben bozuk değilim Aslı Hanım.”"
 ], secenekler: [
-{ t: "Kelime seçimin için özür dilersin. Ama önerinin arkasında durursun.", to: "z2", etki: { sefkat: 1, yasa: 1 } },
+{ t: "Kelime seçimin için özür dilersin ama önerinin arkasında durursun.", to: "z2", etki: { sefkat: 1, yasa: 1 } },
 { t: "Önerini geri çekersin.", to: "z2", etki: { cesitlilik: 1, geri_cekti: true } },
 { t: "Nehir'e dönüp onun ne düşündüğünü sorarsın.", to: "z2", etki: { sefkat: 1, nehire_sordu: true } },
 { t: "“Bu, bir yasanın sizin yerinize karar vermesinden iyi değil mi?” dersin.", to: "z2", etki: { yasa: 1 } }
 ]},
 
 z2: { saat: "Nisan 2041", baslik: "Nehir", metin: [
-P(S("z1A"), "Özür diledin ama geri adım atmadın. Selim kalkıp çıktı. Nehir oturmaya devam etti."),
-P(S("z1C"), "Nehir uzun süre cevap vermedi. Sonra elleri: “Bilmiyorum.” Selim ona döndü. Bir konuda ilk kez ayrı düşüyorlardı."),
-P(S("z1D"), "Selim'in elleri hızlandı; Gül yetişemedi. “Bir yasanın bizi silmesiyle bizim kendimizi silmemiz arasında fark var mı?”"),
-P(S("z1B"), "Önerini geri çektin. Selim başını salladı. Nehir ellerini hâlâ kucağında tutuyordu."),
-"Ertesi gün Nehir tek başına geliyor; Gül'le, Selim'siz.",
-"Uzun süre oturuyor. Sonra:",
-"“Selim'e buraya geldiğimi söylemedim. Otuz altı yaşındayım. Üç kez denedik. Paramız yok. Bu son şans.”",
-"“Selim sağır bir çocuk istiyor. Ben de. Ama ben daha çok bir çocuk istiyorum. Düzenlenmiş de olsa, işiten de olsa. Benim karnımda büyüsün yeter.”",
+P(S("z1A"), "Özür diledin ama geri adım atmadın. Doruk kalkıp çıktı, Nehir oturmaya devam etti."),
+P(S("z1C"), "Nehir uzun süre cevap vermedi. Sonra elleriyle “Bilmiyorum,” dedi. Doruk ona döndü, ilk kez bir konuda ayrı düşüyorlardı."),
+P(S("z1D"), "Doruk'un elleri öyle hızlandı ki Pınar yetişemedi. “Bir yasanın bizi silmesiyle bizim kendimizi silmemiz arasında bir fark var mı?”"),
+P(S("z1B"), "Önerini geri çektin, Doruk başını salladı. Nehir ellerini hâlâ kucağında tutuyordu."),
+"Ertesi gün Nehir Pınar'la birlikte, Doruk olmadan geliyor.",
+"Uzun süre oturup konuşmuyor, sonra işaret etmeye başlıyor:",
+"“Buraya geldiğimi Doruk'a söylemedim. Otuz altı yaşındayım, üç kere denedik, paramız yok. Bu son şansımız.”",
+"“Doruk sağır bir çocuk istiyor, ben de istiyorum. Ama ben daha çok bir çocuk istiyorum. Düzenlenmiş de olsa, işiten de olsa, benim karnımda büyüsün yeter.”",
 "Elleri titriyor.",
-"“Ben işiten bir aileden geldim. Selim'in ailesi bana bir dil verdi, bir ev verdi. Şimdi onlara işiten bir torun mu vereceğim?”",
-"“Siz ne yapardınız?”"
+"“Ben işiten bir aileden geldim. Doruk'un ailesi bana bir dil verdi, bir ev verdi. Şimdi onlara işiten bir torun mu vereceğim?”",
+"“Siz olsanız ne yapardınız?”"
 ], secenekler: [
-{ t: "“Selim'le konuşun. Birlikte karar verin,” dersin.", to: "z3", etki: { sefkat: 1, konus: true } },
+{ t: "“Doruk'la konuşun, birlikte karar verin,” dersin.", to: "z3", etki: { sefkat: 1, konus: true } },
 { t: "“Bir çocuk istemek ihanet değil,” dersin.", to: "z3", etki: { sefkat: 1, ihanet_degil: true } },
-{ t: "“Ben olsam beklerdim. Belki yasa değişir,” dersin.", to: "z3", etki: { cesitlilik: 1, bekle: true } },
+{ t: "“Ben olsam beklerdim, belki yasa değişir,” dersin.", to: "z3", etki: { cesitlilik: 1, bekle: true } },
 { t: "“Bunu ben söyleyemem Nehir,” dersin.", to: "z3", etki: { yasa: 1 } }
 ]},
 
 z3: { saat: "Haziran 2041", baslik: "Laboratuvar", metin: [
-P(S("z2A"), "Üç gün konuştular. Üçüncü gün Selim görüntülü aradı, Gül'süz. Yavaş işaret etti, senin anlayabileceğin kadar: “Düzenle. Karım istiyor. Ben karımı istiyorum.”"),
-P(S("z2B"), "Nehir gözlerini sildi. “İhanet değil,” diye işaret etti, senin kelimeni tekrarlayarak. Bir hafta sonra Selim'le geldi. Selim bir şey demedi. İmzaladı."),
-P(S("z2C"), "Bir ay sonra Nehir'den e-posta: “Bekleyemiyoruz. Yaşım, paramız. Düzenleme yapalım.” Beklemenin herkesin karşılayamayacağı bir şey olduğunu unutmuştun."),
-P(S("z2D"), "Nehir gitti. İki hafta sonra Selim'le birlikte geldi. Kararlarını vermişlerdi. Nasıl, hiç öğrenmeyeceksin."),
-"Haziran, laboratuvar. Embriyolog Dr. Can, otuzlarında, kulaklığında hafif bir müzik. Sen camın arkasındasın.",
-"Ekranda birinci embriyo. Birkaç düzine hücre. Dr. Can düzenleme aracını iğneyle veriyor. Bir harf. Bir kulağın içindeki küçük tüylerin titreşip titreşmeyeceği.",
-"“Bitti,” diyor. Kulaklığını çıkarıyor. “Hedef dışı etkiler için bir hafta.”",
-"Bir hafta sonra rapor: başarılı. Hedef dışı etki: “tespit edilemeyecek kadar küçük.”"
+P(S("z2A"), "Üç gün konuştular. Üçüncü gün Doruk tercümansız görüntülü aradı, senin anlayabileceğin kadar yavaş işaret etti: “Düzenle. Karım istiyor, ben de karımı istiyorum.”"),
+P(S("z2B"), "Nehir gözlerini sildi. “İhanet değil,” diye işaret etti, senin kelimeni tekrarlayarak. Bir hafta sonra Doruk'la birlikte geldi. Doruk hiçbir şey demedi, imzaladı."),
+P(S("z2C"), "Bir ay sonra Nehir'den bir e-posta geldi: “Bekleyemiyoruz, yaşım da paramız da buna izin vermiyor. Düzenleme yapalım.” Beklemenin herkesin karşılayabileceği bir şey olmadığını unutmuştun."),
+P(S("z2D"), "Nehir gitti, iki hafta sonra Doruk'la birlikte geldi. Kararlarını vermişlerdi. Nasıl verdiklerini hiçbir zaman öğrenmeyeceksin."),
+"Haziranda laboratuvardasın. Embriyolog Dr. Can otuzlarında, kulaklığından hafif bir müzik geliyor, sen camın arkasındasın.",
+"Ekranda birinci embriyo var, birkaç düzine hücre. Dr. Can düzenleme aracını bir iğneyle veriyor. Değişen tek bir harf, bir kulağın içindeki küçük tüylerin titreşip titreşmeyeceğini belirleyecek.",
+"“Bitti,” diyor ve kulaklığını çıkarıyor. “Hedef dışı etkiler için bir hafta bekleyeceğiz.”",
+"Bir hafta sonra rapor geliyor, işlem başarılı, hedef dışı etki “tespit edilemeyecek kadar küçük.”"
 ], secenekler: [
-{ t: "Aktarımda Selim ve Nehir'in yanında olursun.", to: "t1", etki: { sefkat: 1, cocuk: "duzenlenmis" } },
-{ t: "Raporu tekrar tekrar okursun. “Tespit edilemeyecek kadar küçük.”", to: "t1", etki: { yasa: 1, cocuk: "duzenlenmis", rapor_endise: true } },
-{ t: "Değiştirilmemiş dizilimin bir kopyasını aile için saklarsın.", to: "t1", etki: { cesitlilik: 1, cocuk: "duzenlenmis", kopya: true } },
+{ t: "Aktarımda Doruk'la Nehir'in yanında olursun.", to: "t1", etki: { sefkat: 1, cocuk: "duzenlenmis" } },
+{ t: "Raporu tekrar tekrar okursun, “tespit edilemeyecek kadar küçük.”", to: "t1", etki: { yasa: 1, cocuk: "duzenlenmis", rapor_endise: true } },
+{ t: "Aile için değiştirilmemiş dizilimin bir kopyasını saklarsın.", to: "t1", etki: { cesitlilik: 1, cocuk: "duzenlenmis", kopya: true } },
 { t: "Dr. Can'a sorarsın: “Bunu yaparken ne hissediyorsun?”", to: "t1", etki: { cocuk: "duzenlenmis", can_soru: true } }
 ]},
 
 /* ---------- ORTAK SON BÖLÜM ---------- */
 t1: { saat: "2042", baslik: "Bebek", metin: [
-P(function(d){ return d.cocuk === "isiten"; }, "Deniz bir yaşında. İlk kelimesi sesle: “Baba.” Selim duymuyor. Nehir duymuyor. Komşu kadın duyup kapıyı çalıyor. Selim kızına dönüp işaret ediyor: “Ne dedin?” Deniz ellerini kaldırıyor: “Baba.”"),
-P(function(d){ return d.cocuk === "sagir"; }, "Bebek bir yaşında. İlk kelimesini elleriyle yapıyor: “Anne.” Evde bir kutlama. Lambalar yanıp sönüyor, eller havada. Alt kattaki komşu ışıklar yüzünden kapıyı çalıyor, sonra o da kalıyor."),
-P(function(d){ return d.cocuk === "duzenlenmis"; }, "Bebek doğdu: Arda. İşitiyor. Selim tarama sonucunu okuyor, kâğıdı katlıyor. Sonra oğlunun yüzünün önünde ellerini kaldırıyor: “Aile.” Arda ellere bakıyor. Bir de odada çalan bir telefona."),
-P(function(d){ return d.terfi; }, "Klinik koordinatörsün. Optimum satışları senin biriminde yüzde altmış arttı. Bora seni bir konferansta “yeni neslin mimarı” diye tanıttı. Alkışlarken sıkma topunu kürsüde unuttu."),
-P(function(d){ return d.itiraf; }, "Lisansın askıda. Bir dernekte gönüllü danışmanlık yapıyorsun. Sağır ailelere, engelli çocuklu ailelere. Çay ocağı senin sorumluluğunda. İlk hafta üç bardak kırdın."),
-P(function(d){ return d.tanik && !d.itiraf; }, "Merkezden ayrıldın. Bir üniversitede genetik etik dersi veriyorsun. Öğrencilerin çoğu Optimum Paket'le doğmuş. İlk nesil. Hepsi birbirine biraz benziyor. Bunu düşündüğün için kendine kızıyorsun."),
-P(function(d){ return !d.terfi && !d.itiraf && !d.tanik; }, "Merkezde çalışmaya devam ediyorsun. Her gün altı satırlık kâğıtlar. Her gün altıncı satırda parmağın biraz bekliyor.")
+P(function(d){ return d.cocuk === "isiten"; }, "Ilgaz bir yaşında, ilk kelimesini sesle söylüyor, “baba.” Doruk duymuyor, Nehir duymuyor, komşu kadın duyup kapıyı çalıyor. Doruk kızına dönüp “Ne dedin?” diye işaret ediyor, Ilgaz da ellerini kaldırıp “baba” diyor."),
+P(function(d){ return d.cocuk === "sagir"; }, "Bebek bir yaşında, ilk kelimesini elleriyle söylüyor, “anne.” Evde kutlama yapılıyor, lambalar yanıp sönüyor, eller havada. Alt kattaki komşu ışıklar yüzünden kapıyı çalıyor, sonra o da kalıyor."),
+P(function(d){ return d.cocuk === "duzenlenmis"; }, "Bebek doğdu, adı Alp ve işitiyor. Doruk tarama sonucunu okuyup kâğıdı katlıyor. Sonra oğlunun yüzünün önünde ellerini kaldırıyor, “aile.” Alp ellere bakıyor, bir de odada çalan bir telefona."),
+P(function(d){ return d.terfi; }, "Klinik koordinatörsün. Senin biriminde Optimum satışları yüzde altmış arttı. Bora bir konferansta seni “yeni neslin mimarı” diye tanıttı, alkışlarken sıkma topunu kürsüde unuttu."),
+P(function(d){ return d.itiraf; }, "Lisansın askıda. Bir dernekte sağır ailelere, engelli çocuğu olan ailelere gönüllü danışmanlık yapıyorsun. Çay ocağı senin sorumluluğunda, ilk hafta üç bardak kırdın."),
+P(function(d){ return d.tanik && !d.itiraf; }, "Merkezden ayrıldın, bir üniversitede genetik etik dersi veriyorsun. Öğrencilerinin çoğu Optimum Paket'le doğmuş, ilk nesil. Hepsi birbirine biraz benziyor ve bunu düşündüğün için kendine kızıyorsun."),
+P(function(d){ return !d.terfi && !d.itiraf && !d.tanik; }, "Merkezde çalışmaya devam ediyorsun. Her gün altı satırlık kâğıtlar geliyor ve her gün parmağın altıncı satırda biraz bekliyor.")
 ], secenekler: [
 { t: "Bebeği görmeye gidersin.", to: "t1b", etki: { sefkat: 1 } },
 { t: "Bu yılı yazmaya başlarsın.", to: "t1b", etki: { cesitlilik: 1, yazi_basladi: true } },
-{ t: "İşine odaklanırsın. Başka çiftler bekliyor.", to: "t1b", etki: { yasa: 1 } },
+{ t: "Başka çiftler bekliyor, işine odaklanırsın.", to: "t1b", etki: { yasa: 1 } },
 { t: "Gökhan'ın fırınına gidersin.", to: "t1b", etki: { sefkat: 1 } }
 ]},
 
 t1b: { saat: "Eylül 2042", baslik: "Otuz Altı", metin: [
-P(S("t1A"), "Bebeği görmeye gittin. Minik bir el parmağını kavradı. İşitip işitmediğini o an hiç düşünmedin."),
-P(S("t1B"), "Yazmaya başladın. İlk cümleyi yirmi kez değiştirdin. Sonunda: “Kardeşim simitçidir.”"),
-P(S("t1C"), "İşine odaklandın. Ama her kâğıtta parmağın bir satırın üstünde bekliyordu."),
-P(S("t1D"), "Sabah dördünde fırına gittin. Gökhan bir şey sormadı, eline hamur verdi."),
-"Gökhan'ın otuz altıncı doğum günü. Fırının arka odasında bir masa: simitler, poğaçalar, bir pasta; Gökhan kendi yapmış, üstüne krema ile “GÖKHAN 36” yazmış, 6 ters.",
-P(function(d){ return d.ziyaret || d.ozan_anlatti || d.alti_anlatti; }, "Kapıda, bebek arabasıyla, Selim ve Nehir. Gökhan davet etmiş. Bir dernek etkinliğinde tanışmışlar. Sana söylememiş."),
-P(function(d){ return d.ziyaret || d.ozan_anlatti || d.alti_anlatti; }, "Gökhan kapıya koşup ellerini kaldırıyor. Beceriksiz ama tam: “Hoş geldiniz. Aile.” Nehir gülüyor. Bir ay boyunca her akşam videolardan çalışmış. Selim sarılınca Gökhan'ın unu ceketine bulaşıyor; Selim silmiyor."),
-P(function(d){ return !(d.ziyaret || d.ozan_anlatti || d.alti_anlatti); }, "Gökhan otuz altı mumu üflüyor. Nefesi yetmiyor, çırak yardım ediyor. Sonra kâğıttan bir konuşma okuyor. Kendisi yazmış, iki yerde kendi yazısını okuyamayıp güldü."),
-"Gökhan dilek tutuyor. Sonra kulağına eğiliyor: “Abla, söyleyeyim mi dileğimi? Benim gibi bir çocuk daha doğsun. Yalnız kalmayayım.”"
+P(S("t1A"), "Bebeği görmeye gittin. Minicik bir el parmağını kavradı ve o an işitip işitmediği hiç aklına gelmedi."),
+P(S("t1B"), "Yazmaya başladın. İlk cümleyi yirmi kere değiştirdin, sonunda şöyle yazdın: “Kardeşim simitçidir.”"),
+P(S("t1C"), "İşine odaklandın ama her kâğıtta parmağın bir satırın üstünde bekliyordu."),
+P(S("t1D"), "Sabahın dördünde fırına gittin. Gökhan bir şey sormadı, eline hamur verdi."),
+"Gökhan'ın otuz altıncı doğum günü. Fırının arka odasına bir masa kurulmuş, üstünde simitler, poğaçalar ve Gökhan'ın kendi yaptığı bir pasta var. Üstüne kremayla “GÖKHAN 36” yazmış, 6'yı ters yazmış.",
+P(function(d){ return d.ziyaret || d.ozan_anlatti || d.alti_anlatti; }, "Kapıda bebek arabasıyla Doruk'la Nehir duruyor. Gökhan onları davet etmiş, bir dernek etkinliğinde tanışmışlar ama sana söylememiş."),
+P(function(d){ return d.ziyaret || d.ozan_anlatti || d.alti_anlatti; }, "Gökhan kapıya koşup ellerini kaldırıyor, beceriksizce ama eksiksiz işaret ediyor: “Hoş geldiniz. Aile.” Nehir gülüyor. Gökhan bir ay boyunca her akşam videolardan çalışmış. Doruk sarılınca Gökhan'ın unu ceketine bulaşıyor ama silmiyor."),
+P(function(d){ return !(d.ziyaret || d.ozan_anlatti || d.alti_anlatti); }, "Gökhan otuz altı mumu üflüyor, nefesi yetmeyince çırak yardım ediyor. Sonra kendi yazdığı bir konuşmayı kâğıttan okuyor, iki yerde kendi yazısını okuyamayıp gülüyor."),
+"Gökhan bir dilek tutuyor, sonra kulağına eğiliyor. “Abla, dileğimi söyleyeyim mi? Benim gibi bir çocuk daha doğsun, yalnız kalmayayım.”"
 ], secenekler: [
 { t: "“Dileğin kabul olsun,” dersin.", to: "t2", etki: { cesitlilik: 1, dilek: true } },
-{ t: "“Yalnız değilsin Gökhan,” dersin, odadakileri göstererek.", to: "t2", etki: { sefkat: 1 } },
+{ t: "Odadakileri göstererek “Yalnız değilsin Gökhan,” dersin.", to: "t2", etki: { sefkat: 1 } },
 { t: "Bir şey diyemezsin.", to: "t2", etki: { cesitlilik: 1 } },
-{ t: "“Dilekler söylenmez,” dersin, gülümseyerek.", to: "t2", etki: { sefkat: 1 } }
+{ t: "Gülümseyerek “Dilekler söylenmez,” dersin.", to: "t2", etki: { sefkat: 1 } }
 ]},
 
 t2: { saat: "Kasım 2042", baslik: "Yeni Yasa", metin: [
-P(S("t1bA"), "“Kabul olsun,” dedin. Gökhan mumları üfledi. Biri sönmedi. “O benim,” dedi."),
-P(S("t1bB"), "Gökhan saydı: annen, iki komşu, çırak, iki müşteri. “Yedi. İyi sayı.”"),
-P(S("t1bC"), "Bir şey diyemedin. Gökhan ilk dilimi sana verdi. Kremanın ters 6'sı senin dilimine düşmüştü."),
-P(S("t1bD"), "Gökhan düşündü. “Ama ben söyledim. Belki o yüzden kabul olmaz.” Sonra güldü."),
-"Kasımda Meclis'te bir taslak: listeye yirmi üç yeni durum. Otizm spektrumu için “yüksek genetik risk.” Bazı öğrenme güçlükleri. Gerekçede bir cümle: “Bilişsel potansiyel puanı eşiğin altında kalan embriyoların aktarımı caydırılmalıdır.”",
-P(function(d){ return d.cocuk === "sagir" && d.kol === "dava"; }, "Taslakta bir madde daha: Anayasa Mahkemesi'nin iptal ettiği işitme kaybı maddesinin “yeniden düzenlenmesi.” Ece'nin doğumundan bir yıl sonra."),
-"Sağlık Komisyonu uzman görüşü istiyor. Davet senin adına.",
-"Aynı hafta Gökhan'dan mesaj: “Abla, televizyondan aradılar. Benim gibi kalmış son insanlarla program yapıyorlarmış. Gideyim mi?”",
-"Aynı gün, aynı saat."
+P(S("t1bA"), "“Kabul olsun,” dedin. Gökhan mumları üfledi, biri sönmedi. “O benim,” dedi."),
+P(S("t1bB"), "Gökhan odadakileri saydı, annen, iki komşu, çırak, iki müşteri. “Yedi,” dedi, “iyi sayı.”"),
+P(S("t1bC"), "Bir şey diyemedin. Gökhan ilk dilimi sana verdi, kremadaki ters 6 senin dilimine düşmüştü."),
+P(S("t1bD"), "Gökhan biraz düşündü. “Ama ben söyledim, belki o yüzden kabul olmaz,” dedi, sonra güldü."),
+"Kasımda Meclis'e bir taslak geliyor, listeye yirmi üç yeni durum eklenecek. Otizm spektrumu için “yüksek genetik risk” var, bazı öğrenme güçlükleri var. Gerekçede de şu cümle var: “Bilişsel potansiyel puanı eşiğin altında kalan embriyoların aktarımı caydırılmalıdır.”",
+P(function(d){ return d.cocuk === "sagir" && d.kol === "dava"; }, "Taslakta bir madde daha var, Anayasa Mahkemesi'nin iptal ettiği işitme kaybı maddesi “yeniden düzenlenecek.” İlke doğduktan bir yıl sonra."),
+"Sağlık Komisyonu uzman görüşü istiyor ve davet senin adına geliyor.",
+"Aynı hafta Gökhan'dan bir mesaj geliyor: “Abla, televizyondan aradılar. Benim gibi kalmış son insanlarla bir program yapıyorlarmış. Gideyim mi?”",
+"İkisi de aynı gün, aynı saatte."
 ], secenekler: [
 { t: "Komisyona gidersin.", to: "y_komisyon", etki: { cesitlilik: 1, yasa: 1, komisyon: true } },
 { t: "Gökhan'la birlikte televizyona gidersin.", to: "y_ozan", etki: { cesitlilik: 1, sefkat: 1, ozan_tv: true } },
-{ t: "İkisini de reddedersin. Gökhan'ı tek başına bırakmak pahasına.", to: "t3", etki: { yasa: 1, ikisi_ret: true } },
-{ t: "Komisyona yazılı görüş gönderirsin; Gökhan'a “Sen bilirsin” dersin.", to: "t3", etki: { yasa: 1, yazili_gorus: true } }
+{ t: "Gökhan'ı tek başına bırakmak pahasına ikisini de reddedersin.", to: "t3", etki: { yasa: 1, ikisi_ret: true } },
+{ t: "Komisyona yazılı görüş gönderirsin, Gökhan'a da “Sen bilirsin,” dersin.", to: "t3", etki: { yasa: 1, yazili_gorus: true } }
 ]},
 
 y_komisyon: { saat: "Kasım 2042", baslik: "Komisyon", metin: [
-"Meclis'te bir salon. Uzun masa, mikrofonlar. On iki milletvekili. Bir sağlık ekonomisti, iki genetikçi, bir hukukçu, bir din bilgini. Sen.",
-"Ekonomist önce konuşuyor: bir otizmli bireyin ömür boyu maliyeti, bir Down sendromlunun, bir işitme engellinin. Milyonlar. Tablolarda renkler.",
-"Mikrofonun kırmızı ışığı yanıyor. Hazırladığın metni masaya koyuyorsun. Sonra kenara itiyorsun.",
-"“Bir kardeşim var. Otuz altı yaşında. Down sendromlu. Sabah dörtte kalkıp simit yapıyor. Geçen ay bir dilek tuttu: kendisi gibi bir çocuk daha doğsun, yalnız kalmasın.”",
+"Meclis'te bir salondasın. Uzun bir masa, mikrofonlar, on iki milletvekili var. Bir sağlık ekonomisti, iki genetikçi, bir hukukçu, bir din bilgini ve sen.",
+"Önce ekonomist konuşuyor. Bir otizmli bireyin, bir Down sendromlunun, bir işitme engellinin ömür boyu maliyetini anlatıyor. Milyonlar konuşuluyor, tablolarda renkler var.",
+"Mikrofonunun kırmızı ışığı yanıyor. Hazırladığın metni masaya koyuyorsun, sonra kenara itiyorsun.",
+"“Bir kardeşim var. Otuz altı yaşında, Down sendromlu. Sabahın dördünde kalkıp simit yapıyor. Geçen ay bir dilek tuttu, kendisi gibi bir çocuk daha doğsun, yalnız kalmasın diye.”",
 "Ekonomist kalemini bırakıyor.",
 "“Siz bir maliyet hesaplıyorsunuz. Bir ülke var olmasını istemediği insanları bir listeye yazınca o listedeki son insanlar yalnız kalır. Bunu hangi sütuna yazıyorsunuz?”"
 ], secenekler: [
 { t: "Konuşmana yasal argümanlarla devam edersin.", to: "t3", etki: { yasa: 1, cesitlilik: 1 } },
 { t: "Sözünü bitirip oturursun.", to: "t3", etki: { cesitlilik: 1, kisa: true } },
-{ t: "Bir milletvekilinin itirazını bekleyip cevaplarsın.", to: "t3", etki: { yasa: 1, tartisti: true } },
-{ t: "Gökhan'ın bir fotoğrafını kameraya gösterirsin.", to: "t3", etki: { cesitlilik: 1, foto: true } }
+{ t: "Bir milletvekilinin itiraz etmesini bekleyip cevap verirsin.", to: "t3", etki: { yasa: 1, tartisti: true } },
+{ t: "Kameraya Gökhan'ın bir fotoğrafını gösterirsin.", to: "t3", etki: { cesitlilik: 1, foto: true } }
 ]},
 
 y_ozan: { saat: "Kasım 2042", baslik: "Kamera", metin: [
-"Bir stüdyo. Program: “Son Nesil.” Üç konuk: Gökhan, otuz dört yaşında spina bifidalı bir kadın, elli yaşında otizmli bir adam. Hepsi yasadan önce doğmuş.",
-"Sunucu kibar. Programın havası bir müze gezisi. “Yasadan önce doğan son kuşaksınız. Nasıl bir duygu?”",
-"Kamera Gökhan'ın yüzüne yaklaşıyor. Sen kulisten izliyorsun. Makyözün Gökhan'ın alnına sürdüğü pudra fazla, beyaz duruyor.",
-"“Ben her sabah dörtte kalkıp simit yapıyorum. Altı yüz simit. Mahallenin yarısı benim simidimi yiyor.” Sunucu gülüyor. Gökhan gülmüyor.",
-"“Bana sordular, kusurlu musun diye. Simitlerim kusursuz. Ben değilim. Siz de değilsiniz. O zaman neden listeye sadece beni yazdılar?”",
-"Sunucu bir şey diyecek, diyemiyor.",
-"Gökhan kameraya dönüyor. “Benim ablam genetikçi. Kusursuz bebekler yapıyor. Ama beni seviyor. Bu bir şey demek değil mi?”",
+"Bir stüdyodasın, programın adı “Son Nesil.” Üç konuk var, Gökhan, otuz dört yaşında spina bifidalı bir kadın ve elli yaşında otizmli bir adam. Hepsi yasadan önce doğmuş.",
+"Sunucu kibar ama programın havası bir müze gezisini andırıyor. “Yasadan önce doğan son kuşaksınız, bu nasıl bir duygu?” diye soruyor.",
+"Kamera Gökhan'ın yüzüne yaklaşıyor, sen kulisten izliyorsun. Makyöz Gökhan'ın alnına fazla pudra sürmüş, bembeyaz görünüyor.",
+"“Ben her sabah dörtte kalkıp simit yapıyorum,” diyor Gökhan. “Altı yüz simit. Mahallenin yarısı benim simidimi yiyor.” Sunucu gülüyor ama Gökhan gülmüyor.",
+"“Bana kusurlu musun diye sordular. Simitlerim kusursuz ama ben değilim. Siz de değilsiniz. O zaman neden listeye yalnızca beni yazdılar?”",
+"Sunucu bir şey diyecek oluyor ama diyemiyor.",
+"Gökhan kameraya dönüyor. “Benim ablam genetikçi, kusursuz bebekler yapıyor. Ama beni seviyor. Bu bir şey demek değil mi?”",
 "Kulisteki herkes sana bakıyor."
 ], secenekler: [
 { t: "Kulisten çıkıp kameranın önüne, Gökhan'ın yanına gidersin.", to: "t3", etki: { sefkat: 1, cesitlilik: 1, kamera_onu: true } },
-{ t: "Kulisten izlemeye devam edersin. Bu onun anı.", to: "t3", etki: { cesitlilik: 1 } },
+{ t: "Bu onun anı, kulisten izlemeye devam edersin.", to: "t3", etki: { cesitlilik: 1 } },
 { t: "Herkesin önünde ağlarsın.", to: "t3", etki: { sefkat: 1 } },
-{ t: "Yapımcıya, Gökhan'ı müze gibi gösterdikleri için itiraz edersin.", to: "t3", etki: { cesitlilik: 1, itiraz: true } }
+{ t: "Gökhan'ı bir müze parçası gibi gösterdikleri için yapımcıya itiraz edersin.", to: "t3", etki: { cesitlilik: 1, itiraz: true } }
 ]},
 
 t3: { saat: "Aralık 2042", baslik: "Bora", metin: [
-P(S("t2C"), "İkisini de reddettin. Gökhan telefonda bir süre bir şey demedi. “Tamam abla.” Programa yalnız gitti. Sen evden izledin, sesini kısarak."),
-P(S("t2D"), "Yazılı görüşün bir dosyaya girdi; Gökhan'ın yüzü ekranlara. Çıkışta aradı: “Ben iyiydim, değil mi?”"),
-P(S("y_komisyonA"), "Anayasa, eşitlik, ayrımcılık yasağı. İki milletvekili not aldı. Biri telefonuna bakıyordu."),
-P(S("y_komisyonB"), "Oturdun. Bir iki saniye sessizlik. Sonra başkan: “Teşekkürler, sıradaki.”"),
-P(S("y_komisyonC"), "Bir milletvekili: “Duygusal argümanlar yasa yapmaz.” Sen: “Yasalar da duygusuz yapılmaz. Kimin duygusunun sayıldığı değişir.” Tutanağa geçti."),
-P(S("y_komisyonD"), "Fotoğrafı gösterdin: un içinde Gökhan. Ertesi gün bir gazetenin ilk sayfasındaydı. Gökhan kızdı: “Bana sormadın abla.” İki gün konuşmadı."),
-P(S("y_ozanA"), "Kameranın önüne çıktın. Gökhan elini tutup sunucuya döndü: “Bu benim ablam. O da kusurlu.” Stüdyo güldü. Sonra sustu."),
-P(S("y_ozanB"), "İzledin. Çıkınca Gökhan “Nasıldım?” dedi. “Kusursuz,” dedin. İkiniz de güldünüz. Alnındaki pudrayı peçeteyle sildin."),
-P(S("y_ozanC"), "Kulisin ortasında ağladın. Bir kameraman mendil uzattı. Kızı otizmliymiş, adını söyledi, sen unuttun, sonra unuttuğuna üzüldün."),
-P(S("y_ozanD"), "Yapımcı omuz silkti: “Reyting.” İkinci bölümde Gökhan'ı fırınında, çalışırken çektiler."),
-P(function(d){ return d.komisyon; }, "Konuşman bir gün gündemde kaldı. “Bilişsel potansiyel” maddesi geri çekildi. Diğerleri kaldı."),
-P(function(d){ return d.ozan_tv; }, "Gökhan'ın son cümlesi bir gecede milyonlarca kez paylaşıldı. Ertesi sabah fırının önünde kuyruk. Altı yüz simit dokuzda bitti. Gökhan kuyruğa bakıp: “Abla, simidimi değil beni görmeye gelmişler. Bu iyi bir şey mi?”"),
-"Aralıkta Bora arıyor. Yeni bina açılıyor. Cephede yeni reklam: “Kusursuzluk bir haktır. Şimdi herkes için.” Bebeğin iki gözü de çalışıyor.",
-P(function(d){ return !d.itiraf && !d.tanik; }, "“Aslı, seni Optimum biriminin başında istiyorum. Tartışmalı bir yıl geçirdin, biliyorum. Ama tartışma, dürüst olalım, reklamdır.”"),
-P(function(d){ return d.itiraf || d.tanik; }, "“Aslı, geçmişi geride bırakalım. Seni danışman olarak geri istiyorum. Tartışma, dürüst olalım, reklamdır.”")
+P(S("t2C"), "İkisini de reddettin. Gökhan telefonda bir süre konuşmadı, sonra “Tamam abla,” dedi. Programa yalnız gitti, sen de evden sesini kısarak izledin."),
+P(S("t2D"), "Yazılı görüşün bir dosyaya girdi, Gökhan'ın yüzü ise ekranlara çıktı. Çıkışta seni aradı: “Ben iyiydim, değil mi?”"),
+P(S("y_komisyonA"), "Anayasayı, eşitliği, ayrımcılık yasağını anlattın. İki milletvekili not aldı, biri telefonuna bakıyordu."),
+P(S("y_komisyonB"), "Oturdun. Bir iki saniye sessizlik oldu, sonra başkan “Teşekkürler, sıradaki,” dedi."),
+P(S("y_komisyonC"), "Bir milletvekili “Duygusal argümanlarla yasa yapılmaz,” dedi. Sen de “Yasalar da duygusuz yapılmaz,” dedin, “yalnızca kimin duygusunun sayıldığı değişir.” Bu tutanağa geçti."),
+P(S("y_komisyonD"), "Un içindeki Gökhan'ın fotoğrafını gösterdin, ertesi gün bir gazetenin ilk sayfasındaydı. Gökhan kızdı, “Bana sormadın abla,” dedi ve iki gün seninle konuşmadı."),
+P(S("y_ozanA"), "Kameranın önüne çıktın. Gökhan elini tutup sunucuya döndü. “Bu benim ablam,” dedi, “o da kusurlu.” Stüdyo güldü, sonra sustu."),
+P(S("y_ozanB"), "İzledin. Gökhan çıkınca “Nasıldım?” diye sordu. “Kusursuz,” dedin, ikiniz de güldünüz. Alnındaki pudrayı bir peçeteyle sildin."),
+P(S("y_ozanC"), "Kulisin ortasında ağladın. Bir kameraman sana mendil uzattı. Kızının otizmli olduğunu söyleyip adını da söyledi, sen unuttun, sonra unuttuğuna üzüldün."),
+P(S("y_ozanD"), "Yapımcı omuz silkip “Reyting,” dedi. İkinci bölümde Gökhan'ı fırınında çalışırken çektiler."),
+P(function(d){ return d.komisyon; }, "Konuşman bir gün gündemde kaldı. “Bilişsel potansiyel” maddesi geri çekildi ama ötekiler kaldı."),
+P(function(d){ return d.ozan_tv; }, "Gökhan'ın son cümlesi bir gecede milyonlarca kere paylaşıldı. Ertesi sabah fırının önünde kuyruk vardı, altı yüz simit dokuzda bitti. Gökhan kuyruğa bakıp sordu: “Abla, simidimi değil beni görmeye gelmişler. Bu iyi bir şey mi?”"),
+"Aralıkta Bora arıyor. Yeni bina açılıyor ve cephede yeni bir reklam var: “Kusursuzluk bir haktır. Şimdi herkes için.” Bebeğin iki gözü de çalışıyor.",
+P(function(d){ return !d.itiraf && !d.tanik; }, "“Aslı, seni Optimum biriminin başında istiyorum. Tartışmalı bir yıl geçirdin, biliyorum, ama dürüst olalım, tartışma da reklamdır.”"),
+P(function(d){ return d.itiraf || d.tanik; }, "“Aslı, geçmişi geride bırakalım, seni danışman olarak geri istiyorum. Dürüst olalım, tartışma da reklamdır.”")
 ], secenekler: [
-{ t: "Kabul edersin. İçeriden değiştireceksin. Ya da değişeceksin.", to: "t4", etki: { yasa: 2, terfi: true } },
+{ t: "İçeriden değiştireceğini düşünerek kabul edersin. Ya da değişen sen olacaksın.", to: "t4", etki: { yasa: 2, terfi: true } },
 { t: "Reddedersin.", to: "t4", etki: { cesitlilik: 1, red: true } },
-{ t: "Bir şartla kabul edersin: her çifte, sonuçlarla birlikte, o durumla yaşayan bir insanın hikâyesi de verilecek.", to: "t4", etki: { cesitlilik: 1, yasa: 1, sart: true } },
-{ t: "“Gökhan'a sorayım,” dersin. Ciddi.", to: "t4", etki: { sefkat: 1, ozana_sor: true } }
+{ t: "Bir şartla kabul edersin, her çifte sonuçlarla birlikte o durumla yaşayan bir insanın hikâyesi de verilecek.", to: "t4", etki: { cesitlilik: 1, yasa: 1, sart: true } },
+{ t: "Ciddi ciddi “Gökhan'a bir sorayım,” dersin.", to: "t4", etki: { sefkat: 1, ozana_sor: true } }
 ]},
 
 t4: { saat: "Ocak 2043", baslik: "Fırın", metin: [
-P(S("t3A"), "Kabul ettin. On beşinci kattasın. Pencereden reklam ekranı. Artık senin biriminin reklamı."),
-P(S("t3B"), "Reddettin. Bora: “Pişman olacaksın.” “Belki,” dedin. Telefonu kapatıp fırına yürüdün."),
-P(S("t3C"), "Bora güldü, sonra ciddileşti. “Satışları düşürür.” “Biliyorum.” Bir hafta düşündü. Bir yıllık deneme olarak kabul etti."),
-P(S("t3D"), "Gökhan simit dizerken dinledi. “Abla, o reklamın altında çalışırken mutlu musun?” Cevap veremedin. “O zaman neden soruyorsun?”"),
-"Ocak. Sabah dört. Gökhan bir hamur parçası uzatıyor. “Hadi abla. Bir simit yap.”",
-"Yuvarlıyorsun, uzatıyorsun, büküyorsun. Bir ucu kalın, bir ucu ince. Susamlar bir tarafa toplanmış.",
-"Gökhan simidi ışığa tutuyor.",
-"“Kusurlu,” diyor. “Ama güzel. Fırına koyalım mı?”",
-"Altı yüz simidin arasında bir tane yamuk. Fırın kapanıyor.",
-"Yirmi dakika sonra çıkıyor: kızarmış, çıtır, yamuk. Gökhan sana veriyor. “Bunu satmayız. Bunu sen yersin.”"
+P(S("t3A"), "Kabul ettin, şimdi on beşinci kattasın. Pencereden görünen reklam artık senin biriminin reklamı."),
+P(S("t3B"), "Reddettin. Bora “Pişman olacaksın,” dedi. “Belki,” dedin, telefonu kapatıp fırına yürüdün."),
+P(S("t3C"), "Bora güldü, sonra ciddileşti. “Satışları düşürür,” dedi. “Biliyorum,” dedin. Bir hafta düşündü, sonra bir yıllık bir deneme olarak kabul etti."),
+P(S("t3D"), "Gökhan simit dizerken seni dinledi. “Abla, o reklamın altında çalışırken mutlu musun?” diye sordu. Cevap veremedin. “O zaman neden bana soruyorsun?”"),
+"Ocak geliyor, sabahın dördü. Gökhan sana bir parça hamur uzatıyor. “Hadi abla, bir simit yap.”",
+"Hamuru yuvarlıyor, uzatıyor, büküyorsun. Bir ucu kalın, bir ucu ince çıkıyor, susamlar bir tarafa toplanıyor.",
+"Gökhan simidi ışığa tutup bakıyor.",
+"“Kusurlu,” diyor, “ama güzel. Fırına koyalım mı?”",
+"Altı yüz simidin arasında bir tane yamuk simit fırına giriyor ve fırının kapağı kapanıyor.",
+"Yirmi dakika sonra kızarmış, çıtır çıtır ve yamuk çıkıyor. Gökhan onu sana veriyor. “Bunu satmayız, bunu sen yersin.”"
 ], secenekler: [
-{ t: "Simidi yersin. Gökhan'la birlikte, sabahın dördünde.", to: "ks", etki: { sefkat: 1 } },
+{ t: "Sabahın dördünde Gökhan'la birlikte simidi yersin.", to: "ks", etki: { sefkat: 1 } },
 { t: "Simidi saklarsın.", to: "ks", etki: { cesitlilik: 1 } },
 { t: "Gökhan'a sorarsın: “Ben kusurlu muyum?”", to: "ks", etki: { cesitlilik: 1, son_soru: true } },
-{ t: "Bir hamur daha alıp bir simit daha yaparsın. Yine yamuk.", to: "ks", etki: { cesitlilik: 1, sefkat: 1 } }
+{ t: "Bir hamur daha alıp bir simit daha yaparsın, o da yamuk olur.", to: "ks", etki: { cesitlilik: 1, sefkat: 1 } }
 ]},
 
 ks: { yonlendir: [
@@ -539,64 +539,64 @@ ks: { yonlendir: [
 
 /* ---------- SONLAR ---------- */
 son_kusursuz: { son: true, baslik: "On Beşinci Kat", metin: [
-P(S("t4A"), "O sabah simidi Gökhan'la birlikte, unlu tezgâhta yemiştin; Gökhan susamları senin yerine toplamıştı."),
-P(S("t4B"), "Yamuk simidi kâğıda sarıp çantana koymuştun. Bir hafta sonra çantayı açınca hâlâ oradaydı, taş gibi."),
-P(S("t4C"), "“Ben kusurlu muyum?” diye sormuştun. Gökhan hamuru yoğururken düşündü. “Evet abla,” dedi. “İyi ki.”"),
-P(S("t4D"), "Bir tane daha yapmıştın. Yine yamuk. Gökhan ikisini yan yana dizdi: “İkiz.”"),
-"On beşinci kattan Ankara'nın batısına bakıyorsun. Cephede senin biriminin reklamı.",
-"Optimum Paket artık sigorta kapsamında. Senin biriminde her ay yüzlerce çift.",
-"İyi bir danışmansın. Her şeyi anlatıyorsun. Bir gün bir çift soruyor: “Siz olsanız hangisini seçerdiniz?” Hiç düşünmeden dördüncüyü gösteriyorsun: işiten, sağlıklı, yüksek puanlı.",
-"O gece arabada bunu düşünüyorsun. Hiç düşünmeden. Ne zaman olmuştu bu?",
-P(function(d){ return d.ihlal && d.kapatti; }, "Bir çekmecede bir dosya: Aydın, embriyo bir. Bora kapattı. Sen bu odadasın."),
-"Fırına artık ayda bir gidiyorsun. Gökhan anlıyor. Bir gün sana bir simit veriyor. Yamuk değil, düzgün. “Bu senin,” diyor. “Artık yamuk yapmıyorsun.”"
+P(S("t4A"), "O sabah simidi unlu tezgâhta Gökhan'la birlikte yemiştin, Gökhan senin yerine susamları toplamıştı."),
+P(S("t4B"), "Yamuk simidi kâğıda sarıp çantana koymuştun. Bir hafta sonra çantayı açtığında hâlâ oradaydı, taş gibi olmuştu."),
+P(S("t4C"), "“Ben kusurlu muyum?” diye sormuştun. Gökhan hamuru yoğururken düşündü. “Evet abla,” dedi, “iyi ki.”"),
+P(S("t4D"), "Bir tane daha yapmıştın, o da yamuktu. Gökhan ikisini yan yana dizip “İkiz,” dedi."),
+"On beşinci kattan Ankara'nın batısına bakıyorsun, cephede senin biriminin reklamı var.",
+"Optimum Paket artık sigorta kapsamında ve senin birimine her ay yüzlerce çift geliyor.",
+"İyi bir danışmansın, her şeyi anlatıyorsun. Bir gün bir çift “Siz olsanız hangisini seçerdiniz?” diye soruyor. Hiç düşünmeden dördüncüyü gösteriyorsun, işiten, sağlıklı, puanı yüksek olanı.",
+"O gece arabada bunu düşünüyorsun. Hiç düşünmeden göstermiştin. Bu ne zaman olmuştu?",
+P(function(d){ return d.ihlal && d.kapatti; }, "Bir çekmecede bir dosya duruyor, Aydın, birinci embriyo. Dosyayı Bora kapattı ve sen bu odadasın."),
+"Fırına artık ayda bir gidiyorsun, Gökhan da anlıyor. Bir gün sana bir simit veriyor, yamuk değil, düzgün. “Bu senin,” diyor, “artık yamuk yapmıyorsun.”"
 ]},
 
 son_sessiz: { son: true, baslik: "Teyzeye Selam", metin: [
-P(S("t4A"), "O sabah simidi Gökhan'la birlikte, unlu tezgâhta yemiştin; Gökhan susamları senin yerine toplamıştı."),
-P(S("t4B"), "Yamuk simidi kâğıda sarıp çantana koymuştun. Bir hafta sonra çantayı açınca hâlâ oradaydı, taş gibi."),
-P(S("t4C"), "“Ben kusurlu muyum?” diye sormuştun. Gökhan hamuru yoğururken düşündü. “Evet abla,” dedi. “İyi ki.”"),
-P(S("t4D"), "Bir tane daha yapmıştın. Yine yamuk. Gökhan ikisini yan yana dizdi: “İkiz.”"),
-P(function(d){ return d.kol === "ihlal"; }, "Efe üç yaşında. Annesinin, babasının, dört kuşağın dilinde cümleler kuruyor. Sağırlar kreşine gidiyor. Geçen hafta bir arkadaşının saçını çekmiş; Nehir bunu sana gururla anlattı."),
-P(function(d){ return d.kol === "dava"; }, "Ece üç yaşında. Elleriyle cümleler kuruyor. Adı bir gazete arşivinde duruyor. Bir gün parkta bir çocuk ona sesle bir şey soracak ve o duymayacak. Bir gün o gazeteleri okuyacak."),
-"Selim ile Nehir her bayram bir fotoğraf gönderiyor. Çocuk hep ellerini kaldırmış, bir işaretin ortasında. Gül'e soruyorsun ne dediğini. Gül gülüyor: “Teyzeye selam.”",
-P(function(d){ return d.itiraf; }, "Lisansın iptal edildi. İki yıl sonra yeniden başvurabilirsin. Dernekte çalışıyorsun. Maaşın yarıya düştü. Uykuların düzeldi."),
-"Mahkemedeki şerh aklında: “Bu çocuklar büyüyünce bu seçimi kimin yaptığını soracaklar.” Soracaklar. İşiten çocuklar da soracak. Optimum'la doğanlar da.",
-"Bir gün Efe ya da Ece senin kapını çalacak. Elleriyle bir şey soracak. Ne cevap vereceğini bilmiyorsun. Cevabı işaret diliyle verebilmek için çalışmaya devam ediyorsun. “aile” hâlâ biraz yamuk."
+P(S("t4A"), "O sabah simidi unlu tezgâhta Gökhan'la birlikte yemiştin, Gökhan senin yerine susamları toplamıştı."),
+P(S("t4B"), "Yamuk simidi kâğıda sarıp çantana koymuştun. Bir hafta sonra çantayı açtığında hâlâ oradaydı, taş gibi olmuştu."),
+P(S("t4C"), "“Ben kusurlu muyum?” diye sormuştun. Gökhan hamuru yoğururken düşündü. “Evet abla,” dedi, “iyi ki.”"),
+P(S("t4D"), "Bir tane daha yapmıştın, o da yamuktu. Gökhan ikisini yan yana dizip “İkiz,” dedi."),
+P(function(d){ return d.kol === "ihlal"; }, "Efe üç yaşında, annesinin, babasının, dört kuşağın dilinde cümleler kuruyor, sağırlar kreşine gidiyor. Geçen hafta bir arkadaşının saçını çekmiş, Nehir bunu sana gururla anlattı."),
+P(function(d){ return d.kol === "dava"; }, "İlke üç yaşında, elleriyle cümleler kuruyor. Adı bir gazete arşivinde duruyor. Bir gün parkta bir çocuk ona sesle bir şey soracak ve o duymayacak. Bir gün o gazeteleri okuyacak."),
+"Doruk'la Nehir her bayram bir fotoğraf gönderiyor. Çocuk hep ellerini kaldırmış, bir işaretin ortasında. Pınar'a ne dediğini soruyorsun, Pınar gülüyor: “Teyzeye selam.”",
+P(function(d){ return d.itiraf; }, "Lisansın iptal edildi, iki yıl sonra yeniden başvurabileceksin. Dernekte çalışıyorsun, maaşın yarıya düştü ama uykuların düzeldi."),
+"Mahkemedeki karşı oy yazısı aklından çıkmıyor: “Bu çocuklar büyüyünce bu seçimi kimin yaptığını soracaklar.” Soracaklar. İşiten çocuklar da soracak, Optimum'la doğanlar da.",
+"Bir gün Efe ya da İlke senin kapını çalıp elleriyle bir şey soracak. Ne cevap vereceğini bilmiyorsun ama cevabı işaret diliyle verebilmek için çalışmaya devam ediyorsun. “Aile” işaretin hâlâ biraz yamuk."
 ]},
 
 son_ozan: { son: true, baslik: "Arka Oda", metin: [
-P(S("t4A"), "O sabah simidi Gökhan'la birlikte, unlu tezgâhta yemiştin; Gökhan susamları senin yerine toplamıştı."),
-P(S("t4B"), "Yamuk simidi kâğıda sarıp çantana koymuştun. Bir hafta sonra çantayı açınca hâlâ oradaydı, taş gibi."),
-P(S("t4C"), "“Ben kusurlu muyum?” diye sormuştun. Gökhan hamuru yoğururken düşündü. “Evet abla,” dedi. “İyi ki.”"),
-P(S("t4D"), "Bir tane daha yapmıştın. Yine yamuk. Gökhan ikisini yan yana dizdi: “İkiz.”"),
-"Gökhan'ın programı ya da senin komisyon konuşman bir şey başlattı. Küçük. Bir dernek: “Son Nesil Değil.” İlk toplantı fırının arka odasında. On iki kişi. Bir yıl sonra bin iki yüz.",
-"Yasa değişmedi. Ama listedeki insanlar artık görünüyor. Müze gibi değil, mahalle gibi.",
-"Merkezden ayrıldın. Derneğin danışmanısın. Bir de Gökhan'ın fırınında yarı zamanlı çalışıyorsun. Sabah dörtte kalkıyorsun. Simitlerin hâlâ yamuk. Müşteriler onları ayırıp istiyor.",
-"Bir sabah Gökhan hamur yoğururken: “Abla, dileğim kabul olmadı. Benim gibi çocuk doğmadı. Ama bak.” Arka odayı gösteriyor: dağınık sandalyeler, çay bardakları, bir işaret dili afişi, yeni yapılmış bir rampa. Rampanın betonuna biri parmağıyla “G” yazmış."
+P(S("t4A"), "O sabah simidi unlu tezgâhta Gökhan'la birlikte yemiştin, Gökhan senin yerine susamları toplamıştı."),
+P(S("t4B"), "Yamuk simidi kâğıda sarıp çantana koymuştun. Bir hafta sonra çantayı açtığında hâlâ oradaydı, taş gibi olmuştu."),
+P(S("t4C"), "“Ben kusurlu muyum?” diye sormuştun. Gökhan hamuru yoğururken düşündü. “Evet abla,” dedi, “iyi ki.”"),
+P(S("t4D"), "Bir tane daha yapmıştın, o da yamuktu. Gökhan ikisini yan yana dizip “İkiz,” dedi."),
+"Gökhan'ın programı ya da senin komisyondaki konuşman küçük bir şey başlattı. “Son Nesil Değil” diye bir dernek kuruldu. İlk toplantı fırının arka odasında on iki kişiyle yapıldı, bir yıl sonra bin iki yüz kişi oldular.",
+"Yasa değişmedi ama listedeki insanlar artık görünüyor, bir müze gibi değil, bir mahalle gibi.",
+"Merkezden ayrıldın. Derneğin danışmanısın, bir de Gökhan'ın fırınında yarı zamanlı çalışıyorsun. Sabahın dördünde kalkıyorsun. Simitlerin hâlâ yamuk çıkıyor ama müşteriler onları ayırıp istiyor.",
+"Bir sabah Gökhan hamur yoğururken konuşuyor: “Abla, dileğim kabul olmadı, benim gibi çocuk doğmadı. Ama bak.” Arka odayı gösteriyor, dağınık sandalyeler, çay bardakları, bir işaret dili afişi, yeni yapılmış bir rampa. Rampanın betonuna biri parmağıyla bir G harfi yazmış."
 ]},
 
 son_harf: { son: true, baslik: "Bir Harf", metin: [
-P(S("t4A"), "O sabah simidi Gökhan'la birlikte, unlu tezgâhta yemiştin; Gökhan susamları senin yerine toplamıştı."),
-P(S("t4B"), "Yamuk simidi kâğıda sarıp çantana koymuştun. Bir hafta sonra çantayı açınca hâlâ oradaydı, taş gibi."),
-P(S("t4C"), "“Ben kusurlu muyum?” diye sormuştun. Gökhan hamuru yoğururken düşündü. “Evet abla,” dedi. “İyi ki.”"),
-P(S("t4D"), "Bir tane daha yapmıştın. Yine yamuk. Gökhan ikisini yan yana dizdi: “İkiz.”"),
-"Arda iki yaşında. İşitiyor, konuşuyor. Evde elleriyle, parkta sesiyle.",
-"Selim ona her akşam elleriyle masal anlatıyor. Arda bazen ellere bakıyor, bazen dışarıdan gelen bir sese dönüyor. Selim her seferinde fark ediyor, masala devam ediyor.",
-"Nehir sana yazıyor: “Mutluyuz. Gerçekten. Ama bazen gece Selim'i Arda'nın yatağının başında buluyorum. Ne düşünüyorsun dedim bir kere. Elleri: ‘Bir harf. Onun içinde dedem vardı.’”",
-P(function(d){ return d.kopya; }, "Değiştirilmemiş dizilim bir dosyada. Arda büyüyünce isterse görebilecek. Belki hiç bakmayacak."),
-"Bir genetikçi olarak bir harfin bir proteini, bir proteinin bir hücreyi, bir hücrenin bir duyuyu değiştirdiğini biliyorsun. Dedesinin ne olduğunu değiştirip değiştirmediğini bilmiyorsun."
+P(S("t4A"), "O sabah simidi unlu tezgâhta Gökhan'la birlikte yemiştin, Gökhan senin yerine susamları toplamıştı."),
+P(S("t4B"), "Yamuk simidi kâğıda sarıp çantana koymuştun. Bir hafta sonra çantayı açtığında hâlâ oradaydı, taş gibi olmuştu."),
+P(S("t4C"), "“Ben kusurlu muyum?” diye sormuştun. Gökhan hamuru yoğururken düşündü. “Evet abla,” dedi, “iyi ki.”"),
+P(S("t4D"), "Bir tane daha yapmıştın, o da yamuktu. Gökhan ikisini yan yana dizip “İkiz,” dedi."),
+"Alp iki yaşında, işitiyor ve konuşuyor. Evde elleriyle konuşuyor, parkta sesiyle.",
+"Doruk ona her akşam elleriyle masal anlatıyor. Alp bazen ellere bakıyor, bazen dışarıdan gelen bir sese dönüyor. Doruk her seferinde bunu fark ediyor ama masala devam ediyor.",
+"Nehir sana yazıyor: “Mutluyuz, gerçekten. Ama bazen gece Doruk'u Alp'in yatağının başında buluyorum. Bir kere ne düşündüğünü sordum. Elleri şöyle dedi: ‘Bir harf. Onun içinde dedem vardı.’”",
+P(function(d){ return d.kopya; }, "Değiştirilmemiş dizilim bir dosyada duruyor. Alp büyüyünce isterse bakabilecek, belki de hiç bakmayacak."),
+"Bir genetikçi olarak bir harfin bir proteini, bir proteinin bir hücreyi, bir hücrenin bir duyuyu değiştirdiğini biliyorsun. Ama onun dedesini değiştirip değiştirmediğini bilmiyorsun."
 ]},
 
-son_isiten: { son: true, baslik: "Deniz", metin: [
-P(S("t4A"), "O sabah simidi Gökhan'la birlikte, unlu tezgâhta yemiştin; Gökhan susamları senin yerine toplamıştı."),
-P(S("t4B"), "Yamuk simidi kâğıda sarıp çantana koymuştun. Bir hafta sonra çantayı açınca hâlâ oradaydı, taş gibi."),
-P(S("t4C"), "“Ben kusurlu muyum?” diye sormuştun. Gökhan hamuru yoğururken düşündü. “Evet abla,” dedi. “İyi ki.”"),
-P(S("t4D"), "Bir tane daha yapmıştın. Yine yamuk. Gökhan ikisini yan yana dizdi: “İkiz.”"),
-"Deniz üç yaşında. İki dilde akıcı. Ellerle annesine masal anlatıyor, sesle kreşte şarkı söylüyor. Bazen kimse bakmazken o uydurduğu işareti yapıyor: el kulağa, sonra açılış.",
-"Nehir yazıyor: “Deniz bize tercümanlık yapıyor artık. Markette, doktorda. Üç yaşında. Annemin bana yaptırdığını ben ona yaptırıyorum. Korkuyorum.”",
-"Yasaya uydun. Deniz sağlıklı, sevilmiş.",
-"Selim'in imzası aklında. Bina çizimi gibi düz. “Siz o yasanın elisiniz.”",
-"Gül bir gün Deniz'i parkta izlerken sana dönüyor: “Ben de böyleydim,” diyor. “Bak, annesine bakmadan önce etrafa bakıyor. Kimse bir şey soruyor mu diye.”"
+son_isiten: { son: true, baslik: "Ilgaz", metin: [
+P(S("t4A"), "O sabah simidi unlu tezgâhta Gökhan'la birlikte yemiştin, Gökhan senin yerine susamları toplamıştı."),
+P(S("t4B"), "Yamuk simidi kâğıda sarıp çantana koymuştun. Bir hafta sonra çantayı açtığında hâlâ oradaydı, taş gibi olmuştu."),
+P(S("t4C"), "“Ben kusurlu muyum?” diye sormuştun. Gökhan hamuru yoğururken düşündü. “Evet abla,” dedi, “iyi ki.”"),
+P(S("t4D"), "Bir tane daha yapmıştın, o da yamuktu. Gökhan ikisini yan yana dizip “İkiz,” dedi."),
+"Ilgaz üç yaşında ve iki dili de akıcı konuşuyor. Annesine elleriyle masal anlatıyor, kreşte sesiyle şarkı söylüyor. Bazen kimse bakmazken kendi uydurduğu işareti yapıyor, elini kulağına götürüp açıyor.",
+"Nehir yazıyor: “Ilgaz artık bize tercümanlık yapıyor, markette, doktorda. Üç yaşında. Annemin bana yaptırdığını ben ona yaptırıyorum. Korkuyorum.”",
+"Yasaya uydun. Ilgaz sağlıklı ve çok sevilen bir çocuk.",
+"Doruk'un bina çizimi gibi düz imzası aklından çıkmıyor, bir de “Siz o yasanın elisiniz” demesi.",
+"Pınar bir gün parkta Ilgaz'ı izlerken sana dönüyor. “Ben de böyleydim,” diyor. “Bak, annesine bakmadan önce etrafa bakıyor, kimse bir şey soruyor mu diye.”"
 ]}
 
 },
@@ -604,10 +604,10 @@ P(S("t4D"), "Bir tane daha yapmıştın. Yine yamuk. Gökhan ikisini yan yana di
 ayna: function(d){
   var out = [];
   var a = d.cesitlilik, b = d.yasa, c = d.sefkat;
-  if(a >= b && a >= c) out.push("Çoğu kavşakta Selim ile Nehir'in dilinden, Gökhan'ın tarafından baktın.");
-  else if(b >= c) out.push("Çoğu kavşakta kanunun ve merkezin içinde kaldın.");
-  else out.push("Çoğu kavşakta karşındakinin acısına göre davrandın.");
-  if(d.ihlal) out.push("Bir sonucu bilerek “belirsiz” işaretledin.");
+  if(a >= b && a >= c) out.push("Çoğu zaman Doruk'la Nehir'in dilinden, Gökhan'ın tarafından baktın.");
+  else if(b >= c) out.push("Çoğu zaman kanunun ve merkezin içinde kaldın.");
+  else out.push("Çoğu zaman karşındakinin acısına göre davrandın.");
+  if(d.ihlal) out.push("Bir sonucu bile bile “belirsiz” diye işaretledin.");
   if(d.terfi) out.push("On beşinci kattaki odayı kabul ettin.");
   if(d.alti_anlatti) out.push("Altıncı embriyoyu anlatırken Gökhan'ı anlattın.");
   if(d.ozan_tv) out.push("Gökhan'la stüdyoya gittin.");
